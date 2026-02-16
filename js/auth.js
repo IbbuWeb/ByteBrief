@@ -39,7 +39,7 @@ async function handleGoogleAuth(isNewUser) {
       showToast('Sign in cancelled.', 'error');
     } else if (error.code === 'auth/unauthorized-domain') {
       showToast('This domain is not authorized. Add it in Firebase Console > Authentication > Settings.', 'error');
-    } else {
+    } else if (error.code !== 'auth/cancelled-popup-request') {
       showToast('Failed to sign in. Please try again.', 'error');
     }
 

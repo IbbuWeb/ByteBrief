@@ -116,6 +116,8 @@ function setupEventListeners() {
   
   if (mobileMenuBtn) {
     mobileMenuBtn.addEventListener('click', () => {
+      const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+      mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
       mobileNav.classList.toggle('active');
     });
   }

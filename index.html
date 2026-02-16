@@ -4,7 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#8B5CF6">
-  <meta name="description" content="Your personalized tech news briefing">
+  <meta name="description" content="ByteBrief delivers the latest tech news from top sources like TechCrunch, The Verge, and Wired. Personalize your feed with topics you care about.">
+  <meta name="keywords" content="tech news, technology news, AI news, programming, startups, tech briefings">
+  <meta name="author" content="ByteBrief">
+  <meta property="og:title" content="ByteBrief - Your Tech News Briefing">
+  <meta property="og:description" content="Your personalized tech news briefing from top sources">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
   <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
   <link rel="manifest" href="manifest.json">
@@ -15,54 +21,54 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar" id="navbar">
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
     <div class="nav-brand">
-      <a href="index.html" class="logo">
+      <a href="index.html" class="logo" aria-label="ByteBrief Home">
         <span>ByteBrief</span>
       </a>
     </div>
     <div class="nav-links">
-      <a href="index.html" class="nav-link active">Home</a>
+      <a href="index.html" class="nav-link active" aria-current="page">Home</a>
       <a href="saved.html" class="nav-link">Saved</a>
       <a href="profile.html" class="nav-link">Profile</a>
-      <button id="logoutBtn" class="btn btn-ghost">Logout</button>
+      <button id="logoutBtn" class="btn btn-ghost" aria-label="Logout">Logout</button>
     </div>
-    <button class="mobile-menu-btn" id="mobileMenuBtn">
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
       <span></span>
       <span></span>
       <span></span>
     </button>
   </nav>
 
-  <div class="mobile-nav" id="mobileNav">
-    <a href="index.html" class="mobile-link active">Home</a>
+  <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
+    <a href="index.html" class="mobile-link active" aria-current="page">Home</a>
     <a href="saved.html" class="mobile-link">Saved</a>
     <a href="profile.html" class="mobile-link">Profile</a>
-    <button id="mobileLogoutBtn" class="btn btn-ghost">Logout</button>
+    <button id="mobileLogoutBtn" class="btn btn-ghost" aria-label="Logout">Logout</button>
   </div>
 
   <main class="container">
     <header class="feed-header">
       <h1>Today's Tech Brief</h1>
       <p class="subtitle">Stay updated with the latest in tech</p>
-      <div class="filters" id="filters">
-        <button class="filter-btn active" data-category="all">All</button>
-        <button class="filter-btn" data-category="ai">AI</button>
-        <button class="filter-btn" data-category="programming">Programming</button>
-        <button class="filter-btn" data-category="hardware">Hardware</button>
-        <button class="filter-btn" data-category="startups">Startups</button>
-        <button class="filter-btn" data-category="cybersecurity">Cybersecurity</button>
+      <div class="filters" id="filters" role="group" aria-label="Filter articles by category">
+        <button class="filter-btn active" data-category="all" aria-pressed="true">All</button>
+        <button class="filter-btn" data-category="ai" aria-pressed="false">AI</button>
+        <button class="filter-btn" data-category="programming" aria-pressed="false">Programming</button>
+        <button class="filter-btn" data-category="hardware" aria-pressed="false">Hardware</button>
+        <button class="filter-btn" data-category="startups" aria-pressed="false">Startups</button>
+        <button class="filter-btn" data-category="cybersecurity" aria-pressed="false">Cybersecurity</button>
       </div>
     </header>
 
-    <div class="feed-grid" id="feedGrid">
-      <div class="loading">
+    <div class="feed-grid" id="feedGrid" role="feed" aria-label="Articles">
+      <div class="loading" role="status" aria-live="polite">
         <div class="spinner"></div>
         <p>Loading your feed...</p>
       </div>
     </div>
 
-    <div class="toast" id="toast">
+    <div class="toast" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
       <span class="toast-message"></span>
     </div>
   </main>

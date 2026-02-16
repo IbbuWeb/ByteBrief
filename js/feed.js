@@ -186,6 +186,8 @@ async function loadMissingThumbnails(articles) {
               img.src = ogImage;
               img.alt = article.title;
               img.loading = 'lazy';
+              img.decoding = 'async';
+              img.onload = () => img.classList.add('loaded');
               img.onerror = () => { img.remove(); imageContainer.prepend(placeholder); };
               placeholder.replaceWith(img);
             }
@@ -206,7 +208,7 @@ function createArticleCardElement(article) {
   card.className = 'article-card';
 
   const thumbnailHtml = article.thumbnail
-    ? `<img src="${escapeHtml(article.thumbnail)}" alt="${escapeHtml(article.title)}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'placeholder\\'><svg viewBox=\\'0 0 24 24\\' fill=\\'none\\' stroke=\\'currentColor\\' stroke-width=\\'1.5\\'><rect x=\\'3\\' y=\\'3\\' width=\\'18\\' height=\\'18\\' rx=\\'2\\'/><circle cx=\\'8.5\\' cy=\\'8.5\\' r=\\'1.5\\'/><path d=\\'M21 15l-5-5L5 21\\'/></svg></div>'">`
+    ? `<img src="${escapeHtml(article.thumbnail)}" alt="${escapeHtml(article.title)}" loading="lazy" decoding="async" onload="this.classList.add('loaded')" onerror="this.parentElement.innerHTML='<div class=\\'placeholder\\'><svg viewBox=\\'0 0 24 24\\' fill=\\'none\\' stroke=\\'currentColor\\' stroke-width=\\'1.5\\'><rect x=\\'3\\' y=\\'3\\' width=\\'18\\' height=\\'18\\' rx=\\'2\\'/><circle cx=\\'8.5\\' cy=\\'8.5\\' r=\\'1.5\\'/><path d=\\'M21 15l-5-5L5 21\\'/></svg></div>'">`
     : `<div class="placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div>`;
 
   const category = article.categories[0];
@@ -229,13 +231,14 @@ function createArticleCardElement(article) {
                   data-title="${escapeHtml(article.title)}"
                   data-image="${escapeHtml(article.thumbnail || '')}"
                   data-source="${escapeHtml(article.source)}"
-                  title="${isSaved ? 'Remove from saved' : 'Save article'}">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="${isSaved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2">
+                  title="${isSaved ? 'Remove from saved' : 'Save article'}"
+                  aria-label="${isSaved ? 'Remove from saved' : 'Save article'}">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="${isSaved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
             </svg>
           </button>
-          <a href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer" class="action-btn read-more" title="Read more">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+          <a href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer" class="action-btn read-more" title="Read more" aria-label="Read full article">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
               <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
               <polyline points="15 3 21 3 21 9"/>
               <line x1="10" y1="14" x2="21" y2="3"/>
@@ -279,8 +282,12 @@ function setupEventListeners() {
   if (filters) {
     filters.addEventListener('click', async (e) => {
       if (e.target.classList.contains('filter-btn')) {
-        document.querySelectorAll('.filter-btn').forEach(btn => btn.classList.remove('active'));
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+          btn.classList.remove('active');
+          btn.setAttribute('aria-pressed', 'false');
+        });
         e.target.classList.add('active');
+        e.target.setAttribute('aria-pressed', 'true');
         currentCategory = e.target.dataset.category;
         await loadFeed();
       }
@@ -306,6 +313,8 @@ function setupEventListeners() {
 
   if (mobileMenuBtn) {
     mobileMenuBtn.addEventListener('click', () => {
+      const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+      mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
       mobileNav.classList.toggle('active');
     });
   }

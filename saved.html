@@ -4,41 +4,46 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#8B5CF6">
-  <meta name="description" content="Your personalized tech news briefing">
+  <meta name="description" content="Your saved articles on ByteBrief - Your personalized tech news briefing">
+  <meta name="keywords" content="saved articles, bookmarked news, tech reading list">
+  <meta property="og:title" content="Saved Articles - ByteBrief">
+  <meta property="og:description" content="Your personal tech news reading list">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
   <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
   <link rel="manifest" href="manifest.json">
-  <title>Saved - ByteBrief</title>
+  <title>Saved Articles - ByteBrief</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar" id="navbar">
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
     <div class="nav-brand">
-      <a href="index.html" class="logo">
+      <a href="index.html" class="logo" aria-label="ByteBrief Home">
         <span>ByteBrief</span>
       </a>
     </div>
     <div class="nav-links">
       <a href="index.html" class="nav-link">Home</a>
-      <a href="saved.html" class="nav-link active">Saved</a>
+      <a href="saved.html" class="nav-link active" aria-current="page">Saved</a>
       <a href="profile.html" class="nav-link">Profile</a>
-      <button id="logoutBtn" class="btn btn-ghost">Logout</button>
+      <button id="logoutBtn" class="btn btn-ghost" aria-label="Logout">Logout</button>
     </div>
-    <button class="mobile-menu-btn" id="mobileMenuBtn">
+    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
       <span></span>
       <span></span>
       <span></span>
     </button>
   </nav>
 
-  <div class="mobile-nav" id="mobileNav">
+  <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
     <a href="index.html" class="mobile-link">Home</a>
-    <a href="saved.html" class="mobile-link active">Saved</a>
+    <a href="saved.html" class="mobile-link active" aria-current="page">Saved</a>
     <a href="profile.html" class="mobile-link">Profile</a>
-    <button id="mobileLogoutBtn" class="btn btn-ghost">Logout</button>
+    <button id="mobileLogoutBtn" class="btn btn-ghost" aria-label="Logout">Logout</button>
   </div>
 
   <main class="container">
@@ -47,15 +52,15 @@
       <p class="subtitle">Your personal reading list</p>
     </header>
 
-    <div class="feed-grid" id="savedGrid">
-      <div class="loading">
+    <div class="feed-grid" id="savedGrid" role="feed" aria-label="Saved articles">
+      <div class="loading" role="status" aria-live="polite">
         <div class="spinner"></div>
         <p>Loading saved articles...</p>
       </div>
     </div>
 
-    <div class="empty-state" id="emptyState" style="display: none;">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+    <div class="empty-state" id="emptyState" style="display: none;" role="status" aria-live="polite">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
         <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
       </svg>
       <h2>No saved articles yet</h2>
@@ -63,7 +68,7 @@
       <a href="index.html" class="btn btn-primary">Browse Feed</a>
     </div>
 
-    <div class="toast" id="toast">
+    <div class="toast" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
       <span class="toast-message"></span>
     </div>
   </main>

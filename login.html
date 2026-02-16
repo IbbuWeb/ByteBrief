@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#8B5CF6">
-  <meta name="description" content="Your personalized tech news briefing">
+  <meta name="description" content="Sign in to ByteBrief - Your personalized tech news briefing">
+  <meta property="og:title" content="Sign In - ByteBrief">
+  <meta property="og:description" content="Your personalized tech news briefing">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
   <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
   <link rel="manifest" href="manifest.json">
-  <title>Login - ByteBrief</title>
+  <title>Sign In - ByteBrief</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,15 +20,15 @@
 </head>
 <body class="auth-page">
   <div class="auth-container">
-    <div class="auth-card">
+    <div class="auth-card" role="main">
       <div class="auth-logo">
         <span>ByteBrief</span>
       </div>
       <h1>Welcome to ByteBrief</h1>
       <p class="auth-subtitle">Your personalized tech news briefing</p>
       <div class="auth-buttons">
-        <button id="googleSignUpBtn" class="btn btn-google">
-          <svg viewBox="0 0 24 24" width="20" height="20">
+        <button id="googleSignUpBtn" class="btn btn-google" aria-label="Sign up with Google">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
             <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
             <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
             <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
@@ -32,11 +36,11 @@
           </svg>
           Sign Up with Google
         </button>
-        <div class="auth-divider">
+        <div class="auth-divider" aria-hidden="true">
           <span>or</span>
         </div>
-        <button id="googleLoginBtn" class="btn btn-google btn-google-outline">
-          <svg viewBox="0 0 24 24" width="20" height="20">
+        <button id="googleLoginBtn" class="btn btn-google btn-google-outline" aria-label="Sign in with Google">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
             <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
             <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
             <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
@@ -49,7 +53,7 @@
     </div>
   </div>
 
-  <div class="toast" id="toast">
+  <div class="toast" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
     <span class="toast-message"></span>
   </div>
 

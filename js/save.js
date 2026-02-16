@@ -90,7 +90,7 @@ function renderSavedArticles() {
 function createSavedCard(article) {
   const formattedDate = formatDate(new Date(article.savedAt));
   const thumbnailHtml = article.image 
-    ? `<img src="${escapeHtml(article.image)}" alt="${escapeHtml(article.title)}" loading="lazy" onerror="this.parentElement.innerHTML='<div class=\\'placeholder\\'><svg viewBox=\\'0 0 24 24\\' fill=\\'none\\' stroke=\\'currentColor\\' stroke-width=\\'1.5\\'><rect x=\\'3\\' y=\\'3\\' width=\\'18\\' height=\\'18\\' rx=\\'2\\'/><circle cx=\\'8.5\\' cy=\\'8.5\\' r=\\'1.5\\'/><path d=\\'M21 15l-5-5L5 21\\'/></svg></div>'">`
+    ? `<img src="${escapeHtml(article.image)}" alt="" loading="lazy" decoding="async" onload="this.classList.add('loaded')" onerror="this.parentElement.innerHTML='<div class=\\'placeholder\\'><svg viewBox=\\'0 0 24 24\\' fill=\\'none\\' stroke=\\'currentColor\\' stroke-width=\\'1.5\\'><rect x=\\'3\\' y=\\'3\\' width=\\'18\\' height=\\'18\\' rx=\\'2\\'/><circle cx=\\'8.5\\' cy=\\'8.5\\' r=\\'1.5\\'/><path d=\\'M21 15l-5-5L5 21\\'/></svg></div>'">`
     : `<div class="placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div>`;
   
   return `
@@ -100,18 +100,18 @@ function createSavedCard(article) {
         <span class="card-source">${escapeHtml(article.source)}</span>
       </div>
       <div class="card-content">
-        <h3 class="card-title">${escapeHtml(article.title)}</h3>
+        <h3 class="card-title"><a href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title)}</a></h3>
         <p class="card-excerpt">Saved on ${formattedDate}</p>
         <div class="card-meta">
           <span class="card-date">${formattedDate}</span>
           <div class="card-actions">
-            <button class="action-btn saved" data-id="${article.id}" data-link="${escapeHtml(article.link)}" title="Remove from saved">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" stroke="currentColor" stroke-width="2">
+            <button class="action-btn saved" data-id="${article.id}" data-link="${escapeHtml(article.link)}" title="Remove from saved" aria-label="Remove from saved">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/>
               </svg>
             </button>
-            <a href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer" class="action-btn read-more" title="Read more">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+            <a href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer" class="action-btn read-more" title="Read more" aria-label="Read full article">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
                 <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>
                 <polyline points="15 3 21 3 21 9"/>
                 <line x1="10" y1="14" x2="21" y2="3"/>
@@ -159,6 +159,8 @@ function setupEventListeners() {
   
   if (mobileMenuBtn) {
     mobileMenuBtn.addEventListener('click', () => {
+      const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
+      mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
       mobileNav.classList.toggle('active');
     });
   }
