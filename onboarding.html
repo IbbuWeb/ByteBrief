@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#8B5CF6">
+  <meta name="description" content="Your personalized tech news briefing">
+  <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
+  <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
+  <link rel="manifest" href="manifest.json">
+  <title>Onboarding - ByteBrief</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="onboarding-page">
+  <div class="onboarding-container">
+    <div class="onboarding-card">
+      <div class="onboarding-header">
+        <h1>Customize Your Feed</h1>
+        <p>Select topics you're interested in to personalize your tech news</p>
+      </div>
+      
+      <div class="interests-grid" id="interestsGrid">
+        <label class="interest-card">
+          <input type="checkbox" name="interests" value="ai">
+          <div class="interest-content">
+            <svg class="interest-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2a2 2 0 0 1 2 2c0 .74-.4 1.39-1 1.73V7h1a7 7 0 0 1 7 7h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1h-1v1a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-1H2a1 1 0 0 1-1-1v-3a1 1 0 0 1 1-1h1a7 7 0 0 1 7-7h1V5.73c-.6-.34-1-.99-1-1.73a2 2 0 0 1 2-2z"/>
+              <circle cx="7.5" cy="14.5" r="1.5"/>
+              <circle cx="16.5" cy="14.5" r="1.5"/>
+            </svg>
+            <span>AI</span>
+          </div>
+        </label>
+        
+        <label class="interest-card">
+          <input type="checkbox" name="interests" value="programming">
+          <div class="interest-content">
+            <svg class="interest-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="16,18 22,12 16,6"/>
+              <polyline points="8,6 2,12 8,18"/>
+            </svg>
+            <span>Programming</span>
+          </div>
+        </label>
+        
+        <label class="interest-card">
+          <input type="checkbox" name="interests" value="hardware">
+          <div class="interest-content">
+            <svg class="interest-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="6" width="20" height="12" rx="2"/>
+              <line x1="6" y1="10" x2="6" y2="14"/>
+              <line x1="10" y1="10" x2="10" y2="14"/>
+              <line x1="14" y1="10" x2="14" y2="14"/>
+              <line x1="18" y1="10" x2="18" y2="14"/>
+            </svg>
+            <span>Hardware</span>
+          </div>
+        </label>
+        
+        <label class="interest-card">
+          <input type="checkbox" name="interests" value="startups">
+          <div class="interest-content">
+            <svg class="interest-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+              <path d="M2 17l10 5 10-5"/>
+              <path d="M2 12l10 5 10-5"/>
+            </svg>
+            <span>Startups</span>
+          </div>
+        </label>
+        
+        <label class="interest-card">
+          <input type="checkbox" name="interests" value="cybersecurity">
+          <div class="interest-content">
+            <svg class="interest-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              <path d="M9 12l2 2 4-4"/>
+            </svg>
+            <span>Cybersecurity</span>
+          </div>
+        </label>
+      </div>
+
+      <button id="continueBtn" class="btn btn-primary btn-full" disabled>
+        Continue to Feed
+      </button>
+    </div>
+  </div>
+
+  <div class="toast" id="toast">
+    <span class="toast-message"></span>
+  </div>
+
+  <script type="module" src="js/onboarding.js"></script>
+</body>
+</html>
