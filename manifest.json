@@ -2,7 +2,7 @@
   "name": "ByteBrief",
   "short_name": "ByteBrief",
   "description": "Your personalized tech news briefing",
-  "start_url": "./index.html",
+  "start_url": "/ByteBrief/",
   "display": "standalone",
   "background_color": "#1a1a2e",
   "theme_color": "#8B5CF6",
