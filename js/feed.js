@@ -19,8 +19,25 @@ const logoutBtn = document.getElementById('logoutBtn');
 const mobileLogoutBtn = document.getElementById('mobileLogoutBtn');
 const mobileMenuBtn = document.getElementById('mobileMenuBtn');
 const mobileNav = document.getElementById('mobileNav');
+const themeToggle = document.getElementById('themeToggle');
+
+function initTheme() {
+  const savedTheme = localStorage.getItem('theme') || 'dark';
+  document.documentElement.setAttribute('data-theme', savedTheme);
+}
+
+if (themeToggle) {
+  themeToggle.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme');
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', newTheme);
+    localStorage.setItem('theme', newTheme);
+  });
+}
 
 onAuthStateChanged(auth, async (user) => {
+  initTheme();
+  
   if (!user) {
     window.location.href = 'login.html';
     return;
