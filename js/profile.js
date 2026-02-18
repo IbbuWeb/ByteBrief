@@ -1,6 +1,6 @@
 import { auth, db, isSessionExpired, clearSession } from './firebase-config.js';
 import { onAuthStateChanged, signOut } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
-import { doc, getDoc, setDoc } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
+import { doc, getDoc, setDoc, collection, query, where, getDocs } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
 
 let currentUser = null;
 let userInterests = [];
@@ -118,10 +118,9 @@ async function loadAnalytics() {
 
     const categoryCounts = {};
     articles.forEach(article => {
-      if (article.categories) {
-        article.categories.forEach(cat => {
-          categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
-        });
+      if (article.category) {
+        const cat = article.category.toLowerCase();
+        categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
       }
     });
 

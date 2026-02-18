@@ -21,6 +21,10 @@ const mobileMenuBtn = document.getElementById('mobileMenuBtn');
 const mobileNav = document.getElementById('mobileNav');
 const themeToggle = document.getElementById('themeToggle');
 const mobileThemeToggle = document.getElementById('mobileThemeToggle');
+const searchInput = document.getElementById('searchInput');
+const clearSearchBtn = document.getElementById('clearSearch');
+
+let searchQuery = '';
 
 function initTheme() {
   const savedTheme = localStorage.getItem('theme') || 'dark';
@@ -77,15 +81,11 @@ async function loadFeed() {
   displayedCount = 0;
   allLoaded = false;
 
-  feedGrid.innerHTML = `
-    <div class="loading">
-      <div class="spinner"></div>
-      <p>Loading your feed...</p>
-    </div>
-  `;
+  feedGrid.innerHTML = createSkeletonCards(6);
 
   try {
     allArticles = await fetchFeedsByCategory(currentCategory);
+    filteredArticles = [...allArticles];
 
     if (allArticles.length === 0) {
       feedGrid.innerHTML = `
@@ -123,13 +123,60 @@ async function loadFeed() {
   }
 }
 
-function showNextBatch() {
+let filteredArticles = [];
+
+function filterArticles() {
+  if (!feedGrid) return;
+  
+  const endMarker = feedGrid.querySelector('.load-more-container, .feed-end');
+  if (endMarker) endMarker.remove();
+  
+  if (!searchQuery) {
+    filteredArticles = [...allArticles];
+  } else {
+    filteredArticles = allArticles.filter(article => {
+      const title = article.title?.toLowerCase() || '';
+      const description = article.description?.toLowerCase() || '';
+      const source = article.source?.toLowerCase() || '';
+      const category = article.categories?.[0]?.toLowerCase() || '';
+      
+      return title.includes(searchQuery) || 
+             description.includes(searchQuery) || 
+             source.includes(searchQuery) ||
+             category.includes(searchQuery);
+    });
+  }
+  
+  displayedCount = 0;
+  allLoaded = false;
+  
+  feedGrid.innerHTML = '';
+  
+  if (filteredArticles.length === 0) {
+    feedGrid.innerHTML = `
+      <div class="empty-state">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+          <circle cx="11" cy="11" r="8"/>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <h2>No articles found</h2>
+        <p>Try a different search term</p>
+      </div>
+    `;
+    return;
+  }
+  
+  showNextBatch(true);
+}
+
+function showNextBatch(isFilter = false) {
   if (!feedGrid || allLoaded) return;
 
   const endMarker = feedGrid.querySelector('.load-more-container, .feed-end');
   if (endMarker) endMarker.remove();
 
-  const nextBatch = allArticles.slice(displayedCount, displayedCount + BATCH_SIZE);
+  const articlesToShow = searchQuery ? filteredArticles : allArticles;
+  const nextBatch = articlesToShow.slice(displayedCount, displayedCount + BATCH_SIZE);
 
   nextBatch.forEach((article, i) => {
     const card = createArticleCardElement(article);
@@ -139,11 +186,11 @@ function showNextBatch() {
 
   displayedCount += nextBatch.length;
 
-  if (displayedCount >= allArticles.length) {
+  if (displayedCount >= articlesToShow.length) {
     allLoaded = true;
     const endEl = document.createElement('div');
     endEl.className = 'feed-end';
-    endEl.textContent = "You're all caught up";
+    endEl.textContent = searchQuery ? "No more results" : "You're all caught up";
     feedGrid.appendChild(endEl);
   }
 }
@@ -306,11 +353,27 @@ function createArticleCardElement(article) {
       <div class="card-meta">
         <span class="card-date">${formattedDate}</span>
         <div class="card-actions">
+          <button class="action-btn share-btn"
+                  data-link="${escapeHtml(article.link)}"
+                  data-title="${escapeHtml(article.title)}"
+                  data-image="${escapeHtml(article.thumbnail || '')}"
+                  data-source="${escapeHtml(article.source)}"
+                  title="Share article"
+                  aria-label="Share article">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <circle cx="18" cy="5" r="3"/>
+              <circle cx="6" cy="12" r="3"/>
+              <circle cx="18" cy="19" r="3"/>
+              <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+              <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+            </svg>
+          </button>
           <button class="action-btn save-btn ${isSaved ? 'saved' : ''}"
                   data-link="${escapeHtml(article.link)}"
                   data-title="${escapeHtml(article.title)}"
                   data-image="${escapeHtml(article.thumbnail || '')}"
                   data-source="${escapeHtml(article.source)}"
+                  data-category="${escapeHtml(article.categories?.[0] || 'tech')}"
                   title="${isSaved ? 'Remove from saved' : 'Save article'}"
                   aria-label="${isSaved ? 'Remove from saved' : 'Save article'}">
             <svg viewBox="0 0 24 24" width="18" height="18" fill="${isSaved ? 'currentColor' : 'none'}" stroke="currentColor" stroke-width="2" aria-hidden="true">
@@ -337,6 +400,34 @@ function escapeHtml(text) {
   const div = document.createElement('div');
   div.textContent = text;
   return div.innerHTML;
+}
+
+function createSkeletonCards(count) {
+  let html = '';
+  for (let i = 0; i < count; i++) {
+    html += `
+      <div class="article-card skeleton">
+        <div class="card-image">
+          <div class="skeleton-image"></div>
+        </div>
+        <div class="card-content">
+          <div class="skeleton-line skeleton-title"></div>
+          <div class="skeleton-line skeleton-title short"></div>
+          <div class="skeleton-line skeleton-excerpt"></div>
+          <div class="skeleton-line skeleton-excerpt"></div>
+          <div class="skeleton-line skeleton-excerpt short"></div>
+          <div class="card-meta">
+            <div class="skeleton-line skeleton-date"></div>
+            <div class="skeleton-actions">
+              <div class="skeleton-btn"></div>
+              <div class="skeleton-btn"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  }
+  return html;
 }
 
 function formatDate(date) {
@@ -374,11 +465,43 @@ function setupEventListeners() {
     });
   }
 
+  if (searchInput) {
+    let searchTimeout;
+    searchInput.addEventListener('input', (e) => {
+      clearTimeout(searchTimeout);
+      searchQuery = e.target.value.trim().toLowerCase();
+      
+      if (searchQuery) {
+        clearSearchBtn.classList.add('visible');
+      } else {
+        clearSearchBtn.classList.remove('visible');
+      }
+      
+      searchTimeout = setTimeout(() => {
+        filterArticles();
+      }, 300);
+    });
+    
+    clearSearchBtn.addEventListener('click', () => {
+      searchInput.value = '';
+      searchQuery = '';
+      clearSearchBtn.classList.remove('visible');
+      filterArticles();
+    });
+  }
+
   if (feedGrid) {
     feedGrid.addEventListener('click', async (e) => {
       const saveBtn = e.target.closest('.save-btn');
       if (saveBtn) {
         await toggleSaveArticle(saveBtn);
+        return;
+      }
+      
+      const shareBtn = e.target.closest('.share-btn');
+      if (shareBtn) {
+        await shareArticle(shareBtn);
+        return;
       }
     });
   }
@@ -405,6 +528,7 @@ async function toggleSaveArticle(btn) {
   const title = btn.dataset.title;
   const image = btn.dataset.image;
   const source = btn.dataset.source;
+  const category = btn.dataset.category;
 
   try {
     if (savedLinks.has(link)) {
@@ -427,6 +551,7 @@ async function toggleSaveArticle(btn) {
         link,
         image,
         source,
+        category,
         savedAt: new Date().toISOString()
       });
 
@@ -439,6 +564,38 @@ async function toggleSaveArticle(btn) {
     console.error('Error toggling save:', error);
     showToast('Failed to save article', 'error');
   }
+}
+
+async function shareArticle(btn) {
+  const link = btn.dataset.link;
+  const title = btn.dataset.title;
+  const source = btn.dataset.source;
+  const shareText = `Check out this article on ByteBrief: ${title}`;
+  const shareUrl = window.location.origin + '/?ref=shared&utm_source=shared&utm_medium=share&utm_campaign=bytebrief';
+
+  if (navigator.share) {
+    try {
+      await navigator.share({
+        title: title,
+        text: shareText,
+        url: link
+      });
+    } catch (err) {
+      if (err.name !== 'AbortError') {
+        copyToClipboard(link);
+      }
+    }
+  } else {
+    copyToClipboard(link);
+  }
+}
+
+function copyToClipboard(text) {
+  navigator.clipboard.writeText(text).then(() => {
+    showToast('Link copied to clipboard!');
+  }).catch(() => {
+    showToast('Failed to copy link', 'error');
+  });
 }
 
 async function handleLogout() {
