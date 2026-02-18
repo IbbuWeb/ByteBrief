@@ -21,19 +21,26 @@ const mobileLogoutBtn = document.getElementById('mobileLogoutBtn');
 const mobileMenuBtn = document.getElementById('mobileMenuBtn');
 const mobileNav = document.getElementById('mobileNav');
 const themeToggle = document.getElementById('themeToggle');
+const mobileThemeToggle = document.getElementById('mobileThemeToggle');
 
 function initTheme() {
   const savedTheme = localStorage.getItem('theme') || 'dark';
   document.documentElement.setAttribute('data-theme', savedTheme);
 }
 
+function toggleTheme() {
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+}
+
 if (themeToggle) {
-  themeToggle.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-  });
+  themeToggle.addEventListener('click', toggleTheme);
+}
+
+if (mobileThemeToggle) {
+  mobileThemeToggle.addEventListener('click', toggleTheme);
 }
 
 onAuthStateChanged(auth, async (user) => {
@@ -53,6 +60,7 @@ onAuthStateChanged(auth, async (user) => {
 
   currentUser = user;
   await loadUserProfile();
+  await loadAnalytics();
   setupEventListeners();
 });
 
@@ -82,6 +90,85 @@ async function loadUserProfile() {
     }
   } catch (error) {
     console.error('Error loading profile:', error);
+  }
+}
+
+async function loadAnalytics() {
+  const totalSavedEl = document.getElementById('totalSaved');
+  const thisWeekSavedEl = document.getElementById('thisWeekSaved');
+  const mostActiveCategoryEl = document.getElementById('mostActiveCategory');
+  const categoryStatsEl = document.getElementById('categoryStats');
+
+  if (!totalSavedEl) return;
+
+  try {
+    const savedRef = collection(db, 'savedArticles');
+    const q = query(savedRef, where('userId', '==', currentUser.uid));
+    const snapshot = await getDocs(q);
+
+    const articles = snapshot.docs.map(doc => doc.data());
+    const totalSaved = articles.length;
+
+    const oneWeekAgo = new Date();
+    oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+    const thisWeekSaved = articles.filter(a => {
+      const savedAt = new Date(a.savedAt);
+      return savedAt >= oneWeekAgo;
+    }).length;
+
+    const categoryCounts = {};
+    articles.forEach(article => {
+      if (article.categories) {
+        article.categories.forEach(cat => {
+          categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
+        });
+      }
+    });
+
+    let mostActiveCategory = '-';
+    let maxCount = 0;
+    for (const [cat, count] of Object.entries(categoryCounts)) {
+      if (count > maxCount) {
+        maxCount = count;
+        mostActiveCategory = cat;
+      }
+    }
+
+    totalSavedEl.textContent = totalSaved;
+    thisWeekSavedEl.textContent = thisWeekSaved;
+    mostActiveCategoryEl.textContent = mostActiveCategory !== '-' ? mostActiveCategory.charAt(0).toUpperCase() + mostActiveCategory.slice(1) : '-';
+
+    if (Object.keys(categoryCounts).length > 0) {
+      const categoryLabels = {
+        ai: 'AI',
+        programming: 'Programming',
+        hardware: 'Hardware',
+        startups: 'Startups',
+        cybersecurity: 'Cybersecurity',
+        tech: 'Tech'
+      };
+
+      const sortedCategories = Object.entries(categoryCounts)
+        .sort((a, b) => b[1] - a[1]);
+
+      categoryStatsEl.innerHTML = sortedCategories.map(([cat, count]) => {
+        const percentage = totalSaved > 0 ? Math.round((count / totalSaved) * 100) : 0;
+        return `
+          <div class="category-stat">
+            <span class="category-stat-label">${categoryLabels[cat] || cat}</span>
+            <div class="category-stat-bar">
+              <div class="category-stat-fill" style="width: ${percentage}%"></div>
+            </div>
+            <span class="category-stat-count">${count}</span>
+          </div>
+        `;
+      }).join('');
+    } else {
+      categoryStatsEl.innerHTML = '<p class="empty-analytics">Save some articles to see your reading analytics!</p>';
+    }
+  } catch (error) {
+    console.error('Error loading analytics:', error);
+    categoryStatsEl.innerHTML = '<p class="empty-analytics">Unable to load analytics</p>';
   }
 }
 

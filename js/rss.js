@@ -35,11 +35,6 @@ const RSS_FEEDS = [
     category: 'cybersecurity'
   },
   {
-    url: 'https://feeds.arstechnica.com/arstechnica/security',
-    source: 'Ars Security',
-    category: 'cybersecurity'
-  },
-  {
     url: 'https://dev.to/feed/',
     source: 'DEV Community',
     category: 'programming'
@@ -68,6 +63,66 @@ const RSS_FEEDS = [
     url: 'https://news.crunchbase.com/feed/',
     source: 'Crunchbase',
     category: 'startups'
+  },
+  {
+    url: 'https://www.bbc.com/news/technology/rss.xml',
+    source: 'BBC Tech',
+    category: 'tech'
+  },
+  {
+    url: 'https://www.bleepingcomputer.com/feed/',
+    source: 'BleepingComputer',
+    category: 'cybersecurity'
+  },
+  {
+    url: 'https://threatpost.com/feed/',
+    source: 'Threatpost',
+    category: 'cybersecurity'
+  },
+  {
+    url: 'https://www.cnet.com/rss/news/',
+    source: 'CNET',
+    category: 'hardware'
+  },
+  {
+    url: 'https://www.engadget.com/rss.xml',
+    source: 'Engadget',
+    category: 'hardware'
+  },
+  {
+    url: 'https://css-tricks.com/feed/',
+    source: 'CSS-Tricks',
+    category: 'programming'
+  },
+  {
+    url: 'https://stackoverflow.blog/feed/',
+    source: 'Stack Overflow Blog',
+    category: 'programming'
+  },
+  {
+    url: 'https://github.blog/feed/',
+    source: 'GitHub Blog',
+    category: 'programming'
+  },
+  {
+    url: 'https://www.techradar.com/rss',
+    source: 'TechRadar',
+    category: 'hardware'
+  },
+  {
+    url: 'https://www.tomshardware.com/feeds/all',
+    source: 'Tom\'s Hardware',
+    category: 'hardware'
+  },
+  {
+    url: 'https://siliconangle.com/feed/',
+    source: 'SiliconANGLE',
+    category: 'startups'
+  },
+  {
+    url: 'https://tech.eu/feed/',
+    source: 'Tech.eu',
+    category: 'tech'
   }
 ];
 
@@ -120,7 +175,7 @@ async function fetchRSSFeed(feedConfig) {
       items = Array.from(xml.querySelectorAll('entry'));
     }
 
-    return items.slice(0, 30).map(item => {
+    return items.slice(0, 50).map(item => {
       const title = item.querySelector('title')?.textContent || 'Untitled';
 
       let link = '';
@@ -151,6 +206,11 @@ async function fetchRSSFeed(feedConfig) {
       } else if (contentEl) {
         description = contentEl.textContent || '';
       }
+
+      const author = item.querySelector('author')?.textContent
+        || item.querySelector('dc\\:creator')?.textContent
+        || item.getElementsByTagName('dc:creator')[0]?.textContent
+        || '';
 
       const pubDate = item.querySelector('pubDate')?.textContent
         || item.querySelector('published')?.textContent
@@ -213,7 +273,7 @@ async function fetchRSSFeed(feedConfig) {
         .replace(/&gt;/g, '>')
         .replace(/&quot;/g, '"')
         .trim()
-        .slice(0, 200);
+        .slice(0, 800);
 
       const categories = determineCategories(title, description);
 
@@ -228,7 +288,8 @@ async function fetchRSSFeed(feedConfig) {
         thumbnail,
         source: feedConfig.source,
         pubDate: parseDate(pubDate),
-        categories
+        categories,
+        author: author.replace(/<[^>]*>/g, '').trim() || null
       };
     });
   } catch (error) {
@@ -282,9 +343,18 @@ export async function fetchAllFeeds() {
     return true;
   });
 
-  unique.sort((a, b) => b.pubDate - a.pubDate);
+  function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+  }
 
-  return unique;
+  const shuffled = shuffleArray([...unique]);
+  shuffled.sort((a, b) => b.pubDate - a.pubDate);
+
+  return shuffled;
 }
 
 export async function fetchFeedsByCategory(category) {

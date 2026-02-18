@@ -20,19 +20,26 @@ const mobileLogoutBtn = document.getElementById('mobileLogoutBtn');
 const mobileMenuBtn = document.getElementById('mobileMenuBtn');
 const mobileNav = document.getElementById('mobileNav');
 const themeToggle = document.getElementById('themeToggle');
+const mobileThemeToggle = document.getElementById('mobileThemeToggle');
 
 function initTheme() {
   const savedTheme = localStorage.getItem('theme') || 'dark';
   document.documentElement.setAttribute('data-theme', savedTheme);
 }
 
+function toggleTheme() {
+  const currentTheme = document.documentElement.getAttribute('data-theme');
+  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+}
+
 if (themeToggle) {
-  themeToggle.addEventListener('click', () => {
-    const currentTheme = document.documentElement.getAttribute('data-theme');
-    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-    document.documentElement.setAttribute('data-theme', newTheme);
-    localStorage.setItem('theme', newTheme);
-  });
+  themeToggle.addEventListener('click', toggleTheme);
+}
+
+if (mobileThemeToggle) {
+  mobileThemeToggle.addEventListener('click', toggleTheme);
 }
 
 onAuthStateChanged(auth, async (user) => {
@@ -53,6 +60,7 @@ onAuthStateChanged(auth, async (user) => {
   currentUser = user;
   setupEventListeners();
   setupInfiniteScroll();
+  setupPullToRefresh();
 
   try {
     await loadSavedArticles();
@@ -174,6 +182,60 @@ function setupInfiniteScroll() {
   });
 }
 
+function setupPullToRefresh() {
+  let startY = 0;
+  let currentY = 0;
+  let isPulling = false;
+  let pullStartTime = 0;
+  const PULL_THRESHOLD = 80;
+  const MIN_PULL_TIME = 500;
+
+  const navbar = document.getElementById('navbar');
+  
+  document.addEventListener('touchstart', (e) => {
+    if (window.scrollY === 0 && !isPulling) {
+      startY = e.touches[0].clientY;
+      pullStartTime = Date.now();
+      isPulling = true;
+    }
+  }, { passive: true });
+
+  document.addEventListener('touchmove', (e) => {
+    if (!isPulling) return;
+    
+    currentY = e.touches[0].clientY;
+    const diff = startY - currentY;
+    
+    if (diff > 0) {
+      const pullProgress = Math.min(diff / PULL_THRESHOLD, 1);
+      if (navbar) {
+        navbar.style.transform = `translateY(${-diff}px)`;
+        navbar.style.transition = 'none';
+      }
+    }
+  }, { passive: true });
+
+  document.addEventListener('touchend', async () => {
+    if (!isPulling) return;
+    
+    const pullDuration = Date.now() - pullStartTime;
+    const diff = startY - currentY;
+    
+    if (navbar) {
+      navbar.style.transform = '';
+      navbar.style.transition = '';
+    }
+    
+    if (diff >= PULL_THRESHOLD && pullDuration >= MIN_PULL_TIME) {
+      await loadFeed();
+    }
+    
+    isPulling = false;
+    startY = 0;
+    currentY = 0;
+  }, { passive: true });
+}
+
 async function loadSavedArticles() {
   const savedRef = collection(db, 'savedArticles');
   const q = query(savedRef, where('userId', '==', currentUser.uid));
@@ -239,6 +301,7 @@ function createArticleCardElement(article) {
     </div>
     <div class="card-content">
       <h3 class="card-title"><a href="${escapeHtml(article.link)}" target="_blank" rel="noopener noreferrer">${escapeHtml(article.title)}</a></h3>
+      ${article.author ? `<p class="card-author">By ${escapeHtml(article.author)}</p>` : ''}
       <p class="card-excerpt">${escapeHtml(article.description)}</p>
       <div class="card-meta">
         <span class="card-date">${formattedDate}</span>
