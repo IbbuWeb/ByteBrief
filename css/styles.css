@@ -1227,13 +1227,19 @@ button {
   }
 
   .filters {
-    gap: 5px;
+    gap: 6px;
     overflow-x: auto;
     flex-wrap: nowrap;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
     margin: 0 -16px;
-    padding: 0 16px 4px;
+    padding: 8px 16px 12px;
     -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+
+  .filters::-webkit-scrollbar {
+    display: none;
   }
 
   .filter-btn {
