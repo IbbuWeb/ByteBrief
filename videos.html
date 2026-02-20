@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#8B5CF6">
-  <meta name="description" content="ByteBrief delivers the latest tech news from top sources like TechCrunch, The Verge, and Wired. Personalize your feed with topics you care about.">
-  <meta name="keywords" content="tech news, technology news, AI news, programming, startups, tech briefings">
-  <meta name="author" content="ByteBrief">
-  <meta property="og:title" content="ByteBrief - Your Tech News Briefing">
-  <meta property="og:description" content="Your personalized tech news briefing from top sources">
+  <meta name="description" content="ByteTV - Watch the latest tech videos from top sources">
+  <meta name="keywords" content="tech videos, tech youtube, tech shorts, tech streams">
+  <meta property="og:title" content="ByteTV - Tech Videos">
+  <meta property="og:description" content="Watch the latest tech videos from top sources">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
   <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
   <link rel="manifest" href="manifest.json">
-  <title>ByteBrief - Your Tech News Briefing</title>
+  <title>ByteTV - ByteBrief</title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/videos.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -35,7 +35,7 @@
     </div>
     <div class="nav-links">
       <a href="index.html" class="nav-link">Feed</a>
-      <a href="videos.html" class="nav-link">ByteTV</a>
+      <a href="videos.html" class="nav-link active" aria-current="page">ByteTV</a>
       <a href="saved.html" class="nav-link">Saved</a>
       <a href="profile.html" class="nav-link">Profile</a>
       <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
@@ -76,11 +76,11 @@
   </div>
 
   <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
-    <a href="index.html" class="mobile-link active" aria-current="page">
+    <a href="index.html" class="mobile-link">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
       <span>Feed</span>
     </a>
-    <a href="videos.html" class="mobile-link">
+    <a href="videos.html" class="mobile-link active" aria-current="page">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
       <span>ByteTV</span>
     </a>
@@ -96,14 +96,14 @@
 
   <main class="container">
     <header class="feed-header">
-      <h1>Today's Tech Brief</h1>
-      <p class="subtitle">Stay updated with the latest in tech</p>
+      <h1>ByteTV</h1>
+      <p class="subtitle">Watch the latest tech videos</p>
       <div class="search-container">
         <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
           <circle cx="11" cy="11" r="8"/>
           <line x1="21" y1="21" x2="16.65" y2="16.65"/>
         </svg>
-        <input type="text" id="searchInput" class="search-input" placeholder="Search articles..." aria-label="Search articles">
+        <input type="text" id="searchInput" class="search-input" placeholder="Search videos..." aria-label="Search videos">
         <button id="clearSearch" class="clear-search" aria-label="Clear search">
           <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
             <line x1="18" y1="6" x2="6" y2="18"/>
@@ -111,20 +111,48 @@
           </svg>
         </button>
       </div>
-      <div class="filters" id="filters" role="group" aria-label="Filter articles by category">
+      <div class="filters" id="filters" role="group" aria-label="Filter videos by category">
         <button class="filter-btn active" data-category="all" aria-pressed="true">All</button>
         <button class="filter-btn" data-category="ai" aria-pressed="false">AI</button>
         <button class="filter-btn" data-category="programming" aria-pressed="false">Programming</button>
         <button class="filter-btn" data-category="hardware" aria-pressed="false">Hardware</button>
-        <button class="filter-btn" data-category="startups" aria-pressed="false">Startups</button>
         <button class="filter-btn" data-category="cybersecurity" aria-pressed="false">Cybersecurity</button>
+        <button class="filter-btn" data-category="pcbuilding" aria-pressed="false">PC Building</button>
+        <button class="filter-btn" data-category="startups" aria-pressed="false">Startups</button>
+        <button class="filter-btn" data-category="tech" aria-pressed="false">Tech</button>
       </div>
     </header>
 
-    <div class="feed-grid" id="feedGrid" role="feed" aria-label="Articles">
-      <div class="loading" role="status" aria-live="polite">
-        <div class="spinner"></div>
-        <p>Loading your feed...</p>
+    <div class="video-grid" id="videoGrid" role="feed" aria-label="Videos">
+      <div class="video-skeleton">
+        <div class="skeleton-media"></div>
+        <div class="skeleton-info">
+          <div class="skeleton-meta"><div class="skeleton-tag"></div><div class="skeleton-source"></div></div>
+          <div class="skeleton-title"></div>
+          <div class="skeleton-title short"></div>
+          <div class="skeleton-author"></div>
+          <div class="skeleton-date"></div>
+        </div>
+      </div>
+      <div class="video-skeleton">
+        <div class="skeleton-media"></div>
+        <div class="skeleton-info">
+          <div class="skeleton-meta"><div class="skeleton-tag"></div><div class="skeleton-source"></div></div>
+          <div class="skeleton-title"></div>
+          <div class="skeleton-title short"></div>
+          <div class="skeleton-author"></div>
+          <div class="skeleton-date"></div>
+        </div>
+      </div>
+      <div class="video-skeleton">
+        <div class="skeleton-media"></div>
+        <div class="skeleton-info">
+          <div class="skeleton-meta"><div class="skeleton-tag"></div><div class="skeleton-source"></div></div>
+          <div class="skeleton-title"></div>
+          <div class="skeleton-title short"></div>
+          <div class="skeleton-author"></div>
+          <div class="skeleton-date"></div>
+        </div>
       </div>
     </div>
 
@@ -133,6 +161,6 @@
     </div>
   </main>
 
-  <script type="module" src="js/feed.js"></script>
+  <script type="module" src="js/videos.js"></script>
 </body>
 </html>

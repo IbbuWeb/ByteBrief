@@ -139,6 +139,18 @@ const CATEGORY_KEYWORDS = {
   cybersecurity: ['security', 'hack', 'breach', 'cyber', 'privacy', 'data', 'malware', 'ransomware', 'encryption', 'vulnerability']
 };
 
+const BLOCKED_SOURCES = ['france 24', 'france24', 'france.tv', 'francetv'];
+const BLOCKED_URL_PATTERNS = ['.pdf', 'pagedout.institute', 'journals.sagepub', 'console.cloud.google', 'github.com'];
+
+function isBlocked(article) {
+  const text = `${article.title} ${article.source} ${article.description}`.toLowerCase();
+  const url = article.link?.toLowerCase() || '';
+  
+  if (BLOCKED_SOURCES.some(blocked => text.includes(blocked))) return true;
+  if (BLOCKED_URL_PATTERNS.some(pattern => url.includes(pattern))) return true;
+  return false;
+}
+
 function fetchWithTimeout(url, timeoutMs = 8000) {
   const controller = new AbortController();
   const timeoutId = setTimeout(() => controller.abort(), timeoutMs);
@@ -333,7 +345,8 @@ export async function fetchAllFeeds() {
 
   const allArticles = results
     .filter(r => r.status === 'fulfilled')
-    .flatMap(r => r.value);
+    .flatMap(r => r.value)
+    .filter(article => !isBlocked(article));
 
   const seen = new Set();
   const unique = allArticles.filter(article => {

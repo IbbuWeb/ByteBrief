@@ -295,7 +295,7 @@ async function loadSavedArticles() {
 }
 
 async function loadMissingThumbnails(articles) {
-  const missing = articles.filter(a => !a.thumbnail && a.link && a.link !== '#');
+  const missing = articles.filter(a => !a.thumbnail && a.link && a.link !== '#').slice(0, 10);
   const promises = missing.map(async (article) => {
     const ogImage = await fetchOgImage(article.link);
     if (ogImage) {
