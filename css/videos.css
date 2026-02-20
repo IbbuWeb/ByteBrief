@@ -243,6 +243,13 @@
   100% { background-position: -200% 0; }
 }
 
+.end-message {
+  text-align: center;
+  padding: 24px;
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
 @media (max-width: 768px) {
   .video-card {
     flex-direction: column;

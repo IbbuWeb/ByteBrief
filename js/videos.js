@@ -195,6 +195,10 @@ function cleanText(text) {
   return text.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').trim();
 }
 
+function getSampleVideos() {
+  return [];
+}
+
 function parseDate(dateString) {
   if (!dateString) return new Date();
   try {
