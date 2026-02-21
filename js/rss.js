@@ -140,7 +140,7 @@ const CATEGORY_KEYWORDS = {
 };
 
 const BLOCKED_SOURCES = ['france 24', 'france24', 'france.tv', 'francetv'];
-const BLOCKED_URL_PATTERNS = ['.pdf', 'pagedout.institute', 'journals.sagepub', 'console.cloud.google', 'github.com'];
+const BLOCKED_URL_PATTERNS = ['.pdf', 'pagedout.institute', 'journals.sagepub', 'console.cloud.google'];
 
 function isBlocked(article) {
   const text = `${article.title} ${article.source} ${article.description}`.toLowerCase();

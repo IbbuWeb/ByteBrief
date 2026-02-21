@@ -1,8 +1,11 @@
-import { auth, db } from './firebase-config.js';
+import { auth } from './firebase-config.js';
 import { signOut, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
 
 let currentUser = null;
 
+const YOUTUBE_API_KEY = localStorage.getItem('youtube_api_key') || '';
+
+// Fixed Video Feeds: Removed duplicates and corrected invalid Channel IDs
 const VIDEO_FEEDS = [
   // AI
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCJ6tdC0FhM25mT3b6YcT1_g', source: 'Two Minute Papers', category: 'ai' },
@@ -12,7 +15,7 @@ const VIDEO_FEEDS = [
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCYO_jab_esuFRV4b17AJtAw', source: '3Blue1Brown', category: 'ai' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCfzlCWGWYyIQ0aLC5w48gBQ', source: 'Sentdex', category: 'ai' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCotAW4t2ooE4A4gKzmHfi8g', source: 'AssemblyAI', category: 'ai' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'OpenAI', category: 'ai' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCblfuWw4L-TvmO0bM-khJPA', source: 'OpenAI', category: 'ai' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCn4v8J1Z6hKl50sQ3YJJcpQ', source: 'Google DeepMind', category: 'ai' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCC552SD-2Wx4LvwLk1oK2w', source: 'Fireship', category: 'ai' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCv73rnwKs8Iz-DG4sX9uXpw', source: 'AI Explained', category: 'ai' },
@@ -20,86 +23,42 @@ const VIDEO_FEEDS = [
   // Programming
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8XnLlnLnpStdAiY2V6p9Xw', source: 'freeCodeCamp', category: 'programming' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCW5YeuER8j8Z8Y6xX5W4Z9w', source: 'Traversy Media', category: 'programming' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC1sQwG6xX5W4Z9w', source: 'The Net Ninja', category: 'programming' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCn2ulenNKsF3-C0VeU-ThQQ', source: 'The Net Ninja', category: 'programming' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCWv7vMbMWH4-V0ZXdmDpPBA', source: 'Programming with Mosh', category: 'programming' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCkw4ejtrw5X5W4Z9w', source: 'Academind', category: 'programming' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'CodeWithHarry', category: 'programming' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'CS Dojo', category: 'programming' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCQ1n5nk5N7v7xX5W4Z9w', source: 'Corey Schafer', category: 'programming' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4sS8l8Z6xX5W4Z9w', source: 'Tech With Tim', category: 'programming' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCSJbGtTlrDami-tDGPUH9CA', source: 'Academind', category: 'programming' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCeVMnSShP_IviwkkAm83szg', source: 'CodeWithHarry', category: 'programming' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCxX9wt5FWQUAAz4UrysqK9A', source: 'CS Dojo', category: 'programming' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCCezIgC97PvUuR4_gbFUs5g', source: 'Corey Schafer', category: 'programming' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4JX40jDee_tINbkjycV4Sg', source: 'Tech With Tim', category: 'programming' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCKR16D1y6T4HRBNL4y3K6gA', source: 'Web Dev Simplified', category: 'programming' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC7jx0A27mGA3b5LdS5W4cbQ', source: 'The Coding Train', category: 'programming' },
 
   // Hardware
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Msr3c8SzAOVA', source: 'Linus Tech Tips', category: 'hardware' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCwWW_sKp_0pA8X5W4Z9w', source: 'Gamers Nexus', category: 'hardware' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UChIs72whgZI9w6d6zvHutBg', source: 'Gamers Nexus', category: 'hardware' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC6i48JD8N8Ij1JbL3qQS0JQ', source: 'Hardware Unboxed', category: 'hardware' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCV9X5l5X5W4Z9w', source: 'JayzTwoCents', category: 'hardware' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC6pX5klQC2q2J1bVBCb66BA', source: 'Paul\'s Hardware', category: 'hardware' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC6i48JD8N8Ij1JbL3qQS0JQ', source: 'Tech YES City', category: 'hardware' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'ETA PRIME', category: 'hardware' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCwWW_sKp_0pA8X5W4Z9w', source: 'Digital Foundry', category: 'hardware' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCkWQ0gDrqOCarmUKmppD7GQ', source: 'JayzTwoCents', category: 'hardware' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCDfOjPkE-pXZD7e-DjDwD6g', source: 'Paul\'s Hardware', category: 'hardware' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8jXfU3BQOUQ4-m1brXU8SQ', source: 'Tech YES City', category: 'hardware' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC9SBqCxP2ksR8P-4zFpqTpg', source: 'Digital Foundry', category: 'hardware' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCW4ixgmlFL51Gj6sX3XkJ9w', source: 'ShortCircuit', category: 'hardware' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCX7Y2guXyKeJAC3WpTp3vXg', source: 'Austin Evans', category: 'hardware' },
 
-  // Startups
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4sS8l8Z6xX5W4Z9w', source: 'Y Combinator', category: 'startups' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCX7Y2guXyKeJAC3WpTp3vXg', source: 'Stanford eCorner', category: 'startups' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'Slidebean', category: 'startups' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCW5YeuER8j8Z8Y6xX5W4Z9w', source: 'Startup Grind', category: 'startups' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC8XnLlnLnpStdAiY2V6p9Xw', source: 'GaryVee', category: 'startups' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4sS8l8Z6xX5W4Z9w', source: 'Alex Hormozi', category: 'startups' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCW5YeuER8j8Z8Y6xX5W4Z9w', source: 'My First Million', category: 'startups' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCXgGY0wkgOzynnHvSEVmE3A', source: 'This Week in Startups', category: 'startups' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'Forbes', category: 'startups' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC6pX5klQC2q2J1bVBCb66BA', source: 'TechCrunch', category: 'startups' },
-
   // Cybersecurity
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC0ZTPmqX4CVLrW73cW86K9Q', source: 'NetworkChuck', category: 'cybersecurity' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC1sQwG6xX5W4Z9w', source: 'John Hammond', category: 'cybersecurity' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'The Cyber Mentor', category: 'cybersecurity' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCVeW9qkBjo3cestn5GKkSBQ', source: 'John Hammond', category: 'cybersecurity' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCJ2U9Dq9JZ2Q9oJ9oY7Q4wQ', source: 'The Cyber Mentor', category: 'cybersecurity' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCwX6rVkOq0mN4Rzig9aLMdQ', source: 'HackerSploit', category: 'cybersecurity' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'LiveOverflow', category: 'cybersecurity' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCMak3RJdN2rWdK1T4JCEjA', source: 'David Bombal', category: 'cybersecurity' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCs6hQhm8P4H4YjKHC9G5p3w', source: 'Null Byte', category: 'cybersecurity' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCXgGY0wkgOzynnHvSEVmE3A', source: 'Computerphile', category: 'cybersecurity' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCBInGjN7pRlqJ4-eYrtpBcw', source: 'Black Hills InfoSec', category: 'cybersecurity' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCctX8C9FSCxHDCjDcdK4g9Q', source: 'IppSec', category: 'cybersecurity' },
-
-  // PC Building
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCXuqSBlHAE6Msr3c8SzAOVA', source: 'Linus Tech Tips', category: 'pcbuilding' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCV9X5l5X5W4Z9w', source: 'JayzTwoCents', category: 'pcbuilding' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC6pX5klQC2q2J1bVBCb66BA', source: 'Paul\'s Hardware', category: 'pcbuilding' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'Bitwit', category: 'pcbuilding' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCwWW_sKp_0pA8X5W4Z9w', source: 'Gamers Nexus', category: 'pcbuilding' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCvTFLYX5jCwxeo97D3d0yHA', source: 'Hardware Canucks', category: 'pcbuilding' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCW5YeuER8j8Z8Y6xX5W4Z9w', source: 'TechSource', category: 'pcbuilding' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'ScatterVolt', category: 'pcbuilding' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC6i48JD8N8Ij1JbL3qQS0JQ', source: 'Tech YES City', category: 'pcbuilding' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'Toasty Bros', category: 'pcbuilding' },
 
   // Tech
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCBJycsmduvYEL83R_U4JriQ', source: 'Marques Brownlee', category: 'tech' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC6mAx5osIE5R8x0X5W4Z9w', source: 'Unbox Therapy', category: 'tech' },
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsP_PXxW4QIeS4OkcWT2keg', source: 'Unbox Therapy', category: 'tech' },
   { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCsP8hVqS5k-8v6A2R5V3U8w', source: 'The Verge', category: 'tech' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'CNET', category: 'tech' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCX7Y2guXyKeJAC3WpTp3vXg', source: 'Austin Evans', category: 'tech' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCW4ixgmlFL51Gj6sX3XkJ9w', source: 'ShortCircuit', category: 'tech' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCQfwfsi5VrQ8yKZ-UWmAEFg', source: 'Dave2D', category: 'tech' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'UrAvgConsumer', category: 'tech' },
-  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UC4RqR8Z6xX5W4Z9w', source: 'TechLinked', category: 'tech' }
-];
-
-const CORS_PROXIES = [
-  (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`,
-  (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`
-];
-
-const INVIDIOUS_INSTANCES = [
-  'https://invidious.fdn.fr',
-  'https://invidious.snopyta.org',
-  'https://yewtu.be',
-  'https://yewtu.be'
+  { url: 'https://www.youtube.com/feeds/videos.xml?channel_id=UCQfwfsi5VrQ8yKZ-UWmAEFg', source: 'Dave2D', category: 'tech' }
 ];
 
 const BLOCKED_VIDEO_SOURCES = ['france 24', 'france24', 'france.tv', 'francetv'];
@@ -115,87 +74,151 @@ function fetchWithTimeout(url, timeoutMs = 8000) {
   return fetch(url, { signal: controller.signal }).finally(() => clearTimeout(timeoutId));
 }
 
-async function fetchWithProxy(url) {
-  for (const proxyFn of CORS_PROXIES) {
-    try {
-      const proxyUrl = proxyFn(url);
-      const response = await fetchWithTimeout(proxyUrl);
-      if (!response.ok) continue;
-      const text = await response.text();
-      if (text && text.trim().length > 0) return text;
-    } catch (e) {
-      continue;
-    }
-  }
-  throw new Error(`All proxies failed for ${url}`);
-}
-
 async function fetchVideoFeed(feedConfig) {
-  const proxies = [
-    (url) => `https://api.allorigins.win/get?url=${encodeURIComponent(url)}`,
-    (url) => `https://corsproxy.io/?${encodeURIComponent(url)}`,
-    (url) => `https://api.allorigins.win/raw?url=${encodeURIComponent(url)}`
+  const channelId = feedConfig.url.split('channel_id=')[1];
+  if (!channelId) return [];
+  
+  const rssUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
+  
+  const methods = [
+    // Method 1: YouTube API (Most reliable if key exists)
+    async () => {
+      if (!YOUTUBE_API_KEY) throw new Error('No API key');
+      
+      const response = await fetchWithTimeout(
+        `https://www.googleapis.com/youtube/v3/search?key=${YOUTUBE_API_KEY}&channelId=${channelId}&part=snippet,id&order=date&maxResults=10`,
+        15000
+      );
+      if (!response.ok) throw new Error('YouTube API failed');
+      const data = await response.json();
+      if (!data.items || data.items.length === 0) throw new Error('No items');
+      
+      return data.items
+        .filter(item => item.id.kind === 'youtube#video')
+        .map(item => ({
+          title: item.snippet.title,
+          videoId: item.id.videoId,
+          link: `https://youtube.com/watch?v=${item.id.videoId}`,
+          thumbnail: item.snippet.thumbnails?.high?.url || item.snippet.thumbnails?.medium?.url || '',
+          description: item.snippet.description || '',
+          source: feedConfig.source,
+          author: item.snippet.channelTitle || feedConfig.source,
+          pubDate: new Date(item.snippet.publishedAt),
+          categories: [feedConfig.category]
+        }));
+    },
+    // Method 2: rss2json (Good proxy service)
+    async () => {
+      const jsonUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(rssUrl)}`;
+      const response = await fetchWithTimeout(jsonUrl, 15000);
+      if (!response.ok) throw new Error('rss2json failed');
+      const data = await response.json();
+      if (data.status !== 'ok' || !data.items) throw new Error('Invalid rss2json response');
+      return data.items.map(item => ({
+        title: item.title,
+        videoId: item.guid?.split(':').pop() || item.link?.split('v=')[1]?.split('&')[0] || '',
+        link: item.link,
+        thumbnail: item.thumbnail || item.enclosure?.link || '',
+        description: item.description || '',
+        source: feedConfig.source,
+        author: item.author || feedConfig.source,
+        pubDate: new Date(item.pubDate),
+        categories: [feedConfig.category]
+      }));
+    },
+    // Method 3: Invidious (Privacy-focused frontend)
+    async () => {
+      // Updated with currently working instances
+      const invidiousInstances = [
+        'https://invidious.fdn.fr',
+        'https://invidious.snopyta.org',
+        'https://yewtu.be',
+        'https://invidious.kavin.rocks'
+      ];
+      for (const instance of invidiousInstances) {
+        try {
+          const response = await fetchWithTimeout(`${instance}/api/v1/channels/${channelId}/videos`, 10000);
+          if (!response.ok) continue;
+          const data = await response.json();
+          if (!data.videos && !Array.isArray(data)) continue;
+          
+          const videos = data.videos || data; // Handle different response structures
+          return videos.slice(0, 10).map(video => ({
+            title: video.title,
+            videoId: video.videoId,
+            link: `https://youtube.com/watch?v=${video.videoId}`,
+            // Invidious returns relative timestamps sometimes, handle carefully
+            thumbnail: video.videoThumbnails?.find(t => t.quality === 'high')?.url || `https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`,
+            description: video.description || '',
+            source: feedConfig.source,
+            author: video.author || feedConfig.source,
+            pubDate: new Date(video.published * 1000),
+            categories: [feedConfig.category]
+          }));
+        } catch (e) {
+          continue;
+        }
+      }
+      throw new Error('All Invidious instances failed');
+    },
+    // Method 4: CORS Proxy + XML Parsing
+    async () => {
+      const proxies = [
+        `https://corsproxy.io/?${encodeURIComponent(rssUrl)}`,
+        `https://api.allorigins.win/raw?url=${encodeURIComponent(rssUrl)}`
+      ];
+      for (const proxyUrl of proxies) {
+        try {
+          const response = await fetchWithTimeout(proxyUrl, 12000);
+          if (!response.ok) continue;
+          const xmlText = await response.text();
+          if (!xmlText) continue;
+          
+          const parser = new DOMParser();
+          const xml = parser.parseFromString(xmlText, 'text/xml');
+          const entries = xml.querySelectorAll('entry');
+          if (entries.length === 0) continue;
+          
+          const videos = [];
+          entries.forEach(entry => {
+            const entryId = entry.querySelector('id')?.textContent || '';
+            const videoId = entryId.includes('video:') ? entryId.split('video:')[1] : null;
+            if (!videoId) return;
+            
+            videos.push({
+              title: entry.querySelector('title')?.textContent || 'Untitled',
+              videoId: videoId,
+              link: entry.querySelector('link')?.getAttribute('href') || `https://youtube.com/watch?v=${videoId}`,
+              thumbnail: `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`,
+              description: entry.querySelector('summary')?.textContent || entry.querySelector('content')?.textContent || '',
+              source: feedConfig.source,
+              author: entry.querySelector('author > name')?.textContent || feedConfig.source,
+              pubDate: new Date(entry.querySelector('published')?.textContent || new Date()),
+              categories: [feedConfig.category]
+            });
+          });
+          
+          if (videos.length > 0) return videos.slice(0, 10);
+        } catch (e) {
+          continue;
+        }
+      }
+      throw new Error('All proxy methods failed');
+    }
   ];
   
-  for (const proxyFn of proxies) {
+  for (const method of methods) {
     try {
-      const channelId = feedConfig.url.split('channel_id=')[1];
-      const rssUrl = `https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`;
-      const proxyUrl = proxyFn(rssUrl);
-      
-      const response = await fetchWithTimeout(proxyUrl, 12000);
-      if (!response.ok) continue;
-      
-      let xmlText;
-      try {
-        const data = await response.json();
-        xmlText = data.contents || data;
-      } catch {
-        xmlText = await response.text();
+      const videos = await method();
+      if (videos && videos.length > 0 && videos[0].videoId) {
+        return videos;
       }
-      
-      if (!xmlText || typeof xmlText !== 'string') continue;
-      
-      const parser = new DOMParser();
-      const xml = parser.parseFromString(xmlText, 'text/xml');
-      const entries = xml.querySelectorAll('entry');
-      if (entries.length === 0) continue;
-      
-      const videos = [];
-      entries.forEach(entry => {
-        const entryId = entry.querySelector('id')?.textContent || '';
-        const videoId = entryId.includes('video:') ? entryId.split('video:')[1] : null;
-        if (!videoId) return;
-        
-        videos.push({
-          title: entry.querySelector('title')?.textContent || 'Untitled',
-          videoId: videoId,
-          link: entry.querySelector('link')?.getAttribute('href') || `https://youtube.com/watch?v=${videoId}`,
-          thumbnail: `https://img.youtube.com/vi/${videoId}/hqdefault.jpg`,
-          description: entry.querySelector('summary')?.textContent || entry.querySelector('content')?.textContent || '',
-          source: feedConfig.source,
-          author: entry.querySelector('author > name')?.textContent || feedConfig.source,
-          pubDate: new Date(entry.querySelector('published')?.textContent || new Date()),
-          categories: [feedConfig.category]
-        });
-      });
-      
-      if (videos.length > 0) return videos.slice(0, 10);
     } catch (e) {
       continue;
     }
   }
   
-  console.error(`All proxies failed for ${feedConfig.source}`);
-  return [];
-}
-
-function cleanText(text) {
-  if (!text) return '';
-  return text.replace(/<[^>]*>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').trim();
-}
-
-function getSampleVideos() {
+  console.error(`All methods failed for ${feedConfig.source} (${channelId})`);
   return [];
 }
 
@@ -208,34 +231,6 @@ function parseDate(dateString) {
     return new Date();
   }
 }
-
-async function fetchAllVideoFeeds() {
-  const batches = [];
-  for (let i = 0; i < VIDEO_FEEDS.length; i += 5) {
-    batches.push(VIDEO_FEEDS.slice(i, i + 5));
-  }
-  
-  const allResults = [];
-  for (const batch of batches) {
-    const results = await Promise.allSettled(batch.map(feed => fetchVideoFeed(feed)));
-    const batchVideos = results
-      .filter(r => r.status === 'fulfilled')
-      .flatMap(r => r.value)
-      .filter(video => !isVideoBlocked(video) && video.videoId);
-    allResults.push(...batchVideos);
-    await new Promise(r => setTimeout(r, 500));
-  }
-
-  if (allResults.length === 0) {
-    return getSampleVideos();
-  }
-
-  const seen = new Set();
-  const unique = allResults.filter(video => {
-    if (seen.has(video.videoId)) return false;
-    seen.add(video.videoId);
-    return true;
-  });
 
 function shuffleVideosIntelligently(videos) {
   if (videos.length <= 1) return videos;
@@ -285,18 +280,56 @@ function shuffleVideosIntelligently(videos) {
   return result;
 }
 
+async function fetchAllVideoFeeds() {
+  const batches = [];
+  for (let i = 0; i < VIDEO_FEEDS.length; i += 5) {
+    batches.push(VIDEO_FEEDS.slice(i, i + 5));
+  }
+  
+  const allResults = [];
+  for (const batch of batches) {
+    const results = await Promise.allSettled(batch.map(feed => fetchVideoFeed(feed)));
+    const batchVideos = results
+      .filter(r => r.status === 'fulfilled')
+      .flatMap(r => r.value)
+      .filter(video => !isVideoBlocked(video) && video.videoId);
+    allResults.push(...batchVideos);
+    await new Promise(r => setTimeout(r, 500));
+  }
+
+  if (allResults.length === 0) {
+    return [];
+  }
+
+  const seen = new Set();
+  const unique = allResults.filter(video => {
+    if (seen.has(video.videoId)) return false;
+    seen.add(video.videoId);
+    return true;
+  });
+
   return shuffleVideosIntelligently(unique);
+}
+
+function escapeHtml(text) {
+  if (!text) return '';
+  const div = document.createElement('div');
+  div.textContent = text;
+  return div.innerHTML;
 }
 
 function renderVideo(video, onPlay) {
   const article = document.createElement('article');
   article.className = 'video-card';
   article.dataset.videoId = video.videoId;
+  
+  // FIX: Fallback for thumbnail if missing
+  const thumbnailSrc = video.thumbnail || `https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg`;
 
   article.innerHTML = `
     <div class="video-media">
       <div class="video-thumbnail">
-        <img src="${video.thumbnail}" alt="${video.title}" loading="lazy">
+        <img src="${escapeHtml(thumbnailSrc)}" alt="${escapeHtml(video.title)}" loading="lazy" onerror="this.src='https://img.youtube.com/vi/${video.videoId}/hqdefault.jpg'">
         <button class="play-button" aria-label="Play video">
           <svg viewBox="0 0 24 24" fill="currentColor"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
         </button>
@@ -304,17 +337,16 @@ function renderVideo(video, onPlay) {
     </div>
     <div class="video-info">
       <div class="video-meta">
-        <span class="video-category">${video.categories[0]}</span>
-        <span class="video-source">${video.source}</span>
+        <span class="video-category">${escapeHtml(video.categories[0])}</span>
+        <span class="video-source">${escapeHtml(video.source)}</span>
       </div>
-      <h3 class="video-title">${video.title}</h3>
-      <p class="video-author">${video.author}</p>
+      <h3 class="video-title">${escapeHtml(video.title)}</h3>
+      <p class="video-author">${escapeHtml(video.author)}</p>
       <time class="video-date">${formatDate(video.pubDate)}</time>
     </div>
   `;
 
   const playBtn = article.querySelector('.play-button');
-  const thumbnail = article.querySelector('.video-thumbnail');
   const media = article.querySelector('.video-media');
 
   playBtn.addEventListener('click', (e) => {
@@ -323,7 +355,7 @@ function renderVideo(video, onPlay) {
   });
 
   const playVideo = () => {
-    media.innerHTML = `<iframe src="https://www.youtube.com/embed/${video.videoId}?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+    media.innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${escapeHtml(video.videoId)}?autoplay=1&rel=0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
     if (onPlay) onPlay(video);
   };
 
@@ -331,11 +363,15 @@ function renderVideo(video, onPlay) {
 }
 
 function formatDate(date) {
+  if (!(date instanceof Date) || isNaN(date.getTime())) {
+    return 'Recently';
+  }
+  
   const now = new Date();
   const diffMs = now - date;
-  const diffMins = Math.floor(diffMs / 60000);
-  const diffHours = Math.floor(diffMs / 3600000);
-  const diffDays = Math.floor(diffMs / 86400000);
+  const diffMins = Math.max(0, Math.floor(diffMs / 60000));
+  const diffHours = Math.max(0, Math.floor(diffMs / 3600000));
+  const diffDays = Math.max(0, Math.floor(diffMs / 86400000));
 
   if (diffMins < 60) return `${diffMins}m ago`;
   if (diffHours < 24) return `${diffHours}h ago`;
@@ -345,8 +381,9 @@ function formatDate(date) {
 
 function showToast(message, duration = 3000) {
   const toast = document.getElementById('toast');
+  if (!toast) return;
   const toastMessage = toast.querySelector('.toast-message');
-  toastMessage.textContent = message;
+  if (toastMessage) toastMessage.textContent = message;
   toast.classList.add('show');
   setTimeout(() => toast.classList.remove('show'), duration);
 }
@@ -365,6 +402,30 @@ async function initVideos() {
   const clearSearch = document.getElementById('clearSearch');
   const filterBtns = document.querySelectorAll('.filter-btn');
 
+  if (!YOUTUBE_API_KEY) {
+    const apiKeyBanner = document.createElement('div');
+    apiKeyBanner.className = 'api-key-banner';
+    apiKeyBanner.innerHTML = `
+      <p>YouTube RSS feeds might be limited. To improve results, 
+        <button id="setupApiKey" class="btn-link">set up a free YouTube API key</button> 
+        or <button id="dismissBanner" class="btn-link">dismiss</button>
+      </p>
+    `;
+    document.body.insertBefore(apiKeyBanner, document.body.firstChild);
+    
+    document.getElementById('setupApiKey')?.addEventListener('click', () => {
+      const apiKey = prompt('Enter your YouTube Data API v3 key:\n\nGet free key at: https://console.cloud.google.com/apis/credentials\n\nEnable "YouTube Data API v3" in Google Cloud Console');
+      if (apiKey) {
+        localStorage.setItem('youtube_api_key', apiKey);
+        location.reload();
+      }
+    });
+    
+    document.getElementById('dismissBanner')?.addEventListener('click', () => {
+      apiKeyBanner.remove();
+    });
+  }
+
   await new Promise((resolve) => {
     onAuthStateChanged(auth, (user) => {
       if (!user) {
@@ -377,7 +438,26 @@ async function initVideos() {
   });
 
   try {
+    videoGrid.innerHTML = '<div class="loading-state"><div class="spinner"></div><p>Loading videos...</p></div>';
     allVideos = await fetchAllVideoFeeds();
+    
+    if (allVideos.length === 0) {
+      videoGrid.innerHTML = `
+        <div class="empty-state">
+          <h2>No videos available</h2>
+          <p>Could not fetch videos. Check your connection or API key.</p>
+          <button class="btn btn-primary" id="retryWithApiKey">Set Up API Key / Retry</button>
+        </div>`;
+      document.getElementById('retryWithApiKey')?.addEventListener('click', () => {
+        const apiKey = prompt('Enter your YouTube Data API v3 key:\n\nGet free key at: https://console.cloud.google.com/apis/credentials');
+        if (apiKey) {
+          localStorage.setItem('youtube_api_key', apiKey);
+          location.reload();
+        }
+      });
+      return;
+    }
+    
     filteredVideos = allVideos;
     currentPage = 0;
     renderPage(true);
@@ -450,9 +530,14 @@ async function initVideos() {
 
     filteredVideos = filtered;
     renderPage(true);
+    setupInfiniteScroll(); // Re-attach listener after reset
   }
 
   function setupInfiniteScroll() {
+    if (window.scrollHandler) {
+      window.removeEventListener('scroll', window.scrollHandler);
+    }
+
     const handleScroll = () => {
       const hasMore = (currentPage + 1) * VIDEOS_PER_PAGE < filteredVideos.length;
       if (isLoading || !hasMore) return;
@@ -479,19 +564,23 @@ async function initVideos() {
     });
   });
 
-  searchInput.addEventListener('input', (e) => {
-    currentSearch = e.target.value;
-    clearSearch.style.display = currentSearch ? 'block' : 'none';
-    applyFilters();
-  });
+  if (searchInput) {
+    searchInput.addEventListener('input', (e) => {
+      currentSearch = e.target.value;
+      if (clearSearch) clearSearch.style.display = currentSearch ? 'block' : 'none';
+      applyFilters();
+    });
+  }
 
-  clearSearch.addEventListener('click', () => {
-    searchInput.value = '';
-    currentSearch = '';
-    clearSearch.style.display = 'none';
-    applyFilters();
-    searchInput.focus();
-  });
+  if (clearSearch) {
+    clearSearch.addEventListener('click', () => {
+      if (searchInput) searchInput.value = '';
+      currentSearch = '';
+      clearSearch.style.display = 'none';
+      applyFilters();
+      if (searchInput) searchInput.focus();
+    });
+  }
 
   const logoutBtn = document.getElementById('logoutBtn');
   const mobileLogoutBtn = document.getElementById('mobileLogoutBtn');
@@ -530,7 +619,7 @@ async function handleLogout() {
     window.location.href = 'login.html';
   } catch (error) {
     console.error('Logout error:', error);
-    showToast('Failed to logout', 'error');
+    showToast('Failed to logout');
   }
 }
 

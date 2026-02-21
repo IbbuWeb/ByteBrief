@@ -306,7 +306,7 @@ button {
     max-width: 380px;
     justify-content: space-around;
     align-items: center;
-    height: 39px;
+    height: 55px;
   }
 
   .mobile-nav.active {
@@ -483,6 +483,33 @@ button {
 .btn-google-outline:hover:not(:disabled) {
   background: var(--bg-hover);
   transform: translateY(-1px);
+}
+
+.btn-link {
+  background: none;
+  border: none;
+  color: var(--accent);
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: inherit;
+  padding: 0;
+}
+
+.btn-link:hover {
+  color: var(--accent-hover);
+}
+
+.api-key-banner {
+  background: var(--accent-light);
+  border: 1px solid var(--accent);
+  padding: 12px 20px;
+  text-align: center;
+  color: var(--text-primary);
+  font-size: 0.95rem;
+}
+
+.api-key-banner p {
+  margin: 0;
 }
 
 .auth-buttons {

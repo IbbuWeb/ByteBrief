@@ -6,6 +6,7 @@ import { fetchFeedsByCategory, fetchOgImage } from './rss.js';
 let currentUser = null;
 let currentCategory = 'all';
 let allArticles = [];
+let filteredArticles = [];
 let displayedCount = 0;
 let savedLinks = new Set();
 let isLoadingMore = false;
@@ -123,18 +124,22 @@ async function loadFeed() {
   }
 }
 
-let filteredArticles = [];
-
 function filterArticles() {
   if (!feedGrid) return;
   
   const endMarker = feedGrid.querySelector('.load-more-container, .feed-end');
   if (endMarker) endMarker.remove();
   
+  let articles = allArticles;
+  
+  if (currentCategory !== 'all') {
+    articles = articles.filter(article => article.categories.includes(currentCategory));
+  }
+  
   if (!searchQuery) {
-    filteredArticles = [...allArticles];
+    filteredArticles = [...articles];
   } else {
-    filteredArticles = allArticles.filter(article => {
+    filteredArticles = articles.filter(article => {
       const title = article.title?.toLowerCase() || '';
       const description = article.description?.toLowerCase() || '';
       const source = article.source?.toLowerCase() || '';
@@ -295,35 +300,43 @@ async function loadSavedArticles() {
 }
 
 async function loadMissingThumbnails(articles) {
-  const missing = articles.filter(a => !a.thumbnail && a.link && a.link !== '#').slice(0, 10);
-  const promises = missing.map(async (article) => {
-    const ogImage = await fetchOgImage(article.link);
-    if (ogImage) {
-      article.thumbnail = ogImage;
-      const cards = feedGrid.querySelectorAll('.article-card');
-      for (const card of cards) {
-        const readMoreLink = card.querySelector('.read-more');
-        if (readMoreLink && readMoreLink.getAttribute('href') === article.link) {
-          const imageContainer = card.querySelector('.card-image');
-          if (imageContainer) {
-            const placeholder = imageContainer.querySelector('.placeholder');
-            if (placeholder) {
-              const img = document.createElement('img');
-              img.src = ogImage;
-              img.alt = article.title;
-              img.loading = 'lazy';
-              img.decoding = 'async';
-              img.onload = () => img.classList.add('loaded');
-              img.onerror = () => { img.remove(); imageContainer.prepend(placeholder); };
-              placeholder.replaceWith(img);
+  try {
+    const missing = articles.filter(a => !a.thumbnail && a.link && a.link !== '#').slice(0, 10);
+    const promises = missing.map(async (article) => {
+      try {
+        const ogImage = await fetchOgImage(article.link);
+        if (ogImage) {
+          article.thumbnail = ogImage;
+          const cards = feedGrid.querySelectorAll('.article-card');
+          for (const card of cards) {
+            const readMoreLink = card.querySelector('.read-more');
+            if (readMoreLink && readMoreLink.getAttribute('href') === article.link) {
+              const imageContainer = card.querySelector('.card-image');
+              if (imageContainer) {
+                const placeholder = imageContainer.querySelector('.placeholder');
+                if (placeholder) {
+                  const img = document.createElement('img');
+                  img.src = ogImage;
+                  img.alt = article.title;
+                  img.loading = 'lazy';
+                  img.decoding = 'async';
+                  img.onload = () => img.classList.add('loaded');
+                  img.onerror = () => { img.remove(); imageContainer.prepend(placeholder); };
+                  placeholder.replaceWith(img);
+                }
+              }
+              break;
             }
           }
-          break;
         }
+      } catch (e) {
+        // Silently fail for individual articles
       }
-    }
-  });
-  await Promise.allSettled(promises);
+    });
+    await Promise.allSettled(promises);
+  } catch (e) {
+    console.error('Error loading missing thumbnails:', e);
+  }
 }
 
 function createArticleCardElement(article) {

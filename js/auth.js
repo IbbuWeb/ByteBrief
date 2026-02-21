@@ -21,6 +21,7 @@ async function handleGoogleAuth(isNewUser) {
     const result = await signInWithPopup(auth, provider);
     const user = result.user;
 
+    isSigningIn = false;
     recordLoginTime();
 
     const userDocRef = doc(db, 'users', user.uid);
