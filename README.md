@@ -15,11 +15,8 @@ ByteBrief solves the problem of scattered tech content by aggregating articles a
 - Article saving with Firestore persistence
 - Share functionality with Web Share API
 
-**ByteTV** (`videos.html`)
-- Curated YouTube feeds from 50+ tech channels including Linus Tech Tips, Marques Brownlee, freeCodeCamp, Fireship, NetworkChuck, Google DeepMind, OpenAI, and more
-- In-app video playback via embedded YouTube player
-- Category filtering and search
-- Optional YouTube Data API v3 integration for enhanced results
+**ByteTV** (`byteTv.html`)
+- Events, GitHub repos, Podcasts, Live streams, and Tech deals
 
 **User Features**
 - Google Sign-In authentication
@@ -40,7 +37,7 @@ ByteBrief solves the problem of scattered tech content by aggregating articles a
 ```
 /ByteBrief
 ├── index.html          # Main news feed
-├── videos.html         # ByteTV video section
+├── byteTv.html         # ByteTV section (events, GitHub, podcasts, live, deals)
 ├── login.html          # Google authentication
 ├── onboarding.html     # Interest selection flow
 ├── saved.html          # Bookmarked articles
@@ -48,13 +45,13 @@ ByteBrief solves the problem of scattered tech content by aggregating articles a
 ├── manifest.json       # PWA configuration
 ├── /css
 │   ├── styles.css      # Global styles
-│   └── videos.css      # Video-specific styles
+│   └── byteTv.css      # ByteTV-specific styles
 ├── /js
 │   ├── firebase-config.js  # Firebase initialization
 │   ├── auth.js             # Authentication logic
 │   ├── rss.js              # RSS fetching & parsing
 │   ├── feed.js             # Feed display & interactions
-│   ├── videos.js           # YouTube feed handling
+│   ├── byteTv.js           # ByteTV handling
 │   ├── save.js             # Bookmark functionality
 │   ├── profile.js          # Profile management
 │   └── onboarding.js       # Onboarding flow

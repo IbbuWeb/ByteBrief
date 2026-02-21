@@ -1,5 +1,5 @@
 import { initializeApp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-app.js';
-import { getAuth } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
+import { getAuth, signOut, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
 import { getFirestore } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
 
 const firebaseConfig = {
@@ -34,4 +34,4 @@ function clearSession() {
   localStorage.removeItem('bytebrief_login_time');
 }
 
-export { auth, db, recordLoginTime, isSessionExpired, clearSession, SESSION_MAX_DAYS };
+export { auth, db, signOut, onAuthStateChanged, recordLoginTime, isSessionExpired, clearSession, SESSION_MAX_DAYS };
