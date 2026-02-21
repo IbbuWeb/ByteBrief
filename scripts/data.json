@@ -1,0 +1,395 @@
+{
+  "events": [
+    {
+      "title": "NVIDIA GTC",
+      "date": "March 16-19, 2026",
+      "description": "Premier AI conference",
+      "link": "https://www.nvidia.com/gtc/",
+      "category": "conference",
+      "icon": "nvidia"
+    },
+    {
+      "title": "Google I/O",
+      "date": "May 20-21, 2026",
+      "description": "Google Annual Developer Conference",
+      "link": "https://io.google/",
+      "category": "conference",
+      "icon": "google"
+    },
+    {
+      "title": "Apple WWDC",
+      "date": "June, 2026",
+      "description": "Apple Worldwide Developers Conference",
+      "link": "https://developer.apple.com/wwdc/",
+      "category": "conference",
+      "icon": "apple"
+    },
+    {
+      "title": "Microsoft Build",
+      "date": "May, 2026",
+      "description": "Microsoft Developer Conference",
+      "link": "https://build.microsoft.com/",
+      "category": "conference",
+      "icon": "microsoft"
+    },
+    {
+      "title": "AWS re:Invent",
+      "date": "December, 2026",
+      "description": "Amazon Web Services Conference",
+      "link": "https://reinvent.awsevents.com/",
+      "category": "conference",
+      "icon": "aws"
+    },
+    {
+      "title": "Black Hat",
+      "date": "August, 2026",
+      "description": "Security Conference",
+      "link": "https://www.blackhat.com/",
+      "category": "conference",
+      "icon": "security"
+    },
+    {
+      "title": "React Conf",
+      "date": "May, 2026",
+      "description": "React Conference",
+      "link": "https://reactconf.com/",
+      "category": "conference",
+      "icon": "react"
+    },
+    {
+      "title": "FOSDEM",
+      "date": "January/February, 2026",
+      "description": "Free and Open Source Developers European Meeting",
+      "link": "https://fosdem.org/",
+      "category": "conference",
+      "icon": "fosdem"
+    }
+  ],
+  "github": [
+    {
+      "name": "deepseek-ai/DeepSeek-V3",
+      "description": "",
+      "stars": 101645,
+      "language": "Python",
+      "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+      "trending": "hot"
+    },
+    {
+      "name": "FoundationAgents/OpenManus",
+      "description": "No fortress, purely open ground.  OpenManus is Coming.",
+      "stars": 54562,
+      "language": "Python",
+      "url": "https://github.com/FoundationAgents/OpenManus",
+      "trending": "hot"
+    },
+    {
+      "name": "upstash/context7",
+      "description": "Context7 MCP Server -- Up-to-date code documentation for LLMs and AI code editors",
+      "stars": 46408,
+      "language": "TypeScript",
+      "url": "https://github.com/upstash/context7",
+      "trending": ""
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "stars": 36423,
+      "language": "Python",
+      "url": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "trending": ""
+    },
+    {
+      "name": "google/langextract",
+      "description": "A Python library for extracting structured information from unstructured text using LLMs with precise source grounding and interactive visualization.",
+      "stars": 33419,
+      "language": "Python",
+      "url": "https://github.com/google/langextract",
+      "trending": ""
+    },
+    {
+      "name": "code-yeongyu/oh-my-opencode",
+      "description": "the best agent harness",
+      "stars": 32790,
+      "language": "TypeScript",
+      "url": "https://github.com/code-yeongyu/oh-my-opencode",
+      "trending": ""
+    },
+    {
+      "name": "thedotmack/claude-mem",
+      "description": "A Claude Code plugin that automatically captures everything Claude does during your coding sessions, compresses it with AI (using Claude's agent-sdk), and injects relevant context back into future sessions.",
+      "stars": 29720,
+      "language": "TypeScript",
+      "url": "https://github.com/thedotmack/claude-mem",
+      "trending": ""
+    },
+    {
+      "name": "wshobson/agents",
+      "description": "Intelligent automation and multi-agent orchestration for Claude Code",
+      "stars": 29039,
+      "language": "Python",
+      "url": "https://github.com/wshobson/agents",
+      "trending": ""
+    },
+    {
+      "name": "musistudio/claude-code-router",
+      "description": "Use Claude Code as the foundation for coding infrastructure, allowing you to decide how to interact with the model while enjoying updates from Anthropic.",
+      "stars": 28126,
+      "language": "TypeScript",
+      "url": "https://github.com/musistudio/claude-code-router",
+      "trending": ""
+    },
+    {
+      "name": "bytedance/UI-TARS-desktop",
+      "description": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra",
+      "stars": 28118,
+      "language": "TypeScript",
+      "url": "https://github.com/bytedance/UI-TARS-desktop",
+      "trending": ""
+    },
+    {
+      "name": "microsoft/playwright-mcp",
+      "description": "Playwright MCP server",
+      "stars": 27469,
+      "language": "TypeScript",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "trending": ""
+    },
+    {
+      "name": "ChromeDevTools/chrome-devtools-mcp",
+      "description": "Chrome DevTools for coding agents",
+      "stars": 26260,
+      "language": "TypeScript",
+      "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+      "trending": ""
+    },
+    {
+      "name": "ashishpatel26/500-AI-Agents-Projects",
+      "description": "The 500 AI Agents Projects is a curated collection of AI agent use cases across various industries. It showcases practical applications and provides links to open-source projects for implementation, illustrating how AI agents are transforming sectors such as healthcare, finance, education, retail, and more.",
+      "stars": 24396,
+      "language": "Unknown",
+      "url": "https://github.com/ashishpatel26/500-AI-Agents-Projects",
+      "trending": ""
+    },
+    {
+      "name": "KeygraphHQ/shannon",
+      "description": "Fully autonomous AI hacker to find actual exploits in your web apps. Shannon has achieved a 96.15% success rate on the hint-free, source-aware XBOW Benchmark.",
+      "stars": 24138,
+      "language": "TypeScript",
+      "url": "https://github.com/KeygraphHQ/shannon",
+      "trending": ""
+    },
+    {
+      "name": "resemble-ai/chatterbox",
+      "description": "SoTA open-source TTS",
+      "stars": 22773,
+      "language": "Python",
+      "url": "https://github.com/resemble-ai/chatterbox",
+      "trending": ""
+    }
+  ],
+  "podcasts": [
+    {
+      "name": "Acquired",
+      "host": "Ben Thompson & David Perrett",
+      "description": "Deep dives on great tech companies & business strategy",
+      "image": "acquired",
+      "link": "https://www.acquired.fm/",
+      "category": "business"
+    },
+    {
+      "name": "The Stack Overflow Podcast",
+      "host": "Stack Overflow",
+      "description": "Conversations about code, development, and the future of tech",
+      "image": "stackoverflow",
+      "link": "https://stackoverflow.blog/podcast/",
+      "category": "programming"
+    },
+    {
+      "name": "Lex Fridman Podcast",
+      "host": "Lex Fridman",
+      "description": "AI, robotics, neuroscience, and the future of humanity",
+      "image": "lex",
+      "link": "https://lexfridman.com/podcast/",
+      "category": "ai"
+    },
+    {
+      "name": "Changelog",
+      "host": "Jerod Santo & Adam Stacoviak",
+      "description": "Open source, software, and web development",
+      "image": "changelog",
+      "link": "https://changelog.com/podcast",
+      "category": "programming"
+    },
+    {
+      "name": "Hard Fork",
+      "host": "Casey Newton & Kevin Roose",
+      "description": "Tech news, culture, and where it all goes next",
+      "image": "hardfork",
+      "link": "https://podcasts.apple.com/us/podcast/hard-fork/id1521431123",
+      "category": "news"
+    },
+    {
+      "name": "Waveform",
+      "host": "MKBHD & Andrew",
+      "description": "Tech reviews, deep dives, and behind the scenes",
+      "image": "waveform",
+      "link": "https://www.youtube.com/playlist?list=PLH9cR-NVtXBcxLmlS2J8a2VWGwR5H0tS",
+      "category": "tech"
+    },
+    {
+      "name": "Decoder",
+      "host": "Nilay Patel",
+      "description": "Big tech, business, and power",
+      "image": "decoder",
+      "link": "https://www.theverge.com/decoder-podcast",
+      "category": "business"
+    },
+    {
+      "name": "Darknet Diaries",
+      "host": "Jack Rhysider",
+      "description": "True stories from the dark side of the internet",
+      "image": "darknet",
+      "link": "https://darknetdiaries.com/",
+      "category": "security"
+    },
+    {
+      "name": "Accidental Tech Podcast",
+      "host": "Marco Arment & Casey Liss",
+      "description": "Apple, tech, programming, and coffee",
+      "image": "atp",
+      "link": "https://atp.fm/",
+      "category": "apple"
+    },
+    {
+      "name": "Syntax",
+      "host": "Wes Bos & Scott Tolinski",
+      "description": "Web development tips, tutorials, and advice",
+      "image": "syntax",
+      "link": "https://syntax.fm/",
+      "category": "programming"
+    }
+  ],
+  "deals": [
+    {
+      "title": "Apple MacBook Pro M5",
+      "store": "B&H Photo",
+      "price": 1549,
+      "originalPrice": 1799,
+      "discount": "14%",
+      "link": "https://www.bhphotovideo.com/",
+      "category": "laptop",
+      "expires": "Feb 28"
+    },
+    {
+      "title": "Alienware 16 Area-51 RTX 5070 Ti",
+      "store": "Woot",
+      "price": 1999,
+      "originalPrice": 3100,
+      "discount": "35%",
+      "link": "https://www.woot.com/",
+      "category": "laptop",
+      "expires": "Feb 23"
+    },
+    {
+      "title": "Lenovo ThinkPad X1 Carbon",
+      "store": "Lenovo",
+      "price": 1299,
+      "originalPrice": 1919,
+      "discount": "32%",
+      "link": "https://www.lenovo.com/",
+      "category": "laptop",
+      "expires": "Feb 24"
+    },
+    {
+      "title": "Acer Nitro V RTX 4050",
+      "store": "Amazon",
+      "price": 649,
+      "originalPrice": 899,
+      "discount": "28%",
+      "link": "https://www.amazon.com/",
+      "category": "laptop",
+      "expires": "Feb 25"
+    },
+    {
+      "title": "MSI Thin RTX 4060",
+      "store": "Best Buy",
+      "price": 829,
+      "originalPrice": 1099,
+      "discount": "25%",
+      "link": "https://www.bestbuy.com/",
+      "category": "laptop",
+      "expires": "Feb 26"
+    },
+    {
+      "title": "ASUS ROG Strix G16 RTX 5060",
+      "store": "Amazon",
+      "price": 1399,
+      "originalPrice": 1799,
+      "discount": "22%",
+      "link": "https://www.amazon.com/",
+      "category": "laptop",
+      "expires": "Feb 28"
+    },
+    {
+      "title": "Samsung 990 Pro 2TB",
+      "store": "Amazon",
+      "price": 149,
+      "originalPrice": 199,
+      "discount": "25%",
+      "link": "https://www.amazon.com/",
+      "category": "storage",
+      "expires": "Feb 25"
+    },
+    {
+      "title": "Sony WH-1000XM5",
+      "store": "Amazon",
+      "price": 279,
+      "originalPrice": 399,
+      "discount": "30%",
+      "link": "https://www.amazon.com/",
+      "category": "audio",
+      "expires": "Feb 23"
+    },
+    {
+      "title": "LG UltraGear 27\" 4K",
+      "store": "Best Buy",
+      "price": 399,
+      "originalPrice": 549,
+      "discount": "27%",
+      "link": "https://www.bestbuy.com/",
+      "category": "monitor",
+      "expires": "Feb 28"
+    },
+    {
+      "title": "Keychron Q1 Pro",
+      "store": "Amazon",
+      "price": 159,
+      "originalPrice": 199,
+      "discount": "20%",
+      "link": "https://www.amazon.com/",
+      "category": "keyboard",
+      "expires": "Mar 5"
+    },
+    {
+      "title": "Steam Deck OLED",
+      "store": "Valve",
+      "price": 499,
+      "originalPrice": 549,
+      "discount": "9%",
+      "link": "https://store.steampowered.com/",
+      "category": "gaming",
+      "expires": "Mar 15"
+    },
+    {
+      "name": "Corsair K100 RGB",
+      "store": "Amazon",
+      "price": 169,
+      "originalPrice": 229,
+      "discount": "26%",
+      "link": "https://www.amazon.com/",
+      "category": "keyboard",
+      "expires": "Mar 1"
+    }
+  ],
+  "lastUpdated": "2026-02-21T16:33:27.884Z"
+}

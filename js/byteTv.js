@@ -1,56 +1,71 @@
 import { auth, signOut, onAuthStateChanged } from './firebase-config.js';
 
+let REMOTE_DATA = null;
+
+async function fetchRemoteData() {
+  try {
+    const response = await fetch('js/data.json');
+    if (response.ok) {
+      const data = await response.json();
+      console.log('Loaded remote data:', data.lastUpdated);
+      return data;
+    }
+  } catch (e) {
+    console.log('Using fallback data');
+  }
+  return null;
+}
+
 const TAB_DATA = {
   events: {
     events: [
-      { title: 'Apple WWDC 2025', date: 'June 9-13, 2025', description: 'Apple Worldwide Developers Conference', link: 'https://developer.apple.com/wwdc/', category: 'conference', icon: 'apple' },
-      { title: 'Google I/O 2025', date: 'May 14-15, 2025', description: 'Google Annual Developer Conference', link: 'https://io.google/', category: 'conference', icon: 'google' },
-      { title: 'Microsoft Build 2025', date: 'May 19-22, 2025', description: 'Microsoft Developer Conference', link: 'https://build.microsoft.com/', category: 'conference', icon: 'microsoft' },
-      { title: 'NVIDIA GTC 2025', date: 'March 17-21, 2025', description: 'GPU Technology Conference', link: 'https://www.nvidia.com/gtc/', category: 'conference', icon: 'nvidia' },
-      { title: 'React Conf 2025', date: 'May 2025', description: 'React Conference', link: 'https://reactconf.com/', category: 'conference', icon: 'react' },
-      { title: 'Black Hat 2025', date: 'August 2-7, 2025', description: 'Security Conference', link: 'https://www.blackhat.com/', category: 'conference', icon: 'security' },
-      { title: 'Tesla AI Day', date: 'TBA 2025', description: 'Tesla AI & Robotics Event', link: 'https://tesla.com/ai', category: 'event', icon: 'tesla' },
-      { title: 'Meta Connect 2025', date: 'September 2025', description: 'Meta AR/VR Conference', link: 'https://connect.facebook.com/', category: 'conference', icon: 'meta' },
-      { title: 'AWS re:Invent 2025', date: 'December 1-5, 2025', description: 'Amazon Web Services Conference', link: 'https://reinvent.awsevents.com/', category: 'conference', icon: 'aws' },
-      { title: 'GitHub Universe 2025', date: 'October 2025', description: 'GitHub Developer Conference', link: 'https://githubuniverse.com/', category: 'conference', icon: 'github' },
+      { title: 'NVIDIA GTC 2026', date: 'March 16-19, 2026', description: 'Premier AI conference in San Jose, CA', link: 'https://www.nvidia.com/gtc/', category: 'conference', icon: 'nvidia' },
+      { title: 'DeveloperWeek 2026', date: 'February 18-20, 2026', description: 'Largest developer conference & expo', link: 'https://www.developerweek.com/', category: 'conference', icon: 'developer' },
+      { title: 'Google I/O 2026', date: 'May 20-21, 2026', description: 'Google Annual Developer Conference', link: 'https://io.google/', category: 'conference', icon: 'google' },
+      { title: 'Apple WWDC 2026', date: 'June 2026', description: 'Apple Worldwide Developers Conference', link: 'https://developer.apple.com/wwdc/', category: 'conference', icon: 'apple' },
+      { title: 'Microsoft Build 2026', date: 'May 2026', description: 'Microsoft Developer Conference', link: 'https://build.microsoft.com/', category: 'conference', icon: 'microsoft' },
+      { title: 'NDC London 2026', date: 'January 26-30, 2026', description: 'Premier software development conference', link: 'https://ndc-london.com/', category: 'conference', icon: 'ndc' },
+      { title: 'Black Hat 2026', date: 'August 2026', description: 'Security Conference', link: 'https://www.blackhat.com/', category: 'conference', icon: 'security' },
+      { title: 'AWS re:Invent 2026', date: 'December 2026', description: 'Amazon Web Services Conference', link: 'https://reinvent.awsevents.com/', category: 'conference', icon: 'aws' },
+      { title: 'React Conf 2026', date: 'May 2026', description: 'React Conference', link: 'https://reactconf.com/', category: 'conference', icon: 'react' },
+      { title: 'FOSDEM 2026', date: 'January 31 - February 1, 2026', description: 'Free and Open Source Developers European Meeting', link: 'https://fosdem.org/', category: 'conference', icon: 'fosdem' },
     ],
     filters: ['all', 'conference', 'event', 'hackathon', 'launch', 'startups']
   },
 
   github: {
     repos: [
-      { name: 'oven-sh/bun', description: 'Incredibly fast JavaScript runtime', stars: 98000, language: 'Zig', url: 'https://github.com/oven-sh/bun', trending: 'hot' },
-      { name: 'github/docs', description: 'Documentation website for GitHub', stars: 16000, language: 'CSS', url: 'https://github.com/github/docs', trending: '' },
-      { name: 'oven-sh/winter', description: 'Universal rendering framework', stars: 45000, language: 'TypeScript', url: 'https://github.com/oven-sh/winter', trending: 'hot' },
-      { name: 'vercel/ai', description: 'Build AI-powered applications with Svelte, Vue, React, Solid', stars: 25000, language: 'TypeScript', url: 'https://github.com/vercel/ai', trending: '' },
-      { name: 'anthropics/claude-code', description: 'Claude Code CLI and SDK', stars: 22000, language: 'TypeScript', url: 'https://github.com/anthropics/claude-code', trending: 'hot' },
-      { name: 'openrouter/openrouter', description: 'Unified API for LLMs', stars: 8500, language: 'TypeScript', url: 'https://github.com/openrouter/openrouter', trending: '' },
-      { name: 'shadcn-ui/ui', description: 'Beautifully designed components', stars: 75000, language: 'TypeScript', url: 'https://github.com/shadcn-ui/ui', trending: 'hot' },
-      { name: 'mickael-kerjean/links', description: 'Your self-hosted shareboard', stars: 3200, language: 'TypeScript', url: 'https://github.com/mickael-kerjean/links', trending: '' },
-      { name: 'gpt-4o/canvas', description: 'AI-powered code editor', stars: 15000, language: 'TypeScript', url: 'https://github.com/gpt-4o/canvas', trending: '' },
-      { name: 'vlang/v', description: 'Simple, fast, safe compiled language', stars: 30000, language: 'V', url: 'https://github.com/vlang/v', trending: '' },
-      { name: 'n8n-io/n8n', description: 'Free and open workflow automation', stars: 38000, language: 'TypeScript', url: 'https://github.com/n8n-io/n8n', trending: '' },
-      { name: 'supabase/supabase', description: 'Open source Firebase alternative', stars: 115000, language: 'TypeScript', url: 'https://github.com/supabase/supabase', trending: '' },
-      { name: 'denoland/deno', description: 'Modern JavaScript runtime', stars: 95000, language: 'Rust', url: 'https://github.com/denoland/deno', trending: '' },
-      { name: 'flutter/flutter', description: 'Cross-platform UI toolkit', stars: 165000, language: 'Dart', url: 'https://github.com/flutter/flutter', trending: '' },
-      { name: 'rust-lang/rust', description: 'Empowering everyone to build reliable software', stars: 95000, language: 'Rust', url: 'https://github.com/rust-lang/rust', trending: '' },
+      { name: 'openclaw/openclaw', description: 'Your own personal AI assistant. Any OS. Any Platform.', stars: 194404, language: 'TypeScript', url: 'https://github.com/openclaw/openclaw', trending: 'hot' },
+      { name: 'anomalyco/opencode', description: 'The open source coding agent', stars: 104616, language: 'TypeScript', url: 'https://github.com/anomalyco/opencode', trending: 'hot' },
+      { name: 'anthropics/skills', description: 'Public repository for Agent Skills', stars: 69855, language: 'Python', url: 'https://github.com/anthropics/skills', trending: 'hot' },
+      { name: 'obra/superpowers', description: 'An agentic skills framework & software development methodology', stars: 51597, language: 'Shell', url: 'https://github.com/obra/superpowers', trending: 'hot' },
+      { name: 'remotion-dev/remotion', description: 'Make videos programmatically with React', stars: 36594, language: 'TypeScript', url: 'https://github.com/remotion-dev/remotion', trending: 'hot' },
+      { name: 'asgeirtj/system_prompts_leaks', description: 'Collection of extracted System Prompts from popular chatbots', stars: 31485, language: 'HTML', url: 'https://github.com/asgeirtj/system_prompts_leaks', trending: '' },
+      { name: 'thedotmack/claude-mem', description: 'Claude Code plugin that captures and compresses coding sessions', stars: 28205, language: 'TypeScript', url: 'https://github.com/thedotmack/claude-mem', trending: '' },
+      { name: 'KeygraphHQ/shannon', description: 'Fully autonomous AI hacker to find exploits in web apps', stars: 22021, language: 'TypeScript', url: 'https://github.com/KeygraphHQ/shannon', trending: 'hot' },
+      { name: 'vercel-labs/agent-skills', description: 'Vercel\'s official collection of agent skills', stars: 20357, language: 'JavaScript', url: 'https://github.com/vercel-labs/agent-skills', trending: 'hot' },
+      { name: 'badlogic/pi-mono', description: 'AI agent toolkit: coding agent CLI, unified LLM API, TUI & web UI', stars: 12072, language: 'TypeScript', url: 'https://github.com/badlogic/pi-mono', trending: '' },
+      { name: 'gsd-build/get-shit-done', description: 'Meta-prompting, context engineering and spec-driven development system', stars: 14055, language: 'JavaScript', url: 'https://github.com/gsd-build/get-shit-done', trending: '' },
+      { name: 'iOfficeAI/AionUi', description: 'Free, local, open-source 24/7 Cowork for Gemini CLI, Claude Code', stars: 15847, language: 'TypeScript', url: 'https://github.com/iOfficeAI/AionUi', trending: '' },
+      { name: 'VectifyAI/PageIndex', description: 'Document Index for Vectorless, Reasoning-based RAG', stars: 15104, language: 'Python', url: 'https://github.com/VectifyAI/PageIndex', trending: '' },
+      { name: 'virattt/dexter', description: 'An autonomous agent for deep financial research', stars: 15139, language: 'TypeScript', url: 'https://github.com/virattt/dexter', trending: '' },
+      { name: 'openai/skills', description: 'Skills Catalog for Codex', stars: 8504, language: 'Python', url: 'https://github.com/openai/skills', trending: '' },
     ],
     filters: ['all', 'hot', 'new', 'top']
   },
 
   podcasts: {
     podcasts: [
-      { name: 'Acquired', host: 'Ben & David', description: 'Tech company deep dives', image: 'acquired', link: 'https://www.acquired.fm/', category: 'business' },
-      { name: 'Lex Fridman', host: 'Lex Fridman', description: 'AI, consciousness, future', image: 'lex', link: 'https://lexfridman.com/podcast/', category: 'ai' },
-      { name: 'The Vergecast', host: 'The Verge Team', description: 'Weekly tech news', image: 'vergecast', link: 'https://www.theverge.com/', category: 'news' },
-      { name: 'Accidental Tech Podcast', host: 'Marco & Casey', description: 'Apple, tech, programming', image: 'atp', link: 'https://atp.fm/', category: 'apple' },
-      { name: 'Hard Fork', host: 'Casey & Kevin', description: 'Tech news and culture', image: 'hardfork', link: 'https://podcasts.apple.com/us/podcast/hard-fork/id1521431123', category: 'news' },
-      { name: 'Syntax', host: 'Wes & Scott', description: 'Web development tips', image: 'syntax', link: 'https://syntax.fm/', category: 'programming' },
-      { name: 'Changelog', host: 'Changelog Media', description: 'Open source & software', image: 'changelog', link: 'https://changelog.com/', category: 'programming' },
-      { name: 'Planet Money', host: 'NPR', description: 'Economics & business', image: 'planetmoney', link: 'https://www.npr.org/planetmoney/', category: 'business' },
-      { name: 'Waveform', host: 'MKBHD & Andrew', description: 'Tech reviews & deep dives', image: 'waveform', link: 'https://www.youtube.com/playlist?list=PLH9cR-NVtXBcxLmlS2J8a2VWGwR5H0tS', category: 'tech' },
-      { name: 'Darknet Diaries', host: 'Jack Rhysider', description: 'True hacker stories', image: 'darknet', link: 'https://darknetdiaries.com/', category: 'security' },
-      { name: 'Decoder', host: 'Nilay Patel', description: 'Big tech & business', image: 'decoder', link: 'https://www.theverge.com/decoder-podcast', category: 'business' },
+      { name: 'Acquired', host: 'Ben Thompson & David Perrett', description: 'Deep dives on great tech companies & business strategy', image: 'acquired', link: 'https://www.acquired.fm/', category: 'business' },
+      { name: 'The Stack Overflow Podcast', host: 'Stack Overflow', description: 'Conversations about code, development, and the future of tech', image: 'stackoverflow', link: 'https://stackoverflow.blog/podcast/', category: 'programming' },
+      { name: 'Lex Fridman Podcast', host: 'Lex Fridman', description: 'AI, robotics, neuroscience, and the future of humanity', image: 'lex', link: 'https://lexfridman.com/podcast/', category: 'ai' },
+      { name: 'Changelog', host: 'Jerod Santo & Adam Stacoviak', description: 'Open source, software, and web development', image: 'changelog', link: 'https://changelog.com/podcast', category: 'programming' },
+      { name: 'Hard Fork', host: 'Casey Newton & Kevin Roose', description: 'Tech news, culture, and where it all goes next', image: 'hardfork', link: 'https://podcasts.apple.com/us/podcast/hard-fork/id1521431123', category: 'news' },
+      { name: 'Waveform', host: 'MKBHD & Andrew', description: 'Tech reviews, deep dives, and behind the scenes', image: 'waveform', link: 'https://www.youtube.com/playlist?list=PLH9cR-NVtXBcxLmlS2J8a2VWGwR5H0tS', category: 'tech' },
+      { name: 'Decoder', host: 'Nilay Patel', description: 'Big tech, business, and power', image: 'decoder', link: 'https://www.theverge.com/decoder-podcast', category: 'business' },
+      { name: 'Darknet Diaries', host: 'Jack Rhysider', description: 'True stories from the dark side of the internet', image: 'darknet', link: 'https://darknetdiaries.com/', category: 'security' },
+      { name: 'Accidental Tech Podcast', host: 'Marco Arment & Casey Liss', description: 'Apple, tech, programming, and coffee', image: 'atp', link: 'https://atp.fm/', category: 'apple' },
+      { name: 'Syntax', host: 'Wes Bos & Scott Tolinski', description: 'Web development tips, tutorials, and advice', image: 'syntax', link: 'https://syntax.fm/', category: 'programming' },
     ],
     filters: ['all', 'news', 'programming', 'ai', 'business', 'security', 'apple']
   },
@@ -71,18 +86,18 @@ const TAB_DATA = {
 
   deals: {
     deals: [
-      { title: 'MacBook Pro M4', store: 'Apple', price: 1299, originalPrice: 1499, discount: '13%', link: '#', category: 'laptop', expires: 'Feb 28' },
-      { title: 'RTX 5080', store: 'NVIDIA', price: 999, originalPrice: 1199, discount: '17%', link: '#', category: 'gpu', expires: 'Mar 1' },
-      { title: 'Samsung 990 Pro 2TB', store: 'Amazon', price: 149, originalPrice: 199, discount: '25%', link: '#', category: 'storage', expires: 'Feb 25' },
-      { title: 'Sony WH-1000XM5', store: 'Amazon', price: 279, originalPrice: 399, discount: '30%', link: '#', category: 'audio', expires: 'Feb 23' },
-      { title: 'LG UltraGear 27" 4K', store: 'Best Buy', price: 399, originalPrice: 549, discount: '27%', link: '#', category: 'monitor', expires: 'Feb 28' },
-      { title: 'Keychron Q1 Pro', store: 'Amazon', price: 159, originalPrice: 199, discount: '20%', link: '#', category: 'keyboard', expires: 'Mar 5' },
-      { title: 'iPad Pro M4 11"', store: 'Apple', price: 799, originalPrice: 899, discount: '11%', link: '#', category: 'tablet', expires: 'Feb 28' },
-      { title: 'Razer Blade 16', store: 'Razer', price: 1999, originalPrice: 2499, discount: '20%', link: '#', category: 'laptop', expires: 'Mar 10' },
-      { title: 'Steam Deck OLED', store: 'Valve', price: 499, originalPrice: 549, discount: '9%', link: '#', category: 'gaming', expires: 'Mar 15' },
-      { title: 'Dell XPS 15', store: 'Dell', price: 1299, originalPrice: 1699, discount: '24%', link: '#', category: 'laptop', expires: 'Feb 28' },
-      { title: 'Corsair K100 RGB', store: 'Corsair', price: 169, originalPrice: 229, discount: '26%', link: '#', category: 'keyboard', expires: 'Mar 1' },
-      { title: 'Sony A7 IV', store: 'B&H Photo', price: 2098, originalPrice: 2498, discount: '16%', link: '#', category: 'camera', expires: 'Mar 5' },
+      { title: 'Apple MacBook Pro M5', store: 'B&H Photo', price: 1549, originalPrice: 1799, discount: '14%', link: 'https://www.bhphotovideo.com/', category: 'laptop', expires: 'Feb 28' },
+      { title: 'Alienware 16 Area-51 RTX 5070 Ti', store: 'Woot', price: 1999, originalPrice: 3100, discount: '35%', link: 'https://www.woot.com/', category: 'laptop', expires: 'Feb 23' },
+      { title: 'Lenovo ThinkPad X1 Carbon', store: 'Lenovo', price: 1299, originalPrice: 1919, discount: '32%', link: 'https://www.lenovo.com/', category: 'laptop', expires: 'Feb 24' },
+      { title: 'Acer Nitro V RTX 4050', store: 'Amazon', price: 649, originalPrice: 899, discount: '28%', link: 'https://www.amazon.com/', category: 'laptop', expires: 'Feb 25' },
+      { title: 'MSI Thin RTX 4060', store: 'Best Buy', price: 829, originalPrice: 1099, discount: '25%', link: 'https://www.bestbuy.com/', category: 'laptop', expires: 'Feb 26' },
+      { title: 'ASUS ROG Strix G16 RTX 5060', store: 'Amazon', price: 1399, originalPrice: 1799, discount: '22%', link: 'https://www.amazon.com/', category: 'laptop', expires: 'Feb 28' },
+      { title: 'Samsung 990 Pro 2TB', store: 'Amazon', price: 149, originalPrice: 199, discount: '25%', link: 'https://www.amazon.com/', category: 'storage', expires: 'Feb 25' },
+      { title: 'Sony WH-1000XM5', store: 'Amazon', price: 279, originalPrice: 399, discount: '30%', link: 'https://www.amazon.com/', category: 'audio', expires: 'Feb 23' },
+      { title: 'LG UltraGear 27" 4K', store: 'Best Buy', price: 399, originalPrice: 549, discount: '27%', link: 'https://www.bestbuy.com/', category: 'monitor', expires: 'Feb 28' },
+      { title: 'Keychron Q1 Pro', store: 'Amazon', price: 159, originalPrice: 199, discount: '20%', link: 'https://www.amazon.com/', category: 'keyboard', expires: 'Mar 5' },
+      { title: 'Steam Deck OLED', store: 'Valve', price: 499, originalPrice: 549, discount: '9%', link: 'https://store.steampowered.com/', category: 'gaming', expires: 'Mar 15' },
+      { title: 'Corsair K100 RGB', store: 'Amazon', price: 169, originalPrice: 229, discount: '26%', link: 'https://www.amazon.com/', category: 'keyboard', expires: 'Mar 1' },
     ],
     filters: ['all', 'laptop', 'gpu', 'monitor', 'keyboard', 'audio', 'storage', 'gaming', 'tablet', 'camera']
   }
@@ -104,7 +119,7 @@ let allData = [];
 let filteredData = [];
 let isLoading = false;
 let currentPage = 0;
-const ITEMS_PER_PAGE = 12;
+const ITEMS_PER_PAGE = 6;
 
 function escapeHtml(text) {
   if (!text) return '';
@@ -352,13 +367,6 @@ function renderPage(reset = false) {
   });
 
   contentArea.appendChild(grid);
-
-  if (hasMore) {
-    const loader = document.createElement('div');
-    loader.className = 'loading-more';
-    loader.innerHTML = '<div class="spinner"></div>';
-    contentArea.appendChild(loader);
-  }
 }
 
 function loadMore() {
@@ -461,7 +469,7 @@ async function initVideos() {
   const contentArea = document.getElementById('contentArea');
 
   if (contentArea) {
-    contentArea.innerHTML = '<div class="loading"><div class="spinner"></div><p>Loading...</p></div>';
+    contentArea.innerHTML = '';
   }
 
   tabButtons.forEach(btn => {
@@ -478,6 +486,14 @@ async function initVideos() {
       }
     });
   });
+
+  REMOTE_DATA = await fetchRemoteData();
+  if (REMOTE_DATA) {
+    TAB_DATA.events.events = REMOTE_DATA.events || TAB_DATA.events.events;
+    TAB_DATA.github.repos = REMOTE_DATA.github || TAB_DATA.github.repos;
+    TAB_DATA.podcasts.podcasts = REMOTE_DATA.podcasts || TAB_DATA.podcasts.podcasts;
+    TAB_DATA.deals.deals = REMOTE_DATA.deals || TAB_DATA.deals.deals;
+  }
 
   const dataKey = getDataKey(currentTab);
   const tabData = TAB_DATA[currentTab]?.[dataKey] || [];
