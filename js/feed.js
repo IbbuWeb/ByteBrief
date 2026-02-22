@@ -26,6 +26,18 @@ const searchInput = document.getElementById('searchInput');
 const clearSearchBtn = document.getElementById('clearSearch');
 
 let searchQuery = '';
+let sharedArticleUrl = null;
+
+function getSharedArticleFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const sharedUrl = params.get('article');
+  const ref = params.get('ref');
+  
+  if (sharedUrl && ref === 'shared') {
+    return decodeURIComponent(sharedUrl);
+  }
+  return null;
+}
 
 function initTheme() {
   const savedTheme = localStorage.getItem('theme') || 'dark';
@@ -50,15 +62,25 @@ if (mobileThemeToggle) {
 onAuthStateChanged(auth, async (user) => {
   initTheme();
   
+  sharedArticleUrl = getSharedArticleFromUrl();
+  
   if (!user) {
-    window.location.href = 'login.html';
+    if (sharedArticleUrl) {
+      window.location.href = `login.html?redirect=index.html?ref=shared&article=${encodeURIComponent(sharedArticleUrl)}`;
+    } else {
+      window.location.href = 'login.html';
+    }
     return;
   }
 
   if (isSessionExpired()) {
     clearSession();
     await signOut(auth);
-    window.location.href = 'login.html';
+    if (sharedArticleUrl) {
+      window.location.href = `login.html?redirect=index.html?ref=shared&article=${encodeURIComponent(sharedArticleUrl)}`;
+    } else {
+      window.location.href = 'login.html';
+    }
     return;
   }
 
@@ -107,6 +129,10 @@ async function loadFeed() {
     feedGrid.innerHTML = '';
     showNextBatch();
     loadMissingThumbnails(allArticles);
+    
+    if (sharedArticleUrl) {
+      setTimeout(() => scrollToSharedArticle(), 500);
+    }
   } catch (error) {
     console.error('Error loading feed:', error);
     feedGrid.innerHTML = `
@@ -505,15 +531,30 @@ function setupEventListeners() {
 
   if (feedGrid) {
     feedGrid.addEventListener('click', async (e) => {
+      const card = e.target.closest('.article-card');
       const saveBtn = e.target.closest('.save-btn');
+      const shareBtn = e.target.closest('.share-btn');
+      const readMoreBtn = e.target.closest('.read-more');
+      const titleLink = e.target.closest('.card-title a');
+      
       if (saveBtn) {
         await toggleSaveArticle(saveBtn);
         return;
       }
       
-      const shareBtn = e.target.closest('.share-btn');
       if (shareBtn) {
         await shareArticle(shareBtn);
+        return;
+      }
+      
+      if (titleLink) {
+        e.preventDefault();
+        openArticleModal(card);
+        return;
+      }
+      
+      if (card && !readMoreBtn) {
+        openArticleModal(card);
         return;
       }
     });
@@ -583,23 +624,24 @@ async function shareArticle(btn) {
   const link = btn.dataset.link;
   const title = btn.dataset.title;
   const source = btn.dataset.source;
+  const baseUrl = window.location.origin + window.location.pathname.replace('index.html', '');
+  const shareUrl = `${baseUrl}?ref=shared&article=${encodeURIComponent(link)}`;
   const shareText = `Check out this article on ByteBrief: ${title}`;
-  const shareUrl = window.location.origin + '/?ref=shared&utm_source=shared&utm_medium=share&utm_campaign=bytebrief';
 
   if (navigator.share) {
     try {
       await navigator.share({
-        title: title,
+        title: title + ' - ByteBrief',
         text: shareText,
-        url: link
+        url: shareUrl
       });
     } catch (err) {
       if (err.name !== 'AbortError') {
-        copyToClipboard(link);
+        copyToClipboard(shareUrl);
       }
     }
   } else {
-    copyToClipboard(link);
+    copyToClipboard(shareUrl);
   }
 }
 
@@ -629,4 +671,84 @@ function showToast(message, type = 'success') {
   toast.querySelector('.toast-message').textContent = message;
   toast.className = `toast ${type} show`;
   setTimeout(() => toast.classList.remove('show'), 3000);
+}
+
+function scrollToSharedArticle() {
+  if (!sharedArticleUrl || !feedGrid) return;
+  
+  const cards = feedGrid.querySelectorAll('.article-card');
+  for (const card of cards) {
+    const readMoreLink = card.querySelector('.read-more');
+    if (readMoreLink && readMoreLink.href === sharedArticleUrl) {
+      card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      card.classList.add('highlight-shared');
+      setTimeout(() => card.classList.remove('highlight-shared'), 3000);
+      
+      const url = new URL(window.location.href);
+      url.searchParams.delete('ref');
+      url.searchParams.delete('article');
+      window.history.replaceState({}, '', url);
+      sharedArticleUrl = null;
+      showToast('Opening shared article');
+      return;
+    }
+  }
+  
+  const moreLink = document.querySelector('.load-more-btn');
+  if (moreLink) {
+    moreLink.click();
+    setTimeout(() => scrollToSharedArticle(), 500);
+  }
+}
+
+function openArticleModal(card) {
+  const title = card.querySelector('.card-title a')?.textContent;
+  const link = card.querySelector('.read-more')?.href;
+  const description = card.querySelector('.card-excerpt')?.textContent;
+  const source = card.querySelector('.card-source')?.textContent;
+  const date = card.querySelector('.card-date')?.textContent;
+  const author = card.querySelector('.card-author')?.textContent;
+  const imageContainer = card.querySelector('.card-image');
+  const image = imageContainer?.querySelector('img')?.src;
+
+  const modal = document.getElementById('articleModal');
+  const modalImage = document.getElementById('modalImage');
+  const modalSource = document.getElementById('modalSource');
+  const modalTitle = document.getElementById('modalTitle');
+  const modalMeta = document.getElementById('modalMeta');
+  const modalDescription = document.getElementById('modalDescription');
+  const modalReadMore = document.querySelector('.modal-read-more');
+  const modalClose = modal?.querySelector('.modal-close');
+  const modalBackdrop = modal?.querySelector('.modal-backdrop');
+
+  if (!modal) return;
+
+  if (image) {
+    modalImage.innerHTML = `<img src="${escapeHtml(image)}" alt="">`;
+  } else {
+    modalImage.innerHTML = `<div class="placeholder"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg></div>`;
+  }
+  modalSource.textContent = source || '';
+  modalTitle.textContent = title || '';
+  modalMeta.textContent = author ? `${author} · ${date}` : (date || '');
+  modalDescription.textContent = description || '';
+  modalReadMore.href = link || '#';
+
+  modal.classList.add('active');
+  document.body.style.overflow = 'hidden';
+
+  const closeModal = () => {
+    modal.classList.remove('active');
+    document.body.style.overflow = '';
+  };
+
+  modalClose?.addEventListener('click', closeModal, { once: true });
+  modalBackdrop?.addEventListener('click', closeModal, { once: true });
+  
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') {
+      closeModal();
+      document.removeEventListener('keydown', closeModal);
+    }
+  }, { once: true });
 }

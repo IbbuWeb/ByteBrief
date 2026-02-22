@@ -123,6 +123,11 @@ const RSS_FEEDS = [
     url: 'https://tech.eu/feed/',
     source: 'Tech.eu',
     category: 'tech'
+  },
+  {
+    url: 'https://www.reddit.com/r/technology/.rss',
+    source: 'Reddit Tech',
+    category: 'tech'
   }
 ];
 

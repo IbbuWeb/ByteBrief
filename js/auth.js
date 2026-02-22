@@ -7,6 +7,12 @@ const googleSignUpBtn = document.getElementById('googleSignUpBtn');
 const googleLoginBtn = document.getElementById('googleLoginBtn');
 let isSigningIn = false;
 
+function getRedirectUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const redirect = params.get('redirect');
+  return redirect || 'index.html';
+}
+
 async function handleGoogleAuth(isNewUser) {
   if (isSigningIn) return;
   isSigningIn = true;
@@ -26,9 +32,10 @@ async function handleGoogleAuth(isNewUser) {
 
     const userDocRef = doc(db, 'users', user.uid);
     const userDoc = await getDoc(userDocRef);
+    const redirectUrl = getRedirectUrl();
 
     if (userDoc.exists()) {
-      window.location.href = 'index.html';
+      window.location.href = redirectUrl;
     } else {
       window.location.href = 'onboarding.html';
     }
@@ -67,9 +74,10 @@ async function checkUserProfile(user) {
   try {
     const userDocRef = doc(db, 'users', user.uid);
     const userDoc = await getDoc(userDocRef);
+    const redirectUrl = getRedirectUrl();
 
     if (userDoc.exists()) {
-      window.location.href = 'index.html';
+      window.location.href = redirectUrl;
     } else {
       window.location.href = 'onboarding.html';
     }
