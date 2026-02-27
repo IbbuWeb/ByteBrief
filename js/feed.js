@@ -24,6 +24,7 @@ const themeToggle = document.getElementById('themeToggle');
 const mobileThemeToggle = document.getElementById('mobileThemeToggle');
 const searchInput = document.getElementById('searchInput');
 const clearSearchBtn = document.getElementById('clearSearch');
+const backToTopBtn = document.getElementById('backToTop');
 
 let searchQuery = '';
 let sharedArticleUrl = null;
@@ -573,6 +574,20 @@ function setupEventListeners() {
       const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
       mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
       mobileNav.classList.toggle('active');
+    });
+  }
+
+  if (backToTopBtn) {
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 400) {
+        backToTopBtn.classList.add('visible');
+      } else {
+        backToTopBtn.classList.remove('visible');
+      }
+    });
+
+    backToTopBtn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
     });
   }
 }
