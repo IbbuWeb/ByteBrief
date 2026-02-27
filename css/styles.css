@@ -1663,3 +1663,56 @@ button {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+.back-to-top {
+  position: fixed;
+  bottom: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  width: 48px;
+  height: 48px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--text-secondary);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all var(--transition);
+  box-shadow: var(--shadow-md);
+}
+
+.back-to-top.visible {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(-50%) translateY(0);
+}
+
+.back-to-top:hover {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  transform: translateX(-50%) translateY(-4px);
+  box-shadow: 0 4px 16px rgba(99, 102, 241, 0.35);
+}
+
+.back-to-top svg {
+  width: 22px;
+  height: 22px;
+}
+
+@media (max-width: 768px) {
+  .back-to-top {
+    bottom: 80px;
+    width: 44px;
+    height: 44px;
+  }
+
+  .back-to-top:hover {
+    transform: translateX(-50%) translateY(0);
+  }
+}
