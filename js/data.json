@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-11-06T10:03:54.876Z",
+  "generatedAt": "2026-11-06T10:14:41.592Z",
   "articles": [
+    {
+      "id": "e804e0e79289",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "description": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/11/TauRobot-3up.jpg?resize=1200,600",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-06T10:00:00.000Z",
+      "categories": [
+        "hardware",
+        "ai"
+      ],
+      "author": "Grace Huckins"
+    },
     {
       "id": "af31ad637890",
       "title": "Elon Musk appears to signal the end of the road for Cybertruck",
@@ -73,7 +87,7 @@
       "id": "52dfe62e2033",
       "title": "Living Maps: Bay Area tech since 1960s",
       "link": "https://tomorrowasusual.com/living-maps/bay-area-tech/",
-      "description": "5 points · 5 comments",
+      "description": "6 points · 5 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T08:08:19.000Z",
@@ -86,7 +100,7 @@
       "id": "4d8ea370c2b8",
       "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
       "link": "https://obelisk.club/research/app-store-2026",
-      "description": "27 points · 17 comments",
+      "description": "31 points · 24 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:59:19.000Z",
@@ -97,23 +111,10 @@
       "author": "Peter216"
     },
     {
-      "id": "ec6f605beae8",
-      "title": "Does the Neuroslop Enrichment Real?",
-      "link": "https://github.com/notlibrary/USSR",
-      "description": "4 points · 0 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-06T07:59:15.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "notlibrary"
-    },
-    {
       "id": "c5045ba62773",
       "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
       "link": "https://worldstrike.fun/",
-      "description": "35 points · 14 comments",
+      "description": "40 points · 18 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:55:48.000Z",
@@ -140,7 +141,7 @@
       "id": "df89720934de",
       "title": "Kugelblitz – Mac-Native Google Earth Alternative",
       "link": "https://apps.metaebene.me/en/kugelblitz",
-      "description": "53 points · 6 comments",
+      "description": "58 points · 6 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:47:38.000Z",
@@ -153,7 +154,7 @@
       "id": "3a41e3472432",
       "title": "Blender's UI and Runtime: Much Faster Than GPUI",
       "link": "https://github.com/ppmpreetham/BUI",
-      "description": "131 points · 46 comments",
+      "description": "149 points · 57 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:40:35.000Z",
@@ -179,7 +180,7 @@
       "id": "d19493e485c8",
       "title": "Hardcoded credentials and other issues in Tata Motors App",
       "link": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
-      "description": "16 points · 5 comments",
+      "description": "20 points · 5 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:28:39.000Z",
@@ -206,7 +207,7 @@
       "id": "ad265c5605cb",
       "title": "Britain to make salary disclosure in job ads mandatory",
       "link": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
-      "description": "157 points · 144 comments",
+      "description": "167 points · 165 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:22:04.000Z",
@@ -302,6 +303,20 @@
       "author": "/u/l3tsgo0 https://www.reddit.com/user/l3tsgo0"
     },
     {
+      "id": "3abd24bfc9c6",
+      "title": "I struggle to believe that AI R&D is ingenious",
+      "link": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+      "description": "83 points · 71 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T05:19:04.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "porridgeraisin"
+    },
+    {
       "id": "4720393fd82f",
       "title": "AI agents are a 'bane' for some website operators, says Cloudflare",
       "link": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
@@ -319,7 +334,7 @@
       "id": "d54bee17fb9e",
       "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
       "link": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
-      "description": "76 points · 33 comments",
+      "description": "84 points · 34 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T04:17:49.000Z",
@@ -346,7 +361,7 @@
       "id": "d2bb7ea65855",
       "title": "Pwn.college",
       "link": "https://pwn.college/",
-      "description": "147 points · 19 comments",
+      "description": "151 points · 20 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T03:27:14.000Z",
@@ -359,7 +374,7 @@
       "id": "b95f6aa29001",
       "title": "Nvidia Kubernetes Engine (NVKE)",
       "link": "https://github.com/dsx-ai-factory/nvke",
-      "description": "76 points · 20 comments",
+      "description": "77 points · 20 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T03:16:26.000Z",
@@ -497,7 +512,7 @@
       "id": "8a3c39376664",
       "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
       "link": "https://github.com/matthewmrichter/mooftcp",
-      "description": "47 points · 20 comments",
+      "description": "48 points · 20 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T00:54:15.000Z",
@@ -632,7 +647,7 @@
       "id": "5eb6887e9b28",
       "title": "Inkling 2 Small",
       "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-      "description": "197 points · 67 comments",
+      "description": "198 points · 68 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T00:00:24.000Z",
@@ -726,7 +741,7 @@
       "id": "6f78e24cdb5b",
       "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
       "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "description": "325 points · 155 comments",
+      "description": "332 points · 156 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-05T23:09:57.000Z",
@@ -921,7 +936,7 @@
       "id": "3b58ffb304e7",
       "title": "Claude Code sends your email address to websites",
       "link": "https://github.com/anthropics/claude-code/issues/107757",
-      "description": "1122 points · 341 comments",
+      "description": "1138 points · 347 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-05T22:17:15.000Z",
@@ -2749,6 +2764,19 @@
       "author": "Scharon Harding"
     },
     {
+      "id": "64d5733662d4",
+      "title": "Best Wireless Chargers (2026): My Picks After Testing 100+",
+      "link": "https://www.wired.com/gallery/best-wireless-chargers/",
+      "description": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
+      "thumbnail": "https://media.wired.com/photos/6a0f6f4c9c4f912eb7592888/master/pass/Best%20Wireless%20Chargers%20top%20art%20052026%20SOURCE%20Amazon-Nomad%20Goods.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Simon Hill"
+    },
+    {
       "id": "b8ffbccf0ff9",
       "title": "AI’s Next Trick? Speaking Dolphin",
       "link": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
@@ -2762,19 +2790,6 @@
         "tech"
       ],
       "author": "Kate Taylor"
-    },
-    {
-      "id": "64d5733662d4",
-      "title": "Best Wireless Chargers (2026): My Picks After Testing 100+",
-      "link": "https://www.wired.com/gallery/best-wireless-chargers/",
-      "description": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
-      "thumbnail": "https://media.wired.com/photos/6a0f6f4c9c4f912eb7592888/master/pass/Best%20Wireless%20Chargers%20top%20art%20052026%20SOURCE%20Amazon-Nomad%20Goods.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Simon Hill"
     },
     {
       "id": "83f36695b350",
@@ -3268,19 +3283,6 @@
         "tech"
       ],
       "author": "Jada Jones"
-    },
-    {
-      "id": "943b2cb16dd8",
-      "title": "What’s next for US energy policy after the midterm elections?",
-      "link": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
-      "description": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two",
-      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/11/AP26306547843391.jpg?resize=1200,600",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-11-04T17:08:00.000Z",
-      "categories": [
-        "ai"
-      ],
-      "author": "Casey Crownhart"
     }
   ],
   "github": [
@@ -3288,7 +3290,7 @@
       "name": "NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
-      "stars": 8154,
+      "stars": 8168,
       "starsToday": 2679,
       "url": "https://github.com/NVIDIA/auto-ontology"
     },
@@ -3296,7 +3298,7 @@
       "name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 315981,
+      "stars": 315993,
       "starsToday": 2071,
       "url": "https://github.com/mattpocock/skills"
     },
@@ -3304,7 +3306,7 @@
       "name": "garrytan/gstack",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "stars": 140262,
+      "stars": 140268,
       "starsToday": 612,
       "url": "https://github.com/garrytan/gstack"
     },
@@ -3312,7 +3314,7 @@
       "name": "Usagi-org/ai-goofish-monitor",
       "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
       "language": "Python",
-      "stars": 18094,
+      "stars": 18100,
       "starsToday": 240,
       "url": "https://github.com/Usagi-org/ai-goofish-monitor"
     },
@@ -3320,7 +3322,7 @@
       "name": "D4Vinci/Scrapling",
       "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "language": "Python",
-      "stars": 98490,
+      "stars": 98499,
       "starsToday": 1655,
       "url": "https://github.com/D4Vinci/Scrapling"
     },
@@ -3328,7 +3330,7 @@
       "name": "vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
-      "stars": 17564,
+      "stars": 17580,
       "starsToday": 2173,
       "url": "https://github.com/vercel-labs/agent-desktop"
     },
@@ -3336,7 +3338,7 @@
       "name": "max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "stars": 11694,
+      "stars": 11696,
       "starsToday": 546,
       "url": "https://github.com/max-sixty/worktrunk"
     },
@@ -3344,7 +3346,7 @@
       "name": "lz4/lz4",
       "description": "Extremely Fast Compression algorithm",
       "language": "C",
-      "stars": 12507,
+      "stars": 12511,
       "starsToday": 23,
       "url": "https://github.com/lz4/lz4"
     },
@@ -3352,7 +3354,7 @@
       "name": "google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "stars": 22583,
+      "stars": 22586,
       "starsToday": 211,
       "url": "https://github.com/google/skills"
     },
@@ -3360,7 +3362,7 @@
       "name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 46183,
+      "stars": 46187,
       "starsToday": 150,
       "url": "https://github.com/vercel-labs/agent-browser"
     },
@@ -3368,7 +3370,7 @@
       "name": "scenario-labs/skills",
       "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
       "language": "Python",
-      "stars": 3306,
+      "stars": 3315,
       "starsToday": 667,
       "url": "https://github.com/scenario-labs/skills"
     },
@@ -3376,7 +3378,7 @@
       "name": "ConardLi/garden-skills",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
       "language": "JavaScript",
-      "stars": 14412,
+      "stars": 14418,
       "starsToday": 175,
       "url": "https://github.com/ConardLi/garden-skills"
     }
@@ -3460,10 +3462,10 @@
       "link": "https://podcasts.apple.com/us/podcast/waveform-the-mkbhd-podcast/id1474429475?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/92/dd/8e/92dd8eed-43ec-dc47-50ae-c1ec7c0a3353/mza_3861776104886813687.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "Is The \"PROLED\" Macbook Any Good?",
-        "publishedAt": "2026-10-30T08:00:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/is-the-proled-macbook-any-good/id1474429475?i=1000798853717&uo=4",
-        "duration": 7325000
+        "title": "Instagram Wants to be YouTube Now?”",
+        "publishedAt": "2026-11-06T09:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/instagram-wants-to-be-youtube-now/id1474429475?i=1000800214818&uo=4",
+        "duration": 5995000
       }
     },
     {
