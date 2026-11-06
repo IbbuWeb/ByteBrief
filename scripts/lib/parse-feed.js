@@ -236,26 +236,26 @@ function looksLikeImage(url, extra = '') {
   return /\.(jpe?g|png|webp|gif|avif)(\?|#|$)/i.test(url);
 }
 
-function normalizeImage(raw = '') {
+function normalizeImage(raw = '', extra = '') {
   const value = decodeEntities(raw).trim();
   if (!value) return null;
   if (value.startsWith('//')) return normalizeUrl(`https:${value}`);
   const url = normalizeUrl(value);
   if (!url) return null;
-  return looksLikeImage(url) ? url : null;
+  return looksLikeImage(url, extra) ? url : null;
 }
 
 function getThumbnail(raw) {
   const mediaTags = [...raw.matchAll(/<media:(?:thumbnail|content)\b([^>]*)\/?>/gi)];
   for (const match of mediaTags) {
     const url = match[1].match(/url=["']([^"']+)["']/i)?.[1];
-    if (url && looksLikeImage(url, match[1])) return normalizeImage(url);
+    if (url && looksLikeImage(url, match[1])) return normalizeImage(url, match[1]);
   }
 
   const enclosure = raw.match(/<enclosure\b([^>]*)\/?>/i);
   if (enclosure) {
     const url = enclosure[1].match(/url=["']([^"']+)["']/i)?.[1];
-    if (url && looksLikeImage(url, enclosure[1])) return normalizeImage(url);
+    if (url && looksLikeImage(url, enclosure[1])) return normalizeImage(url, enclosure[1]);
   }
 
   const imageTag = raw.match(/<img\b[^>]*src=["']([^"']+)["']/i)?.[1];
@@ -268,6 +268,32 @@ function getAuthor(raw) {
     extractTag(raw, 'author') ||
     '';
   return stripHtml(value).slice(0, 80) || null;
+}
+
+function extractOgImage(html = '', baseUrl = '') {
+  if (typeof html !== 'string' || !html) return null;
+
+  const patterns = [
+    /<meta[^>]+(?:property|name)=["']og:image(?::url)?["'][^>]*content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["']og:image(?::url)?["']/i,
+    /<meta[^>]+(?:property|name)=["']twitter:image(?::src)?["'][^>]*content=["']([^"']+)["']/i,
+    /<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["']twitter:image(?::src)?["']/i
+  ];
+
+  for (const pattern of patterns) {
+    const raw = html.match(pattern)?.[1];
+    if (!raw) continue;
+
+    try {
+      const absolute = new URL(decodeEntities(raw).trim(), baseUrl || undefined).href;
+      const normalized = normalizeUrl(absolute);
+      if (normalized) return normalized;
+    } catch {
+      // Try the next metadata tag.
+    }
+  }
+
+  return null;
 }
 
 function parseDate(input) {
@@ -393,5 +419,6 @@ module.exports = {
   parseFeed,
   detectCategories,
   parseDate,
+  extractOgImage,
   dedupeArticles
 };

@@ -22,7 +22,7 @@ python -m http.server 8000
 
 ## Architecture
 
-- `css/styles.css` is the only stylesheet. It contains tokens for dark/light, the 12-column bento grid, cards, navigation, auth/onboarding, prose pages, modal, skeletons, and breakpoints at 1100px, 720px, and 420px.
+- `css/styles.css` is the only stylesheet. It contains tokens for dark/light, the 12-column editorial grid, cards, navigation, auth/onboarding, prose pages, modal, skeletons, and breakpoints at 1100px, 720px, and 420px. Newsreader is the display face; Roboto is the text face.
 - `js/shared.js` owns the repeated shell: header/footer/bottom nav injection, theme, lazy Firebase loading, safe URLs, escaping, data loading, saved-article helpers, sharing, and card renderers.
 - Each page has one controller: `home.js`, `hub.js`, `saved.js`, `profile.js`, `auth.js`, `onboarding.js`.
 - Static pages (`about`, `privacy`, `terms`, `404`) inject the shell with an inline module import of `initShell`.

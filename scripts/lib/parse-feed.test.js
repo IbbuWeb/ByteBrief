@@ -8,6 +8,7 @@ const {
   parseFeed,
   detectCategories,
   parseDate,
+  extractOgImage,
   dedupeArticles
 } = require('./parse-feed');
 
@@ -69,6 +70,19 @@ test('parseFeed parses RSS with CDATA, media thumbnail and author', () => {
   assert.match(article.id, /^[a-f0-9]{12}$/);
 });
 
+test('parseFeed keeps extensionless image URLs declared as images', () => {
+  const xml = `<rss><channel>
+    <item>
+      <title>Register story</title>
+      <link>https://example.com/story</link>
+      <enclosure url="https://image.example.com/?imageId=42&amp;width=800" type="image/jpeg" />
+    </item>
+  </channel></rss>`;
+
+  const [article] = parseFeed(xml, { source: 'Example', category: 'tech' });
+  assert.equal(article.thumbnail, 'https://image.example.com/?imageId=42&width=800');
+});
+
 test('parseFeed parses Atom entries', () => {
   const xml = `<?xml version="1.0"?>
     <feed xmlns="http://www.w3.org/2005/Atom">
@@ -128,6 +142,26 @@ test('parseDate rejects junk and returns ISO UTC', () => {
   assert.equal(parseDate('not a date'), null);
   assert.equal(parseDate(''), null);
   assert.equal(parseDate('Wed, 05 Nov 2026 10:00:00 GMT'), '2026-11-05T10:00:00.000Z');
+});
+
+test('extractOgImage reads social image metadata in either attribute order', () => {
+  assert.equal(
+    extractOgImage('<meta property="og:image" content="https://example.com/a.jpg">'),
+    'https://example.com/a.jpg'
+  );
+  assert.equal(
+    extractOgImage('<meta content="/img/b.jpg" name="og:image">', 'https://example.com/story'),
+    'https://example.com/img/b.jpg'
+  );
+  assert.equal(
+    extractOgImage('<meta content="https://example.com/c.jpg" name="twitter:image">'),
+    'https://example.com/c.jpg'
+  );
+  assert.equal(
+    extractOgImage('<meta property="og:image" content="data:image/png;base64,abc">'),
+    null
+  );
+  assert.equal(extractOgImage('<p>no image</p>'), null);
 });
 
 test('dedupeArticles collapses the same story across sources', () => {

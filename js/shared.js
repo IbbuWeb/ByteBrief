@@ -207,9 +207,8 @@ function headerMarkup(page) {
 
   return `
     <div class="shell nav-shell">
-      <a class="brand" href="index.html" aria-label="ByteBrief home">
-        <span class="brand-mark" aria-hidden="true">B</span>
-        <span class="brand-name">ByteBrief</span>
+      <a class="brand" href="index.html">
+        <img class="brand-wordmark" src="assets/bytebrief-wordmark.png" alt="ByteBrief" width="500" height="96">
       </a>
       <nav class="primary-nav" aria-label="Primary">
         ${nav
@@ -236,8 +235,7 @@ function footerMarkup() {
     <div class="shell footer-grid">
       <div class="footer-brand">
         <a class="brand" href="index.html">
-          <span class="brand-mark" aria-hidden="true">B</span>
-          <span class="brand-name">ByteBrief</span>
+          <img class="brand-wordmark" src="assets/bytebrief-wordmark.png" alt="ByteBrief" width="500" height="96">
         </a>
         <p>One clean brief for the parts of tech that matter. Headlines from 26 publications, refreshed every three hours, with no invented numbers.</p>
       </div>

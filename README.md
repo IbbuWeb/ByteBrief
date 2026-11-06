@@ -1,6 +1,6 @@
 # ByteBrief
 
-A public tech brief with a bento-grid interface and real, automatically refreshed data. No invented deals, viewer counts, prices, or dates.
+A public tech brief with an editorial grid and real, automatically refreshed data. No invented deals, viewer counts, prices, or dates.
 
 **Live site:** https://ibbuweb.github.io/ByteBrief/
 

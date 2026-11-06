@@ -6,8 +6,8 @@
   "start_url": "/ByteBrief/",
   "scope": "/ByteBrief/",
   "display": "standalone",
-  "background_color": "#090b11",
-  "theme_color": "#090b11",
+  "background_color": "#171410",
+  "theme_color": "#171410",
   "lang": "en",
   "categories": ["news", "technology"],
   "icons": [

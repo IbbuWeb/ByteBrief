@@ -5,7 +5,8 @@ const {
   parseFeed,
   dedupeArticles,
   stripHtml,
-  decodeEntities
+  decodeEntities,
+  extractOgImage
 } = require('./lib/parse-feed');
 
 const DATA_FILE = path.join(__dirname, '..', 'js', 'data.json');
@@ -16,6 +17,8 @@ const USER_AGENT =
 const MAX_ARTICLES = 240;
 const PER_SOURCE_LIMIT = 15;
 const CONCURRENCY = 6;
+const OG_ENRICH_LIMIT = 80;
+const OG_ENRICH_CONCURRENCY = 6;
 
 const SOURCES = [
   { name: 'TechCrunch', url: 'https://techcrunch.com/feed/', category: 'startups' },
@@ -218,6 +221,61 @@ function cleanDescription(source, description) {
   return value.slice(0, 300);
 }
 
+function isPublisherLink(article) {
+  const source = SOURCES.find(entry => entry.name === article.source);
+  if (!source) return false;
+
+  try {
+    const articleHost = new URL(article.link).hostname.replace(/^www\./, '');
+    const feedHost = new URL(source.url).hostname.replace(/^www\./, '');
+    return articleHost === feedHost || articleHost.endsWith(`.${feedHost}`);
+  } catch {
+    return false;
+  }
+}
+
+async function enrichThumbnails(articles, previous) {
+  const cached = new Map(
+    (previous.articles || [])
+      .filter(article => article.link && article.thumbnail)
+      .map(article => [article.link, article.thumbnail])
+  );
+
+  const missing = [];
+  for (const article of articles) {
+    if (article.thumbnail) continue;
+
+    const cachedImage = cached.get(article.link);
+    if (cachedImage) {
+      article.thumbnail = cachedImage;
+      continue;
+    }
+
+    // Only fetch pages on the publisher's own host, never arbitrary HN targets.
+    if (missing.length < OG_ENRICH_LIMIT && isPublisherLink(article)) {
+      missing.push(article);
+    }
+  }
+
+  if (missing.length === 0) return articles;
+
+  console.log(`  Thumbnails: reading og:image for ${missing.length} stories`);
+
+  await mapLimit(missing, OG_ENRICH_CONCURRENCY, async article => {
+    try {
+      const html = await fetchText(article.link, {
+        Accept: 'text/html,application/xhtml+xml'
+      });
+      const image = extractOgImage(html, article.link);
+      if (image) article.thumbnail = image;
+    } catch (error) {
+      console.warn(`  ! ${article.source} thumbnail: ${error.message}`);
+    }
+  });
+
+  return articles;
+}
+
 async function fetchArticles(previous) {
   const failedSources = new Set();
   let freshCount = 0;
@@ -266,6 +324,8 @@ async function fetchArticles(previous) {
       return bTime - aTime;
     })
     .slice(0, MAX_ARTICLES);
+
+  articles = await enrichThumbnails(articles, previous);
 
   console.log(
     `  Articles: ${articles.length} kept from ${SOURCES.length - failedSources.size}/${SOURCES.length} feeds`

@@ -1,12 +1,25 @@
 {
-  "generatedAt": "2026-11-06T09:47:09.323Z",
+  "generatedAt": "2026-11-06T10:03:54.876Z",
   "articles": [
+    {
+      "id": "af31ad637890",
+      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+      "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+      "description": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1994/live/ff7af2d0-d9bd-11f1-a00c-673f8daaffd9.jpg",
+      "source": "BBC Technology",
+      "publishedAt": "2026-11-06T09:57:04.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": null
+    },
     {
       "id": "a4f64ed53360",
       "title": "NHS wants a second opinion on Palantir's glowing self-assessments",
       "link": "https://www.theregister.com/public-sector/2026/11/06/nhs-wants-a-second-opinion-on-palantirs-glowing-self-assessments/5307809",
       "description": "Supplier told to clear benefit claims with health chiefs, though enforcing approval could prove tricky",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=5297443&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-06T09:30:00.000Z",
       "categories": [
@@ -19,7 +32,7 @@
       "title": "Britain's tech ambitions depend on minerals made in China, MPs warn",
       "link": "https://www.theregister.com/public-sector/2026/11/06/britains-tech-ambitions-depend-on-minerals-made-in-china-mps-warn/5307779",
       "description": "Committee can't confidently tick off any of government's ten supply security tests, with alternatives a decade away",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=5307805&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-06T09:30:00.000Z",
       "categories": [
@@ -33,7 +46,7 @@
       "title": "MetaMask says recent attack didn't affect wallet infrastructure",
       "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
       "description": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/06/Metamask.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-06T09:22:28.000Z",
       "categories": [
@@ -46,7 +59,7 @@
       "title": "Welcome to life in the chip age",
       "link": "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/",
       "description": "Ryan sits down with Rakesh Kumar, professor of computer engineering at the University of Illinois Urbana-Champaign, about the astounding complexity of manufacturing modern semiconductors, the massive environmental and geopolitical footprint of AI data centers, and how AI models are rapidly shifting",
-      "thumbnail": null,
+      "thumbnail": "https://cdn.stackoverflow.co/images/jo7n4k8s/production/e35a0c5eb319e7928c9ac0a2c2c782d29e644876-3120x1640.png?rect=0,1,3120,1638&w=1200&h=630&auto=format",
       "source": "Stack Overflow Blog",
       "publishedAt": "2026-11-06T08:40:00.000Z",
       "categories": [
@@ -60,7 +73,7 @@
       "id": "52dfe62e2033",
       "title": "Living Maps: Bay Area tech since 1960s",
       "link": "https://tomorrowasusual.com/living-maps/bay-area-tech/",
-      "description": "5 points · 3 comments",
+      "description": "5 points · 5 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T08:08:19.000Z",
@@ -73,7 +86,7 @@
       "id": "4d8ea370c2b8",
       "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
       "link": "https://obelisk.club/research/app-store-2026",
-      "description": "23 points · 12 comments",
+      "description": "27 points · 17 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:59:19.000Z",
@@ -84,10 +97,23 @@
       "author": "Peter216"
     },
     {
+      "id": "ec6f605beae8",
+      "title": "Does the Neuroslop Enrichment Real?",
+      "link": "https://github.com/notlibrary/USSR",
+      "description": "4 points · 0 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T07:59:15.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "notlibrary"
+    },
+    {
       "id": "c5045ba62773",
       "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
       "link": "https://worldstrike.fun/",
-      "description": "31 points · 12 comments",
+      "description": "35 points · 14 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:55:48.000Z",
@@ -114,7 +140,7 @@
       "id": "df89720934de",
       "title": "Kugelblitz – Mac-Native Google Earth Alternative",
       "link": "https://apps.metaebene.me/en/kugelblitz",
-      "description": "43 points · 4 comments",
+      "description": "53 points · 6 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:47:38.000Z",
@@ -127,7 +153,7 @@
       "id": "3a41e3472432",
       "title": "Blender's UI and Runtime: Much Faster Than GPUI",
       "link": "https://github.com/ppmpreetham/BUI",
-      "description": "103 points · 34 comments",
+      "description": "131 points · 46 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:40:35.000Z",
@@ -141,7 +167,7 @@
       "title": "Safari's Autofill feature may be distorting time",
       "link": "https://www.theregister.com/applications/2026/11/06/safaris-autofill-feature-may-be-distorting-time/5308006",
       "description": "Repeated reports about inaccurate form filling have lingered for years",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=5308019&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-06T07:31:00.000Z",
       "categories": [
@@ -153,7 +179,7 @@
       "id": "d19493e485c8",
       "title": "Hardcoded credentials and other issues in Tata Motors App",
       "link": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
-      "description": "14 points · 6 comments",
+      "description": "16 points · 5 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:28:39.000Z",
@@ -180,7 +206,7 @@
       "id": "ad265c5605cb",
       "title": "Britain to make salary disclosure in job ads mandatory",
       "link": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
-      "description": "147 points · 124 comments",
+      "description": "157 points · 144 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:22:04.000Z",
@@ -209,7 +235,7 @@
       "title": "At least 10 local governments have moved to drop Flock’s surveillance cameras since summer",
       "link": "https://techcrunch.com/2026/11/05/at-least-10-local-governments-have-moved-to-drop-flocks-surveillance-cameras-since-summer/",
       "description": "The concerns range from privacy to how data is shared (and with whom) to procurement concerns.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/GettyImages-1463816688.jpg?resize=973,1200",
       "source": "TechCrunch",
       "publishedAt": "2026-11-06T07:18:44.000Z",
       "categories": [
@@ -220,11 +246,25 @@
       "author": "Dominic-Madori Davis"
     },
     {
+      "id": "bd89f6af30a3",
+      "title": "Vensum Power raises €9M to cut power losses in AI data centres, EV charging and energy storage",
+      "link": "https://tech.eu/2026/11/06/vensum-power-raises-eur9m-to-cut-power-losses-in-ai-data-centres-ev-charging-and-energy-storage/",
+      "description": "Finnish deeptech companyVensum Power has raised €9 million in a Series A funding round co-led byLifeline Ventures, Larsen & Toubro Group and Eviny Ventures. The investmentwill support the mass pro...",
+      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/vensumpower-featured-929.png",
+      "source": "Tech.eu",
+      "publishedAt": "2026-11-06T06:45:15.000Z",
+      "categories": [
+        "ai",
+        "startups"
+      ],
+      "author": "Tamara Djurickovic"
+    },
+    {
       "id": "dc955d2a85c4",
       "title": "Hospital gave very sick doctor a special PC for his personal, erm, pleasure",
       "link": "https://www.theregister.com/security/2026/11/06/hospital-gave-very-sick-doctor-a-special-pc-for-his-personal-erm-pleasure/5307750",
       "description": "Support chap told to either allow blatant policy violations or find a new job",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=222391&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-06T06:31:00.000Z",
       "categories": [
@@ -237,7 +277,7 @@
       "title": "Palo Alto Networks in talks to buy AI agent security startup Clutch for $500M",
       "link": "https://techcrunch.com/2026/11/05/palo-alto-networks-in-talks-to-buy-ai-agent-security-startup-clutch-for-500m/",
       "description": "Clutch, backed by Lightspeed and SignalFire, was last valued at $85 million, according to a source.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2025/07/GettyImages-2215666246.jpg?resize=1200,800",
       "source": "TechCrunch",
       "publishedAt": "2026-11-06T06:28:32.000Z",
       "categories": [
@@ -262,25 +302,11 @@
       "author": "/u/l3tsgo0 https://www.reddit.com/user/l3tsgo0"
     },
     {
-      "id": "3abd24bfc9c6",
-      "title": "I struggle to believe that AI R&D is ingenious",
-      "link": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
-      "description": "75 points · 64 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-06T05:19:04.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "porridgeraisin"
-    },
-    {
       "id": "4720393fd82f",
       "title": "AI agents are a 'bane' for some website operators, says Cloudflare",
       "link": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
       "description": "CEO says sovereigns probably exploited PHP2SHELL ages ago, and suggests containers are dead",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=239494&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-06T04:25:14.000Z",
       "categories": [
@@ -293,7 +319,7 @@
       "id": "d54bee17fb9e",
       "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
       "link": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
-      "description": "75 points · 32 comments",
+      "description": "76 points · 33 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T04:17:49.000Z",
@@ -320,7 +346,7 @@
       "id": "d2bb7ea65855",
       "title": "Pwn.college",
       "link": "https://pwn.college/",
-      "description": "145 points · 19 comments",
+      "description": "147 points · 19 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T03:27:14.000Z",
@@ -333,7 +359,7 @@
       "id": "b95f6aa29001",
       "title": "Nvidia Kubernetes Engine (NVKE)",
       "link": "https://github.com/dsx-ai-factory/nvke",
-      "description": "74 points · 19 comments",
+      "description": "76 points · 20 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T03:16:26.000Z",
@@ -417,7 +443,7 @@
       "title": "Threat actor targets Indian fintechs on weekends when defenders aren’t watching",
       "link": "https://www.theregister.com/security/2026/11/06/threat-actor-targets-indian-fintechs-on-weekends-when-defenders-arent-watching/5308000",
       "description": "CERT-IN warns of ‘significant escalation’ in AI-powered attacks, some after victims tried to improve defences",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=5308010&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-06T01:17:40.000Z",
       "categories": [
@@ -446,7 +472,7 @@
       "title": "FBI, CISA warn of cyberattacks targeting refrigeration systems",
       "link": "https://www.bleepingcomputer.com/news/security/fbi-cisa-warn-of-cyberattacks-targeting-refrigeration-systems/",
       "description": "The FBI and CISA warn that hackers are actively targeting industrial refrigeration and cold-chain monitoring systems worldwide, potentially causing food spoilage, equipment damage, and fire hazards. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/05/refrigeration-hot.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-06T00:56:44.000Z",
       "categories": [
@@ -471,7 +497,7 @@
       "id": "8a3c39376664",
       "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
       "link": "https://github.com/matthewmrichter/mooftcp",
-      "description": "46 points · 20 comments",
+      "description": "47 points · 20 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T00:54:15.000Z",
@@ -554,7 +580,7 @@
       "title": "The New York Times reportedly in talks to buy Letterboxd for $330 million",
       "link": "https://techcrunch.com/2026/11/05/the-new-york-times-reportedly-in-talks-to-buy-letterboxd-for-330-million/",
       "description": "Letterboxd, an online platform for movie lovers, has grown dramatically in recent years.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2025/02/GettyImages-2198481572_7937f4.jpg?resize=1200,800",
       "source": "TechCrunch",
       "publishedAt": "2026-11-06T00:07:18.000Z",
       "categories": [
@@ -594,7 +620,7 @@
       "title": "Meta, Google, and TikTok sue California AG over teen social media law",
       "link": "https://techcrunch.com/2026/11/05/meta-google-and-tiktok-sue-california-ag-over-teen-social-media-law/",
       "description": "If it goes into effect next year, this California law would restrict social media access for children under 16.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/03/GettyImages-2268918823.jpg?resize=1200,800",
       "source": "TechCrunch",
       "publishedAt": "2026-11-06T00:01:38.000Z",
       "categories": [
@@ -606,7 +632,7 @@
       "id": "5eb6887e9b28",
       "title": "Inkling 2 Small",
       "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-      "description": "195 points · 67 comments",
+      "description": "197 points · 67 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T00:00:24.000Z",
@@ -700,7 +726,7 @@
       "id": "6f78e24cdb5b",
       "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
       "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "description": "319 points · 153 comments",
+      "description": "325 points · 155 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-05T23:09:57.000Z",
@@ -786,7 +812,7 @@
       "title": "Airbnb says it’s launching an AI travel agent in the first half of 2027",
       "link": "https://techcrunch.com/2026/11/05/airbnb-says-its-launching-an-ai-travel-agent-in-the-first-half-of-2027/",
       "description": "Airbnb says its upcoming AI agent will help travelers plan trips, compare options, manage bookings, and get assistance throughout their stay.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2025/05/Airbnb-Summer-feat.jpg?resize=1200,675",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T22:40:55.000Z",
       "categories": [
@@ -800,7 +826,7 @@
       "title": "Feds warn grocers: Don't chill on cyber defenses as freezer hacking spree heats up",
       "link": "https://www.theregister.com/security/2026/11/05/feds-warn-grocers-dont-chill-on-cyber-defenses-as-freezer-hacking-spree-heats-up/5307978",
       "description": "No documented attacks against American supermarkets…yet",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=5303687&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-05T22:37:06.000Z",
       "categories": [
@@ -895,7 +921,7 @@
       "id": "3b58ffb304e7",
       "title": "Claude Code sends your email address to websites",
       "link": "https://github.com/anthropics/claude-code/issues/107757",
-      "description": "1100 points · 339 comments",
+      "description": "1122 points · 341 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-05T22:17:15.000Z",
@@ -923,7 +949,7 @@
       "title": "AWS Kiro aims to solve identity crisis by adding another identity: bot orchestrator",
       "link": "https://www.theregister.com/ai-and-ml/2026/11/05/aws-kiro-aims-to-solve-identity-crisis-by-adding-another-identity-bot-orchestrator/5307965",
       "description": "The cloud giant refits its agentic dev tools for agent orchestration",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=5307975&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-05T22:09:20.000Z",
       "categories": [
@@ -1044,7 +1070,7 @@
       "title": "Fake OpenAI, SpaceX events used to steal Microsoft, Google accounts",
       "link": "https://www.bleepingcomputer.com/news/security/fake-openai-spacex-events-used-to-steal-microsoft-google-accounts/",
       "description": "Hackers are using fake OpenAI, SpaceX, and Anthropic event invitations to lure employees into phishing attacks, using two different phishing-as-a-service platforms to steal Microsoft and Google account credentials and authentication sessions. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2022/08/23/phishing-hook.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T21:30:30.000Z",
       "categories": [
@@ -1073,7 +1099,7 @@
       "title": "Serve Robotics launches new business to become the AWS for robots",
       "link": "https://techcrunch.com/2026/11/05/serve-robotics-launches-new-business-to-become-the-aws-for-robots/",
       "description": "Serve Robotics announced alonsgside its third-quarter earnings that it will launch a new business line called Physical AI Services to offer customers its connectivity and data tools.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2023/08/Serve_robot_05.jpg?resize=1200,800",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T21:15:00.000Z",
       "categories": [
@@ -1158,7 +1184,7 @@
       "title": "The White House is apparently a popular residential proxy exit spot",
       "link": "https://www.theregister.com/security/2026/11/05/the-white-house-is-apparently-a-popular-residential-proxy-exit-spot/5307969",
       "description": "How it got there is another matter entirely",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=226251&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-05T20:50:57.000Z",
       "categories": [
@@ -1223,7 +1249,7 @@
       "title": "Nearly 1.5 million exposed secrets targeted in new revocation program",
       "link": "https://www.bleepingcomputer.com/news/security/truffle-security-launches-program-to-revoke-14-million-live-secrets/",
       "description": "Truffle Security has launched the Secrets Revocation Program, a free initiative that helps API key issuers revoke 1.4 million publicly exposed secrets that remain valid. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/05/keus.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T20:15:08.000Z",
       "categories": [
@@ -1331,7 +1357,7 @@
       "title": "Meta says US users can now video chat with their Muse AI avatar",
       "link": "https://techcrunch.com/2026/11/05/meta-says-us-users-can-now-video-chat-with-their-muse-ai-avatar/",
       "description": "Meta's AI agent can now take calls as a customizable animated avatar, ahead of the launch of a Tamagotchi-like wearable designed to bring Muse to life.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/09/muse-ai-meta.jpg?w=1200",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T19:48:28.000Z",
       "categories": [
@@ -1386,7 +1412,7 @@
       "title": "OpenAI’s GPT-6 Astra silently obstructed safety research tasks",
       "link": "https://www.bleepingcomputer.com/news/security/openais-gpt-6-astra-silently-obstructed-safety-research-tasks/",
       "description": "OpenAI has disclosed another AI alignment incident where GPT-6 Astra was found to sometimes quietly withhold help on safety research. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/09/17/OpenAI.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T19:24:26.000Z",
       "categories": [
@@ -1427,7 +1453,7 @@
       "title": "Meta warns that election backlash against data centers could make AI expansion harder",
       "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
       "description": "Meta warns that growing political opposition to data centers could threaten future AI investments, as communities push back against massive infrastructure projects.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/07/data-center-2.jpg?resize=1200,899",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T19:12:39.000Z",
       "categories": [
@@ -1441,7 +1467,7 @@
       "title": "OpenAI released a new cybersecurity model. Is that enough?",
       "link": "https://techcrunch.com/2026/11/05/openai-released-a-new-cybersecurity-model-is-that-enough/",
       "description": "OpenAI's newest cybersecurity model comes out as AI labs face scrutiny of their work to protect digital infrastructure.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/08/openai-daybreak.jpg?resize=1200,798",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T19:06:12.000Z",
       "categories": [
@@ -1553,7 +1579,7 @@
       "title": "US government warns of ‘ongoing cyber threat’ amid mass hacks of industrial retail and military freezers",
       "link": "https://techcrunch.com/2026/11/05/u-s-government-warns-of-ongoing-cyber-threat-amid-mass-hacks-of-industrial-retail-and-military-freezers/",
       "description": "A joint U.S. government statement says the hacks are affecting the food, transportation, and healthcare industries after reports of global mass hacks.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/freezer-hacks-2299339780.jpg?resize=1200,800",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T18:48:34.000Z",
       "categories": [
@@ -1595,7 +1621,7 @@
       "title": "Get root on a musl Linux system by slamming it with an overly long password",
       "link": "https://www.theregister.com/security/2026/11/05/get-root-on-a-musl-linux-system-by-slamming-it-with-an-overly-long-password/5307910",
       "description": "Decade-old vulnerability in OpenSSH is now fixed, so get a-patchin'",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=258580&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-05T18:29:00.000Z",
       "categories": [
@@ -1662,7 +1688,7 @@
       "title": "October crypto-tracker hack: Access cracked, law enforcement tokens packed",
       "link": "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852",
       "description": "Agentic 'on-path attack' went after Chainalysis's tools, which are routinely called upon to assist police investigations",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=227153&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-05T18:03:00.000Z",
       "categories": [
@@ -1676,7 +1702,7 @@
       "title": "OpenAI president Greg Brockman says company could be IPO ready in 2027",
       "link": "https://techcrunch.com/2026/11/05/openai-president-greg-brockman-says-company-could-be-ipo-ready-in-2027/",
       "description": "Speaking at a Wall Street Journal tech conference on Wednesday, the executive touted how the company had been gaining ground in the enterprise market, where rival Anthropic had already successfully made inroads.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2019/10/Greg-Brockman-OpenAIDSC02862.jpg?resize=1200,800",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T18:02:27.000Z",
       "categories": [
@@ -1690,7 +1716,7 @@
       "title": "The ex-Secret Service agent who flipped a hacker is now raising a second $250M cybersecurity fund",
       "link": "https://techcrunch.com/2026/11/05/the-ex-secret-service-agent-who-flipped-a-hacker-is-now-raising-a-second-250m-cybersecurity-fund/",
       "description": "Stephen Ward, a former Secret Service agent and Home Depot CISO, is preparing a second fund of roughly $250 million for Brightmind Partners.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Stephen_Ward_horiztonal.jpeg?resize=1200,1077",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T18:00:00.000Z",
       "categories": [
@@ -1704,7 +1730,7 @@
       "title": "Claude can now analyze your spending with its new Personal Finance tool",
       "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
       "description": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Personal-Finance-2.png?resize=1200,675",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T18:00:00.000Z",
       "categories": [
@@ -1787,7 +1813,7 @@
       "title": "Harbinger raises $240M after expanding into defense",
       "link": "https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/",
       "description": "The Los Angeles-based startup has now raised more than $650 million, and is working on electric trucks, emergency vehicles, and a driverless platform for the military.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Harbinger-Newsroom-Thumbnail-260610.jpeg?resize=1200,800",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T17:52:44.000Z",
       "categories": [
@@ -1813,7 +1839,7 @@
       "title": "OpenSSH flaw lets attackers log into password-disabled Linux accounts",
       "link": "https://www.bleepingcomputer.com/news/security/openssh-flaw-lets-attackers-log-into-password-disabled-linux-accounts/",
       "description": "A newly disclosed OpenSSH vulnerability dubbed \"*sshole\" allows attackers to log in to certain Alpine Linux and other musl-based Linux accounts that are configured to block password authentication, simply by entering an oversized password. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/05/ssh-header-image.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T17:45:29.000Z",
       "categories": [
@@ -1840,7 +1866,7 @@
       "title": "openSUSE Leap 16.1 gives Linux users the right to remain immutable",
       "link": "https://www.theregister.com/os-platforms/2026/11/05/opensuse-leap-161-gives-linux-users-the-right-to-remain-immutable/5307874",
       "description": "One installer now offers conventional and read-only systems as separate Micro distro bows out",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=243626&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-05T17:30:00.000Z",
       "categories": [
@@ -1880,7 +1906,7 @@
       "title": "Food delivery startup Wonder files for IPO as it explores its next big bite",
       "link": "https://techcrunch.com/2026/11/05/food-delivery-startup-wonder-files-for-ipo-as-it-explores-its-next-big-bite/",
       "description": "Following years of fundraising, acquisitions, and expansion, food delivery startup Wonder is moving closer to becoming a publicly traded company.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/09/wonder.jpg?resize=1200,800",
       "source": "TechCrunch",
       "publishedAt": "2026-11-05T17:11:48.000Z",
       "categories": [
@@ -1893,7 +1919,7 @@
       "title": "OpenAI releases GPT-6 Cyber, and promises this one stays within 'rules of engagement'",
       "link": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
       "description": "The latest bug hunting model 'avoided exploiting out-of-scope services over 99 percent of the time', claims House of Altman",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=262189&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-05T17:00:00.000Z",
       "categories": [
@@ -1965,7 +1991,7 @@
       "title": "Copilot Chat has usage caps, and Microsoft would rather you found them by hitting them",
       "link": "https://www.theregister.com/ai-and-ml/2026/11/05/copilot-chat-has-usage-caps-and-microsoft-would-rather-you-found-them-by-hitting-them/5307814",
       "description": "Mystery limits expand for users without the paid add-on, with upgrade prompts ready when features run dry",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=5230512&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-05T16:30:00.000Z",
       "categories": [
@@ -2033,7 +2059,7 @@
       "title": "Hackers backdoor Linux servers using trojanized CWP web server",
       "link": "https://www.bleepingcomputer.com/news/security/hackers-backdoor-linux-servers-using-trojanized-cwp-web-server/",
       "description": "A new Linux malware called CWPdoor is being distributed through a trojanized version of cwpsrv, the web server behind the Control Web Panel (CWP) management interface. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/10/29/Linux.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T16:24:26.000Z",
       "categories": [
@@ -2061,7 +2087,7 @@
       "title": "Axiom Math wants to keep AI slop out of mathematics",
       "link": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
       "description": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Axiom-Team-2.jpg?resize=1200,800",
       "source": "TC Startups",
       "publishedAt": "2026-11-05T16:16:45.000Z",
       "categories": [
@@ -2075,7 +2101,7 @@
       "title": "DigiCert data breach exposes customer information, identity documents",
       "link": "https://www.bleepingcomputer.com/news/security/digicert-data-breach-exposes-customer-information-identity-documents/",
       "description": "DigiCert warns it suffered a data breach after a server migration mistakenly exposed an internal business system to the internet, allowing unauthorized access to customer information and identity documents. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/05/digicert-header.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T16:12:46.000Z",
       "categories": [
@@ -2130,7 +2156,7 @@
       "title": "Tobacco company got smoked by leaving secret recipes on a file share",
       "link": "https://www.theregister.com/security/2026/11/05/tobacco-company-got-smoked-by-leaving-secret-recipes-on-a-file-share/5307704",
       "description": "They denied the data was real...then removed it",
-      "thumbnail": null,
+      "thumbnail": "https://image.theregister.com/?imageId=5307708&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-05T16:02:00.000Z",
       "categories": [
@@ -2210,7 +2236,7 @@
       "title": "Zipline hits $21.5B valuation as Walmart expands bet on drone delivery",
       "link": "https://techcrunch.com/2026/11/05/zipline-hits-21-5b-valuation-as-walmart-expands-bet-on-drone-delivery/",
       "description": "Zipline raised $1.5 billion and ramped up its partnership with Walmart.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2022/09/Zipline-Package-Drop.jpg?resize=1200,675",
       "source": "TC Startups",
       "publishedAt": "2026-11-05T15:40:34.000Z",
       "categories": [
@@ -2250,7 +2276,7 @@
       "title": "Closing the Identity Gap at the Service Desk",
       "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
       "description": "Attackers target IT service desks to bypass MFA by impersonating employees and convincing staff to reset passwords or register new authentication devices. Specops Software explains why traditional identity verification methods are no longer sufficient and how organizations can secure account recover",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/posts/2026/11/02/specops-lockscreen.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T15:00:10.000Z",
       "categories": [
@@ -2316,7 +2342,7 @@
       "title": "Taming Typography: Building a Modern CSS Reset",
       "link": "https://css-tricks.com/taming-typography-modern-css-reset/",
       "description": "Stu created tidy-typography.css: a style reset for taming typography with modern CSS features for everything from fluid typography and vertical rhythm, to hyphens and variable fonts. Taming Typography: Building a Modern CSS Reset originally handwritten and published with love on CSS-Tricks . You sho",
-      "thumbnail": null,
+      "thumbnail": "https://css-tricks.com/wp-content/uploads/2019/02/text-wrap.png",
       "source": "CSS-Tricks",
       "publishedAt": "2026-11-05T14:55:31.000Z",
       "categories": [
@@ -2356,7 +2382,7 @@
       "title": "Aina’s smart ring has a screen, a joystick, and a mic so you can talk to AI agents",
       "link": "https://techcrunch.com/2026/11/05/ainas-smart-ring-has-a-screen-a-joystick-and-a-mic-so-you-can-talk-to-ai-agents/",
       "description": "Aina's ring can also take calls and help you dictate notes on your Mac.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Aina-Ring-Hands.jpeg?resize=1200,805",
       "source": "TC Startups",
       "publishedAt": "2026-11-05T14:42:00.000Z",
       "categories": [
@@ -2591,7 +2617,7 @@
       "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
       "link": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
       "description": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/08/discoverd-materials.jpg?resize=1200,800",
       "source": "TC Startups",
       "publishedAt": "2026-11-05T13:00:00.000Z",
       "categories": [
@@ -2835,7 +2861,7 @@
       "title": "A new bill could change how the US builds energy infrastructure",
       "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
       "description": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan th",
-      "thumbnail": null,
+      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/11/baaja-energy.jpg?resize=1200,600",
       "source": "MIT Technology Review",
       "publishedAt": "2026-11-05T10:00:00.000Z",
       "categories": [
@@ -2875,7 +2901,7 @@
       "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
       "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
       "description": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/10/14/android.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T09:18:29.000Z",
       "categories": [
@@ -2959,7 +2985,7 @@
       "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
       "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
       "description": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2024/02/2560x2040_5fe778b6-8919-4143-bf11-8d86af754f52_2192x.webp?resize=1200,956",
       "source": "TC Startups",
       "publishedAt": "2026-11-04T22:13:16.000Z",
       "categories": [
@@ -3000,7 +3026,7 @@
       "title": "Vercel rolls out new protection against stolen session cookie attacks",
       "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
       "description": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/04/vercel.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-04T21:31:18.000Z",
       "categories": [
@@ -3028,7 +3054,7 @@
       "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
       "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
       "description": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/04/zyxel-gs1900.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-04T20:58:19.000Z",
       "categories": [
@@ -3067,7 +3093,7 @@
       "title": "Open source AI is booming. Hugging Face explains who profits.",
       "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
       "description": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1849294862.jpg?w=1024",
       "source": "TC Startups",
       "publishedAt": "2026-11-04T19:30:04.000Z",
       "categories": [
@@ -3082,7 +3108,7 @@
       "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
       "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
       "description": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/04/DreamHost.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-04T19:05:19.000Z",
       "categories": [
@@ -3095,7 +3121,7 @@
       "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
       "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
       "description": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor aga",
-      "thumbnail": null,
+      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600",
       "source": "MIT Technology Review",
       "publishedAt": "2026-11-04T18:50:55.000Z",
       "categories": [
@@ -3108,7 +3134,7 @@
       "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
       "link": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
       "description": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining",
-      "thumbnail": null,
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/55593309776_55e4a08b03_o.jpg?resize=1200,800",
       "source": "TC Startups",
       "publishedAt": "2026-11-04T18:44:57.000Z",
       "categories": [
@@ -3164,7 +3190,7 @@
       "title": "Cyberattack disrupts blood storage refrigeration systems in France",
       "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
       "description": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
-      "thumbnail": null,
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/04/blood-bags.jpg",
       "source": "BleepingComputer",
       "publishedAt": "2026-11-04T18:02:56.000Z",
       "categories": [
@@ -3248,41 +3274,13 @@
       "title": "What’s next for US energy policy after the midterm elections?",
       "link": "https://www.technologyreview.com/2026/11/04/1148022/us-energy-midterm/",
       "description": "I’ve been locked in to my various screens since results from midterm elections started to roll in last night. And it didn’t take long to see the beginning of the blue wave: Democrats took control of both the US House of Representatives and the Senate, a dramatic swing from Donald Trump’s victory two",
-      "thumbnail": null,
+      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/11/AP26306547843391.jpg?resize=1200,600",
       "source": "MIT Technology Review",
       "publishedAt": "2026-11-04T17:08:00.000Z",
       "categories": [
         "ai"
       ],
       "author": "Casey Crownhart"
-    },
-    {
-      "id": "3ac1f7a84d3d",
-      "title": "Can Netflix’s new AI tool stop your TV-streaming doomscrolling? How to try it",
-      "link": "https://www.zdnet.com/home-and-office/netflix-ai-tool-discover-feature/",
-      "description": "Netflix is adding a new Discover feature, which recommends tailored streaming selections. Here’s how it works.",
-      "thumbnail": "https://www.zdnet.com/wp-content/uploads/sites/3/1_ef67d6.jpg",
-      "source": "ZDNet",
-      "publishedAt": "2026-11-04T17:05:06.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Maria Diaz"
-    },
-    {
-      "id": "9c8bdd95a7d5",
-      "title": "NIKKE PC game launcher hacked to spread remote access, data-stealing malware",
-      "link": "https://www.bleepingcomputer.com/news/security/nikke-pc-game-launcher-hacked-to-spread-remote-access-data-stealing-malware/",
-      "description": "The developers of Goddess of Victory: NIKKE have confirmed that hackers tampered with the game's PC launcher scripts in a supply-chain attack, distributing malware capable of stealing credentials and cryptocurrency wallet data. [...]",
-      "thumbnail": null,
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-04T16:58:46.000Z",
-      "categories": [
-        "programming",
-        "cybersecurity"
-      ],
-      "author": "Bill Toulas"
     }
   ],
   "github": [
@@ -3290,7 +3288,7 @@
       "name": "NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
-      "stars": 8133,
+      "stars": 8154,
       "starsToday": 2679,
       "url": "https://github.com/NVIDIA/auto-ontology"
     },
@@ -3298,7 +3296,7 @@
       "name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 315966,
+      "stars": 315981,
       "starsToday": 2071,
       "url": "https://github.com/mattpocock/skills"
     },
@@ -3306,7 +3304,7 @@
       "name": "garrytan/gstack",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "stars": 140252,
+      "stars": 140262,
       "starsToday": 612,
       "url": "https://github.com/garrytan/gstack"
     },
@@ -3314,7 +3312,7 @@
       "name": "Usagi-org/ai-goofish-monitor",
       "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
       "language": "Python",
-      "stars": 18081,
+      "stars": 18094,
       "starsToday": 240,
       "url": "https://github.com/Usagi-org/ai-goofish-monitor"
     },
@@ -3322,7 +3320,7 @@
       "name": "D4Vinci/Scrapling",
       "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "language": "Python",
-      "stars": 98483,
+      "stars": 98490,
       "starsToday": 1655,
       "url": "https://github.com/D4Vinci/Scrapling"
     },
@@ -3330,7 +3328,7 @@
       "name": "vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
-      "stars": 17544,
+      "stars": 17564,
       "starsToday": 2173,
       "url": "https://github.com/vercel-labs/agent-desktop"
     },
@@ -3338,7 +3336,7 @@
       "name": "max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "stars": 11689,
+      "stars": 11694,
       "starsToday": 546,
       "url": "https://github.com/max-sixty/worktrunk"
     },
@@ -3346,7 +3344,7 @@
       "name": "lz4/lz4",
       "description": "Extremely Fast Compression algorithm",
       "language": "C",
-      "stars": 12504,
+      "stars": 12507,
       "starsToday": 23,
       "url": "https://github.com/lz4/lz4"
     },
@@ -3354,7 +3352,7 @@
       "name": "google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "stars": 22576,
+      "stars": 22583,
       "starsToday": 211,
       "url": "https://github.com/google/skills"
     },
@@ -3362,7 +3360,7 @@
       "name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 46176,
+      "stars": 46183,
       "starsToday": 150,
       "url": "https://github.com/vercel-labs/agent-browser"
     },
@@ -3370,7 +3368,7 @@
       "name": "scenario-labs/skills",
       "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
       "language": "Python",
-      "stars": 3300,
+      "stars": 3306,
       "starsToday": 667,
       "url": "https://github.com/scenario-labs/skills"
     },
@@ -3378,7 +3376,7 @@
       "name": "ConardLi/garden-skills",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
       "language": "JavaScript",
-      "stars": 14410,
+      "stars": 14412,
       "starsToday": 175,
       "url": "https://github.com/ConardLi/garden-skills"
     }
@@ -3462,10 +3460,10 @@
       "link": "https://podcasts.apple.com/us/podcast/waveform-the-mkbhd-podcast/id1474429475?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/92/dd/8e/92dd8eed-43ec-dc47-50ae-c1ec7c0a3353/mza_3861776104886813687.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "Instagram Wants to be YouTube Now?”",
-        "publishedAt": "2026-11-06T09:00:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/instagram-wants-to-be-youtube-now/id1474429475?i=1000800214818&uo=4",
-        "duration": 5995000
+        "title": "Is The \"PROLED\" Macbook Any Good?",
+        "publishedAt": "2026-10-30T08:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/is-the-proled-macbook-any-good/id1474429475?i=1000798853717&uo=4",
+        "duration": 7325000
       }
     },
     {
