@@ -282,6 +282,41 @@ function bottomNavMarkup(page) {
     .join('');
 }
 
+const UPDATE_DISMISS_KEY = 'bytebrief_update_v1_dismissed';
+
+function initUpdateBanner() {
+  try {
+    if (localStorage.getItem(UPDATE_DISMISS_KEY) === 'true') return;
+  } catch {
+    return;
+  }
+
+  const skipLink = document.querySelector('.skip-link');
+  if (!skipLink || document.getElementById('appUpdateBanner')) return;
+
+  const banner = document.createElement('aside');
+  banner.id = 'appUpdateBanner';
+  banner.className = 'app-update';
+  banner.setAttribute('role', 'status');
+  banner.innerHTML = `
+    <div class="shell app-update__inner">
+      <span class="app-update__label">Update</span>
+      <p><strong>ByteBrief got an update.</strong> Cleaner cards, text-first stories, and a smoother Saved page.</p>
+      <button class="app-update__close" type="button" aria-label="Dismiss update notice">
+        ${ICONS.close || '×'}
+      </button>
+    </div>
+  `;
+
+  skipLink.insertAdjacentElement('afterend', banner);
+  banner.querySelector('.app-update__close')?.addEventListener('click', () => {
+    try {
+      localStorage.setItem(UPDATE_DISMISS_KEY, 'true');
+    } catch {}
+    banner.remove();
+  });
+}
+
 export function initShell(page = '') {
   const header = document.getElementById('siteHeader');
   if (header) header.innerHTML = headerMarkup(page);
@@ -292,6 +327,7 @@ export function initShell(page = '') {
   const bottom = document.getElementById('bottomNav');
   if (bottom) bottom.innerHTML = bottomNavMarkup(page);
 
+  initUpdateBanner();
   initThemeToggle();
 
   return initAuth().then(async ctx => {
