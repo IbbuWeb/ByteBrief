@@ -1,6 +1,46 @@
 {
-  "generatedAt": "2026-11-06T06:41:23.937Z",
+  "generatedAt": "2026-11-06T09:47:09.323Z",
   "articles": [
+    {
+      "id": "a4f64ed53360",
+      "title": "NHS wants a second opinion on Palantir's glowing self-assessments",
+      "link": "https://www.theregister.com/public-sector/2026/11/06/nhs-wants-a-second-opinion-on-palantirs-glowing-self-assessments/5307809",
+      "description": "Supplier told to clear benefit claims with health chiefs, though enforcing approval could prove tricky",
+      "thumbnail": null,
+      "source": "The Register",
+      "publishedAt": "2026-11-06T09:30:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Lindsay Clark"
+    },
+    {
+      "id": "3b4569a07c63",
+      "title": "Britain's tech ambitions depend on minerals made in China, MPs warn",
+      "link": "https://www.theregister.com/public-sector/2026/11/06/britains-tech-ambitions-depend-on-minerals-made-in-china-mps-warn/5307779",
+      "description": "Committee can't confidently tick off any of government's ten supply security tests, with alternatives a decade away",
+      "thumbnail": null,
+      "source": "The Register",
+      "publishedAt": "2026-11-06T09:30:00.000Z",
+      "categories": [
+        "cybersecurity",
+        "tech"
+      ],
+      "author": "Richard Currie"
+    },
+    {
+      "id": "3a8f9a3bb5fd",
+      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+      "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+      "description": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+      "thumbnail": null,
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-06T09:22:28.000Z",
+      "categories": [
+        "cybersecurity"
+      ],
+      "author": "Sergiu Gatlan"
+    },
     {
       "id": "471bd4c5f283",
       "title": "Welcome to life in the chip age",
@@ -15,6 +55,169 @@
         "programming"
       ],
       "author": null
+    },
+    {
+      "id": "52dfe62e2033",
+      "title": "Living Maps: Bay Area tech since 1960s",
+      "link": "https://tomorrowasusual.com/living-maps/bay-area-tech/",
+      "description": "5 points · 3 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T08:08:19.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "tudell"
+    },
+    {
+      "id": "4d8ea370c2b8",
+      "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
+      "link": "https://obelisk.club/research/app-store-2026",
+      "description": "23 points · 12 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T07:59:19.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "Peter216"
+    },
+    {
+      "id": "c5045ba62773",
+      "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
+      "link": "https://worldstrike.fun/",
+      "description": "31 points · 12 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T07:55:48.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "n4ze3m"
+    },
+    {
+      "id": "1eac9df98bea",
+      "title": "Airbnb is threatening to launch an AI travel agent next year",
+      "link": "https://www.engadget.com/2308832/airbnb-ai-travel-agent-2027-launch/",
+      "description": "Airbnb is developing an AI travel agent that it says will eventually be able to help plan your whole trip.",
+      "thumbnail": "https://www.engadget.com/img/gallery/airbnb-is-threatening-to-launch-an-ai-travel-agent-next-year/l-intro-1793951259.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-06T07:51:42.000Z",
+      "categories": [
+        "ai",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Mariella Moon)"
+    },
+    {
+      "id": "df89720934de",
+      "title": "Kugelblitz – Mac-Native Google Earth Alternative",
+      "link": "https://apps.metaebene.me/en/kugelblitz",
+      "description": "43 points · 4 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T07:47:38.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "luoc"
+    },
+    {
+      "id": "3a41e3472432",
+      "title": "Blender's UI and Runtime: Much Faster Than GPUI",
+      "link": "https://github.com/ppmpreetham/BUI",
+      "description": "103 points · 34 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T07:40:35.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "ppmpreetham"
+    },
+    {
+      "id": "b51ac1e090e2",
+      "title": "Safari's Autofill feature may be distorting time",
+      "link": "https://www.theregister.com/applications/2026/11/06/safaris-autofill-feature-may-be-distorting-time/5308006",
+      "description": "Repeated reports about inaccurate form filling have lingered for years",
+      "thumbnail": null,
+      "source": "The Register",
+      "publishedAt": "2026-11-06T07:31:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Thomas Claburn"
+    },
+    {
+      "id": "d19493e485c8",
+      "title": "Hardcoded credentials and other issues in Tata Motors App",
+      "link": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
+      "description": "14 points · 6 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T07:28:39.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "qtqtqt"
+    },
+    {
+      "id": "c0beb4b56091",
+      "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
+      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "description": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7da8/live/a5c551d0-d996-11f1-9e72-375d6b1d1f05.jpg",
+      "source": "BBC Technology",
+      "publishedAt": "2026-11-06T07:27:26.000Z",
+      "categories": [
+        "ai",
+        "tech"
+      ],
+      "author": null
+    },
+    {
+      "id": "ad265c5605cb",
+      "title": "Britain to make salary disclosure in job ads mandatory",
+      "link": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
+      "description": "147 points · 124 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T07:22:04.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "1659447091"
+    },
+    {
+      "id": "074f8c187412",
+      "title": "Save Up to $700 in Eufy’s Early Black Friday Sale: Exclusive CNET Codes on Robot Vacuums and Home Security",
+      "link": "https://www.cnet.com/tech/eufy-black-friday-sale-2026/",
+      "description": "Tons of Anker items are already seeing major discounts ahead of Black Friday, with some exclusive promo codes dropping prices even more.",
+      "thumbnail": "https://www.cnet.com/wp-content/uploads/sites/2/Omni-S2-Accessory-Kit.png",
+      "source": "CNET",
+      "publishedAt": "2026-11-06T07:19:16.000Z",
+      "categories": [
+        "hardware",
+        "cybersecurity",
+        "tech"
+      ],
+      "author": "Aashna Gheewalla"
+    },
+    {
+      "id": "d0ed5775bc4f",
+      "title": "At least 10 local governments have moved to drop Flock’s surveillance cameras since summer",
+      "link": "https://techcrunch.com/2026/11/05/at-least-10-local-governments-have-moved-to-drop-flocks-surveillance-cameras-since-summer/",
+      "description": "The concerns range from privacy to how data is shared (and with whom) to procurement concerns.",
+      "thumbnail": null,
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-06T07:18:44.000Z",
+      "categories": [
+        "cybersecurity",
+        "ai",
+        "startups"
+      ],
+      "author": "Dominic-Madori Davis"
     },
     {
       "id": "dc955d2a85c4",
@@ -45,36 +248,36 @@
       "author": "Marina Temkin"
     },
     {
-      "id": "c0beb4b56091",
-      "title": "Global tech stocks plunge as US midterms add to AI slowdown fears",
-      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "description": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7da8/live/a5c551d0-d996-11f1-9e72-375d6b1d1f05.jpg",
-      "source": "BBC Technology",
-      "publishedAt": "2026-11-06T06:00:59.000Z",
+      "id": "75899525aaae",
+      "title": "Top Democrats call to rein in AI buildout after midterms sweep: ‘National data center moratorium now’",
+      "link": "https://www.reddit.com/r/technology/comments/1xp5hah/top_democrats_call_to_rein_in_ai_buildout_after/",
+      "description": "",
+      "thumbnail": "https://external-preview.redd.it/1Z_VYo8ycaoi8_B-_iYyhQGjHWbzWibCXIdAkRFb37k.jpeg?width=640&crop=smart&auto=webp&s=dbce357aca6476cf855883fba4c8cb782d68e2c5",
+      "source": "Reddit Technology",
+      "publishedAt": "2026-11-06T06:05:00.000Z",
       "categories": [
         "ai",
         "tech"
       ],
-      "author": null
+      "author": "/u/l3tsgo0 https://www.reddit.com/user/l3tsgo0"
     },
     {
-      "id": "3fe6f81ec086",
-      "title": "How accurately did science fiction stories predict AI?",
-      "link": "https://jamesyu.org/science-fiction-predictions-of-ai/",
-      "description": "22 points · 24 comments",
+      "id": "3abd24bfc9c6",
+      "title": "I struggle to believe that AI R&D is ingenious",
+      "link": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
+      "description": "75 points · 64 comments",
       "thumbnail": null,
       "source": "Hacker News",
-      "publishedAt": "2026-11-06T04:36:22.000Z",
+      "publishedAt": "2026-11-06T05:19:04.000Z",
       "categories": [
         "ai",
         "programming"
       ],
-      "author": "jamesjyu"
+      "author": "porridgeraisin"
     },
     {
       "id": "4720393fd82f",
-      "title": "AI agents are a ‘bane’ for some website operators, says Cloudflare",
+      "title": "AI agents are a 'bane' for some website operators, says Cloudflare",
       "link": "https://www.theregister.com/networks/2026/11/06/ai-agents-are-a-bane-for-some-website-operators-says-cloudflare/5308022",
       "description": "CEO says sovereigns probably exploited PHP2SHELL ages ago, and suggests containers are dead",
       "thumbnail": null,
@@ -90,7 +293,7 @@
       "id": "d54bee17fb9e",
       "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
       "link": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
-      "description": "15 points · 2 comments",
+      "description": "75 points · 32 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T04:17:49.000Z",
@@ -117,7 +320,7 @@
       "id": "d2bb7ea65855",
       "title": "Pwn.college",
       "link": "https://pwn.college/",
-      "description": "70 points · 7 comments",
+      "description": "145 points · 19 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T03:27:14.000Z",
@@ -130,7 +333,7 @@
       "id": "b95f6aa29001",
       "title": "Nvidia Kubernetes Engine (NVKE)",
       "link": "https://github.com/dsx-ai-factory/nvke",
-      "description": "46 points · 14 comments",
+      "description": "74 points · 19 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T03:16:26.000Z",
@@ -140,20 +343,6 @@
         "hardware"
       ],
       "author": "gkapur"
-    },
-    {
-      "id": "380d4d4741a6",
-      "title": "Closed AI models dominate the price-performance frontier",
-      "link": "https://village.dev/blog/closed-ai-models-now-dominate-the-price-performance-frontier/",
-      "description": "50 points · 39 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-06T02:49:56.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "kevin_hu"
     },
     {
       "id": "846eda5a9599",
@@ -282,7 +471,7 @@
       "id": "8a3c39376664",
       "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
       "link": "https://github.com/matthewmrichter/mooftcp",
-      "description": "34 points · 20 comments",
+      "description": "46 points · 20 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T00:54:15.000Z",
@@ -417,7 +606,7 @@
       "id": "5eb6887e9b28",
       "title": "Inkling 2 Small",
       "link": "https://thinkingmachines.ai/news/inkling-2-small/",
-      "description": "150 points · 53 comments",
+      "description": "195 points · 67 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T00:00:24.000Z",
@@ -511,7 +700,7 @@
       "id": "6f78e24cdb5b",
       "title": "Cuban: Facebook knowingly runs AI deepfake scam ads; docs say $16B fraud revenue",
       "link": "https://finance.yahoo.com/technology/ai/articles/mark-cuban-says-facebook-knowingly-213000020.html",
-      "description": "249 points · 109 comments",
+      "description": "319 points · 153 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-05T23:09:57.000Z",
@@ -706,7 +895,7 @@
       "id": "3b58ffb304e7",
       "title": "Claude Code sends your email address to websites",
       "link": "https://github.com/anthropics/claude-code/issues/107757",
-      "description": "853 points · 281 comments",
+      "description": "1100 points · 339 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-05T22:17:15.000Z",
@@ -1004,20 +1193,6 @@
       "author": "Jay Peters"
     },
     {
-      "id": "296687f94cd4",
-      "title": "MS Paint Remote Code Execution Vulnerability",
-      "link": "https://www.cve.org/CVERecord?id=CVE-2026-83844",
-      "description": "440 points · 170 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-05T20:43:42.000Z",
-      "categories": [
-        "programming",
-        "cybersecurity"
-      ],
-      "author": "kuberwastaken"
-    },
-    {
       "id": "c7ca426d8d67",
       "title": "A BioWare documentary is set to arrive next year",
       "link": "https://www.engadget.com/2308483/a-bioware-documentary-is-set-to-arrive-next-year/",
@@ -1069,32 +1244,6 @@
         "tech"
       ],
       "author": "Dashia Milden"
-    },
-    {
-      "id": "551c2101be10",
-      "title": "Search for everyone",
-      "link": "https://kagi.com/changelog",
-      "description": "628 points · 322 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-05T20:03:34.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "elashri"
-    },
-    {
-      "id": "f41b14b1064e",
-      "title": "Goodbye from Salon",
-      "link": "https://www.salon.com/2026/11/05/goodbye-from-salon/",
-      "description": "540 points · 198 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-05T20:03:29.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "mkeeter"
     },
     {
       "id": "ec862fd02f25",
@@ -1220,19 +1369,6 @@
       "author": "staff@engadget.com (Ian Carlos Campbell)"
     },
     {
-      "id": "70ba798f4981",
-      "title": "Pangram Image 1.0",
-      "link": "https://www.pangram.com/blog/introducing-pangram-image-1-0",
-      "description": "88 points · 38 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-05T19:27:52.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "gmays"
-    },
-    {
       "id": "66adac1562e0",
       "title": "MacBook Pro with PROLED review, new iPad mini hands-on, and iOS 27.3 features",
       "link": "https://9to5mac.com/2026/11/05/happy-hour-615/",
@@ -1299,20 +1435,6 @@
         "startups"
       ],
       "author": "Sarah Perez"
-    },
-    {
-      "id": "9d8ea3788a70",
-      "title": "The Hackintosh Reborn",
-      "link": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/",
-      "description": "276 points · 133 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-05T19:08:22.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "rubatuga"
     },
     {
       "id": "8f7798ef97e4",
@@ -1467,19 +1589,6 @@
         "tech"
       ],
       "author": "Kayla Solino"
-    },
-    {
-      "id": "ddf0b9d13eb7",
-      "title": "White House uses The Legend of Zelda: Ocarina of Time imagery in political post, despite previous condemnation from Pokémon Company",
-      "link": "https://www.reddit.com/r/technology/comments/1xoqn65/white_house_uses_the_legend_of_zelda_ocarina_of/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/0n8R8YfJfNn-UQnEhbE4TgIawnmaI7FZNIdj8C9XcbM.jpeg?width=640&crop=smart&auto=webp&s=609bc3ede7cb68f2e8dba6584dd207b03ebb2e37",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-05T18:42:40.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "/u/ControlCAD https://www.reddit.com/user/ControlCAD"
     },
     {
       "id": "2a3856813d54",
@@ -1753,19 +1862,6 @@
       "author": "Dashia Milden"
     },
     {
-      "id": "f0e2e8b6917e",
-      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
-      "link": "https://github.com/rivet-dev/rivet",
-      "description": "",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-05T17:17:42.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "NathanFlurry"
-    },
-    {
       "id": "cac957dc7554",
       "title": "Groundcover automates Kubernetes sizing. Engineers set the bounds.",
       "link": "https://thenewstack.io/groundcover-autonomous-kubernetes-rightsizing/",
@@ -1966,7 +2062,7 @@
       "link": "https://techcrunch.com/2026/11/05/axiom-math-wants-to-keep-ai-slop-out-of-mathematics/",
       "description": "As AI floods math with unchecked proofs, Axiom Math is betting on verification. The startup’s AI agents just formally verified the Stacks Project, one of the field’s biggest libraries.",
       "thumbnail": null,
-      "source": "TechCrunch",
+      "source": "TC Startups",
       "publishedAt": "2026-11-05T16:16:45.000Z",
       "categories": [
         "ai",
@@ -2150,20 +2246,6 @@
       "author": "John Reynolds"
     },
     {
-      "id": "7b4f892ba361",
-      "title": "Memory makers mint megabucks while buyers beg for mercy",
-      "link": "https://www.theregister.com/systems/2026/11/05/memory-makers-mint-megabucks-while-buyers-beg-for-mercy/5307846",
-      "description": "DRAM revenue jumps 369 percent as AI demand keeps supplies tight and prices climbing",
-      "thumbnail": null,
-      "source": "The Register",
-      "publishedAt": "2026-11-05T15:07:34.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Dan Robinson"
-    },
-    {
       "id": "dad53d7e3ed5",
       "title": "Closing the Identity Gap at the Service Desk",
       "link": "https://www.bleepingcomputer.com/news/security/closing-the-identity-gap-at-the-service-desk/",
@@ -2176,19 +2258,6 @@
         "cybersecurity"
       ],
       "author": "Sponsored by Specops Software"
-    },
-    {
-      "id": "7a97a30739b6",
-      "title": "WhatsApp is taking on Partiful with expanded Events feature",
-      "link": "https://www.engadget.com/2307395/whatsapp-is-taking-on-partiful-with-expanded-events-feature/",
-      "description": "The change will allow invites to be sent to guests without WhatsApp accounts.",
-      "thumbnail": "https://www.engadget.com/img/gallery/whatsapp-is-taking-on-partiful-with-expanded-events-feature/l-intro-1793835609.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-05T15:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Anna Washenko)"
     },
     {
       "id": "76158476bf3c",
@@ -2368,19 +2437,6 @@
       "author": "Luke Larsen"
     },
     {
-      "id": "43b13969d6cb",
-      "title": "Microsoft fixed Excel 2016 copy-paste bug. Then reintroduced it. Now it's fixed again",
-      "link": "https://www.theregister.com/software/2026/11/05/microsoft-fixed-excel-2016-copy-paste-bug-then-reintroduced-it-now-its-fixed-again/5307782",
-      "description": "All of this has happened before. All of this will happen again. Maybe",
-      "thumbnail": null,
-      "source": "The Register",
-      "publishedAt": "2026-11-05T14:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Richard Speed"
-    },
-    {
       "id": "c5ba13c0c4a9",
       "title": "Postgres and ClickHouse can share tables. EnterpriseDB wants one set of rules to govern them.",
       "link": "https://thenewstack.io/edb-altinity-postgres-clickhouse/",
@@ -2473,19 +2529,6 @@
         "hardware"
       ],
       "author": "Jowi Morales"
-    },
-    {
-      "id": "3496d8ac5c67",
-      "title": "'Stop dirty datacenters': Europe-wide protests planned demanding building moratorium",
-      "link": "https://www.theregister.com/systems/2026/11/05/stop-dirty-datacenters-europe-wide-protests-planned-demanding-building-moratorium/5307790",
-      "description": "Curbing compute farms played a big part in recent US elections, now Euro activists are making their feelings known",
-      "thumbnail": null,
-      "source": "The Register",
-      "publishedAt": "2026-11-05T13:29:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Dan Robinson"
     },
     {
       "id": "2009a33d518f",
@@ -2680,19 +2723,6 @@
       "author": "Scharon Harding"
     },
     {
-      "id": "64d5733662d4",
-      "title": "Best Wireless Chargers (2026): My Picks After Testing 100+",
-      "link": "https://www.wired.com/gallery/best-wireless-chargers/",
-      "description": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
-      "thumbnail": "https://media.wired.com/photos/6a0f6f4c9c4f912eb7592888/master/pass/Best%20Wireless%20Chargers%20top%20art%20052026%20SOURCE%20Amazon-Nomad%20Goods.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Simon Hill"
-    },
-    {
       "id": "b8ffbccf0ff9",
       "title": "AI’s Next Trick? Speaking Dolphin",
       "link": "https://www.wired.com/story/wired-world-fair-2026-denise-herzing-wild-dolphin/",
@@ -2706,6 +2736,19 @@
         "tech"
       ],
       "author": "Kate Taylor"
+    },
+    {
+      "id": "64d5733662d4",
+      "title": "Best Wireless Chargers (2026): My Picks After Testing 100+",
+      "link": "https://www.wired.com/gallery/best-wireless-chargers/",
+      "description": "Stop fumbling for cables in the dark. These WIRED-tested stands and pads will take the hassle out of refueling your phone, wireless earbuds, and watch.",
+      "thumbnail": "https://media.wired.com/photos/6a0f6f4c9c4f912eb7592888/master/pass/Best%20Wireless%20Chargers%20top%20art%20052026%20SOURCE%20Amazon-Nomad%20Goods.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-05T12:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Simon Hill"
     },
     {
       "id": "83f36695b350",
@@ -2773,19 +2816,6 @@
         "startups"
       ],
       "author": "Monty Munford"
-    },
-    {
-      "id": "e91df18e0a4b",
-      "title": "A New Water Heater Technology Kills Bacteria Right in the Tank",
-      "link": "https://www.cnet.com/home/energy-and-utilities/safer-water-at-home-new-water-heater-tech-aims-to-kill-bacteria-in-the-tank/",
-      "description": "I asked the inventor about his design and when consumers might see the tech in their homes.",
-      "thumbnail": "https://www.cnet.com/wp-content/uploads/sites/2/Screenshot-2026-11-03-at-2.31.25-PM.png",
-      "source": "CNET",
-      "publishedAt": "2026-11-05T10:34:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "John Carlsen"
     },
     {
       "id": "781f1d7aacd8",
@@ -3253,33 +3283,6 @@
         "cybersecurity"
       ],
       "author": "Bill Toulas"
-    },
-    {
-      "id": "fb8611ac053e",
-      "title": "Your .NET parallel loop can become serial in a one-CPU container",
-      "link": "https://stackoverflow.blog/2026/11/04/your-net-parallel-loop-can-become-serial-in-a-one-cpu-container/",
-      "description": "CPU-based defaults can leave an I/O-heavy loop processing one record at a time. Raising the limit helps, but each downstream service still needs a concurrency budget it can handle.",
-      "thumbnail": null,
-      "source": "Stack Overflow Blog",
-      "publishedAt": "2026-11-04T16:34:13.000Z",
-      "categories": [
-        "hardware",
-        "programming"
-      ],
-      "author": "Guilherme Appel"
-    },
-    {
-      "id": "ca70ab29b22d",
-      "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
-      "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
-      "description": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/3538/live/e551bd50-d862-11f1-85ab-b3cc3b5498c6.jpg",
-      "source": "BBC Technology",
-      "publishedAt": "2026-11-04T16:26:15.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": null
     }
   ],
   "github": [
@@ -3287,7 +3290,7 @@
       "name": "NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
-      "stars": 7840,
+      "stars": 8133,
       "starsToday": 2679,
       "url": "https://github.com/NVIDIA/auto-ontology"
     },
@@ -3295,7 +3298,7 @@
       "name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 315683,
+      "stars": 315966,
       "starsToday": 2071,
       "url": "https://github.com/mattpocock/skills"
     },
@@ -3303,7 +3306,7 @@
       "name": "garrytan/gstack",
       "description": "Use Garry Tan's exact Claude Code setup: 23 opinionated tools that serve as CEO, Designer, Eng Manager, Release Manager, Doc Engineer, and QA",
       "language": "TypeScript",
-      "stars": 140142,
+      "stars": 140252,
       "starsToday": 612,
       "url": "https://github.com/garrytan/gstack"
     },
@@ -3311,7 +3314,7 @@
       "name": "Usagi-org/ai-goofish-monitor",
       "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
       "language": "Python",
-      "stars": 17895,
+      "stars": 18081,
       "starsToday": 240,
       "url": "https://github.com/Usagi-org/ai-goofish-monitor"
     },
@@ -3319,7 +3322,7 @@
       "name": "D4Vinci/Scrapling",
       "description": "🕷️ The BEST Web Scraping framework that handles everything from a single request to a full-scale crawl! Don't be shy, join here: https://discord.gg/EMgGbDceNQ and follow here for daily tips and tricks: https://x.com/Scrapling_dev",
       "language": "Python",
-      "stars": 98307,
+      "stars": 98483,
       "starsToday": 1655,
       "url": "https://github.com/D4Vinci/Scrapling"
     },
@@ -3327,7 +3330,7 @@
       "name": "vercel-labs/agent-desktop",
       "description": "Computer use CLI for AI agents",
       "language": "Rust",
-      "stars": 17293,
+      "stars": 17544,
       "starsToday": 2173,
       "url": "https://github.com/vercel-labs/agent-desktop"
     },
@@ -3335,7 +3338,7 @@
       "name": "max-sixty/worktrunk",
       "description": "Worktrunk is a CLI for Git worktree management, designed for parallel AI agent workflows",
       "language": "Rust",
-      "stars": 11636,
+      "stars": 11689,
       "starsToday": 546,
       "url": "https://github.com/max-sixty/worktrunk"
     },
@@ -3343,7 +3346,7 @@
       "name": "lz4/lz4",
       "description": "Extremely Fast Compression algorithm",
       "language": "C",
-      "stars": 12461,
+      "stars": 12504,
       "starsToday": 23,
       "url": "https://github.com/lz4/lz4"
     },
@@ -3351,7 +3354,7 @@
       "name": "google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "stars": 22511,
+      "stars": 22576,
       "starsToday": 211,
       "url": "https://github.com/google/skills"
     },
@@ -3359,7 +3362,7 @@
       "name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 46077,
+      "stars": 46176,
       "starsToday": 150,
       "url": "https://github.com/vercel-labs/agent-browser"
     },
@@ -3367,7 +3370,7 @@
       "name": "scenario-labs/skills",
       "description": "Get production-ready images, video, audio, and 3D from any AI agent: skills that pick the right model, price before spending, and keep characters and brands consistent through the Scenario MCP, plus expert teams that drive Blender, Maya, ZBrush, Unreal, and Unity.",
       "language": "Python",
-      "stars": 3233,
+      "stars": 3300,
       "starsToday": 667,
       "url": "https://github.com/scenario-labs/skills"
     },
@@ -3375,7 +3378,7 @@
       "name": "ConardLi/garden-skills",
       "description": "ConardLi's open-source Skills collection, featuring web design, knowledge retrieval, image generation, and more.",
       "language": "JavaScript",
-      "stars": 14315,
+      "stars": 14410,
       "starsToday": 175,
       "url": "https://github.com/ConardLi/garden-skills"
     }
@@ -3459,10 +3462,10 @@
       "link": "https://podcasts.apple.com/us/podcast/waveform-the-mkbhd-podcast/id1474429475?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/92/dd/8e/92dd8eed-43ec-dc47-50ae-c1ec7c0a3353/mza_3861776104886813687.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "Is The \"PROLED\" Macbook Any Good?",
-        "publishedAt": "2026-10-30T08:00:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/is-the-proled-macbook-any-good/id1474429475?i=1000798853717&uo=4",
-        "duration": 7325000
+        "title": "Instagram Wants to be YouTube Now?”",
+        "publishedAt": "2026-11-06T09:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/instagram-wants-to-be-youtube-now/id1474429475?i=1000800214818&uo=4",
+        "duration": 5995000
       }
     },
     {
