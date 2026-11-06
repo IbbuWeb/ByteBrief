@@ -55,6 +55,34 @@
   <footer class="site-footer" id="siteFooter"></footer>
   <nav class="bottom-nav" id="bottomNav" aria-label="Mobile navigation"></nav>
 
+  <div class="modal" id="articleModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <button type="button" class="modal-close" data-close-modal aria-label="Close story preview">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M6 6l12 12M18 6 6 18"></path>
+        </svg>
+      </button>
+      <div class="modal-media" id="modalMedia"></div>
+      <div class="modal-body">
+        <div class="cluster">
+          <span class="pill pill-accent" id="modalCategory">Tech</span>
+          <span class="pill" id="modalSource">Source</span>
+        </div>
+        <h2 id="modalTitle">Story</h2>
+        <p class="modal-meta" id="modalMeta"></p>
+        <p class="modal-description" id="modalDescription"></p>
+        <div class="modal-actions">
+          <a class="btn btn-primary" id="modalRead" href="#" target="_blank" rel="noopener noreferrer">Read full story</a>
+          <button type="button" class="btn btn-outline js-save-btn" id="modalSave" data-action="save">
+            <span class="js-save-label">Saved</span>
+          </button>
+          <button type="button" class="btn btn-ghost" id="modalShare" data-action="share">Share</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">
     <span class="toast-message"></span>
   </div>

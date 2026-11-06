@@ -576,37 +576,9 @@ export async function shareArticle(article) {
 
 /* Cards ------------------------------------------------------------------ */
 
-function sourceInitials(value) {
-  const words = String(value || 'ByteBrief')
-    .split(/\s+/)
-    .filter(Boolean)
-    .slice(0, 2);
-  return words.map(word => word.charAt(0)).join('').toUpperCase() || 'B';
-}
-
-function mediaMarkup(image, source) {
-  const safe = safeUrl(image);
-  return `
-    <div class="media-placeholder" aria-hidden="true">
-      <span class="media-monogram">${escapeHtml(sourceInitials(source))}</span>
-      <span class="media-source">${escapeHtml(source || 'ByteBrief')}</span>
-    </div>
-    ${
-      safe
-        ? `<img class="js-img" src="${escapeHtml(safe)}" alt="" loading="lazy" decoding="async">`
-        : ''
-    }
-  `;
-}
-
-function titleMarkup(article, linkTitles) {
+function titleMarkup(article) {
   const title = escapeHtml(article.title || 'Untitled');
   const link = escapeHtml(safeUrl(article.link) || '#');
-
-  if (linkTitles) {
-    return `<a href="${link}" target="_blank" rel="noopener noreferrer">${title}</a>`;
-  }
-
   return `<button type="button" class="link-button" data-action="open" data-link="${link}">${title}</button>`;
 }
 
@@ -615,7 +587,6 @@ export function renderStoryCard(article, options = {}) {
     span = 4,
     saved = false,
     savedAt = null,
-    linkTitles = false,
     showExcerpt = true
   } = options;
 
@@ -625,25 +596,32 @@ export function renderStoryCard(article, options = {}) {
   const published = article.publishedAt || article.savedAt;
   const excerpt = article.description || '';
   const image = article.thumbnail || article.image;
+  const imageUrl = safeUrl(image);
+  const imageMarkup = imageUrl
+    ? `
+      <button type="button" class="story-media" data-action="open" data-link="${link}" aria-label="Preview ${escapeHtml(title)}">
+        <img class="js-img" src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async">
+        <span class="story-source">${escapeHtml(article.source || 'Unknown')}</span>
+      </button>`
+    : '';
+  const cardClass = imageUrl ? 'story-card' : 'story-card story-card--text';
 
   return `
-    <article class="story-card card span-${span}" data-link="${link}">
-      <a class="story-media" href="${link}" target="_blank" rel="noopener noreferrer" aria-label="Open ${escapeHtml(title)} at the publisher">
-        ${mediaMarkup(image, article.source)}
-        <span class="story-source">${escapeHtml(article.source || 'Unknown')}</span>
-      </a>
+    <article class="${cardClass} card span-${span}" data-link="${link}">
+      ${imageMarkup}
       <div class="story-content">
         <div class="story-kicker">
           <span class="eyebrow">${escapeHtml(category)}</span>
           <span class="dot"></span>
           <time datetime="${escapeHtml(published || '')}">${published ? formatRelative(published) : '—'}</time>
         </div>
-        <h3 class="story-title">${titleMarkup(article, linkTitles)}</h3>
+        <h3 class="story-title">${titleMarkup(article)}</h3>
         ${
           showExcerpt && excerpt
             ? `<p class="story-excerpt">${escapeHtml(excerpt)}</p>`
             : ''
         }
+        ${imageUrl ? '' : `<div class="story-source-line">From ${escapeHtml(article.source || 'Unknown')}</div>`}
         <div class="story-actions">
           <button type="button" class="js-save-btn${saved ? ' is-saved' : ''}" data-action="save" data-link="${link}" aria-pressed="${saved}" aria-label="${saved ? 'Remove from saved' : 'Save story'}">
             ${ICONS.bookmark}<span class="js-save-label">${saved ? 'Saved' : 'Save'}</span>

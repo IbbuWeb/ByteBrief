@@ -2,19 +2,35 @@ import {
   ICONS,
   categoryLabel,
   escapeHtml,
+  formatDate,
   formatRelative,
   getSavedArticles,
   initShell,
   renderStoryCard,
   safeUrl,
+  shareArticle,
   showToast
 } from './shared.js';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];
 
+const els = {
+  modal: document.getElementById('articleModal'),
+  media: document.getElementById('modalMedia'),
+  category: document.getElementById('modalCategory'),
+  source: document.getElementById('modalSource'),
+  title: document.getElementById('modalTitle'),
+  meta: document.getElementById('modalMeta'),
+  description: document.getElementById('modalDescription'),
+  read: document.getElementById('modalRead'),
+  save: document.getElementById('modalSave'),
+  share: document.getElementById('modalShare')
+};
+
 let ctx = null;
 let saved = [];
+let lastFocused = null;
 
 boot();
 
@@ -125,8 +141,7 @@ function renderSaved() {
           renderStoryCard(article, {
             span: SPANS[index % SPANS.length],
             saved: true,
-            savedAt: article.savedAt,
-            linkTitles: true
+            savedAt: article.savedAt
           })
         )
         .join('')}
@@ -136,19 +151,40 @@ function renderSaved() {
   root.querySelector('#savedGrid')?.addEventListener('click', handleGridClick);
 }
 
+// Open/remove actions can come from a card, the modal, or #modalRead.
 async function handleGridClick(event) {
-  const button = event.target.closest('[data-action="save"]');
-  if (!button) return;
-  event.preventDefault();
+  const actionEl = event.target.closest('[data-action]');
+  if (!actionEl) return;
 
-  const link = button.dataset.link;
+  const link = actionEl.dataset.link;
   const target = saved.find(article => safeUrl(article.link) === link);
   if (!target) return;
 
+  if (actionEl.dataset.action === 'open') {
+    event.preventDefault();
+    openPreview(target);
+    return;
+  }
+
+  if (actionEl.dataset.action === 'share') {
+    event.preventDefault();
+    await shareArticle(target);
+    return;
+  }
+
+  if (actionEl.dataset.action !== 'save') return;
+
+  const closeModal = Boolean(actionEl.closest('#articleModal'));
+  event.preventDefault();
+  await removeSaved(target, { closeModal });
+}
+
+async function removeSaved(target, { closeModal = false } = {}) {
   const previous = saved;
   saved = saved.filter(article => article !== target);
   renderSaved();
   showToast('Removed from your reading list.');
+  if (closeModal) closePreview();
 
   try {
     await ctx.dbApi.deleteDoc(
@@ -161,3 +197,75 @@ async function handleGridClick(event) {
     showToast('Could not remove that story. Try again.', 'error');
   }
 }
+
+function openPreview(article) {
+  if (!els.modal) return;
+  lastFocused = document.activeElement;
+  const image = safeUrl(article.thumbnail || article.image);
+  const link = safeUrl(article.link) || '#';
+  els.media.innerHTML = image
+    ? `<img class="js-img" src="${escapeHtml(image)}" alt="" decoding="async">`
+    : `<div class="media-placeholder" aria-hidden="true">${ICONS.image}</div>`;
+  els.category.textContent = categoryLabel(article.categories?.[0] || article.category);
+  els.source.textContent = article.source || 'Unknown';
+  els.title.textContent = article.title || 'Story';
+  const date = article.publishedAt || article.savedAt;
+  els.meta.textContent = [
+    article.author || null,
+    date ? formatDate(date, { year: true }) : 'Date unavailable'
+  ].filter(Boolean).join(' · ');
+  els.description.textContent = article.description || 'The publisher did not provide a summary for this story.';
+  els.read.href = link;
+  els.save.dataset.link = link;
+  els.save.querySelector('.js-save-label').textContent = 'Saved';
+  els.save.classList.add('is-saved');
+  els.save.setAttribute('aria-pressed', 'true');
+  els.share.dataset.link = link;
+
+  els.modal.classList.add('is-open');
+  els.modal.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('no-scroll');
+  els.modal.querySelector('.modal-close')?.focus();
+}
+
+function closePreview() {
+  if (!els.modal) return;
+  els.modal.classList.remove('is-open');
+  els.modal.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('no-scroll');
+  lastFocused?.focus?.();
+  lastFocused = null;
+}
+
+document.addEventListener('click', event => {
+  if (event.target.closest('[data-close-modal]')) {
+    closePreview();
+    return;
+  }
+
+  if (event.target.closest('#articleModal')?.querySelector('[data-action]')) {
+    void handleGridClick(event);
+  }
+});
+
+document.addEventListener('keydown', event => {
+  if (!els.modal?.classList.contains('is-open')) return;
+  if (event.key === 'Escape') {
+    event.preventDefault();
+    closePreview();
+    return;
+  }
+  if (event.key !== 'Tab') return;
+  const focusable = [...els.modal.querySelectorAll('a[href], button:not([disabled])')]
+    .filter(el => el.offsetParent !== null);
+  if (focusable.length === 0) return;
+  const first = focusable[0];
+  const last = focusable[focusable.length - 1];
+  if (event.shiftKey && document.activeElement === first) {
+    event.preventDefault();
+    last.focus();
+  } else if (!event.shiftKey && document.activeElement === last) {
+    event.preventDefault();
+    first.focus();
+  }
+});
