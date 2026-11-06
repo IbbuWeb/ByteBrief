@@ -6,6 +6,7 @@ import {
   formatRelative,
   getSavedArticles,
   initShell,
+  removeSavedArticle,
   renderStoryCard,
   safeUrl,
   shareArticle,
@@ -181,20 +182,19 @@ async function handleGridClick(event) {
 
 async function removeSaved(target, { closeModal = false } = {}) {
   const previous = saved;
-  saved = saved.filter(article => article !== target);
+  const link = safeUrl(target.link);
+  saved = saved.filter(article => safeUrl(article.link) !== link);
   renderSaved();
   showToast('Removed from your reading list.');
   if (closeModal) closePreview();
 
   try {
-    await ctx.dbApi.deleteDoc(
-      ctx.dbApi.doc(ctx.db, 'savedArticles', target.id)
-    );
+    await removeSavedArticle(ctx, target);
   } catch (error) {
     console.error('Could not remove the saved story:', error);
     saved = previous;
     renderSaved();
-    showToast('Could not remove that story. Try again.', 'error');
+    showToast(error.message || 'Could not remove that story. Try again.', 'error');
   }
 }
 

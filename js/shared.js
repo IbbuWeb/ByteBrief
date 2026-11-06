@@ -547,21 +547,79 @@ function articleToSave(article) {
   };
 }
 
+const SAVED_STORAGE_CAP_BYTES = 100 * 1024 * 1024;
+
+function estimateSavedBytes(record) {
+  try {
+    return new TextEncoder().encode(JSON.stringify(record)).length;
+  } catch {
+    return 1024;
+  }
+}
+
 export async function addSavedArticle(ctx, article) {
   if (!ctx?.user) throw new Error('Sign in to save stories');
   const record = articleToSave(article);
-
-  const snapshot = await getSavedDocs(ctx);
-  const exists = snapshot.docs.some(
-    doc => safeUrl(doc.data().link) === record.link
+  const sizeBytes = estimateSavedBytes(record);
+  const uid = ctx.user.uid;
+  const savedCollection = ctx.dbApi.collection(ctx.db, 'savedArticles');
+  const userQuery = ctx.dbApi.query(
+    savedCollection,
+    ctx.dbApi.where('userId', '==', uid)
   );
-  if (exists) return false;
+  const newRef = ctx.dbApi.doc(savedCollection);
 
-  await ctx.dbApi.addDoc(
-    ctx.dbApi.collection(ctx.db, 'savedArticles'),
-    { ...record, userId: ctx.user.uid }
+  return ctx.dbApi.runTransaction(ctx.db, async transaction => {
+    const snapshot = await transaction.get(userQuery);
+    const exists = snapshot.docs.some(
+      doc => safeUrl(doc.data().link) === record.link
+    );
+    if (exists) return false;
+
+    const usedBytes = snapshot.docs.reduce((sum, doc) => {
+      const data = doc.data();
+      const size =
+        typeof data.sizeBytes === 'number' ? data.sizeBytes : estimateSavedBytes(data);
+      return sum + size;
+    }, 0);
+
+    if (usedBytes + sizeBytes > SAVED_STORAGE_CAP_BYTES) {
+      throw new Error('You can save up to 100 MB of stories.');
+    }
+
+    transaction.set(newRef, {
+      ...record,
+      userId: uid,
+      sizeBytes
+    });
+    return true;
+  });
+}
+
+export async function removeSavedArticle(ctx, article) {
+  if (!ctx?.user) throw new Error('Sign in to manage saved stories');
+  const link = safeUrl(article.link);
+  if (!link) return false;
+
+  const savedCollection = ctx.dbApi.collection(ctx.db, 'savedArticles');
+  const userQuery = ctx.dbApi.query(
+    savedCollection,
+    ctx.dbApi.where('userId', '==', ctx.user.uid)
   );
-  return true;
+
+  let removed = false;
+  await ctx.dbApi.runTransaction(ctx.db, async transaction => {
+    const snapshot = await transaction.get(userQuery);
+    const matches = snapshot.docs.filter(
+      doc => safeUrl(doc.data().link) === link
+    );
+    if (matches.length === 0) return;
+
+    matches.forEach(doc => transaction.delete(doc.ref));
+    removed = true;
+  });
+
+  return removed;
 }
 
 export async function toggleSaved(ctx, article, savedSet) {
@@ -570,12 +628,8 @@ export async function toggleSaved(ctx, article, savedSet) {
   if (!link) throw new Error('This story does not have a valid link');
 
   if (savedSet.has(link)) {
-    const snapshot = await getSavedDocs(ctx);
-    const matches = snapshot.docs.filter(
-      doc => safeUrl(doc.data().link) === link
-    );
-    await Promise.all(matches.map(doc => ctx.dbApi.deleteDoc(doc.ref)));
-    savedSet.delete(link);
+    const removed = await removeSavedArticle(ctx, article);
+    if (removed) savedSet.delete(link);
     return 'removed';
   }
 
@@ -620,9 +674,10 @@ export async function flushPendingSave(ctx) {
     const article = JSON.parse(raw);
     const added = await addSavedArticle(ctx, article);
     if (added) showToast('Story saved to your reading list.', 'success');
+    else showToast('Already saved.', 'info');
   } catch (error) {
     console.warn('Could not finish the pending save:', error);
-    showToast('Signed in, but the story could not be saved.', 'error');
+    showToast(error.message || 'Signed in, but the story could not be saved.', 'error');
   }
 }
 
