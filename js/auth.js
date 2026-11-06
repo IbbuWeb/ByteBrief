@@ -1,95 +1,114 @@
-import { auth, db, recordLoginTime } from './firebase-config.js';
-import { signInWithPopup, GoogleAuthProvider, onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
-import { doc, getDoc } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
+import {
+  getUserProfile,
+  initAuth,
+  initThemeToggle,
+  safeRedirect,
+  showToast
+} from './shared.js';
 
-const provider = new GoogleAuthProvider();
-const googleSignUpBtn = document.getElementById('googleSignUpBtn');
-const googleLoginBtn = document.getElementById('googleLoginBtn');
+const button = document.getElementById('googleSignInBtn');
+const label = document.getElementById('googleSignInLabel');
+const status = document.getElementById('authStatus');
+
+const redirectParam = new URLSearchParams(window.location.search).get('redirect');
 let isSigningIn = false;
+let authContext = null;
 
-function getRedirectUrl() {
-  const params = new URLSearchParams(window.location.search);
-  const redirect = params.get('redirect');
-  return redirect || 'index.html';
+initThemeToggle();
+boot();
+
+function destination() {
+  const target = safeRedirect(redirectParam, 'index.html');
+  if (/^(login|onboarding)\.html(?:[?#]|$)/.test(target)) return 'index.html';
+  return target;
 }
 
-async function handleGoogleAuth(isNewUser) {
+async function boot() {
+  button.disabled = true;
+  authContext = await initAuth();
+
+  if (!authContext) {
+    status.textContent =
+      'Google sign-in is unavailable right now. You can still read the public brief.';
+    label.textContent = 'Sign-in unavailable';
+    return;
+  }
+
+  button.disabled = false;
+
+  if (authContext.user) {
+    status.textContent = 'You are already signed in. Taking you back…';
+    await route();
+    return;
+  }
+
+  status.textContent = '';
+  button.addEventListener('click', signIn);
+}
+
+async function signIn() {
+  if (isSigningIn || !authContext) return;
+  isSigningIn = true;
+  button.disabled = true;
+  label.textContent = 'Opening Google…';
+  status.textContent = '';
+
+  try {
+    const provider = new authContext.authApi.GoogleAuthProvider();
+    await authContext.authApi.signInWithPopup(authContext.firebase.auth, provider);
+    status.textContent = 'Signed in. Loading your account…';
+    await route();
+  } catch (error) {
+    console.warn('Google sign-in failed:', error);
+    status.textContent = messageFor(error);
+    label.textContent = 'Continue with Google';
+    button.disabled = false;
+    isSigningIn = false;
+
+    if (!['auth/popup-closed-by-user', 'auth/cancelled-popup-request'].includes(error.code)) {
+      showToast(messageFor(error), 'error');
+    }
+  }
+}
+
+async function route() {
+  try {
+    const profile = await getUserProfile(authContext, { fresh: true });
+    if (profile) {
+      window.location.replace(destination());
+      return;
+    }
+
+    window.location.replace(
+      `onboarding.html?redirect=${encodeURIComponent(destination())}`
+    );
+  } catch (error) {
+    console.warn('Could not check the account profile:', error);
+    status.textContent =
+      'Signed in, but your profile could not be checked. Check your connection and try again.';
+    label.textContent = 'Retry';
+    button.disabled = false;
+    isSigningIn = false;
+    button.removeEventListener('click', signIn);
+    button.onclick = retryRoute;
+  }
+}
+
+function retryRoute() {
   if (isSigningIn) return;
   isSigningIn = true;
+  button.disabled = true;
+  route();
+}
 
-  const activeBtn = isNewUser ? googleSignUpBtn : googleLoginBtn;
-  const originalHtml = activeBtn.innerHTML;
-
-  try {
-    activeBtn.disabled = true;
-    activeBtn.textContent = isNewUser ? 'Creating account...' : 'Signing in...';
-
-    const result = await signInWithPopup(auth, provider);
-    const user = result.user;
-
-    isSigningIn = false;
-    recordLoginTime();
-
-    const userDocRef = doc(db, 'users', user.uid);
-    const userDoc = await getDoc(userDocRef);
-    const redirectUrl = getRedirectUrl();
-
-    if (userDoc.exists()) {
-      window.location.href = redirectUrl;
-    } else {
-      window.location.href = 'onboarding.html';
-    }
-  } catch (error) {
-    console.error('Auth error:', error);
-    isSigningIn = false;
-
-    if (error.code === 'auth/popup-closed-by-user') {
-      showToast('Sign in cancelled.', 'error');
-    } else if (error.code === 'auth/unauthorized-domain') {
-      showToast('This domain is not authorized. Add it in Firebase Console > Authentication > Settings.', 'error');
-    } else if (error.code !== 'auth/cancelled-popup-request') {
-      showToast('Failed to sign in. Please try again.', 'error');
-    }
-
-    activeBtn.disabled = false;
-    activeBtn.innerHTML = originalHtml;
+function messageFor(error) {
+  if (error.code === 'auth/popup-closed-by-user') return 'Sign-in was cancelled.';
+  if (error.code === 'auth/popup-blocked') {
+    return 'Your browser blocked the popup. Allow popups for this site and try again.';
   }
-}
-
-if (googleSignUpBtn) {
-  googleSignUpBtn.addEventListener('click', () => handleGoogleAuth(true));
-}
-
-if (googleLoginBtn) {
-  googleLoginBtn.addEventListener('click', () => handleGoogleAuth(false));
-}
-
-onAuthStateChanged(auth, (user) => {
-  if (user && !isSigningIn) {
-    checkUserProfile(user);
+  if (error.code === 'auth/unauthorized-domain') {
+    return 'This domain is not authorized in the Firebase project yet.';
   }
-});
-
-async function checkUserProfile(user) {
-  try {
-    const userDocRef = doc(db, 'users', user.uid);
-    const userDoc = await getDoc(userDocRef);
-    const redirectUrl = getRedirectUrl();
-
-    if (userDoc.exists()) {
-      window.location.href = redirectUrl;
-    } else {
-      window.location.href = 'onboarding.html';
-    }
-  } catch (error) {
-    console.error('Error checking profile:', error);
-  }
-}
-
-function showToast(message, type = 'success') {
-  const toast = document.getElementById('toast');
-  if (!toast) return;
-  toast.querySelector('.toast-message').textContent = message;
-  toast.className = `toast ${type} show`;
-  setTimeout(() => toast.classList.remove('show'), 3000);
+  if (error.code === 'auth/cancelled-popup-request') return '';
+  return 'Sign-in failed. Please try again.';
 }

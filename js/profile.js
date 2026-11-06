@@ -1,297 +1,306 @@
-import { auth, db, isSessionExpired, clearSession } from './firebase-config.js';
-import { onAuthStateChanged, signOut } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
-import { doc, getDoc, setDoc, collection, query, where, getDocs } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
+import {
+  ICONS,
+  categoryLabel,
+  escapeHtml,
+  formatDate,
+  getSavedArticles,
+  getUserProfile,
+  initShell,
+  invalidateUserProfile,
+  safeUrl,
+  showToast
+} from './shared.js';
 
-let currentUser = null;
-let userInterests = [];
+const INTEREST_OPTIONS = [
+  ['ai', 'AI'],
+  ['programming', 'Programming'],
+  ['hardware', 'Hardware'],
+  ['startups', 'Startups'],
+  ['cybersecurity', 'Cybersecurity']
+];
 
-const userName = document.getElementById('userName');
-const userEmail = document.getElementById('userEmail');
-const userPhoto = document.getElementById('userPhoto');
-const profileAvatar = document.getElementById('profileAvatar');
-const interestsDisplay = document.getElementById('interestsDisplay');
-const editInterestsBtn = document.getElementById('editInterestsBtn');
-const editInterestsSection = document.getElementById('editInterestsSection');
-const editInterestsGrid = document.getElementById('editInterestsGrid');
-const cancelEditBtn = document.getElementById('cancelEditBtn');
-const saveInterestsBtn = document.getElementById('saveInterestsBtn');
-const logoutBtn = document.getElementById('logoutBtn');
-const logoutBtnProfile = document.getElementById('logoutBtnProfile');
-const mobileLogoutBtn = document.getElementById('mobileLogoutBtn');
-const mobileMenuBtn = document.getElementById('mobileMenuBtn');
-const mobileNav = document.getElementById('mobileNav');
-const themeToggle = document.getElementById('themeToggle');
-const mobileThemeToggle = document.getElementById('mobileThemeToggle');
+const root = document.getElementById('profileRoot');
 
-function initTheme() {
-  const savedTheme = localStorage.getItem('theme') || 'dark';
-  document.documentElement.setAttribute('data-theme', savedTheme);
-}
+let ctx = null;
+let profile = null;
+let saved = [];
+let savedError = false;
 
-function toggleTheme() {
-  const currentTheme = document.documentElement.getAttribute('data-theme');
-  const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', newTheme);
-  localStorage.setItem('theme', newTheme);
-}
+boot();
 
-if (themeToggle) {
-  themeToggle.addEventListener('click', toggleTheme);
-}
-
-if (mobileThemeToggle) {
-  mobileThemeToggle.addEventListener('click', toggleTheme);
-}
-
-onAuthStateChanged(auth, async (user) => {
-  initTheme();
-  
-  if (!user) {
-    window.location.href = 'login.html';
-    return;
-  }
-
-  if (isSessionExpired()) {
-    clearSession();
-    await signOut(auth);
-    window.location.href = 'login.html';
-    return;
-  }
-
-  currentUser = user;
-  await loadUserProfile();
-  await loadAnalytics();
-  setupEventListeners();
-});
-
-async function loadUserProfile() {
-  try {
-    const userDocRef = doc(db, 'users', currentUser.uid);
-    const userDoc = await getDoc(userDocRef);
-    
-    if (userDoc.exists()) {
-      const userData = userDoc.data();
-      
-      if (userName) userName.textContent = userData.name || 'User';
-      if (userEmail) userEmail.textContent = userData.email || '';
-      
-      if (userData.photoURL && userPhoto) {
-        userPhoto.src = userData.photoURL;
-        userPhoto.style.display = 'block';
-        if (profileAvatar) {
-          profileAvatar.textContent = '';
-        }
-      } else if (profileAvatar && userData.name) {
-        profileAvatar.textContent = userData.name.charAt(0).toUpperCase();
-      }
-      
-      userInterests = userData.interests || [];
-      renderInterests();
-    }
-  } catch (error) {
-    console.error('Error loading profile:', error);
-  }
-}
-
-async function loadAnalytics() {
-  const totalSavedEl = document.getElementById('totalSaved');
-  const thisWeekSavedEl = document.getElementById('thisWeekSaved');
-  const mostActiveCategoryEl = document.getElementById('mostActiveCategory');
-  const categoryStatsEl = document.getElementById('categoryStats');
-
-  if (!totalSavedEl) return;
-
-  try {
-    const savedRef = collection(db, 'savedArticles');
-    const q = query(savedRef, where('userId', '==', currentUser.uid));
-    const snapshot = await getDocs(q);
-
-    const articles = snapshot.docs.map(doc => doc.data());
-    const totalSaved = articles.length;
-
-    const oneWeekAgo = new Date();
-    oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
-    const thisWeekSaved = articles.filter(a => {
-      const savedAt = new Date(a.savedAt);
-      return savedAt >= oneWeekAgo;
-    }).length;
-
-    const categoryCounts = {};
-    articles.forEach(article => {
-      if (article.category) {
-        const cat = article.category.toLowerCase();
-        categoryCounts[cat] = (categoryCounts[cat] || 0) + 1;
-      }
-    });
-
-    let mostActiveCategory = '-';
-    let maxCount = 0;
-    for (const [cat, count] of Object.entries(categoryCounts)) {
-      if (count > maxCount) {
-        maxCount = count;
-        mostActiveCategory = cat;
-      }
+function boot() {
+  initShell('profile').then(async authContext => {
+    if (!authContext) {
+      renderUnavailable(
+        'Sign-in is unavailable right now. You can keep reading the public brief and try again later.'
+      );
+      return;
     }
 
-    totalSavedEl.textContent = totalSaved;
-    thisWeekSavedEl.textContent = thisWeekSaved;
-    mostActiveCategoryEl.textContent = mostActiveCategory !== '-' ? mostActiveCategory.charAt(0).toUpperCase() + mostActiveCategory.slice(1) : '-';
-
-    if (Object.keys(categoryCounts).length > 0) {
-      const categoryLabels = {
-        ai: 'AI',
-        programming: 'Programming',
-        hardware: 'Hardware',
-        startups: 'Startups',
-        cybersecurity: 'Cybersecurity',
-        tech: 'Tech'
-      };
-
-      const sortedCategories = Object.entries(categoryCounts)
-        .sort((a, b) => b[1] - a[1]);
-
-      categoryStatsEl.innerHTML = sortedCategories.map(([cat, count]) => {
-        const percentage = totalSaved > 0 ? Math.round((count / totalSaved) * 100) : 0;
-        return `
-          <div class="category-stat">
-            <span class="category-stat-label">${categoryLabels[cat] || cat}</span>
-            <div class="category-stat-bar">
-              <div class="category-stat-fill" style="width: ${percentage}%"></div>
-            </div>
-            <span class="category-stat-count">${count}</span>
-          </div>
-        `;
-      }).join('');
-    } else {
-      categoryStatsEl.innerHTML = '<p class="empty-analytics">Save some articles to see your reading analytics!</p>';
+    if (!authContext.user) {
+      window.location.replace('login.html?redirect=profile.html');
+      return;
     }
-  } catch (error) {
-    console.error('Error loading analytics:', error);
-    categoryStatsEl.innerHTML = '<p class="empty-analytics">Unable to load analytics</p>';
-  }
-}
 
-function renderInterests() {
-  if (!interestsDisplay) return;
-  
-  if (userInterests.length === 0) {
-    interestsDisplay.innerHTML = '<span class="interest-tag">No interests selected</span>';
-    return;
-  }
-  
-  const interestLabels = {
-    ai: 'AI',
-    programming: 'Programming',
-    hardware: 'Hardware',
-    startups: 'Startups',
-    cybersecurity: 'Cybersecurity'
-  };
-  
-  interestsDisplay.innerHTML = userInterests.map(interest => 
-    `<span class="interest-tag">${interestLabels[interest] || interest}</span>`
-  ).join('');
-}
-
-function setupEventListeners() {
-  if (editInterestsBtn) {
-    editInterestsBtn.addEventListener('click', openEditInterests);
-  }
-  
-  if (cancelEditBtn) {
-    cancelEditBtn.addEventListener('click', closeEditInterests);
-  }
-  
-  if (saveInterestsBtn) {
-    saveInterestsBtn.addEventListener('click', saveInterests);
-  }
-  
-  if (logoutBtn) {
-    logoutBtn.addEventListener('click', handleLogout);
-  }
-  
-  if (logoutBtnProfile) {
-    logoutBtnProfile.addEventListener('click', handleLogout);
-  }
-  
-  if (mobileLogoutBtn) {
-    mobileLogoutBtn.addEventListener('click', handleLogout);
-  }
-  
-  if (mobileMenuBtn) {
-    mobileMenuBtn.addEventListener('click', () => {
-      const isExpanded = mobileMenuBtn.getAttribute('aria-expanded') === 'true';
-      mobileMenuBtn.setAttribute('aria-expanded', !isExpanded);
-      mobileNav.classList.toggle('active');
-    });
-  }
-}
-
-function openEditInterests() {
-  if (!editInterestsSection || !editInterestsGrid) return;
-  
-  const checkboxes = editInterestsGrid.querySelectorAll('input[name="editInterests"]');
-  checkboxes.forEach(checkbox => {
-    checkbox.checked = userInterests.includes(checkbox.value);
+    ctx = authContext;
+    await loadProfile();
   });
-  
-  editInterestsSection.style.display = 'block';
-  editInterestsBtn.style.display = 'none';
 }
 
-function closeEditInterests() {
-  if (!editInterestsSection || !editInterestsBtn) return;
-  
-  editInterestsSection.style.display = 'none';
-  editInterestsBtn.style.display = 'block';
+async function loadProfile() {
+  root.innerHTML =
+    '<div class="loading-panel"><span class="spinner" aria-hidden="true"></span> Loading your profile…</div>';
+
+  try {
+    profile = await getUserProfile(ctx);
+  } catch (error) {
+    console.error('Could not load the user profile:', error);
+    renderUnavailable(
+      'Your account is signed in, but the profile record could not be loaded. Check your connection and retry.'
+    );
+    return;
+  }
+
+  if (!profile) {
+    window.location.replace('onboarding.html?redirect=profile.html');
+    return;
+  }
+
+  savedError = false;
+  try {
+    saved = await getSavedArticles(ctx);
+  } catch (error) {
+    console.warn('Could not load saved stories for stats:', error);
+    saved = [];
+    savedError = true;
+  }
+
+  render();
+}
+
+function render() {
+  const user = ctx.user;
+  const name = profile.name || user.displayName || 'ByteBrief reader';
+  const email = profile.email || user.email || '';
+  const photo = safeUrl(profile.photoURL || user.photoURL);
+  const initial = name.charAt(0).toUpperCase();
+  const interests = Array.isArray(profile.interests) ? profile.interests : [];
+  const joined = toDate(profile.createdAt);
+
+  const total = saved.length;
+  const thisWeek = saved.filter(article => {
+    const time = Date.parse(article.savedAt || 0);
+    return Number.isFinite(time) && time >= Date.now() - 7 * 24 * 60 * 60 * 1000;
+  }).length;
+
+  const categoryCounts = new Map();
+  for (const article of saved) {
+    const category = article.category || 'tech';
+    categoryCounts.set(category, (categoryCounts.get(category) || 0) + 1);
+  }
+  const top = [...categoryCounts.entries()].sort((a, b) => b[1] - a[1])[0];
+  const breakdown = [...categoryCounts.entries()].sort((a, b) => b[1] - a[1]);
+
+  root.innerHTML = `
+    <div class="profile-grid">
+      <div class="stack">
+        <article class="identity-card card">
+          <div class="identity-avatar" aria-hidden="true">
+            <span>${escapeHtml(initial)}</span>
+            ${photo ? `<img class="js-img" src="${escapeHtml(photo)}" alt="">` : ''}
+          </div>
+          <div class="identity-text">
+            <h2>${escapeHtml(name)}</h2>
+            <p>${escapeHtml(email)}</p>
+            <p class="identity-meta">${joined ? `Joined ${escapeHtml(formatDate(joined, { year: true }))}` : 'Join date unavailable'} · Google account</p>
+          </div>
+        </article>
+
+        <article class="panel card">
+          <div class="panel-head">
+            <h2>Your topics</h2>
+            <button type="button" class="btn btn-ghost btn-sm" id="editInterestsBtn">Edit</button>
+          </div>
+          <div class="interest-tags">
+            ${
+              interests.length > 0
+                ? interests
+                    .map(
+                      interest =>
+                        `<span class="interest-tag">${escapeHtml(categoryLabel(interest))}</span>`
+                    )
+                    .join('')
+                : '<span class="pill">No topics chosen yet</span>'
+            }
+          </div>
+          <p class="muted" style="margin-top:12px;font-size:12px;">Topics power the For you filter on the feed. They are stored on your account and nowhere else.</p>
+
+          <div id="editInterestsPanel" class="is-hidden">
+            <div class="interest-edit-grid">
+              ${INTEREST_OPTIONS.map(
+                ([value, label]) => `
+                  <label class="interest-option">
+                    <input type="checkbox" name="profileInterests" value="${value}">
+                    <span class="interest-content">${escapeHtml(label)}</span>
+                  </label>
+                `
+              ).join('')}
+            </div>
+            <div class="edit-actions">
+              <button type="button" class="btn btn-primary btn-sm" id="saveInterestsBtn">Save changes</button>
+              <button type="button" class="btn btn-ghost btn-sm" id="cancelInterestsBtn">Cancel</button>
+            </div>
+          </div>
+        </article>
+
+        <article class="panel card">
+          <div class="panel-head">
+            <h2>Where your reading goes</h2>
+          </div>
+          ${
+            breakdown.length > 0
+              ? `<div class="breakdown">
+                  ${breakdown
+                    .map(([category, count]) => {
+                      const percent = total > 0 ? Math.round((count / total) * 100) : 0;
+                      return `
+                        <div class="breakdown-row">
+                          <span>${escapeHtml(categoryLabel(category))}</span>
+                          <progress max="100" value="${percent}" aria-label="${escapeHtml(categoryLabel(category))}: ${percent}%"></progress>
+                          <span class="breakdown-count">${count}</span>
+                        </div>
+                      `;
+                    })
+                    .join('')}
+                </div>`
+              : '<p class="muted">No saved stories yet. Your topic split will appear here once you save a few.</p>'
+          }
+        </article>
+      </div>
+
+      <aside class="profile-side">
+        <article class="panel card">
+          <div class="panel-head">
+            <h2>Reading stats</h2>
+            <a class="text-link" href="saved.html">Open list ${ICONS.arrow}</a>
+          </div>
+          <div class="stat-line"><span>Stories saved</span><strong>${total}</strong></div>
+          <div class="stat-line"><span>Saved this week</span><strong>${thisWeek}</strong></div>
+          <div class="stat-line"><span>Top topic</span><strong>${escapeHtml(top ? categoryLabel(top[0]) : '—')}</strong></div>
+          ${savedError ? '<p class="muted" style="margin-top:10px;font-size:12px;">Saved-story stats could not be loaded.</p>' : ''}
+        </article>
+
+        <article class="panel card">
+          <div class="panel-head">
+            <h2>Account</h2>
+          </div>
+          <div class="stat-line"><span>Sign-in method</span><strong>Google</strong></div>
+          <div class="stat-line"><span>Member since</span><strong>${joined ? escapeHtml(formatDate(joined, { year: true })) : '—'}</strong></div>
+          <button type="button" class="btn btn-outline btn-full" id="signOutBtn" style="margin-top:16px;">Sign out</button>
+          <p class="faint" style="margin-top:12px;font-size:11px;line-height:1.5;">Want your data removed? Open an issue on the <a class="text-link" href="https://github.com/IbbuWeb/ByteBrief/issues" target="_blank" rel="noopener noreferrer">project repository</a>.</p>
+        </article>
+      </aside>
+    </div>
+  `;
+
+  bindProfileActions();
+}
+
+function bindProfileActions() {
+  document.getElementById('editInterestsBtn')?.addEventListener('click', openEdit);
+  document.getElementById('cancelInterestsBtn')?.addEventListener('click', closeEdit);
+  document.getElementById('saveInterestsBtn')?.addEventListener('click', saveInterests);
+  document.getElementById('signOutBtn')?.addEventListener('click', signOut);
+}
+
+function openEdit() {
+  const panel = document.getElementById('editInterestsPanel');
+  const interests = Array.isArray(profile.interests) ? profile.interests : [];
+
+  panel?.querySelectorAll('input[name="profileInterests"]').forEach(input => {
+    input.checked = interests.includes(input.value);
+  });
+
+  panel?.classList.remove('is-hidden');
+  document.getElementById('editInterestsBtn')?.classList.add('is-hidden');
+  panel?.querySelector('input')?.focus();
+}
+
+function closeEdit() {
+  document.getElementById('editInterestsPanel')?.classList.add('is-hidden');
+  document.getElementById('editInterestsBtn')?.classList.remove('is-hidden');
+  document.getElementById('editInterestsBtn')?.focus();
 }
 
 async function saveInterests() {
-  const checkboxes = editInterestsGrid.querySelectorAll('input[name="editInterests"]');
-  const selectedInterests = Array.from(checkboxes)
-    .filter(cb => cb.checked)
-    .map(cb => cb.value);
-  
-  saveInterestsBtn.disabled = true;
-  saveInterestsBtn.textContent = 'Saving...';
-  
+  const button = document.getElementById('saveInterestsBtn');
+  const selected = [
+    ...document.querySelectorAll('input[name="profileInterests"]:checked')
+  ].map(input => input.value);
+
+  if (button) {
+    button.disabled = true;
+    button.textContent = 'Saving…';
+  }
+
   try {
-    await setDoc(doc(db, 'users', currentUser.uid), {
-      name: currentUser.displayName,
-      email: currentUser.email,
-      photoURL: currentUser.photoURL,
-      interests: selectedInterests,
-      createdAt: new Date().toISOString()
-    }, { merge: true });
-    
-    userInterests = selectedInterests;
-    renderInterests();
-    closeEditInterests();
-    showToast('Interests updated!');
+    await ctx.dbApi.setDoc(
+      ctx.dbApi.doc(ctx.db, 'users', ctx.user.uid),
+      {
+        name: profile.name || ctx.user.displayName || '',
+        email: profile.email || ctx.user.email || '',
+        photoURL: profile.photoURL || ctx.user.photoURL || '',
+        interests: selected
+      },
+      { merge: true }
+    );
+
+    profile = { ...profile, interests: selected };
+    invalidateUserProfile(ctx);
+    render();
+    showToast('Topics updated.', 'success');
   } catch (error) {
-    console.error('Error saving interests:', error);
-    showToast('Failed to update interests', 'error');
-  } finally {
-    saveInterestsBtn.disabled = false;
-    saveInterestsBtn.textContent = 'Save Changes';
+    console.error('Could not save interests:', error);
+    showToast('Could not save your topics. Try again.', 'error');
+    if (button) {
+      button.disabled = false;
+      button.textContent = 'Save changes';
+    }
   }
 }
 
-async function handleLogout() {
+async function signOut() {
+  const button = document.getElementById('signOutBtn');
+  if (button) button.disabled = true;
+
   try {
-    clearSession();
-    await signOut(auth);
-    window.location.href = 'login.html';
+    await ctx.authApi.signOut(ctx.firebase.auth);
+    window.location.href = 'index.html';
   } catch (error) {
-    console.error('Logout error:', error);
-    showToast('Failed to logout', 'error');
+    console.error('Could not sign out:', error);
+    showToast('Could not sign out. Try again.', 'error');
+    if (button) button.disabled = false;
   }
 }
 
-function showToast(message, type = 'success') {
-  const toast = document.getElementById('toast');
-  if (!toast) return;
-  
-  toast.querySelector('.toast-message').textContent = message;
-  toast.className = `toast ${type} show`;
-  setTimeout(() => toast.classList.remove('show'), 3000);
+function renderUnavailable(message) {
+  root.innerHTML = `
+    <div class="empty-state">
+      ${ICONS.user}
+      <h3>Profile unavailable</h3>
+      <p>${escapeHtml(message)}</p>
+      <div class="cluster">
+        <button type="button" class="btn btn-primary" id="retryProfile">Retry</button>
+        <a class="btn btn-outline" href="index.html">Back to the brief</a>
+      </div>
+    </div>
+  `;
+  document.getElementById('retryProfile')?.addEventListener('click', loadProfile);
+}
+
+function toDate(value) {
+  if (!value) return null;
+  if (typeof value.toDate === 'function') return value.toDate();
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? null : date;
 }

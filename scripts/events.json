@@ -1,0 +1,108 @@
+[
+  {
+    "title": "AWS re:Invent 2026",
+    "startDate": "2026-11-30",
+    "endDate": "2026-12-04",
+    "dateLabel": "Nov 30 – Dec 4, 2026",
+    "location": "Las Vegas, NV",
+    "description": "AWS's flagship cloud and AI conference, with 2,200+ technical sessions.",
+    "link": "https://aws.amazon.com/events/reinvent/",
+    "category": "conference",
+    "status": "confirmed"
+  },
+  {
+    "title": "CES 2027",
+    "startDate": "2027-01-06",
+    "endDate": "2027-01-09",
+    "dateLabel": "Jan 6–9, 2027",
+    "location": "Las Vegas, NV",
+    "description": "The world's largest consumer technology show, spanning AI, mobility, robotics and digital health.",
+    "link": "https://www.ces.tech/",
+    "category": "conference",
+    "status": "confirmed"
+  },
+  {
+    "title": "FOSDEM 2027",
+    "startDate": null,
+    "endDate": null,
+    "dateLabel": "February 2027 · TBA",
+    "location": "Brussels, Belgium",
+    "description": "The free and open-source software gathering for developers, run by volunteers.",
+    "link": "https://fosdem.org/",
+    "category": "conference",
+    "status": "tba",
+    "startMonth": "2027-02"
+  },
+  {
+    "title": "NVIDIA GTC 2027",
+    "startDate": null,
+    "endDate": null,
+    "dateLabel": "March 2027 · TBA",
+    "location": "San Jose, CA",
+    "description": "NVIDIA's AI and accelerated-computing conference for developers and researchers.",
+    "link": "https://www.nvidia.com/gtc/",
+    "category": "conference",
+    "status": "tba",
+    "startMonth": "2027-03"
+  },
+  {
+    "title": "Google I/O 2027",
+    "startDate": null,
+    "endDate": null,
+    "dateLabel": "May 2027 · TBA",
+    "location": "Mountain View, CA",
+    "description": "Google's annual developer conference for Android, AI, web and cloud.",
+    "link": "https://io.google/",
+    "category": "conference",
+    "status": "tba",
+    "startMonth": "2027-05"
+  },
+  {
+    "title": "Microsoft Build 2027",
+    "startDate": null,
+    "endDate": null,
+    "dateLabel": "May 2027 · TBA",
+    "location": "Seattle, WA",
+    "description": "Microsoft's developer conference covering Azure, AI, Windows and the developer stack.",
+    "link": "https://build.microsoft.com/",
+    "category": "conference",
+    "status": "tba",
+    "startMonth": "2027-05"
+  },
+  {
+    "title": "Apple WWDC 2027",
+    "startDate": null,
+    "endDate": null,
+    "dateLabel": "June 2027 · TBA",
+    "location": "Cupertino, CA",
+    "description": "Apple's Worldwide Developers Conference for iOS, macOS and its developer platforms.",
+    "link": "https://developer.apple.com/wwdc/",
+    "category": "conference",
+    "status": "tba",
+    "startMonth": "2027-06"
+  },
+  {
+    "title": "Black Hat USA 2027",
+    "startDate": null,
+    "endDate": null,
+    "dateLabel": "August 2027 · TBA",
+    "location": "Las Vegas, NV",
+    "description": "The security industry's deep-technical conference, with trainings and briefings.",
+    "link": "https://www.blackhat.com/",
+    "category": "conference",
+    "status": "tba",
+    "startMonth": "2027-08"
+  },
+  {
+    "title": "TechCrunch Disrupt 2027",
+    "startDate": null,
+    "endDate": null,
+    "dateLabel": "September 2027 · TBA",
+    "location": "San Francisco, CA",
+    "description": "TechCrunch's startup conference, with the Startup Battlefield competition.",
+    "link": "https://techcrunch.com/events/",
+    "category": "conference",
+    "status": "tba",
+    "startMonth": "2027-09"
+  }
+]

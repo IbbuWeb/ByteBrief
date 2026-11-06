@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b11">
+  <meta name="description" content="How ByteBrief works: 26 direct RSS feeds, GitHub trending, Apple Podcasts, curated events, and a three-hour refresh with no invented data.">
+  <meta name="author" content="ByteBrief">
+  <link rel="canonical" href="https://ibbuweb.github.io/ByteBrief/about.html">
+  <meta property="og:title" content="About ByteBrief">
+  <meta property="og:description" content="A clean tech brief built from real publisher feeds and a public refresh job.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ibbuweb.github.io/ByteBrief/about.html">
+  <meta property="og:image" content="https://ibbuweb.github.io/ByteBrief/assets/bytebrief-logo.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
+  <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
+  <link rel="manifest" href="manifest.json">
+  <title>About — ByteBrief</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('theme');
+        if (!theme) theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (error) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body data-page="about">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="siteHeader"></header>
+
+  <main id="main" class="shell page">
+    <div class="prose-layout">
+      <article class="prose">
+        <span class="eyebrow">About</span>
+        <h1>Tech news without the theatre.</h1>
+        <p class="lede">ByteBrief is a small public reading project. It collects real headlines, real repositories, real conference dates, and real podcast episodes into one calm page — and it shows where every item came from.</p>
+
+        <h2>What this is</h2>
+        <p>One feed for the parts of tech worth following: AI, programming, hardware, startups, and security. Each story links straight to the publisher. ByteBrief does not rewrite articles, generate summaries, or re-host other people's work.</p>
+        <p>The interface is a static site: plain HTML, CSS, and ES modules. There is no build step. A scheduled GitHub Action regenerates a single <code>js/data.json</code> file, and the pages render from it.</p>
+
+        <h2>Where the data comes from</h2>
+        <ul>
+          <li><strong>Headlines</strong> come from 26 publisher RSS or Atom feeds, fetched directly by the refresh job. No feed proxy sits in the middle.</li>
+          <li><strong>Trending repositories</strong> come from GitHub's public daily trending page, with cumulative stars and GitHub's own daily gain when it is shown.</li>
+          <li><strong>Podcast episodes</strong> come from Apple's public iTunes lookup API, using each show's Apple ID and RSS feed.</li>
+          <li><strong>Events</strong> are curated by hand in <code>scripts/events.json</code>. Confirmed dates link to official event pages; anything without an announced exact date is labelled TBA and shows only its month.</li>
+          <li><strong>Sources</strong> are listed in full on the <a href="byteHub.html#sources">Hub</a>, so you can check the input rather than trust the output.</li>
+        </ul>
+
+        <h2>When it refreshes</h2>
+        <p>The GitHub Actions workflow runs every three hours and commits a new data file when the content changes. If one publisher fails, that source is skipped and its previous stories are kept; the other feeds still update. The timestamp at the top of the feed is when the refresh job last ran, not a promise that every publisher answered.</p>
+
+        <h2>What ByteBrief does not do</h2>
+        <ul>
+          <li>No invented prices, viewer counts, deal percentages, or "live now" badges.</li>
+          <li>No ads, sponsored placements, tracking pixels, or analytics scripts.</li>
+          <li>No account wall. Reading is public; Google sign-in only exists for saving stories, topics, and your profile.</li>
+          <li>No re-hosting of article text. Descriptions and images belong to the publishers and remain hosted by them.</li>
+        </ul>
+
+        <h2>Known limits</h2>
+        <p>Publisher feeds change without notice. Some images are hotlinked and may fail to load. GitHub's "stars today" is not available on every row, so it is hidden rather than guessed. Podcast hosts are curated, and a show can change hosts at any time. If something is wrong, the fastest fix is an <a href="https://github.com/IbbuWeb/ByteBrief/issues" target="_blank" rel="noopener noreferrer">issue on GitHub</a>.</p>
+
+        <h2>Built with</h2>
+        <p>Static HTML, CSS, and vanilla JavaScript. A Node script handles feed parsing and data generation. Firebase Authentication and Firestore handle optional saving. GitHub Pages hosts the site. The full source is in the <a href="https://github.com/IbbuWeb/ByteBrief" target="_blank" rel="noopener noreferrer">ByteBrief repository</a>.</p>
+
+        <p class="prose-note">ByteBrief is independent and not affiliated with any of the publications, companies, or events it links to. Headlines and trademarks belong to their owners.</p>
+      </article>
+
+      <aside class="card prose-aside" aria-label="On this page">
+        <h3>On this page</h3>
+        <a href="#main">What this is</a>
+        <a href="byteHub.html">Browse the data</a>
+        <a href="privacy.html">Privacy notes</a>
+        <a href="terms.html">Terms</a>
+        <a href="https://github.com/IbbuWeb/ByteBrief" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="siteFooter"></footer>
+  <nav class="bottom-nav" id="bottomNav" aria-label="Mobile navigation"></nav>
+
+  <script type="module">
+    import { initShell } from './js/shared.js';
+    initShell('');
+  </script>
+</body>
+</html>

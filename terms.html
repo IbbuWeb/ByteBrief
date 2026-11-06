@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b11">
+  <meta name="description" content="ByteBrief terms of use: third-party headlines, no warranty, acceptable use, and the limits of a public reading project.">
+  <meta name="author" content="ByteBrief">
+  <link rel="canonical" href="https://ibbuweb.github.io/ByteBrief/terms.html">
+  <meta property="og:title" content="Terms — ByteBrief">
+  <meta property="og:description" content="The rules for using ByteBrief and the limits of its third-party content.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ibbuweb.github.io/ByteBrief/terms.html">
+  <meta property="og:image" content="https://ibbuweb.github.io/ByteBrief/assets/bytebrief-logo.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
+  <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
+  <link rel="manifest" href="manifest.json">
+  <title>Terms — ByteBrief</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('theme');
+        if (!theme) theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (error) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body data-page="terms">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="siteHeader"></header>
+
+  <main id="main" class="shell page">
+    <div class="prose-layout">
+      <article class="prose">
+        <span class="eyebrow">Terms</span>
+        <h1>Terms of use.</h1>
+        <p class="lede">ByteBrief is a free public reading project. By using it, you accept these straightforward limits.</p>
+
+        <h2>Third-party content</h2>
+        <p>Headlines, descriptions, images, podcast episodes, and event details belong to their publishers and are provided through public feeds and pages. ByteBrief links to them but does not own them, endorse them, or guarantee that they are accurate, complete, or current.</p>
+        <p>When you follow a link, the destination's terms and privacy policy apply. ByteBrief has no control over what a publisher displays or collects after you leave.</p>
+
+        <h2>No warranty</h2>
+        <p>The site and its data are provided "as is" and "as available", without warranties of any kind, express or implied, including fitness for a particular purpose. Feeds break, images disappear, conference dates move, and GitHub's trending page changes. The refresh job tries every three hours; it does not promise uninterrupted or error-free service.</p>
+
+        <h2>Limitation of liability</h2>
+        <p>To the fullest extent permitted by law, ByteBrief and its contributors are not liable for indirect, incidental, special, or consequential damages arising from your use of the site or reliance on its content, including lost profits or data.</p>
+
+        <h2>Accounts</h2>
+        <p>Reading is public. Google sign-in is optional and exists to save stories, topics, and a profile. Keep access to your Google account secure; activity performed through your account is your responsibility. You may stop using the account at any time, remove saved stories from the interface, or request deletion through the project issue tracker.</p>
+
+        <h2>Acceptable use</h2>
+        <ul>
+          <li>Do not attempt to access another person's profile or saved records.</li>
+          <li>Do not use the site to distribute malware, spam, or unlawful material.</li>
+          <li>Do not place unreasonable load on the site, the refresh job, or the feeds it reads.</li>
+          <li>Do not present ByteBrief's aggregation as the publisher's own official product.</li>
+        </ul>
+
+        <h2>Intellectual property</h2>
+        <p>ByteBrief's own source code, layout, and written copy are published in the <a href="https://github.com/IbbuWeb/ByteBrief" target="_blank" rel="noopener noreferrer">public repository</a>. Publisher trademarks, article text, images, and episode artwork remain with their respective owners. No additional license is granted beyond viewing the repository and contributing to it.</p>
+
+        <h2>Changes</h2>
+        <p>These terms may change as the project changes. The repository history records each revision. Continuing to use the site after a change means you accept the updated terms.</p>
+
+        <h2>Contact</h2>
+        <p>Questions about these terms: <a href="https://github.com/IbbuWeb/ByteBrief/issues" target="_blank" rel="noopener noreferrer">open an issue</a>.</p>
+
+        <p class="prose-note">Last updated: 6 November 2026. These terms are a plain-language project policy, not legal advice.</p>
+      </article>
+
+      <aside class="card prose-aside" aria-label="Related pages">
+        <h3>Related</h3>
+        <a href="about.html">About ByteBrief</a>
+        <a href="privacy.html">Privacy notes</a>
+        <a href="https://github.com/IbbuWeb/ByteBrief" target="_blank" rel="noopener noreferrer">Source on GitHub</a>
+        <a href="https://github.com/IbbuWeb/ByteBrief/issues" target="_blank" rel="noopener noreferrer">Report an issue</a>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="siteFooter"></footer>
+  <nav class="bottom-nav" id="bottomNav" aria-label="Mobile navigation"></nav>
+
+  <script type="module">
+    import { initShell } from './js/shared.js';
+    initShell('');
+  </script>
+</body>
+</html>

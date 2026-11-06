@@ -3,164 +3,158 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#8B5CF6">
-  <meta name="description" content="ByteBrief delivers the latest tech news from top sources like TechCrunch, The Verge, and Wired. Personalize your feed with topics you care about.">
-  <meta name="keywords" content="tech news, technology news, AI news, programming, startups, tech briefings">
+  <meta name="theme-color" content="#090b11">
+  <meta name="description" content="ByteBrief is a clean daily tech brief: real headlines from 26 publications, GitHub trending repos, upcoming conferences, and new podcast episodes.">
   <meta name="author" content="ByteBrief">
-  <meta property="og:title" content="ByteBrief - Your Tech News Briefing">
-  <meta property="og:description" content="Your personalized tech news briefing from top sources">
+  <link rel="canonical" href="https://ibbuweb.github.io/ByteBrief/">
+  <meta property="og:title" content="ByteBrief — Today's tech, without the noise">
+  <meta property="og:description" content="A bento-grid daily brief with real, automatically refreshed tech news, repos, events, and podcasts.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ibbuweb.github.io/ByteBrief/">
+  <meta property="og:image" content="https://ibbuweb.github.io/ByteBrief/assets/bytebrief-logo.png">
   <meta name="twitter:card" content="summary_large_image">
   <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
   <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
   <link rel="manifest" href="manifest.json">
-  <title>ByteBrief - Your Tech News Briefing</title>
+  <title>ByteBrief — Today's tech, without the noise</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script>
-    (function() {
-      const theme = localStorage.getItem('theme') || 'dark';
-      document.documentElement.setAttribute('data-theme', theme);
+    (function () {
+      try {
+        var theme = localStorage.getItem('theme');
+        if (!theme) theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (error) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
     })();
   </script>
 </head>
-<body>
-  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
-    <div class="nav-brand">
-      <a href="index.html" class="logo" aria-label="ByteBrief Home">
-        <span>ByteBrief</span>
-      </a>
+<body data-page="home">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="siteHeader"></header>
+
+  <main id="main" class="shell page">
+    <div class="page-head">
+      <div>
+        <span class="eyebrow" id="briefDate">Today</span>
+        <h1>Today's tech, without the noise.</h1>
+        <p>One readable brief built from real headlines, real repos, real events, and real podcast episodes.</p>
+      </div>
+      <span class="updated-note" id="updatedNote">Loading data…</span>
     </div>
-    <div class="nav-links">
-      <a href="index.html" class="nav-link">Feed</a>
-      <a href="byteHub.html" class="nav-link">ByteHub</a>
-      <a href="saved.html" class="nav-link">Saved</a>
-      <a href="profile.html" class="nav-link">Profile</a>
-      <button id="themeToggle" class="theme-toggle" aria-label="Toggle theme">
-        <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-        </svg>
-        <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="12" cy="12" r="5"></circle>
-          <line x1="12" y1="1" x2="12" y2="3"></line>
-          <line x1="12" y1="21" x2="12" y2="23"></line>
-          <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-          <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-          <line x1="1" y1="12" x2="3" y2="12"></line>
-          <line x1="21" y1="12" x2="23" y2="12"></line>
-          <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-          <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+
+    <section class="bento hero-grid" aria-label="Today's brief">
+      <article class="brief-card card span-7">
+        <span class="eyebrow">The Brief</span>
+        <h2 class="brief-title">Three stories worth your time.</h2>
+        <div class="brief-list" id="briefList" aria-live="polite">
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line"></div>
+          <div class="skeleton skeleton-line short"></div>
+        </div>
+        <div class="brief-foot" id="briefFoot"></div>
+      </article>
+
+      <article class="featured-card card span-5" id="featuredCard" aria-live="polite">
+        <div class="featured-media">
+          <div class="media-placeholder"></div>
+        </div>
+        <div class="featured-body">
+          <span class="eyebrow">Featured</span>
+          <h2>Picking today's lead story…</h2>
+        </div>
+      </article>
+    </section>
+
+    <section class="bento stat-grid" aria-label="Tech pulse">
+      <article class="stat-card card span-3" id="statRepo" aria-live="polite"></article>
+      <article class="stat-card card span-3" id="statEvent" aria-live="polite"></article>
+      <article class="stat-card card span-3" id="statPodcast" aria-live="polite"></article>
+      <article class="stat-card card span-3" id="statSaved" aria-live="polite"></article>
+    </section>
+
+    <section aria-labelledby="storiesTitle">
+      <div class="section-head">
+        <div>
+          <span class="eyebrow">The feed</span>
+          <h2 id="storiesTitle">Latest stories</h2>
+        </div>
+        <span class="section-meta" id="storyCount">Loading…</span>
+      </div>
+
+      <div class="story-tools">
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"></circle>
+            <path d="m20 20-3.5-3.5"></path>
+          </svg>
+          <input type="search" class="search-input" id="searchInput" placeholder="Search stories, sources, topics…" aria-label="Search stories">
+          <button type="button" class="search-clear is-hidden" id="clearSearch" aria-label="Clear search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+              <path d="M6 6l12 12M18 6 6 18"></path>
+            </svg>
+          </button>
+        </div>
+        <div class="chip-row" id="filterChips" role="group" aria-label="Filter stories by topic"></div>
+      </div>
+
+      <div id="sharedNotice"></div>
+
+      <div class="bento story-grid" id="storyGrid" role="feed" aria-label="Latest tech stories" aria-busy="true">
+        <div class="skeleton skeleton-card span-6"></div>
+        <div class="skeleton skeleton-card span-3"></div>
+        <div class="skeleton skeleton-card span-3"></div>
+        <div class="skeleton skeleton-card span-4"></div>
+        <div class="skeleton skeleton-card span-4"></div>
+        <div class="skeleton skeleton-card span-4"></div>
+      </div>
+
+      <div class="load-more-wrap">
+        <button type="button" class="btn btn-outline is-hidden" id="loadMore">Load more stories</button>
+      </div>
+      <div id="storyEmpty"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="siteFooter"></footer>
+  <nav class="bottom-nav" id="bottomNav" aria-label="Mobile navigation"></nav>
+
+  <div class="modal" id="articleModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-hidden="true">
+    <div class="modal-backdrop" data-close-modal></div>
+    <div class="modal-panel" role="document">
+      <button type="button" class="modal-close" data-close-modal aria-label="Close story preview">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M6 6l12 12M18 6 6 18"></path>
         </svg>
       </button>
-      <button id="logoutBtn" class="btn btn-ghost" aria-label="Logout">Logout</button>
-    </div>
-    <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobileNav">
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-  </nav>
-
-  <div class="mobile-top-bar">
-    <div class="nav-brand">
-      <a href="index.html" class="logo" aria-label="ByteBrief Home">
-        <span>ByteBrief</span>
-      </a>
-    </div>
-    <button id="mobileThemeToggle" class="theme-toggle" aria-label="Toggle theme">
-      <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-      <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-    </button>
-  </div>
-
-  <div class="mobile-nav" id="mobileNav" role="navigation" aria-label="Mobile navigation">
-    <a href="index.html" class="mobile-link active" aria-current="page">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
-      <span>Feed</span>
-    </a>
-    <a href="byteHub.html" class="mobile-link">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
-      <span>ByteHub</span>
-    </a>
-    <a href="saved.html" class="mobile-link">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"></path></svg>
-      <span>Saved</span>
-    </a>
-    <a href="profile.html" class="mobile-link">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
-      <span>Profile</span>
-    </a>
-  </div>
-
-  <main class="container">
-    <header class="feed-header">
-      <h1>Today's Tech Brief</h1>
-      <p class="subtitle">Stay updated with the latest in tech</p>
-      <div class="search-container">
-        <svg class="search-icon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
-          <circle cx="11" cy="11" r="8"/>
-          <line x1="21" y1="21" x2="16.65" y2="16.65"/>
-        </svg>
-        <input type="text" id="searchInput" class="search-input" placeholder="Search articles..." aria-label="Search articles">
-        <button id="clearSearch" class="clear-search" aria-label="Clear search">
-          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="18" y1="6" x2="6" y2="18"/>
-            <line x1="6" y1="6" x2="18" y2="18"/>
-          </svg>
-        </button>
-      </div>
-      <div class="filters" id="filters" role="group" aria-label="Filter articles by category">
-        <button class="filter-btn active" data-category="all" aria-pressed="true">All</button>
-        <button class="filter-btn" data-category="ai" aria-pressed="false">AI</button>
-        <button class="filter-btn" data-category="programming" aria-pressed="false">Programming</button>
-        <button class="filter-btn" data-category="hardware" aria-pressed="false">Hardware</button>
-        <button class="filter-btn" data-category="startups" aria-pressed="false">Startups</button>
-        <button class="filter-btn" data-category="cybersecurity" aria-pressed="false">Cybersecurity</button>
-      </div>
-    </header>
-
-    <div class="feed-grid" id="feedGrid" role="feed" aria-label="Articles">
-      <div class="loading" role="status" aria-live="polite">
-        <div class="spinner"></div>
-        <p>Loading your feed...</p>
-      </div>
-    </div>
-
-    <div class="toast" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
-      <span class="toast-message"></span>
-    </div>
-
-    <button class="back-to-top" id="backToTop" aria-label="Back to top">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <polyline points="18 15 12 9 6 15"></polyline>
-      </svg>
-    </button>
-
-    <div class="article-modal" id="articleModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
-      <div class="modal-backdrop"></div>
-      <div class="modal-content">
-        <button class="modal-close" aria-label="Close preview">
-          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
-            <line x1="18" y1="6" x2="6" y2="18"/>
-            <line x1="6" y1="6" x2="18" y2="18"/>
-          </svg>
-        </button>
-        <div class="modal-image" id="modalImage"></div>
-        <div class="modal-body">
-          <span class="modal-source" id="modalSource"></span>
-          <h2 class="modal-title" id="modalTitle"></h2>
-          <p class="modal-meta" id="modalMeta"></p>
-          <p class="modal-description" id="modalDescription"></p>
-          <div class="modal-actions">
-            <a href="#" class="btn btn-primary modal-read-more" target="_blank" rel="noopener noreferrer">Read Full Article</a>
-          </div>
+      <div class="modal-media" id="modalMedia"></div>
+      <div class="modal-body">
+        <div class="cluster">
+          <span class="pill pill-accent" id="modalCategory">Tech</span>
+          <span class="pill" id="modalSource">Source</span>
+        </div>
+        <h2 id="modalTitle">Story</h2>
+        <p class="modal-meta" id="modalMeta"></p>
+        <p class="modal-description" id="modalDescription"></p>
+        <div class="modal-actions">
+          <a class="btn btn-primary" id="modalRead" href="#" target="_blank" rel="noopener noreferrer">Read full story</a>
+          <button type="button" class="btn btn-outline js-save-btn" id="modalSave" data-action="save">
+            <span class="js-save-label">Save</span>
+          </button>
+          <button type="button" class="btn btn-ghost" id="modalShare" data-action="share">Share</button>
         </div>
       </div>
     </div>
-  </main>
+  </div>
 
-  <script type="module" src="js/feed.js"></script>
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">
+    <span class="toast-message"></span>
+  </div>
+
+  <script type="module" src="js/home.js"></script>
 </body>
 </html>

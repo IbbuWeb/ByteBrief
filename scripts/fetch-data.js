@@ -1,124 +1,517 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require('node:fs');
+const path = require('node:path');
+
+const {
+  parseFeed,
+  dedupeArticles,
+  stripHtml,
+  decodeEntities
+} = require('./lib/parse-feed');
 
 const DATA_FILE = path.join(__dirname, '..', 'js', 'data.json');
+const EVENTS_FILE = path.join(__dirname, 'events.json');
 
-async function fetchGitHubTrending() {
-  try {
-    const queries = [
-      'created:>2024-12-01&sort=stars&order=desc',
-      'created:>2025-06-01&sort=stars&order=desc',
-      'created:>2025-09-01&sort=stars&order=desc'
-    ];
-    
-    let allRepos = [];
-    
-    for (const query of queries) {
-      const response = await fetch(`https://api.github.com/search/repositories?q=${query}&per_page=20`, {
-        headers: { 'Accept': 'application/vnd.github.v3+json' }
+const USER_AGENT =
+  'ByteBrief/2.0 (+https://github.com/IbbuWeb/ByteBrief)';
+const MAX_ARTICLES = 240;
+const PER_SOURCE_LIMIT = 15;
+const CONCURRENCY = 6;
+
+const SOURCES = [
+  { name: 'TechCrunch', url: 'https://techcrunch.com/feed/', category: 'startups' },
+  { name: 'The Verge', url: 'https://www.theverge.com/rss/index.xml', category: 'tech' },
+  { name: 'Wired', url: 'https://www.wired.com/feed/rss', category: 'tech' },
+  { name: 'Ars Technica', url: 'https://feeds.arstechnica.com/arstechnica/technology-lab', category: 'tech' },
+  { name: 'MIT Technology Review', url: 'https://www.technologyreview.com/feed/', category: 'ai' },
+  { name: 'VentureBeat', url: 'https://feeds.feedburner.com/venturebeat/SZYF', category: 'ai' },
+  { name: 'ZDNet', url: 'https://www.zdnet.com/news/rss.xml', category: 'tech' },
+  { name: 'The Register', url: 'https://www.theregister.com/headlines.atom', category: 'tech' },
+  { name: 'Hacker News', url: 'https://hnrss.org/frontpage', category: 'programming' },
+  { name: 'Ars Gadgets', url: 'https://feeds.arstechnica.com/arstechnica/gadgets', category: 'hardware' },
+  { name: '9to5Mac', url: 'https://9to5mac.com/feed/', category: 'hardware' },
+  { name: 'TC Startups', url: 'https://techcrunch.com/category/startups/feed/', category: 'startups' },
+  { name: 'Crunchbase News', url: 'https://news.crunchbase.com/feed/', category: 'startups' },
+  { name: 'BBC Technology', url: 'https://www.bbc.com/news/technology/rss.xml', category: 'tech' },
+  { name: 'BleepingComputer', url: 'https://www.bleepingcomputer.com/feed/', category: 'cybersecurity' },
+  { name: 'Threatpost', url: 'https://threatpost.com/feed/', category: 'cybersecurity' },
+  { name: 'CNET', url: 'https://www.cnet.com/rss/news/', category: 'tech' },
+  { name: 'Engadget', url: 'https://www.engadget.com/rss.xml', category: 'tech' },
+  { name: 'CSS-Tricks', url: 'https://css-tricks.com/feed/', category: 'programming' },
+  { name: 'Stack Overflow Blog', url: 'https://stackoverflow.blog/feed/', category: 'programming' },
+  { name: 'GitHub Blog', url: 'https://github.blog/feed/', category: 'programming' },
+  { name: 'The New Stack', url: 'https://thenewstack.io/feed/', category: 'programming' },
+  { name: "Tom's Hardware", url: 'https://www.tomshardware.com/feeds/all', category: 'hardware' },
+  { name: 'SiliconANGLE', url: 'https://siliconangle.com/feed/', category: 'tech' },
+  { name: 'Tech.eu', url: 'https://tech.eu/feed/', category: 'startups' },
+  { name: 'Reddit Technology', url: 'https://www.reddit.com/r/technology/.rss', category: 'tech' }
+];
+
+const PODCASTS = [
+  {
+    id: 1050462261,
+    name: 'Acquired',
+    host: 'Ben Gilbert & David Rosenthal',
+    description: 'Deep dives into the companies and deals that shaped tech.',
+    category: 'business',
+    link: 'https://www.acquired.fm/'
+  },
+  {
+    id: 1483510527,
+    name: 'The Stack Overflow Podcast',
+    host: 'Stack Overflow',
+    description: 'Conversations about code, developers and the future of software.',
+    category: 'programming',
+    link: 'https://stackoverflow.blog/podcast/'
+  },
+  {
+    id: 1434243584,
+    name: 'Lex Fridman Podcast',
+    host: 'Lex Fridman',
+    description: 'Long-form conversations on AI, science, technology and humanity.',
+    category: 'ai',
+    link: 'https://lexfridman.com/podcast/'
+  },
+  {
+    id: 341623264,
+    name: 'Changelog',
+    host: 'Jerod Santo & Adam Stacoviak',
+    description: 'Open source, software engineering and the people building it.',
+    category: 'programming',
+    link: 'https://changelog.com/podcast'
+  },
+  {
+    id: 1528594034,
+    name: 'Hard Fork',
+    host: 'Kevin Roose & Casey Newton',
+    description: 'Tech news, culture and where the industry goes next.',
+    category: 'news',
+    link: 'https://www.nytimes.com/column/hard-fork'
+  },
+  {
+    id: 1474429475,
+    name: 'Waveform',
+    host: 'Marques Brownlee & Andrew Manganelli',
+    description: 'Tech reviews, deep dives and behind-the-scenes conversations.',
+    category: 'tech',
+    link: 'https://www.youtube.com/playlist?list=PLH9cR-NVtXBcxLmlS2J8a2VWGwR5H0tS'
+  },
+  {
+    id: 1011668648,
+    name: 'Decoder',
+    host: 'Nilay Patel',
+    description: 'Big tech, business, power and the decisions behind the products.',
+    category: 'business',
+    link: 'https://www.theverge.com/decoder-podcast'
+  },
+  {
+    id: 1296350485,
+    name: 'Darknet Diaries',
+    host: 'Jack Rhysider',
+    description: 'True stories from the dark side of the internet.',
+    category: 'security',
+    link: 'https://darknetdiaries.com/'
+  },
+  {
+    id: 617416468,
+    name: 'Accidental Tech Podcast',
+    host: 'Marco Arment, Casey Liss & John Siracusa',
+    description: 'Apple, programming, tech and the occasional coffee tangent.',
+    category: 'apple',
+    link: 'https://atp.fm/'
+  },
+  {
+    id: 1613894378,
+    name: 'Syntax',
+    host: 'Wes Bos & Scott Tolinski',
+    description: 'Web development tips, tools and practical advice.',
+    category: 'programming',
+    link: 'https://syntax.fm/'
+  }
+];
+
+function sleep(ms) {
+  return new Promise(resolve => setTimeout(resolve, ms));
+}
+
+async function fetchText(url, headers = {}) {
+  let lastError;
+
+  for (let attempt = 0; attempt < 2; attempt += 1) {
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 20000);
+
+    try {
+      const response = await fetch(url, {
+        signal: controller.signal,
+        redirect: 'follow',
+        headers: {
+          'User-Agent': USER_AGENT,
+          Accept:
+            'application/rss+xml, application/atom+xml, application/xml, text/xml, application/json, */*',
+          ...headers
+        }
       });
-      if (!response.ok) break;
-      const data = await response.json();
-      allRepos = [...allRepos, ...(data.items || [])];
+
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      return await response.text();
+    } catch (error) {
+      lastError = error;
+      if (attempt === 0) await sleep(800);
+    } finally {
+      clearTimeout(timer);
     }
-    
-    const seen = new Set();
-    const unique = allRepos.filter(repo => {
-      if (seen.has(repo.full_name)) return false;
-      seen.add(repo.full_name);
-      return true;
-    });
-    
-    return unique.slice(0, 50).map(repo => ({
-      name: repo.full_name,
-      description: repo.description || '',
-      stars: repo.stargazers_count,
-      language: repo.language || 'Unknown',
-      url: repo.html_url,
-      trending: repo.stargazers_count > 50000 ? 'hot' : ''
-    }));
-  } catch (error) {
-    console.error('GitHub fetch error:', error.message);
-    return getFallbackRepos();
+  }
+
+  throw lastError;
+}
+
+async function fetchJson(url, headers = {}) {
+  const text = await fetchText(url, headers);
+  return JSON.parse(text);
+}
+
+async function mapLimit(items, limit, worker) {
+  const results = new Array(items.length);
+  let cursor = 0;
+
+  const runners = Array.from(
+    { length: Math.min(limit, items.length) },
+    async () => {
+      while (cursor < items.length) {
+        const index = cursor;
+        cursor += 1;
+        results[index] = await worker(items[index], index);
+      }
+    }
+  );
+
+  await Promise.all(runners);
+  return results;
+}
+
+function readJson(file) {
+  try {
+    return JSON.parse(fs.readFileSync(file, 'utf8'));
+  } catch {
+    return null;
   }
 }
 
-function getFallbackRepos() {
-  return [
-    { name: 'openclaw/openclaw', description: 'Your own personal AI assistant', stars: 194404, language: 'TypeScript', url: 'https://github.com/openclaw/openclaw', trending: 'hot' },
-    { name: 'anomalyco/opencode', description: 'The open source coding agent', stars: 104616, language: 'TypeScript', url: 'https://github.com/anomalyco/opencode', trending: 'hot' },
-    { name: 'anthropics/skills', description: 'Public repository for Agent Skills', stars: 69855, language: 'Python', url: 'https://github.com/anthropics/skills', trending: 'hot' },
-    { name: 'obra/superpowers', description: 'An agentic skills framework', stars: 51597, language: 'Shell', url: 'https://github.com/obra/superpowers', trending: 'hot' },
-    { name: 'remotion-dev/remotion', description: 'Make videos programmatically with React', stars: 36594, language: 'TypeScript', url: 'https://github.com/remotion-dev/remotion', trending: 'hot' }
-  ];
+function cleanDescription(source, description) {
+  let value = decodeEntities(description || '').replace(/\s+/g, ' ').trim();
+
+  if (source === 'Hacker News') {
+    const points = value.match(/Points:\s*(\d+)/i)?.[1];
+    const comments = value.match(/#\s*Comments:\s*(\d+)/i)?.[1];
+    value = [points && `${points} points`, comments && `${comments} comments`]
+      .filter(Boolean)
+      .join(' · ');
+  }
+
+  if (source === 'Reddit Technology') {
+    value = value
+      .replace(/submitted by\s+\/u\/\S+/i, '')
+      .replace(/\[link\]|\[comments\]/gi, '')
+      .trim();
+  }
+
+  return value.slice(0, 300);
 }
 
-function getEvents() {
-  const year = new Date().getFullYear();
-  return [
-    { title: 'NVIDIA GTC', date: `March 16-19, ${year}`, description: 'Premier AI conference', link: 'https://www.nvidia.com/gtc/', category: 'conference', icon: 'nvidia' },
-    { title: 'Google I/O', date: `May 20-21, ${year}`, description: 'Google Annual Developer Conference', link: 'https://io.google/', category: 'conference', icon: 'google' },
-    { title: 'Apple WWDC', date: `June, ${year}`, description: 'Apple Worldwide Developers Conference', link: 'https://developer.apple.com/wwdc/', category: 'conference', icon: 'apple' },
-    { title: 'Microsoft Build', date: `May, ${year}`, description: 'Microsoft Developer Conference', link: 'https://build.microsoft.com/', category: 'conference', icon: 'microsoft' },
-    { title: 'AWS re:Invent', date: `December, ${year}`, description: 'Amazon Web Services Conference', link: 'https://reinvent.awsevents.com/', category: 'conference', icon: 'aws' },
-    { title: 'Black Hat', date: `August, ${year}`, description: 'Security Conference', link: 'https://www.blackhat.com/', category: 'conference', icon: 'security' },
-    { title: 'React Conf', date: `May, ${year}`, description: 'React Conference', link: 'https://reactconf.com/', category: 'conference', icon: 'react' },
-    { title: 'FOSDEM', date: `January/February, ${year}`, description: 'Free and Open Source Developers European Meeting', link: 'https://fosdem.org/', category: 'conference', icon: 'fosdem' }
-  ];
+async function fetchArticles(previous) {
+  const failedSources = new Set();
+  let freshCount = 0;
+
+  const results = await mapLimit(SOURCES, CONCURRENCY, async source => {
+    try {
+      const xml = await fetchText(source.url);
+      const items = parseFeed(xml, {
+        source: source.name,
+        url: source.url,
+        category: source.category
+      });
+
+      if (items.length === 0) throw new Error('Feed returned no items');
+
+      freshCount += items.length;
+
+      return items.slice(0, PER_SOURCE_LIMIT).map(article => ({
+        ...article,
+        description: cleanDescription(source.name, article.description)
+      }));
+    } catch (error) {
+      failedSources.add(source.name);
+      console.warn(`  ! ${source.name}: ${error.message}`);
+      return [];
+    }
+  });
+
+  if (freshCount === 0) {
+    throw new Error('Every feed failed; keeping the previous data file untouched');
+  }
+
+  let articles = results.flat();
+
+  for (const sourceName of failedSources) {
+    const previousArticles = (previous.articles || []).filter(
+      article => article.source === sourceName
+    );
+    articles.push(...previousArticles);
+  }
+
+  articles = dedupeArticles(articles)
+    .sort((a, b) => {
+      const aTime = a.publishedAt ? Date.parse(a.publishedAt) : 0;
+      const bTime = b.publishedAt ? Date.parse(b.publishedAt) : 0;
+      return bTime - aTime;
+    })
+    .slice(0, MAX_ARTICLES);
+
+  console.log(
+    `  Articles: ${articles.length} kept from ${SOURCES.length - failedSources.size}/${SOURCES.length} feeds`
+  );
+
+  return articles;
 }
 
-function getPodcasts() {
-  return [
-    { name: 'Acquired', host: 'Ben Thompson & David Perrett', description: 'Deep dives on great tech companies & business strategy', image: 'acquired', link: 'https://www.acquired.fm/', category: 'business' },
-    { name: 'The Stack Overflow Podcast', host: 'Stack Overflow', description: 'Conversations about code, development, and the future of tech', image: 'stackoverflow', link: 'https://stackoverflow.blog/podcast/', category: 'programming' },
-    { name: 'Lex Fridman Podcast', host: 'Lex Fridman', description: 'AI, robotics, neuroscience, and the future of humanity', image: 'lex', link: 'https://lexfridman.com/podcast/', category: 'ai' },
-    { name: 'Changelog', host: 'Jerod Santo & Adam Stacoviak', description: 'Open source, software, and web development', image: 'changelog', link: 'https://changelog.com/podcast', category: 'programming' },
-    { name: 'Hard Fork', host: 'Casey Newton & Kevin Roose', description: 'Tech news, culture, and where it all goes next', image: 'hardfork', link: 'https://podcasts.apple.com/us/podcast/hard-fork/id1521431123', category: 'news' },
-    { name: 'Waveform', host: 'MKBHD & Andrew', description: 'Tech reviews, deep dives, and behind the scenes', image: 'waveform', link: 'https://www.youtube.com/playlist?list=PLH9cR-NVtXBcxLmlS2J8a2VWGwR5H0tS', category: 'tech' },
-    { name: 'Decoder', host: 'Nilay Patel', description: 'Big tech, business, and power', image: 'decoder', link: 'https://www.theverge.com/decoder-podcast', category: 'business' },
-    { name: 'Darknet Diaries', host: 'Jack Rhysider', description: 'True stories from the dark side of the internet', image: 'darknet', link: 'https://darknetdiaries.com/', category: 'security' },
-    { name: 'Accidental Tech Podcast', host: 'Marco Arment & Casey Liss', description: 'Apple, tech, programming, and coffee', image: 'atp', link: 'https://atp.fm/', category: 'apple' },
-    { name: 'Syntax', host: 'Wes Bos & Scott Tolinski', description: 'Web development tips, tutorials, and advice', image: 'syntax', link: 'https://syntax.fm/', category: 'programming' }
-  ];
+function parseGitHubTrending(html) {
+  const rows = [
+    ...html.matchAll(/<article class="Box-row">([\s\S]*?)<\/article>/g)
+  ].map(match => match[1]);
+
+  return rows
+    .map(row => {
+      const name = row.match(/<h2[^>]*>[\s\S]*?<a[^>]*href="\/([^"]+)"/i)?.[1];
+      if (!name) return null;
+
+      const description = stripHtml(
+        row.match(/<p[^>]*class="[^"]*col-9[^"]*"[^>]*>([\s\S]*?)<\/p>/i)?.[1] || ''
+      );
+      const language = stripHtml(
+        row.match(/itemprop="programmingLanguage">([^<]+)</i)?.[1] || ''
+      );
+      const stars = Number(
+        (row.match(/stargazers[\s\S]*?<\/svg>\s*([\d,]+)\s*<\/a>/i)?.[1] || '0').replace(
+          /,/g,
+          ''
+        )
+      );
+      const starsToday = Number(
+        (row.match(/([\d,]+)\s+stars today/i)?.[1] || '0').replace(/,/g, '')
+      );
+
+      return {
+        name,
+        description,
+        language: language || 'Unknown',
+        stars,
+        starsToday,
+        url: `https://github.com/${name}`
+      };
+    })
+    .filter(Boolean);
 }
 
-function getDeals() {
-  const month = new Date().toLocaleString('default', { month: 'short' });
-  return [
-    { title: 'Apple MacBook Pro M5', store: 'B&H Photo', price: 1549, originalPrice: 1799, discount: '14%', link: 'https://www.bhphotovideo.com/', category: 'laptop', expires: `Feb 28` },
-    { title: 'Alienware 16 Area-51 RTX 5070 Ti', store: 'Woot', price: 1999, originalPrice: 3100, discount: '35%', link: 'https://www.woot.com/', category: 'laptop', expires: `Feb 23` },
-    { title: 'Lenovo ThinkPad X1 Carbon', store: 'Lenovo', price: 1299, originalPrice: 1919, discount: '32%', link: 'https://www.lenovo.com/', category: 'laptop', expires: `Feb 24` },
-    { title: 'Acer Nitro V RTX 4050', store: 'Amazon', price: 649, originalPrice: 899, discount: '28%', link: 'https://www.amazon.com/', category: 'laptop', expires: `Feb 25` },
-    { title: 'MSI Thin RTX 4060', store: 'Best Buy', price: 829, originalPrice: 1099, discount: '25%', link: 'https://www.bestbuy.com/', category: 'laptop', expires: `Feb 26` },
-    { title: 'ASUS ROG Strix G16 RTX 5060', store: 'Amazon', price: 1399, originalPrice: 1799, discount: '22%', link: 'https://www.amazon.com/', category: 'laptop', expires: `Feb 28` },
-    { title: 'Samsung 990 Pro 2TB', store: 'Amazon', price: 149, originalPrice: 199, discount: '25%', link: 'https://www.amazon.com/', category: 'storage', expires: `Feb 25` },
-    { title: 'Sony WH-1000XM5', store: 'Amazon', price: 279, originalPrice: 399, discount: '30%', link: 'https://www.amazon.com/', category: 'audio', expires: `Feb 23` },
-    { title: 'LG UltraGear 27" 4K', store: 'Best Buy', price: 399, originalPrice: 549, discount: '27%', link: 'https://www.bestbuy.com/', category: 'monitor', expires: `Feb 28` },
-    { title: 'Keychron Q1 Pro', store: 'Amazon', price: 159, originalPrice: 199, discount: '20%', link: 'https://www.amazon.com/', category: 'keyboard', expires: `Mar 5` },
-    { title: 'Steam Deck OLED', store: 'Valve', price: 499, originalPrice: 549, discount: '9%', link: 'https://store.steampowered.com/', category: 'gaming', expires: `Mar 15` },
-    { name: 'Corsair K100 RGB', store: 'Amazon', price: 169, originalPrice: 229, discount: '26%', link: 'https://www.amazon.com/', category: 'keyboard', expires: 'Mar 1' }
-  ];
+async function fetchGitHubSearch() {
+  const since = new Date();
+  since.setUTCDate(since.getUTCDate() - 30);
+  const created = since.toISOString().slice(0, 10);
+
+  const headers = {
+    Accept: 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28'
+  };
+
+  if (process.env.GITHUB_TOKEN) {
+    headers.Authorization = `Bearer ${process.env.GITHUB_TOKEN}`;
+  }
+
+  const url =
+    'https://api.github.com/search/repositories?' +
+    new URLSearchParams({
+      q: `created:>${created} stars:>500 fork:false`,
+      sort: 'stars',
+      order: 'desc',
+      per_page: '12'
+    });
+
+  const json = await fetchJson(url, headers);
+
+  return (json.items || []).map(repo => ({
+    name: repo.full_name,
+    description: repo.description || '',
+    language: repo.language || 'Unknown',
+    stars: repo.stargazers_count || 0,
+    starsToday: 0,
+    url: repo.html_url
+  }));
 }
 
-async function fetchData() {
-  console.log('Fetching real data...');
-  
-  const github = await fetchGitHubTrending();
-  const events = getEvents();
-  const podcasts = getPodcasts();
-  const deals = getDeals();
-  
+async function fetchGitHub(previous) {
+  let repos = [];
+
+  try {
+    const html = await fetchText('https://github.com/trending?since=daily');
+    repos = parseGitHubTrending(html);
+    console.log(`  GitHub trending: ${repos.length} repos`);
+  } catch (error) {
+    console.warn(`  ! GitHub trending: ${error.message}`);
+  }
+
+  if (repos.length < 6) {
+    try {
+      const fallback = await fetchGitHubSearch();
+      if (fallback.length > repos.length) {
+        repos = fallback;
+        console.log(`  GitHub search fallback: ${repos.length} repos`);
+      }
+    } catch (error) {
+      console.warn(`  ! GitHub search: ${error.message}`);
+    }
+  }
+
+  if (repos.length === 0) {
+    const cached = previous.github || [];
+    console.warn(`  Keeping ${cached.length} cached GitHub repos`);
+    return cached;
+  }
+
+  const seen = new Set();
+  return repos
+    .filter(repo => {
+      const key = repo.name.toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
+    .slice(0, 12);
+}
+
+async function fetchPodcast(show, previousShow) {
+  try {
+    const json = await fetchJson(
+      `https://itunes.apple.com/lookup?id=${show.id}&entity=podcastEpisode&limit=8`
+    );
+
+    const results = json.results || [];
+    const collection = results.find(result => result.collectionId === show.id);
+    const episodes = results
+      .filter(result => result.wrapperType === 'podcastEpisode')
+      .sort((a, b) => Date.parse(b.releaseDate) - Date.parse(a.releaseDate));
+
+    const episode = episodes[0];
+
+    return {
+      name: show.name,
+      host: show.host,
+      description: show.description,
+      category: show.category,
+      link: collection?.collectionViewUrl || show.link,
+      artwork: episode?.artworkUrl600 || collection?.artworkUrl600 || null,
+      latestEpisode: episode
+        ? {
+            title: episode.trackName,
+            publishedAt: new Date(episode.releaseDate).toISOString(),
+            link: episode.trackViewUrl || show.link,
+            duration: episode.trackTimeMillis || null
+          }
+        : previousShow?.latestEpisode || null
+    };
+  } catch (error) {
+    console.warn(`  ! ${show.name}: ${error.message}`);
+    return previousShow || null;
+  }
+}
+
+async function fetchPodcasts(previous) {
+  const previousByName = new Map(
+    (previous.podcasts || []).map(podcast => [podcast.name, podcast])
+  );
+
+  const podcasts = await mapLimit(PODCASTS, 4, show =>
+    fetchPodcast(show, previousByName.get(show.name))
+  );
+
+  const fresh = podcasts.filter(Boolean);
+  console.log(`  Podcasts: ${fresh.length}/${PODCASTS.length} updated`);
+  return fresh;
+}
+
+function loadEvents(previous) {
+  const events = readJson(EVENTS_FILE);
+  if (!Array.isArray(events) || events.length === 0) {
+    return previous.events || [];
+  }
+
+  const now = new Date();
+  const today = new Date(
+    Date.UTC(now.getUTCFullYear(), now.getUTCMonth(), now.getUTCDate())
+  );
+  const currentMonth = `${now.getUTCFullYear()}-${String(now.getUTCMonth() + 1).padStart(
+    2,
+    '0'
+  )}`;
+
+  const sortKey = event =>
+    event.status === 'tba'
+      ? `${event.startMonth || '9999-12'}-01T00:00:00Z`
+      : `${event.startDate || '9999-12-31'}T00:00:00Z`;
+
+  const upcoming = events
+    .filter(event => {
+      if (event.status === 'tba') {
+        return Boolean(event.startMonth) && event.startMonth >= currentMonth;
+      }
+      if (!event.startDate) return false;
+
+      const end = event.endDate
+        ? new Date(`${event.endDate}T23:59:59Z`)
+        : new Date(`${event.startDate}T23:59:59Z`);
+      return !Number.isNaN(end.getTime()) && end >= today;
+    })
+    .sort((a, b) => Date.parse(sortKey(a)) - Date.parse(sortKey(b)));
+
+  return upcoming.length > 0 ? upcoming : previous.events || [];
+}
+
+async function main() {
+  const previous = readJson(DATA_FILE) || {};
+
+  console.log('Refreshing ByteBrief data...');
+
+  const [articles, github, podcasts] = await Promise.all([
+    fetchArticles(previous),
+    fetchGitHub(previous),
+    fetchPodcasts(previous)
+  ]);
+
+  const events = loadEvents(previous);
+
   const data = {
-    events,
+    generatedAt: new Date().toISOString(),
+    articles,
     github,
     podcasts,
-    deals,
-    lastUpdated: new Date().toISOString()
+    events,
+    sources: SOURCES.map(source => ({
+      name: source.name,
+      url: source.url,
+      category: source.category
+    }))
   };
-  
-  fs.writeFileSync(DATA_FILE, JSON.stringify(data, null, 2));
-  console.log(`Data updated: ${github.length} repos, ${events.length} events, ${podcasts.length} podcasts, ${deals.length} deals`);
-  console.log(`Last updated: ${data.lastUpdated}`);
+
+  fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true });
+  fs.writeFileSync(DATA_FILE, `${JSON.stringify(data, null, 2)}\n`);
+
+  console.log(
+    `Done: ${data.articles.length} articles, ${data.github.length} repos, ` +
+      `${data.podcasts.length} podcasts, ${data.events.length} events, ` +
+      `${data.sources.length} sources`
+  );
+  console.log(`Updated: ${data.generatedAt}`);
 }
 
-fetchData().catch(console.error);
+main().catch(error => {
+  console.error(`Data refresh failed: ${error.message}`);
+  process.exit(1);
+});

@@ -1,72 +1,115 @@
-import { auth, db, recordLoginTime } from './firebase-config.js';
-import { onAuthStateChanged } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
-import { setDoc, getDoc, doc } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
+import {
+  getUserProfile,
+  initAuth,
+  initThemeToggle,
+  safeRedirect,
+  showToast
+} from './shared.js';
 
 const continueBtn = document.getElementById('continueBtn');
-const interestCheckboxes = document.querySelectorAll('input[name="interests"]');
+const countLabel = document.getElementById('selectedCount');
+const stateLabel = document.getElementById('onboardingState');
+const inputs = [...document.querySelectorAll('input[name="interests"]')];
 
-let currentUser = null;
+const redirectParam = new URLSearchParams(window.location.search).get('redirect');
+let ctx = null;
+let busy = false;
 
-onAuthStateChanged(auth, async (user) => {
-  if (!user) {
-    window.location.href = 'login.html';
-    return;
-  }
+initThemeToggle();
+boot();
 
-  currentUser = user;
-
-  const userDocRef = doc(db, 'users', user.uid);
-  const userDoc = await getDoc(userDocRef);
-  if (userDoc.exists()) {
-    window.location.href = 'index.html';
-    return;
-  }
-});
-
-interestCheckboxes.forEach(checkbox => {
-  checkbox.addEventListener('change', updateContinueButton);
-});
-
-function updateContinueButton() {
-  const checked = document.querySelectorAll('input[name="interests"]:checked');
-  continueBtn.disabled = checked.length === 0;
+function destination() {
+  const target = safeRedirect(redirectParam, 'index.html');
+  if (/^(login|onboarding)\.html(?:[?#]|$)/.test(target)) return 'index.html';
+  return target;
 }
 
-if (continueBtn) {
-  continueBtn.addEventListener('click', async () => {
-    const selectedInterests = Array.from(document.querySelectorAll('input[name="interests"]:checked'))
-      .map(cb => cb.value);
+async function boot() {
+  inputs.forEach(input => input.addEventListener('change', updateCount));
+  continueBtn.addEventListener('click', save);
+  updateCount();
 
-    continueBtn.disabled = true;
-    continueBtn.textContent = 'Saving...';
+  ctx = await initAuth();
 
-    try {
-      await setDoc(doc(db, 'users', currentUser.uid), {
-        name: currentUser.displayName,
-        email: currentUser.email,
-        photoURL: currentUser.photoURL,
-        interests: selectedInterests,
-        createdAt: new Date().toISOString()
-      });
+  if (!ctx) {
+    stateLabel.textContent = 'Sign-in unavailable';
+    stateLabel.className = 'pill pill-tba';
+    setDisabled(true);
+    return;
+  }
 
-      recordLoginTime();
-      window.location.href = 'index.html';
-    } catch (error) {
-      console.error('Error saving interests:', error);
-      showToast('Failed to save interests. Please try again.', 'error');
-      continueBtn.disabled = false;
-      continueBtn.textContent = 'Continue to Feed';
+  if (!ctx.user) {
+    window.location.replace(
+      `login.html?redirect=${encodeURIComponent(`onboarding.html?redirect=${destination()}`)}`
+    );
+    return;
+  }
+
+  try {
+    const profile = await getUserProfile(ctx, { fresh: true });
+    if (profile) {
+      window.location.replace(destination());
+      return;
     }
-  });
-}
-
-function showToast(message, type = 'success') {
-  const toast = document.getElementById('toast');
-  if (!toast) {
-    alert(message);
+  } catch (error) {
+    console.warn('Could not check the existing profile:', error);
+    stateLabel.textContent = 'Could not check your account';
+    stateLabel.className = 'pill pill-tba';
+    showToast('Could not check your account. Check your connection and retry.', 'error');
+    setDisabled(false);
     return;
   }
-  toast.querySelector('.toast-message').textContent = message;
-  toast.className = `toast ${type} show`;
-  setTimeout(() => toast.classList.remove('show'), 3000);
+
+  stateLabel.textContent = 'Google account connected';
+  stateLabel.className = 'pill pill-success';
+}
+
+function updateCount() {
+  const count = selected().length;
+  countLabel.textContent =
+    count === 0
+      ? 'No topics selected yet'
+      : `${count} ${count === 1 ? 'topic' : 'topics'} selected`;
+  setDisabled(count === 0 || busy);
+}
+
+function selected() {
+  return inputs.filter(input => input.checked).map(input => input.value);
+}
+
+function setDisabled(disabled) {
+  continueBtn.disabled = disabled;
+}
+
+async function save() {
+  if (busy || !ctx?.user) return;
+  const interests = selected();
+  if (interests.length === 0) return;
+
+  busy = true;
+  setDisabled(true);
+  continueBtn.textContent = 'Saving…';
+
+  try {
+    const user = ctx.user;
+    await ctx.dbApi.setDoc(
+      ctx.dbApi.doc(ctx.db, 'users', user.uid),
+      {
+        name: user.displayName || '',
+        email: user.email || '',
+        photoURL: user.photoURL || '',
+        interests,
+        createdAt: new Date().toISOString()
+      },
+      { merge: true }
+    );
+
+    window.location.replace(destination());
+  } catch (error) {
+    console.error('Could not save interests:', error);
+    showToast('Could not save your topics. Check your connection and retry.', 'error');
+    busy = false;
+    continueBtn.textContent = 'Save and continue';
+    updateCount();
+  }
 }

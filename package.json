@@ -1,0 +1,10 @@
+{
+  "name": "bytebrief",
+  "version": "2.0.0",
+  "private": true,
+  "description": "A public tech brief with real, automatically refreshed data.",
+  "scripts": {
+    "update": "node scripts/fetch-data.js",
+    "test": "node --test scripts/lib/parse-feed.test.js"
+  }
+}

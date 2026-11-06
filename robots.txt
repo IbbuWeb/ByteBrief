@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+Disallow: /ByteBrief/login.html
+Disallow: /ByteBrief/onboarding.html
+Disallow: /ByteBrief/saved.html
+Disallow: /ByteBrief/profile.html
+
+Sitemap: https://ibbuweb.github.io/ByteBrief/sitemap.xml

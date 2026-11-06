@@ -1,24 +1,27 @@
 {
-  "name": "ByteBrief",
+  "name": "ByteBrief — Today's tech, without the noise",
   "short_name": "ByteBrief",
-  "description": "Your personalized tech news briefing",
+  "description": "A clean daily tech brief with real headlines, GitHub trending repos, upcoming conferences, and podcast episodes.",
+  "id": "/ByteBrief/",
   "start_url": "/ByteBrief/",
+  "scope": "/ByteBrief/",
   "display": "standalone",
-  "background_color": "#1a1a2e",
-  "theme_color": "#8B5CF6",
-  "orientation": "portrait-primary",
+  "background_color": "#090b11",
+  "theme_color": "#090b11",
+  "lang": "en",
+  "categories": ["news", "technology"],
   "icons": [
     {
-      "src": "assets/bytebrief-logo.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "assets/bytebrief-logo.png",
+      "src": "assets/icon-192.png",
       "sizes": "192x192",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
     }
   ]
 }

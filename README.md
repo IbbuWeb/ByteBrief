@@ -1,118 +1,145 @@
 # ByteBrief
 
-A personalized tech news and video aggregator that consolidates content from 25+ tech publications and 50+ YouTube channels into one unified experience.
+A public tech brief with a bento-grid interface and real, automatically refreshed data. No invented deals, viewer counts, prices, or dates.
 
-## Overview
+**Live site:** https://ibbuweb.github.io/ByteBrief/
 
-ByteBrief solves the problem of scattered tech content by aggregating articles and videos from multiple sources into a single, clean interface. It automatically categorizes content by topic and lets users save articles for later reading.
+## What is here
 
-### What's Inside
+| Page | Purpose |
+| --- | --- |
+| `index.html` | Today's brief, featured story, topic filters, search, save/share, infinite scroll |
+| `byteHub.html` | GitHub trending, curated events, podcast episodes, full source directory |
+| `saved.html` | Google-signed-in reading list backed by Firestore |
+| `profile.html` | Account identity, topics, reading stats, sign-out |
+| `login.html` | Single Google sign-in flow |
+| `onboarding.html` | Topic selection for a new account |
+| `about.html`, `privacy.html`, `terms.html` | Project, data, and privacy notes |
+| `404.html` | GitHub Pages not-found page |
 
-**News Feed** (`index.html`)
-- Aggregates articles from TechCrunch, The Verge, Wired, Ars Technica, MIT Technology Review, VentureBeat, ZDNet, Hacker News, DEV Community, 9to5Mac, Crunchbase, BBC Tech, BleepingComputer, Threatpost, CNET, Engadget, CSS-Tricks, Stack Overflow Blog, GitHub Blog, TechRadar, Tom's Hardware, SiliconANGLE, and Tech.eu
-- Smart categorization: AI, Programming, Hardware, Startups, Cybersecurity
-- Real-time search across titles, descriptions, and sources
-- Article saving with Firestore persistence
-- Share functionality with Web Share API
+Reading is public. Firebase loads only after the public page has rendered, and Google sign-in is required only for saving, topics, and the profile.
 
-**ByteTV** (`byteTv.html`)
-- Events, GitHub repos, Podcasts, Live streams, and Tech deals
+## Real data only
 
-**User Features**
-- Google Sign-In authentication
-- Personalized onboarding with interest selection
-- Saved articles page with Firestore sync
-- User profile management
-- Dark/Light theme with persistence
+A scheduled GitHub Action runs `scripts/fetch-data.js` every three hours and commits `js/data.json`.
 
-## Tech Stack
+- **Articles:** parsed directly from 26 RSS/Atom feeds — TechCrunch, The Verge, Wired, Ars Technica, MIT Technology Review, VentureBeat, ZDNet, The Register, Hacker News, Ars Gadgets, 9to5Mac, TC Startups, Crunchbase News, BBC Technology, BleepingComputer, Threatpost, CNET, Engadget, CSS-Tricks, Stack Overflow Blog, GitHub Blog, The New Stack, Tom's Hardware, SiliconANGLE, Tech.eu, and Reddit Technology.
+- **Repositories:** GitHub's public daily trending page. Stars are cumulative; the daily gain is shown only when GitHub publishes it.
+- **Podcasts:** Apple's public iTunes lookup API for show metadata and latest episodes.
+- **Events:** curated in `scripts/events.json`. Confirmed dates link to official pages. Events without an announced exact date store `startDate: null` and a `startMonth`, so the UI can say "May 2027 (TBA)" without inventing a day.
+- **Sources:** emitted into the data file and listed on the Hub.
 
-- **Frontend**: Vanilla JavaScript (ES6+), HTML5, CSS3
-- **Backend**: Firebase Authentication, Cloud Firestore
-- **Data Sources**: RSS/Atom feeds with CORS proxy handling
-- **PWA**: Service Worker ready with manifest.json
+If a feed fails, that publisher's previous stories are kept while the other feeds refresh. The timestamp on the site is the last refresh run, not a guarantee that every publisher answered.
 
-## Architecture
+## Run locally
 
-```
-/ByteBrief
-├── index.html          # Main news feed
-├── byteTv.html         # ByteTV section (events, GitHub, podcasts, live, deals)
-├── login.html          # Google authentication
-├── onboarding.html     # Interest selection flow
-├── saved.html          # Bookmarked articles
-├── profile.html        # User settings
-├── manifest.json       # PWA configuration
-├── /css
-│   ├── styles.css      # Global styles
-│   └── byteTv.css      # ByteTV-specific styles
-├── /js
-│   ├── firebase-config.js  # Firebase initialization
-│   ├── auth.js             # Authentication logic
-│   ├── rss.js              # RSS fetching & parsing
-│   ├── feed.js             # Feed display & interactions
-│   ├── byteTv.js           # ByteTV handling
-│   ├── save.js             # Bookmark functionality
-│   ├── profile.js          # Profile management
-│   └── onboarding.js       # Onboarding flow
-└── /assets
-    └── bytebrief-logo.png
+ES modules and JSON fetching need an HTTP server; `file://` will not work. The 404 page also expects the `/ByteBrief/` base path.
+
+```bash
+# From the directory that contains the ByteBrief folder
+python -m http.server 8000
+# Open http://localhost:8000/ByteBrief/
 ```
 
-## Key Implementation Details
+PowerShell:
 
-### RSS Feed Processing
-- Dual CORS proxy fallback (corsproxy.io, allorigins)
-- XML parsing with DOMParser
-- Media thumbnail extraction from multiple formats (media:thumbnail, media:content, enclosure, embedded HTML)
-- Keyword-based category detection
-- Content deduplication by URL/title
-
-### Video Integration
-- Multi-method YouTube data fetching: YouTube Data API, rss2json, Invidious instances, CORS proxy
-- Intelligent video shuffling to distribute categories and sources
-- Lazy-loaded thumbnails with fallback
-
-### Performance
-- Infinite scroll with batch loading (9 articles / 20 videos per batch)
-- Skeleton loading states
-- Pull-to-refresh on mobile
-- Image lazy loading with decode async
-
-### Responsive Design
-- Mobile-first CSS with breakpoints
-- Bottom navigation bar for mobile
-- Touch-optimized interactions
-
-## Setup
-
-1. Create a Firebase project at [Firebase Console](https://console.firebase.google.com/)
-2. Enable Google Authentication
-3. Create a Firestore database
-4. Update `js/firebase-config.js` with your config:
-
-```javascript
-const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "YOUR_SENDER_ID",
-  appId: "YOUR_APP_ID"
-};
+```powershell
+Set-Location ..
+python -m http.server 8000
 ```
 
-5. (Optional) Set a YouTube Data API v3 key in localStorage for enhanced video fetching
+There is no build step and no runtime dependency to install.
+
+## Refresh data
+
+Requires Node.js 20 or newer (the script uses the built-in `fetch`).
+
+```bash
+npm test          # parser unit tests
+npm run update    # regenerate js/data.json
+```
+
+`npm test` runs `node --test scripts/lib/parse-feed.test.js`. The generator reads the public feeds, GitHub trending, Apple's lookup API, and the curated event file. It keeps the most recent 240 articles.
+
+Optional environment variables:
+
+- `GITHUB_TOKEN` raises GitHub API limits in Actions.
+- `BYTEBRIEF_MAX_ARTICLES` overrides the 240-article cap.
+
+## Firebase
+
+Sign-in and saving use the existing Firebase project configured in `js/firebase-config.js`. The web API key is public by design; access control belongs in Firestore rules.
+
+1. Enable Google as a sign-in provider in Firebase Authentication.
+2. Create a Firestore database.
+3. Add every deployment host (including `localhost` and `ibbuweb.github.io`) to Authentication → Settings → Authorized domains.
+4. Deploy the rules:
+
+```bash
+firebase deploy --only firestore:rules
+```
+
+`firestore.rules` restricts each account to its own `users/{uid}` document and its own `savedArticles` records. The app stores:
+
+- `users/{uid}`: `name`, `email`, `photoURL`, `interests`, `createdAt`
+- `savedArticles/{id}`: `userId`, `title`, `link`, `image`, `source`, `category`, `savedAt`
+
+No Firebase SDK is loaded for anonymous reading.
 
 ## Deployment
 
-Works as a static site. Deploy to GitHub Pages, Netlify, Vercel, or any static host.
+The site is built for GitHub Pages at `/ByteBrief/`.
 
-```bash
-# Local testing
-python3 -m http.server 8000
+1. Push to `main`.
+2. In the repository settings, set Pages to deploy from the `main` branch root.
+3. Allow GitHub Actions to write to the repository (the workflow declares `contents: write`).
+4. Optionally trigger **Refresh data** manually from the Actions tab.
+
+The workflow runs at `17 */3 * * *` (every three hours, minute 17), tests the parser first, and commits only when `js/data.json` changes.
+
+## Project structure
+
+```text
+ByteBrief/
+├── index.html, byteHub.html, saved.html, profile.html
+├── login.html, onboarding.html
+├── about.html, privacy.html, terms.html, 404.html
+├── manifest.json, robots.txt, sitemap.xml, firestore.rules
+├── css/styles.css                 # full design system and responsive layout
+├── js/
+│   ├── shared.js                  # shell, auth, data, saving, cards, utilities
+│   ├── home.js                    # feed, filters, modal, save/share
+│   ├── hub.js                     # trending/events/podcasts/sources tabs
+│   ├── saved.js                   # reading list
+│   ├── profile.js                 # profile and interests
+│   ├── auth.js                    # Google sign-in and safe redirects
+│   ├── onboarding.js              # first-run topics
+│   ├── firebase-config.js         # Firebase app initialization
+│   └── data.json                  # generated data consumed by the pages
+├── scripts/
+│   ├── fetch-data.js              # generator
+│   ├── events.json                # curated conference calendar
+│   └── lib/parse-feed.js          # testable feed parser
+└── .github/workflows/update-data.yml
 ```
 
-## License
+## Data contract
 
-MIT
+`js/data.json` contains:
+
+```json
+{
+  "generatedAt": "ISO timestamp",
+  "articles": [],
+  "github": [],
+  "podcasts": [],
+  "events": [],
+  "sources": []
+}
+```
+
+Every `link`, `url`, `thumbnail`, and `artwork` that reaches the DOM is validated as `http(s)` before rendering. Text is HTML-escaped. Shared-story links are built from the article URL rather than trusting a raw query string.
+
+## Corrections
+
+Open an issue at https://github.com/IbbuWeb/ByteBrief/issues with the source, the item, and what is wrong. Data errors can usually be fixed in `scripts/fetch-data.js` or `scripts/events.json`.

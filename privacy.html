@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090b11">
+  <meta name="description" content="ByteBrief privacy notes: public reading needs no account, and sign-in stores only your Google profile, topics, and saved stories in Firebase.">
+  <meta name="author" content="ByteBrief">
+  <link rel="canonical" href="https://ibbuweb.github.io/ByteBrief/privacy.html">
+  <meta property="og:title" content="Privacy — ByteBrief">
+  <meta property="og:description" content="What ByteBrief stores, where it lives, and what it does not collect.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://ibbuweb.github.io/ByteBrief/privacy.html">
+  <meta property="og:image" content="https://ibbuweb.github.io/ByteBrief/assets/bytebrief-logo.png">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
+  <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
+  <link rel="manifest" href="manifest.json">
+  <title>Privacy — ByteBrief</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script>
+    (function () {
+      try {
+        var theme = localStorage.getItem('theme');
+        if (!theme) theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (error) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
+    })();
+  </script>
+</head>
+<body data-page="privacy">
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="siteHeader"></header>
+
+  <main id="main" class="shell page">
+    <div class="prose-layout">
+      <article class="prose">
+        <span class="eyebrow">Privacy</span>
+        <h1>Privacy, without the fog.</h1>
+        <p class="lede">Reading ByteBrief needs no account. If you sign in with Google, ByteBrief stores the small set of records needed to keep your reading list and topics in sync.</p>
+
+        <h2>If you only read</h2>
+        <p>No account is created, no profile is stored, and no reading history is sent anywhere. The pages fetch the public <code>js/data.json</code> file and the fonts they need. Your theme choice is kept in <code>localStorage</code> on your device.</p>
+
+        <h2>If you sign in with Google</h2>
+        <p>Google Authentication provides a display name, email address, photo URL, and a stable user ID. ByteBrief stores these in a Firestore document at <code>users/{uid}</code>, together with the topics you choose and a creation timestamp.</p>
+        <p>Saved stories are stored in the <code>savedArticles</code> collection. Each record contains your user ID, the story title, its link, the image URL supplied by the publisher, the source name, the category, and the time you saved it.</p>
+
+        <h2>Where it lives</h2>
+        <p>Authentication and Firestore are provided by Google Firebase. Data is stored in the Firebase project configured in <code>js/firebase-config.js</code> and is subject to Google Cloud's terms. ByteBrief has no separate application server and does not copy your account data anywhere else.</p>
+
+        <h2>Local browser storage</h2>
+        <ul>
+          <li><code>theme</code> remembers dark or light mode.</li>
+          <li><code>bytebrief_pending_save</code> briefly holds a story you tried to save before signing in. It is cleared as soon as the save finishes.</li>
+          <li>Older builds wrote <code>bytebrief_login_time</code>. The current build does not use it, and clearing site data removes it.</li>
+        </ul>
+
+        <h2>What ByteBrief does not collect</h2>
+        <p>There are no analytics scripts, advertising networks, tracking pixels, session recordings, or third-party marketing cookies. ByteBrief does not build a reading history. The "For you" view is computed in your browser from the topics saved to your profile.</p>
+
+        <h2>Third parties that still see a request</h2>
+        <ul>
+          <li><strong>Google Fonts</strong> serves the Inter typeface.</li>
+          <li><strong>GitHub Pages</strong> hosts the site and, like any host, may log request metadata.</li>
+          <li><strong>Firebase</strong> handles sign-in and stored records.</li>
+          <li><strong>Publishers</strong> receive your request when you open a story, view a hotlinked image, or visit an event or podcast link.</li>
+        </ul>
+        <p>Those services have their own privacy policies. ByteBrief cannot control what a publisher does after you leave the site.</p>
+
+        <h2>Your controls</h2>
+        <p>You can sign out at any time from your profile. Removing a saved story deletes its Firestore document immediately. To delete your profile document and the remaining saved stories, open an issue on the <a href="https://github.com/IbbuWeb/ByteBrief/issues" target="_blank" rel="noopener noreferrer">ByteBrief repository</a> from the account you want removed; there is no automated self-service deletion yet.</p>
+        <p>Firestore security rules restrict each account to its own profile and saved records. They are published in <code>firestore.rules</code> in the repository.</p>
+
+        <h2>Children</h2>
+        <p>ByteBrief is a general technology news site and is not directed at children under 13. It does not knowingly create profiles for children.</p>
+
+        <h2>Changes</h2>
+        <p>If the data model or service providers change, this page will be updated with the code change. The repository history is the authoritative record.</p>
+
+        <h2>Contact</h2>
+        <p>Questions or removal requests: <a href="https://github.com/IbbuWeb/ByteBrief/issues" target="_blank" rel="noopener noreferrer">open an issue</a>.</p>
+
+        <p class="prose-note">Last updated: 6 November 2026. This page describes the current static build; it is not legal advice.</p>
+      </article>
+
+      <aside class="card prose-aside" aria-label="Related pages">
+        <h3>Related</h3>
+        <a href="about.html">About ByteBrief</a>
+        <a href="terms.html">Terms of use</a>
+        <a href="profile.html">Your profile</a>
+        <a href="https://github.com/IbbuWeb/ByteBrief/blob/main/firestore.rules" target="_blank" rel="noopener noreferrer">Firestore rules</a>
+      </aside>
+    </div>
+  </main>
+
+  <footer class="site-footer" id="siteFooter"></footer>
+  <nav class="bottom-nav" id="bottomNav" aria-label="Mobile navigation"></nav>
+
+  <script type="module">
+    import { initShell } from './js/shared.js';
+    initShell('');
+  </script>
+</body>
+</html>

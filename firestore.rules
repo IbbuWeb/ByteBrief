@@ -1,0 +1,58 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signedIn() {
+      return request.auth != null;
+    }
+
+    function isOwner(userId) {
+      return signedIn() && request.auth.uid == userId;
+    }
+
+    function ownsRecord() {
+      return signedIn() && resource.data.userId == request.auth.uid;
+    }
+
+    function validInterests(value) {
+      return value is list
+        && value.size() <= 5
+        && value.hasOnly(['ai', 'programming', 'hardware', 'startups', 'cybersecurity']);
+    }
+
+    match /users/{userId} {
+      allow read, delete: if isOwner(userId);
+      allow create, update: if isOwner(userId)
+        && request.resource.data.keys().hasOnly(['name', 'email', 'photoURL', 'interests', 'createdAt'])
+        && request.resource.data.name is string
+        && request.resource.data.name.size() <= 120
+        && request.resource.data.email is string
+        && request.resource.data.email.size() <= 320
+        && request.resource.data.photoURL is string
+        && request.resource.data.photoURL.size() <= 2048
+        && validInterests(request.resource.data.interests);
+    }
+
+    match /savedArticles/{articleId} {
+      allow read, delete: if ownsRecord();
+      allow create: if signedIn()
+        && request.resource.data.keys().hasOnly([
+          'userId', 'title', 'link', 'image', 'source', 'category', 'savedAt'
+        ])
+        && request.resource.data.userId == request.auth.uid
+        && request.resource.data.title is string
+        && request.resource.data.title.size() <= 300
+        && request.resource.data.link is string
+        && request.resource.data.link.size() <= 2048
+        && request.resource.data.image is string
+        && request.resource.data.image.size() <= 2048
+        && request.resource.data.source is string
+        && request.resource.data.source.size() <= 80
+        && request.resource.data.category is string
+        && request.resource.data.category.size() <= 40
+        && request.resource.data.savedAt is string;
+      allow update: if ownsRecord()
+        && request.resource.data.userId == request.auth.uid;
+    }
+  }
+}

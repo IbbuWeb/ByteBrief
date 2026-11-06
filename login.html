@@ -3,63 +3,98 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#8B5CF6">
-  <meta name="description" content="Sign in to ByteBrief - Your personalized tech news briefing">
-  <meta property="og:title" content="Sign In - ByteBrief">
-  <meta property="og:description" content="Your personalized tech news briefing">
+  <meta name="theme-color" content="#090b11">
+  <meta name="description" content="Sign in to ByteBrief with Google to save stories and sync your reading list. Reading the brief stays public.">
+  <meta name="author" content="ByteBrief">
+  <meta name="robots" content="noindex">
+  <link rel="canonical" href="https://ibbuweb.github.io/ByteBrief/login.html">
+  <meta property="og:title" content="Sign in — ByteBrief">
+  <meta property="og:description" content="Save stories with a Google account. Public reading needs no sign-in.">
   <meta property="og:type" content="website">
-  <meta name="twitter:card" content="summary">
   <link rel="icon" type="image/png" href="assets/bytebrief-logo.png">
   <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
   <link rel="manifest" href="manifest.json">
-  <title>Sign In - ByteBrief</title>
+  <title>Sign in — ByteBrief</title>
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <script>
-    (function() {
-      const theme = localStorage.getItem('theme') || 'dark';
-      document.documentElement.setAttribute('data-theme', theme);
+    (function () {
+      try {
+        var theme = localStorage.getItem('theme');
+        if (!theme) theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', theme);
+      } catch (error) {
+        document.documentElement.setAttribute('data-theme', 'dark');
+      }
     })();
   </script>
 </head>
 <body class="auth-page">
-  <div class="auth-container">
-    <div class="auth-card" role="main">
-      <div class="auth-logo">
-        <span>ByteBrief</span>
-      </div>
-      <h1>Welcome to ByteBrief</h1>
-      <p class="auth-subtitle">Your personalized tech news briefing</p>
-      <div class="auth-buttons">
-        <button id="googleSignUpBtn" class="btn btn-google" aria-label="Sign up with Google">
-          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
-            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
-          </svg>
-          Sign Up with Google
-        </button>
-        <div class="auth-divider" aria-hidden="true">
-          <span>or</span>
-        </div>
-        <button id="googleLoginBtn" class="btn btn-google btn-google-outline" aria-label="Sign in with Google">
-          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-            <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-            <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-            <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
-            <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
-          </svg>
-          Sign In with Google
+  <div class="auth-top">
+    <div class="shell">
+      <a class="brand" href="index.html" aria-label="Back to ByteBrief">
+        <span class="brand-mark" aria-hidden="true">B</span>
+        <span class="brand-name">ByteBrief</span>
+      </a>
+      <div class="cluster">
+        <a class="auth-back" href="index.html">Back to the brief</a>
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8Z"/></svg>
         </button>
       </div>
-      <p class="auth-terms">By continuing, you agree to our Terms of Service</p>
     </div>
   </div>
 
-  <div class="toast" id="toast" role="alert" aria-live="assertive" aria-atomic="true">
+  <main class="auth-shell">
+    <section class="auth-brand" aria-labelledby="authBrandTitle">
+      <span class="eyebrow">ByteBrief account</span>
+      <h1 id="authBrandTitle">Read freely. Save what <em>matters</em>.</h1>
+      <p>The brief is open to everyone. A Google account only adds the parts that need a place to live: your reading list, your topics, and your profile.</p>
+      <ul class="auth-points">
+        <li class="auth-point">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>
+          <span><strong>Public reading stays public.</strong> No account wall on the feed or the hub.</span>
+        </li>
+        <li class="auth-point">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>
+          <span><strong>One reading list.</strong> Saved stories sync through your own Firestore record.</span>
+        </li>
+        <li class="auth-point">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>
+          <span><strong>No ads, no pixels.</strong> Your topics filter the feed; they are not sold or shared.</span>
+        </li>
+      </ul>
+    </section>
+
+    <section class="auth-card" aria-labelledby="authTitle">
+      <span class="eyebrow">Sign in</span>
+      <h2 id="authTitle">Continue with Google</h2>
+      <p class="auth-sub">One tap creates your account or returns you to the session already open in this browser.</p>
+
+      <button type="button" class="btn btn-google" id="googleSignInBtn">
+        <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
+          <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+          <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+          <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+          <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+        </svg>
+        <span id="googleSignInLabel">Continue with Google</span>
+      </button>
+
+      <p class="auth-status" id="authStatus" role="status" aria-live="polite">Checking your session…</p>
+
+      <p class="auth-fine">
+        By continuing you agree to the <a href="terms.html">terms</a> and confirm the
+        <a href="privacy.html">privacy notes</a>. ByteBrief stores only your Google display name,
+        email, photo URL, chosen topics, and saved stories.
+      </p>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">
     <span class="toast-message"></span>
   </div>
 
