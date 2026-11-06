@@ -630,7 +630,7 @@ export async function toggleSaved(ctx, article, savedSet) {
   if (savedSet.has(link)) {
     const removed = await removeSavedArticle(ctx, article);
     if (removed) savedSet.delete(link);
-    return 'removed';
+    return removed ? 'removed' : 'saved';
   }
 
   await addSavedArticle(ctx, article);
