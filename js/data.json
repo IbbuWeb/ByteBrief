@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T14:22:21.146Z",
+  "generatedAt": "2026-11-06T14:24:12.447Z",
   "articles": [
     {
       "id": "f8e9629a67be",
@@ -13,6 +13,20 @@
         "cybersecurity"
       ],
       "author": "Sergiu Gatlan"
+    },
+    {
+      "id": "c63019ae7846",
+      "title": "University libraries are being swarmed by AI bots, putting public access at risk",
+      "link": "https://www.cbc.ca/news/world/university-libraries-ai-data-scraping-bots-9.7408287",
+      "description": "3 points · 0 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T14:13:09.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "blakesterz"
     },
     {
       "id": "562c631ff9db",
@@ -56,6 +70,33 @@
       "author": "Kyt Dotson"
     },
     {
+      "id": "a3a76987cf68",
+      "title": "TikTok’s For You page needs to change, says the EU",
+      "link": "https://www.theverge.com/tech/1028597/tiktok-eu-for-you-algorithm-rabbit-hole-effect",
+      "description": "The European Commission claims TikTok broke its online platform rules by offering a recommendation algorithm that creates a \"rabbit hole effect\" on users. In an announcement on Friday, the regulators allege TikTok's algorithm can harm users with \"endless and repeated exposure\" to content related to",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/04/STK051_VRG_Illo_N_Barclay_9_tiktok.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-06T14:00:49.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Emma Roth"
+    },
+    {
+      "id": "35ab47bbc76c",
+      "title": "Amazon will let you text Alexa your shopping list",
+      "link": "https://www.theverge.com/tech/1028587/amazon-alexa-shopping-ai-text-orders",
+      "description": "Amazon is adding a new feature to Alexa for Shopping that allows customers to purchase items by texting the AI shopping assistant. Users can describe the products they're looking to buy and/or provide a photograph of the item, and Alexa for Shopping will search for matching results in Amazon listing",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Amazon-Alexa-for-Shopping-text-order.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-06T14:00:00.000Z",
+      "categories": [
+        "ai",
+        "tech"
+      ],
+      "author": "Jess Weatherbed"
+    },
+    {
       "id": "eddb01178380",
       "title": "GlobalFoundries VP details FDX Fusion technology, sporting 7nm-class performance without the need for EUV tools — company targets 2030 for high-volume manufacturing, with planar transistors in tow",
       "link": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow",
@@ -83,19 +124,6 @@
       "author": "Denise Bertacchi"
     },
     {
-      "id": "798ad5e1a055",
-      "title": "Denmark's EIFO joins TEKEVER's $580M Series D as company expands into Odense",
-      "link": "https://tech.eu/2026/11/06/denmarks-eifo-joins-tekevers-580m-series-d-as-company-expands-into-odense/",
-      "description": "Defencetech TEKEVER today announced plans to establish an operational presence in Odense, Denmark, its first in the Nordic region, to support its work across the region. The announcement follows a mee...",
-      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/untitled-design-39-376.png",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-06T14:00:00.000Z",
-      "categories": [
-        "startups"
-      ],
-      "author": "Cate Lawrence"
-    },
-    {
       "id": "663228df1188",
       "title": "Phantom Blade Zero's Kung Fu Punk Inspired 'Bold Musical Decisions to Match the Visuals'",
       "link": "https://www.ign.com/articles/phantom-blade-zeros-kung-fu-punk-inspired-bold-musical-decisions-to-match-the-visuals",
@@ -107,6 +135,19 @@
         "gaming"
       ],
       "author": "Ryan McCaffrey"
+    },
+    {
+      "id": "798ad5e1a055",
+      "title": "Denmark's EIFO joins TEKEVER's $580M Series D as company expands into Odense",
+      "link": "https://tech.eu/2026/11/06/denmarks-eifo-joins-tekevers-580m-series-d-as-company-expands-into-odense/",
+      "description": "Defencetech TEKEVER today announced plans to establish an operational presence in Odense, Denmark, its first in the Nordic region, to support its work across the region. The announcement follows a mee...",
+      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/untitled-design-39-376.png",
+      "source": "Tech.eu",
+      "publishedAt": "2026-11-06T14:00:00.000Z",
+      "categories": [
+        "startups"
+      ],
+      "author": "Cate Lawrence"
     },
     {
       "id": "224f059be5c6",
@@ -196,7 +237,7 @@
       "id": "63c3d56bc72b",
       "title": "Gemini Omni 1.2 Flash",
       "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "description": "24 points · 10 comments",
+      "description": "38 points · 15 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T13:35:27.000Z",
@@ -332,6 +373,19 @@
       "author": "Tim Fernholz"
     },
     {
+      "id": "8bf67a390824",
+      "title": "How Remedy designed Control Resonant’s wildest mission: ‘Anything kind of goes’",
+      "link": "https://www.theverge.com/games/1028159/control-resonant-recursions-and-iterations-mission-design-time-travel",
+      "description": "Note: Some spoilers for Control Resonant's \"Recursions and Iterations\" mission follow. One of Control Resonant's most memorable missions involves time travel - kind of. There are certainly multiple timelines intersecting, or maybe overlapping, or maybe running in parallel. As protagonist Dylan Faden",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/CTRL_R_Key_Art_FINAL_4K-1.png?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-06T13:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Kallie Plagge"
+    },
+    {
       "id": "a48c44f48dcb",
       "title": "Samsung Galaxy Watch Ultra 2 review: The new standard for smartwatch battery life",
       "link": "https://www.engadget.com/2306413/samsung-galaxy-watch-ultra-2-review-2026/",
@@ -439,6 +493,21 @@
       "author": "Sergiu Gatlan"
     },
     {
+      "id": "3280af2f2958",
+      "title": "I’ve reviewed almost every Android foldable this year — here’s how the iPhone Duo compares",
+      "link": "https://www.theverge.com/tech/1026410/iphone-duo-foldable-android-samsung-google-xiaomi-oppo-honor",
+      "description": "When I first read Allison and Nilay's Verge review of the iPhone Duo, I was immediately struck by one of their complaints: that the cover display is too small. That's not how the Samsung Galaxy Z Fold 8 feels, I thought. Had they got it wrong? After a week and a half using the Duo, […]",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/iphone-duo-android-foldables-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-06T12:30:00.000Z",
+      "categories": [
+        "hardware",
+        "mobile",
+        "tech"
+      ],
+      "author": "Dominic Preston"
+    },
+    {
       "id": "65c6741517cd",
       "title": "Apple confirms $7.5 billion bond sale following strong investor demand",
       "link": "https://9to5mac.com/2026/11/06/apple-confirms-7-5-billion-bond-sale-following-strong-investor-demand/",
@@ -455,7 +524,7 @@
       "id": "29a72a663dc3",
       "title": "Tesla winds down Cybertruck production after years of poor sales in few markets",
       "link": "https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-production-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv",
-      "description": "119 points · 106 comments",
+      "description": "143 points · 128 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T12:13:51.000Z",
@@ -549,6 +618,34 @@
       "author": "Joanna Glasner"
     },
     {
+      "id": "86acf5ffd975",
+      "title": "After printing 40,000 whistles, this is the 3D printer I’d buy",
+      "link": "https://www.theverge.com/tech/1025984/best-3d-printer-bambu-p2s-review",
+      "description": "I've been wanting to try 3D printing, people tell me. Which printer should I get? I finally have a fairly easy answer: the Bambu Lab P2S Combo. The auto-loading, fully enclosed touchscreen printer is one of the very few I can recommend. It's the only one I'd buy for myself. It's on sale for $649 […]",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/bambu-p2s.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-06T12:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Sean Hollister"
+    },
+    {
+      "id": "e4e3ec8fd0f8",
+      "title": "The Enough Phone is made by and for people fed up with big screens",
+      "link": "https://www.theverge.com/tech/1028160/enough-small-phone-kickstarter-sleke",
+      "description": "It's a bad time and maybe also a great time to make a new smartphone. Brennan Jordan and Austin Boer are two-thirds of the trio behind the Enough Phone, a small phone that will run your choice of stock Android or the minimalist OdysseyOS. They're currently seeking funding on Kickstarter, and just a",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-05-at-2.38.03-PM.png?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-06T12:00:00.000Z",
+      "categories": [
+        "hardware",
+        "startups",
+        "mobile"
+      ],
+      "author": "Allison Johnson"
+    },
+    {
       "id": "7055bf751272",
       "title": "Horny Grandmas Are Having a Moment",
       "link": "https://www.wired.com/story/horny-grandmas-are-having-a-moment/",
@@ -587,6 +684,20 @@
         "hardware"
       ],
       "author": "Joe Shields"
+    },
+    {
+      "id": "44766e97c429",
+      "title": "Protesters break into Microsoft data center site in Amsterdam",
+      "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
+      "description": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303323844.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-06T11:55:19.000Z",
+      "categories": [
+        "cloud",
+        "tech"
+      ],
+      "author": "Tom Warren"
     },
     {
       "id": "8a4d90c4aa8b",
@@ -662,7 +773,7 @@
       "id": "4037c0f61ee9",
       "title": "We've built an open-source feature flag server for 11 years",
       "link": "https://github.com/Unleash/unleash",
-      "description": "39 points · 21 comments",
+      "description": "45 points · 22 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T11:40:06.000Z",
@@ -848,21 +959,6 @@
       "author": "Sophie Charara"
     },
     {
-      "id": "32fa756444de",
-      "title": "UK ministers seek powers to investigate when AI agents are let off the leash",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
-      "description": "Cyber Security and Resilience Bill could pave way for searches, seizures, and inspections when operators lose control of automated systems",
-      "thumbnail": "https://image.theregister.com/?imageId=2918046&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-06T11:00:00.000Z",
-      "categories": [
-        "ai",
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "Lindsay Clark"
-    },
-    {
       "id": "1b3bcff79054",
       "title": "Gelsinger-backed Nagare Labs’ Z2RAM promises SRAM speed at DRAM density",
       "link": "https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected",
@@ -891,6 +987,21 @@
       "author": "Newton Gitonga"
     },
     {
+      "id": "32fa756444de",
+      "title": "UK ministers seek powers to investigate when AI agents are let off the leash",
+      "link": "https://www.theregister.com/ai-and-ml/2026/11/06/uk-ministers-seek-powers-to-investigate-when-ai-agents-are-let-off-the-leash/5307889",
+      "description": "Cyber Security and Resilience Bill could pave way for searches, seizures, and inspections when operators lose control of automated systems",
+      "thumbnail": "https://image.theregister.com/?imageId=2918046&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-06T11:00:00.000Z",
+      "categories": [
+        "ai",
+        "cybersecurity",
+        "tech"
+      ],
+      "author": "Lindsay Clark"
+    },
+    {
       "id": "0eb3109a6adc",
       "title": "Major trial challenges how doctors decide who really needs statins",
       "link": "https://www.sciencedaily.com/releases/2026/11/261105224604.htm",
@@ -915,6 +1026,20 @@
         "tech"
       ],
       "author": "John Carlsen"
+    },
+    {
+      "id": "bea32410953e",
+      "title": "Tesla is ‘winding down’ production of the Cybertruck next year",
+      "link": "https://www.theverge.com/transportation/1028542/tesla-cybertruck-winding-down-production-2027",
+      "description": "Tesla is getting the Cybertruck ready for retirement in an effort to ramp up its robotaxi output. In an X post on Friday, Tesla CEO Elon Musk said that the company will be \"winding down\" Cybertruck production at its Texas Gigafactory sometime around the middle of next year, \"to make room for increas",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25830320/STKS493_CYBERTRUCK_CVIRGINIA_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-06T10:42:52.000Z",
+      "categories": [
+        "business",
+        "tech"
+      ],
+      "author": "Jess Weatherbed"
     },
     {
       "id": "a7aa63331de8",
@@ -946,7 +1071,7 @@
       "id": "feae6a47e061",
       "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
       "link": "https://jhr.pensoft.net/articles.php?id=9096",
-      "description": "78 points · 26 comments",
+      "description": "79 points · 27 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T10:21:15.000Z",
@@ -1053,7 +1178,7 @@
       "id": "25a6a123ca91",
       "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
       "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-      "description": "340 points · 208 comments",
+      "description": "364 points · 219 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T09:27:12.000Z",
@@ -1122,7 +1247,7 @@
       "id": "a2e585ed9b09",
       "title": "Chomsky and the Two Cultures of Statistical Learning",
       "link": "https://www.norvig.com/chomsky.html",
-      "description": "23 points · 5 comments",
+      "description": "27 points · 8 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T08:18:36.000Z",
@@ -1135,7 +1260,7 @@
       "id": "c5045ba62773",
       "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
       "link": "https://worldstrike.fun/",
-      "description": "103 points · 65 comments",
+      "description": "106 points · 68 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:55:48.000Z",
@@ -1162,7 +1287,7 @@
       "id": "df89720934de",
       "title": "Kugelblitz – Mac-Native Google Earth Alternative",
       "link": "https://apps.metaebene.me/en/kugelblitz",
-      "description": "143 points · 44 comments",
+      "description": "149 points · 44 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:47:38.000Z",
@@ -1175,7 +1300,7 @@
       "id": "3a41e3472432",
       "title": "Blender's UI and Runtime: Much Faster Than GPUI",
       "link": "https://github.com/ppmpreetham/BUI",
-      "description": "385 points · 157 comments",
+      "description": "396 points · 165 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:40:35.000Z",
@@ -1201,7 +1326,7 @@
       "id": "d19493e485c8",
       "title": "Hardcoded credentials and other issues in Tata Motors App",
       "link": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
-      "description": "58 points · 10 comments",
+      "description": "60 points · 10 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:28:39.000Z",
@@ -1214,7 +1339,7 @@
       "id": "ad265c5605cb",
       "title": "Britain to make salary disclosure in job ads mandatory",
       "link": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
-      "description": "358 points · 299 comments",
+      "description": "370 points · 305 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:22:04.000Z",
@@ -1394,7 +1519,7 @@
       "id": "d54bee17fb9e",
       "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
       "link": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
-      "description": "169 points · 54 comments",
+      "description": "175 points · 54 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T04:17:49.000Z",
@@ -1408,7 +1533,7 @@
       "id": "d2bb7ea65855",
       "title": "Pwn.college",
       "link": "https://pwn.college/",
-      "description": "211 points · 33 comments",
+      "description": "217 points · 33 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T03:27:14.000Z",
@@ -1416,21 +1541,6 @@
         "programming"
       ],
       "author": "tripdout"
-    },
-    {
-      "id": "b95f6aa29001",
-      "title": "Nvidia Kubernetes Engine (NVKE)",
-      "link": "https://github.com/dsx-ai-factory/nvke",
-      "description": "103 points · 23 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-06T03:16:26.000Z",
-      "categories": [
-        "ai",
-        "programming",
-        "hardware"
-      ],
-      "author": "gkapur"
     },
     {
       "id": "846eda5a9599",
@@ -1712,19 +1822,6 @@
       "author": "Maria Deutscher"
     },
     {
-      "id": "fae8746a9f7c",
-      "title": "The New York Times is in talks to buy Letterboxd for around $330 million",
-      "link": "https://www.theverge.com/news/1028375/the-new-york-times-letterboxd-acquisition-report",
-      "description": "The New York Times Company is in talks\"exclusive negotations\" to acquire Letterboxd, the social network for film lovers, for around $330 million, The New York Times reports. The Times Company, Sony Pictures Entertainment, and A24 were all recently rumored to be among those interested in buying Lette",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-05-at-3.41.44-PM.png?quality=90&strip=all&crop=0,0,100,92.583676239766",
-      "source": "The Verge",
-      "publishedAt": "2026-11-05T23:45:10.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Jay Peters"
-    },
-    {
       "id": "f2c34cdeae25",
       "title": "Amazon's Black Friday Audible Deal Is Now Live: Pay $0.99 Per Month Plus Get $20 Credit",
       "link": "https://www.ign.com/articles/amazon-early-black-friday-audible-deal-2026",
@@ -1803,21 +1900,6 @@
         "ai"
       ],
       "author": "Duncan Riley"
-    },
-    {
-      "id": "c798aeedd56d",
-      "title": "T-Mobile owner on Elon Musk launching a wireless carrier: ‘Welcome to the party’",
-      "link": "https://www.theverge.com/tech/1028346/t-mobile-deutsche-telecom-spacex-starlink-mobile",
-      "description": "The head of T-Mobile's parent company is casting doubt on SpaceX's plans to make Starlink Mobile a \"major\" carrier in the US. During an earnings call on Thursday, Deutsche Telekom CEO Tim Höttges says he takes the Elon Musk-owned company \"super serious,\" but that it will cost at least $200 billion t",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2259379374.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-05T23:17:10.000Z",
-      "categories": [
-        "mobile",
-        "business",
-        "tech"
-      ],
-      "author": "Emma Roth"
     },
     {
       "id": "9ed3b44bda29",
@@ -1960,21 +2042,6 @@
       "author": "Duncan Riley"
     },
     {
-      "id": "8e75ec02fc50",
-      "title": "Perplexity launches its own take on AI agents for work",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1028302/perplexity-teammates-ai-agents-work",
-      "description": "Perplexity is taking on OpenAI and Anthropic with its own work-focused AI agents. The startup's new always-on \"Teammates\" can take on multiple roles within a workspace, while pulling existing projects, skills, and memory from the Perplexity tools you already use. Teammates integrate with Perplexity",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25472503/STK271_PERPLEXITY_C.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-05T22:26:50.000Z",
-      "categories": [
-        "ai",
-        "startups",
-        "tech"
-      ],
-      "author": "Emma Roth"
-    },
-    {
       "id": "31b0c9ff49e1",
       "title": "Report: Apple captured half of global smartphone revenue in Q3",
       "link": "https://9to5mac.com/2026/11/05/report-apple-captured-half-of-global-smartphone-revenue-in-q3/",
@@ -2030,20 +2097,6 @@
       "author": "Thomas Claburn"
     },
     {
-      "id": "d3137c5031e9",
-      "title": "Salon is shutting down after 31 years",
-      "link": "https://www.theverge.com/news/1028281/salon-dot-com-shuts-down",
-      "description": "Salon launched 31 years ago as one of the first online-only news magazine outlets, and it announced today in an unsigned post that it's ceasing publication. The company said that the \"business realities of independent digital journalism have changed profoundly over the years,\" and it decided that it",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-05-at-1.59.05-PM.png?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-05T22:08:14.000Z",
-      "categories": [
-        "business",
-        "tech"
-      ],
-      "author": "Jay Peters"
-    },
-    {
       "id": "b6411ac47a80",
       "title": "Sony revives the original Walkman headphones, adds USB-C",
       "link": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
@@ -2056,19 +2109,6 @@
         "tech"
       ],
       "author": "Scharon Harding"
-    },
-    {
-      "id": "bff786783671",
-      "title": "The midterms proved once and for all that X is not real life",
-      "link": "https://www.theverge.com/policy/1028253/midterm-elections-x-right-wing-memes",
-      "description": "A week before the midterm elections, Vice President JD Vance hosted a town hall in Texas with Fox News host Jesse Watters. It was a friendly event with a friendly audience in what should have been a friendly state, and maybe that's why Vance couldn't help himself. When a college student earnestly as",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25532395/STK204_JD_VANCE_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-05T21:55:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Gaby Del Valle"
     },
     {
       "id": "a5e8f211c2b4",
@@ -2281,20 +2321,6 @@
         "gaming"
       ],
       "author": "Marcus Mendes"
-    },
-    {
-      "id": "3bca1d9e7322",
-      "title": "Blue Origin’s next launch now won’t happen until 2027",
-      "link": "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
-      "description": "Blue Origin plans to do its next New Glenn rocket launch in January 2027, according to CNBC and the Financial Times, which cite a memo from CEO Dave Limp sent to staff. The new timeline follows a May launchpad explosion that damaged Blue Origin's New Glenn launchpad ahead of a flight that would have",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2281421326.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-05T20:47:14.000Z",
-      "categories": [
-        "business",
-        "tech"
-      ],
-      "author": "Jay Peters"
     },
     {
       "id": "c7ca426d8d67",
@@ -2520,21 +2546,6 @@
       "author": "staff@engadget.com (Anna Washenko)"
     },
     {
-      "id": "d2eb167f9593",
-      "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
-      "link": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
-      "description": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Amazon and Best Buy, a hefty $300 markdown from its usual price, and just $50 higher than the lowest we’ve seen. Considering the device only launched a few months ago, you’re saving",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/samsung-galaxy-z-fold-8-roundup.png?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-05T19:12:58.000Z",
-      "categories": [
-        "hardware",
-        "mobile",
-        "tech"
-      ],
-      "author": "Brad Bourque"
-    },
-    {
       "id": "ea881b03ae96",
       "title": "Meta warns that election backlash against data centers could make AI expansion harder",
       "link": "https://techcrunch.com/2026/11/05/metas-warns-that-election-backlash-against-data-centers-could-make-ai-expansion-harder/",
@@ -2576,21 +2587,6 @@
         "hardware"
       ],
       "author": "Marcus Mendes"
-    },
-    {
-      "id": "c6134d61030c",
-      "title": "Muse has a voice mode now",
-      "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
-      "description": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of […]",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-05T19:03:04.000Z",
-      "categories": [
-        "ai",
-        "mobile",
-        "business"
-      ],
-      "author": "Jay Peters"
     },
     {
       "id": "7b7e5c82463b",
@@ -3329,7 +3325,7 @@
       "name": "zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "stars": 93119,
+      "stars": 93120,
       "starsToday": 292,
       "url": "https://github.com/zed-industries/zed"
     },
@@ -3393,7 +3389,7 @@
       "name": "prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
-      "stars": 67011,
+      "stars": 67012,
       "starsToday": 140,
       "url": "https://github.com/prometheus/prometheus"
     },
@@ -3401,7 +3397,7 @@
       "name": "google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "stars": 22660,
+      "stars": 22662,
       "starsToday": 532,
       "url": "https://github.com/google/skills"
     },
@@ -3487,10 +3483,10 @@
       "link": "https://podcasts.apple.com/us/podcast/hard-fork/id1528594034?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/de/c5/20/dec52092-6be0-9007-875c-6aa8e690a905/mza_12490014444602578825.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "Are We in an A.I. Bubble? We're About to Find Out.",
-        "publishedAt": "2026-10-30T10:00:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/are-we-in-an-a-i-bubble-were-about-to-find-out/id1528594034?i=1000798873825&uo=4",
-        "duration": 3261000
+        "title": "Why the Tech Right Lost Big This Week",
+        "publishedAt": "2026-11-06T11:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/why-the-tech-right-lost-big-this-week/id1528594034?i=1000800230553&uo=4",
+        "duration": 4099000
       }
     },
     {
@@ -3501,10 +3497,10 @@
       "link": "https://podcasts.apple.com/us/podcast/waveform-the-mkbhd-podcast/id1474429475?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/92/dd/8e/92dd8eed-43ec-dc47-50ae-c1ec7c0a3353/mza_3861776104886813687.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "Is The \"PROLED\" Macbook Any Good?",
-        "publishedAt": "2026-10-30T08:00:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/is-the-proled-macbook-any-good/id1474429475?i=1000798853717&uo=4",
-        "duration": 7325000
+        "title": "Instagram Wants to be YouTube Now?”",
+        "publishedAt": "2026-11-06T09:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/instagram-wants-to-be-youtube-now/id1474429475?i=1000800214818&uo=4",
+        "duration": 5995000
       }
     },
     {
