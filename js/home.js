@@ -22,7 +22,7 @@ import {
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
-const CATEGORY_ORDER = ['ai', 'programming', 'hardware', 'startups', 'cybersecurity', 'tech'];
+const CATEGORY_ORDER = ['ai', 'programming', 'hardware', 'startups', 'cybersecurity', 'tech', 'cloud', 'mobile', 'gaming', 'science', 'opensource', 'privacy', 'business'];
 
 const state = {
   data: null,

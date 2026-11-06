@@ -16,7 +16,14 @@ const INTEREST_OPTIONS = [
   ['programming', 'Programming'],
   ['hardware', 'Hardware'],
   ['startups', 'Startups'],
-  ['cybersecurity', 'Cybersecurity']
+  ['cybersecurity', 'Cybersecurity'],
+  ['cloud', 'Cloud'],
+  ['mobile', 'Mobile'],
+  ['gaming', 'Gaming'],
+  ['science', 'Science'],
+  ['opensource', 'Open Source'],
+  ['privacy', 'Privacy'],
+  ['business', 'Business']
 ];
 
 const root = document.getElementById('profileRoot');

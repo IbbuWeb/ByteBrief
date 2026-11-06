@@ -46,7 +46,15 @@ const SOURCES = [
   { name: "Tom's Hardware", url: 'https://www.tomshardware.com/feeds/all', category: 'hardware' },
   { name: 'SiliconANGLE', url: 'https://siliconangle.com/feed/', category: 'tech' },
   { name: 'Tech.eu', url: 'https://tech.eu/feed/', category: 'startups' },
-  { name: 'Reddit Technology', url: 'https://www.reddit.com/r/technology/.rss', category: 'tech' }
+  { name: 'AWS News Blog', url: 'https://aws.amazon.com/blogs/aws/feed/', category: 'cloud' },
+  { name: 'Azure Blog', url: 'https://azure.microsoft.com/en-us/blog/feed/', category: 'cloud' },
+  { name: 'Android Developers', url: 'https://android-developers.googleblog.com/feeds/posts/default?alt=rss', category: 'mobile' },
+  { name: 'Polygon', url: 'https://www.polygon.com/rss/index.xml', category: 'gaming' },
+  { name: 'IGN', url: 'https://feeds.ign.com/ign/all', category: 'gaming' },
+  { name: 'NASA Breaking News', url: 'https://www.nasa.gov/rss/dyn/breaking_news.rss', category: 'science' },
+  { name: 'Science Daily', url: 'https://www.sciencedaily.com/rss/top.xml', category: 'science' },
+  { name: 'EFF Updates', url: 'https://www.eff.org/rss/updates.xml', category: 'privacy' },
+  { name: 'Open Source Initiative', url: 'https://opensource.org/feed', category: 'opensource' }
 ];
 
 const PODCASTS = [

@@ -1,6 +1,443 @@
 {
-  "generatedAt": "2026-11-06T12:21:51.179Z",
+  "generatedAt": "2026-11-06T14:22:21.146Z",
   "articles": [
+    {
+      "id": "f8e9629a67be",
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+      "description": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/06/0_Chainalysis.jpg",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-06T14:17:07.000Z",
+      "categories": [
+        "cybersecurity"
+      ],
+      "author": "Sergiu Gatlan"
+    },
+    {
+      "id": "562c631ff9db",
+      "title": "KPop Demon Hunters Just Joined the Criterion Collection — And Now It’s 50% Off",
+      "link": "https://www.ign.com/articles/kpop-demon-hunters-criterion-collection-4k-blu-ray-sale-for-black-friday-2026",
+      "description": "KPop Demon Hunters officially joined the Criterion Collection earlier this week, and now the new release is 50% off.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/05/kpopcriterion-1793919962019.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T14:01:19.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Blythe Dujardin"
+    },
+    {
+      "id": "e78c2dfe2d37",
+      "title": "Blue Origin unveils more thrust, less haste as New Glenn slips to 2027",
+      "link": "https://www.theregister.com/offbeat/2026/11/06/blue-origin-unveils-more-thrust-less-haste-as-new-glenn-slips-to-2027/5308138",
+      "description": "Leaked staff memo pushes return to flight into January, overshadowing third-stage and engine announcements",
+      "thumbnail": "https://image.theregister.com/?imageId=236527&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-06T14:01:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Richard Speed"
+    },
+    {
+      "id": "fddd9951c6d3",
+      "title": "Atomicwork launches certified AI coworker marketplace for enterprise IT and security",
+      "link": "https://siliconangle.com/2026/11/06/atomicwork-launches-certified-ai-coworker-marketplace-for-enterprise-it-and-security/",
+      "description": "Information technology service management startup Atomicwork Inc. today announced the launch of an Artificial Intelligence Coworker Marketplace that will give enterprise IT and security teams access to prebuilt, certified AI coworkers that can work alongside employees. The company said these agentic",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2025/04/A-group-of-AI-agents-standing-in-a-semicircle-with-hands-on-keyboards-with-computer-code-flickering-.jpeg",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-06T14:00:53.000Z",
+      "categories": [
+        "ai",
+        "startups",
+        "cybersecurity"
+      ],
+      "author": "Kyt Dotson"
+    },
+    {
+      "id": "eddb01178380",
+      "title": "GlobalFoundries VP details FDX Fusion technology, sporting 7nm-class performance without the need for EUV tools — company targets 2030 for high-volume manufacturing, with planar transistors in tow",
+      "link": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow",
+      "description": "GlobalFoundries reveals new details about its FDX Fusion technology, which promises 7nm-class performance and 8nm-class logic density using planar FD-SOI transistors without EUV lithography, shares what is next for FDX Fusion node, and the FDX program in general.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/D9nDwQshY7nGhWkCejQmk5-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-06T14:00:00.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Anton Shilov"
+    },
+    {
+      "id": "27b2be2c7f37",
+      "title": "Elegoo M1 Ultra review: A good first entry into the scanner market",
+      "link": "https://www.tomshardware.com/3d-printing/3d-scanning/elegoo-m1-ultra-review",
+      "description": "Elegoo’s first scanner is a useful tool, but it requires a little extra work.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/i66usdGjdEJZNFU6ocr58a-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-06T14:00:00.000Z",
+      "categories": [
+        "business",
+        "hardware"
+      ],
+      "author": "Denise Bertacchi"
+    },
+    {
+      "id": "798ad5e1a055",
+      "title": "Denmark's EIFO joins TEKEVER's $580M Series D as company expands into Odense",
+      "link": "https://tech.eu/2026/11/06/denmarks-eifo-joins-tekevers-580m-series-d-as-company-expands-into-odense/",
+      "description": "Defencetech TEKEVER today announced plans to establish an operational presence in Odense, Denmark, its first in the Nordic region, to support its work across the region. The announcement follows a mee...",
+      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/untitled-design-39-376.png",
+      "source": "Tech.eu",
+      "publishedAt": "2026-11-06T14:00:00.000Z",
+      "categories": [
+        "startups"
+      ],
+      "author": "Cate Lawrence"
+    },
+    {
+      "id": "663228df1188",
+      "title": "Phantom Blade Zero's Kung Fu Punk Inspired 'Bold Musical Decisions to Match the Visuals'",
+      "link": "https://www.ign.com/articles/phantom-blade-zeros-kung-fu-punk-inspired-bold-musical-decisions-to-match-the-visuals",
+      "description": "Phantom Blade Zero Composer Caisheng Bo talked to IGN as the official game soundtrack is released for streaming and purchase.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/05/composer-blogroll-1793837596517.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T14:00:00.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Ryan McCaffrey"
+    },
+    {
+      "id": "224f059be5c6",
+      "title": "Protesters storm Microsoft AI data center construction site",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe",
+      "description": "The protesters stormed over the walls and took over the construction site, with the Stop Dirty Data Centers coalition saying that more actions are planned across Europe.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/xXzamwF8bgCcyR6kJW47Pb-1920-80.png",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-06T13:59:09.000Z",
+      "categories": [
+        "ai",
+        "cloud",
+        "hardware"
+      ],
+      "author": "Jowi Morales"
+    },
+    {
+      "id": "ea24511fdc84",
+      "title": "MucoLife Therapeutics secures €91K from Vinnova to scale manufacturing of COPD treatment",
+      "link": "https://tech.eu/2026/11/06/mucolife-therapeutics-secures-91k-from-vinnova-to-scale-manufacturing-of-copd-treatment/",
+      "description": "MucoLife Therapeutics has received €91,000 (SEK 1 million) from Vinnova, Sweden’s innovation agency, through the call “Support to small and medium-sized companies for the use of life science infrastru...",
+      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/download-10-1-807-507.jpg",
+      "source": "Tech.eu",
+      "publishedAt": "2026-11-06T13:58:44.000Z",
+      "categories": [
+        "science",
+        "startups"
+      ],
+      "author": "Cate Lawrence"
+    },
+    {
+      "id": "dd9ac9e30405",
+      "title": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims",
+      "link": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
+      "description": "Nvidia is requiring Southeast Asian cloud providers seeking Nvidia Cloud Partner status to enroll in its Fleet Intelligence tracking program, giving the chipmaker greater visibility into where its AI GPUs are deployed. The move comes as Washington increases pressure over suspected chip smuggling int",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/bBGEYE8htq38xZgt4xCdTQ-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-06T13:49:33.000Z",
+      "categories": [
+        "ai",
+        "hardware",
+        "cloud"
+      ],
+      "author": "Newton Gitonga"
+    },
+    {
+      "id": "6ec1d4c8a5cf",
+      "title": "Elon Musk Puts the Breaks on Cybertruck Production to Focus on Tesla's Cybercab, Disappointing Diehard Fans",
+      "link": "https://www.ign.com/articles/elon-musk-puts-the-breaks-on-cybertruck-production-to-focus-on-teslas-cybercab-disappointing-diehard-fans",
+      "description": "Elon Musk has confirmed plans to \"wind down\" production of the Cybertruck at Tesla's gigafactory.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/06/cybertruck-1793972802508.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T13:47:52.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Wesley Yin-Poole"
+    },
+    {
+      "id": "8f885557d286",
+      "title": "Fourthline and Veridas combine forces to take on global digital identity market",
+      "link": "https://tech.eu/2026/11/06/fourthline-and-veridas-combine-forces-to-take-on-global-digital-identity-market/",
+      "description": "Digital ID provider Veridas is merging with European identity verification and compliance company Fourthline to deliver an advanced trust platform across Europe and the Americas. European investment A...",
+      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/untitled-design-41-51.png",
+      "source": "Tech.eu",
+      "publishedAt": "2026-11-06T13:47:32.000Z",
+      "categories": [
+        "business",
+        "startups"
+      ],
+      "author": "Cate Lawrence"
+    },
+    {
+      "id": "2fe51f4f74e0",
+      "title": "Magic's Star Trek Already Feels a Lot More Frustrating than Reality Fracture",
+      "link": "https://www.polygon.com/mtg-star-trek-prerelease-guide-limited-draft-sealed-frustrating/",
+      "description": "MTG's Star Trek set offers a more frustrating Limited experience compared to the excellent Reality Fracture.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/09/captain-kirk-boldly-going.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-06T13:45:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Francesco Cacciatore"
+    },
+    {
+      "id": "63c3d56bc72b",
+      "title": "Gemini Omni 1.2 Flash",
+      "link": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "description": "24 points · 10 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T13:35:27.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "thisisauserid"
+    },
+    {
+      "id": "d148be8030c1",
+      "title": "Six pallets of Nvidia GPUs worth $11.4 million stolen in California cargo heist",
+      "link": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
+      "description": "The latest incident comes amid growing concerns over GPU theft, with experts warning that advanced Nvidia chips can command significantly higher prices abroad and could end up in black-market channels.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/WJysu4KWtLyywCbvdHhuLF-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-06T13:35:16.000Z",
+      "categories": [
+        "hardware",
+        "business"
+      ],
+      "author": "Kunal Khullar"
+    },
+    {
+      "id": "c0beb4b56091",
+      "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
+      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "description": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0d1/live/49c24750-d9d0-11f1-9e5a-c30c5e3d8c85.jpg",
+      "source": "BBC Technology",
+      "publishedAt": "2026-11-06T13:25:50.000Z",
+      "categories": [
+        "ai",
+        "tech"
+      ],
+      "author": null
+    },
+    {
+      "id": "0bf3f82ddf07",
+      "title": "DigiCert admits 16-month security lapse exposed customer information",
+      "link": "https://www.theregister.com/security/2026/11/06/digicert-admits-16-month-security-lapse-exposed-customer-information/5308097",
+      "description": "Botched server move left the door open, and DigiCert took months to notice someone had wandered in",
+      "thumbnail": "https://image.theregister.com/?imageId=5305665&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-06T13:15:00.000Z",
+      "categories": [
+        "cybersecurity",
+        "tech"
+      ],
+      "author": "Carly Page"
+    },
+    {
+      "id": "0db5ef72e272",
+      "title": "Twelve South’s new Cablesnap charger has a built-in retractable USB-C cable",
+      "link": "https://9to5mac.com/2026/11/06/twelve-south-retractable-usb-c-charger/",
+      "description": "Popular Apple accessory maker Twelve South is launching a new retractable Cablesnap 65W travel charger this week. It has a built-in USB-C cable, alongside an additional USB-C port and USB-A port. You can order the new Cablesnap 65W on Amazon today for $49.99 . more…",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Twelve-South-Cablesnap-Retractable-USB-C-Travel-Charger-2026.jpg.webp?w=1500",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-06T13:10:14.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Chance Miller"
+    },
+    {
+      "id": "69dd96b9d4af",
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "link": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "description": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service",
+      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/03/2026_BA_Reno_15.jpg?w=840",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-06T13:10:00.000Z",
+      "categories": [
+        "ai",
+        "hardware"
+      ],
+      "author": "Thomas Macaulay"
+    },
+    {
+      "id": "959cfaa37cff",
+      "title": "Google's Find Hub can finally notify you if you've left a tracker behind",
+      "link": "https://www.engadget.com/2308903/googles-find-hub-can-finally-notify-you-if-youve-left-a-tracker-behind/",
+      "description": "Google has rolled out 'Notify when left behind' separation alerts for your tracking devices.",
+      "thumbnail": "https://www.engadget.com/img/gallery/googles-find-hub-can-finally-notify-you-if-youve-left-a-tracker-behind/l-intro-1793970258.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-06T13:05:16.000Z",
+      "categories": [
+        "privacy",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Mariella Moon)"
+    },
+    {
+      "id": "fbf575ba8ccd",
+      "title": "Underdog shows off a 32MB speech model in new demo",
+      "link": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
+      "description": "Despite its small size, Underdog's new model can generate both speech and music.",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-7.02.34-PM.jpg?resize=1200,542",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-06T13:02:16.000Z",
+      "categories": [
+        "startups",
+        "ai"
+      ],
+      "author": "Ivan Mehta"
+    },
+    {
+      "id": "c653058ac2ee",
+      "title": "Right Now Is the Perfect Time to Play the Quietly Best Yakuza Spinoff",
+      "link": "https://www.polygon.com/yakuza-best-spinoff-like-a-dragon-gaiden/",
+      "description": "Like a Dragon Gaiden: The Man Who Erased His Name isn't a full-sized Yakuza adventure, but its compact scope makes the story hit especially hard",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24858610/adventure_slide2.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-06T13:00:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Jen Glennon"
+    },
+    {
+      "id": "f3bfec28682f",
+      "title": "Physicl raises $10M to make the digital world real enough for robots",
+      "link": "https://techcrunch.com/2026/11/06/physicl-raises-10m-to-make-the-digital-world-real-enough-for-robots/",
+      "description": "Physicl is trying to solve the sim-to-real gap with a pipeline originally built to market goods online.",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/physicl-studio-hero-kitchen-16x9-1.jpg?resize=1200,675",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-06T13:00:00.000Z",
+      "categories": [
+        "startups",
+        "business",
+        "ai"
+      ],
+      "author": "Tim Fernholz"
+    },
+    {
+      "id": "a48c44f48dcb",
+      "title": "Samsung Galaxy Watch Ultra 2 review: The new standard for smartwatch battery life",
+      "link": "https://www.engadget.com/2306413/samsung-galaxy-watch-ultra-2-review-2026/",
+      "description": "With its bright display and battery life, the Galaxy Watch Ultra 2 hits the sweet spot for smartwatch hardware.",
+      "thumbnail": "https://www.engadget.com/img/gallery/samsung-galaxy-watch-ultra-2-review-the-new-standard-for-smartwatch-battery-life/l-intro-1793802591.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-06T13:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Mat Smith)"
+    },
+    {
+      "id": "009b31e13968",
+      "title": "Save 26% on this 142-piece toolkit for your PC repairs and hobbyist projects, now under $28",
+      "link": "https://www.tomshardware.com/desktops/pc-building/save-26-percent-on-this-142-piece-toolkit-for-your-pc-repairs-and-hobbyist-projects-now-under-usd28-precision-screwdriver-kit-includes-120-magnetic-bits-and-20-different-repair-tools-for-your-next-project",
+      "description": "This 142-in-1 repair toolkit from Strebito has 120 bits and a number of other tools, and right now it's just $27.99, saving you 26% overall.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/Zo53u7UxW9N6oLj6fqyZsN-1920-80.png",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-06T13:00:00.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Ben Stockton"
+    },
+    {
+      "id": "b89b5e2d75eb",
+      "title": "Rockstar Will Be Keen to Release GTA 6 on PC Sooner Rather Than Later Because of AI Clones, Former Dev Says",
+      "link": "https://www.ign.com/articles/former-rockstar-dev-claims-gta-6-online-will-launch-soon",
+      "description": "Rockstar may officially release GTA 6 on PC soon after console over concern about AI-generated clones, one former developer has said.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/06/vintage-vice-city-pack-exclusive-looks-05-1793969517630.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T12:57:07.000Z",
+      "categories": [
+        "ai",
+        "programming",
+        "gaming"
+      ],
+      "author": "Kirk McKeand"
+    },
+    {
+      "id": "f4d085e7705c",
+      "title": "The Criterion Collection's Early Black Friday Sale Is Live at Amazon",
+      "link": "https://www.ign.com/articles/criterion-collection-4k-blu-ray-black-friday-sale",
+      "description": "The Criterion Collection's official Black Friday sale at Amazon has killer deals on dozens of classic movies.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/05/untitled-design-1793910134513.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T12:47:46.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Chris Reed"
+    },
+    {
+      "id": "f52ae7628517",
+      "title": "Home Office cloud services contract may net AWS £1B",
+      "link": "https://www.theregister.com/public-sector/2026/11/06/home-office-cloud-services-contract-may-net-aws-1b/5308106",
+      "description": "Planning notice puts renewal at nearly twice the 2023 value, just as Whitehall frets about US tech dependence",
+      "thumbnail": "https://image.theregister.com/?imageId=252143&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-06T12:47:00.000Z",
+      "categories": [
+        "cloud",
+        "tech"
+      ],
+      "author": "Dan Robinson"
+    },
+    {
+      "id": "b7fb16d8c6e0",
+      "title": "Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management",
+      "description": "Brightspeed has over 130 facilities located across the U.S., with Nvidia estimating that they could produce up to 1GW of compute capacity.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/sxvDhNiPDVHWxcdqjWitH4-1920-80.png",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-06T12:45:00.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Jowi Morales"
+    },
+    {
+      "id": "972bd254d30f",
+      "title": "Netflix’s Animated Twilight Adaptation Confirmed for Two Seasons",
+      "link": "https://www.polygon.com/twilight-midnight-sun-animated-series-two-seasons/",
+      "description": "To create a detailed adaptation of Edward Cullen's perspective, Netflix is turning Midnight Sun into a two-season animated series.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/edward-cullen-twilight.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-06T12:38:46.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Ashely Claudino"
+    },
+    {
+      "id": "d0b8b49f25ce",
+      "title": "D-Link warns of multiple zero-days in DGS-3130 Series switches",
+      "link": "https://www.bleepingcomputer.com/news/security/d-link-warns-of-multiple-zero-days-in-dgs-3130-series-switches/",
+      "description": "D-Link shared mitigation measures for multiple unpatched security flaws affecting DGS-3130 series managed Gigabit stackable switches. [...]",
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/06/D-Link-logo.jpg",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-06T12:37:22.000Z",
+      "categories": [
+        "cybersecurity"
+      ],
+      "author": "Sergiu Gatlan"
+    },
     {
       "id": "65c6741517cd",
       "title": "Apple confirms $7.5 billion bond sale following strong investor demand",
@@ -13,6 +450,33 @@
         "hardware"
       ],
       "author": "Marcus Mendes"
+    },
+    {
+      "id": "29a72a663dc3",
+      "title": "Tesla winds down Cybertruck production after years of poor sales in few markets",
+      "link": "https://www.msn.com/en-us/technology/tech-companies/tesla-to-wind-down-cybertruck-production-after-years-of-poor-sales-in-few-markets/ar-AA2gSZGv",
+      "description": "119 points · 106 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-06T12:13:51.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "PLenz"
+    },
+    {
+      "id": "ec3388a4bdf7",
+      "title": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
+      "description": "A University of Chicago lecturer has revealed a rogue Claude AI agent deleted his entire syllabus and year's worth of lecture notes by mistake.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/ee2RHsQxMkag3gfYBWeoA5-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-06T12:12:12.000Z",
+      "categories": [
+        "ai",
+        "hardware"
+      ],
+      "author": "Stephen Warwick"
     },
     {
       "id": "abb3bb2d8cf0",
@@ -38,9 +502,23 @@
       "publishedAt": "2026-11-06T12:00:42.000Z",
       "categories": [
         "ai",
+        "science",
         "programming"
       ],
       "author": "chitianhao"
+    },
+    {
+      "id": "cf584ec39a7f",
+      "title": "25 Years Later, Buffy's Riskiest Episode Is Still a Brilliant Masterpiece That Changed the Show Forever",
+      "link": "https://www.polygon.com/buffy-vampire-slayer-once-more-with-feeling-musical-25-years-james-marsters/",
+      "description": "'Once More With Feeling' at 25: How the Buffy musical came to be and why it still holds up, according to Spike actor James Marsters",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/mv5bowvlzdrmytytmzzlmc00ntvjlwi2owutmmeyzjkzmdzmotazxkeyxkfqcgc-_v1_.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-06T12:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Jake Kleinman"
     },
     {
       "id": "a46c8ef37b0e",
@@ -71,34 +549,6 @@
       "author": "Joanna Glasner"
     },
     {
-      "id": "86acf5ffd975",
-      "title": "After printing 40,000 whistles, this is the 3D printer I’d buy",
-      "link": "https://www.theverge.com/tech/1025984/best-3d-printer-bambu-p2s-review",
-      "description": "I've been wanting to try 3D printing, people tell me. Which printer should I get? I finally have a fairly easy answer: the Bambu Lab P2S Combo. The auto-loading, fully enclosed touchscreen printer is one of the very few I can recommend. It's the only one I'd buy for myself. It's on sale for $649 […]",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/bambu-p2s.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Sean Hollister"
-    },
-    {
-      "id": "e4e3ec8fd0f8",
-      "title": "The Enough Phone is made by and for people fed up with big screens",
-      "link": "https://www.theverge.com/tech/1028160/enough-small-phone-kickstarter-sleke",
-      "description": "It's a bad time and maybe also a great time to make a new smartphone. Brennan Jordan and Austin Boer are two-thirds of the trio behind the Enough Phone, a small phone that will run your choice of stock Android or the minimalist OdysseyOS. They're currently seeking funding on Kickstarter, and just a",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Screenshot-2026-11-05-at-2.38.03-PM.png?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "categories": [
-        "hardware",
-        "startups",
-        "tech"
-      ],
-      "author": "Allison Johnson"
-    },
-    {
       "id": "7055bf751272",
       "title": "Horny Grandmas Are Having a Moment",
       "link": "https://www.wired.com/story/horny-grandmas-are-having-a-moment/",
@@ -110,19 +560,6 @@
         "tech"
       ],
       "author": "Jason Parham"
-    },
-    {
-      "id": "44f526082f74",
-      "title": "Intel’s next-gen Nova Lake needs new motherboards — what we expect from Nova Point and Z990, Z970, and B960 chipsets",
-      "link": "https://www.tomshardware.com/pc-components/chipsets/intels-next-gen-nova-lake-needs-new-motherboards-what-we-expect-from-nova-point-and-z990-z970-and-b960-chipsets",
-      "description": "New Intel CPUs mean a new LGA 1954 socket and new motherboards. Here’s what we know about Nova Point’s Z990, Z970, and B960 chipsets, including more PCIe 5.0, Thunderbolt 5, faster base RAM speeds, and active cooling",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/3JguTaB6k8VyZTixTzb5tE-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-06T12:00:00.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Joe Shields"
     },
     {
       "id": "07df71967e3d",
@@ -139,17 +576,17 @@
       "author": "Anton Shilov"
     },
     {
-      "id": "44766e97c429",
-      "title": "Protesters break into Microsoft data center site in Amsterdam",
-      "link": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-      "description": "Protesters have broken into a construction site of a new Microsoft data center in Amsterdam this morning. Members of the Geef Tegengas group helped organize the protest against the construction of three 85-meter data center towers in the outskirts of Amsterdam. Reuters reports that around 100 people",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2303323844.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-06T11:55:19.000Z",
+      "id": "44f526082f74",
+      "title": "Intel’s next-gen Nova Lake needs new motherboards — what we expect from Nova Point and Z990, Z970, and B960 chipsets",
+      "link": "https://www.tomshardware.com/pc-components/chipsets/intels-next-gen-nova-lake-needs-new-motherboards-what-we-expect-from-nova-point-and-z990-z970-and-b960-chipsets",
+      "description": "New Intel CPUs mean a new LGA 1954 socket and new motherboards. Here’s what we know about Nova Point’s Z990, Z970, and B960 chipsets, including more PCIe 5.0, Thunderbolt 5, faster base RAM speeds, and active cooling",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/3JguTaB6k8VyZTixTzb5tE-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-06T12:00:00.000Z",
       "categories": [
-        "tech"
+        "hardware"
       ],
-      "author": "Tom Warren"
+      "author": "Joe Shields"
     },
     {
       "id": "8a4d90c4aa8b",
@@ -160,6 +597,7 @@
       "source": "TechCrunch",
       "publishedAt": "2026-11-06T11:50:10.000Z",
       "categories": [
+        "science",
         "startups"
       ],
       "author": "Sean O'Kane"
@@ -174,7 +612,8 @@
       "publishedAt": "2026-11-06T11:49:04.000Z",
       "categories": [
         "ai",
-        "programming"
+        "programming",
+        "cloud"
       ],
       "author": "Paul Sawers"
     },
@@ -187,7 +626,8 @@
       "source": "Tom's Hardware",
       "publishedAt": "2026-11-06T11:44:37.000Z",
       "categories": [
-        "hardware"
+        "hardware",
+        "gaming"
       ],
       "author": "Ben Stockton"
     },
@@ -222,27 +662,54 @@
       "id": "4037c0f61ee9",
       "title": "We've built an open-source feature flag server for 11 years",
       "link": "https://github.com/Unleash/unleash",
-      "description": "7 points · 1 comments",
+      "description": "39 points · 21 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T11:40:06.000Z",
       "categories": [
-        "programming"
+        "programming",
+        "opensource"
       ],
       "author": "ivarconr"
     },
     {
-      "id": "c09c71a64958",
-      "title": "Tesla to wind down Cybertruck production at Texas factory as it struggles to win appeal.",
-      "link": "https://www.reddit.com/r/technology/comments/1xpapar/tesla_to_wind_down_cybertruck_production_at_texas/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/aVq9yvbnMZAUbgccTviBOP2RjnrVYlVJL2uFZMIlXRA.jpeg?width=640&crop=smart&auto=webp&s=6947f3022927f83e57907195f32d15e47172ef14",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-06T11:39:47.000Z",
+      "id": "3df731e04a64",
+      "title": "From fallen leaves to factory floors: How Releaf is making alternative paper commercially viable",
+      "link": "https://tech.eu/2026/11/06/from-fallen-leaves-to-factory-floors-how-releaf-is-making-alternative-paper-commercially-viable/",
+      "description": "Ukrainian-founded, Paris-based Releaf is developing an alternative to conventional wood-based paper by transforming urban fallen leaves into fibres for packaging, paper and other materials. The compan...",
+      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/untitled-design-40-414.png",
+      "source": "Tech.eu",
+      "publishedAt": "2026-11-06T11:36:44.000Z",
       "categories": [
-        "tech"
+        "startups"
       ],
-      "author": "/u/NinjaDiscoJesus https://www.reddit.com/user/NinjaDiscoJesus"
+      "author": "Cate Lawrence"
+    },
+    {
+      "id": "0afdb76fe0f2",
+      "title": "Pokémon TCG 30th Celebration Ultra-Premium Collection: Where to Buy the Day and Night Boxes",
+      "link": "https://www.ign.com/articles/where-to-buy-pokemon-tcg-30th-celebration-ultra-premium-collection",
+      "description": "Find out where to buy the Pokémon TCG 30th Celebration Ultra-Premium Collection across Target, Walmart, Amazon, and other retailers on launch day.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/04/upc-day-night-featured-1793808008299.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T11:34:36.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Sara Heritage"
+    },
+    {
+      "id": "be708ba2372c",
+      "title": "It's Official: The PlayStation Blackout Protest Did Nothing",
+      "link": "https://www.polygon.com/sony-playstation-5-digital-blackout-failure-financial-records-confirm/",
+      "description": "Sony's fiscal quarter reports officially confirm that it continues to thrive after announcing the end of physical media on PlayStation.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/god-of-war-e3-2016-gameplay-trailer-_-ps4-5-28-screenshot.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-06T11:32:52.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Ashely Claudino"
     },
     {
       "id": "b6606e562ef1",
@@ -258,18 +725,30 @@
       "author": "Kat Merck"
     },
     {
-      "id": "c0beb4b56091",
-      "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
-      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
-      "description": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/b0d1/live/49c24750-d9d0-11f1-9e5a-c30c5e3d8c85.jpg",
-      "source": "BBC Technology",
-      "publishedAt": "2026-11-06T11:20:10.000Z",
+      "id": "9c41a513889c",
+      "title": "Scientists just found dinosaur blood that survived 115 million years",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
+      "description": "Scientists have discovered chemically confirmed traces of ancient blood inside 115-million-year-old dinosaur bones, challenging assumptions about how long biological molecules can survive. The extraordinary preservation could unlock new clues about dinosaur physiology and even help scientists search",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/dinosaur-bone-blood.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-06T11:28:01.000Z",
       "categories": [
-        "ai",
-        "tech"
+        "science"
       ],
       "author": null
+    },
+    {
+      "id": "c368b23e4ff4",
+      "title": "Best Buy's Early Black Friday Sale is Now Live, Including Deals on Gaming, Tech, and More",
+      "link": "https://www.ign.com/articles/best-buy-early-black-friday-sale-is-now-live-including-deals-on-gaming-tech-and-more",
+      "description": "Best Buy's early Black Friday sale is now live, and includes deals on TVs, smartwatches, gaming PCs, video game consoles, and more. From November 6-19, Best Buy will also be featuring plenty of limited time \"Doorbuster\" deals, several of which are now live across this weekend.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/06/best-buy-black-friday-ign-2026-1793963879110.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T11:19:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Robert Anderson"
     },
     {
       "id": "0e0f913ed04d",
@@ -286,6 +765,61 @@
       "author": "staff@engadget.com (Mariella Moon)"
     },
     {
+      "id": "d582a932d646",
+      "title": "Nintendo Exec Bill Trinen Explains Why the Ocarina of Time Remake Is the Perfect First The Legend of Zelda Game",
+      "link": "https://www.ign.com/articles/nintendo-exec-bill-trinen-explains-why-the-ocarina-of-time-remake-is-the-perfect-first-the-legend-of-zelda-game",
+      "description": "Nintendo of America Vice President of Player & Product Experience Bill Trinen has seen a lot of Zelda games in his nearly 30-year career at the company. He got his start translating bug reports on the original The Legend of Zelda: Ocarina of Time for the N64 in the '90s. And with the newly released",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/06/tloz6-sffirstsale-1793962791135.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T11:14:23.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Kenny"
+    },
+    {
+      "id": "075643ce7230",
+      "title": "Nier: Automata Dev Working on Fix for Patch That Accidentally Bloated the Game Size to 366GB on PC",
+      "link": "https://www.ign.com/articles/nier-automata-dev-working-on-fix-patch-that-bloated-game-size-366gb",
+      "description": "Nier: Automata got a patch yesterday to add support for more languages to the game (Korean, Simplified Chinese, and Traditional Chinese), but it accidentally bloated the game file size to 366GB on PC. That’s 1.5 copies of GTA 6!",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/06/nier-1793963174330.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T11:07:49.000Z",
+      "categories": [
+        "cybersecurity",
+        "gaming"
+      ],
+      "author": "Kirk McKeand"
+    },
+    {
+      "id": "101b1915d7be",
+      "title": "OpenAI “catalyst” for startups, says European executive, amid startup application layer concerns",
+      "link": "https://tech.eu/2026/11/06/openai-catalyst-for-startups-says-european-executive-amid-startup-application-layer-concerns/",
+      "description": "OpenAI is a “catalyst” for European startups, according to one of its top European executives, despite admitting there is “tension” between the ChatGPT developer and its European startup clients over ...",
+      "thumbnail": "https://cdn.tech.eu/uploads/2025/08/openai-939.png",
+      "source": "Tech.eu",
+      "publishedAt": "2026-11-06T11:05:00.000Z",
+      "categories": [
+        "ai",
+        "programming",
+        "startups"
+      ],
+      "author": "John Reynolds"
+    },
+    {
+      "id": "cce8b7da0b7a",
+      "title": "Zelda: Ocarina of Time Producer Doesn’t Want Nintendo’s Next Generation To Rely on BotW’s Ideas",
+      "link": "https://www.polygon.com/hidemaro-fujibayashi-zelda-ocarina-of-time-botw-interview/",
+      "description": "Zelda producer Hidemaro Fujibayashi told Polygon why the series so often changes from game to game.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/the-legend-of-zelda-ocarina-of-time-sheik-with-harp.png",
+      "source": "Polygon",
+      "publishedAt": "2026-11-06T11:00:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Giovanni Colantonio"
+    },
+    {
       "id": "071761d29336",
       "title": "10 Best Subscription Boxes for Kids (2026): STEM, Books, Clothes, Snacks, and More",
       "link": "https://www.wired.com/gallery/best-subscription-boxes-for-kids/",
@@ -295,6 +829,7 @@
       "publishedAt": "2026-11-06T11:00:00.000Z",
       "categories": [
         "programming",
+        "science",
         "tech"
       ],
       "author": "Adrienne So, Nena Farrell"
@@ -350,9 +885,23 @@
       "source": "Tom's Hardware",
       "publishedAt": "2026-11-06T11:00:00.000Z",
       "categories": [
+        "gaming",
         "hardware"
       ],
       "author": "Newton Gitonga"
+    },
+    {
+      "id": "0eb3109a6adc",
+      "title": "Major trial challenges how doctors decide who really needs statins",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261105224604.htm",
+      "description": "A study of nearly 5,800 adults found that heart scans measuring calcium buildup in the arteries led to the same observed rate of major cardiovascular events as traditional risk assessments, despite recommending statins to far fewer patients. Surprisingly, patients advised to take statins based on th",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/holding-statin-pill-close-up.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-06T10:59:18.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
     },
     {
       "id": "d3e1c0485e27",
@@ -368,32 +917,6 @@
       "author": "John Carlsen"
     },
     {
-      "id": "9507b65af745",
-      "title": "To avoid US territory, EU commits $119M to new Pan-Arctic cable — creating a direct link between Greenland and Europe to secure data",
-      "link": "https://www.reddit.com/r/technology/comments/1xp9xp8/to_avoid_us_territory_eu_commits_119m_to_new/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/vA_sWXq3xOahrBAmmCSzKY9GEPVtboVonPL1SZ8M9qc.jpeg?width=640&crop=smart&auto=webp&s=e67c08263233fd720df6fa4073b7113a56835520",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-06T10:53:06.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "/u/sr_local https://www.reddit.com/user/sr_local"
-    },
-    {
-      "id": "bea32410953e",
-      "title": "Tesla is ‘winding down’ production of the Cybertruck next year",
-      "link": "https://www.theverge.com/transportation/1028542/tesla-cybertruck-winding-down-production-2027",
-      "description": "Tesla is getting the Cybertruck ready for retirement in an effort to ramp up its robotaxi output. In an X post on Friday, Tesla CEO Elon Musk said that the company will be \"winding down\" Cybertruck production at its Texas Gigafactory sometime around the middle of next year, \"to make room for increas",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25830320/STKS493_CYBERTRUCK_CVIRGINIA_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-06T10:42:52.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Jess Weatherbed"
-    },
-    {
       "id": "a7aa63331de8",
       "title": "Greenlight Family Hub Digital Wall Calendar Black Friday Sale (2026)",
       "link": "https://www.wired.com/story/greenlight-hub-black-friday-deal-2026/",
@@ -407,10 +930,23 @@
       "author": "Nena Farrell"
     },
     {
+      "id": "14d756b7b9b4",
+      "title": "Pilot Draws Incredible GTA 6 Mural With His Flight Path",
+      "link": "https://www.ign.com/articles/pilot-draws-incredible-gta-6-mural-with-flight-path",
+      "description": "Benjamin McDaniel, who calls himself The Pilot Picasso, just unveiled his new masterpiece: a GTA 6 mural drawn by flying his plane. Using flight path visualization systems, you can watch his entire journey and see the artwork come to life.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/06/gta6-sky-art-1793959942190.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T10:21:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Kirk McKeand"
+    },
+    {
       "id": "feae6a47e061",
       "title": "Living beyond the limits of survival: wood ants trapped in a gigantic pitfall (2016)",
       "link": "https://jhr.pensoft.net/articles.php?id=9096",
-      "description": "42 points · 15 comments",
+      "description": "78 points · 26 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T10:21:15.000Z",
@@ -460,6 +996,33 @@
       "author": null
     },
     {
+      "id": "2cd94d21b408",
+      "title": "Five-inch-long beetle larvae are quietly destroying blueberry roots",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261103003200.htm",
+      "description": "Scientists have solved a mystery surrounding destructive beetles attacking blueberry bushes in North Carolina, identifying a species whose massive larvae can grow up to five inches long and destroy plant roots. Although farmers have reported damage for more than a decade, the insects responsible rem",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/prionus-larva.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-06T09:33:36.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "90612bee1e29",
+      "title": "When the Watchdogs Are Silenced: India's Crackdown on Those Documenting Online Censorship",
+      "link": "https://www.eff.org/deeplinks/2026/11/when-watchdogs-are-silenced-indias-crackdown-those-documenting-online-censorship",
+      "description": "On November 3, our colleagues at the Software Freedom Law Center, India (SFLC.in) received notifications from X that the Delhi Police had issued takedown requests targeting 42 URLs. Among the accounts and posts targeted were those belonging to SFLC.in , the Internet Freedom Foundation (IFF), and X a",
+      "thumbnail": "https://www.eff.org/files/banner_library/issue-icon-2026-freespeech.png",
+      "source": "EFF Updates",
+      "publishedAt": "2026-11-06T09:30:42.000Z",
+      "categories": [
+        "programming",
+        "privacy"
+      ],
+      "author": "Jillian C. York"
+    },
+    {
       "id": "a4f64ed53360",
       "title": "NHS wants a second opinion on Palantir's glowing self-assessments",
       "link": "https://www.theregister.com/public-sector/2026/11/06/nhs-wants-a-second-opinion-on-palantirs-glowing-self-assessments/5307809",
@@ -490,12 +1053,13 @@
       "id": "25a6a123ca91",
       "title": "Dutch 'idealist' bank ASN blocks non-Google Android, including GrapheneOS",
       "link": "https://github.com/PrivSec-dev/banking-apps-compat-report/issues/105",
-      "description": "157 points · 105 comments",
+      "description": "340 points · 208 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T09:27:12.000Z",
       "categories": [
         "hardware",
+        "mobile",
         "programming"
       ],
       "author": "microtonal"
@@ -514,6 +1078,19 @@
       "author": "Sergiu Gatlan"
     },
     {
+      "id": "cd4b4222cdd2",
+      "title": "Tim Burton's Forgotten 10/10 Fantasy Masterpiece is Officially Still Free on Streaming",
+      "link": "https://www.polygon.com/tim-burton-big-fish-free-streaming-november-2026-tubi-youtube/",
+      "description": "Perhaps it's underrated because it barely even feels like a Tim Burton movie, but Big Fish is one of the director's best",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/mcdbifi_ec015.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-06T09:04:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Brian VanHooker"
+    },
+    {
       "id": "471bd4c5f283",
       "title": "Welcome to life in the chip age",
       "link": "https://stackoverflow.blog/2026/11/06/welcome-to-life-in-the-chip-age/",
@@ -529,37 +1106,36 @@
       "author": null
     },
     {
-      "id": "51822744249f",
-      "title": "'Stop dirty datacenters': Europe-wide protests planned demanding building moratorium",
-      "link": "https://www.reddit.com/r/technology/comments/1xp7kyx/stop_dirty_datacenters_europewide_protests/",
-      "description": "",
-      "thumbnail": null,
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-06T08:19:20.000Z",
+      "id": "835761b55cc5",
+      "title": "Don't miss: Meteor showers, fireballs, and a supermoon light up November's night sky",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261105224547.htm",
+      "description": "November's night sky is packed with celestial wonders, from bright meteor fireballs and a close pairing of Mars and Jupiter to a spectacular supermoon. Meanwhile, NASA's Voyager 1 is making history by becoming the first spacecraft to reach a distance of one light-day from Earth.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/fireball-meteor-shower-at-sunset.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-06T08:21:08.000Z",
       "categories": [
-        "tech"
+        "science"
       ],
-      "author": "/u/HimikoTogaFromUSSR https://www.reddit.com/user/HimikoTogaFromUSSR"
+      "author": null
     },
     {
-      "id": "4d8ea370c2b8",
-      "title": "App Store 2026 in numbers: AI, pricing, abandoned apps",
-      "link": "https://obelisk.club/research/app-store-2026",
-      "description": "50 points · 45 comments",
+      "id": "a2e585ed9b09",
+      "title": "Chomsky and the Two Cultures of Statistical Learning",
+      "link": "https://www.norvig.com/chomsky.html",
+      "description": "23 points · 5 comments",
       "thumbnail": null,
       "source": "Hacker News",
-      "publishedAt": "2026-11-06T07:59:19.000Z",
+      "publishedAt": "2026-11-06T08:18:36.000Z",
       "categories": [
-        "ai",
         "programming"
       ],
-      "author": "Peter216"
+      "author": "andsoitis"
     },
     {
       "id": "c5045ba62773",
       "title": "Multiplayer tanks that demolish real buildings from OpenStreetMap",
       "link": "https://worldstrike.fun/",
-      "description": "68 points · 48 comments",
+      "description": "103 points · 65 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:55:48.000Z",
@@ -586,7 +1162,7 @@
       "id": "df89720934de",
       "title": "Kugelblitz – Mac-Native Google Earth Alternative",
       "link": "https://apps.metaebene.me/en/kugelblitz",
-      "description": "109 points · 28 comments",
+      "description": "143 points · 44 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:47:38.000Z",
@@ -599,7 +1175,7 @@
       "id": "3a41e3472432",
       "title": "Blender's UI and Runtime: Much Faster Than GPUI",
       "link": "https://github.com/ppmpreetham/BUI",
-      "description": "275 points · 116 comments",
+      "description": "385 points · 157 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:40:35.000Z",
@@ -625,7 +1201,7 @@
       "id": "d19493e485c8",
       "title": "Hardcoded credentials and other issues in Tata Motors App",
       "link": "https://www.cert-in.org.in/s2cMainServlet?pageid=PUBVLNOTES01&VLCODE=CIVN-2026-0537",
-      "description": "44 points · 7 comments",
+      "description": "58 points · 10 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:28:39.000Z",
@@ -638,11 +1214,12 @@
       "id": "ad265c5605cb",
       "title": "Britain to make salary disclosure in job ads mandatory",
       "link": "https://www.reuters.com/business/world-at-work/britain-make-salary-disclosure-job-ads-mandatory-2026-11-05/",
-      "description": "255 points · 237 comments",
+      "description": "358 points · 299 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T07:22:04.000Z",
       "categories": [
+        "business",
         "programming"
       ],
       "author": "1659447091"
@@ -672,10 +1249,23 @@
       "publishedAt": "2026-11-06T07:18:44.000Z",
       "categories": [
         "cybersecurity",
-        "ai",
-        "startups"
+        "privacy",
+        "ai"
       ],
       "author": "Dominic-Madori Davis"
+    },
+    {
+      "id": "ffaae19f99e2",
+      "title": "NASA’s Swift telescope falls to Earth after nearly 22 years in space",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261105224545.htm",
+      "description": "After nearly 22 years of exploring the universe’s most violent explosions, NASA’s Swift Observatory has re-entered Earth’s atmosphere over Indonesia. Originally designed to last just two years, the pioneering space telescope transformed our understanding of black holes, exploding stars, and mysterio",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/nasa-neil-gehrels-swift-observatory-orbits-above-earth.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-06T07:12:55.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
     },
     {
       "id": "bd89f6af30a3",
@@ -720,32 +1310,70 @@
       "author": "Marina Temkin"
     },
     {
-      "id": "75899525aaae",
-      "title": "Top Democrats call to rein in AI buildout after midterms sweep: ‘National data center moratorium now’",
-      "link": "https://www.reddit.com/r/technology/comments/1xp5hah/top_democrats_call_to_rein_in_ai_buildout_after/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/1Z_VYo8ycaoi8_B-_iYyhQGjHWbzWibCXIdAkRFb37k.jpeg?width=640&crop=smart&auto=webp&s=dbce357aca6476cf855883fba4c8cb782d68e2c5",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-06T06:05:00.000Z",
+      "id": "843821ce29dc",
+      "title": "For decades, we were told to avoid full-fat dairy. New research says otherwise",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261105081000.htm",
+      "description": "Full-fat dairy may not be the health villain it has long been portrayed as, according to a new study finding that three daily servings did not worsen weight, cholesterol, or insulin resistance over 12 weeks. Researchers also observed improvements in blood pressure and nutrient intake, raising questi",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/milk-eggs-butter-cheese-dairy.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-06T05:51:36.000Z",
       "categories": [
-        "ai",
-        "tech"
+        "science"
       ],
-      "author": "/u/l3tsgo0 https://www.reddit.com/user/l3tsgo0"
+      "author": null
     },
     {
-      "id": "3abd24bfc9c6",
-      "title": "I struggle to believe that AI R&D is ingenious",
-      "link": "https://www.lesswrong.com/posts/DALNiKBjMGMF8grme/arjun-panickssery-s-shortform?commentId=fJtaHHHfx45tD7BSL",
-      "description": "129 points · 108 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-06T05:19:04.000Z",
+      "id": "956452dcbba3",
+      "title": "After Buying EA, Silver Lake and PIF Are Reportedly Now Seeking to Acquire Gaming Software Provider Unity",
+      "link": "https://www.ign.com/articles/after-buying-ea-silver-lake-and-pif-are-reportedly-now-seeking-to-acquire-gaming-software-provider-unity",
+      "description": "After Buying EA, Silver Lake and PIF Are Reportedly Now Seeking to Acquire Gaming Software Provider Unity",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/06/unityblogroll-1793943131268.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T05:41:38.000Z",
       "categories": [
-        "ai",
-        "programming"
+        "programming",
+        "gaming"
       ],
-      "author": "porridgeraisin"
+      "author": "Tristan Ogilvie"
+    },
+    {
+      "id": "dfb0cd15dded",
+      "title": "APOD: 2026 November 6 – A Farewell to Swift",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-6-a-farewell-to-swift/",
+      "description": "APOD Science APOD APOD: 2026 November 6 – A… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation writ",
+      "thumbnail": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/Swift_Millionth_Image_Mosaic.jpg?w=2048&h=1460&fit=clip&crop=faces%2Cfocalpoint",
+      "source": "NASA Breaking News",
+      "publishedAt": "2026-11-06T05:05:00.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "2e2e88a15428",
+      "title": "Taking a Gander at Utah’s Goosenecks",
+      "link": "https://science.nasa.gov/earth/earth-observatory/taking-a-gander-at-utahs-goosenecks/",
+      "description": "The San Juan River has carved deep, improbably curvy meanders into the desert landscape.",
+      "thumbnail": "https://assets.science.nasa.gov/dynamicimage/assets/science/esd/eo/images/iotd/2026/taking-a-gander-at-utah%E2%80%99s-goosenecks/ISS075-E-188830.jpg?w=2048&h=1365&fit=clip&crop=faces%2Cfocalpoint",
+      "source": "NASA Breaking News",
+      "publishedAt": "2026-11-06T05:01:00.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "f04fd22d9b8e",
+      "title": "49 Years Later, Steven Spielberg’s Sci-Fi Thriller Masterpiece Is Officially Free on YouTube",
+      "link": "https://www.polygon.com/steven-spielberg-clouse-encounters-directors-cut-streaming-free-youtube/",
+      "description": "The aliens are coming and they're driving Richard Dreyfuss insane",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/msdclen_ec024.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-06T05:00:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Thomas Hindmarch"
     },
     {
       "id": "4720393fd82f",
@@ -757,7 +1385,8 @@
       "publishedAt": "2026-11-06T04:25:14.000Z",
       "categories": [
         "ai",
-        "tech"
+        "cloud",
+        "business"
       ],
       "author": "Simon Sharwood"
     },
@@ -765,34 +1394,21 @@
       "id": "d54bee17fb9e",
       "title": "From Linux to Wikipedia: How Volunteers Build the Internet",
       "link": "https://thereader.mitpress.mit.edu/from-linux-to-wikipedia-how-volunteers-build-the-internet/",
-      "description": "123 points · 41 comments",
+      "description": "169 points · 54 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T04:17:49.000Z",
       "categories": [
+        "opensource",
         "programming"
       ],
       "author": "jonbaer"
     },
     {
-      "id": "9435ddb37acc",
-      "title": "Teenage girl held captive for 500 days raised alarm in online video game",
-      "link": "https://www.reddit.com/r/technology/comments/1xp3g1w/teenage_girl_held_captive_for_500_days_raised/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/4yYYRoE-6NgsnEvUh8_f9YyWqQ89rHFDUrJX1cTbJhs.jpeg?width=320&crop=smart&auto=webp&s=295b0f9605b2016a7f95ea1aa68b8bc1e4c29edc",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-06T04:10:24.000Z",
-      "categories": [
-        "startups",
-        "tech"
-      ],
-      "author": "/u/TylerFortier_Photo https://www.reddit.com/user/TylerFortier_Photo"
-    },
-    {
       "id": "d2bb7ea65855",
       "title": "Pwn.college",
       "link": "https://pwn.college/",
-      "description": "178 points · 24 comments",
+      "description": "211 points · 33 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T03:27:14.000Z",
@@ -805,7 +1421,7 @@
       "id": "b95f6aa29001",
       "title": "Nvidia Kubernetes Engine (NVKE)",
       "link": "https://github.com/dsx-ai-factory/nvke",
-      "description": "91 points · 22 comments",
+      "description": "103 points · 23 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-06T03:16:26.000Z",
@@ -843,6 +1459,19 @@
       "author": "Marcus Mendes"
     },
     {
+      "id": "5ceaf734ecee",
+      "title": "Save 50% Off the Wolfbox Cordless Car Jump Starter and 24,000mAh Power Bank Ahead of Black Friday",
+      "link": "https://www.ign.com/articles/wolfbox-cordless-car-jump-starter-deal-november-2026",
+      "description": "Don't drive off without one.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/05/wolfbox4000ajumpstarter-1793919971073.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-06T01:40:00.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Eric Song"
+    },
+    {
       "id": "fa567822dd1e",
       "title": "Dropbox acquires Tigris Data for $350M, releases new AI productivity features",
       "link": "https://siliconangle.com/2026/11/05/dropbox-acquires-tigris-data-for-350m-releases-new-ai-productivity-features/",
@@ -853,7 +1482,7 @@
       "categories": [
         "ai",
         "startups",
-        "tech"
+        "cloud"
       ],
       "author": "Maria Deutscher"
     },
@@ -880,6 +1509,7 @@
       "publishedAt": "2026-11-06T01:24:45.000Z",
       "categories": [
         "ai",
+        "mobile",
         "hardware"
       ],
       "author": "Marcus Mendes"
@@ -909,9 +1539,22 @@
       "categories": [
         "ai",
         "startups",
-        "tech"
+        "business"
       ],
       "author": "Mike Wheatley"
+    },
+    {
+      "id": "794bc3250f57",
+      "title": "An anti-aging drug may help protect the brain before Alzheimer's symptoms begin",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261104084017.htm",
+      "description": "A surprising new study suggests that an anti-aging drug could help protect people genetically predisposed to Alzheimer's disease. Researchers found that just four weeks of low-dose rapamycin improved brain blood flow in healthy middle-aged adults carrying the high-risk APOE4 gene variant, with women",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/cerebral-angiogram-brain-blood-vessels.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-06T01:11:19.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
     },
     {
       "id": "97d7db0e7e4a",
@@ -935,35 +1578,11 @@
       "source": "9to5Mac",
       "publishedAt": "2026-11-06T00:56:11.000Z",
       "categories": [
-        "hardware"
+        "hardware",
+        "mobile",
+        "business"
       ],
       "author": "Marcus Mendes"
-    },
-    {
-      "id": "8a3c39376664",
-      "title": "MoofTCP – A modern replacement for MacTCP on 68k Macs",
-      "link": "https://github.com/matthewmrichter/mooftcp",
-      "description": "54 points · 20 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-06T00:54:15.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "marcusbasant"
-    },
-    {
-      "id": "eaf217b6de13",
-      "title": "Stocks Plunge as Midterm Results Renew A.I. Anxiety",
-      "link": "https://www.reddit.com/r/technology/comments/1xoziuc/stocks_plunge_as_midterm_results_renew_ai_anxiety/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/5VXSjuTzQ_Km6w_qVexSxAQO5_BXZJhDmlC0ffMuRoI.png?width=640&crop=smart&auto=webp&s=74e472b61badc0bafdfdb988fd23810fb64b8114",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-06T00:53:32.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "/u/idkbruh653 https://www.reddit.com/user/idkbruh653"
     },
     {
       "id": "85f398082dad",
@@ -975,6 +1594,7 @@
       "publishedAt": "2026-11-06T00:37:56.000Z",
       "categories": [
         "ai",
+        "cloud",
         "tech"
       ],
       "author": "Jay Peters"
@@ -989,7 +1609,8 @@
       "publishedAt": "2026-11-06T00:36:46.000Z",
       "categories": [
         "hardware",
-        "startups"
+        "startups",
+        "business"
       ],
       "author": "Benjamin Mayo"
     },
@@ -1004,7 +1625,7 @@
       "categories": [
         "ai",
         "startups",
-        "tech"
+        "business"
       ],
       "author": "Mike Wheatley"
     },
@@ -1044,6 +1665,7 @@
       "publishedAt": "2026-11-06T00:06:12.000Z",
       "categories": [
         "ai",
+        "business",
         "tech"
       ],
       "author": "Jay Peters"
@@ -1053,7 +1675,7 @@
       "title": "The engine parts that 'fight the laws of the universe'",
       "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss",
       "description": "Investment has surged into the making of jet turbine blades - an extremely difficult component to make.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/97f5/live/b17307a0-d37b-11f1-b441-2b33b063138f.jpg",
+      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/6023/live/c7b8cb20-d9e9-11f1-93e1-3b657b665bcf.jpg",
       "source": "BBC Technology",
       "publishedAt": "2026-11-06T00:06:06.000Z",
       "categories": [
@@ -1084,22 +1706,10 @@
       "publishedAt": "2026-11-05T23:50:52.000Z",
       "categories": [
         "ai",
+        "cloud",
         "tech"
       ],
       "author": "Maria Deutscher"
-    },
-    {
-      "id": "5ef1d0235b8b",
-      "title": "Kalshi court losses pile up as judges refuse to block state gambling laws",
-      "link": "https://www.reddit.com/r/technology/comments/1xoy34i/kalshi_court_losses_pile_up_as_judges_refuse_to/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/7z_inMH9L9KgZ5WlLJ-vtNsFcda7DrXWFNKHhzzKz6U.jpeg?width=640&crop=smart&auto=webp&s=a4b2f9a01bdbe891c4956852133f8b1e54c82206",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-05T23:47:50.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "/u/Logical_Welder3467 https://www.reddit.com/user/Logical_Welder3467"
     },
     {
       "id": "fae8746a9f7c",
@@ -1115,18 +1725,69 @@
       "author": "Jay Peters"
     },
     {
-      "id": "83c5ce741777",
-      "title": "Microsoft files patent for AI that can alter what people say during live broadcasts",
-      "link": "https://www.reddit.com/r/technology/comments/1xoxoel/microsoft_files_patent_for_ai_that_can_alter_what/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/OYS02feGdbBdhPhXqCKsZ-j59h_HxP7qLWRBp1u34ko.jpeg?width=640&crop=smart&auto=webp&s=c461c5d00105ba063ef412b2a7ea6627d98ba78d",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-05T23:29:11.000Z",
+      "id": "f2c34cdeae25",
+      "title": "Amazon's Black Friday Audible Deal Is Now Live: Pay $0.99 Per Month Plus Get $20 Credit",
+      "link": "https://www.ign.com/articles/amazon-early-black-friday-audible-deal-2026",
+      "description": "Both Amazon Prime and non-Prime members, new and previous subscribers are eligible.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/03/amazonaudible-1793740919087.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-05T23:40:00.000Z",
       "categories": [
-        "ai",
-        "tech"
+        "gaming"
       ],
-      "author": "/u/Just-Grocery-2229 https://www.reddit.com/user/Just-Grocery-2229"
+      "author": "Eric Song"
+    },
+    {
+      "id": "f02302b30403",
+      "title": "Amazon Reveals Free Uber Eats Delivery for Prime Members, Plus $20 Off Your First Two Orders",
+      "link": "https://www.ign.com/articles/amazon-reveals-free-uber-eats-delivery-for-prime-members-plus-20-off-your-first-two-orders",
+      "description": "",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/05/untitled-november-02-2026-at-10-31-35-1793920526560.jpeg",
+      "source": "IGN",
+      "publishedAt": "2026-11-05T23:33:49.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Jacob Kienlen"
+    },
+    {
+      "id": "21ea08e43997",
+      "title": "Reflecting on Digital Rights Wins and Losses in Sacramento",
+      "link": "https://www.eff.org/deeplinks/2026/11/reflecting-digital-rights-wins-and-losses-sacramento",
+      "description": "California’s 2026 legislative session has officially adjourned and it’s time to reflect on the wins and losses that have shaped Californians’ digital rights landscape this year. This was the second year of a two-year legislative session, which meant several bills resumed their legislative paths from",
+      "thumbnail": "https://www.eff.org/files/banner_library/california-bear2023.png",
+      "source": "EFF Updates",
+      "publishedAt": "2026-11-05T23:33:19.000Z",
+      "categories": [
+        "privacy"
+      ],
+      "author": "Rindala Alajaji"
+    },
+    {
+      "id": "82967057e1c0",
+      "title": "Animated John Wick Prequel Film in the Works Starring Keanu Reeves",
+      "link": "https://www.ign.com/articles/animated-john-wick-prequel-film-in-the-works-starring-keanu-reeves",
+      "description": "Keanu Reeves is returning as John Wick in an animated film that aims to tell the assassin’s story before the tragic events of the first movie.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2025/05/30/john-wick-3-release-date-announced-1gjx-1748628764694.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-05T23:23:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Virginia Glaze"
+    },
+    {
+      "id": "f3205319a78a",
+      "title": "Join EFF to Celebrate the Life of Aaron Swartz",
+      "link": "https://www.eff.org/deeplinks/2026/11/join-eff-celebrate-life-aaron-swartz",
+      "description": "Join us to celebrate the legacy of Aaron Swartz on Nov. 8, 2026. With the organizers of Aaron Swartz Day , we’re honoring his life with an in-person and remote hackathon. This event is supported by several organizations that carry on his work, including the Internet Archive—which is hosting the in-p",
+      "thumbnail": "https://www.eff.org/files/banner_library/og-aaronswartz-credit.jpg",
+      "source": "EFF Updates",
+      "publishedAt": "2026-11-05T23:21:45.000Z",
+      "categories": [
+        "privacy"
+      ],
+      "author": "Hayley Tsukayama"
     },
     {
       "id": "f6e193d95e3e",
@@ -1137,7 +1798,8 @@
       "source": "SiliconANGLE",
       "publishedAt": "2026-11-05T23:20:47.000Z",
       "categories": [
-        "tech",
+        "cloud",
+        "business",
         "ai"
       ],
       "author": "Duncan Riley"
@@ -1151,6 +1813,8 @@
       "source": "The Verge",
       "publishedAt": "2026-11-05T23:17:10.000Z",
       "categories": [
+        "mobile",
+        "business",
         "tech"
       ],
       "author": "Emma Roth"
@@ -1165,6 +1829,7 @@
       "publishedAt": "2026-11-05T23:09:36.000Z",
       "categories": [
         "cybersecurity",
+        "opensource",
         "tech"
       ],
       "author": "Dan Goodin"
@@ -1193,9 +1858,22 @@
       "categories": [
         "ai",
         "cybersecurity",
-        "tech"
+        "science"
       ],
       "author": "Duncan Riley"
+    },
+    {
+      "id": "dda3211737a0",
+      "title": "Classic Halo Trilogy Gets Brand-New Release on Nov. 10",
+      "link": "https://www.polygon.com/halo-master-chief-omnibus-book-november-2026/",
+      "description": "Halo’s Master Chief Omnibus arrives November 10, 2026, collecting three bestselling novels that expand the franchise’s lore.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/halo-campaign-evolved-master-chief.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-05T22:50:57.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Sam Hill"
     },
     {
       "id": "a6dd2447219f",
@@ -1207,24 +1885,10 @@
       "publishedAt": "2026-11-05T22:49:03.000Z",
       "categories": [
         "ai",
-        "tech",
-        "hardware"
-      ],
-      "author": "Jeremy Hsu"
-    },
-    {
-      "id": "2811d71a6ef9",
-      "title": "Tech stocks are suffering their biggest selloff since Covid, as investors see premature end to AI datacenter boom",
-      "link": "https://www.reddit.com/r/technology/comments/1xowlsd/tech_stocks_are_suffering_their_biggest_selloff/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/dooL8_ld1gJ239glncbdgEHL4lyW5f8uemO2JK-_JEQ.jpeg?width=640&crop=smart&auto=webp&s=821fd552c77fd5546683754ddd6531a3e5edf8d5",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-05T22:41:20.000Z",
-      "categories": [
-        "ai",
+        "science",
         "tech"
       ],
-      "author": "/u/joe4942 https://www.reddit.com/user/joe4942"
+      "author": "Jeremy Hsu"
     },
     {
       "id": "01af2f668ade",
@@ -1255,6 +1919,19 @@
       "author": "Jessica Lyons"
     },
     {
+      "id": "d83dfa9679d2",
+      "title": "The brutal reality of making video games in 2026 | Point It Out!",
+      "link": "https://www.polygon.com/video/the-brutal-reality-of-making-video-games-in-2026-point-it-out/",
+      "description": "This week on Point It Out, Patches assembled an all star roundtable of indie gaming creators to discuss the state of the industry, its future and what it takes to make successful games like Shovel Knight, Hyper Light Drifter, Mina and more. Plus, WoW Forever is officially coming out, and Arkane Lyon",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/screenshot-2026-11-05-at-5-32-22-pm.png",
+      "source": "Polygon",
+      "publishedAt": "2026-11-05T22:34:23.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Matt Patches"
+    },
+    {
       "id": "e6560ffa26e7",
       "title": "The 7 Best Early Black Friday TV Deals (2026)",
       "link": "https://www.wired.com/story/early-black-friday-tv-deals-11-5-26/",
@@ -1277,8 +1954,8 @@
       "publishedAt": "2026-11-05T22:26:55.000Z",
       "categories": [
         "programming",
-        "ai",
-        "tech"
+        "business",
+        "cloud"
       ],
       "author": "Duncan Riley"
     },
@@ -1306,22 +1983,11 @@
       "source": "9to5Mac",
       "publishedAt": "2026-11-05T22:22:49.000Z",
       "categories": [
-        "hardware"
+        "hardware",
+        "mobile",
+        "science"
       ],
       "author": "Marcus Mendes"
-    },
-    {
-      "id": "4c159be03fe8",
-      "title": "Tesla and SpaceX lose over $420 billion in combined market cap in the two days after midterms",
-      "link": "https://www.reddit.com/r/technology/comments/1xow42o/tesla_and_spacex_lose_over_420_billion_in/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/BFowk3HwrUn0jMVPkcVBRBqTLlgtZq61M580DlpozNM.jpeg?width=640&crop=smart&auto=webp&s=506a49dca8e64a16af99285bbae13f78e4de94fd",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-05T22:19:44.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "/u/ControlCAD https://www.reddit.com/user/ControlCAD"
     },
     {
       "id": "53b1318eae86",
@@ -1358,6 +2024,7 @@
       "source": "The Register",
       "publishedAt": "2026-11-05T22:09:20.000Z",
       "categories": [
+        "cloud",
         "tech"
       ],
       "author": "Thomas Claburn"
@@ -1371,6 +2038,7 @@
       "source": "The Verge",
       "publishedAt": "2026-11-05T22:08:14.000Z",
       "categories": [
+        "business",
         "tech"
       ],
       "author": "Jay Peters"
@@ -1388,6 +2056,19 @@
         "tech"
       ],
       "author": "Scharon Harding"
+    },
+    {
+      "id": "bff786783671",
+      "title": "The midterms proved once and for all that X is not real life",
+      "link": "https://www.theverge.com/policy/1028253/midterm-elections-x-right-wing-memes",
+      "description": "A week before the midterm elections, Vice President JD Vance hosted a town hall in Texas with Fox News host Jesse Watters. It was a friendly event with a friendly audience in what should have been a friendly state, and maybe that's why Vance couldn't help himself. When a college student earnestly as",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25532395/STK204_JD_VANCE_B.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-05T21:55:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Gaby Del Valle"
     },
     {
       "id": "a5e8f211c2b4",
@@ -1413,7 +2094,7 @@
       "categories": [
         "ai",
         "hardware",
-        "tech"
+        "cloud"
       ],
       "author": "Paul Nashawaty"
     },
@@ -1440,6 +2121,7 @@
       "publishedAt": "2026-11-05T21:37:18.000Z",
       "categories": [
         "ai",
+        "business",
         "tech"
       ],
       "author": "Paresh Dave"
@@ -1482,7 +2164,7 @@
       "categories": [
         "hardware",
         "startups",
-        "ai"
+        "business"
       ],
       "author": "Maria Deutscher"
     },
@@ -1497,7 +2179,7 @@
       "categories": [
         "ai",
         "hardware",
-        "startups"
+        "cloud"
       ],
       "author": "Kirsten Korosec"
     },
@@ -1511,6 +2193,7 @@
       "publishedAt": "2026-11-05T21:04:29.000Z",
       "categories": [
         "hardware",
+        "cloud",
         "tech"
       ],
       "author": "Victoria Gayton"
@@ -1539,6 +2222,7 @@
       "source": "Tom's Hardware",
       "publishedAt": "2026-11-05T21:00:00.000Z",
       "categories": [
+        "gaming",
         "hardware"
       ],
       "author": "Stewart Bendle"
@@ -1593,9 +2277,24 @@
       "source": "9to5Mac",
       "publishedAt": "2026-11-05T20:47:44.000Z",
       "categories": [
-        "hardware"
+        "hardware",
+        "gaming"
       ],
       "author": "Marcus Mendes"
+    },
+    {
+      "id": "3bca1d9e7322",
+      "title": "Blue Origin’s next launch now won’t happen until 2027",
+      "link": "https://www.theverge.com/science/1028178/blue-origins-next-launch-now-wont-happen-until-2027",
+      "description": "Blue Origin plans to do its next New Glenn rocket launch in January 2027, according to CNBC and the Financial Times, which cite a memo from CEO Dave Limp sent to staff. The new timeline follows a May launchpad explosion that damaged Blue Origin's New Glenn launchpad ahead of a flight that would have",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2281421326.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-05T20:47:14.000Z",
+      "categories": [
+        "business",
+        "tech"
+      ],
+      "author": "Jay Peters"
     },
     {
       "id": "c7ca426d8d67",
@@ -1619,7 +2318,8 @@
       "source": "GitHub Blog",
       "publishedAt": "2026-11-05T20:23:21.000Z",
       "categories": [
-        "programming"
+        "programming",
+        "opensource"
       ],
       "author": "Karthik Raman"
     },
@@ -1700,6 +2400,7 @@
       "source": "Wired",
       "publishedAt": "2026-11-05T19:55:24.000Z",
       "categories": [
+        "science",
         "tech"
       ],
       "author": "Kate Knibbs"
@@ -1714,7 +2415,8 @@
       "publishedAt": "2026-11-05T19:52:53.000Z",
       "categories": [
         "programming",
-        "hardware"
+        "hardware",
+        "mobile"
       ],
       "author": "Ryan Christoffel"
     },
@@ -1727,6 +2429,7 @@
       "source": "Engadget",
       "publishedAt": "2026-11-05T19:52:39.000Z",
       "categories": [
+        "gaming",
         "tech"
       ],
       "author": "staff@engadget.com (Will Shanklin)"
@@ -1742,7 +2445,7 @@
       "categories": [
         "ai",
         "hardware",
-        "startups"
+        "mobile"
       ],
       "author": "Sarah Perez"
     },
@@ -1769,6 +2472,7 @@
       "publishedAt": "2026-11-05T19:39:01.000Z",
       "categories": [
         "hardware",
+        "mobile",
         "tech"
       ],
       "author": "staff@engadget.com (Ian Carlos Campbell)"
@@ -1782,7 +2486,8 @@
       "source": "9to5Mac",
       "publishedAt": "2026-11-05T19:24:26.000Z",
       "categories": [
-        "hardware"
+        "hardware",
+        "mobile"
       ],
       "author": "Chance Miller"
     },
@@ -1796,6 +2501,7 @@
       "publishedAt": "2026-11-05T19:24:26.000Z",
       "categories": [
         "ai",
+        "science",
         "cybersecurity"
       ],
       "author": "Bill Toulas"
@@ -1812,6 +2518,21 @@
         "tech"
       ],
       "author": "staff@engadget.com (Anna Washenko)"
+    },
+    {
+      "id": "d2eb167f9593",
+      "title": "Samsung’s Galaxy Z Fold 8 is $300 off ahead of Black Friday",
+      "link": "https://www.theverge.com/gadgets/1027659/samsung-galaxy-z-fold-8-beats-pill-deal-sale",
+      "description": "Android fans with a bit of iPhone Duo envy, take note: The Samsung Galaxy Z Fold 8 is discounted to $1,599.99 at both Amazon and Best Buy, a hefty $300 markdown from its usual price, and just $50 higher than the lowest we’ve seen. Considering the device only launched a few months ago, you’re saving",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/samsung-galaxy-z-fold-8-roundup.png?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-05T19:12:58.000Z",
+      "categories": [
+        "hardware",
+        "mobile",
+        "tech"
+      ],
+      "author": "Brad Bourque"
     },
     {
       "id": "ea881b03ae96",
@@ -1857,17 +2578,19 @@
       "author": "Marcus Mendes"
     },
     {
-      "id": "8d7633b53238",
-      "title": "Apple releases iPadOS 27.3 public beta and more, here’s what’s new",
-      "link": "https://9to5mac.com/2026/11/05/apple-releases-ipados-27-3-public-beta-and-more-heres-whats-new/",
-      "description": "Public beta testers, Apple is now rolling out the first public betas for iPadOS 27.3, tvOS 27.3, and more. Here’s what‘s new. more…",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/iPadOS-27.3-public.jpg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-05T19:04:35.000Z",
+      "id": "c6134d61030c",
+      "title": "Muse has a voice mode now",
+      "link": "https://www.theverge.com/tech/1028015/meta-muse-ai-voice-mode-expressive-avatar",
+      "description": "Meta now lets you have voice conversations with your Muse AI agent in real time, CEO Mark Zuckerberg announced today. The feature has been rolled out to me, and I gave it a spin on the iOS app while writing this article. As you chat with your Muse agent, the avatar at the top of […]",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKB394_MUSE_AI_CVIRGINIA_D.png?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-05T19:03:04.000Z",
       "categories": [
-        "hardware"
+        "ai",
+        "mobile",
+        "business"
       ],
-      "author": "Ryan Christoffel"
+      "author": "Jay Peters"
     },
     {
       "id": "7b7e5c82463b",
@@ -1927,20 +2650,6 @@
       "author": "Zack Whittaker"
     },
     {
-      "id": "c740b4316e21",
-      "title": "Mark Cuban says Facebook knowingly runs AI deepfake scam ads as Meta docs reveal $16 billion in fraud-linked revenue",
-      "link": "https://www.reddit.com/r/technology/comments/1xoqri7/mark_cuban_says_facebook_knowingly_runs_ai/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/FZfHGzkBcsRdzT5f1oIrqzhre7GLjkR5OZ3XE0WjthA.jpeg?width=640&crop=smart&auto=webp&s=cf5cd40300f3680feea600ef7fa28cc5724ff84f",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-05T18:47:12.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "/u/Just-Grocery-2229 https://www.reddit.com/user/Just-Grocery-2229"
-    },
-    {
       "id": "aea66fd90b99",
       "title": "HR thinks you can learn AI skills – so why is your company hiring elsewhere?",
       "link": "https://www.zdnet.com/innovation/ai-hiring-vs-reskilling-careerminds-research/",
@@ -1964,22 +2673,10 @@
       "publishedAt": "2026-11-05T18:29:00.000Z",
       "categories": [
         "cybersecurity",
+        "opensource",
         "tech"
       ],
       "author": "Brandon Vigliarolo"
-    },
-    {
-      "id": "6c80502d40ff",
-      "title": "'Legend of Zelda' lead says Nintendo doesn't do layoffs because there's \"a real benefit\" to keeping staff long-term: \"We have that base that we can build from\"",
-      "link": "https://www.reddit.com/r/technology/comments/1xoq0m9/legend_of_zelda_lead_says_nintendo_doesnt_do/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/lTGfyOJFDUizHdnN4AavELmae2KcdAT0mj9MDshuAv8.jpeg?width=640&crop=smart&auto=webp&s=3ddb9ed6a57a4697774de1baedfbe7fafdb1ac6f",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-05T18:18:52.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "/u/MarvelsGrantMan136 https://www.reddit.com/user/MarvelsGrantMan136"
     },
     {
       "id": "42b5e03517b6",
@@ -1995,19 +2692,6 @@
       "author": "Artie Beaty"
     },
     {
-      "id": "955ed1be7028",
-      "title": "Republicans Learn X Is the Echo Chamber",
-      "link": "https://www.reddit.com/r/technology/comments/1xopyuw/republicans_learn_x_is_the_echo_chamber/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/KXq1Qieb4uDdfLPYoETa_G_cZw6y2b_73OBE6bsqx1Y.jpeg?width=640&crop=smart&auto=webp&s=3130b32170b98cc350d4c201b8441a57c597da49",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-05T18:17:03.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "/u/Well_Socialized https://www.reddit.com/user/Well_Socialized"
-    },
-    {
       "id": "62544fdf153f",
       "title": "Combined OpenSSH and musl-libc flaws let anyone into Alpine Linux and other distros by typing anything over 256 characters as a password",
       "link": "https://www.tomshardware.com/tech-industry/cyber-security/combined-flaws-let-anyone-into-alpine-linux-and-other-distros-by-typing-anything-over-256-characters-as-a-password-emergency-fixes-for-openssh-and-musl-libc-issued-for-millions-of-systems-patch-immediately",
@@ -2016,24 +2700,11 @@
       "source": "Tom's Hardware",
       "publishedAt": "2026-11-05T18:14:56.000Z",
       "categories": [
-        "hardware",
-        "cybersecurity"
+        "opensource",
+        "cybersecurity",
+        "hardware"
       ],
       "author": "Bruno Ferreira"
-    },
-    {
-      "id": "4c85354b1ef9",
-      "title": "October crypto-tracker hack: Access cracked, law enforcement tokens packed",
-      "link": "https://www.theregister.com/cyber-crime/2026/11/05/october-crypto-tracker-hack-access-cracked-law-enforcement-tokens-packed/5307852",
-      "description": "Agentic 'on-path attack' went after Chainalysis's tools, which are routinely called upon to assist police investigations",
-      "thumbnail": "https://image.theregister.com/?imageId=227153&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-05T18:03:00.000Z",
-      "categories": [
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "Connor Jones"
     },
     {
       "id": "bf7e9a38adde",
@@ -2045,7 +2716,8 @@
       "publishedAt": "2026-11-05T18:02:27.000Z",
       "categories": [
         "ai",
-        "startups"
+        "startups",
+        "business"
       ],
       "author": "Sarah Perez"
     },
@@ -2064,20 +2736,6 @@
       "author": "Connie Loizos"
     },
     {
-      "id": "b0e121b3a461",
-      "title": "Claude can now analyze your spending with its new Personal Finance tool",
-      "link": "https://techcrunch.com/2026/11/05/claude-can-now-analyze-your-spending-with-its-new-personal-finance-tool/",
-      "description": "With Personal Finance in Claude, users can connect their bank and card accounts through Plaid and ask questions about their finances.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Claude-Personal-Finance-2.png?resize=1200,675",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-05T18:00:00.000Z",
-      "categories": [
-        "ai",
-        "startups"
-      ],
-      "author": "Aisha Malik"
-    },
-    {
       "id": "c29370db196c",
       "title": "Claude’s new Personal Finance tool aims to help analyze your spending – read-only, of course",
       "link": "https://www.zdnet.com/innovation/personal-finance-claude-anthropic/",
@@ -2090,20 +2748,6 @@
         "tech"
       ],
       "author": "Radhika Rajkumar"
-    },
-    {
-      "id": "d011903f87e2",
-      "title": "Now Claude can help with your finances too",
-      "link": "https://www.engadget.com/2307936/now-claude-can-help-with-your-finances-too/",
-      "description": "But just like with ChatGPT, should you?",
-      "thumbnail": "https://www.engadget.com/img/gallery/now-claude-can-help-with-your-finances-too/l-intro-1793895674.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-05T18:00:00.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Igor Bonifacic)"
     },
     {
       "id": "aebb6d2b0d88",
@@ -2120,39 +2764,12 @@
       "author": "Frederic Lardinois"
     },
     {
-      "id": "dd02e525d518",
-      "title": "India targets creating homegrown GPUs within 2 years and plans to commercialize indigenous SHAKTI and VEGA processors",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/india-targets-creating-homegrown-gpus-within-2-years-and-plans-to-commercialize-indigenous-shakti-and-vega-risc-v-processors-sees-ai-boom-as-a-potential-repeat-of-the-y2k-opportunity-for-its-it-industry",
-      "description": "MeitY Secretary S. Krishnan says India plans to develop its own GPU under Semiconductor Mission 2.0, with a target of approximately two years. The country is also looking to commercialize its SHAKTI and VEGA RISC-V processors, expand domestic server production, and attract more semiconductor investm",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/EN5Ypr5L9wXQ4gEa4VKpKJ-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-05T18:00:00.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Newton Gitonga"
-    },
-    {
-      "id": "efb97695274d",
-      "title": "iPhone Duo just got a new accessibility feature in iOS 27.3 beta",
-      "link": "https://www.engadget.com/2308154/iphone-duo-new-accessibility-feature-ios-27-3-beta-reachability/",
-      "description": "Reachability helps make it easier to use the foldable with one hand.",
-      "thumbnail": "https://www.engadget.com/img/gallery/iphone-duo-just-got-a-new-accessibility-feature-in-ios-27-3-beta/l-intro-1793901496.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-05T17:59:50.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Kris Holt)"
-    },
-    {
       "id": "e174163944b1",
       "title": "Harbinger raises $240M after expanding into defense",
       "link": "https://techcrunch.com/2026/11/05/harbinger-raises-240m-after-expanding-into-defense/",
       "description": "The Los Angeles-based startup has now raised more than $650 million, and is working on electric trucks, emergency vehicles, and a driverless platform for the military.",
       "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Harbinger-Newsroom-Thumbnail-260610.jpeg?resize=1200,800",
-      "source": "TechCrunch",
+      "source": "TC Startups",
       "publishedAt": "2026-11-05T17:52:44.000Z",
       "categories": [
         "startups"
@@ -2181,7 +2798,8 @@
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T17:45:29.000Z",
       "categories": [
-        "cybersecurity"
+        "cybersecurity",
+        "opensource"
       ],
       "author": "Lawrence Abrams"
     },
@@ -2195,22 +2813,10 @@
       "publishedAt": "2026-11-05T17:35:34.000Z",
       "categories": [
         "ai",
+        "science",
         "tech"
       ],
       "author": "Victoria Gayton"
-    },
-    {
-      "id": "f13cfe56bc71",
-      "title": "openSUSE Leap 16.1 gives Linux users the right to remain immutable",
-      "link": "https://www.theregister.com/os-platforms/2026/11/05/opensuse-leap-161-gives-linux-users-the-right-to-remain-immutable/5307874",
-      "description": "One installer now offers conventional and read-only systems as separate Micro distro bows out",
-      "thumbnail": "https://image.theregister.com/?imageId=243626&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-05T17:30:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Liam Proven"
     },
     {
       "id": "26806a4a05a5",
@@ -2235,7 +2841,8 @@
       "publishedAt": "2026-11-05T17:14:41.000Z",
       "categories": [
         "programming",
-        "hardware"
+        "hardware",
+        "cloud"
       ],
       "author": "Meredith Shubel"
     },
@@ -2253,21 +2860,6 @@
       "author": "Lauren Forristal"
     },
     {
-      "id": "7796ff759e0b",
-      "title": "OpenAI releases GPT-6 Cyber, and promises this one stays within 'rules of engagement'",
-      "link": "https://www.theregister.com/security/2026/11/05/openai-releases-gpt-6-cyber-and-promises-this-one-stays-within-rules-of-engagement/5307855",
-      "description": "The latest bug hunting model 'avoided exploiting out-of-scope services over 99 percent of the time', claims House of Altman",
-      "thumbnail": "https://image.theregister.com/?imageId=262189&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-05T17:00:00.000Z",
-      "categories": [
-        "ai",
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "Jessica Lyons"
-    },
-    {
       "id": "f54bae1439de",
       "title": "AI failures threaten incident management: Here are 4 ways to avoid them.",
       "link": "https://thenewstack.io/ai-failures-incident-management/",
@@ -2280,20 +2872,6 @@
         "programming"
       ],
       "author": "João Freitas"
-    },
-    {
-      "id": "749a74f3c038",
-      "title": "Chinese AI lab Moonshot reportedly looked at European data centers to access Nvidia chips, report claims",
-      "link": "https://www.tomshardware.com/tech-industry/policy/chinese-ai-lab-moonshot-reportedly-looked-at-european-data-centers-to-access-nvidia-chips-report-claims-kimi-maker-primarily-interested-in-inferencing-capacity-but-also-asked-about-training-clusters",
-      "description": "The lab is reportedly interested in renting at least 8,000 Nvidia Blackwell GPUs.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/fmbubhzMvhqdXsuXX8CbYA-1920-80.png",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-05T16:48:30.000Z",
-      "categories": [
-        "ai",
-        "hardware"
-      ],
-      "author": "Jowi Morales"
     },
     {
       "id": "e4ac33ea826c",
@@ -2311,19 +2889,6 @@
       "author": "Jonathan Anthony"
     },
     {
-      "id": "7086502886fd",
-      "title": "Nintendo Switch 2 sales dropped by 41% from last year due to console's price increase",
-      "link": "https://www.tomshardware.com/video-games/nintendo/nintendo-switch-2-sales-dropped-by-41-percent-from-last-year-due-to-consoles-price-increase-pressure-to-release-more-big-games-to-make-up-for-shortfall",
-      "description": "Nintendo's Switch 2 sales decreased by 41% compared to the same time frame last year due to an increase in the console's price. Investors are pressuring Nintendo to release more big games to attract more Switch 2 buyers.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/sNP6WfnjWQHABKfn5DkdAG-1920-80.png",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-05T16:27:28.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Jhet Borja"
-    },
-    {
       "id": "df8c7d856220",
       "title": "Reddit Founder Says Building Social Media Apps Is ‘Not Cool Anymore’",
       "link": "https://www.wired.com/story/wired-world-fair-2026-alexis-ohanian/",
@@ -2333,6 +2898,7 @@
       "publishedAt": "2026-11-05T16:26:57.000Z",
       "categories": [
         "startups",
+        "business",
         "tech"
       ],
       "author": "Isabella Ward"
@@ -2361,7 +2927,8 @@
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T16:24:26.000Z",
       "categories": [
-        "cybersecurity"
+        "cybersecurity",
+        "opensource"
       ],
       "author": "Bill Toulas"
     },
@@ -2376,7 +2943,7 @@
       "categories": [
         "ai",
         "programming",
-        "tech"
+        "cloud"
       ],
       "author": "Mark Albertson"
     },
@@ -2403,24 +2970,10 @@
       "source": "BleepingComputer",
       "publishedAt": "2026-11-05T16:12:46.000Z",
       "categories": [
-        "cybersecurity"
+        "cybersecurity",
+        "business"
       ],
       "author": "Lawrence Abrams"
-    },
-    {
-      "id": "e06066da9d43",
-      "title": "Oracle’s multicloud approach: Put the database wherever AI pipelines already run",
-      "link": "https://siliconangle.com/2026/11/05/real-time-data-pipelines-drive-oracle-s-multicloud-database-oracleaiworld/",
-      "description": "Enterprises racing to put AI agents into production are learning that real-time data pipelines matter as much as the models. An agent working from a stale subset of corporate records delivers far less than one wired into live, mission-critical data. That shift is changing how companies decide where",
-      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/IMG_0416.jpg",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-05T16:11:17.000Z",
-      "categories": [
-        "ai",
-        "programming",
-        "tech"
-      ],
-      "author": "Jonathan Anthony"
     },
     {
       "id": "2cbf6acca69f",
@@ -2432,6 +2985,7 @@
       "publishedAt": "2026-11-05T16:08:49.000Z",
       "categories": [
         "ai",
+        "mobile",
         "tech"
       ],
       "author": "Maria Diaz"
@@ -2472,7 +3026,8 @@
       "source": "GitHub Blog",
       "publishedAt": "2026-11-05T16:00:00.000Z",
       "categories": [
-        "programming"
+        "programming",
+        "opensource"
       ],
       "author": "Jan Maarten"
     },
@@ -2486,7 +3041,8 @@
       "publishedAt": "2026-11-05T16:00:00.000Z",
       "categories": [
         "ai",
-        "programming"
+        "programming",
+        "opensource"
       ],
       "author": "Lachlan Evenson"
     },
@@ -2512,6 +3068,7 @@
       "source": "Wired",
       "publishedAt": "2026-11-05T15:38:07.000Z",
       "categories": [
+        "business",
         "tech"
       ],
       "author": "Manisha Krishnan"
@@ -2526,9 +3083,36 @@
       "publishedAt": "2026-11-05T15:30:00.000Z",
       "categories": [
         "ai",
-        "startups"
+        "startups",
+        "business"
       ],
       "author": "John Reynolds"
+    },
+    {
+      "id": "3ca8426259f2",
+      "title": "Midwestern City Lights",
+      "link": "https://www.nasa.gov/image-article/midwestern-city-lights/",
+      "description": "City lights from the Midwestern United States to the East Coast sparkle across the landscape a couple of hours before sunrise on Oct. 18, 2026. Major urban areas visible in the photograph include Chicago, Illinois; Detroit, Michigan; and the New York metropolitan region. The International Space Stat",
+      "thumbnail": "https://www.nasa.gov/wp-content/uploads/2026/11/iss075e0227352orig.jpg?w=2048",
+      "source": "NASA Breaking News",
+      "publishedAt": "2026-11-05T15:17:19.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": "HQ Web Team"
+    },
+    {
+      "id": "28f1c898c691",
+      "title": "NASA Astronauts to Answer Questions from Florida Students",
+      "link": "https://www.nasa.gov/learning-resources/nasa-astronauts-to-answer-questions-from-florida-students-2/",
+      "description": "Students in Florida will hear from NASA astronauts Jessica Watkins and Luke Delaney as they answer prerecorded STEM questions while aboard the International Space Station. The Earth-to-space call will begin at 10:40 a.m. EST Tuesday, Nov. 10, and will stream live on the agency’s Learn With NASA YouT",
+      "thumbnail": "https://www.nasa.gov/wp-content/uploads/2026/11/freedom-crossing-downlink-nov-5.jpg?w=1920",
+      "source": "NASA Breaking News",
+      "publishedAt": "2026-11-05T15:11:25.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": "Gerelle Q. Dodson"
     },
     {
       "id": "dad53d7e3ed5",
@@ -2556,45 +3140,6 @@
         "programming"
       ],
       "author": "Kayode Ojo"
-    },
-    {
-      "id": "ee8a08d550de",
-      "title": "UPERFECT GR14BU portable monitor review: A 120 Hz 3K OLED touch display at a killer price",
-      "link": "https://www.tomshardware.com/monitors/portable-monitors/uperfect-gr14bu-portable-monitor-review",
-      "description": "With a 3K OLED panel and a 120 Hz refresh rate, the GR14BU comes out swinging.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/ovT2E7EidRbcdL9BVSTsW8-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-05T15:00:00.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Brandon Hill"
-    },
-    {
-      "id": "c9be4b4dc557",
-      "title": "Intel leaker claims Nova Lake desktop chips have 5.1 GHz clock limit beyond 90°C",
-      "link": "https://www.tomshardware.com/pc-components/cpus/intel-leaker-claims-nova-lake-desktop-chips-have-5-1-ghz-clock-limit-beyond-90-c-high-clock-speeds-could-demand-significant-cooling-for-next-gen-chips",
-      "description": "A known Intel leaker claims that Intel's next-generation processors will top out at 5.1 GHz if the CPU core temperatures aren't kept below 90°C.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/B4avSRi36yewaj7Wyj3k5Q-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-05T14:57:51.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Zak Killian"
-    },
-    {
-      "id": "79cf85d2f6ad",
-      "title": "Tech is about to get hammered in Congress / Democrats have promised to drag CEOs to testify under oath and investigate corporate influence.",
-      "link": "https://www.reddit.com/r/technology/comments/1xokqlr/tech_is_about_to_get_hammered_in_congress/",
-      "description": "",
-      "thumbnail": "https://external-preview.redd.it/kkhzmfq3kCMVGySkt5UnFf2m_ocQc9fr2_hzi8Gr_5o.jpeg?width=640&crop=smart&auto=webp&s=053f6637b32c89b9c7b6e1742f7c115809a70995",
-      "source": "Reddit Technology",
-      "publishedAt": "2026-11-05T14:57:25.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "/u/MarvelsGrantMan136 https://www.reddit.com/user/MarvelsGrantMan136"
     },
     {
       "id": "3fa53173523b",
@@ -2666,17 +3211,17 @@
       "author": "Andrew Sellers"
     },
     {
-      "id": "f040c6a8515b",
-      "title": "Micron's $4.5 billion Taoyuan plant construction halted amidst labor dispute",
-      "link": "https://www.tomshardware.com/tech-industry/semiconductors/microns-usd4-5-billion-taoyuan-plant-construction-halted-amidst-labor-dispute-company-and-union-still-havent-reached-agreement-as-latter-asks-for-clearer-profit-sharing-terms",
-      "description": "Micron and the Taoyuan labor union is set to meet again on November 6 as the two parties engage in a protracted labor dispute regarding profit-sharing.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/xDHo6JHbRwqU3VtPmCmG2n-1920-80.png",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-05T14:28:30.000Z",
+      "id": "df544b94f58f",
+      "title": "Scientists discover that a clogged filter could revolutionize oil refining",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261103003207.htm",
+      "description": "Scientists have developed a remarkable new membrane that separates crude oil at room temperature, using the oil itself to create microscopic filtration channels. The breakthrough could cut refining energy consumption by nearly 32%, carbon emissions by almost 38%, and operating costs by 36%, potentia",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/membrane-technolog-separates-crude-oil-without-boiling.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-05T14:04:07.000Z",
       "categories": [
-        "hardware"
+        "science"
       ],
-      "author": "Jowi Morales"
+      "author": null
     },
     {
       "id": "a60287cf885f",
@@ -2688,7 +3233,8 @@
       "publishedAt": "2026-11-05T14:00:20.000Z",
       "categories": [
         "ai",
-        "startups"
+        "startups",
+        "business"
       ],
       "author": "Judy Rider"
     },
@@ -2731,35 +3277,9 @@
       "categories": [
         "ai",
         "startups",
-        "programming"
+        "cloud"
       ],
       "author": "Paul Sawers"
-    },
-    {
-      "id": "7123ace081c8",
-      "title": "Apple MacBook Pro with PROLED XDR Display review: The screen that every Mac deserves",
-      "link": "https://www.tomshardware.com/laptops/macbooks/apple-macbook-pro-with-proled-xdr-display-review",
-      "description": "Apple's MacBook Pro with PROLED Display has lots of small tweaks that make it a major upgrade, including a lighter weight and touch functionality, but it's exceptionally expensive and out of reach for many.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/LbMhawpHCpsfZcmbETFvA4-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-05T14:00:00.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Andrew E. Freedman"
-    },
-    {
-      "id": "46011e60a781",
-      "title": "Boost your Nintendo Switch 2's storage for Zelda: Ocarina of Time with these microSD Express deals, starting at $48",
-      "link": "https://www.tomshardware.com/pc-components/microsd-cards/boost-your-nintendo-switch-2s-storage-for-zelda-ocarina-of-time-with-these-microsd-express-deals-starting-at-usd48-make-room-for-hyrule-with-these-high-speed-cards-that-double-or-triple-your-game-storage",
-      "description": "With the Legend of Zelda: Ocarina of Time remake now available for the Nintendo Switch 2, you're going to need enough storage to install it. Here are some Switch 2 microSD Express card deals to help you.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/Q4r3HMpNUujz2WFpSvzgNe-1920-80.png",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-05T14:00:00.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Ben Stockton"
     },
     {
       "id": "170ce231a2c0",
@@ -2770,9 +3290,23 @@
       "source": "Tech.eu",
       "publishedAt": "2026-11-05T13:42:22.000Z",
       "categories": [
-        "startups"
+        "startups",
+        "business"
       ],
       "author": "Tamara Djurickovic"
+    },
+    {
+      "id": "ae35c1e964ba",
+      "title": "A clever molecular trick unlocks previously impossible properties in glass",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261103003202.htm",
+      "description": "Scientists have discovered how to reprogram the internal structure of glass using a special molecule that rearranges chemical bonds while lowering the melting temperature. The breakthrough could unlock entirely new glass materials with precisely controlled magnetic and optical properties, opening po",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/new-glass-technology.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-05T13:36:51.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
     },
     {
       "id": "2009a33d518f",
@@ -2783,503 +3317,11 @@
       "source": "MIT Technology Review",
       "publishedAt": "2026-11-05T13:10:00.000Z",
       "categories": [
-        "ai"
+        "ai",
+        "cloud",
+        "business"
       ],
       "author": "Thomas Macaulay"
-    },
-    {
-      "id": "bb7377ab6e9b",
-      "title": "Motorola's new Signature 27 has it all if you can stomach the $1,600 price tag",
-      "link": "https://arstechnica.com/gadgets/2026/11/motorolas-new-signature-27-has-it-all-if-you-can-stomach-the-1600-price-tag/",
-      "description": "It has all the bells and whistles (and cameras).",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/signature27-1-1152x648.jpg",
-      "source": "Ars Gadgets",
-      "publishedAt": "2026-11-05T13:00:56.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "Ryan Whitwam"
-    },
-    {
-      "id": "b06af2d45cd2",
-      "title": "A YC startup is putting $1M behind 5 unsolved materials science problems for AI",
-      "link": "https://techcrunch.com/2026/11/05/a-yc-startup-is-putting-1m-behind-five-unsolved-materials-science-problems-for-ai/",
-      "description": "While frontier AI models have solved a remarkable series of outstanding mathematics problems and made progress in the life sciences, they have yet to truly plumb the complex physics in advanced materials.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/08/discoverd-materials.jpg?resize=1200,800",
-      "source": "TC Startups",
-      "publishedAt": "2026-11-05T13:00:00.000Z",
-      "categories": [
-        "ai",
-        "startups"
-      ],
-      "author": "Tim Fernholz"
-    },
-    {
-      "id": "b0d9185fcb4f",
-      "title": "Zilch sees revenues uplift but losses increase",
-      "link": "https://tech.eu/2026/11/05/zilch-sees-revenues-uplift-but-losses-increase/",
-      "description": "Zilch, the UK fintech reportedly gearing up for an IPO, has reported a 36 per cent increase in full-year revenues to £147.5m, but losses swelled almost three-fold to £35.9m, its latest financial figur...",
-      "thumbnail": "https://cdn.tech.eu/uploads/2025/08/zilch-679.png",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-05T12:47:00.000Z",
-      "categories": [
-        "startups"
-      ],
-      "author": "John Reynolds"
-    },
-    {
-      "id": "4c733cd5e5d2",
-      "title": "Sector Snapshot: Construction Robotics Funding Soars To $1.6B, Tripling Previous Peak",
-      "link": "https://news.crunchbase.com/venture/sector-snapshot-2026-construction-robotics-funding-soars-bedrock/",
-      "description": "Companies spanning construction and robotics have raised about $1.6 billion so far this year — more than 4x the $389 million recorded in all of 2025 — according to Crunchbase data. The surge was driven by three companies that raised the majority of the funding.",
-      "thumbnail": "https://news.crunchbase.com/wp-content/uploads/AI-manufacturing.jpg",
-      "source": "Crunchbase News",
-      "publishedAt": "2026-11-05T12:00:59.000Z",
-      "categories": [
-        "hardware",
-        "startups"
-      ],
-      "author": "Judy Rider"
-    },
-    {
-      "id": "f050bc895e36",
-      "title": "Agility Robotics' Nasdaq debut invites scrutiny of humanoid robot market",
-      "link": "https://arstechnica.com/ai/2026/11/agility-robotics-nasdaq-debut-invites-scrutiny-of-humanoid-robot-market/",
-      "description": "US leader in deploying humanoid robots goes public on the Nasdaq stock exchange.",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Agility-Digit-5-humanoid-robots-at-work-1152x648.jpg",
-      "source": "Ars Gadgets",
-      "publishedAt": "2026-11-05T12:00:41.000Z",
-      "categories": [
-        "hardware",
-        "ai",
-        "tech"
-      ],
-      "author": "Jeremy Hsu"
-    },
-    {
-      "id": "d71cfb9ab8de",
-      "title": "2026 iPad mini review: Maximizing the mini",
-      "link": "https://arstechnica.com/gadgets/2026/11/ipad-mini-2026-review-maximizing-the-mini/",
-      "description": "It's more compelling than ever, but also more expensive.",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/20261104_095710-1152x648.jpg",
-      "source": "Ars Gadgets",
-      "publishedAt": "2026-11-05T12:00:01.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "Scharon Harding"
-    },
-    {
-      "id": "3118b4e12ad5",
-      "title": "Healthtech: Europe’s 10 most-funded companies in H1 2026",
-      "link": "https://tech.eu/2026/11/05/healthtech-europes-10-most-funded-companies-in-h1-2026/",
-      "description": "European healthtech investment in H1 2026 was driven bylarge funding rounds, with continued interest in biotechnology, medical devicesand AI-powered healthcare solutions.The UK attracted significant i...",
-      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/healthtechh12026-featured-592.png",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-05T12:00:00.000Z",
-      "categories": [
-        "ai",
-        "startups"
-      ],
-      "author": "Tamara Djurickovic"
-    },
-    {
-      "id": "d0c13606a265",
-      "title": "Battle Truck: A startup sandbox on wheels for Ukraine's front lines",
-      "link": "https://tech.eu/2026/11/05/battle-truck-a-startup-sandbox-on-wheels-for-ukraines-front-lines/",
-      "description": "You’ve no doubt seen fundraisers online to donate funds to send emergency service vehicles to Ukraine. But there’s just one problem. Most donated ambulances are poorly suited to Ukrainian roads and co...",
-      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/untitled-design-36-662.png",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-05T11:52:00.000Z",
-      "categories": [
-        "startups"
-      ],
-      "author": "Cate Lawrence"
-    },
-    {
-      "id": "321f52a3530e",
-      "title": "The UK needs its entrepreneurs more than anything else",
-      "link": "https://tech.eu/2026/11/05/the-uk-needs-its-entrereneurs/",
-      "description": "It's a cold and wet London day and the queue of entrepreneurs snakes outside the Cholmondeley back entrance to the Houses of Parliament.The Thames flows adjacently, turbulent as the weather, as the cr...",
-      "thumbnail": "https://cdn.tech.eu/uploads/2026/10/uk-parliament-tech-eu-1280x720-535.jpg",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-05T11:00:00.000Z",
-      "categories": [
-        "startups"
-      ],
-      "author": "Monty Munford"
-    },
-    {
-      "id": "781f1d7aacd8",
-      "title": "German aerospace startup VÆRIDION raises €30M for zero-emission regional fights",
-      "link": "https://tech.eu/2026/11/05/german-aerospace-startup-v-ridion-raises-30m-for-zero-emission-regional-fights/",
-      "description": "A Munich-based aerospace startup on a mission to make affordable, zero-emission regional flights an everyday reality has raised €30m in a new funding round, it said today.VÆRIDION is developing an ele...",
-      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/smart-2-205.jpg",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-05T10:18:00.000Z",
-      "categories": [
-        "startups"
-      ],
-      "author": "John Reynolds"
-    },
-    {
-      "id": "1025afbf9ca2",
-      "title": "A new bill could change how the US builds energy infrastructure",
-      "link": "https://www.technologyreview.com/2026/11/05/1148062/permitting-reform/",
-      "description": "A sweeping bit of legislation designed to cut red tape could speed up the buildout of energy infrastructure in the US. With the dust barely settled on this week’s momentous midterms, the Senate is set to vote on the Bipartisan American Affordability and Jobs Act (BAAJA) on November 9. It’s a plan th",
-      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/11/baaja-energy.jpg?resize=1200,600",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-11-05T10:00:00.000Z",
-      "categories": [
-        "ai"
-      ],
-      "author": "Casey Crownhart"
-    },
-    {
-      "id": "79771fdb83ce",
-      "title": "Estonia approves 24/7 robotic pharmacies, paving the way for a European first",
-      "link": "https://tech.eu/2026/11/05/estonia-approves-24-7-robotic-pharmacies-paving-the-way-for-a-european-first/",
-      "description": "The Estonian government has today approved draft legislation paving the way for 24/7 robotic pharmacies, allowing patients to obtain prescription and over-the-counter medicines without a pharmacist ph...",
-      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/untitled-design-34-863.png",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-05T10:00:00.000Z",
-      "categories": [
-        "startups"
-      ],
-      "author": "Cate Lawrence"
-    },
-    {
-      "id": "969081b2893b",
-      "title": "SFC Capital backs Nayara's AI platform for patient care",
-      "link": "https://tech.eu/2026/11/05/sfc-capital-backs-nayaras-ai-platform-for-patient-care/",
-      "description": "UK-basedhealthcare AI company Nayara has closed a pre-seed funding round led by SFC Capital, an early-stage investor in the UK. The funding will support thedevelopment and expansion of its AI-powered ...",
-      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/nayara-featured-478.png",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-05T10:00:00.000Z",
-      "categories": [
-        "ai",
-        "startups"
-      ],
-      "author": "Tamara Djurickovic"
-    },
-    {
-      "id": "da77af0f435f",
-      "title": "GhostMap Android flaw lets malicious app trigger persistent boot loop",
-      "link": "https://www.bleepingcomputer.com/news/security/ghostmap-android-flaw-lets-malicious-app-trigger-persistent-boot-loop/",
-      "description": "Attackers can force Android devices into a continuous boot loop using a specially crafted app that requires no permissions and only needs to be installed. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/10/14/android.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-05T09:18:29.000Z",
-      "categories": [
-        "hardware",
-        "cybersecurity"
-      ],
-      "author": "Bill Toulas"
-    },
-    {
-      "id": "dbfcf80b94cb",
-      "title": "Memory magicians raise $3.3M for Mindmax to put human learning first in the AI age",
-      "link": "https://tech.eu/2026/11/05/memory-magicians-raise-33m-for-mindmax-to-put-human-learning-first-in-the-ai-age/",
-      "description": "AI-powered learning platform Mindmax has raised £2.5million in venture capital funding in a round led by Concept Ventures, withparticipation from Redrice Ventures, Daybreak Ventures and Lerer Hippeau....",
-      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/mindmax-featured-970.png",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-05T09:00:00.000Z",
-      "categories": [
-        "ai",
-        "startups"
-      ],
-      "author": "Tamara Djurickovic"
-    },
-    {
-      "id": "3125c3c4d85b",
-      "title": "Kabilio raises €10M to expand AI accounting platform and introduce AI agents",
-      "link": "https://tech.eu/2026/11/05/kabilio-raises-eur10m-to-expand-ai-accounting-platform-and-introduce-ai-agents/",
-      "description": "Spanish AI accountingplatform Kabilio has raised €10 million in a funding round led by Picus Capitaland Visionaries, with participation from CDTI, Spain's public agency fortechnological innovation. Th...",
-      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/kabilio-featured-985.png",
-      "source": "Tech.eu",
-      "publishedAt": "2026-11-05T06:30:00.000Z",
-      "categories": [
-        "ai",
-        "startups"
-      ],
-      "author": "Tamara Djurickovic"
-    },
-    {
-      "id": "8f15c0b606f1",
-      "title": "Linux Mint 27 arrives next month, and I like it already: New features and other upgrades to expect",
-      "link": "https://www.zdnet.com/tech/linux-mint-27-release-date/",
-      "description": "It starts with a surprise version number: Linux Mint 27 instead of 24. But the next release brings far more changes than that.",
-      "thumbnail": "https://www.zdnet.com/wp-content/uploads/sites/3/Linux-Mint-27-Nemo.jpg",
-      "source": "ZDNet",
-      "publishedAt": "2026-11-05T02:35:58.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Steven Vaughan-Nichols"
-    },
-    {
-      "id": "ce39a8b6dc0f",
-      "title": "Anthropic found a way to prove which AI model answered you — but there’s a costly catch",
-      "link": "https://thenewstack.io/anthropic-flashprove-model-verification/",
-      "description": "Developers using AI APIs have little way of knowing whether the model answering their requests is actually the one they’re The post Anthropic found a way to prove which AI model answered you — but there’s a costly catch appeared first on The New Stack .",
-      "thumbnail": "https://cdn.thenewstack.io/media/2026/11/caa0e2d8-chloe-f5wzv43ls-0-unsplash-1024x724.jpg",
-      "source": "The New Stack",
-      "publishedAt": "2026-11-04T22:50:18.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "Amanda Caswell"
-    },
-    {
-      "id": "bc594cd9fbf9",
-      "title": "Hackers exploited iOS and Android flaws to infect phones",
-      "link": "https://arstechnica.com/security/2026/11/hackers-exploited-ios-and-android-flaws-to-infect-phones/",
-      "description": "Researchers say group may have been Kremlin-sponsored in search of diplomatic targets.",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2023/05/malware-1000x648.jpg",
-      "source": "Ars Technica",
-      "publishedAt": "2026-11-04T22:26:49.000Z",
-      "categories": [
-        "hardware",
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "Dan Goodin"
-    },
-    {
-      "id": "90248c1ffce4",
-      "title": "Nothing CEO says company’s mysterious AI-first device is dropping next month",
-      "link": "https://techcrunch.com/2026/11/04/nothing-ceo-says-companys-mysterious-ai-first-device-is-dropping-next-month/",
-      "description": "While it's not yet clear what kind of product the smartphone startup is cooking up, Nothing's CEO said the product is designed to leverage AI for productivity gains.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2024/02/2560x2040_5fe778b6-8919-4143-bf11-8d86af754f52_2192x.webp?resize=1200,956",
-      "source": "TC Startups",
-      "publishedAt": "2026-11-04T22:13:16.000Z",
-      "categories": [
-        "ai",
-        "hardware",
-        "startups"
-      ],
-      "author": "Lucas Ropek"
-    },
-    {
-      "id": "a3e2b24eafb5",
-      "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
-      "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
-      "description": "Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7ae2/live/ce22be10-d851-11f1-b710-b15e87d8ef65.jpg",
-      "source": "BBC Technology",
-      "publishedAt": "2026-11-04T21:41:15.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": null
-    },
-    {
-      "id": "577ff230c0d1",
-      "title": "VMware releases vSphere Express for virtualization on up to 128 cores",
-      "link": "https://arstechnica.com/information-technology/2026/11/vmware-releases-vsphere-express-for-virtualization-on-up-to-128-cores/",
-      "description": "“We started listening to a lot of our lower-end customers,\" VMware exec says.",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2024/01/GettyImages-474325206-1152x648-1753374517.jpg",
-      "source": "Ars Technica",
-      "publishedAt": "2026-11-04T21:38:49.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Scharon Harding"
-    },
-    {
-      "id": "de7887560061",
-      "title": "Vercel rolls out new protection against stolen session cookie attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/vercel-rolls-out-new-protection-against-stolen-session-cookie-attacks/",
-      "description": "Vercel is gradually rolling out Device Bound Session Credentials (DBSC) on its platform as a key defense against information stealer malware. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/04/vercel.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-04T21:31:18.000Z",
-      "categories": [
-        "hardware",
-        "cybersecurity"
-      ],
-      "author": "Bill Toulas"
-    },
-    {
-      "id": "b58632e425d5",
-      "title": "AMD's record quarter: Data center business doubles, while gaming craters",
-      "link": "https://arstechnica.com/gadgets/2026/11/amds-record-quarter-data-center-business-doubles-while-gaming-craters/",
-      "description": "AMD's gaming revenue fell 40 percent in an otherwise record $13.4 billion quarter.",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/AMD_Helios_Rack_Instinct_MI455X-1152x540.webp",
-      "source": "Ars Gadgets",
-      "publishedAt": "2026-11-04T21:29:46.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "Nick Indge"
-    },
-    {
-      "id": "0fd87eaf33b4",
-      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
-      "link": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
-      "description": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/04/zyxel-gs1900.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-04T20:58:19.000Z",
-      "categories": [
-        "cybersecurity"
-      ],
-      "author": "Lawrence Abrams"
-    },
-    {
-      "id": "d32a75823052",
-      "title": "Is Chrome’s settings menu getting a search bar? What we know",
-      "link": "https://www.zdnet.com/business/google-tests-new-chrome-search-menu-feature/",
-      "description": "Chrome might receive a much-needed addition.",
-      "thumbnail": "https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-2252078247.jpg",
-      "source": "ZDNet",
-      "publishedAt": "2026-11-04T19:53:06.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Taylor Clemons"
-    },
-    {
-      "id": "b314253ad1ed",
-      "title": "Crunchbase Data: Less Than 2% Of 2026 Venture Funding Went To Post-Election Red States",
-      "link": "https://news.crunchbase.com/venture/2026-post-election-funding-red-states-drops/",
-      "description": "So far this year, less than 2% of all startup investment has gone to companies in post-election red states, a share that is much smaller than in years past due to five states shifting to purple in the most recent election.",
-      "thumbnail": "https://news.crunchbase.com/wp-content/uploads/Post_Election.jpg",
-      "source": "Crunchbase News",
-      "publishedAt": "2026-11-04T19:47:54.000Z",
-      "categories": [
-        "startups"
-      ],
-      "author": "Joanna Glasner"
-    },
-    {
-      "id": "604513e69c2a",
-      "title": "Open source AI is booming. Hugging Face explains who profits.",
-      "link": "https://techcrunch.com/video/open-source-ai-is-booming-hugging-face-explains-who-profits/",
-      "description": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/07/GettyImages-1849294862.jpg?w=1024",
-      "source": "TC Startups",
-      "publishedAt": "2026-11-04T19:30:04.000Z",
-      "categories": [
-        "ai",
-        "programming",
-        "startups"
-      ],
-      "author": "Theresa Loconsolo"
-    },
-    {
-      "id": "1413af0079f4",
-      "title": "DreamHost confirms data breach exposed FTP logins and webmail sessions",
-      "link": "https://www.bleepingcomputer.com/news/security/dreamhost-confirms-data-breach-exposed-ftp-logins-and-webmail-sessions/",
-      "description": "DreamHost is warning of a data breach after attackers gained access to its File Manager platform for two months and stole customers' FTP/SFTP usernames and passwords. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/04/DreamHost.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-04T19:05:19.000Z",
-      "categories": [
-        "cybersecurity"
-      ],
-      "author": "Bill Toulas"
-    },
-    {
-      "id": "2550523e2a0e",
-      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-      "link": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-      "description": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor aga",
-      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/11/GettyImages-2303431102.jpg?resize=1200,600",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-11-04T18:50:55.000Z",
-      "categories": [
-        "ai"
-      ],
-      "author": "James O'Donnell"
-    },
-    {
-      "id": "089b0efaf055",
-      "title": "Building on open source AI? Hugging Face’s policy chief on the costs, risks, and trade-offs",
-      "link": "https://techcrunch.com/podcast/building-on-open-source-ai-hugging-faces-policy-chief-on-the-costs-risks-and-trade-offs/",
-      "description": "Open source models are becoming more mainstream as enterprises, governments and startups alike rely on the promise of lower costs, more control, and more flexibility. But as increasingly capable models become more freely available, how do companies capture value? And with Chinese open models gaining",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/55593309776_55e4a08b03_o.jpg?resize=1200,800",
-      "source": "TC Startups",
-      "publishedAt": "2026-11-04T18:44:57.000Z",
-      "categories": [
-        "ai",
-        "programming",
-        "startups"
-      ],
-      "author": "Theresa Loconsolo, Rebecca Bellan"
-    },
-    {
-      "id": "38c257273c68",
-      "title": "Roundtables: Inside the Quest for Cognitive Immortality",
-      "link": "https://www.technologyreview.com/2026/11/04/1148049/roundtables-inside-the-quest-for-cognitive-immortality/",
-      "description": "Tuesday, November 17, 2026 In an effort to reach an elusive continuity of the self, some far-thinking technologists are working on ways to keep your brain going—even beyond death. Join science editor Mary Beth Griggs and senior editor for biomedicine Antonio Regalado for a conversation exploring pos",
-      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2024/01/Antonio-Regalado.png",
-      "source": "MIT Technology Review",
-      "publishedAt": "2026-11-04T18:21:40.000Z",
-      "categories": [
-        "ai"
-      ],
-      "author": "MIT Technology Review"
-    },
-    {
-      "id": "11966c00db13",
-      "title": "Researchers asked people to use AI chatbots for election info – results were mixed",
-      "link": "https://www.zdnet.com/innovation/ai-users-ask-chatbots-voting-advice-elections-yale-research/",
-      "description": "Chatbots can skew election-related information and act as an intervening layer in a voter’s search.",
-      "thumbnail": "https://www.zdnet.com/wp-content/uploads/sites/3/aivote-GettyImages-2207907269.jpg",
-      "source": "ZDNet",
-      "publishedAt": "2026-11-04T18:13:38.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Radhika Rajkumar"
-    },
-    {
-      "id": "0314ed4a7e9d",
-      "title": "Render just removed its AI sandbox time limit — and Vercel still has a 24-hour cap",
-      "link": "https://thenewstack.io/render-vercel-ai-sandboxes/",
-      "description": "Render is taking on Vercel with AI sandboxes that can run indefinitely, along with new tools for managing long-running agent The post Render just removed its AI sandbox time limit — and Vercel still has a 24-hour cap appeared first on The New Stack .",
-      "thumbnail": "https://cdn.thenewstack.io/media/2026/11/88af2b32-getty-images-1rdhxhol-xu-unsplash-1024x607.jpg",
-      "source": "The New Stack",
-      "publishedAt": "2026-11-04T18:04:17.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "Amanda Caswell"
-    },
-    {
-      "id": "801b944f5621",
-      "title": "Cyberattack disrupts blood storage refrigeration systems in France",
-      "link": "https://www.bleepingcomputer.com/news/security/cyberattack-disrupts-blood-storage-refrigeration-systems-in-france/",
-      "description": "France's national blood service has confirmed that a cyberattack targeting a refrigeration equipment provider raised temperature and defrost settings at three of its facilities, threatening stored blood products. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/04/blood-bags.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-04T18:02:56.000Z",
-      "categories": [
-        "startups",
-        "cybersecurity"
-      ],
-      "author": "Lawrence Abrams"
-    },
-    {
-      "id": "924bfefb40df",
-      "title": "Want an AI job? Deployment engineers are earning executive-level pay – up to $1.45M a year",
-      "link": "https://www.zdnet.com/innovation/ai-deployment-engineers-salary-christian-timbers-report/",
-      "description": "AI has ushered in new jobs, and some of them are paying handsomely, according to a new study.",
-      "thumbnail": "https://www.zdnet.com/wp-content/uploads/sites/3/GettyImages-1148964378.jpg",
-      "source": "ZDNet",
-      "publishedAt": "2026-11-04T18:02:01.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Kayla Solino"
     }
   ],
   "github": [
@@ -3287,7 +3329,7 @@
       "name": "zed-industries/zed",
       "description": "Code at the speed of thought – Zed is a high-performance, multiplayer code editor from the creators of Atom and Tree-sitter.",
       "language": "Rust",
-      "stars": 93008,
+      "stars": 93119,
       "starsToday": 292,
       "url": "https://github.com/zed-industries/zed"
     },
@@ -3295,7 +3337,7 @@
       "name": "NVIDIA/auto-ontology",
       "description": "Auto Ontology is a Python framework for building semantic, graph-based reasoning layers over data. It enables deterministic query generation, better context retrieval, and more explainable AI for LLM and agent workflows.",
       "language": "Python",
-      "stars": 8314,
+      "stars": 8460,
       "starsToday": 2005,
       "url": "https://github.com/NVIDIA/auto-ontology"
     },
@@ -3303,7 +3345,7 @@
       "name": "rails/rails",
       "description": "Ruby on Rails",
       "language": "Ruby",
-      "stars": 58894,
+      "stars": 58907,
       "starsToday": 44,
       "url": "https://github.com/rails/rails"
     },
@@ -3311,7 +3353,7 @@
       "name": "mpv-player/mpv",
       "description": "🎥 Command line media player",
       "language": "C",
-      "stars": 37759,
+      "stars": 37784,
       "starsToday": 36,
       "url": "https://github.com/mpv-player/mpv"
     },
@@ -3319,7 +3361,7 @@
       "name": "rust-lang/rust",
       "description": "Empowering everyone to build reliable and efficient software.",
       "language": "Rust",
-      "stars": 121168,
+      "stars": 121229,
       "starsToday": 186,
       "url": "https://github.com/rust-lang/rust"
     },
@@ -3327,7 +3369,7 @@
       "name": "react/react",
       "description": "The library for web and native user interfaces.",
       "language": "JavaScript",
-      "stars": 252045,
+      "stars": 252098,
       "starsToday": 244,
       "url": "https://github.com/react/react"
     },
@@ -3335,7 +3377,7 @@
       "name": "angular/angular",
       "description": "Deliver web apps with confidence 🚀",
       "language": "TypeScript",
-      "stars": 101145,
+      "stars": 101175,
       "starsToday": 128,
       "url": "https://github.com/angular/angular"
     },
@@ -3343,7 +3385,7 @@
       "name": "symfony/symfony",
       "description": "The Symfony PHP framework",
       "language": "PHP",
-      "stars": 31253,
+      "stars": 31276,
       "starsToday": 89,
       "url": "https://github.com/symfony/symfony"
     },
@@ -3351,7 +3393,7 @@
       "name": "prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
-      "stars": 66994,
+      "stars": 67011,
       "starsToday": 140,
       "url": "https://github.com/prometheus/prometheus"
     },
@@ -3359,7 +3401,7 @@
       "name": "google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "stars": 22627,
+      "stars": 22660,
       "starsToday": 532,
       "url": "https://github.com/google/skills"
     },
@@ -3367,7 +3409,7 @@
       "name": "microsoft/vscode",
       "description": "Visual Studio Code",
       "language": "TypeScript",
-      "stars": 194792,
+      "stars": 194849,
       "starsToday": 295,
       "url": "https://github.com/microsoft/vscode"
     },
@@ -3375,7 +3417,7 @@
       "name": "lz4/lz4",
       "description": "Extremely Fast Compression algorithm",
       "language": "C",
-      "stars": 12533,
+      "stars": 12559,
       "starsToday": 313,
       "url": "https://github.com/lz4/lz4"
     }
@@ -3459,10 +3501,10 @@
       "link": "https://podcasts.apple.com/us/podcast/waveform-the-mkbhd-podcast/id1474429475?uo=4",
       "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/92/dd/8e/92dd8eed-43ec-dc47-50ae-c1ec7c0a3353/mza_3861776104886813687.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "Instagram Wants to be YouTube Now?”",
-        "publishedAt": "2026-11-06T09:00:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/instagram-wants-to-be-youtube-now/id1474429475?i=1000800214818&uo=4",
-        "duration": 5995000
+        "title": "Is The \"PROLED\" Macbook Any Good?",
+        "publishedAt": "2026-10-30T08:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/is-the-proled-macbook-any-good/id1474429475?i=1000798853717&uo=4",
+        "duration": 7325000
       }
     },
     {
@@ -3757,9 +3799,49 @@
       "category": "startups"
     },
     {
-      "name": "Reddit Technology",
-      "url": "https://www.reddit.com/r/technology/.rss",
-      "category": "tech"
+      "name": "AWS News Blog",
+      "url": "https://aws.amazon.com/blogs/aws/feed/",
+      "category": "cloud"
+    },
+    {
+      "name": "Azure Blog",
+      "url": "https://azure.microsoft.com/en-us/blog/feed/",
+      "category": "cloud"
+    },
+    {
+      "name": "Android Developers",
+      "url": "https://android-developers.googleblog.com/feeds/posts/default?alt=rss",
+      "category": "mobile"
+    },
+    {
+      "name": "Polygon",
+      "url": "https://www.polygon.com/rss/index.xml",
+      "category": "gaming"
+    },
+    {
+      "name": "IGN",
+      "url": "https://feeds.ign.com/ign/all",
+      "category": "gaming"
+    },
+    {
+      "name": "NASA Breaking News",
+      "url": "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+      "category": "science"
+    },
+    {
+      "name": "Science Daily",
+      "url": "https://www.sciencedaily.com/rss/top.xml",
+      "category": "science"
+    },
+    {
+      "name": "EFF Updates",
+      "url": "https://www.eff.org/rss/updates.xml",
+      "category": "privacy"
+    },
+    {
+      "name": "Open Source Initiative",
+      "url": "https://opensource.org/feed",
+      "category": "opensource"
     }
   ]
 }

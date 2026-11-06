@@ -46,7 +46,7 @@ If a feed request or parse fails, keep that source's previous items and continue
 
 ### Adding a source
 
-Add `{ name, url, category }` to `SOURCES` in `scripts/fetch-data.js`. Use an official RSS/Atom URL and verify it returns items. Categories must be one of: `ai`, `programming`, `hardware`, `startups`, `cybersecurity`, `tech`.
+Add `{ name, url, category }` to `SOURCES` in `scripts/fetch-data.js`. Use an official RSS/Atom URL and verify it returns items. Categories must be one of: `ai`, `programming`, `hardware`, `startups`, `cybersecurity`, `tech`, `cloud`, `mobile`, `gaming`, `science`, `opensource`, `privacy`, `business`.
 
 ### Events
 

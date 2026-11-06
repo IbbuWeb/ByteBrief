@@ -6,7 +6,14 @@ const ALLOWED_CATEGORIES = new Set([
   'hardware',
   'startups',
   'cybersecurity',
-  'tech'
+  'tech',
+  'cloud',
+  'mobile',
+  'gaming',
+  'science',
+  'opensource',
+  'privacy',
+  'business'
 ]);
 
 const TRACKING_PARAMS = new Set([
@@ -147,6 +154,85 @@ const CATEGORY_KEYWORDS = {
     'phishing',
     'zero day',
     'patch'
+  ],
+  cloud: [
+    'cloud',
+    'aws',
+    'azure',
+    'gcp',
+    'google cloud',
+    'kubernetes',
+    'serverless',
+    'saas',
+    'iaas',
+    'paas',
+    'data center',
+    'datacenter',
+    'lambda',
+    'containers'
+  ],
+  mobile: [
+    'mobile',
+    'smartphone',
+    'ios',
+    'android',
+    'app store',
+    'wearable',
+    'tablet',
+    'iphone',
+    'ipad'
+  ],
+  gaming: [
+    'game',
+    'games',
+    'gaming',
+    'esports',
+    'playstation',
+    'xbox',
+    'nintendo',
+    'steam',
+    'vr',
+    'virtual reality'
+  ],
+  science: [
+    'science',
+    'research',
+    'nasa',
+    'space',
+    'physics',
+    'biology',
+    'quantum',
+    'telescope',
+    'climate',
+    'experiment'
+  ],
+  opensource: [
+    'open source',
+    'linux',
+    'kernel',
+    'foss',
+    'apache',
+    'mozilla',
+    'gitlab',
+    'github'
+  ],
+  privacy: [
+    'privacy',
+    'surveillance',
+    'tracking',
+    'gdpr',
+    'anonymous',
+    'data protection'
+  ],
+  business: [
+    'business',
+    'earnings',
+    'revenue',
+    'market',
+    'stock',
+    'ceo',
+    'profit',
+    'acquisition'
   ]
 };
 

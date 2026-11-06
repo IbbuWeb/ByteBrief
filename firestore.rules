@@ -16,8 +16,8 @@ service cloud.firestore {
 
     function validInterests(value) {
       return value is list
-        && value.size() <= 5
-        && value.hasOnly(['ai', 'programming', 'hardware', 'startups', 'cybersecurity']);
+        && value.size() <= 12
+        && value.hasOnly(['ai', 'programming', 'hardware', 'startups', 'cybersecurity', 'cloud', 'mobile', 'gaming', 'science', 'opensource', 'privacy', 'business']);
     }
 
     match /users/{userId} {
