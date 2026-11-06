@@ -52,6 +52,7 @@ const els = {
   storyCount: document.getElementById('storyCount'),
   search: document.getElementById('searchInput'),
   clearSearch: document.getElementById('clearSearch'),
+  homeTitle: document.getElementById('homeTitle'),
   chips: document.getElementById('filterChips'),
   grid: document.getElementById('storyGrid'),
   empty: document.getElementById('storyEmpty'),
@@ -88,6 +89,46 @@ function boot() {
 
   const dataPromise = loadData();
   const authPromise = initShell('home');
+
+  const installId = (() => {
+    try {
+      let value = localStorage.getItem('bytebrief_install_id');
+      if (!value) {
+        value = crypto.randomUUID();
+        localStorage.setItem('bytebrief_install_id', value);
+      }
+      return value;
+    } catch {
+      return 'local';
+    }
+  })();
+
+  const dailyHeadlines = [
+    "Today's tech, without the noise.",
+    "The day's signal, not the feed's static.",
+    "Fewer tabs. Better tech.",
+    "What matters in tech today.",
+    "The useful version of today's internet.",
+    "Tech news, trimmed to the point.",
+    "Today's useful tech, nothing extra.",
+    "The brief your browser wishes it wrote."
+  ];
+
+  function pickDailyHeadline(userKey) {
+    const date = new Date().toISOString().slice(0, 10);
+    const seed = `${date}:${userKey}`;
+    let hash = 0;
+    for (let i = 0; i < seed.length; i += 1) {
+      hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+    }
+    if (els.homeTitle) {
+      els.homeTitle.textContent = dailyHeadlines[hash % dailyHeadlines.length];
+    }
+  }
+
+  authPromise.then(ctx => {
+    pickDailyHeadline(ctx?.user?.uid || installId);
+  });
 
   dataPromise
     .then(data => {
