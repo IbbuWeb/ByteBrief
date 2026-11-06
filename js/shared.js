@@ -282,14 +282,25 @@ function bottomNavMarkup(page) {
     .join('');
 }
 
-const UPDATE_DISMISS_KEY = 'bytebrief_update_v1_dismissed';
+const UPDATE_DISMISS_KEY = 'bytebrief_update_alerts_v1_dismissed';
+const UPDATE_SUBSCRIBED_KEY = 'bytebrief_update_alerts_v1_subscribed';
 
 function initUpdateBanner() {
+  let dismissed = false;
+  let subscribed = false;
   try {
-    if (localStorage.getItem(UPDATE_DISMISS_KEY) === 'true') return;
+    dismissed = localStorage.getItem(UPDATE_DISMISS_KEY) === 'true';
+    subscribed = localStorage.getItem(UPDATE_SUBSCRIBED_KEY) === 'true';
   } catch {
     return;
   }
+
+  if (dismissed) return;
+  if (!('Notification' in window) || !('serviceWorker' in navigator) || !('PushManager' in window)) {
+    return;
+  }
+  if (window.Notification.permission === 'denied') return;
+  if (window.Notification.permission === 'granted' && subscribed) return;
 
   const skipLink = document.querySelector('.skip-link');
   if (!skipLink || document.getElementById('appUpdateBanner')) return;
@@ -301,21 +312,72 @@ function initUpdateBanner() {
   banner.innerHTML = `
     <div class="shell app-update__inner">
       <span class="app-update__label">Update</span>
-      <p><strong>ByteBrief got an update.</strong> Cleaner cards, text-first stories, and a smoother Saved page.</p>
+      <div class="app-update__copy">
+        <p><strong>ByteBrief got an update.</strong> Cleaner cards, text-first stories, and a smoother Saved page.</p>
+        <p class="app-update__status" id="updateAlertsStatus"></p>
+      </div>
+      <button class="app-update__action" id="updateAlertsEnable" type="button">Turn on alerts</button>
       <button class="app-update__close" type="button" aria-label="Dismiss update notice">
-        ${ICONS.close || '×'}
+        ${ICONS.close}
       </button>
     </div>
   `;
 
-  skipLink.insertAdjacentElement('afterend', banner);
-  banner.querySelector('.app-update__close')?.addEventListener('click', () => {
+  const status = banner.querySelector('#updateAlertsStatus');
+  const enableButton = banner.querySelector('#updateAlertsEnable');
+  const closeButton = banner.querySelector('.app-update__close');
+
+  enableButton.addEventListener('click', async () => {
+    enableButton.disabled = true;
+    enableButton.textContent = 'Turning on...';
+    if (status) status.textContent = '';
+
+    try {
+      const { enableUpdateAlerts } = await import('./update-alerts.js');
+      const result = await enableUpdateAlerts();
+
+      if (result.subscribed) {
+        if (status) status.textContent = 'Update alerts are on.';
+        try {
+          localStorage.setItem(UPDATE_DISMISS_KEY, 'true');
+          localStorage.setItem(UPDATE_SUBSCRIBED_KEY, 'true');
+        } catch {}
+        window.setTimeout(() => banner.remove(), 1600);
+        return;
+      }
+
+      if (result.permission === 'denied') {
+        if (status) status.textContent = 'Notifications are blocked in browser settings.';
+        enableButton.remove();
+        try {
+          localStorage.setItem(UPDATE_DISMISS_KEY, 'true');
+        } catch {}
+        return;
+      }
+
+      if (status) status.textContent = 'Notifications were not enabled.';
+      enableButton.disabled = false;
+      enableButton.textContent = 'Turn on alerts';
+    } catch (error) {
+      console.warn('Could not enable update alerts:', error);
+      if (status) {
+        status.textContent = error.message || 'Could not enable update alerts.';
+      }
+      enableButton.disabled = false;
+      enableButton.textContent = 'Turn on alerts';
+    }
+  });
+
+  closeButton.addEventListener('click', () => {
     try {
       localStorage.setItem(UPDATE_DISMISS_KEY, 'true');
     } catch {}
     banner.remove();
   });
+
+  skipLink.insertAdjacentElement('afterend', banner);
 }
+
 
 export function initShell(page = '') {
   const header = document.getElementById('siteHeader');

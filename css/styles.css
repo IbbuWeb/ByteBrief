@@ -177,6 +177,41 @@ ol {
   line-height: 1.45;
 }
 
+.app-update__copy {
+  min-width: 0;
+  flex: 1;
+}
+
+.app-update__status {
+  margin-top: 4px;
+  font-size: 11px;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.app-update__action {
+  flex-shrink: 0;
+  min-height: 36px;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.32);
+  border-radius: 0;
+  background: rgba(23, 20, 16, 0.16);
+  color: var(--on-accent);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.app-update__action:hover {
+  background: rgba(23, 20, 16, 0.32);
+}
+
+.app-update__action:disabled {
+  opacity: 0.72;
+  cursor: wait;
+}
+
 .app-update__close {
   flex-shrink: 0;
   width: 36px;

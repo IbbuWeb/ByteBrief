@@ -54,7 +54,8 @@
         <h2>Where it lives</h2>
         <p>Authentication and Firestore are provided by Google Firebase. Data is stored in the Firebase project configured in <code>js/firebase-config.js</code> and is subject to Google Cloud's terms. ByteBrief has no separate application server and does not copy your account data anywhere else.</p>
 
-        <h2>Local browser storage</h2>
+        <h2>Update alerts</h2>
+<p>If you tap Turn on alerts, ByteBrief asks the browser for notification permission and stores a push subscription in Firestore. That subscription contains the browser's push endpoint and encryption keys. It does not contain your name, email, reading history, or topics. You can revoke permission in browser settings; ByteBrief cannot remove a browser-level denial.</p>
         <ul>
           <li><code>theme</code> remembers dark or light mode.</li>
           <li><code>bytebrief_pending_save</code> briefly holds a story you tried to save before signing in. It is cleared as soon as the save finishes.</li>

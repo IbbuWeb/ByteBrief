@@ -1,0 +1,4 @@
+export const UPDATE_ALERT_PUBLIC_KEY =
+  'BCKtXQM-GyBTRAMPDYFmKOj0y32JqKylgEIOGyjrAaec6hP9wnuwi4HKOBTldyXqQO5kJ-eaL4A5K7uArNxqrBQ';
+
+export const UPDATE_ALERT_VERSION = 'v1';

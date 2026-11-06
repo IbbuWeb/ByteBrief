@@ -54,5 +54,18 @@ service cloud.firestore {
       allow update: if ownsRecord()
         && request.resource.data.userId == request.auth.uid;
     }
+    match /pushSubscriptions/{subscriptionId} {
+      allow get, list, update, delete: if false;
+      allow create: if request.resource.data.keys().hasOnly(['endpoint', 'p256dh', 'auth', 'createdAt'])
+        && subscriptionId.matches('^[A-Za-z0-9_-]{20,64}$')
+        && request.resource.data.endpoint is string
+        && request.resource.data.endpoint.size() <= 8192
+        && request.resource.data.endpoint.matches('^https://.*')
+        && request.resource.data.p256dh is string
+        && request.resource.data.p256dh.size() <= 512
+        && request.resource.data.auth is string
+        && request.resource.data.auth.size() <= 256
+        && request.resource.data.createdAt is timestamp;
+    }
   }
 }

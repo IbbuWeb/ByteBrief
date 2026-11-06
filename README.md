@@ -86,6 +86,22 @@ firebase deploy --only firestore:rules
 
 No Firebase SDK is loaded for anonymous reading.
 
+## Update alerts
+
+ByteBrief can show a one-time in-app banner asking users to turn on update alerts. If they agree, their browser push subscription is stored in the `pushSubscriptions` Firestore collection.
+
+To send the one-time notice later:
+
+```bash
+npm install --no-save firebase-admin web-push
+WEBPUSH_VAPID_PRIVATE_KEY=<private key> npm run send:update:dry
+WEBPUSH_VAPID_PRIVATE_KEY=<private key> npm run send:update
+```
+
+The private VAPID key is stored outside the repository at `%LOCALAPPDATA%\\ByteBrief\\vapid-private-key.txt`. The public key lives in `js/vapid.js`. The service worker is `sw.js`.
+
+8. Update alerts use a service worker (`sw.js`) and a public Firestore collection named `pushSubscriptions`. Deploy the rules, then generate or reuse the VAPID key pair. The public key is in `js/vapid.js`; the private key is kept outside the repository at `%LOCALAPPDATA%\\ByteBrief\\vapid-private-key.txt`. To send the one-time notice later, install `firebase-admin` and `web-push`, set `WEBPUSH_VAPID_PRIVATE_KEY`, then run `npm run send:update:dry` followed by `npm run send:update`.
+
 ## Deployment
 
 The site is built for GitHub Pages at `/ByteBrief/`.
