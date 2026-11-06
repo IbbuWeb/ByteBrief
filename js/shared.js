@@ -466,7 +466,7 @@ export function initAuth() {
           const finish = user => {
             if (settled) return;
             settled = true;
-            resolve({ user, firebase, authApi, dbApi });
+            resolve({ user, firebase, authApi, dbApi, db: firebase.db });
           };
 
           try {
