@@ -18,11 +18,63 @@ import {
   showToast,
   stashPendingSave,
   toggleSaved
-} from './shared.js';
+} from './shared.js?v=20261107-1';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
 const CATEGORY_ORDER = ['ai', 'programming', 'hardware', 'startups', 'cybersecurity', 'tech', 'cloud', 'mobile', 'gaming', 'science', 'opensource', 'privacy', 'business'];
+const DAILY_TOP_KEY = 'bytebrief_daily_top';
+const DAILY_TOP_COUNT = 3;
+
+function todayKey() {
+  return new Date().toISOString().slice(0, 10);
+}
+
+function shuffleArticles(articles) {
+  const copy = [...articles];
+  for (let i = copy.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [copy[i], copy[j]] = [copy[j], copy[i]];
+  }
+  return copy;
+}
+
+// The top 3 stay put all day; the rest reshuffles on every page load.
+function orderForToday(articles) {
+  const byLink = new Map(articles.map(article => [safeUrl(article.link), article]));
+
+  let saved = null;
+  try {
+    saved = JSON.parse(localStorage.getItem(DAILY_TOP_KEY) || 'null');
+  } catch {
+    saved = null;
+  }
+
+  const top = saved?.date === todayKey() && Array.isArray(saved.links)
+    ? saved.links.map(link => byLink.get(link)).filter(Boolean).slice(0, DAILY_TOP_COUNT)
+    : [];
+
+  const used = new Set(top.map(article => safeUrl(article.link)));
+  for (const article of articles) {
+    if (top.length === DAILY_TOP_COUNT) break;
+    const link = safeUrl(article.link);
+    if (!link || used.has(link)) continue;
+    top.push(article);
+    used.add(link);
+  }
+
+  try {
+    localStorage.setItem(
+      DAILY_TOP_KEY,
+      JSON.stringify({ date: todayKey(), links: top.map(article => safeUrl(article.link)) })
+    );
+  } catch {
+    /* storage can be unavailable; the feed still works */
+  }
+
+  const rest = articles.filter(article => !used.has(safeUrl(article.link)));
+  return [...top, ...shuffleArticles(rest)];
+}
 
 const state = {
   data: null,
@@ -133,6 +185,7 @@ function boot() {
   dataPromise
     .then(data => {
       state.data = data;
+      state.data.articles = orderForToday(state.data.articles);
       prepareShared();
       renderPage();
     })
@@ -282,9 +335,7 @@ function renderPage() {
 }
 
 function sortedArticles() {
-  return [...state.data.articles].sort(
-    (a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0)
-  );
+  return [...state.data.articles];
 }
 
 function pickBriefStories() {

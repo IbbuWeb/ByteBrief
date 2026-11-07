@@ -339,7 +339,7 @@ function initUpdateBanner() {
     if (status) status.textContent = '';
 
     try {
-      const { enableUpdateAlerts } = await import('./update-alerts.js');
+      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261107-1');
       const result = await enableUpdateAlerts();
 
       if (result.subscribed) {
@@ -461,7 +461,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js'),
+    import('./firebase-config.js?v=20261107-1'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])

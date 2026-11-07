@@ -11,7 +11,7 @@ import {
   safeUrl,
   shareArticle,
   showToast
-} from './shared.js';
+} from './shared.js?v=20261107-1';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];

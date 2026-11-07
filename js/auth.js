@@ -4,7 +4,7 @@ import {
   initThemeToggle,
   safeRedirect,
   showToast
-} from './shared.js';
+} from './shared.js?v=20261107-1';
 
 const button = document.getElementById('googleSignInBtn');
 const label = document.getElementById('googleSignInLabel');

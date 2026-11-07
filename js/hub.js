@@ -11,7 +11,7 @@ import {
   renderRepoCard,
   renderSourceCard,
   safeUrl
-} from './shared.js';
+} from './shared.js?v=20261107-1';
 
 const SECTIONS = [
   { key: 'trending', label: 'Trending' },
