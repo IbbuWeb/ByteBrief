@@ -1,33 +1,540 @@
 {
-  "generatedAt": "2026-11-07T17:45:25.875Z",
+  "generatedAt": "2026-11-07T21:52:46.941Z",
   "articles": [
     {
-      "id": "29a5e4bb8e5a",
-      "title": "Snapchat's Find Friends feature will be off by default for UK users under 18",
-      "link": "https://www.engadget.com/2310117/snapchats-find-friends-feature-will-be-off-by-default-for-uks-under-18-users/",
-      "description": "The platform is rolling out this change in the country starting this month.",
-      "thumbnail": "https://www.engadget.com/img/gallery/snapchats-find-friends-feature-will-be-off-by-default-for-uk-users-under-18/l-intro-1794072257.jpg",
+      "id": "f2d7573f0e46",
+      "title": "Show HN: An offline desktop companion to help maintain a healthy blink rhythm",
+      "link": "https://eyesrhythm.com/",
+      "description": "",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T21:47:47.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "prnysoni"
+    },
+    {
+      "id": "f340bcbbf716",
+      "title": "How often should you restart your Fitbit watch?",
+      "link": "https://www.engadget.com/2309565/how-often-should-restart-fitbit-watch/",
+      "description": "The old \"turn it off and turn it on again\" trick can come in handy for certain situations.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-often-should-you-restart-your-fitbit-watch/l-intro-1793889829.jpg",
       "source": "Engadget",
-      "publishedAt": "2026-11-07T17:31:17.000Z",
+      "publishedAt": "2026-11-07T21:45:00.000Z",
       "categories": [
         "tech"
       ],
-      "author": "staff@engadget.com (Jackson Chen)"
+      "author": "staff@engadget.com (Christine Persaud)"
     },
     {
-      "id": "46c131ab99c7",
-      "title": "5 Google Messages settings you might want to disable",
-      "link": "https://www.engadget.com/2306181/google-messages-settings-might-want-to-disable/",
-      "description": "Google Messages is easily one of the best messaging apps available on Android, but that doesn't mean it's configured perfectly out of the box.",
-      "thumbnail": "https://www.engadget.com/img/gallery/5-google-messages-settings-you-might-want-to-disable/l-intro-1793762765.jpg",
+      "id": "47df805b9c02",
+      "title": "All Gold Skulltula locations in Ocarina of Time",
+      "link": "https://www.polygon.com/zelda-ocarina-of-time-remake-oot-gold-skulltula-token-locations-where-to-find/",
+      "description": "Gold Skulltulas are a collectible in Ocarina of Time, but they're also needed for a cursed family. Here's where to find every Gold Skulltula.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/gold-skulltula_oot.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-07T21:41:33.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Johnny Yu"
+    },
+    {
+      "id": "47cce9726cd1",
+      "title": "The built-in iPhone app for creativity you may be ignoring (but shouldn't)",
+      "link": "https://www.engadget.com/2309562/iphone-built-in-creativity-app-should-use-freeform/",
+      "description": "Your iPhone has a built-in app for brainstorming and visual planning that can turn scattered screenshots, sketches and notes into something you can share.",
+      "thumbnail": "https://www.engadget.com/img/gallery/the-built-in-iphone-app-for-creativity-you-may-be-ignoring-but-shouldnt/l-intro-1793900002.jpg",
       "source": "Engadget",
-      "publishedAt": "2026-11-07T17:30:00.000Z",
+      "publishedAt": "2026-11-07T21:30:00.000Z",
       "categories": [
         "hardware",
         "mobile",
         "tech"
       ],
-      "author": "staff@engadget.com (Max Miller)"
+      "author": "staff@engadget.com (Husain Parvez)"
+    },
+    {
+      "id": "25c6db8b93a8",
+      "title": "This RTX 5060 gaming PC costs less than the Steam Machine — grab the iBuyPower Slate prebuilt PC with massive $500 discount",
+      "link": "https://www.tomshardware.com/pc-components/this-rtx-5060-gaming-pc-costs-less-than-the-steam-machine-grab-the-ibuypower-slate-prebuilt-pc-with-massive-usd500-discount",
+      "description": "Best Buy knocks $500 off the iBUYPOWER Slate, bringing this RTX 5060-powered gaming desktop down to $899 with a Ryzen 5 processor, 16GB of DDR5 memory, and a 1TB SSD",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/9WfubkiBcJoBjUZEzfhJgG-1920-80.png",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-07T21:27:30.000Z",
+      "categories": [
+        "hardware",
+        "gaming"
+      ],
+      "author": "Kunal Khullar"
+    },
+    {
+      "id": "69c75581d56f",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "description": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "categories": [
+        "hardware",
+        "cybersecurity",
+        "business"
+      ],
+      "author": "Anthony Ha"
+    },
+    {
+      "id": "beee744cc1ed",
+      "title": "Your EV's battery is big enough to run your house — here's what stops most people",
+      "link": "https://www.engadget.com/2309559/ev-battery-can-power-house-what-stops-most-people/",
+      "description": "Today's EV batteries could let you power specific appliances or your entire house. But a few factors line up to make that idea a non-starter for most folks.",
+      "thumbnail": "https://www.engadget.com/img/gallery/your-evs-battery-is-big-enough-to-run-your-house-heres-what-stops-most-people/l-intro-1793901287.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T21:15:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Thomas Godwin)"
+    },
+    {
+      "id": "e8b5a79d39e4",
+      "title": "Shadow of the Sun",
+      "link": "https://mattlakeman.org/2021/07/27/shadow-of-the-sun/",
+      "description": "4 points · 2 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T21:11:05.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "andsoitis"
+    },
+    {
+      "id": "7aec4829f796",
+      "title": "Show HN: Where Were We",
+      "link": "https://wherewerewe.app/",
+      "description": "",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T21:08:35.000Z",
+      "categories": [
+        "gaming",
+        "programming"
+      ],
+      "author": "zkiihne"
+    },
+    {
+      "id": "5fc51f7f274e",
+      "title": "5 Incredible Anime Arcs That Are 10/10, No Notes",
+      "link": "https://www.polygon.com/perfect-anime-arcs-everyone-needs-to-watch/",
+      "description": "These anime storylines elevate these five series with thrilling character developments and satisfying resolutions.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/mob-psycho-scary-painting.webp",
+      "source": "Polygon",
+      "publishedAt": "2026-11-07T21:04:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Debopriyaa Dutta"
+    },
+    {
+      "id": "9fce9e770d8d",
+      "title": "Commander Shepard’s Actor Accidentally Immortalized One Mass Effect Race as Steve Buscemi",
+      "link": "https://www.polygon.com/mass-effect-commander-shepard-mark-meer-interview/",
+      "description": "Polygon spoke to Mass Effect's Mark Meer about how he joined the series and how he and fellow Shepard Jennifer Hale defined the character.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/7675959/mass_effect_2.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-07T21:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Austin Manchester"
+    },
+    {
+      "id": "6f48711fdb95",
+      "title": "Your old iPod could be a sleeper flash drive",
+      "link": "https://www.engadget.com/2306204/old-ipod-sleeper-flash-drive/",
+      "description": "Old iPods still work fine as digital audio players, but you can reuse them in other ways if you're not interested in listening to music on the go.",
+      "thumbnail": "https://www.engadget.com/img/gallery/your-old-ipod-could-be-a-sleeper-flash-drive/l-intro-1793774211.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T21:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Filipe Espósito)"
+    },
+    {
+      "id": "5186d80b7eef",
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "link": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
+      "description": "39 points · 21 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T20:45:32.000Z",
+      "categories": [
+        "ai",
+        "programming",
+        "opensource"
+      ],
+      "author": "shmulc"
+    },
+    {
+      "id": "1acc64dc9460",
+      "title": "There is no end in sight for the GPU supply problem",
+      "link": "https://www.engadget.com/2309554/gpu-supply-problem-no-end-in-sight/",
+      "description": "GPU prices have soared as the supply of memory has tightened, and it doesn't look like this is going to change any time soon (though a few optimists disagree).",
+      "thumbnail": "https://www.engadget.com/img/gallery/there-is-no-end-in-sight-for-the-gpu-supply-problem/l-intro-1793906814.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T20:45:00.000Z",
+      "categories": [
+        "hardware",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Alec Hively)"
+    },
+    {
+      "id": "86727e9c9805",
+      "title": "The No. 1 Horror Movie of 2026 Is Officially Leaving Peacock",
+      "link": "https://www.polygon.com/obsession-horror-hit-streaming-peacock-november-2026/",
+      "description": "Unless you have a One Wish Willow handy, you'll want to get in a final watch soon.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/mcdobse_uc003-1-1.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-07T20:34:48.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Ashley Potter"
+    },
+    {
+      "id": "6df6cfdb5cc8",
+      "title": "Indie App Spotlight: ‘CueFlip’ automatically turns the page for your sheet music",
+      "link": "https://9to5mac.com/2026/11/07/indie-app-spotlight-cueflip-automatically-turns-the-page-for-your-sheet-music/",
+      "description": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact . If you find yourself playing an instrument with sheet music, flipping the page often requires you to sto",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/CueFlip.jpg?quality=82&strip=all&w=1600",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-07T20:30:00.000Z",
+      "categories": [
+        "programming",
+        "hardware"
+      ],
+      "author": "Michael Burkhardt"
+    },
+    {
+      "id": "26b47ef26f43",
+      "title": "How long should a PC processor actually last?",
+      "link": "https://www.engadget.com/2309550/how-long-pc-processor-should-last/",
+      "description": "Your computer's CPU is its most important part, and its most expensive one, too. So how long can you expect it to last if cared for properly?",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-long-should-a-pc-processor-actually-last/l-intro-1793909396.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T20:30:00.000Z",
+      "categories": [
+        "hardware",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Robin Bea)"
+    },
+    {
+      "id": "808723b3cd8f",
+      "title": "Is AMD's Ryzen 7 5800X3D CPU still worth buying in 2026?",
+      "link": "https://www.engadget.com/2309549/amd-cpu-ryzen-7-5800x3d-worth-buying-2026/",
+      "description": "I've never regretted owning the 5800X3D, but before you spend $349 on a previous generation CPU, there are a few questions worth asking yourself.",
+      "thumbnail": "https://www.engadget.com/img/gallery/is-amds-ryzen-7-5800x3d-cpu-still-worth-buying-in-2026/l-intro-1793980120.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T20:15:00.000Z",
+      "categories": [
+        "hardware",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Igor Bonifacic)"
+    },
+    {
+      "id": "6479f51e6d56",
+      "title": "Missing Teen Saved From Alleged Kidnapper After Seeking Help in Among Us",
+      "link": "https://www.ign.com/articles/missing-teen-saved-from-alleged-kidnapper-after-seeking-help-in-among-us",
+      "description": "A Utah teenager was rescued from an Oregon man's home after she successfully contacted help from another child in Among Us.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/07/among-us-1794081958488.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-07T20:06:52.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Michael Cripe"
+    },
+    {
+      "id": "b232b868aaa0",
+      "title": "How to connect an Apple Pencil to your iPad",
+      "link": "https://www.engadget.com/2306765/how-to-connect-apple-pencil-ipad/",
+      "description": "An Apple Pencil adds great functionality to your iPad, but compatibility and pairing methods differ across models.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-to-connect-an-apple-pencil-to-your-ipad/l-intro-1793813396.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T20:00:00.000Z",
+      "categories": [
+        "hardware",
+        "mobile",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Roger Fingas)"
+    },
+    {
+      "id": "4bb92a1dac7a",
+      "title": "You can easily keep your home network running during a power outage — here's how",
+      "link": "https://www.engadget.com/2308573/how-to-keep-home-network-running-during-outage/",
+      "description": "Few things top the inconvenience of being in the middle of something online when the power goes out. Luckily, there are a few options to keep you connected.",
+      "thumbnail": "https://www.engadget.com/img/gallery/you-can-easily-keep-your-home-network-running-during-a-power-outage-heres-how/l-intro-1793913082.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T19:30:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Will Shanklin)"
+    },
+    {
+      "id": "2280704c397e",
+      "title": "How to set up SpaceXAI's Grok in Google Workspace (and what it can do)",
+      "link": "https://www.engadget.com/2309543/how-to-set-up-use-spacexai-grok-in-google-workspace/",
+      "description": "Inserting Grok into your Google Workspace is easy, but you'll want to consider a few things before rolling out the welcome mat.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-to-set-up-spacexais-grok-in-google-workspace-and-what-it-can-do/l-intro-1793988095.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T19:15:00.000Z",
+      "categories": [
+        "tech",
+        "ai"
+      ],
+      "author": "staff@engadget.com (Luke James)"
+    },
+    {
+      "id": "a5c0f68a0a6f",
+      "title": "Hands-on: Anker’s 10K MagGo 2 Pro offers fast 25W MagSafe charging with a kickstand",
+      "link": "https://9to5mac.com/2026/11/07/anker-maggo-2-pro-fast-magsafe-charger-for-iphone/",
+      "description": "Anker’s new MagGo Pro 2 power bank offers active cooling, 25W MagSafe fast charging, 10,000mAh of capacity, and a smart display – all in one package. Anker touts it as the fastest and coolest wireless power bank on the market. more…",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/DSC04231-2048x1024.jpg.jpeg?quality=82&strip=all&w=1600",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-07T19:11:00.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Michael Burkhardt"
+    },
+    {
+      "id": "b49df5f7f1c2",
+      "title": "Dropout’s Vic Michaelis Wants to Toss Their Star Wars Character Out a Window",
+      "link": "https://www.polygon.com/dropout-vic-michaelis-interview-star-wars-zero-company/",
+      "description": "Polygon spoke with Dropout's Vic Michaelis about their Star Wars Zero Company character Runa, one of the game's fan-favorite characters.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/star-wars-zero-company-runa-close-up.jpeg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-07T19:00:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Austin Manchester"
+    },
+    {
+      "id": "6653c5fed6fb",
+      "title": "Parents want safer phones for kids. These companies are answering the call.",
+      "link": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
+      "description": "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones.",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-620923891.jpg?resize=1200,800",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-07T19:00:00.000Z",
+      "categories": [
+        "mobile",
+        "hardware",
+        "startups"
+      ],
+      "author": "Lauren Forristal"
+    },
+    {
+      "id": "5d862193ce8d",
+      "title": "How a bottleneck calculator for your GPU and CPU works",
+      "link": "https://www.engadget.com/2306571/how-bottleneck-calculator-works-gpu-cpu/",
+      "description": "They're a quick way to help you check component compatibility before you build or upgrade a system.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-a-bottleneck-calculator-for-your-gpu-and-cpu-works/l-intro-1793806824.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T19:00:00.000Z",
+      "categories": [
+        "hardware",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Charles Burgar)"
+    },
+    {
+      "id": "230200b4cb06",
+      "title": "5 things you didn't know Steam's overlay could do",
+      "link": "https://www.engadget.com/2309539/things-you-didnt-know-steam-overlay-could-do/",
+      "description": "Steam's overlay hides several useful tools beyond its familiar chat window, including features that can help you play, stay organized, and connect with friends.",
+      "thumbnail": "https://www.engadget.com/img/gallery/5-things-you-didnt-know-steams-overlay-could-do/l-intro-1793988811.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T18:45:00.000Z",
+      "categories": [
+        "gaming",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Igor Bonifacic)"
+    },
+    {
+      "id": "6ebf05ac1784",
+      "title": "How to watch videos on Apple CarPlay while parked",
+      "link": "https://www.engadget.com/2306196/apple-carplay-how-to-watch-videos/",
+      "description": "iOS 27 introduced support for native video playback on CarPlay, with certain restrictions and requirements. Here's how to use the new feature.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-to-watch-videos-on-apple-carplay-while-parked/l-intro-1793770742.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T18:30:00.000Z",
+      "categories": [
+        "hardware",
+        "mobile",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Filipe Espósito)"
+    },
+    {
+      "id": "fcc035837b30",
+      "title": "Sony Announces Indefinite Delay for PlayStation's Pulse Elevate Wireless Speakers Days Before Launch",
+      "link": "https://www.ign.com/articles/sony-announces-indefinite-delay-for-playstations-pulse-elevate-wireless-speakers-days-before-launch",
+      "description": "Sony has announced an indefinite delay for PlayStation's Pulse Elevate wireless speakers just days before their global launch.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/07/sony-playstation-pulse-elevate-wireless-speakers-1794075420373.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-07T18:26:15.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Michael Cripe"
+    },
+    {
+      "id": "75029a6b2d9a",
+      "title": "People are modding the Tamagotchi Paradise to run Game Boy games",
+      "link": "https://www.engadget.com/2310126/people-are-modding-the-tamagotchi-paradise-to-run-game-boy-games/",
+      "description": "Someone figured out how to run Pokémon Gold and Silver on a Tamagotchi.",
+      "thumbnail": "https://www.engadget.com/img/gallery/people-are-modding-the-tamagotchi-paradise-to-run-game-boy-games/l-intro-1794074974.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T18:21:34.000Z",
+      "categories": [
+        "gaming",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Cheyenne MacDonald)"
+    },
+    {
+      "id": "f852983cc23e",
+      "title": "The reason your phone keeps dimming even with auto-brightness off",
+      "link": "https://www.engadget.com/2306646/reason-phone-keeps-dimming-auto-brightness-off/",
+      "description": "If your iPhone or Android phone's screen keeps darkening when you don't want it to, there are several possible explanations.",
+      "thumbnail": "https://www.engadget.com/img/gallery/the-reason-your-phone-keeps-dimming-even-with-auto-brightness-off/l-intro-1793800884.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-07T18:15:00.000Z",
+      "categories": [
+        "hardware",
+        "mobile",
+        "tech"
+      ],
+      "author": "staff@engadget.com (David Engle)"
+    },
+    {
+      "id": "b2196d54740f",
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "link": "https://blog.bosscher.ch/posts/openstick/",
+      "description": "186 points · 41 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T18:12:12.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "LaurensBER"
+    },
+    {
+      "id": "aff8c97b0bc1",
+      "title": "NASA Seeks Next Generation of Explorers to Join Astronaut Corps",
+      "link": "https://www.nasa.gov/news-release/nasa-seeks-next-generation-of-explorers-to-join-astronaut-corps/",
+      "description": "NASA is looking for the explorers who will help write the next chapter of human spaceflight. Applications are now open for the agency’s next class of astronauts, who will join NASA as America returns to the Moon, builds the Moon Base, and lays the groundwork for the first crewed missions to Mars. Th",
+      "thumbnail": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2025e076292large.jpg?w=1920",
+      "source": "NASA Breaking News",
+      "publishedAt": "2026-11-07T18:11:57.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": "Jessica Taveau"
+    },
+    {
+      "id": "1eeaf5457cb1",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "link": "https://hunch.net/?p=13764006",
+      "description": "248 points · 139 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T18:02:17.000Z",
+      "categories": [
+        "ai",
+        "science",
+        "programming"
+      ],
+      "author": "srean"
+    },
+    {
+      "id": "352469072136",
+      "title": "Hands-on: I tested a bunch of iPhone Duo cases, these are my favorites [Video]",
+      "link": "https://9to5mac.com/2026/11/07/hands-on-i-tested-a-bunch-of-iphone-duo-cases-these-are-my-favorites-video/",
+      "description": "For the first time in a long time, I can say that iPhone cases are fun again! The introduction of the iPhone Duo has brought us a new era of cases in all shapes, sizes, functions, and form factors. We are still in the infancy of this new ecosystem of iPhone Duo-compatible cases, so manufacturers are",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Cases-FI.jpg?quality=82&strip=all&w=1600",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-07T18:02:09.000Z",
+      "categories": [
+        "hardware",
+        "mobile"
+      ],
+      "author": "Fernando Silva"
+    },
+    {
+      "id": "57bcfa8b4780",
+      "title": "I Wouldn’t Dream of Playing the Zelda: Ocarina of Time Remake Right Now",
+      "link": "https://www.polygon.com/switchboard-zelda-ocarina-of-time-switch-2-remake/",
+      "description": "The Legenda of Zelda: OoT is sacred, so I'll be waiting to playing the Switch 2 remake",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/the-legend-of-zelda-ocarina-of-time-sheik-with-harp.png",
+      "source": "Polygon",
+      "publishedAt": "2026-11-07T18:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Oli Welsh"
+    },
+    {
+      "id": "c38557adbea1",
+      "title": "GeoWorks, Microsoft Windows' Upstart '90s Competitor (2016)",
+      "link": "https://www.atlasobscura.com/articles/the-history-of-geoworks-microsoft-windows-upstart-90s-competitor",
+      "description": "26 points · 5 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T17:54:56.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "andsoitis"
+    },
+    {
+      "id": "58bc4fb36c52",
+      "title": "iPhone Air 2 is coming next year, here’s why it has more to prove than ever",
+      "link": "https://9to5mac.com/2026/11/07/iphone-air-2-launching-early-next-year/",
+      "description": "Next spring, Apple will take the stage to unveil the second-generation iPhone Air to the world, after taking a bit more time to go back to the drawing board and incorporate a second camera into the design. That said, iPhone Air is no longer the flashy cool phone, now iPhone Duo is. With that being t",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/08/iphone-air-falling.jpg?quality=82&strip=all&w=1600",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-07T17:45:55.000Z",
+      "categories": [
+        "hardware",
+        "mobile"
+      ],
+      "author": "Michael Burkhardt"
+    },
+    {
+      "id": "e2ddf63848ab",
+      "title": "Five memorable books about programming (2008)",
+      "link": "https://prog21.dadgum.com/19.html",
+      "description": "56 points · 26 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T17:30:49.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "andsoitis"
     },
     {
       "id": "feaa1053b777",
@@ -42,6 +549,19 @@
         "programming"
       ],
       "author": "Ankit Jain"
+    },
+    {
+      "id": "22c2789dd322",
+      "title": "Mass Effect Cast Celebrates N7 Day With Video Asking Fans to Help Save the Franchise",
+      "link": "https://www.ign.com/articles/mass-effect-cast-celebrates-n7-day-with-video-asking-fans-to-help-save-the-franchise",
+      "description": "Without BioWare, N7 Day is quieter this year, but that didn't stop the Normandy cast and crew from teaming up for a video message asking fans to help save Mass Effect.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/08/17/me1-blogroll-1786972844387.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-07T17:28:09.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Michael Cripe"
     },
     {
       "id": "75033d6b18a0",
@@ -84,6 +604,20 @@
       "author": "Anthony Ha"
     },
     {
+      "id": "152675bb7018",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "link": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "description": "125 points · 32 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T17:19:00.000Z",
+      "categories": [
+        "science",
+        "programming"
+      ],
+      "author": "antiuniverse"
+    },
+    {
       "id": "bf69aa313637",
       "title": "Amazon’s new basic Kindle proves you don’t need all the bells and whistles",
       "link": "https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles/",
@@ -98,23 +632,10 @@
       "author": "Sarah Perez"
     },
     {
-      "id": "d6db654e9ab7",
-      "title": "How to legally download free movies to your computer",
-      "link": "https://www.engadget.com/2306356/how-to-legally-download-free-movies/",
-      "description": "There are services that will allow you to download movies from the public domain, and several streaming services let you download shows for offline viewing.",
-      "thumbnail": "https://www.engadget.com/img/gallery/how-to-legally-download-free-movies-to-your-computer/l-intro-1793799706.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T17:15:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Maddie Fisher)"
-    },
-    {
       "id": "9c95d9f4cc46",
-      "title": "Apple Keyboard has a blacklist of phrases you can't swipe",
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
       "link": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you",
-      "description": "25 points · 8 comments",
+      "description": "233 points · 148 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-07T17:06:36.000Z",
@@ -124,20 +645,6 @@
         "programming"
       ],
       "author": "user_7832"
-    },
-    {
-      "id": "e4b2efd1b372",
-      "title": "Apple also made its classical music app's logo black and white",
-      "link": "https://www.engadget.com/2310114/apple-also-made-its-classical-music-apps-logo-black-and-white/",
-      "description": "Apple Music Classical now has a black-and-white logo, as well.",
-      "thumbnail": "https://www.engadget.com/img/gallery/apple-also-made-its-classical-music-apps-logo-black-and-white/l-intro-1794070514.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T17:06:13.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Mariella Moon)"
     },
     {
       "id": "790d2e5093ff",
@@ -182,20 +689,6 @@
       "author": "Sponsored Post"
     },
     {
-      "id": "e444ca0e1b5f",
-      "title": "How does the digital ink in ereaders work?",
-      "link": "https://www.engadget.com/2306305/how-does-ereader-nook-amazon-kindle-digital-ink-work/",
-      "description": "Unlike regular LCD and OLED displays, ereaders rely on e-ink tech that lets them gently sip power and last for months. Here's the science behind how it works.",
-      "thumbnail": "https://www.engadget.com/img/gallery/how-does-the-digital-ink-in-ereaders-work/l-intro-1793794207.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T17:00:00.000Z",
-      "categories": [
-        "science",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Roger Fingas)"
-    },
-    {
       "id": "2431af9662c0",
       "title": "BioWare May Be Dead, But a Modder Has Rebuilt Mass Effect 3's Multiplayer Into the Legendary Edition",
       "link": "https://www.ign.com/articles/bioware-may-be-dead-but-a-modder-has-rebuilt-mass-effect-3s-multiplayer-into-the-legendary-edition",
@@ -236,33 +729,6 @@
       "author": "Tomas Franzese"
     },
     {
-      "id": "25d65608d6e8",
-      "title": "Solar panel breakthrough could almost double the efficiency of today's panels",
-      "link": "https://www.engadget.com/2306188/solar-panel-efficiency-breakthrough-doubles-output/",
-      "description": "Solar panels have become much more efficient since their infancy, but research breakthroughs show there's still plenty of room for improvement.",
-      "thumbnail": "https://www.engadget.com/img/gallery/solar-panel-breakthrough-could-almost-double-the-efficiency-of-todays-panels/l-intro-1793766160.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T16:45:00.000Z",
-      "categories": [
-        "science",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Ian Carlos Campbell)"
-    },
-    {
-      "id": "be49f8fbbadf",
-      "title": "This GPS navigation app should be the go-to for older drivers",
-      "link": "https://www.engadget.com/2305919/gps-navigation-app-go-to-older-drivers-google-maps/",
-      "description": "Nervous about driving somewhere new? One familiar navigation app has simple turn-by-turn directions that help older drivers feel more confident.",
-      "thumbnail": "https://www.engadget.com/img/gallery/this-gps-navigation-app-should-be-the-go-to-for-older-drivers/l-intro-1793733691.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T16:30:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Gabriela Vătu)"
-    },
-    {
       "id": "7dfd87c5e2a3",
       "title": "In the software factory, engineers become process engineers",
       "link": "https://thenewstack.io/engineers-become-process-engineers/",
@@ -277,9 +743,9 @@
     },
     {
       "id": "a83c33866c41",
-      "title": "How Long Can Life Wait?",
+      "title": "How long can life wait?",
       "link": "https://mceglowski.substack.com/p/how-long-can-life-wait",
-      "description": "33 points · 5 comments",
+      "description": "98 points · 54 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-07T16:22:59.000Z",
@@ -289,18 +755,18 @@
       "author": "Ariarule"
     },
     {
-      "id": "2e4d46b940a1",
-      "title": "What gamers should know when bringing their consoles through TSA",
-      "link": "https://www.engadget.com/2305767/gamers-tsa-game-console-rules/",
-      "description": "You're allowed to bring your game consoles through the TSA line, but what exactly you need to do depends on the airport and console size.",
-      "thumbnail": "https://www.engadget.com/img/gallery/what-gamers-should-know-when-bringing-their-consoles-through-tsa/l-intro-1793735560.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T16:15:00.000Z",
+      "id": "d7778c9e4e9e",
+      "title": "Every processor die anyone has photographed and given away",
+      "link": "https://sheets.works/data-viz/cpu-dies",
+      "description": "54 points · 12 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T16:21:36.000Z",
       "categories": [
-        "gaming",
-        "tech"
+        "hardware",
+        "programming"
       ],
-      "author": "staff@engadget.com (Deven McClure)"
+      "author": "user_7832"
     },
     {
       "id": "d7c16a81f41e",
@@ -319,7 +785,7 @@
       "id": "205f4e514c1c",
       "title": "They don't make 'em like that any more: Borland Turbo Pascal 7",
       "link": "https://kevinboone.me/tpwin.html",
-      "description": "67 points · 45 comments",
+      "description": "167 points · 92 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-07T16:06:27.000Z",
@@ -327,6 +793,19 @@
         "programming"
       ],
       "author": "andsoitis"
+    },
+    {
+      "id": "8c245c685254",
+      "title": "Terry Pratchett's Study",
+      "link": "https://www.sussi.dk/terry-pratchetts-study",
+      "description": "60 points · 12 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-07T16:05:45.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "ColinWright"
     },
     {
       "id": "131c7319af2c",
@@ -356,21 +835,6 @@
       "author": "Terrence O’Brien"
     },
     {
-      "id": "fec5f7ea3c74",
-      "title": "The right way to fix your MacBook keyboard if it isn't responding",
-      "link": "https://www.engadget.com/2305570/macbook-keyboard-fix-not-responding/",
-      "description": "Don't count out your MacBook's keyboard just yet - a quick hardware cleaning or software toggle could get it working again.",
-      "thumbnail": "https://www.engadget.com/img/gallery/the-right-way-to-fix-your-macbook-keyboard-if-it-isnt-responding/l-intro-1793730202.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T16:00:00.000Z",
-      "categories": [
-        "programming",
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Filipe Espósito)"
-    },
-    {
       "id": "fa06ff8fdc83",
       "title": "NYT Cooking’s AI assistant saved my weeknight chicken, but almost ruined my cake",
       "link": "https://www.theverge.com/tech/1029489/nyt-cooking-ai-assistant-review",
@@ -383,19 +847,6 @@
         "tech"
       ],
       "author": "Jennifer Pattison Tuohy"
-    },
-    {
-      "id": "c4bbdf9fc883",
-      "title": "Cleaning your PC with expired isopropyl alcohol can be risky — here's why",
-      "link": "https://www.engadget.com/2305456/why-isopropyl-alcohol-degrades-pc-cleaning/",
-      "description": "Think twice before grabbing that old bottle. Here's why expired isopropyl alcohol can harm your PC and how to clean it the safe way instead.",
-      "thumbnail": "https://www.engadget.com/img/gallery/cleaning-your-pc-with-expired-isopropyl-alcohol-can-be-risky-heres-why/l-intro-1793654072.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T15:45:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Deven McClure)"
     },
     {
       "id": "73be1ddc7ff2",
@@ -411,34 +862,6 @@
         "startups"
       ],
       "author": "Terrence O’Brien"
-    },
-    {
-      "id": "1f27bd28afef",
-      "title": "GI Joe and Paranormal Activity Get New Official Release Dates from Paramount",
-      "link": "https://www.polygon.com/paramount-gi-joe-release-date-paranormal-activity-delay/",
-      "description": "Paramount reveals the release date for Danny McBride's GI Joe reboot and delays the next installment in the Paranormal Activity series.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/mcdpaac_ec023.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-07T15:31:59.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Ashely Claudino"
-    },
-    {
-      "id": "5caa14db9b78",
-      "title": "How to use your old tablet to build a live streaming setup",
-      "link": "https://www.engadget.com/2304970/how-to-build-live-streaming-setup-with-old-tablet/",
-      "description": "You don't always need to buy new products just to start live streaming. This app lets you reuse an old tablet as the centerpiece of your setup.",
-      "thumbnail": "https://www.engadget.com/img/gallery/how-to-use-your-old-tablet-to-build-a-live-streaming-setup/l-intro-1793689754.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T15:30:00.000Z",
-      "categories": [
-        "hardware",
-        "mobile",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Filipe Espósito)"
     },
     {
       "id": "de8ccb16fc67",
@@ -467,61 +890,6 @@
         "cybersecurity"
       ],
       "author": "Bill Toulas"
-    },
-    {
-      "id": "021d38d146d3",
-      "title": "World of Warcraft Forever Officially Breaks Records For The 22-Year-Old MMO",
-      "link": "https://www.polygon.com/world-of-warcraft-forever-record-breaking-launch/",
-      "description": "World of Warcraft got a whole lot of people to come back and play the MMO together",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/wow_forever_scenic_announce_race_class_newcombos_054.png",
-      "source": "Polygon",
-      "publishedAt": "2026-11-07T15:25:08.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Tomas Franzese"
-    },
-    {
-      "id": "f45973610354",
-      "title": "Show HN: We compressed a 31B video+audio diffusion model to 14B, 6 steps, INT8",
-      "link": "https://github.com/Video-Rebirth/hyperflow-h3-flash",
-      "description": "4 points · 0 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-07T15:16:01.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "jiant"
-    },
-    {
-      "id": "6c7acf60d37a",
-      "title": "How iOS can warn you when one of your passwords shows up in a data leak",
-      "link": "https://www.engadget.com/2305444/how-ios-warn-password-shows-up-data-leak/",
-      "description": "You'll be warned if your credentials stored in Apple Passwords are weak or compromised so you can take appropriate action.",
-      "thumbnail": "https://www.engadget.com/img/gallery/how-ios-can-warn-you-when-one-of-your-passwords-shows-up-in-a-data-leak/l-intro-1793725978.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T15:15:00.000Z",
-      "categories": [
-        "hardware",
-        "mobile",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Husain Parvez)"
-    },
-    {
-      "id": "63d98bf9080d",
-      "title": "Ask HN: How did you convince family and friends to join your XMPP/Matrix server?",
-      "link": "https://news.ycombinator.com/item?id=50405250",
-      "description": "",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-07T15:14:40.000Z",
-      "categories": [
-        "programming",
-        "opensource"
-      ],
-      "author": "mtlynch"
     },
     {
       "id": "055e03fe8fc4",
@@ -553,19 +921,6 @@
       "author": "Thomas Claburn"
     },
     {
-      "id": "3f8234567644",
-      "title": "Why you don't really need an expensive, high-end router",
-      "link": "https://www.engadget.com/2305411/why-you-dont-need-expensive-high-end-router/",
-      "description": "Getting a top-of-the-line router won't necessarily increase your internet speeds. Here's what you need to know before you buy.",
-      "thumbnail": "https://www.engadget.com/img/gallery/why-you-dont-really-need-an-expensive-high-end-router/l-intro-1793041101.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T15:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Nimrod Aldea)"
-    },
-    {
       "id": "f0c3875dbf03",
       "title": "This week in Tom's Hardware Premium: November 7, 2026",
       "link": "https://www.tomshardware.com/tech-industry/this-week-in-toms-hardware-premium-november-7-2026-micron-roadmap-apples-touchscreen-ambitions-globalfoundries-interview-and-much-more",
@@ -577,19 +932,6 @@
         "hardware"
       ],
       "author": "Sayem Ahmed"
-    },
-    {
-      "id": "d09a6c749a45",
-      "title": "One Of Hollywood's Biggest Stars Just Auditioned For James Bond",
-      "link": "https://www.polygon.com/james-bond-robert-pattinson/",
-      "description": "Robert Pattinson might be our next James Bond, according to new reports about the next James Bond film",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/19879751/bond_25_B25_25594_R_rgb.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-07T14:51:43.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Tomas Franzese"
     },
     {
       "id": "eb20fdeaf759",
@@ -605,19 +947,6 @@
       "author": "Jowi Morales"
     },
     {
-      "id": "c201b959bff7",
-      "title": "Windows PowerToys can automate some of your more tedious PC tasks",
-      "link": "https://www.engadget.com/2305351/windows-powertoys-automate-pc-tasks/",
-      "description": "PowerToys is a secret weapon for Windows users, with tons of handy utilities to help you save time on your PC every day.",
-      "thumbnail": "https://www.engadget.com/img/gallery/windows-powertoys-can-automate-some-of-your-more-tedious-pc-tasks/l-intro-1793722923.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T14:45:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Luke James)"
-    },
-    {
       "id": "9aabf39f7414",
       "title": "Good riddance, Cybertruck!",
       "link": "https://www.theverge.com/transportation/1029460/elon-musk-cybertruck-death-election-backlash",
@@ -629,19 +958,6 @@
         "tech"
       ],
       "author": "Andrew J. Hawkins"
-    },
-    {
-      "id": "b0a682a7c6bf",
-      "title": "The accessory Samsung Galaxy S26 users should be taking advantage of",
-      "link": "https://www.engadget.com/2304963/samsung-galaxy-s26-users-accessory-take-advantage-of/",
-      "description": "There's a lot to like about Samsung's Galaxy S26 phones, especially the S26 Ultra, but some users may not be taking full advantage of what they have to offer.",
-      "thumbnail": "https://www.engadget.com/img/gallery/the-accessory-samsung-galaxy-s26-users-should-be-taking-advantage-of/l-intro-1793687035.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-07T14:30:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Max Miller)"
     },
     {
       "id": "7a1ea973f294",
@@ -656,20 +972,6 @@
         "hardware"
       ],
       "author": "Ben Stockton"
-    },
-    {
-      "id": "67538c1327ea",
-      "title": "The Gordon Gekko Effect: The Role of Culture in the Financial Industry [pdf]",
-      "link": "https://www.newyorkfed.org/medialibrary/media/research/epr/2016/epr_2016_gordon-gekko-effect_lo.pdf",
-      "description": "16 points · 8 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-07T14:18:45.000Z",
-      "categories": [
-        "science",
-        "programming"
-      ],
-      "author": "tylerdane"
     },
     {
       "id": "5a765cf499c2",
@@ -699,20 +1001,6 @@
         "hardware"
       ],
       "author": "Bradley C"
-    },
-    {
-      "id": "077466db6c7b",
-      "title": "The $8 Linux Computer (2022)",
-      "link": "http://thelittleengineerthatcould.blogspot.com/2022/12/the-8-linux-computer.html",
-      "description": "112 points · 48 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-07T14:00:20.000Z",
-      "categories": [
-        "opensource",
-        "programming"
-      ],
-      "author": "zenincognito"
     },
     {
       "id": "deec94caf8f9",
@@ -753,19 +1041,6 @@
         "cybersecurity"
       ],
       "author": "Bruno Ferreira"
-    },
-    {
-      "id": "a760fea2cb6a",
-      "title": "Ridley Scott’s R-Rated Sci-Fi Masterpiece is Officially Being Cut From Netflix",
-      "link": "https://www.polygon.com/alien-ridley-scott-sci-fi-movie-streaming-december-2026/",
-      "description": "Alien and Aliens are leaving Netflix on Dec. 1, giving subscribers limited time to stream Ridley Scott’s sci-fi classics.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/msdalie_ec009_h.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-07T13:16:18.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Sam Hill"
     },
     {
       "id": "c27186132a60",
@@ -892,32 +1167,6 @@
       "author": "Newton Gitonga"
     },
     {
-      "id": "82472410dffb",
-      "title": "10 Funniest 'Far Side' Comics About Cows",
-      "link": "https://www.polygon.com/funniest-far-side-comics-cows/",
-      "description": "Gary Larson's The Far Side often featured cows in funny situations. Here are the 10 funniest examples",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/screen-shot-2026-08-19-at-2-17-15-pm.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-07T12:14:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Brian VanHooker"
-    },
-    {
-      "id": "166bc4efa54c",
-      "title": "Mass Effect’s Cruelest Moral Choice Remains Gaming's Most Haunting Mission 19 Years Later",
-      "link": "https://www.polygon.com/mass-effect-homecoming-samesh-bhatia-choice/",
-      "description": "Mass Effect’s Homecoming quest asks you to hand a widower his wife’s body or keep it for research. Neither ending feels clean, but one is better",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/mass-effect-geth.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-07T12:00:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Rebecca Corgan"
-    },
-    {
       "id": "19a91fa5974a",
       "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 50+",
       "link": "https://www.wired.com/gallery/best-wifi-routers/",
@@ -1040,6 +1289,20 @@
       "author": "Simon Hill"
     },
     {
+      "id": "848cb52b8952",
+      "title": "He Ran on Fighting Data Centers. Now, He’s Going to Congress",
+      "link": "https://www.wired.com/story/he-ran-on-fighting-data-centers-now-hes-going-to-congress/",
+      "description": "Will Lawrence beat out better-funded opponents in the race to represent Michigan’s 7th District. Now, the representative-elect is laying out his plans to fight for a federal data center moratorium.",
+      "thumbnail": "https://media.wired.com/photos/6aee8c314e9fcb3cda39f822/master/pass/Power-Play-Ran-on-Hating-Congress.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-07T11:00:00.000Z",
+      "categories": [
+        "cloud",
+        "tech"
+      ],
+      "author": "Molly Taft"
+    },
+    {
       "id": "d150fcee4b06",
       "title": "US FAA to eliminate floppy disks from air traffic control by 2028",
       "link": "https://www.tomshardware.com/tech-industry/us-faa-to-eliminate-floppy-disks-from-air-traffic-control-by-2028-new-system-will-centralize-flight-alerts-restricted-airspace-schedules-and-pilot-reports",
@@ -1120,21 +1383,6 @@
       "author": "Kate Yoder"
     },
     {
-      "id": "5ec03af4da1d",
-      "title": "Every Mac comes with an (undocumented) family member classifier",
-      "link": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "description": "415 points · 240 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-07T09:46:03.000Z",
-      "categories": [
-        "hardware",
-        "gaming",
-        "programming"
-      ],
-      "author": "infwhispers"
-    },
-    {
       "id": "186947cb61d4",
       "title": "Scientists discover Europe's ancient forests were nothing like we imagined",
       "link": "https://www.sciencedaily.com/releases/2026/11/261104012333.htm",
@@ -1146,32 +1394,6 @@
         "science"
       ],
       "author": null
-    },
-    {
-      "id": "c1dca4124c8a",
-      "title": "Running a law firm on Free software",
-      "link": "https://decoded.legal/blog/2026/11/running-a-law-firm-on-free-software-2026-edition/",
-      "description": "140 points · 68 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-07T09:39:06.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "DeepLogin"
-    },
-    {
-      "id": "822aa1f84e50",
-      "title": "Need for Speed Underground 2 online in the browser",
-      "link": "https://nfsu2.xyz/",
-      "description": "508 points · 160 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-07T09:36:36.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "fluxusars"
     },
     {
       "id": "10fb0c4d7d52",
@@ -1198,20 +1420,6 @@
         "tech"
       ],
       "author": "Richard Speed"
-    },
-    {
-      "id": "594105e3c519",
-      "title": "The Components of Agent Memory",
-      "link": "https://www.anthropic.com/research/components-of-agent-memory",
-      "description": "115 points · 63 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-07T06:39:04.000Z",
-      "categories": [
-        "science",
-        "programming"
-      ],
-      "author": "geoffbp"
     },
     {
       "id": "06407556cd7c",
@@ -1406,32 +1614,6 @@
       "author": "Maria Deutscher"
     },
     {
-      "id": "4e82298f18d8",
-      "title": "RealPage rent-pricing case wraps with nearly $360M to renters",
-      "link": "https://www.multifamilydive.com/news/realpage-rent-pricing-case-360m-renters/873553/",
-      "description": "164 points · 132 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-06T23:37:19.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "raybb"
-    },
-    {
-      "id": "68be897c8b54",
-      "title": "Libghostty 1.0",
-      "link": "https://mitchellh.com/writing/libghostty-1-0",
-      "description": "917 points · 151 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-06T23:30:52.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "mfiguiere"
-    },
-    {
       "id": "1da076445548",
       "title": "A compound hidden in broccoli could help fight a devastating genetic disease",
       "link": "https://www.sciencedaily.com/releases/2026/11/261104012259.htm",
@@ -1538,19 +1720,6 @@
       "author": "CarlosAMorales"
     },
     {
-      "id": "d98b2b153316",
-      "title": "Avery the Poké Kid's Father Pleads With The Pokémon Company to Make a Trading Card in Honor of His Late Son",
-      "link": "https://www.ign.com/articles/avery-the-pok-kids-father-pleads-with-the-pokmon-company-to-make-a-trading-card-in-honor-of-his-late-son",
-      "description": "The father of late Pokémon influencer Avery the Poké Kid is asking The Pokémon Company to create a special card in honor of his son.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/06/avery-the-poke-kid-father-pleads-card-pokemon-company-1794005824978.jpg",
-      "source": "IGN",
-      "publishedAt": "2026-11-06T22:58:25.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Virginia Glaze"
-    },
-    {
       "id": "314bd089789a",
       "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
       "link": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
@@ -1633,33 +1802,6 @@
         "opensource"
       ],
       "author": "Nick Liffen"
-    },
-    {
-      "id": "de45eb839c2f",
-      "title": "Pokémon TCG: 10 Most Valuable Delta Reign Cards From New Expansion",
-      "link": "https://www.ign.com/articles/pokemon-tcg-most-valuable-delta-reign-cards",
-      "description": "Mega Rayquaza ex leads the secondary market surge in the newest Pokémon TCG expansion. Here are the 10 most expensive Delta Reign cards on TCGplayer and eBay.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/06/delta-reign-most-expensive-cards-2-1793989827093.png",
-      "source": "IGN",
-      "publishedAt": "2026-11-06T22:15:00.000Z",
-      "categories": [
-        "business",
-        "gaming"
-      ],
-      "author": "Sara Heritage"
-    },
-    {
-      "id": "3956fecfd49a",
-      "title": "Godzilla Minus Zero Director Takashi Yamazaki Explains the Household Inspiration for the Film’s Big, Brutal Climax",
-      "link": "https://www.ign.com/articles/godzilla-minus-zero-director-takashi-yamazaki-explains-the-household-inspiration-for-the-films-big-brutal-climax",
-      "description": "Godzilla Minus Zero director Takashi Yamazaki says that he used his two cats fighting as the inspiration for the bloody brawl between Godzilla and King Ghidorah.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/05/gmz2-1793918730875.png",
-      "source": "IGN",
-      "publishedAt": "2026-11-06T22:12:59.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Leanne Butkovic"
     },
     {
       "id": "467bfcc0f8ca",
@@ -1871,19 +2013,6 @@
       "author": "Aaron Pruner"
     },
     {
-      "id": "e6b805482149",
-      "title": "Apple’s DOJ antitrust battle sparks disputes with Epic, Samsung, Oura, Roblox, more",
-      "link": "https://9to5mac.com/2026/11/06/apples-doj-antitrust-battle-sparks-disputes-with-epic-samsung-oura-roblox-more/",
-      "description": "Several tech companies are pushing back against subpoenas issued by Apple and the DOJ in their ongoing antitrust battle. Here are the details. more…",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2023/10/apple-park-dusk.jpeg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-06T20:06:06.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Marcus Mendes"
-    },
-    {
       "id": "b20401b1101b",
       "title": "Nvidia hardware worth $11.4M vanished between Oakland and Texas",
       "link": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas/",
@@ -1927,20 +2056,6 @@
       "author": "Scharon Harding"
     },
     {
-      "id": "ef2a83f7f3a4",
-      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
-      "link": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "description": "546 points · 136 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-06T19:48:51.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "theanomaly"
-    },
-    {
       "id": "d2b5505ededb",
       "title": "AI agents are getting more complex. Developers shouldn’t have to babysit them.",
       "link": "https://thenewstack.io/harness-engineering-coding-agents/",
@@ -1953,19 +2068,6 @@
         "programming"
       ],
       "author": "Kimberly Fessel"
-    },
-    {
-      "id": "c885b1cdd29d",
-      "title": "HomeKit Weekly: Airversa’s Humelle is the Thread humidifier my house needs this winter",
-      "link": "https://9to5mac.com/2026/11/06/airversa-humelle/",
-      "description": "I love natural gas heat for a few reasons, but one is avoiding AUX heat from a heat pump and watching the bill rise. The downside is when the gas heat kicks on, the air in mt house is bone dry. My nose ends up being super dry for months. A humidifier like the Airversa Humelle works with Apple Home o",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/10/Airversa-Humelle-2.jpg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-06T19:33:00.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Bradley C"
     },
     {
       "id": "f78e15662ba6",
@@ -2010,20 +2112,6 @@
         "business"
       ],
       "author": "Zeus Kerravala"
-    },
-    {
-      "id": "3129b0ac4d33",
-      "title": "iOS 27.2 adds three new ways to customize your iPhone",
-      "link": "https://9to5mac.com/2026/11/06/ios-27-2-adds-three-new-ways-to-customize-your-iphone/",
-      "description": "iOS 27.2 launched last week with a lot of new features, and also several ways you can customize your iPhone. Here’s what’s new for iPhone personalization. more…",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/iphone-18-pro-glacier-home-screen-ios-27.jpg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-06T18:55:34.000Z",
-      "categories": [
-        "hardware",
-        "mobile"
-      ],
-      "author": "Ryan Christoffel"
     },
     {
       "id": "0c20f43952a7",
@@ -2107,21 +2195,6 @@
         "startups"
       ],
       "author": "Lucas Ropek"
-    },
-    {
-      "id": "938e42643530",
-      "title": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-      "link": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
-      "description": "An experiment in which AI models were asked to break into simulated networks showed the hacking skills of DeepSeek and GLM to be not far behind OpenAI’s most advanced cyber model, which isn’t public.",
-      "thumbnail": "https://media.wired.com/photos/6aebae965d3f8b6dd99468be/master/pass/Security_Open-WeightAIModels.gif",
-      "source": "Wired",
-      "publishedAt": "2026-11-06T18:43:43.000Z",
-      "categories": [
-        "ai",
-        "cybersecurity",
-        "science"
-      ],
-      "author": "Will Knight, Lily Hay Newman"
     },
     {
       "id": "5555c456191c",
@@ -2365,19 +2438,6 @@
       "author": "Brandon Vigliarolo"
     },
     {
-      "id": "540c2d2b4ef7",
-      "title": "Deals: M5 MacBook Air $250 off, Apple Watch Ultra $250 off, HomePod mini 2, HomeView, AirPods $100 off, more",
-      "link": "https://9to5mac.com/2026/11/06/deals-macbook-air-apple-watch-ultra-homeview-airpods/",
-      "description": "Firstly, go secure yourself a couple 2026 Apple Polishing Cloths at $9 a pop before they sell out, a well as the Apple HomeView pre-order discount , then scope out the AirPods Pro 3 at $50 off and all five colors of Apple’s AirPods Max 2 at $100 off . We also still have various Apple Watch Ultra 4 m",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Apple-deals-early-Black-Friday-Ultra-MacBook-HomeView-HomePod.jpg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-06T16:28:30.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Justin Kahn"
-    },
-    {
       "id": "9ee29b170407",
       "title": "M30’s Sparkling Stars",
       "link": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
@@ -2519,7 +2579,7 @@
     },
     {
       "id": "831e944137d6",
-      "title": "Midterm elections will put AI and data centers on trial, but Big Tech may end up winning anyway",
+      "title": "Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway?",
       "link": "https://siliconangle.com/2026/11/06/midterm-elections-will-put-ai-and-data-centers-on-trial-but-big-tech-may-end-up-winning-anyway/",
       "description": "It may be a little soon to determine the ultimate winners and losers among enterprise suppliers after the midterm elections, but the early line is: Big Tech wins and data center suppliers operators such as chipmakers and neoclouds lose. Or will everybody lose? The day after the elections, stocks of",
       "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Tech-CEOs-Surfing-Market-Waves.png",
@@ -2586,20 +2646,6 @@
         "cybersecurity"
       ],
       "author": "Sergiu Gatlan"
-    },
-    {
-      "id": "ab4846bbc512",
-      "title": "After blocking Muse, Amazon now lets users text Alexa to help them shop",
-      "link": "https://techcrunch.com/2026/11/06/after-blocking-muse-amazon-now-lets-users-text-alexa-to-help-them-shop/",
-      "description": "Amazon said that the feature will roll out to millions of users in coming weeks.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Alexa-Shopping-Text-Hero.jpeg?resize=1200,725",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-06T14:10:00.000Z",
-      "categories": [
-        "startups",
-        "ai"
-      ],
-      "author": "Ivan Mehta"
     },
     {
       "id": "e78c2dfe2d37",
@@ -2728,20 +2774,6 @@
       "author": "Cate Lawrence"
     },
     {
-      "id": "d148be8030c1",
-      "title": "Six pallets of Nvidia GPUs worth $11.4 million stolen in California cargo heist",
-      "link": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
-      "description": "The latest incident comes amid growing concerns over GPU theft, with experts warning that advanced Nvidia chips can command significantly higher prices abroad and could end up in black-market channels.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/WJysu4KWtLyywCbvdHhuLF-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-06T13:35:16.000Z",
-      "categories": [
-        "hardware",
-        "business"
-      ],
-      "author": "Kunal Khullar"
-    },
-    {
       "id": "c0beb4b56091",
       "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
       "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
@@ -2782,20 +2814,6 @@
         "hardware"
       ],
       "author": "Thomas Macaulay"
-    },
-    {
-      "id": "fbf575ba8ccd",
-      "title": "Underdog shows off a 32MB speech model in new demo",
-      "link": "https://techcrunch.com/2026/11/06/underdog-shows-off-a-32mb-speech-model-in-new-demo/",
-      "description": "Despite its small size, Underdog's new model can generate both speech and music.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-05-at-7.02.34-PM.jpg?resize=1200,542",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-06T13:02:16.000Z",
-      "categories": [
-        "startups",
-        "ai"
-      ],
-      "author": "Ivan Mehta"
     },
     {
       "id": "f52ae7628517",
@@ -3297,20 +3315,6 @@
         "cloud"
       ],
       "author": "Duncan Riley"
-    },
-    {
-      "id": "b6411ac47a80",
-      "title": "Sony revives the original Walkman headphones, adds USB-C",
-      "link": "https://arstechnica.com/gadgets/2026/11/sony-adds-usb-c-to-its-70s-era-mdr-3-walkman-headphones/",
-      "description": "Orange ear cushions included.",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/assets_MS2027641_000001_feature-2-3-D-1152x648.jpg",
-      "source": "Ars Gadgets",
-      "publishedAt": "2026-11-05T21:56:36.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "Scharon Harding"
     }
   ],
   "github": [
@@ -3318,7 +3322,7 @@
       "name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 46627,
+      "stars": 46755,
       "starsToday": 180,
       "url": "https://github.com/vercel-labs/agent-browser"
     },
@@ -3326,7 +3330,7 @@
       "name": "cloudflare/security-audit-skill",
       "description": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings",
       "language": "JavaScript",
-      "stars": 65276,
+      "stars": 65554,
       "starsToday": 2088,
       "url": "https://github.com/cloudflare/security-audit-skill"
     },
@@ -3334,7 +3338,7 @@
       "name": "google/skills",
       "description": "Agent Skills for Google products and technologies",
       "language": "Python",
-      "stars": 23212,
+      "stars": 23331,
       "starsToday": 449,
       "url": "https://github.com/google/skills"
     },
@@ -3342,7 +3346,7 @@
       "name": "mattpocock/skills",
       "description": "Skills for Real Engineers. Straight from my .agents directory.",
       "language": "Shell",
-      "stars": 317440,
+      "stars": 317596,
       "starsToday": 1111,
       "url": "https://github.com/mattpocock/skills"
     },
@@ -3350,7 +3354,7 @@
       "name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 188551,
+      "stars": 188703,
       "starsToday": 386,
       "url": "https://github.com/anthropics/skills"
     },
@@ -3358,7 +3362,7 @@
       "name": "meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 14297,
+      "stars": 14408,
       "starsToday": 185,
       "url": "https://github.com/meta/astryx"
     },
@@ -3366,7 +3370,7 @@
       "name": "prometheus/prometheus",
       "description": "The Prometheus monitoring system and time series database.",
       "language": "Go",
-      "stars": 67365,
+      "stars": 67423,
       "starsToday": 325,
       "url": "https://github.com/prometheus/prometheus"
     },
@@ -3374,7 +3378,7 @@
       "name": "sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars": 100026,
+      "stars": 100313,
       "starsToday": 1819,
       "url": "https://github.com/sherlock-project/sherlock"
     },
@@ -3382,7 +3386,7 @@
       "name": "milind-soni/OpenMausBot",
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
-      "stars": 16686,
+      "stars": 16875,
       "starsToday": 1986,
       "url": "https://github.com/milind-soni/OpenMausBot"
     },
@@ -3390,7 +3394,7 @@
       "name": "astral-sh/ruff",
       "description": "An extremely fast Python linter and code formatter, written in Rust.",
       "language": "Rust",
-      "stars": 50897,
+      "stars": 50950,
       "starsToday": 350,
       "url": "https://github.com/astral-sh/ruff"
     },
@@ -3398,7 +3402,7 @@
       "name": "tailwindlabs/tailwindcss",
       "description": "A utility-first CSS framework for rapid UI development.",
       "language": "TypeScript",
-      "stars": 98330,
+      "stars": 98419,
       "starsToday": 181,
       "url": "https://github.com/tailwindlabs/tailwindcss"
     },
@@ -3406,7 +3410,7 @@
       "name": "mbillow/localthings",
       "description": "Control your Samsung appliances from Home Assistant over your home network, with no cloud account.",
       "language": "Python",
-      "stars": 1001,
+      "stars": 1032,
       "starsToday": 184,
       "url": "https://github.com/mbillow/localthings"
     }
