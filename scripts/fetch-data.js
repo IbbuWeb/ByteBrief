@@ -9,6 +9,7 @@ const {
   stripHtml,
   decodeEntities,
   extractOgImage,
+  normalizeUrl,
   parseYouTubeChannel,
   parseYouTubeWatch
 } = require('./lib/parse-feed');
@@ -23,6 +24,7 @@ const USER_AGENT =
 const BROWSER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 const MAX_ARTICLES = 240;
+const MAX_VIDEO_ARTICLES = 18;
 const PER_SOURCE_LIMIT = 15;
 const VIDEOS_PER_CHANNEL = 6;
 const VIDEO_MAX_AGE_DAYS = 31;
@@ -307,14 +309,20 @@ async function enrichThumbnails(articles, previous) {
   return articles;
 }
 
-async function fetchYouTubeArticles() {
+async function fetchYouTubeArticles(previous = {}) {
   const articles = [];
   const minTime = Date.now() - VIDEO_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+  const ytHeaders = {
+    Accept: 'text/html,application/xhtml+xml',
+    'Accept-Language': 'en-US,en;q=0.9',
+    'User-Agent': BROWSER_UA,
+    Cookie: 'CONSENT=YES+cb.20210328-17-p0.en+FX+417; SOCS=CAISHAgBEhJnd3NfMjAyMTAzMjgtMTdfcDAaAmVuIAEaBgiA_LyaBg'
+  };
 
   for (const ch of YOUTUBE_CHANNELS) {
     try {
-      const url = `https://www.youtube.com/${ch.handle}/videos`;
-      const res = await fetchText(url, { Accept: 'text/html' });
+      const url = `https://www.youtube.com/${ch.handle}/videos?hl=en&gl=US`;
+      const res = await fetchText(url, ytHeaders);
       if (!res) continue;
       const channelVideos = parseYouTubeChannel(res, { limit: VIDEOS_PER_CHANNEL * 3 });
       let kept = 0;
@@ -324,9 +332,7 @@ async function fetchYouTubeArticles() {
         const watchUrl = `https://www.youtube.com/watch?v=${video.videoId}`;
         let publishedAt = null;
         try {
-          const watchRes = await fetchText(watchUrl, {
-            Accept: 'text/html'
-          });
+          const watchRes = await fetchText(`${watchUrl}&hl=en`, ytHeaders);
           const parsed = parseYouTubeWatch(watchRes);
           if (parsed?.publishedAt) publishedAt = parsed.publishedAt;
         } catch { /* optional enrichment */ }
@@ -353,6 +359,21 @@ async function fetchYouTubeArticles() {
       console.warn(`  ! YouTube fetch for ${ch.name}: ${e.message}`);
     }
   }
+
+  if (articles.length === 0) {
+    const cached = (previous.articles || []).filter(article => {
+      if (article?.video !== true) return false;
+      const link = normalizeUrl(article.link);
+      if (!link) return false;
+      if (!article.publishedAt) return true;
+      const t = Date.parse(article.publishedAt);
+      return !Number.isFinite(t) || t >= minTime;
+    });
+    if (cached.length) console.warn(`  Keeping ${cached.length} cached YouTube videos`);
+    return cached;
+  }
+
+  console.log(`  YouTube: ${articles.length} videos from ${YOUTUBE_CHANNELS.length} channels`);
   return articles;
 }
 
@@ -360,7 +381,7 @@ async function fetchArticles(previous) {
   const failedSources = new Set();
   let freshCount = 0;
 
-  const youtubeResults = await fetchYouTubeArticles();
+  const youtubeResults = await fetchYouTubeArticles(previous);
 
   const results = await mapLimit(SOURCES, CONCURRENCY, async source => {
     try {
@@ -405,8 +426,12 @@ async function fetchArticles(previous) {
       const aTime = a.publishedAt ? Date.parse(a.publishedAt) : 0;
       const bTime = b.publishedAt ? Date.parse(b.publishedAt) : 0;
       return bTime - aTime;
-    })
-    .slice(0, MAX_ARTICLES);
+    });
+
+  const videos = articles.filter(article => article.video === true).slice(0, MAX_VIDEO_ARTICLES);
+  const text = articles.filter(article => article.video !== true);
+  const videoLinks = new Set(videos.map(article => article.link));
+  articles = [...videos, ...text.filter(article => !videoLinks.has(article.link))].slice(0, MAX_ARTICLES);
 
   articles = await enrichThumbnails(articles, previous);
 

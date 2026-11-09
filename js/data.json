@@ -1,6 +1,356 @@
 {
-  "generatedAt": "2026-11-09T13:47:40.659Z",
+  "generatedAt": "2026-11-09T14:02:43.045Z",
   "articles": [
+    {
+      "title": "This Phone Proves Samsung and Google Need Help",
+      "link": "https://www.youtube.com/watch?v=GCUHLVD9uZo",
+      "source": "Android Authority",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": "2026-11-09T14:00:35.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/GCUHLVD9uZo/hq720.jpg",
+      "videoId": "GCUHLVD9uZo",
+      "video": true
+    },
+    {
+      "title": "I Tested 42 Years of Phones!",
+      "link": "https://www.youtube.com/watch?v=HVLUtJWlcJY",
+      "source": "Mrwhosetheboss",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": "2026-11-09T12:37:47.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/HVLUtJWlcJY/hq720.jpg",
+      "videoId": "HVLUtJWlcJY",
+      "video": true
+    },
+    {
+      "title": "I Let My Staff Upgrade the Office (They Almost Ruined It)",
+      "link": "https://www.youtube.com/watch?v=CrO0Timw2z4",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-08T16:56:01.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/CrO0Timw2z4/hq720.jpg",
+      "videoId": "CrO0Timw2z4",
+      "video": true
+    },
+    {
+      "title": "I’ve never seen this before (and it’s 20 years old.)",
+      "link": "https://www.youtube.com/watch?v=7hlTu95nOCw",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-07T17:01:40.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/7hlTu95nOCw/hq720.jpg",
+      "videoId": "7hlTu95nOCw",
+      "video": true
+    },
+    {
+      "title": "They even got Paint?",
+      "link": "https://www.youtube.com/watch?v=B1D0_vO7WGc",
+      "source": "TechLinked",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-07T01:52:34.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/B1D0_vO7WGc/hq720.jpg",
+      "videoId": "B1D0_vO7WGc",
+      "video": true
+    },
+    {
+      "title": "Meta VR Glasses: What Vision Pro 2 COULD Have Been!",
+      "link": "https://www.youtube.com/watch?v=_x58r9TBois",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": "2026-11-06T21:29:30.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/_x58r9TBois/hq720.jpg",
+      "videoId": "_x58r9TBois",
+      "video": true
+    },
+    {
+      "title": "OpenAI just made cryptographers very nervous...",
+      "link": "https://www.youtube.com/watch?v=iw9SZgyahqg",
+      "source": "Fireship",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-06T16:42:38.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/iw9SZgyahqg/hq720.jpg",
+      "videoId": "iw9SZgyahqg",
+      "video": true
+    },
+    {
+      "title": "Big Tech lost big in the 2026 election | The Vergecast",
+      "link": "https://www.youtube.com/watch?v=-U4thshDTL8",
+      "source": "The Verge",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-06T14:15:09.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/-U4thshDTL8/hq720.jpg",
+      "videoId": "-U4thshDTL8",
+      "video": true
+    },
+    {
+      "title": "BookTok is the antidote to doomscrolling | The Vergecast",
+      "link": "https://www.youtube.com/watch?v=CAYWoVi0rkw",
+      "source": "The Verge",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-05T18:14:31.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/CAYWoVi0rkw/hq720.jpg",
+      "videoId": "CAYWoVi0rkw",
+      "video": true
+    },
+    {
+      "title": "“Tesla Hater” Finally Tries Full Self Driving",
+      "link": "https://www.youtube.com/watch?v=Ao9IQyaH0fk",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-05T17:00:57.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/Ao9IQyaH0fk/hq720.jpg",
+      "videoId": "Ao9IQyaH0fk",
+      "video": true
+    },
+    {
+      "title": "MacBook Pro OLED Review - Is Touch ACTUALLY Useful?",
+      "link": "https://www.youtube.com/watch?v=m8lhB9qFhYo",
+      "source": "Dave2D",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-05T14:03:51.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/m8lhB9qFhYo/hq720.jpg",
+      "videoId": "m8lhB9qFhYo",
+      "video": true
+    },
+    {
+      "title": "Tested in the Wild: Best Survival Tech!",
+      "link": "https://www.youtube.com/watch?v=Ig497BH7d0E",
+      "source": "Android Authority",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": "2026-11-05T14:00:20.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/Ig497BH7d0E/hq720.jpg",
+      "videoId": "Ig497BH7d0E",
+      "video": true
+    },
+    {
+      "title": "Mutex Explained - Computerphile",
+      "link": "https://www.youtube.com/watch?v=BmBw827GgFA",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-05T14:00:16.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/BmBw827GgFA/hq720.jpg",
+      "videoId": "BmBw827GgFA",
+      "video": true
+    },
+    {
+      "title": "Uh, Google?",
+      "link": "https://www.youtube.com/watch?v=mdlLCkLx9BI",
+      "source": "TechLinked",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-05T02:19:27.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/mdlLCkLx9BI/hq720.jpg",
+      "videoId": "mdlLCkLx9BI",
+      "video": true
+    },
+    {
+      "title": "Extras - GTA 6 on PC May be Sooner than We Thought",
+      "link": "https://www.youtube.com/watch?v=CNbsMah32Ss",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-04T17:24:28.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/CNbsMah32Ss/hq720.jpg",
+      "videoId": "CNbsMah32Ss",
+      "video": true
+    },
+    {
+      "title": "David Week - What a Week of David Looks like",
+      "link": "https://www.youtube.com/watch?v=tuiP5ZFD8fA",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-04T17:23:05.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/tuiP5ZFD8fA/hq720.jpg",
+      "videoId": "tuiP5ZFD8fA",
+      "video": true
+    },
+    {
+      "title": "Good PC Deals Still Exist!",
+      "link": "https://www.youtube.com/watch?v=AAraNufcrW4",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-04T17:00:02.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/AAraNufcrW4/hq720.jpg",
+      "videoId": "AAraNufcrW4",
+      "video": true
+    },
+    {
+      "title": "Why Rian Johnson made a photo app | The Vergecast",
+      "link": "https://www.youtube.com/watch?v=eU70nW6yyd4",
+      "source": "The Verge",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-04T16:00:36.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/eU70nW6yyd4/hq720.jpg",
+      "videoId": "eU70nW6yyd4",
+      "video": true
+    },
+    {
+      "id": "70f132f3de25",
+      "title": "Broadcom open-sources its Kubernetes VM manager",
+      "link": "https://siliconangle.com/2026/11/09/broadcom-open-sources-its-kubernetes-vm-manager/",
+      "description": "Broadcom Inc. is contributing an open-source project for managing virtual machines with Kubernetes to the Cloud Native Computing Foundation, part of an effort to simplify operations across increasingly diverse enterprise computing environments. The company announced today that its VM application pro",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2020/01/Broadcom-800x488.png",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-09T14:00:55.000Z",
+      "categories": [
+        "programming",
+        "cloud",
+        "opensource"
+      ],
+      "author": "Paul Gillin"
+    },
+    {
+      "id": "2d98ca9b7cea",
+      "title": "Diagrid’s Dapr 1.19 lightens AI agent workflows and drops a control-plane service",
+      "link": "https://siliconangle.com/2026/11/09/diagrids-dapr-1-19-lightens-ai-agent-workflows-and-drops-a-control-plane-service/",
+      "description": "Agent infrastructure startup Diagrid Inc. today released Dapr 1.19 with changes that cut the overhead of the durable workflows behind long-running artificial intelligence agents. Operators of the open-source runtime can also drop one of its control-plane services. Until 1.19, Dapr’s workflow engine",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/diagriddapr.png",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-09T14:00:55.000Z",
+      "categories": [
+        "ai",
+        "programming",
+        "startups"
+      ],
+      "author": "Duncan Riley"
+    },
+    {
+      "id": "e5b5842746c4",
+      "title": "AWS commits $100M in AI and cloud credits to health groups in underserved communities",
+      "link": "https://siliconangle.com/2026/11/09/aws-commits-100m-in-ai-and-cloud-credits-to-health-groups-in-underserved-communities/",
+      "description": "Amazon Web Services Inc. today committed $100 million worth of artificial intelligence and cloud technology over five years to health organizations working in underserved communities around the world, provided to recipients as AWS credits. The new AWS Health Impact Initiative is taking aim at a cost",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/awsheathimpactinitiative.png",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-09T14:00:38.000Z",
+      "categories": [
+        "ai",
+        "cloud",
+        "tech"
+      ],
+      "author": "Duncan Riley"
+    },
+    {
+      "id": "c350368c7541",
+      "title": "Exclusive: FormAssembly overhauls its platform to expand into AI-powered process automation",
+      "link": "https://siliconangle.com/2026/11/09/exclusive-formassembly-overhauls-its-platform-to-expand-into-ai-powered-process-automation/",
+      "description": "FormAssembly Inc., a provider of online data collection and workflow automation software, today announced a complete platform overhaul that expands its capabilities beyond building forms to automating complex business processes using artificial intelligence. The new platform, which the company said",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Webform-scaled.jpg",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-09T14:00:02.000Z",
+      "categories": [
+        "ai",
+        "programming",
+        "business"
+      ],
+      "author": "Paul Gillin"
+    },
+    {
+      "id": "2a6f73508049",
+      "title": "Meet Drops, the new music app bringing back the fun of sharing songs with friends",
+      "link": "https://techcrunch.com/2026/11/09/meet-drops-the-new-music-app-bringing-back-the-fun-of-sharing-songs-with-friends/",
+      "description": "The new music discovery app lets users scroll through 10-to-30-second snippets of songs, comment, and share with friends.",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Drops-app.png?w=1200",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-09T14:00:00.000Z",
+      "categories": [
+        "startups"
+      ],
+      "author": "Lauren Forristal"
+    },
+    {
+      "id": "95c3c02be004",
+      "title": "Automattic debuts a platform to deploy vibe coding apps amid a changing internet",
+      "link": "https://techcrunch.com/2026/11/09/automattic-debuts-a-platform-to-deploy-vibe-coding-apps-amid-a-changing-internet/",
+      "description": "Automattic aims to compete with likes of Lovable with Spacefast",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Spacefast-feat.jpg?resize=1200,675",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-09T14:00:00.000Z",
+      "categories": [
+        "programming",
+        "ai",
+        "startups"
+      ],
+      "author": "Ivan Mehta"
+    },
+    {
+      "id": "258a7ce2f3d9",
+      "title": "Nvidia RTX PRO 6000 user’s cables almost melted, even when limited to 500W",
+      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-pro-6000-users-cables-almost-melted-even-when-limited-to-500w-12v-2x6-cables-appear-to-still-cause-problems-show-clear-signs-of-melting",
+      "description": "The 12V-2x6 connector nearly took out two RTX PRO 6000 Blackwell Workstation GPUs; luckily, the owner spotted the damaged cables before they melted the GPU connectors.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/NiWh9ANHtY2jbEjGf9jRq7-1920-80.png",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-09T14:00:00.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Jhet Borja"
+    },
+    {
+      "id": "b6cdf0a68cd6",
+      "title": "What hardware does your PC need to run a local AI model?",
+      "link": "https://www.engadget.com/2307701/pc-hardware-needed-run-local-ai-model/",
+      "description": "The kind of AI models you can run depends on your machine's power. Let's unpack what your everyday PC will need, and how much it will cost you.",
+      "thumbnail": "https://www.engadget.com/img/gallery/what-hardware-does-your-pc-need-to-run-a-local-ai-model/l-intro-1793763392.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-09T13:45:00.000Z",
+      "categories": [
+        "ai",
+        "hardware",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Luke James)"
+    },
     {
       "id": "f1d34edf42f3",
       "title": "Anthropic skips six-year waitlist with massive $3.4 billion gas turbine generator deal",
@@ -29,6 +379,19 @@
       "author": "Kirsten Korosec"
     },
     {
+      "id": "edcb7c9e0483",
+      "title": "Coinbase receives approval to become a chartered trust bank",
+      "link": "https://www.engadget.com/2310531/coinbase-receives-approval-to-become-a-chartered-trust-bank/",
+      "description": "Coinbase has received approval from the US Office of the Comptroller of Currency to become a nationally chartered trust bank.",
+      "thumbnail": "https://www.engadget.com/img/gallery/coinbase-receives-approval-to-become-a-chartered-trust-bank/l-intro-1794231576.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-09T13:40:54.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Steve Dent)"
+    },
+    {
       "id": "c001e83ced91",
       "title": "Memory shortage spurs smartphone makers to melt used memory off old devices, then re-solder it onto new products",
       "link": "https://www.tomshardware.com/pc-components/dram/memory-shortage-spurs-smartphone-makers-to-melt-used-memory-off-old-devices-then-re-solder-it-onto-new-products-recycled-memory-to-keep-budget-phones-affordable-reballing-adoption-to-double-by-2027",
@@ -54,6 +417,19 @@
         "cybersecurity"
       ],
       "author": "Sergiu Gatlan"
+    },
+    {
+      "id": "9f7639f726b2",
+      "title": "Children of Men: The Future Is a Mirror for the Present",
+      "link": "https://reactormag.com/children-of-men-the-future-is-a-mirror-for-the-present/",
+      "description": "5 points · 0 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-09T13:27:01.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "speckx"
     },
     {
       "id": "7c063d58ffbe",
@@ -274,7 +650,7 @@
       "id": "4c9d3c114f5e",
       "title": "Humans will never again create a project like Wikipedia",
       "link": "https://www.economist.com/culture/2026/10/29/humans-will-never-again-create-a-project-quite-like-wikipedia",
-      "description": "85 points · 57 comments",
+      "description": "114 points · 73 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T12:30:20.000Z",
@@ -327,7 +703,7 @@
       "id": "71c69c4523e3",
       "title": "Fold Epic Paper Airplanes",
       "link": "https://www.foldableflight.com/",
-      "description": "140 points · 26 comments",
+      "description": "165 points · 38 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T12:19:22.000Z",
@@ -431,20 +807,6 @@
       "author": "Ashely Claudino"
     },
     {
-      "id": "b984208759f6",
-      "title": "Instagram’s AI age detection is expanding globally",
-      "link": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
-      "description": "Meta is globally expanding the age estimation technology it uses to find teenagers on Instagram who haven't correctly disclosed their age. The rollout will automatically place \"millions more teens on Instagram into Teen Account protections,\" according to Meta's announcement, after launching the AI-p",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK070_INSTAGRAM__A.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-09T12:00:00.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Jess Weatherbed"
-    },
-    {
       "id": "74e1b83b37c3",
       "title": "King Arthur Baking Sourdough Sidekick Review: Rising to the Occasion",
       "link": "https://www.wired.com/review/king-arthur-baking-sourdough-sidekick/",
@@ -498,19 +860,6 @@
         "tech"
       ],
       "author": "Rupert Goodwins"
-    },
-    {
-      "id": "a9f580dcd96f",
-      "title": "Try Gleam",
-      "link": "https://nchagnet.eu/blog/you-should-try-gleam",
-      "description": "53 points · 46 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-09T11:55:14.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "nchagnet"
     },
     {
       "id": "f947a0629539",
@@ -568,9 +917,9 @@
     },
     {
       "id": "5aa2811f45ce",
-      "title": "Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
+      "title": "6 Hours of YouTube and 85 handtyped pages of notes on LLM Inference – Start here",
       "link": "https://github.com/samir-sarwar/samir-vllm",
-      "description": "29 points · 3 comments",
+      "description": "41 points · 4 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T11:36:55.000Z",
@@ -598,7 +947,7 @@
       "id": "017ffda2700c",
       "title": "What is malloc doing, anyway?",
       "link": "https://benmandrew.com/articles/what-is-malloc-doing-anyway",
-      "description": "29 points · 3 comments",
+      "description": "34 points · 3 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T11:31:05.000Z",
@@ -624,7 +973,7 @@
       "id": "9e18e9d68e85",
       "title": "Ginux: A New Kernel Runs Linux Userspace, Made via Human-Directed AI Engineering",
       "link": "https://zenodo.org/records/23682548",
-      "description": "11 points · 16 comments",
+      "description": "19 points · 28 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T11:30:27.000Z",
@@ -700,19 +1049,6 @@
         "startups"
       ],
       "author": "Cate Lawrence"
-    },
-    {
-      "id": "fee7ccbd6da8",
-      "title": "Torrent underground",
-      "link": "https://www.theverge.com/cs/features/1027614/torrent-movies-file-sharing-download-piracy",
-      "description": "When Jane first heard about Memory and Imagination, a rare 1990s documentary about the Library of Congress, she was intrigued. But the Canadian writer in her 30s couldn’t find the movie anywhere — not on streaming services, not on YouTube, not on pirate sites — and her intrigue turned into obsession",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268792_private_torrent_trackers_CVirginia_LEDE_1.gif?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-09T11:00:05.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Janko Roettgers"
     },
     {
       "id": "9b54c8f4ff11",
@@ -921,7 +1257,7 @@
       "id": "cbb48cf1ea12",
       "title": "Fun things to do with your VM/370 CE machine – Fun with big computers",
       "link": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
-      "description": "59 points · 6 comments",
+      "description": "61 points · 6 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T10:11:47.000Z",
@@ -1031,7 +1367,7 @@
       "id": "3f5393a450c5",
       "title": "Borrowing a Microsoft-signed shim to abuse Secure Boot on corporate hardware",
       "link": "https://leosmith.wtf/blog/not-so-secure-boot.html",
-      "description": "8 points · 1 comments",
+      "description": "12 points · 1 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T09:22:30.000Z",
@@ -1098,7 +1434,7 @@
       "id": "8ceada5f9502",
       "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
       "link": "https://news.ycombinator.com/item?id=50422628",
-      "description": "7 points",
+      "description": "8 points",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T08:17:49.000Z",
@@ -1154,7 +1490,7 @@
       "id": "a9c06162812c",
       "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
       "link": "https://arxiv.org/abs/2610.14162",
-      "description": "128 points · 26 comments",
+      "description": "133 points · 26 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T07:20:37.000Z",
@@ -1167,7 +1503,7 @@
       "id": "f49487fb0428",
       "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
       "link": "https://twitter.com/shanemelaugh/status/2119192075505893695",
-      "description": "295 points · 204 comments",
+      "description": "306 points · 208 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T07:04:25.000Z",
@@ -1468,7 +1804,7 @@
       "id": "9429f06661b1",
       "title": "Unlocking any car from X brand in most of the world",
       "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-      "description": "458 points · 221 comments",
+      "description": "464 points · 224 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T00:10:50.000Z",
@@ -1524,7 +1860,7 @@
       "id": "b4717b7762b7",
       "title": "I'm not convinced the AI bubble exists",
       "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
-      "description": "385 points · 646 comments",
+      "description": "390 points · 657 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T23:44:36.000Z",
@@ -1620,7 +1956,7 @@
       "id": "8eab40c7ce41",
       "title": "Chimera Vocal Synth",
       "link": "https://chimera-vocal-synth.vercel.app/",
-      "description": "266 points · 41 comments",
+      "description": "266 points · 44 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T22:36:03.000Z",
@@ -1684,19 +2020,6 @@
       "author": "Aisha Malik"
     },
     {
-      "id": "b2e9c76ec863",
-      "title": "The one Starlink perk that gives it an edge over traditional internet",
-      "link": "https://www.engadget.com/2309293/starlink-perk-edge-over-traditional-internet-adaptibility/",
-      "description": "Cable and fiber often win on performance, yet Starlink offers a distinct benefit that could matter more depending on how and why you connect.",
-      "thumbnail": "https://www.engadget.com/img/gallery/the-one-starlink-perk-that-gives-it-an-edge-over-traditional-internet/l-intro-1793905751.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-08T22:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Roger Fingas)"
-    },
-    {
       "id": "9957d9c562e4",
       "title": "Nvidia Board Launches Probe After Reports CEO Was Targeted by Chinese Spy",
       "link": "https://www.cnet.com/news/nvidia-board-probes-reports-ceo-was-targeted-by-spy/",
@@ -1710,20 +2033,6 @@
         "tech"
       ],
       "author": "Steven Musil"
-    },
-    {
-      "id": "937bf30b246a",
-      "title": "A sample of over 5,000 drives reveals one problem with new HDDs",
-      "link": "https://www.engadget.com/2309632/one-problem-with-new-hdds-5000-drives-study/",
-      "description": "HDDs may not be as in-demand as the faster SSDs, but they're still plenty popular thanks to their low cost. And yet, this sample study reveals the big issue.",
-      "thumbnail": "https://www.engadget.com/img/gallery/a-sample-of-over-5000-drives-reveals-one-problem-with-new-hdds/l-intro-1793982990.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-08T21:45:00.000Z",
-      "categories": [
-        "tech",
-        "cybersecurity"
-      ],
-      "author": "staff@engadget.com (Jonny Evans)"
     },
     {
       "id": "718994235948",
@@ -1752,20 +2061,6 @@
         "gaming"
       ],
       "author": "Michael Cripe"
-    },
-    {
-      "id": "db92d38fc027",
-      "title": "Nvidia CEO Jensen Huang admits to having an affair with suspected Chinese spy",
-      "link": "https://www.tomshardware.com/pc-components/gpus/nvidia-ceo-jensen-huang-admits-to-having-an-affair-with-suspected-chinese-spy-jensen-apologizes-in-letter-to-staff-company-board-forms-independent-committee-to-investigate",
-      "description": "Nvidia's board of directors is investigating a report about Jensen Huang's alleged affair with a client, claims it is still confident in Jensen and leadership team.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/Kjestg9jiuvnbE868dhwjf-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-08T21:27:29.000Z",
-      "categories": [
-        "hardware",
-        "business"
-      ],
-      "author": "Anton Shilov"
     },
     {
       "id": "bc55171edc52",
@@ -2163,6 +2458,19 @@
       "author": "Amanda Silberling"
     },
     {
+      "id": "2b017cd8c10c",
+      "title": "There’s no slowing down media’s pivot-to-video 2.0",
+      "link": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
+      "description": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the pressures of creating content for the internet, follow Mia Sato. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Almost",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2264895316.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-08T13:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Mia Sato"
+    },
+    {
       "id": "87e6d8610228",
       "title": "8 Best Computer Speakers (2026) After Testing 30 Pairs",
       "link": "https://www.wired.com/gallery/best-computer-speakers/",
@@ -2403,21 +2711,6 @@
       "author": "Anthony Ha"
     },
     {
-      "id": "69c75581d56f",
-      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
-      "link": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
-      "description": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/09/GettyImages-2294936867.jpg?resize=1200,800",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-07T21:17:08.000Z",
-      "categories": [
-        "hardware",
-        "cybersecurity",
-        "business"
-      ],
-      "author": "Anthony Ha"
-    },
-    {
       "id": "6df6cfdb5cc8",
       "title": "Indie App Spotlight: ‘CueFlip’ automatically turns the page for your sheet music",
       "link": "https://9to5mac.com/2026/11/07/indie-app-spotlight-cueflip-automatically-turns-the-page-for-your-sheet-music/",
@@ -2443,21 +2736,6 @@
         "hardware"
       ],
       "author": "Michael Burkhardt"
-    },
-    {
-      "id": "6653c5fed6fb",
-      "title": "Parents want safer phones for kids. These companies are answering the call.",
-      "link": "https://techcrunch.com/2026/11/07/parents-want-safer-phones-for-kids-these-companies-are-answering-the-call/",
-      "description": "As parents look for alternatives to unrestricted smartphones, a growing number of companies are building phones designed specifically for kids, from feature-limited mobile devices to minimalist home phones.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2021/10/GettyImages-620923891.jpg?resize=1200,800",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-07T19:00:00.000Z",
-      "categories": [
-        "mobile",
-        "hardware",
-        "startups"
-      ],
-      "author": "Lauren Forristal"
     },
     {
       "id": "aff8c97b0bc1",
@@ -2513,6 +2791,20 @@
         "programming"
       ],
       "author": "Ankit Jain"
+    },
+    {
+      "id": "9a3500d6fef8",
+      "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
+      "link": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
+      "description": "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrella with a powerful fan nearby, figuring I was protected from the sun and heat. Half an hour later, I felt exhausted, dizz",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268829_The90_Gem_SVasani_0002.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-07T17:00:00.000Z",
+      "categories": [
+        "privacy",
+        "tech"
+      ],
+      "author": "Sheena Vasani"
     },
     {
       "id": "f5b9f6fd108b",
@@ -2981,21 +3273,6 @@
       "author": "Rory Mir"
     },
     {
-      "id": "59154091f75e",
-      "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
-      "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
-      "description": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications. The post Building the next generation of multimodal AI experiences with fal in Microsoft Foundry appeared first on Microsoft Azure Blog .",
-      "thumbnail": null,
-      "source": "Azure Blog",
-      "publishedAt": "2026-11-06T19:08:44.000Z",
-      "categories": [
-        "ai",
-        "programming",
-        "cloud"
-      ],
-      "author": "Naomi Moneypenny"
-    },
-    {
       "id": "cf7b27793c12",
       "title": "AWS’ Colleen Aubrey: Stop inventing new AI metrics — it’s your business metrics that matter",
       "link": "https://siliconangle.com/2026/11/06/aws-colleen-aubrey-stop-inventing-new-ai-metrics-its-your-business-metrics-that-matter/",
@@ -3022,302 +3299,6 @@
         "programming"
       ],
       "author": "Geoff Graham"
-    },
-    {
-      "id": "a97be9095b72",
-      "title": "Fake security tools on GitHub push backdoors and infostealers",
-      "link": "https://www.bleepingcomputer.com/news/security/fake-security-tools-on-github-push-backdoors-and-infostealers/",
-      "description": "Cybersecurity professionals are being targeted with infected security projects on GitHub that deploy a backdoor and information stealer malware. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/06/github.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-06T18:46:52.000Z",
-      "categories": [
-        "programming",
-        "cybersecurity",
-        "opensource"
-      ],
-      "author": "Bill Toulas"
-    },
-    {
-      "id": "3f5fe12d2892",
-      "title": "Why the US midterms sparked an AI stock selloff",
-      "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
-      "description": "Fears of more AI regulation appear to have sparked fear among investors, but concerns about the industry have been growing for some time.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/f055/live/19529fe0-d9fb-11f1-93e1-3b657b665bcf.jpg",
-      "source": "BBC Technology",
-      "publishedAt": "2026-11-06T18:32:16.000Z",
-      "categories": [
-        "ai",
-        "business",
-        "tech"
-      ],
-      "author": null
-    },
-    {
-      "id": "f137cbc3aa2e",
-      "title": "Presenting 'Desire Lines: Encoding Queer Digital Futures'",
-      "link": "https://www.eff.org/deeplinks/2026/11/presenting-desire-lines-encoding-queer-digital-futures",
-      "description": "What does the digital future look like? Who gets to imagine it, shape it, and make it real? Building a freer, more inclusive digital age requires not only challenging systems of surveillance and control, but also making space for creativity, community, and radical imagination. That's why earlier thi",
-      "thumbnail": "https://www.eff.org/files/banner_library/neon-unicorn-final-banner.jpg",
-      "source": "EFF Updates",
-      "publishedAt": "2026-11-06T18:21:41.000Z",
-      "categories": [
-        "science",
-        "privacy"
-      ],
-      "author": "Paige Collings"
-    },
-    {
-      "id": "506f5e4832a9",
-      "title": "Cognition turned an open model into a coding beast. But it won’t release the weights.",
-      "link": "https://thenewstack.io/cognition-flash-private-weights/",
-      "description": "Cognition built its newest coding model on a foundation that anyone can download, yet the company is keeping its own The post Cognition turned an open model into a coding beast. But it won’t release the weights. appeared first on The New Stack .",
-      "thumbnail": "https://cdn.thenewstack.io/media/2026/11/2cd94231-sara-oliveira-jgk_ssmgjci-unsplash-1024x682.jpg",
-      "source": "The New Stack",
-      "publishedAt": "2026-11-06T18:16:42.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "Amanda Caswell"
-    },
-    {
-      "id": "1fe1a34ef5d4",
-      "title": "OpenAI and Anthropic Drop New AI Tools for Cybersecurity, Images and Finance",
-      "link": "https://www.cnet.com/tech/services-and-software/roundup-chatgpt-claude-gpt-6-cyber-images-2-6-personal-finance/",
-      "description": "Here are three AI product drops you might’ve missed this week.",
-      "thumbnail": "https://www.cnet.com/wp-content/uploads/sites/2/AdobeStock_1957197742_Editorial_Use_Only.jpeg",
-      "source": "CNET",
-      "publishedAt": "2026-11-06T18:10:17.000Z",
-      "categories": [
-        "ai",
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "Katelyn Chedraoui"
-    },
-    {
-      "id": "323c20ac06d4",
-      "title": "Meta’s best AI model now trains the one most of its users get",
-      "link": "https://thenewstack.io/meta-muse-specialized-models/",
-      "description": "Starting on Friday, everyone using Meta’s Muse agent and Meta AI gets new models the company trained using Muse Wonder, The post Meta’s best AI model now trains the one most of its users get appeared first on The New Stack .",
-      "thumbnail": "https://cdn.thenewstack.io/media/2026/11/b692c1f9-blogheader_light-1024x576.png",
-      "source": "The New Stack",
-      "publishedAt": "2026-11-06T18:05:55.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "Frederic Lardinois"
-    },
-    {
-      "id": "860444638104",
-      "title": "How a Blue Wave midterm might reshape the AI industry",
-      "link": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-      "description": "Democrats’ historic victories in this week’s U.S. midterm elections could also transform the tech industry. The public voted on 41 data center-related ballot measures on Tuesday — in all but one, the majority voted to impose more restrictions on data center development. And even when data centers we",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2022/11/GettyImages-1368458052.jpg?resize=1200,750",
-      "source": "TC Startups",
-      "publishedAt": "2026-11-06T18:00:00.000Z",
-      "categories": [
-        "ai",
-        "cloud",
-        "startups"
-      ],
-      "author": "Theresa Loconsolo, Anthony Ha, Sean O'Kane, Kirsten Korosec"
-    },
-    {
-      "id": "160cf9423a35",
-      "title": "Android is getting my favorite iOS tracking feature – what to expect",
-      "link": "https://www.zdnet.com/tech/android-find-hub-left-behind-upgrade/",
-      "description": "‘Notify when left behind’ is making its way to Android – but to limited devices for now.",
-      "thumbnail": "https://www.zdnet.com/wp-content/uploads/sites/3/9f63197d-cd41-4007-a0bb-ab0ce06e6a6a.jpg",
-      "source": "ZDNet",
-      "publishedAt": "2026-11-06T17:48:15.000Z",
-      "categories": [
-        "hardware",
-        "mobile",
-        "privacy"
-      ],
-      "author": "Jada Jones"
-    },
-    {
-      "id": "b0e2f4cda526",
-      "title": "Thinking Machines’ new model takes the lead in western open-weight AI",
-      "link": "https://www.zdnet.com/innovation/thinking-machines-inkling-2-small-open-weight/",
-      "description": "Another competitive model developed outside of China could change the open-weight landscape.",
-      "thumbnail": "https://www.zdnet.com/wp-content/uploads/sites/3/redonblueGettyImages-2270299267.jpg",
-      "source": "ZDNet",
-      "publishedAt": "2026-11-06T17:08:33.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Radhika Rajkumar"
-    },
-    {
-      "id": "c4daeac5c98c",
-      "title": "QNAP says hackers breaching NAS devices in Plex2Shell attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/qnap-says-hackers-breaching-nas-devices-in-plex2shell-attacks/",
-      "description": "QNAP urges users to update Plex Media Server to the latest version available in the QNAP App Center, as hackers are exploiting the Plex2Shell vulnerability chain. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/06/QNAP.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-06T17:04:23.000Z",
-      "categories": [
-        "cybersecurity",
-        "hardware"
-      ],
-      "author": "Bill Toulas"
-    },
-    {
-      "id": "1dfbb32a560b",
-      "title": "Amazon Deals of the Day: Clean Up Before the Holidays With Over $100 Off the Dyson Ball Animal Vacuum",
-      "link": "https://www.cnet.com/tech/amazon-deals-of-the-day-2026-11-06/",
-      "description": "Plus, score the newest Fire streaming stick and a solid pair of Anker earbuds for $25 each.",
-      "thumbnail": "https://www.cnet.com/wp-content/uploads/sites/2/amazon-dod-11_6.png",
-      "source": "CNET",
-      "publishedAt": "2026-11-06T16:33:51.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Aashna Gheewalla"
-    },
-    {
-      "id": "9ee29b170407",
-      "title": "M30’s Sparkling Stars",
-      "link": "https://www.nasa.gov/image-article/m30s-sparkling-stars/",
-      "description": "This NASA/ESA Hubble Space Telescope image released Nov. 5, 2026, provides a lesson in galactic history. The sparkling collection of stars is named Messier 30 (M30) after the French astronomer, Charles Messier, who cataloged M30 and other diffuse objects that might be mistaken for comets in the earl",
-      "thumbnail": "https://www.nasa.gov/wp-content/uploads/2026/11/hubble-m30-potm2610a.jpg?w=2048",
-      "source": "NASA Breaking News",
-      "publishedAt": "2026-11-06T16:23:41.000Z",
-      "categories": [
-        "science"
-      ],
-      "author": "HQ Web Team"
-    },
-    {
-      "id": "b4a1115bdb0f",
-      "title": "Apple will monitor your public iCloud links now, starting with iOS 27.3",
-      "link": "https://www.zdnet.com/innovation/apple-monitor-public-icloud-links-27-3-harmful-content/",
-      "description": "Under Apple’s new policy, the company will scan publicly shared iCloud links for harmful content – and possibly ban violators.",
-      "thumbnail": "https://www.zdnet.com/wp-content/uploads/sites/3/74839d13-54c0-4925-a6e5-e35574caccbc.jpg",
-      "source": "ZDNet",
-      "publishedAt": "2026-11-06T16:21:55.000Z",
-      "categories": [
-        "hardware",
-        "mobile",
-        "tech"
-      ],
-      "author": "Taylor Clemons"
-    },
-    {
-      "id": "7a3513031f56",
-      "title": "Supercomputing Tech Demo Schedule",
-      "link": "https://science.nasa.gov/earth/supercomputing-tech-demo-schedule/",
-      "description": "Supercomputing 2026 Join NASA in the Exhibit Hall (Booth #4038) for presentations by NASA experts. Full Tech Demo schedule below. TUESDAY, NOVEMBER 17 10:00 AMType-safe Templates in Fortran 2028Tom Clune10:30 AMType-safe Templates in Fortran 2028Tom Clune11:00 AM Type-safe Templates in Fortran 2028T",
-      "thumbnail": "https://assets.science.nasa.gov/content/dam/science/astro/programs/cosmic-origins/images/misc/NASA-Meatball-Feature5.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
-      "source": "NASA Breaking News",
-      "publishedAt": "2026-11-06T16:03:52.000Z",
-      "categories": [
-        "science"
-      ],
-      "author": null
-    },
-    {
-      "id": "3fcee56b3af5",
-      "title": "EFF Submission to OHCHR Consultation on Child Rights and Safety in the Digital Environment",
-      "link": "https://www.eff.org/deeplinks/2026/11/eff-submission-ohchr-consultation-child-rights-and-safety-digital-environment",
-      "description": "“ The safety of young people in the digital environment cannot be assessed without also considering the safety of young people in offline environments. For millions of young people around the world, the digital environment is their safe place, their haven from an unsafe physical environment, communi",
-      "thumbnail": "https://www.eff.org/files/banner_library/ageverification-banner2-3a.png",
-      "source": "EFF Updates",
-      "publishedAt": "2026-11-06T15:55:49.000Z",
-      "categories": [
-        "privacy"
-      ],
-      "author": "Paige Collings"
-    },
-    {
-      "id": "af6d1b8b9d25",
-      "title": "Veeam warns of Software Appliance boot failures on AMD EPYC hosts",
-      "link": "https://www.bleepingcomputer.com/news/security/veeam-software-appliance-vms-fail-to-boot-on-amd-epyc-hosts/",
-      "description": "​Veeam warned customers about boot failures affecting Software Appliance virtual machines (VMs) on hosts with AMD EPYC processors. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/06/Veeam.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-06T15:25:31.000Z",
-      "categories": [
-        "programming",
-        "hardware",
-        "cybersecurity"
-      ],
-      "author": "Sergiu Gatlan"
-    },
-    {
-      "id": "bffdbd884e14",
-      "title": "“Most apps never make it off localhost”: Cursor takes on Lovable and Replit with fully managed app deployment",
-      "link": "https://thenewstack.io/cursor-ai-app-deployment/",
-      "description": "AI coding agents have certainly made it easier to transform an idea into a working application. However, getting that application The post “Most apps never make it off localhost”: Cursor takes on Lovable and Replit with fully managed app deployment appeared first on The New Stack .",
-      "thumbnail": "https://cdn.thenewstack.io/media/2026/11/0daf82eb-philip-oroni-xv2kgdto9ii-unsplash-1024x683.jpg",
-      "source": "The New Stack",
-      "publishedAt": "2026-11-06T15:15:21.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "Paul Sawers"
-    },
-    {
-      "id": "831e944137d6",
-      "title": "Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway?",
-      "link": "https://siliconangle.com/2026/11/06/midterm-elections-will-put-ai-and-data-centers-on-trial-but-big-tech-may-end-up-winning-anyway/",
-      "description": "It may be a little soon to determine the ultimate winners and losers among enterprise suppliers after the midterm elections, but the early line is: Big Tech wins and data center suppliers operators such as chipmakers and neoclouds lose. Or will everybody lose? The day after the elections, stocks of",
-      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Tech-CEOs-Surfing-Market-Waves.png",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-06T15:09:18.000Z",
-      "categories": [
-        "ai",
-        "cloud",
-        "cybersecurity"
-      ],
-      "author": "Robert Hof"
-    },
-    {
-      "id": "c73fd57da65b",
-      "title": "The AI boom’s missing balance-sheet question: What has actually been verified?",
-      "link": "https://siliconangle.com/2026/11/06/the-ai-booms-missing-balance-sheet-question-what-has-actually-been-verified/",
-      "description": "Artificial intelligence infrastructure commitments are growing faster than the evidence connecting contracted capacity to sustained economic value. I spent 13 years on the floor of the New York Stock Exchange. One lesson stayed with me long after the trading jackets disappeared: A transaction could",
-      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/thedigitalartist-ai-generated-8070004_1920.jpg",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-06T15:00:36.000Z",
-      "categories": [
-        "ai",
-        "business",
-        "tech"
-      ],
-      "author": "Neil P. Osnato"
-    },
-    {
-      "id": "3647bbef0072",
-      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
-      "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
-      "description": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/posts/2026/11/04/cell-tower-header.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-06T15:00:10.000Z",
-      "categories": [
-        "cybersecurity"
-      ],
-      "author": "Sponsored by Cape"
-    },
-    {
-      "id": "f8e9629a67be",
-      "title": "Chainalysis says breach exposed credentials for all customers",
-      "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
-      "description": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/06/0_Chainalysis.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-06T14:17:07.000Z",
-      "categories": [
-        "cybersecurity"
-      ],
-      "author": "Sergiu Gatlan"
     }
   ],
   "github": [
@@ -3325,7 +3306,7 @@
       "name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 190281,
+      "stars": 190299,
       "starsToday": 1052,
       "url": "https://github.com/anthropics/skills"
     },
@@ -3333,7 +3314,7 @@
       "name": "meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 18593,
+      "stars": 18633,
       "starsToday": 3324,
       "url": "https://github.com/meta/astryx"
     },
@@ -3341,7 +3322,7 @@
       "name": "sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars": 106101,
+      "stars": 106135,
       "starsToday": 4294,
       "url": "https://github.com/sherlock-project/sherlock"
     },
@@ -3349,7 +3330,7 @@
       "name": "google-deepmind/mujoco",
       "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
       "language": "C++",
-      "stars": 16752,
+      "stars": 16753,
       "starsToday": 579,
       "url": "https://github.com/google-deepmind/mujoco"
     },
@@ -3357,7 +3338,7 @@
       "name": "anthropics/claude-quickstarts",
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "language": "Python",
-      "stars": 19770,
+      "stars": 19781,
       "starsToday": 560,
       "url": "https://github.com/anthropics/claude-quickstarts"
     },
@@ -3365,7 +3346,7 @@
       "name": "garrytan/gbrain",
       "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
       "language": "TypeScript",
-      "stars": 31910,
+      "stars": 31918,
       "starsToday": 215,
       "url": "https://github.com/garrytan/gbrain"
     },
@@ -3373,7 +3354,7 @@
       "name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 48173,
+      "stars": 48175,
       "starsToday": 914,
       "url": "https://github.com/vercel-labs/agent-browser"
     },
@@ -3381,7 +3362,7 @@
       "name": "ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "stars": 103193,
+      "stars": 103197,
       "starsToday": 203,
       "url": "https://github.com/ruvnet/RuView"
     },
@@ -3389,7 +3370,7 @@
       "name": "ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 68517,
+      "stars": 68530,
       "starsToday": 505,
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
     },
@@ -3397,7 +3378,7 @@
       "name": "homeassistant-ai/ha-mcp",
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python",
-      "stars": 5607,
+      "stars": 5618,
       "starsToday": 31,
       "url": "https://github.com/homeassistant-ai/ha-mcp"
     },
@@ -3405,7 +3386,7 @@
       "name": "milind-soni/OpenMausBot",
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
-      "stars": 19265,
+      "stars": 19280,
       "starsToday": 1589,
       "url": "https://github.com/milind-soni/OpenMausBot"
     }
