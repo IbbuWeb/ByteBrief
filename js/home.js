@@ -18,7 +18,7 @@
   showToast,
   stashPendingSave,
   toggleSaved
-} from './shared.js?v=20261109-2';
+} from './shared.js?v=20261109-3';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -39,16 +39,21 @@ function shuffleArticles(articles) {
   return copy;
 }
 
-function interleaveVideos(articles, { every = 5 } = {}) {
+function interleaveVideos(articles, { minGap = 2, maxGap = 6 } = {}) {
   const videos = shuffleArticles(articles.filter(article => article.video === true));
   const rest = articles.filter(article => article.video !== true);
   if (videos.length === 0 || rest.length === 0) return [...videos, ...rest];
 
   const out = [];
   let vi = 0;
+  let untilVideo = 1 + Math.floor(Math.random() * Math.max(1, minGap));
   for (let i = 0; i < rest.length; i += 1) {
     out.push(rest[i]);
-    if ((i + 1) % every === 0 && vi < videos.length) out.push(videos[vi++]);
+    untilVideo -= 1;
+    if (untilVideo <= 0 && vi < videos.length) {
+      out.push(videos[vi++]);
+      untilVideo = minGap + Math.floor(Math.random() * (maxGap - minGap + 1));
+    }
   }
   while (vi < videos.length) out.push(videos[vi++]);
   return out;
@@ -96,7 +101,7 @@ function orderForToday(articles) {
   }
 
   const rest = articles.filter(article => !used.has(safeUrl(article.link)));
-  return [...top, ...interleaveVideos(shuffleArticles(rest), { every: 5 })];
+  return [...top, ...interleaveVideos(shuffleArticles(rest), { minGap: 2, maxGap: 6 })];
 }
 
 const state = {
