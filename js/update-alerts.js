@@ -1,6 +1,6 @@
-﻿import { auth, db } from './firebase-config.js?v=20261109-3';
+﻿import { auth, db } from './firebase-config.js?v=20261109-4';
 import { addDoc, collection, serverTimestamp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
-import { UPDATE_ALERT_PUBLIC_KEY, UPDATE_ALERT_VERSION } from './vapid.js?v=20261107-3';
+import { UPDATE_ALERT_PUBLIC_KEY, UPDATE_ALERT_VERSION } from './vapid.js?v=20261109-4';
 
 const UPDATE_ALERT_DISMISSED_KEY = `bytebrief_update_alerts_${UPDATE_ALERT_VERSION}_dismissed`;
 
@@ -35,7 +35,7 @@ export async function enableUpdateAlerts() {
 
   const registration = await navigator.serviceWorker.register(
     new URL('sw.js', document.baseURI).toString(),
-    { scope: new URL('./', document.baseURI).pathname }
+    { scope: new URL('./', document.baseURI).pathname, updateViaCache: 'none' }
   );
   await navigator.serviceWorker.ready;
 

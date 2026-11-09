@@ -397,12 +397,45 @@ export function initShell(page = '') {
 
   initUpdateBanner();
   initThemeToggle();
+  registerAppServiceWorker();
 
   return initAuth().then(async ctx => {
     updateNavAuth(ctx?.user || null);
     if (ctx?.user) await flushPendingSave(ctx);
     return ctx;
   });
+}
+
+function registerAppServiceWorker() {
+  if (!('serviceWorker' in navigator)) return;
+  if (window.__bytebriefSwInit) return;
+  window.__bytebriefSwInit = true;
+
+  let refreshing = false;
+  navigator.serviceWorker.addEventListener('controllerchange', () => {
+    if (refreshing) return;
+    refreshing = true;
+    try { sessionStorage.removeItem('bytebrief_sw_reload'); } catch {}
+    window.location.reload();
+  });
+
+  const doRegister = async () => {
+    try {
+      const reg = await navigator.serviceWorker.register(
+        new URL('sw.js', document.baseURI).toString(),
+        { scope: new URL('./', document.baseURI).pathname, updateViaCache: 'none' }
+      );
+      reg.update().catch(() => {});
+      document.addEventListener('visibilitychange', () => {
+        if (document.visibilityState === 'visible') reg.update().catch(() => {});
+      });
+    } catch (error) {
+      console.warn('Service worker registration failed:', error);
+    }
+  };
+
+  if (document.readyState === 'complete') doRegister();
+  else window.addEventListener('load', doRegister, { once: true });
 }
 
 function updateNavAuth(user) {
@@ -433,7 +466,7 @@ let dataPromise = null;
 
 export function loadData() {
   if (!dataPromise) {
-    dataPromise = fetch('js/data.json', { cache: 'no-cache' })
+    dataPromise = fetch(`js/data.json?v=${Date.now()}`, { cache: 'no-store' })
       .then(response => {
         if (!response.ok) throw new Error(`Data request failed: ${response.status}`);
         return response.json();
@@ -461,7 +494,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261109-3'),
+    import('./firebase-config.js?v=20261109-4'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])

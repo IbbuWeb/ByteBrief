@@ -1,4 +1,41 @@
+const APP_VERSION = '20261109-4';
 const UPDATE_URL = '/ByteBrief/?source=update';
+
+self.addEventListener('install', event => {
+  self.skipWaiting();
+});
+
+self.addEventListener('activate', event => {
+  event.waitUntil((async () => {
+    const keys = await caches.keys();
+    await Promise.all(keys.filter(k => k.startsWith('bytebrief-') && k !== `bytebrief-${APP_VERSION}`).map(k => caches.delete(k)));
+    await self.clients.claim();
+  })());
+});
+
+// Network-first: bypass stale HTTP cache for app/data requests; fall back only if offline.
+self.addEventListener('fetch', event => {
+  const req = event.request;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  if (url.origin !== self.location.origin) return;
+  const path = url.pathname;
+  const isAppAsset =
+    path.startsWith('/ByteBrief/') &&
+    (path.endsWith('.html') || path.endsWith('.js') || path.endsWith('.css') || path.endsWith('.json') || path.endsWith('/ByteBrief/') || path === '/ByteBrief');
+  if (!isAppAsset) return;
+
+  event.respondWith((async () => {
+    try {
+      const fresh = await fetch(req, { cache: 'no-store' });
+      return fresh;
+    } catch {
+      const cached = await caches.match(req);
+      if (cached) return cached;
+      throw new Error('offline');
+    }
+  })());
+});
 
 self.addEventListener('push', event => {
   let payload = {};
@@ -20,7 +57,7 @@ self.addEventListener('push', event => {
       icon: '/ByteBrief/assets/icon-192.png',
       badge: '/ByteBrief/assets/icon-192.png',
       data: { url },
-      tag: 'bytebrief-update-v1',
+      tag: `bytebrief-update-${APP_VERSION}`,
       renotify: false
     })
   );
