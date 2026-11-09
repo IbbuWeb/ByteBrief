@@ -1,6 +1,6 @@
-﻿import { auth, db } from './firebase-config.js?v=20261109-10';
+﻿import { auth, db } from './firebase-config.js?v=20261109-11';
 import { addDoc, collection, serverTimestamp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
-import { UPDATE_ALERT_PUBLIC_KEY, UPDATE_ALERT_VERSION } from './vapid.js?v=20261109-10';
+import { UPDATE_ALERT_PUBLIC_KEY, UPDATE_ALERT_VERSION } from './vapid.js?v=20261109-11';
 
 const UPDATE_ALERT_DISMISSED_KEY = `bytebrief_update_alerts_${UPDATE_ALERT_VERSION}_dismissed`;
 
