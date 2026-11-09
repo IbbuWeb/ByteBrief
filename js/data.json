@@ -1,6 +1,19 @@
 {
-  "generatedAt": "2026-11-09T07:22:39.173Z",
+  "generatedAt": "2026-11-09T07:52:50.389Z",
   "articles": [
+    {
+      "id": "fef139232750",
+      "title": "Dev error bricked 600 PCs, caused $1M CD-ROM write-off",
+      "link": "https://www.theregister.com/software/2026/11/09/dev-error-bricked-600-pcs-caused-1m-cd-rom-write-off/5308039",
+      "description": "One lucky engineer scored a free dinner during the frantic fix, the rest got to explain their mistake",
+      "thumbnail": "https://image.theregister.com/?imageId=225379&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-09T07:36:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Simon Sharwood"
+    },
     {
       "id": "f1cf382cef00",
       "title": "Satellite sovereignty takes centre stage as Marble Imaging raises €6M",
@@ -170,7 +183,7 @@
       "id": "8627f51ccc6b",
       "title": "A Critique of GPUI",
       "link": "https://blog.zortax.de/posts/a-critique-of-gpui",
-      "description": "70 points Â· 31 comments",
+      "description": "74 points Â· 38 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T03:51:10.000Z",
@@ -183,7 +196,7 @@
       "id": "ffa752f0df2f",
       "title": "The Qlobe: Rotating Quine (2010)",
       "link": "http://mamememo.blogspot.com/2010/09/qlobe.html",
-      "description": "16 points Â· 0 comments",
+      "description": "21 points Â· 0 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T03:15:17.000Z",
@@ -196,7 +209,7 @@
       "id": "b7a0d4415325",
       "title": "A Bit about Email",
       "link": "https://maurycyz.com/misc/email/",
-      "description": "19 points Â· 3 comments",
+      "description": "24 points Â· 4 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T02:46:21.000Z",
@@ -250,7 +263,7 @@
       "id": "f09ab0b19a40",
       "title": "RIP, Harvest",
       "link": "https://aphyr.com/posts/427-rip-harvest",
-      "description": "289 points Â· 89 comments",
+      "description": "302 points Â· 89 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T01:58:21.000Z",
@@ -386,7 +399,7 @@
       "id": "9429f06661b1",
       "title": "Unlocking any car from X brand in most of the world",
       "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-      "description": "227 points Â· 82 comments",
+      "description": "249 points Â· 89 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T00:10:50.000Z",
@@ -455,7 +468,7 @@
       "id": "b4717b7762b7",
       "title": "I'm not convinced the AI bubble exists",
       "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
-      "description": "178 points Â· 232 comments",
+      "description": "204 points Â· 270 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T23:44:36.000Z",
@@ -497,7 +510,7 @@
       "id": "6964c43b4ad4",
       "title": "When a language's creator and its owners strongly disagree [pdf]",
       "link": "https://isocpp.org/files/papers/P4454R0.pdf",
-      "description": "107 points Â· 102 comments",
+      "description": "111 points Â· 108 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T23:28:01.000Z",
@@ -564,7 +577,7 @@
       "id": "8eab40c7ce41",
       "title": "Chimera Vocal Synth",
       "link": "https://chimera-vocal-synth.vercel.app/",
-      "description": "171 points Â· 23 comments",
+      "description": "179 points Â· 24 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T22:36:03.000Z",
@@ -577,7 +590,7 @@
       "id": "79cd6977cdf1",
       "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
       "link": "https://ketchup3d.github.io/app/",
-      "description": "385 points Â· 101 comments",
+      "description": "408 points Â· 109 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T22:35:35.000Z",
@@ -757,7 +770,7 @@
       "id": "ef913a473bc5",
       "title": "Ask HN: What are you working on? (November 2026)",
       "link": "https://news.ycombinator.com/item?id=50417407",
-      "description": "190 points Â· 638 comments",
+      "description": "195 points Â· 656 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T21:20:20.000Z",
@@ -925,7 +938,7 @@
       "id": "c353641c8e4c",
       "title": "The Web Is More Than Enough, by Paul Ford",
       "link": "https://ftrain.com/aboard-the-web-is-more-than-enough",
-      "description": "118 points Â· 72 comments",
+      "description": "122 points Â· 73 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T19:48:32.000Z",
@@ -938,7 +951,7 @@
       "id": "45fb196cb1bb",
       "title": "How I Fight AI Brain Fry",
       "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "description": "217 points Â· 162 comments",
+      "description": "223 points Â· 163 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T19:37:42.000Z",
@@ -952,7 +965,7 @@
       "id": "ec6779b05ebb",
       "title": "Outlook.com is rejecting email from domains without DMARC",
       "link": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
-      "description": "354 points Â· 260 comments",
+      "description": "369 points Â· 264 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T19:20:32.000Z",
@@ -2882,7 +2895,7 @@
       "author": "Dan Robinson"
     },
     {
-      "title": "OpenAI’s nameless model just changed the odds of P = NP...",
+      "title": "OpenAI just made cryptographers very nervous...",
       "link": "https://www.youtube.com/watch?v=iw9SZgyahqg",
       "source": "Fireship",
       "category": "programming",
@@ -3014,20 +3027,6 @@
         "programming"
       ],
       "author": "Paul Sawers"
-    },
-    {
-      "id": "6d913cb54e3f",
-      "title": "DoJ's 'Super Intelligence Task Force' up and running",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/06/dojs-super-intelligence-task-force-up-and-running/5308074",
-      "description": "Organization responsible for countering anyone who wishes to scupper the US's ambition for AI supremacy",
-      "thumbnail": "https://image.theregister.com/?imageId=5308118&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-06T15:15:00.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Connor Jones"
     },
     {
       "id": "3922631ad3b4",
@@ -3308,7 +3307,7 @@
       "name": "Gathin23/cleanyourtv",
       "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
       "language": "Python",
-      "stars": 54912,
+      "stars": 54926,
       "starsToday": 0,
       "url": "https://github.com/Gathin23/cleanyourtv"
     },
@@ -3316,7 +3315,7 @@
       "name": "deepseek-ai/DeepInfer",
       "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
       "language": "Python",
-      "stars": 25703,
+      "stars": 25706,
       "starsToday": 0,
       "url": "https://github.com/deepseek-ai/DeepInfer"
     },
@@ -3324,7 +3323,7 @@
       "name": "storytold/craft-anything",
       "description": "Craft Anything: understand how any software works, and craft your own.",
       "language": "Rust",
-      "stars": 23319,
+      "stars": 23364,
       "starsToday": 0,
       "url": "https://github.com/storytold/craft-anything"
     },
@@ -3332,7 +3331,7 @@
       "name": "deepseek-ai/dsh-superagent-prototype",
       "description": "Towards a More Autonomous Agent System",
       "language": "TypeScript",
-      "stars": 21428,
+      "stars": 21446,
       "starsToday": 0,
       "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
     },
@@ -3340,7 +3339,7 @@
       "name": "Zagitta/gpu-unlock",
       "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
       "language": "C",
-      "stars": 18224,
+      "stars": 18228,
       "starsToday": 0,
       "url": "https://github.com/Zagitta/gpu-unlock"
     },
@@ -3348,7 +3347,7 @@
       "name": "ccch1mneyyy/dsh-Go",
       "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
       "language": "Dart",
-      "stars": 16706,
+      "stars": 16762,
       "starsToday": 0,
       "url": "https://github.com/ccch1mneyyy/dsh-Go"
     },
@@ -3356,7 +3355,7 @@
       "name": "seedds/nxnative",
       "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
       "language": "Python",
-      "stars": 13843,
+      "stars": 13855,
       "starsToday": 0,
       "url": "https://github.com/seedds/nxnative"
     },
@@ -3364,7 +3363,7 @@
       "name": "heydamir/unslop",
       "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
       "language": "JavaScript",
-      "stars": 12201,
+      "stars": 12219,
       "starsToday": 0,
       "url": "https://github.com/heydamir/unslop"
     },
@@ -3372,7 +3371,7 @@
       "name": "pengchujin/aerial-tv",
       "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
       "language": "Kotlin",
-      "stars": 10807,
+      "stars": 10811,
       "starsToday": 0,
       "url": "https://github.com/pengchujin/aerial-tv"
     },
@@ -3380,7 +3379,7 @@
       "name": "l0ng-ai/openidea",
       "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
       "language": "TypeScript",
-      "stars": 7979,
+      "stars": 7992,
       "starsToday": 0,
       "url": "https://github.com/l0ng-ai/openidea"
     },
@@ -3388,7 +3387,7 @@
       "name": "wangzan101/Mika",
       "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
       "language": "Kotlin",
-      "stars": 7809,
+      "stars": 7816,
       "starsToday": 0,
       "url": "https://github.com/wangzan101/Mika"
     },
@@ -3396,7 +3395,7 @@
       "name": "HeyPuter/everything",
       "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
       "language": "JavaScript",
-      "stars": 7714,
+      "stars": 7721,
       "starsToday": 0,
       "url": "https://github.com/HeyPuter/everything"
     }

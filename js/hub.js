@@ -17,7 +17,8 @@ const SECTIONS = [
   { key: 'trending', label: 'Trending' },
   { key: 'events', label: 'Events' },
   { key: 'podcasts', label: 'Podcasts' },
-  { key: 'sources', label: 'Sources' }
+  { key: 'sources', label: 'Sources' },
+  { key: 'youtube', label: 'YouTube' }
 ];
 
 const state = {
@@ -354,6 +355,39 @@ function renderPanel() {
       <p class="hub-section-note">Every feed is fetched directly by the refresh job. No third-party feed proxy sits between ByteBrief and the publisher.</p>
       <div class="bento">
         ${sources.map(source => renderSourceCard(source, { span: 3 })).join('')}
+      </div>
+    `;
+  }
+
+  if (state.section === 'youtube') {
+    const videos = (state.data.articles || []).filter(article => article.video);
+    count = videos.length;
+    html = `
+      <p class="hub-section-note">Auto-scraped from verified tech YouTube channels. ▶ = play in-app.</p>
+      <div class="bento">
+        ${videos.map((video, i) => `
+          <article class="card span-4" style="margin-bottom: 16px">
+            <div class="story-media" style="aspect-ratio: 16/9;">
+              <img class="js-img" src="${safeUrl(video.thumbnail)}" alt="" loading="lazy" decoding="async">
+              <span class="play-badge" style="top: 8px; right: 8px;"></span>
+              <span class="story-source" style="margin-top: 8px;">${escapeHtml(video.source)}</span>
+            </div>
+            <div class="story-content">
+              <div class="story-kicker">
+                <span class="eyebrow">YouTube</span>
+                <span class="dot"></span>
+                <time datetime="${escapeHtml(video.publishedAt || '')}">${video.publishedAt ? formatRelative(video.publishedAt) : '—'}</time>
+              </div>
+              <h3 class="story-title">${escapeHtml(video.title || 'Video')}</h3>
+              <p class="story-excerpt">${escapeHtml((video.description || '').slice(0, 120))}</p>
+              <div class="story-actions">
+                <a class="story-read" href="${video.link}" target="_blank" rel="noopener noreferrer">
+                  ${ICONS.arrow} Watch on YouTube
+                </a>
+              </div>
+            </div>
+          </article>
+        `).join('')}
       </div>
     `;
   }

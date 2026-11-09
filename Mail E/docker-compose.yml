@@ -1,0 +1,55 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_DB: maile
+      POSTGRES_USER: maile
+      POSTGRES_PASSWORD: maile
+    volumes:
+      - maile_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U maile -d maile"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - maile
+
+  server:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.server
+    environment:
+      DATABASE_URL: postgresql://maile:maile@postgres:5432/maile
+      CLIENT_URL: http://localhost
+      SESSION_SECRET: ${SESSION_SECRET:-change-me-session-secret}
+      JWT_SECRET: ${JWT_SECRET:-change-me-jwt-secret}
+      MAIL_ENCRYPTION_MASTER_KEY: ${MAIL_ENCRYPTION_MASTER_KEY:-change-me-master-key-32-bytes-min}
+      PORT: 4000
+      NODE_ENV: production
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "4000:4000"
+    networks:
+      - maile
+
+  client:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile.client
+    ports:
+      - "80:80"
+    depends_on:
+      - server
+    networks:
+      - maile
+
+volumes:
+  maile_db_data:
+
+networks:
+  maile:
