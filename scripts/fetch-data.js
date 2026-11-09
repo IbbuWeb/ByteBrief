@@ -1,21 +1,30 @@
-const fs = require('node:fs');
+﻿const fs = require('node:fs');
 const path = require('node:path');
+const { execFile } = require('node:child_process');
+const { promisify } = require('node:util');
 
 const {
   parseFeed,
   dedupeArticles,
   stripHtml,
   decodeEntities,
-  extractOgImage
+  extractOgImage,
+  parseYouTubeChannel,
+  parseYouTubeWatch
 } = require('./lib/parse-feed');
+
+const execFileAsync = promisify(execFile);
 
 const DATA_FILE = path.join(__dirname, '..', 'js', 'data.json');
 const EVENTS_FILE = path.join(__dirname, 'events.json');
 
 const USER_AGENT =
   'ByteBrief/2.0 (+https://github.com/IbbuWeb/ByteBrief)';
+const BROWSER_UA =
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 const MAX_ARTICLES = 240;
 const PER_SOURCE_LIMIT = 15;
+const VIDEOS_PER_CHANNEL = 5;
 const CONCURRENCY = 6;
 const OG_ENRICH_LIMIT = 80;
 const OG_ENRICH_CONCURRENCY = 6;
@@ -55,6 +64,14 @@ const SOURCES = [
   { name: 'Science Daily', url: 'https://www.sciencedaily.com/rss/top.xml', category: 'science' },
   { name: 'EFF Updates', url: 'https://www.eff.org/rss/updates.xml', category: 'privacy' },
   { name: 'Open Source Initiative', url: 'https://opensource.org/feed', category: 'opensource' }
+];
+
+const YOUTUBE_CHANNELS = [
+  { name: 'Fireship', handle: '@Fireship', category: 'programming' },
+  { name: 'Marques Brownlee', handle: '@mkbhd', category: 'mobile' },
+  { name: 'Linus Tech Tips', handle: '@LinusTechTips', category: 'hardware' },
+  { name: 'Computerphile', handle: '@Computerphile', category: 'programming' },
+  { name: 'The Verge', handle: '@TheVerge', category: 'tech' }
 ];
 
 const PODCASTS = [
@@ -216,7 +233,7 @@ function cleanDescription(source, description) {
     const comments = value.match(/#\s*Comments:\s*(\d+)/i)?.[1];
     value = [points && `${points} points`, comments && `${comments} comments`]
       .filter(Boolean)
-      .join(' · ');
+      .join(' Â· ');
   }
 
   if (source === 'Reddit Technology') {
@@ -284,9 +301,49 @@ async function enrichThumbnails(articles, previous) {
   return articles;
 }
 
+async function fetchYouTubeArticles() {
+  const articles = [];
+  for (const ch of YOUTUBE_CHANNELS) {
+    try {
+      const url = `https://www.youtube.com/${ch.handle}/videos`;
+      const res = await fetchText(url, { Accept: 'text/html' });
+      if (!res) continue;
+      const channelVideos = parseYouTubeChannel(res, { limit: VIDEOS_PER_CHANNEL });
+      for (const video of channelVideos) {
+        const watchUrl = `https://www.youtube.com/watch?v=${video.videoId}`;
+        let publishedAt = null;
+        try {
+          const watchRes = await fetchText(`https://www.youtube.com/watch?v=${video.videoId}`, {
+            Accept: 'text/html'
+          });
+          const parsed = parseYouTubeWatch(watchRes);
+          if (parsed?.publishedAt) publishedAt = parsed.publishedAt;
+        } catch { /* optional enrichment */ }
+        articles.push({
+          title: video.title,
+          link: watchUrl,
+          source: ch.name,
+          category: ch.category,
+          publishedAt,
+          thumbnail: video.thumbnail,
+          videoId: video.videoId,
+          video: true
+        });
+        if (articles.length >= VIDEOS_PER_CHANNEL * YOUTUBE_CHANNELS.length) break;
+      }
+    } catch (e) {
+      console.warn(`  ! YouTube fetch for ${ch.name}: ${e.message}`);
+    }
+    if (articles.length >= VIDEOS_PER_CHANNEL * YOUTUBE_CHANNELS.length) break;
+  }
+  return articles;
+}
+
 async function fetchArticles(previous) {
   const failedSources = new Set();
   let freshCount = 0;
+
+  const youtubeResults = await fetchYouTubeArticles();
 
   const results = await mapLimit(SOURCES, CONCURRENCY, async source => {
     try {
@@ -312,11 +369,12 @@ async function fetchArticles(previous) {
     }
   });
 
-  if (freshCount === 0) {
+  if (freshCount === 0 && youtubeResults.length === 0) {
     throw new Error('Every feed failed; keeping the previous data file untouched');
   }
 
   let articles = results.flat();
+  articles = [...articles, ...youtubeResults];
 
   for (const sourceName of failedSources) {
     const previousArticles = (previous.articles || []).filter(
@@ -583,3 +641,4 @@ main().catch(error => {
   console.error(`Data refresh failed: ${error.message}`);
   process.exit(1);
 });
+

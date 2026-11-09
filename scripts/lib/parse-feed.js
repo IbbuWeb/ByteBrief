@@ -481,6 +481,76 @@ function normalizeTitle(title = '') {
     .trim();
 }
 
+const YOUTUBE_ID = /^[A-Za-z0-9_-]{11}$/;
+
+function extractInitialData(html) {
+  const match = String(html || '').match(
+    /ytInitialData"?\]?\s*=\s*(\{[\s\S]*?\});\s*<\/script>/
+  );
+  if (!match) return null;
+
+  try {
+    return JSON.parse(match[1]);
+  } catch {
+    return null;
+  }
+}
+
+// Channel /videos pages embed their grid in ytInitialData.
+function parseYouTubeChannel(html, { limit = 50 } = {}) {
+  const videos = [];
+  const seen = new Set();
+
+  const walk = node => {
+    if (!node || typeof node !== 'object' || videos.length >= limit) return;
+    if (Array.isArray(node)) {
+      for (const item of node) walk(item);
+      return;
+    }
+
+    const lockup = node.lockupViewModel;
+    const videoId = lockup?.contentId;
+    const title = lockup?.metadata?.lockupMetadataViewModel?.title?.content;
+    if (
+      lockup?.contentType === 'LOCKUP_CONTENT_TYPE_VIDEO' &&
+      YOUTUBE_ID.test(videoId || '') &&
+      title &&
+      !seen.has(videoId)
+    ) {
+      seen.add(videoId);
+      videos.push({
+        videoId,
+        title: String(title).trim(),
+        thumbnail: `https://i.ytimg.com/vi/${videoId}/hq720.jpg`
+      });
+    }
+
+    for (const value of Object.values(node)) walk(value);
+  };
+
+  const data = extractInitialData(html);
+  if (data) walk(data);
+
+  return videos.slice(0, limit);
+}
+
+// Watch pages carry the exact upload date, unlike the relative text in the grid.
+function parseYouTubeWatch(html) {
+  const source = String(html || '');
+  const date = source.match(/"uploadDate":"([^"]+)"/)?.[1];
+  const publishedAt = parseDate(date);
+  if (!publishedAt) return null;
+
+  const description = source.match(
+    /<meta property="og:description" content="([^"]*)"/i
+  )?.[1];
+
+  return {
+    publishedAt,
+    description: stripHtml(description || '').slice(0, 300)
+  };
+}
+
 function dedupeArticles(articles) {
   const seenLinks = new Set();
   const seenTitles = new Set();
@@ -506,5 +576,7 @@ module.exports = {
   detectCategories,
   parseDate,
   extractOgImage,
-  dedupeArticles
+  dedupeArticles,
+  parseYouTubeChannel,
+  parseYouTubeWatch
 };

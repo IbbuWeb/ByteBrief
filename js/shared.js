@@ -339,7 +339,7 @@ function initUpdateBanner() {
     if (status) status.textContent = '';
 
     try {
-      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261107-1');
+      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261107-2');
       const result = await enableUpdateAlerts();
 
       if (result.subscribed) {
@@ -461,7 +461,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261107-1'),
+    import('./firebase-config.js?v=20261107-2'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
@@ -756,10 +756,15 @@ export function renderStoryCard(article, options = {}) {
   const excerpt = article.description || '';
   const image = article.thumbnail || article.image;
   const imageUrl = safeUrl(image);
+  const isVideo = article.video === true;
+  const playBadge = isVideo
+    ? `<span class="play-badge" aria-label="Play video"></span>`
+    : '';
   const imageMarkup = imageUrl
     ? `
       <button type="button" class="story-media" data-action="open" data-link="${link}" aria-label="Preview ${escapeHtml(title)}">
         <img class="js-img" src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async">
+        ${playBadge}
         <span class="story-source">${escapeHtml(article.source || 'Unknown')}</span>
       </button>`
     : '';

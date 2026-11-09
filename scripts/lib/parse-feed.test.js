@@ -9,7 +9,9 @@ const {
   detectCategories,
   parseDate,
   extractOgImage,
-  dedupeArticles
+  dedupeArticles,
+  parseYouTubeChannel,
+  parseYouTubeWatch
 } = require('./parse-feed');
 
 test('decodeEntities handles CDATA, named and numeric entities', () => {
@@ -180,4 +182,58 @@ test('dedupeArticles collapses the same story across sources', () => {
   ];
 
   assert.equal(dedupeArticles(articles).length, 2);
+});
+
+test('parseYouTubeChannel reads video lockups and skips shorts and duplicates', () => {
+  const lockup = (contentType, id, title) => ({
+    lockupViewModel: {
+      contentId: id,
+      contentType,
+      metadata: { lockupMetadataViewModel: { title: { content: title } } },
+      contentImage: {
+        thumbnailViewModel: {
+          image: { sources: [{ url: 'https://i.ytimg.com/vi/signed/hq720.jpg?sig=expiring' }] }
+        }
+      }
+    }
+  });
+  const data = {
+    contents: {
+      videos: [
+        lockup('LOCKUP_CONTENT_TYPE_VIDEO', 'iw9SZgyahqg', 'The one thing holding CS together'),
+        lockup('LOCKUP_CONTENT_TYPE_SHORT', 'sh0rtSh0rt1', 'A short'),
+        lockup('LOCKUP_CONTENT_TYPE_VIDEO', 'k2ruCf_z75I', 'North Korea stole $6.3 billion'),
+        lockup('LOCKUP_CONTENT_TYPE_VIDEO', 'iw9SZgyahqg', 'Duplicate')
+      ]
+    }
+  };
+  const html = `<script>var ytInitialData = ${JSON.stringify(data)};</script>`;
+
+  assert.deepEqual(parseYouTubeChannel(html), [
+    {
+      videoId: 'iw9SZgyahqg',
+      title: 'The one thing holding CS together',
+      thumbnail: 'https://i.ytimg.com/vi/iw9SZgyahqg/hq720.jpg'
+    },
+    {
+      videoId: 'k2ruCf_z75I',
+      title: 'North Korea stole $6.3 billion',
+      thumbnail: 'https://i.ytimg.com/vi/k2ruCf_z75I/hq720.jpg'
+    }
+  ]);
+  assert.equal(parseYouTubeChannel(html, { limit: 1 }).length, 1);
+  assert.deepEqual(parseYouTubeChannel('<p>consent page</p>'), []);
+});
+
+test('parseYouTubeWatch reads the exact upload date and description', () => {
+  const html = `<html><head>
+    <meta property="og:description" content="A &amp; B &mdash; real text">
+    <script type="application/ld+json">{"uploadDate":"2026-11-06T08:42:38-08:00"}</script>
+  </head></html>`;
+
+  assert.deepEqual(parseYouTubeWatch(html), {
+    publishedAt: '2026-11-06T16:42:38.000Z',
+    description: 'A & B — real text'
+  });
+  assert.equal(parseYouTubeWatch('<html>no metadata</html>'), null);
 });

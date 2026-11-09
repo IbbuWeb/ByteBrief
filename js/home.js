@@ -18,7 +18,7 @@ import {
   showToast,
   stashPendingSave,
   toggleSaved
-} from './shared.js?v=20261107-1';
+} from './shared.js?v=20261107-2';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -857,26 +857,41 @@ function openModal(article) {
   if (!els.modal) return;
 
   lastFocused = document.activeElement;
-  const image = safeUrl(article.thumbnail);
+  const isVideo = article.video === true;
   const link = safeUrl(article.link) || '#';
   const saved = isSaved(article);
 
-  els.modalMedia.innerHTML = image
-    ? `<img class="js-img" src="${escapeHtml(image)}" alt="" decoding="async">`
-    : `<div class="media-placeholder">${ICONS.image}</div>`;
-  els.modalCategory.textContent = categoryLabel(article.categories?.[0]);
-  els.modalSource.textContent = article.source || 'Unknown';
-  els.modalTitle.textContent = article.title || 'Story';
-  els.modalMeta.textContent = [
-    article.author || null,
-    article.publishedAt ? formatDate(article.publishedAt, { year: true }) : 'Date unavailable'
-  ]
-    .filter(Boolean)
-    .join(' · ');
-  els.modalDescription.textContent = article.description || 'No summary was provided by the publisher.';
-  els.modalRead.href = link;
+  // YouTube iframe for video articles
+  if (isVideo) {
+    const videoId = article.videoId || 'iw9SZgyahqg';
+    els.modalMedia.innerHTML = `<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
+    els.modalTitle.textContent = article.title || 'Video';
+    els.modalRead.textContent = 'Watch in app';
+    els.modalRead.href = '#';
+    els.modalRead.target = '';
+    els.modalRead.rel = '';
+  } else {
+    const image = safeUrl(article.thumbnail);
+    els.modalMedia.innerHTML = image
+      ? `<img class="js-img" src="${escapeHtml(image)}" alt="" decoding="async">`
+      : `<div class="media-placeholder">${ICONS.image}</div>`;
+    els.modalCategory.textContent = categoryLabel(article.categories?.[0]);
+    els.modalSource.textContent = article.source || 'Unknown';
+    els.modalTitle.textContent = article.title || 'Story';
+    els.modalMeta.textContent = [
+      article.author || null,
+      article.publishedAt ? formatDate(article.publishedAt, { year: true }) : 'Date unavailable'
+    ]
+      .filter(Boolean)
+      .join(' · ');
+    els.modalDescription.textContent = article.description || 'No summary was provided by the publisher.';
+    els.modalRead.href = link;
+    els.modalRead.textContent = 'Read full story';
+    els.modalRead.target = '_blank';
+    els.modalRead.rel = 'noopener noreferrer';
+  }
+
   els.modalSave.dataset.link = link;
-  els.modalShare.dataset.link = link;
   els.modalSave.classList.toggle('is-saved', saved);
   els.modalSave.setAttribute('aria-pressed', String(saved));
   els.modalSave.querySelector('.js-save-label').textContent = saved ? 'Saved' : 'Save';

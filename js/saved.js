@@ -11,7 +11,7 @@ import {
   safeUrl,
   shareArticle,
   showToast
-} from './shared.js?v=20261107-1';
+} from './shared.js?v=20261107-2';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];
@@ -201,21 +201,37 @@ async function removeSaved(target, { closeModal = false } = {}) {
 function openPreview(article) {
   if (!els.modal) return;
   lastFocused = document.activeElement;
-  const image = safeUrl(article.thumbnail || article.image);
+  const isVideo = article.video === true;
   const link = safeUrl(article.link) || '#';
-  els.media.innerHTML = image
-    ? `<img class="js-img" src="${escapeHtml(image)}" alt="" decoding="async">`
-    : `<div class="media-placeholder" aria-hidden="true">${ICONS.image}</div>`;
-  els.category.textContent = categoryLabel(article.categories?.[0] || article.category);
-  els.source.textContent = article.source || 'Unknown';
-  els.title.textContent = article.title || 'Story';
-  const date = article.publishedAt || article.savedAt;
-  els.meta.textContent = [
-    article.author || null,
-    date ? formatDate(date, { year: true }) : 'Date unavailable'
-  ].filter(Boolean).join(' · ');
-  els.description.textContent = article.description || 'The publisher did not provide a summary for this story.';
-  els.read.href = link;
+
+  if (isVideo) {
+    const videoId = article.videoId || 'iw9SZgyahqg';
+    els.media.innerHTML = `<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
+    els.title.textContent = article.title || 'Video';
+    els.read.textContent = 'Watch in app';
+    els.read.href = '#';
+    els.read.target = '';
+    els.read.rel = '';
+  } else {
+    const image = safeUrl(article.thumbnail || article.image);
+    els.media.innerHTML = image
+      ? `<img class="js-img" src="${escapeHtml(image)}" alt="" decoding="async">`
+      : `<div class="media-placeholder" aria-hidden="true">${ICONS.image}</div>`;
+    els.category.textContent = categoryLabel(article.categories?.[0] || article.category);
+    els.source.textContent = article.source || 'Unknown';
+    els.title.textContent = article.title || 'Story';
+    const date = article.publishedAt || article.savedAt;
+    els.meta.textContent = [
+      article.author || null,
+      date ? formatDate(date, { year: true }) : 'Date unavailable'
+    ].filter(Boolean).join(' · ');
+    els.description.textContent = article.description || 'The publisher did not provide a summary for this story.';
+    els.read.href = link;
+    els.read.textContent = 'Read full story';
+    els.read.target = '_blank';
+    els.read.rel = 'noopener noreferrer';
+  }
+
   els.save.dataset.link = link;
   els.save.querySelector('.js-save-label').textContent = 'Saved';
   els.save.classList.add('is-saved');
