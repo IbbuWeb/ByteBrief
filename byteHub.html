@@ -1,6 +1,20 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+  <script>
+    (function () {
+      var KEY = 'bytebrief_force_refresh_once_v20261109_8';
+      try {
+        if (localStorage.getItem(KEY) !== '1') {
+          localStorage.setItem(KEY, '1');
+          var url = new URL(window.location.href);
+          url.searchParams.set('_refresh', Date.now().toString());
+          window.location.replace(url.toString());
+          return;
+        }
+      } catch (e) {}
+    })();
+  </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#171410">
@@ -17,7 +31,7 @@
   <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
   <link rel="manifest" href="manifest.json">
   <title>ByteHub — ByteBrief</title>
-  <link rel="stylesheet" href="css/styles.css?v=20261109-7">
+  <link rel="stylesheet" href="css/styles.css?v=20261109-8">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <script>
@@ -81,7 +95,7 @@
     <span class="toast-message"></span>
   </div>
 
-  <script type="module" src="js/hub.js?v=20261109-7"></script>
+  <script type="module" src="js/hub.js?v=20261109-8"></script>
 </body>
 </html>
 
