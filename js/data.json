@@ -1,188 +1,6 @@
 {
-  "generatedAt": "2026-11-09T14:02:43.045Z",
+  "generatedAt": "2026-11-09T14:04:07.127Z",
   "articles": [
-    {
-      "title": "This Phone Proves Samsung and Google Need Help",
-      "link": "https://www.youtube.com/watch?v=GCUHLVD9uZo",
-      "source": "Android Authority",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-11-09T14:00:35.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/GCUHLVD9uZo/hq720.jpg",
-      "videoId": "GCUHLVD9uZo",
-      "video": true
-    },
-    {
-      "title": "I Tested 42 Years of Phones!",
-      "link": "https://www.youtube.com/watch?v=HVLUtJWlcJY",
-      "source": "Mrwhosetheboss",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-11-09T12:37:47.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/HVLUtJWlcJY/hq720.jpg",
-      "videoId": "HVLUtJWlcJY",
-      "video": true
-    },
-    {
-      "title": "I Let My Staff Upgrade the Office (They Almost Ruined It)",
-      "link": "https://www.youtube.com/watch?v=CrO0Timw2z4",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-08T16:56:01.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/CrO0Timw2z4/hq720.jpg",
-      "videoId": "CrO0Timw2z4",
-      "video": true
-    },
-    {
-      "title": "I’ve never seen this before (and it’s 20 years old.)",
-      "link": "https://www.youtube.com/watch?v=7hlTu95nOCw",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-07T17:01:40.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/7hlTu95nOCw/hq720.jpg",
-      "videoId": "7hlTu95nOCw",
-      "video": true
-    },
-    {
-      "title": "They even got Paint?",
-      "link": "https://www.youtube.com/watch?v=B1D0_vO7WGc",
-      "source": "TechLinked",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-07T01:52:34.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/B1D0_vO7WGc/hq720.jpg",
-      "videoId": "B1D0_vO7WGc",
-      "video": true
-    },
-    {
-      "title": "Meta VR Glasses: What Vision Pro 2 COULD Have Been!",
-      "link": "https://www.youtube.com/watch?v=_x58r9TBois",
-      "source": "Marques Brownlee",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-11-06T21:29:30.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/_x58r9TBois/hq720.jpg",
-      "videoId": "_x58r9TBois",
-      "video": true
-    },
-    {
-      "title": "OpenAI just made cryptographers very nervous...",
-      "link": "https://www.youtube.com/watch?v=iw9SZgyahqg",
-      "source": "Fireship",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-06T16:42:38.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/iw9SZgyahqg/hq720.jpg",
-      "videoId": "iw9SZgyahqg",
-      "video": true
-    },
-    {
-      "title": "Big Tech lost big in the 2026 election | The Vergecast",
-      "link": "https://www.youtube.com/watch?v=-U4thshDTL8",
-      "source": "The Verge",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-06T14:15:09.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/-U4thshDTL8/hq720.jpg",
-      "videoId": "-U4thshDTL8",
-      "video": true
-    },
-    {
-      "title": "BookTok is the antidote to doomscrolling | The Vergecast",
-      "link": "https://www.youtube.com/watch?v=CAYWoVi0rkw",
-      "source": "The Verge",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-05T18:14:31.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/CAYWoVi0rkw/hq720.jpg",
-      "videoId": "CAYWoVi0rkw",
-      "video": true
-    },
-    {
-      "title": "“Tesla Hater” Finally Tries Full Self Driving",
-      "link": "https://www.youtube.com/watch?v=Ao9IQyaH0fk",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-05T17:00:57.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ao9IQyaH0fk/hq720.jpg",
-      "videoId": "Ao9IQyaH0fk",
-      "video": true
-    },
-    {
-      "title": "MacBook Pro OLED Review - Is Touch ACTUALLY Useful?",
-      "link": "https://www.youtube.com/watch?v=m8lhB9qFhYo",
-      "source": "Dave2D",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-05T14:03:51.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/m8lhB9qFhYo/hq720.jpg",
-      "videoId": "m8lhB9qFhYo",
-      "video": true
-    },
-    {
-      "title": "Tested in the Wild: Best Survival Tech!",
-      "link": "https://www.youtube.com/watch?v=Ig497BH7d0E",
-      "source": "Android Authority",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-11-05T14:00:20.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/Ig497BH7d0E/hq720.jpg",
-      "videoId": "Ig497BH7d0E",
-      "video": true
-    },
-    {
-      "title": "Mutex Explained - Computerphile",
-      "link": "https://www.youtube.com/watch?v=BmBw827GgFA",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-05T14:00:16.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/BmBw827GgFA/hq720.jpg",
-      "videoId": "BmBw827GgFA",
-      "video": true
-    },
-    {
-      "title": "Uh, Google?",
-      "link": "https://www.youtube.com/watch?v=mdlLCkLx9BI",
-      "source": "TechLinked",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-05T02:19:27.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/mdlLCkLx9BI/hq720.jpg",
-      "videoId": "mdlLCkLx9BI",
-      "video": true
-    },
     {
       "title": "Extras - GTA 6 on PC May be Sooner than We Thought",
       "link": "https://www.youtube.com/watch?v=CNbsMah32Ss",
@@ -210,6 +28,201 @@
       "video": true
     },
     {
+      "title": "OpenAI just made cryptographers very nervous...",
+      "link": "https://www.youtube.com/watch?v=iw9SZgyahqg",
+      "source": "Fireship",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/iw9SZgyahqg/hq720.jpg",
+      "videoId": "iw9SZgyahqg",
+      "video": true
+    },
+    {
+      "title": "The worst week in cybersecurity history... so far",
+      "link": "https://www.youtube.com/watch?v=k2ruCf_z75I",
+      "source": "Fireship",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/k2ruCf_z75I/hq720.jpg",
+      "videoId": "k2ruCf_z75I",
+      "video": true
+    },
+    {
+      "title": "Did the AI bubble just pop?",
+      "link": "https://www.youtube.com/watch?v=nEaJMdM1djM",
+      "source": "Fireship",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/nEaJMdM1djM/hq720.jpg",
+      "videoId": "nEaJMdM1djM",
+      "video": true
+    },
+    {
+      "title": "China just dropped a new frontier model... and nobody can explain how",
+      "link": "https://www.youtube.com/watch?v=G_em1hHPnXY",
+      "source": "Fireship",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/G_em1hHPnXY/hq720.jpg",
+      "videoId": "G_em1hHPnXY",
+      "video": true
+    },
+    {
+      "title": "The most vulnerable week in internet history...",
+      "link": "https://www.youtube.com/watch?v=SMGg7iisHmc",
+      "source": "Fireship",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/SMGg7iisHmc/hq720.jpg",
+      "videoId": "SMGg7iisHmc",
+      "video": true
+    },
+    {
+      "title": "The last real programmers are dying out...",
+      "link": "https://www.youtube.com/watch?v=zv6B6PQOuHE",
+      "source": "Fireship",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/zv6B6PQOuHE/hq720.jpg",
+      "videoId": "zv6B6PQOuHE",
+      "video": true
+    },
+    {
+      "title": "Meta VR Glasses: What Vision Pro 2 COULD Have Been!",
+      "link": "https://www.youtube.com/watch?v=_x58r9TBois",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/_x58r9TBois/hq720.jpg",
+      "videoId": "_x58r9TBois",
+      "video": true
+    },
+    {
+      "title": "OLED iPad Mini is The Most Apple Product They've Ever Appled",
+      "link": "https://www.youtube.com/watch?v=g6Die8gVFn0",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/g6Die8gVFn0/hq720.jpg",
+      "videoId": "g6Die8gVFn0",
+      "video": true
+    },
+    {
+      "title": "Macbook PROLED XDR Impressions: They Said They Wouldn't!",
+      "link": "https://www.youtube.com/watch?v=2reQut8WNGc",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/2reQut8WNGc/hq720.jpg",
+      "videoId": "2reQut8WNGc",
+      "video": true
+    },
+    {
+      "title": "iPhone Duo Review: First Generation Fun!",
+      "link": "https://www.youtube.com/watch?v=ESABTN4VtrA",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/ESABTN4VtrA/hq720.jpg",
+      "videoId": "ESABTN4VtrA",
+      "video": true
+    },
+    {
+      "title": "The NEW Tesla Roadster: My Honest Reaction",
+      "link": "https://www.youtube.com/watch?v=scwlR0QHGOk",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/scwlR0QHGOk/hq720.jpg",
+      "videoId": "scwlR0QHGOk",
+      "video": true
+    },
+    {
+      "title": "Apple Homeview Impressions: Not Convinced!",
+      "link": "https://www.youtube.com/watch?v=QVv3mQzlrN0",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/QVv3mQzlrN0/hq720.jpg",
+      "videoId": "QVv3mQzlrN0",
+      "video": true
+    },
+    {
+      "title": "I Let My Staff Upgrade the Office (They Almost Ruined It)",
+      "link": "https://www.youtube.com/watch?v=CrO0Timw2z4",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/CrO0Timw2z4/hq720.jpg",
+      "videoId": "CrO0Timw2z4",
+      "video": true
+    },
+    {
+      "title": "I’ve never seen this before (and it’s 20 years old.)",
+      "link": "https://www.youtube.com/watch?v=7hlTu95nOCw",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/7hlTu95nOCw/hq720.jpg",
+      "videoId": "7hlTu95nOCw",
+      "video": true
+    },
+    {
+      "title": "“Tesla Hater” Finally Tries Full Self Driving",
+      "link": "https://www.youtube.com/watch?v=Ao9IQyaH0fk",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": null,
+      "thumbnail": "https://i.ytimg.com/vi/Ao9IQyaH0fk/hq720.jpg",
+      "videoId": "Ao9IQyaH0fk",
+      "video": true
+    },
+    {
       "title": "Good PC Deals Still Exist!",
       "link": "https://www.youtube.com/watch?v=AAraNufcrW4",
       "source": "Linus Tech Tips",
@@ -217,22 +230,9 @@
       "categories": [
         "hardware"
       ],
-      "publishedAt": "2026-11-04T17:00:02.000Z",
+      "publishedAt": null,
       "thumbnail": "https://i.ytimg.com/vi/AAraNufcrW4/hq720.jpg",
       "videoId": "AAraNufcrW4",
-      "video": true
-    },
-    {
-      "title": "Why Rian Johnson made a photo app | The Vergecast",
-      "link": "https://www.youtube.com/watch?v=eU70nW6yyd4",
-      "source": "The Verge",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-04T16:00:36.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/eU70nW6yyd4/hq720.jpg",
-      "videoId": "eU70nW6yyd4",
       "video": true
     },
     {
@@ -322,6 +322,20 @@
         "startups"
       ],
       "author": "Ivan Mehta"
+    },
+    {
+      "id": "904018e2f3c2",
+      "title": "Pomera’s sleek distraction-free writing machine is just too small",
+      "link": "https://www.theverge.com/gadgets/1029603/pomeras-dm25us-distraction-free-writing-review",
+      "description": "Pomera's digital typewriters are a cult hit with those craving a distraction-free writing experience. Dedicated word processor devices never caught on in the US the way they did in Japan. And the ones available in the US, like the AlphaSmart Neo, just weren't as sleek and portable as the tiny foldab",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Pomera-DM250-DSCF1434-1.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-09T14:00:00.000Z",
+      "categories": [
+        "hardware",
+        "tech"
+      ],
+      "author": "Terrence O’Brien"
     },
     {
       "id": "258a7ce2f3d9",
@@ -807,6 +821,20 @@
       "author": "Ashely Claudino"
     },
     {
+      "id": "b984208759f6",
+      "title": "Instagram’s AI age detection is expanding globally",
+      "link": "https://www.theverge.com/tech/1029627/meta-instagram-ai-age-assurance-global-expansion",
+      "description": "Meta is globally expanding the age estimation technology it uses to find teenagers on Instagram who haven't correctly disclosed their age. The rollout will automatically place \"millions more teens on Instagram into Teen Account protections,\" according to Meta's announcement, after launching the AI-p",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK070_INSTAGRAM__A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-09T12:00:00.000Z",
+      "categories": [
+        "ai",
+        "tech"
+      ],
+      "author": "Jess Weatherbed"
+    },
+    {
       "id": "74e1b83b37c3",
       "title": "King Arthur Baking Sourdough Sidekick Review: Rising to the Occasion",
       "link": "https://www.wired.com/review/king-arthur-baking-sourdough-sidekick/",
@@ -1049,6 +1077,19 @@
         "startups"
       ],
       "author": "Cate Lawrence"
+    },
+    {
+      "id": "fee7ccbd6da8",
+      "title": "Torrent underground",
+      "link": "https://www.theverge.com/cs/features/1027614/torrent-movies-file-sharing-download-piracy",
+      "description": "When Jane first heard about Memory and Imagination, a rare 1990s documentary about the Library of Congress, she was intrigued. But the Canadian writer in her 30s couldn’t find the movie anywhere — not on streaming services, not on YouTube, not on pirate sites — and her intrigue turned into obsession",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268792_private_torrent_trackers_CVirginia_LEDE_1.gif?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-09T11:00:05.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Janko Roettgers"
     },
     {
       "id": "9b54c8f4ff11",
@@ -2429,21 +2470,6 @@
       "author": "Jessica Taveau"
     },
     {
-      "id": "082de4178059",
-      "title": "Chatbots might be coming to Apple’s HomeView",
-      "link": "https://www.theverge.com/tech/1029526/chatbots-might-be-coming-to-apples-homeview",
-      "description": "Code in the iOS 27.3 beta suggests that Apple could add support for chatbots to its smart home hub. There's a flag listed for a \"Conversational Apps\" category. While there are no details about what apps would fall under that heading, it seems reasonable that AI chatbots like ChatGPT and Claude could",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/IMG_0250-1.jpeg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-08T15:00:30.000Z",
-      "categories": [
-        "ai",
-        "programming",
-        "hardware"
-      ],
-      "author": "Terrence O’Brien"
-    },
-    {
       "id": "9164bb8caa44",
       "title": "Ninja’s AutoBarista is impressively versatile, but one feature was a dealbreaker for me",
       "link": "https://techcrunch.com/2026/11/08/ninjas-autobarista-is-impressively-versatile-but-one-feature-was-a-dealbreaker-for-me/",
@@ -2456,19 +2482,6 @@
         "hardware"
       ],
       "author": "Amanda Silberling"
-    },
-    {
-      "id": "2b017cd8c10c",
-      "title": "There’s no slowing down media’s pivot-to-video 2.0",
-      "link": "https://www.theverge.com/column/1026252/video-media-news-tiktok-pivot",
-      "description": "This is The Stepback, a weekly newsletter breaking down one essential story from the tech world. For more on the pressures of creating content for the internet, follow Mia Sato. The Stepback arrives in our subscribers' inboxes on Sunday at 8AM ET. Opt in for The Stepback here. How it started Almost",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2264895316.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-08T13:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Mia Sato"
     },
     {
       "id": "87e6d8610228",
@@ -2791,20 +2804,6 @@
         "programming"
       ],
       "author": "Ankit Jain"
-    },
-    {
-      "id": "9a3500d6fef8",
-      "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
-      "link": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
-      "description": "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrella with a powerful fan nearby, figuring I was protected from the sun and heat. Half an hour later, I felt exhausted, dizz",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268829_The90_Gem_SVasani_0002.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-07T17:00:00.000Z",
-      "categories": [
-        "privacy",
-        "tech"
-      ],
-      "author": "Sheena Vasani"
     },
     {
       "id": "f5b9f6fd108b",
@@ -3273,6 +3272,21 @@
       "author": "Rory Mir"
     },
     {
+      "id": "59154091f75e",
+      "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
+      "description": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications. The post Building the next generation of multimodal AI experiences with fal in Microsoft Foundry appeared first on Microsoft Azure Blog .",
+      "thumbnail": null,
+      "source": "Azure Blog",
+      "publishedAt": "2026-11-06T19:08:44.000Z",
+      "categories": [
+        "ai",
+        "programming",
+        "cloud"
+      ],
+      "author": "Naomi Moneypenny"
+    },
+    {
       "id": "cf7b27793c12",
       "title": "AWS’ Colleen Aubrey: Stop inventing new AI metrics — it’s your business metrics that matter",
       "link": "https://siliconangle.com/2026/11/06/aws-colleen-aubrey-stop-inventing-new-ai-metrics-its-your-business-metrics-that-matter/",
@@ -3286,19 +3300,6 @@
         "business"
       ],
       "author": "Zeus Kerravala"
-    },
-    {
-      "id": "aa9d73445ba8",
-      "title": "RSS Club: CSS-Tricks Redesign Preview",
-      "link": "https://css-tricks.com/css-tricks-redesign-preview/",
-      "description": "Hey you wonderful RSS subscribers! We just soft-pushed a site redesign and wanted to give ya'll the first heads-up. A full write-up is coming but here are the high-level details. RSS Club: CSS-Tricks Redesign Preview originally handwritten and published with love on CSS-Tricks . You should really ge",
-      "thumbnail": "https://css-tricks.com/wp-content/uploads/2026/11/screenshot.png",
-      "source": "CSS-Tricks",
-      "publishedAt": "2026-11-06T18:52:59.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "Geoff Graham"
     }
   ],
   "github": [
@@ -3306,7 +3307,7 @@
       "name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 190299,
+      "stars": 190302,
       "starsToday": 1052,
       "url": "https://github.com/anthropics/skills"
     },
@@ -3314,7 +3315,7 @@
       "name": "meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 18633,
+      "stars": 18642,
       "starsToday": 3324,
       "url": "https://github.com/meta/astryx"
     },
@@ -3322,7 +3323,7 @@
       "name": "sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars": 106135,
+      "stars": 106140,
       "starsToday": 4294,
       "url": "https://github.com/sherlock-project/sherlock"
     },
@@ -3346,7 +3347,7 @@
       "name": "garrytan/gbrain",
       "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
       "language": "TypeScript",
-      "stars": 31918,
+      "stars": 31919,
       "starsToday": 215,
       "url": "https://github.com/garrytan/gbrain"
     },
@@ -3354,7 +3355,7 @@
       "name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 48175,
+      "stars": 48176,
       "starsToday": 914,
       "url": "https://github.com/vercel-labs/agent-browser"
     },
@@ -3362,7 +3363,7 @@
       "name": "ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "stars": 103197,
+      "stars": 103198,
       "starsToday": 203,
       "url": "https://github.com/ruvnet/RuView"
     },
@@ -3370,7 +3371,7 @@
       "name": "ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 68530,
+      "stars": 68532,
       "starsToday": 505,
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
     },
@@ -3378,7 +3379,7 @@
       "name": "homeassistant-ai/ha-mcp",
       "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
       "language": "Python",
-      "stars": 5618,
+      "stars": 5620,
       "starsToday": 31,
       "url": "https://github.com/homeassistant-ai/ha-mcp"
     },
@@ -3386,7 +3387,7 @@
       "name": "milind-soni/OpenMausBot",
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
-      "stars": 19280,
+      "stars": 19282,
       "starsToday": 1589,
       "url": "https://github.com/milind-soni/OpenMausBot"
     }
@@ -3482,12 +3483,12 @@
       "description": "Big tech, business, power and the decisions behind the products.",
       "category": "business",
       "link": "https://podcasts.apple.com/us/podcast/decoder-with-nilay-patel/id1011668648?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ba/9f/93/ba9f937b-eab8-6324-049a-cd70c15af66c/mza_1801163118447266446.jpg/600x600bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/75/fc/f3/75fcf3e7-dac0-1808-7e61-398220938bd3/mza_15671982189570796313.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "The man who fought napster is now fighting AI",
-        "publishedAt": "2026-11-09T10:00:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/the-man-who-fought-napster-is-now-fighting-ai/id1011668648?i=1000800741489&uo=4",
-        "duration": 4418000
+        "title": "AI broke the cybersecurity world. Now what?",
+        "publishedAt": "2026-11-07T10:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/ai-broke-the-cybersecurity-world-now-what/id1011668648?i=1000800393703&uo=4",
+        "duration": 3804000
       }
     },
     {
