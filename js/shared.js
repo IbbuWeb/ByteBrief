@@ -212,10 +212,23 @@ function headerMarkup(page) {
   ];
 
   return `
-    <div class="shell nav-shell">
-      <a class="brand" href="index.html">
-        <img class="brand-wordmark" src="assets/bytebrief-wordmark.png" alt="ByteBrief" width="500" height="96">
-      </a>
+    <div class="shell nav-shell masthead">
+      <div class="mast-top">
+        <span>Tech Edition</span>
+        <span id="mastDate">${formatDay()}</span>
+        <span>Updated ${new Date().toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'})}</span>
+      </div>
+      <div class="mast-center">
+        <a class="brand" href="index.html">
+          <img class="brand-wordmark" src="assets/bytebrief-wordmark.png" alt="ByteBrief" width="500" height="96">
+        </a>
+        <div class="mast-actions">
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
+            ${ICONS.sun}${ICONS.moon}
+          </button>
+          <a class="signin-link" id="navAuth" href="login.html">Sign in</a>
+        </div>
+      </div>
       <nav class="primary-nav" aria-label="Primary">
         ${nav
           .map(
@@ -226,12 +239,6 @@ function headerMarkup(page) {
           )
           .join('')}
       </nav>
-      <div class="nav-actions">
-        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
-          ${ICONS.sun}${ICONS.moon}
-        </button>
-        <a class="signin-link" id="navAuth" href="login.html">Sign in</a>
-      </div>
     </div>
   `;
 }
