@@ -9,7 +9,7 @@
   invalidateUserProfile,
   safeUrl,
   showToast
-} from './shared.js?v=20261107-3';
+} from './shared.js?v=20261109-2';
 
 const INTEREST_OPTIONS = [
   ['ai', 'AI'],
@@ -56,7 +56,7 @@ function boot() {
 
 async function loadProfile() {
   root.innerHTML =
-    '<div class="loading-panel"><span class="spinner" aria-hidden="true"></span> Loading your profileâ€¦</div>';
+    '<div class="loading-panel"><span class="spinner" aria-hidden="true"></span> Loading your profile…</div>';
 
   try {
     profile = await getUserProfile(ctx);
@@ -119,7 +119,7 @@ function render() {
           <div class="identity-text">
             <h2>${escapeHtml(name)}</h2>
             <p>${escapeHtml(email)}</p>
-            <p class="identity-meta">${joined ? `Joined ${escapeHtml(formatDate(joined, { year: true }))}` : 'Join date unavailable'} Â· Google account</p>
+            <p class="identity-meta">${joined ? `Joined ${escapeHtml(formatDate(joined, { year: true }))}` : 'Join date unavailable'} · Google account</p>
           </div>
         </article>
 
@@ -193,7 +193,7 @@ function render() {
           </div>
           <div class="stat-line"><span>Stories saved</span><strong>${total}</strong></div>
           <div class="stat-line"><span>Saved this week</span><strong>${thisWeek}</strong></div>
-          <div class="stat-line"><span>Top topic</span><strong>${escapeHtml(top ? categoryLabel(top[0]) : 'â€”')}</strong></div>
+          <div class="stat-line"><span>Top topic</span><strong>${escapeHtml(top ? categoryLabel(top[0]) : '—')}</strong></div>
           ${savedError ? '<p class="muted" style="margin-top:10px;font-size:12px;">Saved-story stats could not be loaded.</p>' : ''}
         </article>
 
@@ -202,7 +202,7 @@ function render() {
             <h2>Account</h2>
           </div>
           <div class="stat-line"><span>Sign-in method</span><strong>Google</strong></div>
-          <div class="stat-line"><span>Member since</span><strong>${joined ? escapeHtml(formatDate(joined, { year: true })) : 'â€”'}</strong></div>
+          <div class="stat-line"><span>Member since</span><strong>${joined ? escapeHtml(formatDate(joined, { year: true })) : '—'}</strong></div>
           <button type="button" class="btn btn-outline btn-full" id="signOutBtn" style="margin-top:16px;">Sign out</button>
           <p class="faint" style="margin-top:12px;font-size:11px;line-height:1.5;">Want your data removed? Open an issue on the <a class="text-link" href="https://github.com/IbbuWeb/ByteBrief/issues" target="_blank" rel="noopener noreferrer">project repository</a>.</p>
         </article>
@@ -247,7 +247,7 @@ async function saveInterests() {
 
   if (button) {
     button.disabled = true;
-    button.textContent = 'Savingâ€¦';
+    button.textContent = 'Saving…';
   }
 
   try {

@@ -18,7 +18,7 @@
   showToast,
   stashPendingSave,
   toggleSaved
-} from './shared.js?v=20261107-3';
+} from './shared.js?v=20261109-2';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -39,7 +39,22 @@ function shuffleArticles(articles) {
   return copy;
 }
 
-// The top 3 stay put all day; the rest reshuffles on every page load.
+function interleaveVideos(articles, { every = 5 } = {}) {
+  const videos = shuffleArticles(articles.filter(article => article.video === true));
+  const rest = articles.filter(article => article.video !== true);
+  if (videos.length === 0 || rest.length === 0) return [...videos, ...rest];
+
+  const out = [];
+  let vi = 0;
+  for (let i = 0; i < rest.length; i += 1) {
+    out.push(rest[i]);
+    if ((i + 1) % every === 0 && vi < videos.length) out.push(videos[vi++]);
+  }
+  while (vi < videos.length) out.push(videos[vi++]);
+  return out;
+}
+
+// The top 3 stay put all day; videos are spread through the rest of the feed.
 function orderForToday(articles) {
   const byLink = new Map(articles.map(article => [safeUrl(article.link), article]));
 
@@ -55,6 +70,14 @@ function orderForToday(articles) {
     : [];
 
   const used = new Set(top.map(article => safeUrl(article.link)));
+  for (const article of articles) {
+    if (top.length === DAILY_TOP_COUNT) break;
+    if (article.video === true) continue;
+    const link = safeUrl(article.link);
+    if (!link || used.has(link)) continue;
+    top.push(article);
+    used.add(link);
+  }
   for (const article of articles) {
     if (top.length === DAILY_TOP_COUNT) break;
     const link = safeUrl(article.link);
@@ -73,7 +96,7 @@ function orderForToday(articles) {
   }
 
   const rest = articles.filter(article => !used.has(safeUrl(article.link)));
-  return [...top, ...shuffleArticles(rest)];
+  return [...top, ...interleaveVideos(shuffleArticles(rest), { every: 5 })];
 }
 
 const state = {
@@ -84,7 +107,7 @@ const state = {
   savedCount: 0,
   savedCategoryCounts: new Map(),
   interests: [],
-  topCategory: 'â€”',
+  topCategory: '—',
   filter: 'all',
   query: '',
   visible: PAGE_SIZE,
@@ -373,7 +396,7 @@ function renderBrief() {
           <span class="brief-rank">${String(index + 1).padStart(2, '0')}</span>
           <span class="brief-item-text">
             <span class="brief-item-title">${escapeHtml(article.title)}</span>
-            <span class="brief-item-meta">${escapeHtml(article.source)} Â· ${escapeHtml(formatRelative(article.publishedAt))}</span>
+            <span class="brief-item-meta">${escapeHtml(article.source)} · ${escapeHtml(formatRelative(article.publishedAt))}</span>
           </span>
           ${ICONS.arrow}
         </button>
@@ -411,7 +434,7 @@ function renderFeatured() {
   if (!article) return;
 
   const image = safeUrl(article.thumbnail);
-  const category = categoryLabel(article.categories?.[0]);
+  const category = categoryLabel(articleCategories(article)[0]);
   const saved = isSaved(article);
   const link = escapeHtml(article.link);
 
@@ -419,7 +442,7 @@ function renderFeatured() {
     <div class="featured-media">
       ${image ? `<img class="js-img" src="${escapeHtml(image)}" alt="" loading="eager" decoding="async">` : ''}
       <div class="featured-body">
-        <span class="eyebrow">${escapeHtml(category)} Â· ${escapeHtml(article.source)}</span>
+        <span class="eyebrow">${escapeHtml(category)} · ${escapeHtml(article.source)}</span>
         <h2><button type="button" class="link-button" data-action="open" data-link="${link}">${escapeHtml(article.title)}</button></h2>
         ${article.description ? `<p>${escapeHtml(article.description)}</p>` : ''}
         <div class="featured-actions">
@@ -555,7 +578,7 @@ function renderSavedStat() {
     els.statSaved.innerHTML = `
       <div class="stat-top"><span class="stat-icon">${ICONS.bookmark}</span><span class="pill">Reading list</span></div>
       <h3>Your reading list</h3>
-      <p>Checking your sessionâ€¦</p>
+      <p>Checking your session…</p>
     `;
     return;
   }
@@ -587,7 +610,7 @@ function renderChips() {
 
   const counts = new Map();
   for (const article of state.data.articles) {
-    for (const category of article.categories || []) {
+    for (const category of article.categories || (article.category ? [article.category] : [])) {
       counts.set(category, (counts.get(category) || 0) + 1);
     }
   }
@@ -596,7 +619,7 @@ function renderChips() {
 
   if (state.interests.length > 0) {
     const forYou = state.data.articles.filter(article =>
-      article.categories?.some(category => state.interests.includes(category))
+      (article.categories || (article.category ? [article.category] : [])).some(category => state.interests.includes(category))
     ).length;
     chips.push({ key: 'for-you', label: 'For you', count: forYou });
   }
@@ -625,9 +648,17 @@ function renderChips() {
     .join('');
 }
 
+function articleCategories(article) {
+  return article?.categories?.length
+    ? article.categories
+    : article?.category
+      ? [article.category]
+      : [];
+}
+
 function interestScore(article) {
   if (state.interests.length === 0) return 0;
-  return (article.categories || []).filter(category =>
+  return articleCategories(article).filter(category =>
     state.interests.includes(category)
   ).length;
 }
@@ -645,7 +676,7 @@ function filteredArticles() {
     );
   } else if (state.filter !== 'all') {
     articles = articles.filter(article =>
-      article.categories?.includes(state.filter)
+      articleCategories(article).includes(state.filter)
     );
   }
 
@@ -656,7 +687,7 @@ function filteredArticles() {
         article.title,
         article.description,
         article.source,
-        ...(article.categories || []).map(categoryLabel)
+        ...articleCategories(article).map(categoryLabel)
       ]
         .join(' ')
         .toLowerCase();
@@ -811,7 +842,7 @@ async function handleSave(article, button) {
 }
 
 function updateCategoryCount(article, delta) {
-  const category = article.categories?.[0] || 'tech';
+  const category = articleCategories(article)[0] || 'tech';
   const next = Math.max(0, (state.savedCategoryCounts.get(category) || 0) + delta);
   if (next === 0) state.savedCategoryCounts.delete(category);
   else state.savedCategoryCounts.set(category, next);
@@ -827,7 +858,7 @@ function countCategories(articles) {
 }
 
 function topCategory(counts) {
-  let best = 'â€”';
+  let best = '—';
   let max = 0;
   for (const [category, count] of counts) {
     if (count > max) {
@@ -875,7 +906,7 @@ function openModal(article) {
     els.modalMedia.innerHTML = image
       ? `<img class="js-img" src="${escapeHtml(image)}" alt="" decoding="async">`
       : `<div class="media-placeholder">${ICONS.image}</div>`;
-    els.modalCategory.textContent = categoryLabel(article.categories?.[0]);
+    els.modalCategory.textContent = categoryLabel(articleCategories(article)[0]);
     els.modalSource.textContent = article.source || 'Unknown';
     els.modalTitle.textContent = article.title || 'Story';
     els.modalMeta.textContent = [
@@ -883,7 +914,7 @@ function openModal(article) {
       article.publishedAt ? formatDate(article.publishedAt, { year: true }) : 'Date unavailable'
     ]
       .filter(Boolean)
-      .join(' Â· ');
+      .join(' · ');
     els.modalDescription.textContent = article.description || 'No summary was provided by the publisher.';
     els.modalRead.href = link;
     els.modalRead.textContent = 'Read full story';
@@ -951,7 +982,7 @@ function renderDataError() {
   `;
   els.grid.innerHTML = '';
   els.grid.setAttribute('aria-busy', 'false');
-  els.storyCount.textContent = 'â€”';
+  els.storyCount.textContent = '—';
   els.empty.innerHTML = `
     <div class="empty-state">
       <h3>Could not load the feed</h3>

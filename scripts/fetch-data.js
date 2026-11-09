@@ -24,7 +24,8 @@ const BROWSER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 const MAX_ARTICLES = 240;
 const PER_SOURCE_LIMIT = 15;
-const VIDEOS_PER_CHANNEL = 5;
+const VIDEOS_PER_CHANNEL = 6;
+const VIDEO_MAX_AGE_DAYS = 31;
 const CONCURRENCY = 6;
 const OG_ENRICH_LIMIT = 80;
 const OG_ENRICH_CONCURRENCY = 6;
@@ -71,7 +72,12 @@ const YOUTUBE_CHANNELS = [
   { name: 'Marques Brownlee', handle: '@mkbhd', category: 'mobile' },
   { name: 'Linus Tech Tips', handle: '@LinusTechTips', category: 'hardware' },
   { name: 'Computerphile', handle: '@Computerphile', category: 'programming' },
-  { name: 'The Verge', handle: '@TheVerge', category: 'tech' }
+  { name: 'The Verge', handle: '@TheVerge', category: 'tech' },
+  { name: 'Mrwhosetheboss', handle: '@Mrwhosetheboss', category: 'mobile' },
+  { name: 'Dave2D', handle: '@Dave2D', category: 'hardware' },
+  { name: 'TechLinked', handle: '@TechLinked', category: 'tech' },
+  { name: 'Android Authority', handle: '@AndroidAuthority', category: 'mobile' },
+  { name: 'ColdFusion', handle: '@ColdFusion', category: 'tech' }
 ];
 
 const PODCASTS = [
@@ -233,7 +239,7 @@ function cleanDescription(source, description) {
     const comments = value.match(/#\s*Comments:\s*(\d+)/i)?.[1];
     value = [points && `${points} points`, comments && `${comments} comments`]
       .filter(Boolean)
-      .join(' Â· ');
+      .join(' · ');
   }
 
   if (source === 'Reddit Technology') {
@@ -303,38 +309,49 @@ async function enrichThumbnails(articles, previous) {
 
 async function fetchYouTubeArticles() {
   const articles = [];
+  const minTime = Date.now() - VIDEO_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
+
   for (const ch of YOUTUBE_CHANNELS) {
     try {
       const url = `https://www.youtube.com/${ch.handle}/videos`;
       const res = await fetchText(url, { Accept: 'text/html' });
       if (!res) continue;
-      const channelVideos = parseYouTubeChannel(res, { limit: VIDEOS_PER_CHANNEL });
+      const channelVideos = parseYouTubeChannel(res, { limit: VIDEOS_PER_CHANNEL * 3 });
+      let kept = 0;
+
       for (const video of channelVideos) {
+        if (kept >= VIDEOS_PER_CHANNEL) break;
         const watchUrl = `https://www.youtube.com/watch?v=${video.videoId}`;
         let publishedAt = null;
         try {
-          const watchRes = await fetchText(`https://www.youtube.com/watch?v=${video.videoId}`, {
+          const watchRes = await fetchText(watchUrl, {
             Accept: 'text/html'
           });
           const parsed = parseYouTubeWatch(watchRes);
           if (parsed?.publishedAt) publishedAt = parsed.publishedAt;
         } catch { /* optional enrichment */ }
+
+        if (publishedAt) {
+          const publishedTime = Date.parse(publishedAt);
+          if (Number.isFinite(publishedTime) && publishedTime < minTime) continue;
+        }
+
         articles.push({
           title: video.title,
           link: watchUrl,
           source: ch.name,
           category: ch.category,
+          categories: [ch.category],
           publishedAt,
           thumbnail: video.thumbnail,
           videoId: video.videoId,
           video: true
         });
-        if (articles.length >= VIDEOS_PER_CHANNEL * YOUTUBE_CHANNELS.length) break;
+        kept += 1;
       }
     } catch (e) {
       console.warn(`  ! YouTube fetch for ${ch.name}: ${e.message}`);
     }
-    if (articles.length >= VIDEOS_PER_CHANNEL * YOUTUBE_CHANNELS.length) break;
   }
   return articles;
 }

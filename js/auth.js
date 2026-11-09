@@ -4,7 +4,7 @@
   initThemeToggle,
   safeRedirect,
   showToast
-} from './shared.js?v=20261107-3';
+} from './shared.js?v=20261109-2';
 
 const button = document.getElementById('googleSignInBtn');
 const label = document.getElementById('googleSignInLabel');
@@ -37,7 +37,7 @@ async function boot() {
   button.disabled = false;
 
   if (authContext.user) {
-    status.textContent = 'You are already signed in. Taking you backâ€¦';
+    status.textContent = 'You are already signed in. Taking you back…';
     await route();
     return;
   }
@@ -50,13 +50,13 @@ async function signIn() {
   if (isSigningIn || !authContext) return;
   isSigningIn = true;
   button.disabled = true;
-  label.textContent = 'Opening Googleâ€¦';
+  label.textContent = 'Opening Google…';
   status.textContent = '';
 
   try {
     const provider = new authContext.authApi.GoogleAuthProvider();
     await authContext.authApi.signInWithPopup(authContext.firebase.auth, provider);
-    status.textContent = 'Signed in. Loading your accountâ€¦';
+    status.textContent = 'Signed in. Loading your account…';
     await route();
   } catch (error) {
     console.warn('Google sign-in failed:', error);

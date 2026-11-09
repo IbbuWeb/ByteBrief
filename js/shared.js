@@ -82,9 +82,9 @@ export function categoryLabel(category) {
 }
 
 export function formatRelative(iso) {
-  if (!iso) return 'â€”';
+  if (!iso) return '—';
   const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return 'â€”';
+  if (Number.isNaN(date.getTime())) return '—';
 
   const diff = Date.now() - date.getTime();
   if (diff < 0) return formatDate(iso);
@@ -103,9 +103,9 @@ export function formatRelative(iso) {
 }
 
 export function formatDate(iso, options = {}) {
-  if (!iso) return 'â€”';
+  if (!iso) return '—';
   const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return 'â€”';
+  if (Number.isNaN(date.getTime())) return '—';
   return date.toLocaleDateString(undefined, {
     month: 'short',
     day: 'numeric',
@@ -125,7 +125,7 @@ export function formatDay(iso = new Date().toISOString()) {
 
 export function formatNumber(value) {
   const number = Number(value);
-  if (!Number.isFinite(number)) return 'â€”';
+  if (!Number.isFinite(number)) return '—';
   return new Intl.NumberFormat('en', {
     notation: 'compact',
     maximumFractionDigits: 1
@@ -265,7 +265,7 @@ function footerMarkup() {
         <a href="https://github.com/IbbuWeb/ByteBrief/actions/workflows/update-data.yml" target="_blank" rel="noopener noreferrer">Refresh log</a>
         <a href="https://github.com/IbbuWeb/ByteBrief/issues" target="_blank" rel="noopener noreferrer">Report an issue</a>
       </div>
-      <p class="footer-fine">Â© <span id="footerYear">${new Date().getFullYear()}</span> ByteBrief. Headlines and images belong to their publishers. Built as a public reading project.</p>
+      <p class="footer-fine">© <span id="footerYear">${new Date().getFullYear()}</span> ByteBrief. Headlines and images belong to their publishers. Built as a public reading project.</p>
     </div>
   `;
 }
@@ -461,7 +461,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261107-3'),
+    import('./firebase-config.js?v=20261109-2'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
@@ -698,7 +698,7 @@ export async function shareArticle(article) {
   shareUrl.searchParams.set('article', link);
 
   const payload = {
-    title: `${article.title || 'Tech story'} â€” ByteBrief`,
+    title: `${article.title || 'Tech story'} — ByteBrief`,
     text: article.description || 'A tech story worth reading.',
     url: shareUrl.href
   };
@@ -757,18 +757,19 @@ export function renderStoryCard(article, options = {}) {
   const image = article.thumbnail || article.image;
   const imageUrl = safeUrl(image);
   const isVideo = article.video === true;
-  const playBadge = isVideo
-    ? `<span class="play-badge" aria-label="Play video"></span>`
+  const videoBadges = isVideo
+    ? `<span class="video-channel">${escapeHtml(article.source || 'YouTube')}</span>
+        <span class="video-badge-yt" aria-label="YouTube video">YT</span>`
     : '';
   const imageMarkup = imageUrl
     ? `
-      <button type="button" class="story-media" data-action="open" data-link="${link}" aria-label="Preview ${escapeHtml(title)}">
+      <button type="button" class="story-media${isVideo ? ' story-media--video' : ''}" data-action="open" data-link="${link}" aria-label="${isVideo ? 'Play' : 'Preview'} ${escapeHtml(title)}">
         <img class="js-img" src="${escapeHtml(imageUrl)}" alt="" loading="lazy" decoding="async">
-        ${playBadge}
-        <span class="story-source">${escapeHtml(article.source || 'Unknown')}</span>
+        ${videoBadges}
+        ${isVideo ? '' : `<span class="story-source">${escapeHtml(article.source || 'Unknown')}</span>`}
       </button>`
     : '';
-  const cardClass = imageUrl ? 'story-card' : 'story-card story-card--text';
+  const cardClass = imageUrl ? `story-card${isVideo ? ' story-card--video' : ''}` : 'story-card story-card--text';
 
   return `
     <article class="${cardClass} card span-${span}" data-link="${link}">
@@ -777,7 +778,7 @@ export function renderStoryCard(article, options = {}) {
         <div class="story-kicker">
           <span class="eyebrow">${escapeHtml(category)}</span>
           <span class="dot"></span>
-          <time datetime="${escapeHtml(published || '')}">${published ? formatRelative(published) : 'â€”'}</time>
+          <time datetime="${escapeHtml(published || '')}">${published ? formatRelative(published) : '—'}</time>
         </div>
         <h3 class="story-title">${titleMarkup(article)}</h3>
         ${

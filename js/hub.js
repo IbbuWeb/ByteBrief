@@ -11,7 +11,7 @@
   renderRepoCard,
   renderSourceCard,
   safeUrl
-} from './shared.js?v=20261107-3';
+} from './shared.js?v=20261109-2';
 
 const SECTIONS = [
   { key: 'trending', label: 'Trending' },
@@ -376,7 +376,7 @@ function renderPanel() {
               <div class="story-kicker">
                 <span class="eyebrow">YouTube</span>
                 <span class="dot"></span>
-                <time datetime="${escapeHtml(video.publishedAt || '')}">${video.publishedAt ? formatRelative(video.publishedAt) : 'â€”'}</time>
+                <time datetime="${escapeHtml(video.publishedAt || '')}">${video.publishedAt ? formatRelative(video.publishedAt) : '—'}</time>
               </div>
               <h3 class="story-title">${escapeHtml(video.title || 'Video')}</h3>
               <p class="story-excerpt">${escapeHtml((video.description || '').slice(0, 120))}</p>

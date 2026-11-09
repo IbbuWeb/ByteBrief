@@ -11,7 +11,7 @@
   safeUrl,
   shareArticle,
   showToast
-} from './shared.js?v=20261107-3';
+} from './shared.js?v=20261109-2';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];
@@ -49,7 +49,7 @@ function boot() {
 
 function renderLoading() {
   root.innerHTML =
-    '<div class="loading-panel"><span class="spinner" aria-hidden="true"></span> Checking your reading listâ€¦</div>';
+    '<div class="loading-panel"><span class="spinner" aria-hidden="true"></span> Checking your reading list…</div>';
 }
 
 async function loadSaved() {
@@ -132,7 +132,7 @@ function renderSaved() {
         <span>Saved in the last 7 days</span>
       </article>
       <article class="mini-stat card span-4">
-        <strong>${escapeHtml(top ? categoryLabel(top[0]) : 'â€”')}</strong>
+        <strong>${escapeHtml(top ? categoryLabel(top[0]) : '—')}</strong>
         <span>Your top topic</span>
       </article>
     </section>
@@ -224,7 +224,7 @@ function openPreview(article) {
     els.meta.textContent = [
       article.author || null,
       date ? formatDate(date, { year: true }) : 'Date unavailable'
-    ].filter(Boolean).join(' Â· ');
+    ].filter(Boolean).join(' · ');
     els.description.textContent = article.description || 'The publisher did not provide a summary for this story.';
     els.read.href = link;
     els.read.textContent = 'Read full story';

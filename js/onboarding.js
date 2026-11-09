@@ -4,7 +4,7 @@
   initThemeToggle,
   safeRedirect,
   showToast
-} from './shared.js?v=20261107-3';
+} from './shared.js?v=20261109-2';
 
 const continueBtn = document.getElementById('continueBtn');
 const countLabel = document.getElementById('selectedCount');
@@ -88,7 +88,7 @@ async function save() {
 
   busy = true;
   setDisabled(true);
-  continueBtn.textContent = 'Savingâ€¦';
+  continueBtn.textContent = 'Saving…';
 
   try {
     const user = ctx.user;
