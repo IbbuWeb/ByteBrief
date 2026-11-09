@@ -1,25 +1,17 @@
 ﻿/* ByteBrief design system â€” editorial grid, warm ink and paper. */
 
 :root {
-  --paper: #f4efe3;
-  --paper-strong: #ece4d4;
-  --ink: #151311;
-  --ink-muted: #4d463d;
-  --ink-faint: #6e665a;
-  --rule: rgba(21, 19, 17, 0.18);
-  --rule-strong: rgba(21, 19, 17, 0.42);
-
-  --bg: #16120f;
-  --bg-soft: #1d1814;
-  --surface: var(--paper);
-  --surface-raise: #f8f3ea;
-  --surface-2: var(--paper-strong);
+  --bg: #f4efe3;
+  --bg-soft: #ece4d4;
+  --surface: #f8f3ea;
+  --surface-raise: #fffdf8;
+  --surface-2: #efe7d8;
   --surface-3: #e3dac8;
-  --border: var(--rule);
-  --border-strong: var(--rule-strong);
-  --text: var(--ink);
-  --muted: var(--ink-muted);
-  --faint: var(--ink-faint);
+  --border: rgba(21, 19, 17, 0.16);
+  --border-strong: rgba(21, 19, 17, 0.38);
+  --text: #171411;
+  --muted: #4d463d;
+  --faint: #6e665a;
   --accent: #9f2410;
   --accent-strong: #7f1b0c;
   --on-accent: #fff8f2;
@@ -28,7 +20,7 @@
   --cyan: #8a651f;
   --success: #355a35;
   --danger: #8f1d14;
-  --shadow: 0 1px 0 rgba(255,255,255,.18) inset, 0 14px 28px rgba(0,0,0,.28);
+  --shadow: 0 1px 0 rgba(255,255,255,.7) inset, 0 10px 24px rgba(32,24,16,.08);
   --radius: 0;
   --radius-sm: 0;
   --gap: 0;
@@ -37,38 +29,55 @@
   --display: "Newsreader", "Iowan Old Style", Georgia, "Times New Roman", serif;
   --ui: "Roboto", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: ui-monospace, "SFMono-Regular", Consolas, monospace;
-  color-scheme: dark;
+  color-scheme: light;
 }
 
 [data-theme="light"] {
-  --paper: #f7f2e8;
-  --paper-strong: #efe7d8;
-  --ink: #1a1713;
-  --ink-muted: #4d463d;
-  --ink-faint: #6a6257;
-  --rule: rgba(26, 23, 19, 0.18);
-  --rule-strong: rgba(26, 23, 19, 0.44);
-  --bg: #ece4d4;
-  --bg-soft: #e5dccb;
-  --surface: var(--paper);
-  --surface-raise: #fbf7ef;
-  --surface-2: var(--paper-strong);
-  --surface-3: #e4dac8;
-  --border: var(--rule);
-  --border-strong: var(--rule-strong);
-  --text: var(--ink);
-  --muted: var(--ink-muted);
-  --faint: var(--ink-faint);
-  --accent: #a12512;
+  --bg: #f4efe3;
+  --bg-soft: #ece4d4;
+  --surface: #f8f3ea;
+  --surface-raise: #fffdf8;
+  --surface-2: #efe7d8;
+  --surface-3: #e3dac8;
+  --border: rgba(21, 19, 17, 0.16);
+  --border-strong: rgba(21, 19, 17, 0.38);
+  --text: #171411;
+  --muted: #4d463d;
+  --faint: #6e665a;
+  --accent: #9f2410;
   --accent-strong: #7f1b0c;
   --on-accent: #fff8f2;
-  --accent-soft: rgba(161, 37, 18, 0.08);
-  --accent-line: rgba(161, 37, 18, 0.42);
-  --cyan: #7f5a15;
-  --success: #335633;
+  --accent-soft: rgba(159, 36, 16, 0.08);
+  --accent-line: rgba(159, 36, 16, 0.42);
+  --cyan: #8a651f;
+  --success: #355a35;
   --danger: #8f1d14;
   --shadow: 0 1px 0 rgba(255,255,255,.7) inset, 0 10px 24px rgba(32,24,16,.08);
   color-scheme: light;
+}
+
+[data-theme="dark"] {
+  --bg: #14110e;
+  --bg-soft: #1a1612;
+  --surface: #1d1915;
+  --surface-raise: #231e19;
+  --surface-2: #262019;
+  --surface-3: #312920;
+  --border: rgba(242, 233, 216, 0.14);
+  --border-strong: rgba(242, 233, 216, 0.3);
+  --text: #f2e9d8;
+  --muted: #c6bba8;
+  --faint: #9a8f7d;
+  --accent: #e45a3a;
+  --accent-strong: #ff7758;
+  --on-accent: #1a120d;
+  --accent-soft: rgba(228, 90, 58, 0.14);
+  --accent-line: rgba(228, 90, 58, 0.42);
+  --cyan: #d0a54f;
+  --success: #97bf90;
+  --danger: #ff8a74;
+  --shadow: 0 1px 0 rgba(255,255,255,.04) inset, 0 16px 34px rgba(0,0,0,.38);
+  color-scheme: dark;
 }
 
 *,
@@ -426,11 +435,12 @@ ol {
   background: var(--surface-2);
 }
 
-.icon-btn svg {
-  width: 18px;
-  height: 18px;
-}
-
+.icon-btn svg { width: 18px; height: 18px; display: block; }
+#themeToggle .icon-sun, #themeToggle .icon-moon, [data-theme-toggle] .icon-sun, [data-theme-toggle] .icon-moon { display: none; }
+html[data-theme="dark"] #themeToggle .icon-sun, html[data-theme="dark"] [data-theme-toggle] .icon-sun { display: block; }
+html[data-theme="dark"] #themeToggle .icon-moon, html[data-theme="dark"] [data-theme-toggle] .icon-moon { display: none; }
+html[data-theme="light"] #themeToggle .icon-sun, html[data-theme="light"] [data-theme-toggle] .icon-sun { display: none; }
+html[data-theme="light"] #themeToggle .icon-moon, html[data-theme="light"] [data-theme-toggle] .icon-moon { display: block; }
 [data-theme="dark"] .icon-sun { display: block; }
 [data-theme="dark"] .icon-moon { display: none; }
 [data-theme="light"] .icon-sun { display: none; }

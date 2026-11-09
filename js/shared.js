@@ -133,31 +133,37 @@ export function formatNumber(value) {
 }
 
 function currentTheme() {
-  return document.documentElement.getAttribute('data-theme') === 'light'
-    ? 'light'
-    : 'dark';
+  const attr = document.documentElement.getAttribute('data-theme');
+  if (attr === 'dark' || attr === 'light') return attr;
+  try {
+    const stored = localStorage.getItem('theme');
+    if (stored === 'dark' || stored === 'light') return stored;
+  } catch {}
+  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
 }
 
 export function initThemeToggle() {
-  const buttons = document.querySelectorAll('#themeToggle, [data-theme-toggle]');
-  buttons.forEach(button => {
-    const applyLabel = () => {
-      const dark = currentTheme() === 'dark';
+  const apply = (theme) => {
+    const next = theme === 'dark' ? 'dark' : 'light';
+    document.documentElement.setAttribute('data-theme', next);
+    document.documentElement.style.colorScheme = next;
+    try { localStorage.setItem('theme', next); } catch {}
+    document.querySelectorAll('#themeToggle, [data-theme-toggle]').forEach(button => {
+      const dark = next === 'dark';
       button.setAttribute('aria-label', dark ? 'Switch to light theme' : 'Switch to dark theme');
       button.setAttribute('title', dark ? 'Switch to light theme' : 'Switch to dark theme');
-    };
-
-    applyLabel();
-    button.addEventListener('click', () => {
-      const next = currentTheme() === 'dark' ? 'light' : 'dark';
-      document.documentElement.setAttribute('data-theme', next);
-      try {
-        localStorage.setItem('theme', next);
-      } catch {
-        /* storage can be unavailable; the theme still applies for this page */
-      }
-      applyLabel();
+      button.setAttribute('aria-pressed', dark ? 'true' : 'false');
     });
+  };
+
+  apply(currentTheme());
+  if (window.__bytebriefThemeInit) return;
+  window.__bytebriefThemeInit = true;
+  document.addEventListener('click', event => {
+    const button = event.target.closest('#themeToggle, [data-theme-toggle]');
+    if (!button) return;
+    event.preventDefault();
+    apply(currentTheme() === 'dark' ? 'light' : 'dark');
   });
 }
 
@@ -521,7 +527,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261109-8'),
+    import('./firebase-config.js?v=20261109-9'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
