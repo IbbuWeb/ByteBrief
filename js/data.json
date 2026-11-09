@@ -1,6 +1,400 @@
 {
-  "generatedAt": "2026-11-09T07:52:50.389Z",
+  "generatedAt": "2026-11-09T11:36:21.671Z",
   "articles": [
+    {
+      "id": "5fb3e99b5539",
+      "title": "Tesla expands robotaxi service to San Antonio",
+      "link": "https://techcrunch.com/2026/11/09/tesla-expands-robotaxi-service-to-san-antonio/",
+      "description": "This will be the fourth Texas city in which Tesla will launch robotaxis.",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2220872848.jpg?resize=1200,801",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-09T11:30:24.000Z",
+      "categories": [
+        "startups"
+      ],
+      "author": "Kirsten Korosec"
+    },
+    {
+      "id": "31d3eabe550d",
+      "title": "The Midterms Were a Pretty Good Sign for the Right-to-Repair Movement",
+      "link": "https://www.wired.com/story/the-midterms-were-a-pretty-good-sign-for-right-to-repair/",
+      "description": "A shifting political landscape gives right-to-repair advocates their best shot yet at meaningful federal reform.",
+      "thumbnail": "https://media.wired.com/photos/6aedfe0f80b2626fa065567c/master/pass/GettyImages-2302892700.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-09T11:30:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Boone Ashworth"
+    },
+    {
+      "id": "959cf600f157",
+      "title": "LG WOLED TVs suffer from 'edge rot' pixel death",
+      "link": "https://www.tomshardware.com/monitors/lg-woled-tvs-suffer-from-edge-rot-pixel-death-pixels-go-dark-around-the-edges-similar-to-a-mold-pattern-nearly-all-woled-test-units-show-clear-signs-of-degradation",
+      "description": "LG WOLED TV panels made around 2019 to 2023 may be susceptible to edge rot — almost all of RTings' WOLED test units show clear signs of degradation",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/D8Z22X3j8fLcti2bMKiRVa-1920-80.png",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-09T11:30:00.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Bruno Ferreira"
+    },
+    {
+      "id": "3e8b777d8f6e",
+      "title": "Scientists May Have Discovered a Massive Starless Galaxy",
+      "link": "https://www.wired.com/story/scientists-discover-massive-starless-galaxy/",
+      "description": "The promising candidate contains roughly 2 billion times the sun’s mass in hydrogen, yet appears to have no stars. Studying it could help answer questions that have vexed astronomers for years.",
+      "thumbnail": "https://media.wired.com/photos/6ae4b0b9fafa122d7f6143a0/master/pass/103016-Starless%20Galaxy.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-09T11:15:00.000Z",
+      "categories": [
+        "tech",
+        "science"
+      ],
+      "author": "Jacklin Kwan"
+    },
+    {
+      "id": "fee7ccbd6da8",
+      "title": "Torrent underground",
+      "link": "https://www.theverge.com/cs/features/1027614/torrent-movies-file-sharing-download-piracy",
+      "description": "When Jane first heard about Memory and Imagination, a rare 1990s documentary about the Library of Congress, she was intrigued. But the Canadian writer in her 30s couldn’t find the movie anywhere — not on streaming services, not on YouTube, not on pirate sites — and her intrigue turned into obsession",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/268792_private_torrent_trackers_CVirginia_LEDE_1.gif?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-09T11:00:05.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Janko Roettgers"
+    },
+    {
+      "id": "9b54c8f4ff11",
+      "title": "Audioengine Color of the Year Kit Review: Bright Look, Good Sound",
+      "link": "https://www.wired.com/review/audioengine-2026-color-of-the-year-kit/",
+      "description": "The canary-yellow set is equal parts design and audio performance, and includes speakers, speaker stands, a turntable, and a subwoofer.",
+      "thumbnail": "https://media.wired.com/photos/6ae7d3cff069d9b77251ba31/master/pass/Review%20Audioengine%20Color%20of%20the%20Year%20Kit%20102026%20top%20art%20SOURCE%20Audioengine.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Jordan Michelman"
+    },
+    {
+      "id": "bc2d9bf8826b",
+      "title": "Authors Can Defend Against AI Allegations With ‘Paper Trail’ Tools. Is It Enough?",
+      "link": "https://www.wired.com/story/authors-can-defend-against-ai-allegations-with-paper-trail-tools/",
+      "description": "As the publishing industry wrestles with paranoia over the provenance of manuscripts, writers are caught in an impossible bind.",
+      "thumbnail": "https://media.wired.com/photos/6ae34f0e2a90131582712a70/master/pass/102926-AI%20Cheating_.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "categories": [
+        "ai",
+        "tech"
+      ],
+      "author": "Miles Klee"
+    },
+    {
+      "id": "e388702200f0",
+      "title": "Security Bite Podcast: Mac malware likely helped pull off the record $6.3B Binance hack",
+      "link": "https://9to5mac.com/2026/11/09/security-bite-podcast-mac-malware-likely-helped-pull-off-the-record-6-3b-binance-hack/",
+      "description": "9to5Mac Security Bite is exclusively brought to you by Mosyle, the only Apple Unified Platform . Making Apple devices work-ready and enterprise-safe is all we do. Our unique integrated approach to management and security combines state-of-the-art Apple-specific security solutions for fully automated",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/sb-lg-27-dark.webp?w=1500",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "categories": [
+        "hardware",
+        "cybersecurity"
+      ],
+      "author": "Arin Waichulis"
+    },
+    {
+      "id": "8a977dae9b3f",
+      "title": "Synaptics sends cease-and-desist order to creator of open-source DisplayLink driver, dares him to publicize its threats",
+      "link": "https://www.tomshardware.com/peripherals/docking-stations-hubs/synaptics-sends-cease-and-desist-order-to-creator-of-open-source-displaylink-driver-dares-him-to-publicize-its-threats-dev-reverse-engineers-displaylink-using-claude-ai-and-rust-synaptics-threatens-to-bill-creator-for-legal-documentation",
+      "description": "A hobbyist's effort to make DisplayLink work better on Linux is turning into a legal saga.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/2UAKwnmLDdHNiioqp6MpYE-1920-80.png",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "categories": [
+        "programming",
+        "opensource",
+        "hardware"
+      ],
+      "author": "Jowi Morales"
+    },
+    {
+      "id": "9192c11ff85a",
+      "title": "CHAPEA Mission 2 Crew Reflects After 378 Days on Simulated Mars",
+      "link": "https://www.nasa.gov/centers-and-facilities/johnson/chapea-mission-2-crew-reflects-after-378-days-on-simulated-mars/",
+      "description": "After 378 days without windows, the sounds of the outside world, or real-time calls with family and friends, four research volunteers stepped out of NASA’s Mars Dune Alpha habitat on Oct. 31, completing the agency’s second yearlong Mars surface simulation. Ross Elder, Ellen Ellis, James Spicer, and",
+      "thumbnail": "https://www.nasa.gov/wp-content/uploads/2026/11/jsc2026e424286.jpg?w=1536",
+      "source": "NASA Breaking News",
+      "publishedAt": "2026-11-09T11:00:00.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": "Sumer Loggins"
+    },
+    {
+      "id": "43d48515eb9b",
+      "title": "WoW: Forever Boosts Dungeon XP As Blizzard Struggles to Get Leveling Balance Right",
+      "link": "https://www.polygon.com/wow-forever-dungeon-xp-boost-leveling/",
+      "description": "Blizzard has increased experience from killing monsters in dungeons in World of Warcraft: Forever as it tries to balance leveling",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/wow_forever_announce_dungeon_dalaran_073.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-09T10:59:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Oli Welsh"
+    },
+    {
+      "id": "aa83e0aed126",
+      "title": "Popular Nintendo Blogger Supper Mario Broth Says He May Only Have a Year to Live",
+      "link": "https://www.ign.com/articles/supper-mario-broth-health-condition",
+      "description": "A popular Nintendo blogger who tells his viewers obscure facts about Super Mario has been hit with serious health conditions, including heart failure. The online personality has vowed to continue running the blog for as long as he’s able.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/09/gettyimages-1229469375-1794221614141.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-09T10:55:22.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Kirk McKeand"
+    },
+    {
+      "id": "06c0fd494f0f",
+      "title": "Fortnite Officially Reveals Pirate Shop Access Token Odds",
+      "link": "https://www.polygon.com/fortnite-pirate-shop-access-token-treasure-odds-revealed/",
+      "description": "The odds of finding Fortnite's most-wanted items, like the Pirate Shop Access token and the limited-time golden skin, have been revealed.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/treasure-chest_fn.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-09T10:41:27.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Ashely Claudino"
+    },
+    {
+      "id": "3a296f8692a9",
+      "title": "Security researcher had to jailbreak their car just to update the clock",
+      "link": "https://www.tomshardware.com/tech-industry/cyber-security/security-researcher-had-to-jailbreak-their-car-just-to-update-the-clock-missing-tomtom-sd-card-locked-settings-menu-custom-linux-exploit-deployed-to-adjust-daylight-saving-time",
+      "description": "A security researcher has revealed how they managed to update the time on their car infotainment system using reverse engineering techniques.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/uWPfVwnAzVfG87r5UBkxc5-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-09T10:40:00.000Z",
+      "categories": [
+        "cybersecurity",
+        "hardware"
+      ],
+      "author": "Mark Tyson"
+    },
+    {
+      "id": "2a2a70da0389",
+      "title": "Spy x Family Officially Announces New Season and Movie Coming Soon",
+      "link": "https://www.polygon.com/spy-x-family-season-4-anime-movie-announced/",
+      "description": "Spy x Family will be back soon with a fourth anime season and the franchise's second feature film.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/sharedimages/2026/03/spy-x-family-code_-white.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-09T10:31:02.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Francesco Cacciatore"
+    },
+    {
+      "id": "4fcc803bd5cd",
+      "title": "13 Years Later, the Greatest Studio Ghibli Movie Not From Ghibli Is Free on Streaming",
+      "link": "https://www.polygon.com/kubo-and-the-2-strings-streaming-free-tubi-november-2026/",
+      "description": "Laika Studios echoed Studio Ghibli's magic perfectly in 2016 with 'Kubo and the Two Strings.' Find out why.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/fixedssss-1.png",
+      "source": "Polygon",
+      "publishedAt": "2026-11-09T10:30:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Aimee Hart"
+    },
+    {
+      "id": "ea1fb5c105bc",
+      "title": "These Robotic Arms Are Powered by Algae. Watch How They Move",
+      "link": "https://www.wired.com/story/these-robotic-arms-are-made-of-algae-watch-how-they-move/",
+      "description": "The key to the movement of these flexible robots is the algae’s photosynthetic capabilities.",
+      "thumbnail": "https://media.wired.com/photos/6aeb82bb5d3f8b6dd9946810/master/pass/Soft-robot-arm_3.jpeg",
+      "source": "Wired",
+      "publishedAt": "2026-11-09T10:30:00.000Z",
+      "categories": [
+        "tech",
+        "science"
+      ],
+      "author": "Ritsuko Kawai"
+    },
+    {
+      "id": "35236678de98",
+      "title": "Grab 32 GB of RAM for just $209.99 thanks to the G.Skill Ripjaws V DDR4-3200 kit — rare sale on a quality kit from an enthusiast brand with a stellar reputation",
+      "link": "https://www.tomshardware.com/pc-components/grab-32-gb-of-ram-for-just-usd209-99-thanks-to-the-g-skill-ripjaws-v-ddr4-3200-kit-rare-sale-on-a-quality-kit-from-an-enthusiast-brand-with-a-stellar-reputation",
+      "description": "Grab 32 GB of RAM for just $209.99 thanks to the G.Skill Ripjaws V DDR4-3200 kit",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/34A478JPE6jDYfUXtnwXpY-1920-80.png",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-09T10:20:00.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Bruno Ferreira"
+    },
+    {
+      "id": "6abb8a137757",
+      "title": "AI Slop FM radio experiment puts machines on trial, one dodgy tune at a time",
+      "link": "https://www.theregister.com/offbeat/2026/11/09/ai-slop-fm-radio-experiment-puts-machines-on-trial-one-dodgy-tune-at-a-time/5308161",
+      "description": "Music fan from Wales lets listeners pit AI-generated songs against human bops – including toilet operas and HR protest songs",
+      "thumbnail": "https://image.theregister.com/?imageId=256930&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-09T10:15:00.000Z",
+      "categories": [
+        "ai",
+        "science",
+        "tech"
+      ],
+      "author": "Carly Page"
+    },
+    {
+      "id": "cbb48cf1ea12",
+      "title": "Fun things to do with your VM/370 CE machine – Fun with big computers",
+      "link": "https://rbanffy.github.io/fun-with-big-computers/fun-with-vm370/",
+      "description": "30 points Â· 2 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-09T10:11:47.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "rbanffy"
+    },
+    {
+      "id": "c126de86d4f4",
+      "title": "I Let Pangram Loose on My Gmail Inbox. Here’s How Much AI It Found",
+      "link": "https://www.wired.com/story/i-let-pangram-loose-on-my-gmail-inbox-heres-how-much-ai-it-found/",
+      "description": "The AI detector will now check your incoming emails for machine-generated text.",
+      "thumbnail": "https://media.wired.com/photos/6aee0b1323d26e0993882d6c/master/pass/gear-pangram-email-ai-detector.gif",
+      "source": "Wired",
+      "publishedAt": "2026-11-09T10:00:00.000Z",
+      "categories": [
+        "ai",
+        "tech"
+      ],
+      "author": "David Nield"
+    },
+    {
+      "id": "b7b8f97a0a41",
+      "title": "DHS Has Used This Controversial Investigative Tool 185,000 Times Since Trump Took Office",
+      "link": "https://www.wired.com/story/dhs-has-used-this-controversial-investigative-tool-185000-times-since-trump-took-office/",
+      "description": "Homeland Security Investigations estimates that it has sent out more administrative subpoenas since January 2025 than it did in more than six and a half years between 2016 and mid-August 2022.",
+      "thumbnail": "https://media.wired.com/photos/6aee26c6b483b13476bff942/master/pass/061126-DHS-administrative-subpoenas.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-09T10:00:00.000Z",
+      "categories": [
+        "cybersecurity",
+        "tech"
+      ],
+      "author": "Maddy Varner"
+    },
+    {
+      "id": "58446515405f",
+      "title": "The climate case for AI has not been made",
+      "link": "https://www.technologyreview.com/2026/11/09/1148166/the-climate-case-for-ai-has-not-been-made/",
+      "description": "This week, as countries meet in Antalya, Turkey for the United Nations climate conference, one topic likely to dominate the conversation is artificial intelligence. The host has already called on countries to commit to ensuring that AI is designed, powered, and deployed in ways that support climate",
+      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/11/hands.jpg?resize=1200,600",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-09T10:00:00.000Z",
+      "categories": [
+        "ai",
+        "science"
+      ],
+      "author": "Mary Nichols, Jeremy Tamanini"
+    },
+    {
+      "id": "f030f28d129b",
+      "title": "Ask HN: Do you still enjoy coding in C++?",
+      "link": "https://news.ycombinator.com/item?id=50423371",
+      "description": "",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-09T09:50:03.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "hasley"
+    },
+    {
+      "id": "9c99c9bfc411",
+      "title": "Memory crunch makes refurbished kit look a lot less secondhand",
+      "link": "https://www.theregister.com/on-prem/2026/11/09/memory-crunch-makes-refurbished-kit-look-a-lot-less-secondhand/5307758",
+      "description": "Soaring component costs and warranties of up to three years give buyers more reason to consider pre-loved hardware",
+      "thumbnail": "https://image.theregister.com/?imageId=5307762&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-09T09:30:00.000Z",
+      "categories": [
+        "hardware",
+        "tech"
+      ],
+      "author": "Paul Kunert"
+    },
+    {
+      "id": "1bfc56b87072",
+      "title": "7 Funniest 'Far Side' Comics About Elephants",
+      "link": "https://www.polygon.com/funniest-far-side-comics-about-elephants/",
+      "description": "A Far Side fan never forgets... about these elephant comic strips",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/far-side-elephant-phone.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-09T09:27:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Adam Barnhardt"
+    },
+    {
+      "id": "8a20c3fd0d9b",
+      "title": "6 Modern Fantasy Books That Rival The Lord of the Rings",
+      "link": "https://www.polygon.com/modern-fantasy-books-like-lord-of-the-rings/",
+      "description": "From Brandon Sanderson's sprawling epics to ambitious new fantasy worlds, these six series give The Lord of the Rings a run for its money.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22923785/4k_fellowship_movie_screencaps.com_10644.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-09T09:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Ryan Epps"
+    },
+    {
+      "id": "8ceada5f9502",
+      "title": "ChatGPT Desktop forwards your SSH agent to remote machines",
+      "link": "https://news.ycombinator.com/item?id=50422628",
+      "description": "4 points",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-09T08:17:49.000Z",
+      "categories": [
+        "ai",
+        "programming",
+        "opensource"
+      ],
+      "author": "DenGorbachev"
+    },
+    {
+      "id": "e2ef60ab4c4b",
+      "title": "Bikers and Bug-Lovers Join Forces to Fight a New Google Data Center",
+      "link": "https://www.wired.com/story/bug-activists-and-biker-gang-members-are-teaming-up-to-protest-data-centers/",
+      "description": "As data center protests break out across Europe, a mismatched band of campaigners is trying to block Google from building a sprawling new facility east of London.",
+      "thumbnail": "https://media.wired.com/photos/6aecab4af3a6c68d60864f57/master/pass/Bugs%20and%20bikes%20revise.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-09T08:00:00.000Z",
+      "categories": [
+        "cloud",
+        "business",
+        "tech"
+      ],
+      "author": "Joel Khalili"
+    },
     {
       "id": "fef139232750",
       "title": "Dev error bricked 600 PCs, caused $1M CD-ROM write-off",
@@ -13,6 +407,46 @@
         "tech"
       ],
       "author": "Simon Sharwood"
+    },
+    {
+      "id": "003acbc29dbd",
+      "title": "370 Books in 20 months: South African author defends her use of AI",
+      "link": "https://www.enca.com/lifestyle/370-books-20-months-sa-author-defends-her-use-ai",
+      "description": "18 points Â· 6 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-09T07:21:33.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "theanonymousone"
+    },
+    {
+      "id": "a9c06162812c",
+      "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+      "link": "https://arxiv.org/abs/2610.14162",
+      "description": "102 points Â· 13 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-09T07:20:37.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "theanonymousone"
+    },
+    {
+      "id": "f49487fb0428",
+      "title": "Is Opus 5.5 nerfed? Thinking patterns changed on November 3",
+      "link": "https://twitter.com/shanemelaugh/status/2119192075505893695",
+      "description": "217 points Â· 142 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-09T07:04:25.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "rzk"
     },
     {
       "id": "f1cf382cef00",
@@ -183,7 +617,7 @@
       "id": "8627f51ccc6b",
       "title": "A Critique of GPUI",
       "link": "https://blog.zortax.de/posts/a-critique-of-gpui",
-      "description": "74 points Â· 38 comments",
+      "description": "113 points Â· 72 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T03:51:10.000Z",
@@ -196,7 +630,7 @@
       "id": "ffa752f0df2f",
       "title": "The Qlobe: Rotating Quine (2010)",
       "link": "http://mamememo.blogspot.com/2010/09/qlobe.html",
-      "description": "21 points Â· 0 comments",
+      "description": "31 points Â· 0 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T03:15:17.000Z",
@@ -204,19 +638,6 @@
         "programming"
       ],
       "author": "niceguitars"
-    },
-    {
-      "id": "b7a0d4415325",
-      "title": "A Bit about Email",
-      "link": "https://maurycyz.com/misc/email/",
-      "description": "24 points Â· 4 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-09T02:46:21.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "vinhnx"
     },
     {
       "id": "3c7fb92988c0",
@@ -236,7 +657,7 @@
       "id": "94acbee62afa",
       "title": "Huawei says it’s made a 100 percent Chinese PC",
       "link": "https://www.theregister.com/systems/2026/11/09/huawei-says-its-made-a-100-percent-chinese-pc/5308335",
-      "description": "PLUS: Japan declares infosec emergency; Apple’s makes biggest school Mac sale, ever, anywhere, in the Philippines; And more!",
+      "description": "PLUS: Japan declares infosec emergency; Apple makes biggest school Mac sale, ever, anywhere, in the Philippines; And more!",
       "thumbnail": "https://image.theregister.com/?imageId=5308342&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-09T02:14:17.000Z",
@@ -263,7 +684,7 @@
       "id": "f09ab0b19a40",
       "title": "RIP, Harvest",
       "link": "https://aphyr.com/posts/427-rip-harvest",
-      "description": "302 points Â· 89 comments",
+      "description": "368 points Â· 114 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T01:58:21.000Z",
@@ -399,7 +820,7 @@
       "id": "9429f06661b1",
       "title": "Unlocking any car from X brand in most of the world",
       "link": "https://shubs.io/unlocking-any-car-from-x-brand-in-most-of-the-world/",
-      "description": "249 points Â· 89 comments",
+      "description": "397 points Â· 174 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-09T00:10:50.000Z",
@@ -422,19 +843,6 @@
         "tech"
       ],
       "author": "Simon Sharwood"
-    },
-    {
-      "id": "92394219fcd4",
-      "title": "Sega’s Most Influential Platformer Deserves Its Big Remake Moment Next",
-      "link": "https://www.polygon.com/super-monkey-ball-retrospective-25-years-sega/",
-      "description": "Not every remake has to be for a huge game. Some quicker plays from yesteryear could also benefit, like one all-time great from Sega.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/assets/4489221/gamecube-controller-photo_1280.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-09T00:00:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Jason Venter"
     },
     {
       "id": "67bdabb92c76",
@@ -468,7 +876,7 @@
       "id": "b4717b7762b7",
       "title": "I'm not convinced the AI bubble exists",
       "link": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
-      "description": "204 points Â· 270 comments",
+      "description": "326 points Â· 555 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T23:44:36.000Z",
@@ -505,19 +913,6 @@
         "tech"
       ],
       "author": "staff@engadget.com (Antony Terence)"
-    },
-    {
-      "id": "6964c43b4ad4",
-      "title": "When a language's creator and its owners strongly disagree [pdf]",
-      "link": "https://isocpp.org/files/papers/P4454R0.pdf",
-      "description": "111 points Â· 108 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-08T23:28:01.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "acossta"
     },
     {
       "id": "b657e28721bf",
@@ -577,7 +972,7 @@
       "id": "8eab40c7ce41",
       "title": "Chimera Vocal Synth",
       "link": "https://chimera-vocal-synth.vercel.app/",
-      "description": "179 points Â· 24 comments",
+      "description": "240 points Â· 36 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T22:36:03.000Z",
@@ -590,7 +985,7 @@
       "id": "79cd6977cdf1",
       "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
       "link": "https://ketchup3d.github.io/app/",
-      "description": "408 points Â· 109 comments",
+      "description": "534 points Â· 152 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-08T22:35:35.000Z",
@@ -767,19 +1162,6 @@
       "author": "Anton Shilov"
     },
     {
-      "id": "ef913a473bc5",
-      "title": "Ask HN: What are you working on? (November 2026)",
-      "link": "https://news.ycombinator.com/item?id=50417407",
-      "description": "195 points Â· 656 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-08T21:20:20.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "david927"
-    },
-    {
       "id": "62dafe86ba11",
       "title": "NVIDIA is investigating reports that CEO Jensen Huang was the target of Chinese spy efforts",
       "link": "https://www.engadget.com/2310336/nvidia-is-investigating-reports-that-ceo-jensen-huang-was-the-target-of-chinese-spy-efforts/",
@@ -793,19 +1175,6 @@
         "tech"
       ],
       "author": "staff@engadget.com (Cheyenne MacDonald)"
-    },
-    {
-      "id": "baa1ee6f1847",
-      "title": "25 Years Later, ‘Buffy the Vampire Slayer’s Best Quote Is Still the Most Inspiring Line in TV History",
-      "link": "https://www.polygon.com/buffy-the-vampire-slayer-best-buffy-quote/",
-      "description": "Buffy’s sacrifice for Dawn in the season 5 finale gave us one of the show’s best quotes and an ending that could have closed the series for good.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/buffy.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-08T21:00:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Maria Loreto"
     },
     {
       "id": "bc55171edc52",
@@ -880,7 +1249,7 @@
     },
     {
       "id": "ecd65815b585",
-      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with an alleged Chinese spy",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
       "description": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company. A statement posted by the board of directors reads: The NVIDIA Board is",
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
@@ -935,46 +1304,6 @@
       "author": "Anthony Ha"
     },
     {
-      "id": "c353641c8e4c",
-      "title": "The Web Is More Than Enough, by Paul Ford",
-      "link": "https://ftrain.com/aboard-the-web-is-more-than-enough",
-      "description": "122 points Â· 73 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-08T19:48:32.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "edward"
-    },
-    {
-      "id": "45fb196cb1bb",
-      "title": "How I Fight AI Brain Fry",
-      "link": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "description": "223 points Â· 163 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-08T19:37:42.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "kyunez"
-    },
-    {
-      "id": "ec6779b05ebb",
-      "title": "Outlook.com is rejecting email from domains without DMARC",
-      "link": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc",
-      "description": "369 points Â· 264 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-08T19:20:32.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "xmddmx"
-    },
-    {
       "id": "53044e44b3aa",
       "title": "Apple is racing to make Siri more agentic",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
@@ -1003,19 +1332,6 @@
       "author": "Michael Cripe"
     },
     {
-      "id": "1f880700c684",
-      "title": "All vault locations in the Fortnite Chapter 7 mini season",
-      "link": "https://www.polygon.com/fortnite-chapter-7-vault-locations-c7ms/",
-      "description": "Vaults are full of valuable loot in Fortnite Chapter 7's mini season. Here's where to find them all and how to open them.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/covered-vault_oot.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-08T18:39:47.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Johnny Yu"
-    },
-    {
       "id": "290f429a7c8a",
       "title": "SNL has a new impression of Elon Musk, ‘the worst thing South Africa has ever done’",
       "link": "https://techcrunch.com/2026/11/08/snl-has-a-new-impression-of-elon-musk-the-worst-thing-south-africa-has-ever-done/",
@@ -1027,19 +1343,6 @@
         "startups"
       ],
       "author": "Anthony Ha"
-    },
-    {
-      "id": "fe3406a94f45",
-      "title": "All map fragment locations in the Fortnite Chapter 7 mini season",
-      "link": "https://www.polygon.com/fortnite-chapter-7-mini-season-c7ms-map-fragment-locations/",
-      "description": "Here's where to find all the currently available map fragments in Fortnite's Chapter 7 mini season.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/jlee_261101_1001_fn_mapfragment0.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-08T17:33:11.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Julia Lee"
     },
     {
       "id": "f53bfea6329a",
@@ -1056,19 +1359,6 @@
       "author": "Connie Loizos"
     },
     {
-      "id": "f76f3e57aef1",
-      "title": "All sprites in the Fortnite Chapter 7 mini season",
-      "link": "https://www.polygon.com/fortnite-chapter-7-mini-season-all-sprites-list-abilities/",
-      "description": "Here's a list of the currently available sprite in Fortnite's Chapter 7 \"Treasure Hunters\" mini season, along with what they do.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/jlee_261101_1001_fn_sprites.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-08T17:26:26.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Julia Lee"
-    },
-    {
       "id": "ae06ecf71872",
       "title": "Elvis and Eminem rights holders are suing Suno",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1029533/elvis-eminem-suno-ai-music-clone-lawsuit",
@@ -1081,19 +1371,6 @@
         "tech"
       ],
       "author": "Terrence O’Brien"
-    },
-    {
-      "id": "a1c618ce0954",
-      "title": "Godzilla Minus Zero Opening Weekend Box Office Breaks A Foreign-Language Film Records",
-      "link": "https://www.polygon.com/godzilla-minus-zero-opening-weekend-box-office/",
-      "description": "Godzilla Minus Zero had a great first weekend in theaters",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/mcdgomi_ec019.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-08T17:15:02.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Tomas Franzese"
     },
     {
       "id": "8b7ce4eab867",
@@ -1137,16 +1414,6 @@
         "programming"
       ],
       "author": "Carly Page"
-    },
-    {
-      "title": "I Let My Staff Upgrade the Office (They Almost Ruined It)",
-      "link": "https://www.youtube.com/watch?v=CrO0Timw2z4",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "publishedAt": "2026-11-08T16:56:01.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/CrO0Timw2z4/hq720.jpg",
-      "videoId": "CrO0Timw2z4",
-      "video": true
     },
     {
       "id": "0aa214f5f5e1",
@@ -1459,20 +1726,6 @@
       "author": "Zhiye Liu"
     },
     {
-      "id": "e8e4da185237",
-      "title": "Homelabber uses second-gen Optane memory sticks to run a 2.8-trillion-parameter AI model on CPU alone",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabber-uses-second-gen-optane-memory-sticks-to-run-a-2-8-trillion-parameter-ai-model-on-cpu-alone-warns-that-optanes-extreme-heat-can-burn-out-nearby-memory-dram-used-blower-fans-to-prevent-melting-ram",
-      "description": "A Reddit homelab user ran Moonshot AI’s 2.8-trillion-parameter Kimi K3 CPU-only on Optane PMem 200 at 0.85 tokens/s with a 1-bit quant.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/Wpdi2avEo8ZBZMremLVgaU-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-08T12:20:00.000Z",
-      "categories": [
-        "ai",
-        "hardware"
-      ],
-      "author": "Shane Downing"
-    },
-    {
       "id": "87e6d8610228",
       "title": "8 Best Computer Speakers (2026) After Testing 30 Pairs",
       "link": "https://www.wired.com/gallery/best-computer-speakers/",
@@ -1500,19 +1753,6 @@
       "author": "Joe Ray"
     },
     {
-      "id": "d9a5872b21f0",
-      "title": "Pocket-sized Ukrainian receiver intercepts Russian strike drone video feeds up to six miles away",
-      "link": "https://www.tomshardware.com/tech-industry/drones/pocket-sized-ukrainian-receiver-intercepts-russian-strike-drone-video-feeds-up-to-six-miles-away-device-only-slightly-heavier-than-a-smartphone-intercepts-analog-video-signals-sent-to-russian-operators",
-      "description": "The D·Vision SDR can intercept signals from 500 MHz to 8.7 GHz, covering the 4.1-4.5 GHz spectrum that Russian Molniya strike drones use to communicate with their operators.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/XiucPoqSXZURgspEBuaPLU-1920-80.png",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-08T12:00:00.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Jowi Morales"
-    },
-    {
       "id": "db87d2a03c5a",
       "title": "Wandrd’s Magnetic Camera Straps Are My New Favorite Accessory",
       "link": "https://www.wired.com/story/wandrd-magnetic-camera-straps-are-my-new-favorite-accessory/",
@@ -1524,19 +1764,6 @@
         "tech"
       ],
       "author": "Julian Chokkattu"
-    },
-    {
-      "id": "d5d2b9dc156c",
-      "title": "WoW: Forever launch used 70,480 CPU cores and 251 terabytes of RAM",
-      "link": "https://www.tomshardware.com/video-games/pc-gaming/wow-forever-launch-used-70-480-cpu-cores-and-251-terabytes-of-ram-3-924-virtual-machines-powered-one-of-world-of-warcrafts-smoothest-launches-ever",
-      "description": "Inside the astonishing hardware behind World of Warcraft: Forever. 251TB of RAM and 70K cores kept millions of players online without a hitch.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/TNCBNhGaotv4BgQQDz5pbj-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-08T11:30:00.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Zhiye Liu"
     },
     {
       "id": "119e6b367252",
@@ -1563,19 +1790,6 @@
         "tech"
       ],
       "author": "Jill Duffy"
-    },
-    {
-      "id": "06b449533fa2",
-      "title": "PC air duster motors power 21-inch DIY remote control plane at 130,000 RPM",
-      "link": "https://www.tomshardware.com/maker-stem/pc-air-duster-motors-power-21-inch-diy-remote-control-plane-at-130-000-rpm-usd23-air-duster-power-styrofoam-a10-warthog-style-rc-plane-hits-the-skies-much-faster-than-expected",
-      "description": "A remote-control electronics and DIY hobbyist was surprised by a model airplane they built, powered by a pair of PC air duster engines.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/ymKLmrJDbKEg74UUcf4jnk-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-08T11:00:00.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Mark Tyson"
     },
     {
       "id": "6655854721d6",
@@ -1605,20 +1819,6 @@
       "author": null
     },
     {
-      "id": "79a7a07a6f55",
-      "title": "6 Best Touchscreen Gloves (2026) Knitted, Waterproof, Leather, and More",
-      "link": "https://www.wired.com/gallery/best-touchscreen-gloves/",
-      "description": "We braved the cold to answer a modern dilemma: Can you keep your hands warm and use a smartphone at the same time?",
-      "thumbnail": "https://media.wired.com/photos/6aee72371d8c716d0f5e527c/master/pass/The-Best-Touchscreen-Gloves.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-08T10:00:00.000Z",
-      "categories": [
-        "mobile",
-        "tech"
-      ],
-      "author": "Simon Hill"
-    },
-    {
       "id": "f0a4c5ef9d7f",
       "title": "The Apple MacBook Pro M5 is on Sale, and a Top MacBook to Buy Right Now",
       "link": "https://www.wired.com/story/macbook-pro-m5-deal-11-6-2026/",
@@ -1631,21 +1831,6 @@
         "tech"
       ],
       "author": "Luke Larsen"
-    },
-    {
-      "id": "927c104d2440",
-      "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
-      "link": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
-      "description": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
-      "thumbnail": "https://media.wired.com/photos/6aee7497bf81da8802edc3e6/master/pass/gear-ai-world-models-3d.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-08T10:00:00.000Z",
-      "categories": [
-        "ai",
-        "science",
-        "tech"
-      ],
-      "author": "Reece Rogers"
     },
     {
       "id": "3e95397a13ce",
@@ -1877,19 +2062,6 @@
       "author": "Michael Burkhardt"
     },
     {
-      "id": "6479f51e6d56",
-      "title": "Missing Teen Saved From Alleged Kidnapper After Seeking Help in Among Us",
-      "link": "https://www.ign.com/articles/missing-teen-saved-from-alleged-kidnapper-after-seeking-help-in-among-us",
-      "description": "A Utah teenager was rescued from an Oregon man's home after she successfully contacted help from another child in Among Us.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/07/among-us-1794081958488.png",
-      "source": "IGN",
-      "publishedAt": "2026-11-07T20:06:52.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Michael Cripe"
-    },
-    {
       "id": "a5c0f68a0a6f",
       "title": "Hands-on: Anker’s 10K MagGo 2 Pro offers fast 25W MagSafe charging with a kickstand",
       "link": "https://9to5mac.com/2026/11/07/anker-maggo-2-pro-fast-magsafe-charger-for-iphone/",
@@ -1985,44 +2157,6 @@
         "cybersecurity"
       ],
       "author": "Anthony Ha"
-    },
-    {
-      "id": "bf69aa313637",
-      "title": "Amazon’s new basic Kindle proves you don’t need all the bells and whistles",
-      "link": "https://techcrunch.com/2026/11/07/amazons-new-basic-kindle-proves-you-dont-need-all-the-bells-and-whistles/",
-      "description": "Amazon's redesigned basic Kindle costs more than before, but its lighter build and improved display make a compelling case for skipping the pricier models.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/IMG_3861.jpeg?resize=1200,900",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-07T17:18:00.000Z",
-      "categories": [
-        "startups",
-        "hardware"
-      ],
-      "author": "Sarah Perez"
-    },
-    {
-      "title": "I’ve never seen this before (and it’s 20 years old.)",
-      "link": "https://www.youtube.com/watch?v=7hlTu95nOCw",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "publishedAt": "2026-11-07T17:01:40.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/7hlTu95nOCw/hq720.jpg",
-      "videoId": "7hlTu95nOCw",
-      "video": true
-    },
-    {
-      "id": "9a3500d6fef8",
-      "title": "The UV-tracking Gem made me rethink how sunlight affects my health, not just my appearance",
-      "link": "https://www.theverge.com/tech/1023230/the90-gem-necklace-hands-on-impressions",
-      "description": "With temperatures rising to the 90s in Los Angeles, avoiding the heat wasn't exactly an option while I was at a relative's outdoor party in August. So I sat beneath a patio umbrella with a powerful fan nearby, figuring I was protected from the sun and heat. Half an hour later, I felt exhausted, dizz",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/268829_The90_Gem_SVasani_0002.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-07T17:00:00.000Z",
-      "categories": [
-        "privacy",
-        "tech"
-      ],
-      "author": "Sheena Vasani"
     },
     {
       "id": "f5b9f6fd108b",
@@ -2124,20 +2258,6 @@
       "author": "Bradley C"
     },
     {
-      "id": "c27186132a60",
-      "title": "The Fridge-Hacking Spree Is an Internet-of-Things Wake-Up Call",
-      "link": "https://www.wired.com/story/kernel-panic-refrigeration-hacks-internet-of-things/",
-      "description": "Escalating hacks affecting blood labs and grocery stores show the very real risks to critical infrastructure that come from basic security lapses involving internet-connected devices.",
-      "thumbnail": "https://media.wired.com/photos/6aecfb1b276d9711716c8ef8/master/pass/KernelPanic_10312026_v1-ezgif.com-video-to-gif-converter.gif",
-      "source": "Wired",
-      "publishedAt": "2026-11-07T13:00:00.000Z",
-      "categories": [
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "Lily Hay Newman, Matt Burgess"
-    },
-    {
       "id": "b48f8c504ab9",
       "title": "Early Black Friday Apple deals: MacBook Air $250 off, HomeView, Apple Watch Ultra $250 off, AirPods, more",
       "link": "https://9to5mac.com/2026/11/07/early-black-friday-apple-deals-now-live/",
@@ -2166,61 +2286,6 @@
       "author": "Abrar Al-Heeti"
     },
     {
-      "id": "19a91fa5974a",
-      "title": "Best Wi-Fi Routers (2026): My Honest Picks After Testing 50+",
-      "link": "https://www.wired.com/gallery/best-wifi-routers/",
-      "description": "Don’t suffer the buffer. These WIRED-tested home routers will deliver reliable internet across your home, whatever your needs or budget.",
-      "thumbnail": "https://media.wired.com/photos/6ae7c95facba2861e5fb22fa/master/pass/Best%20Routers%20112026%20top%20art%20SOURCE%20Amazon.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-07T12:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Simon Hill"
-    },
-    {
-      "id": "c83cd90fea40",
-      "title": "The 10 Best Early Black Friday Headphone Deals (2026)",
-      "link": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-6-26/",
-      "description": "Get up to 50 percent off some of my favorite headphones and earbuds from Apple, Sony, Bose, and more.",
-      "thumbnail": "https://media.wired.com/photos/6aee6de94daae82016170876/master/pass/The-Best-Early-Black-Friday-Headphone-Deals.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-07T11:45:00.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "Harry Rabinowitz"
-    },
-    {
-      "id": "d99f15569e6b",
-      "title": "The Best Cat Water Fountains of 2026: Petlibro, Petkit, Oneisall",
-      "link": "https://www.wired.com/gallery/best-cat-water-fountains/",
-      "description": "Ensuring your cat stays hydrated is one of the best ways to keep your pet healthy. The right pet water fountain can help.",
-      "thumbnail": "https://media.wired.com/photos/6a8007d2a5a41ea93847b302/master/pass/I-Tested-the-Best-Cat-Water-Fountains%E2%80%94These-Are-Worth-Buying.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-07T11:37:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Molly Higgins"
-    },
-    {
-      "id": "c4cb135fb256",
-      "title": "This Totally Free App Can Free Up Space on Your Mac",
-      "link": "https://www.wired.com/story/this-totally-free-app-can-free-up-space-on-your-mac-purge/",
-      "description": "Stop paying for disk cleaners. This open source utility safely clears hidden caches, leftover app junk, and even gigabytes of offline Apple Intelligence models.",
-      "thumbnail": "https://media.wired.com/photos/69acccf77f50a7b6628a7193/master/pass/macbook-neo-07.png",
-      "source": "Wired",
-      "publishedAt": "2026-11-07T11:15:00.000Z",
-      "categories": [
-        "programming",
-        "hardware",
-        "science"
-      ],
-      "author": "Justin Pot"
-    },
-    {
       "id": "130145bcfb89",
       "title": "British soldier ignored order to pull his SIM card, then got blackmailed",
       "link": "https://arstechnica.com/security/2026/11/british-soldier-ignored-order-to-pull-his-sim-card-then-got-blackmailed/",
@@ -2233,19 +2298,6 @@
         "tech"
       ],
       "author": "Cyrus Farivar"
-    },
-    {
-      "id": "cc1dc1e49572",
-      "title": "GoRuck Black Friday Sale: My Favorite Packs and Weighted Vests Are Nearly 50% Off",
-      "link": "https://www.wired.com/story/goruck-black-friday-sale-2026/",
-      "description": "Skip the gym and get outdoors with GoRuck’s indestructible packs and workout gear, deeply discounted ahead of the holidays.",
-      "thumbnail": "https://media.wired.com/photos/6aee7389276d9711716c9d08/master/pass/My-Favorite-GoRuck-Packs-and-Weighted-Vests-Are-on-Sale-for-Black-Friday.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-07T11:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Scott Gilbertson"
     },
     {
       "id": "d155a865c64c",
@@ -2413,20 +2465,6 @@
       "author": "Jeremy Hsu"
     },
     {
-      "id": "137a0aa9b971",
-      "title": "Raycast combines voice dictation and screen awareness in new AI feature",
-      "link": "https://9to5mac.com/2026/11/06/raycast-combines-voice-dictation-and-screen-awareness-in-new-ai-feature/",
-      "description": "Following the recent release of Screen Awareness, Raycast got an interesting update this week that lets users talk to AI about whatever is on their screen without having to explain the context. Here are the details. more…",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/raycast-dictate-ai.jpg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-06T22:28:13.000Z",
-      "categories": [
-        "ai",
-        "hardware"
-      ],
-      "author": "Marcus Mendes"
-    },
-    {
       "id": "b99b441690fc",
       "title": "Runaway AI hacking agent behind WorkOS breach after escaping sandbox",
       "link": "https://www.bleepingcomputer.com/news/security/runaway-ai-hacking-agent-behind-workos-breach-after-escaping-sandbox/",
@@ -2481,16 +2519,6 @@
         "tech"
       ],
       "author": "Jessica Lyons"
-    },
-    {
-      "title": "Meta VR Glasses: What Vision Pro 2 COULD Have Been!",
-      "link": "https://www.youtube.com/watch?v=_x58r9TBois",
-      "source": "Marques Brownlee",
-      "category": "mobile",
-      "publishedAt": "2026-11-06T21:29:30.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/_x58r9TBois/hq720.jpg",
-      "videoId": "_x58r9TBois",
-      "video": true
     },
     {
       "id": "a2e81fb3cfe8",
@@ -2880,31 +2908,6 @@
       "author": "Liam Proven"
     },
     {
-      "id": "6d24f1f48533",
-      "title": "Oak Ridge labs gets hybrid quantum-HPC system to test qubit error correction",
-      "link": "https://www.theregister.com/hpc/2026/11/06/oak-ridge-labs-gets-hybrid-quantum-hpc-system-to-test-qubit-error-correction/5308187",
-      "description": "Co-design platform for quantum error correction melds IBM quantum kit with AMD CPUs and GPUs",
-      "thumbnail": "https://image.theregister.com/?imageId=5308191&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-06T17:00:00.000Z",
-      "categories": [
-        "hardware",
-        "science",
-        "tech"
-      ],
-      "author": "Dan Robinson"
-    },
-    {
-      "title": "OpenAI just made cryptographers very nervous...",
-      "link": "https://www.youtube.com/watch?v=iw9SZgyahqg",
-      "source": "Fireship",
-      "category": "programming",
-      "publishedAt": "2026-11-06T16:42:38.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/iw9SZgyahqg/hq720.jpg",
-      "videoId": "iw9SZgyahqg",
-      "video": true
-    },
-    {
       "id": "1dfbb32a560b",
       "title": "Amazon Deals of the Day: Clean Up Before the Holidays With Over $100 Off the Dyson Ball Animal Vacuum",
       "link": "https://www.cnet.com/tech/amazon-deals-of-the-day-2026-11-06/",
@@ -2916,19 +2919,6 @@
         "tech"
       ],
       "author": "Aashna Gheewalla"
-    },
-    {
-      "id": "6b37782b72ac",
-      "title": "RIP to the world’s ugliest car",
-      "link": "https://www.theregister.com/offbeat/2026/11/06/rip-to-the-worlds-ugliest-car/5308198",
-      "description": "Who'd'a thunk a giant steel box could make such a flop? Us, that's who - and probably you, too",
-      "thumbnail": "https://image.theregister.com/?imageId=226568&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-06T16:31:44.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Brandon Vigliarolo"
     },
     {
       "id": "9ee29b170407",
@@ -3096,16 +3086,6 @@
         "cybersecurity"
       ],
       "author": "Sergiu Gatlan"
-    },
-    {
-      "title": "Big Tech lost big in the 2026 election | The Vergecast",
-      "link": "https://www.youtube.com/watch?v=-U4thshDTL8",
-      "source": "The Verge",
-      "category": "tech",
-      "publishedAt": "2026-11-06T14:15:09.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/-U4thshDTL8/hq720.jpg",
-      "videoId": "-U4thshDTL8",
-      "video": true
     },
     {
       "id": "fddd9951c6d3",
@@ -3300,104 +3280,137 @@
         "science"
       ],
       "author": null
+    },
+    {
+      "id": "e804e0e79289",
+      "title": "I watched a humanoid robot clean my apartment. It felt like a taste of the future.",
+      "link": "https://www.technologyreview.com/2026/11/06/1148090/i-watched-a-humanoid-robot-clean-my-apartment-it-felt-like-a-taste-of-the-future/",
+      "description": "I’m not the sort of person who typically pays for a house cleaner. I’m too frugal, and I kind of enjoy putting on a podcast and going to town on my tub with a Magic Eraser. But when I saw an X post about a new humanoid-robot cleaning service in San Francisco, I immediately signed…",
+      "thumbnail": "https://wp.technologyreview.com/wp-content/uploads/2026/11/TauRobot-3up.jpg?resize=1200,600",
+      "source": "MIT Technology Review",
+      "publishedAt": "2026-11-06T10:00:00.000Z",
+      "categories": [
+        "hardware",
+        "ai"
+      ],
+      "author": "Grace Huckins"
+    },
+    {
+      "id": "90612bee1e29",
+      "title": "When the Watchdogs Are Silenced: India's Crackdown on Those Documenting Online Censorship",
+      "link": "https://www.eff.org/deeplinks/2026/11/when-watchdogs-are-silenced-indias-crackdown-those-documenting-online-censorship",
+      "description": "On November 3, our colleagues at the Software Freedom Law Center, India (SFLC.in) received notifications from X that the Delhi Police had issued takedown requests targeting 42 URLs. Among the accounts and posts targeted were those belonging to SFLC.in , the Internet Freedom Foundation (IFF), and X a",
+      "thumbnail": "https://www.eff.org/files/banner_library/issue-icon-2026-freespeech.png",
+      "source": "EFF Updates",
+      "publishedAt": "2026-11-06T09:30:42.000Z",
+      "categories": [
+        "programming",
+        "privacy"
+      ],
+      "author": "Jillian C. York"
+    },
+    {
+      "id": "3a8f9a3bb5fd",
+      "title": "MetaMask says recent attack didn't affect wallet infrastructure",
+      "link": "https://www.bleepingcomputer.com/news/security/metamask-says-recent-attack-didnt-affect-wallet-infrastructure/",
+      "description": "Cryptocurrency wallet provider MetaMask said a recent security incident has not affected MetaMask wallets or its wallet infrastructure. [...]",
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/06/Metamask.jpg",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-06T09:22:28.000Z",
+      "categories": [
+        "cybersecurity"
+      ],
+      "author": "Sergiu Gatlan"
     }
   ],
   "github": [
     {
-      "name": "Gathin23/cleanyourtv",
-      "description": "Debloat any Android or Google TV over Wi-Fi and get an Apple TV-style home.",
+      "name": "anthropics/skills",
+      "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 54926,
-      "starsToday": 0,
-      "url": "https://github.com/Gathin23/cleanyourtv"
+      "stars": 190103,
+      "starsToday": 792,
+      "url": "https://github.com/anthropics/skills"
     },
     {
-      "name": "deepseek-ai/DeepInfer",
-      "description": "DeepInfer: High-performance, large-scale inference framework for DeepSeek models",
-      "language": "Python",
-      "stars": 25706,
-      "starsToday": 0,
-      "url": "https://github.com/deepseek-ai/DeepInfer"
+      "name": "meta/astryx",
+      "description": "An open source design system that's fully customizable and agent ready",
+      "language": "TypeScript",
+      "stars": 18244,
+      "starsToday": 875,
+      "url": "https://github.com/meta/astryx"
     },
     {
-      "name": "storytold/craft-anything",
-      "description": "Craft Anything: understand how any software works, and craft your own.",
+      "name": "sherlock-project/sherlock",
+      "description": "Hunt down social media accounts by username across social networks",
+      "language": "Python",
+      "stars": 105832,
+      "starsToday": 2373,
+      "url": "https://github.com/sherlock-project/sherlock"
+    },
+    {
+      "name": "google-deepmind/mujoco",
+      "description": "Multi-Joint dynamics with Contact. A general purpose physics simulator.",
+      "language": "C++",
+      "stars": 16703,
+      "starsToday": 41,
+      "url": "https://github.com/google-deepmind/mujoco"
+    },
+    {
+      "name": "anthropics/claude-quickstarts",
+      "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
+      "language": "Python",
+      "stars": 19716,
+      "starsToday": 32,
+      "url": "https://github.com/anthropics/claude-quickstarts"
+    },
+    {
+      "name": "garrytan/gbrain",
+      "description": "Garry's Opinionated OpenClaw/Hermes Agent Brain",
+      "language": "TypeScript",
+      "stars": 31842,
+      "starsToday": 215,
+      "url": "https://github.com/garrytan/gbrain"
+    },
+    {
+      "name": "vercel-labs/agent-browser",
+      "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 23364,
-      "starsToday": 0,
-      "url": "https://github.com/storytold/craft-anything"
+      "stars": 48100,
+      "starsToday": 815,
+      "url": "https://github.com/vercel-labs/agent-browser"
     },
     {
-      "name": "deepseek-ai/dsh-superagent-prototype",
-      "description": "Towards a More Autonomous Agent System",
-      "language": "TypeScript",
-      "stars": 21446,
-      "starsToday": 0,
-      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+      "name": "ruvnet/RuView",
+      "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
+      "language": "Rust",
+      "stars": 103130,
+      "starsToday": 203,
+      "url": "https://github.com/ruvnet/RuView"
     },
     {
-      "name": "Zagitta/gpu-unlock",
-      "description": "Your GeForce runs AI at half speed. This fixes it for 20/30/40 series cards. Up to 2× FP16 / BF16 / TF32 tensor throughput",
-      "language": "C",
-      "stars": 18228,
-      "starsToday": 0,
-      "url": "https://github.com/Zagitta/gpu-unlock"
-    },
-    {
-      "name": "ccch1mneyyy/dsh-Go",
-      "description": "dsh-go — DeepSeek Harness 装进口袋：手机本机运行，也能遥控你的电脑。",
-      "language": "Dart",
-      "stars": 16762,
-      "starsToday": 0,
-      "url": "https://github.com/ccch1mneyyy/dsh-Go"
-    },
-    {
-      "name": "seedds/nxnative",
-      "description": "Switch games running natively on iPhone, iPad and Mac: an NSP folder becomes an unsigned IPA (NSO rewriter, Horizon HLE host, NVN→Metal)",
+      "name": "ZhuLinsen/daily_stock_analysis",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 13855,
-      "starsToday": 0,
-      "url": "https://github.com/seedds/nxnative"
+      "stars": 68427,
+      "starsToday": 505,
+      "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
     },
     {
-      "name": "heydamir/unslop",
-      "description": "A Claude skill that turns vibecoded, AI-looking UI into a designed interface",
-      "language": "JavaScript",
-      "stars": 12219,
-      "starsToday": 0,
-      "url": "https://github.com/heydamir/unslop"
+      "name": "homeassistant-ai/ha-mcp",
+      "description": "Configure and automate Home Assistant with Claude, ChatGPT, and other AI assistants.",
+      "language": "Python",
+      "stars": 5531,
+      "starsToday": 31,
+      "url": "https://github.com/homeassistant-ai/ha-mcp"
     },
     {
-      "name": "pengchujin/aerial-tv",
-      "description": "给国产电视的一块干净桌面：参照 tvOS 设计的开源 Android TV 桌面，没有广告，开机自动接管。A tvOS-style launcher for Xiaomi, TCL and other China-market TVs.",
-      "language": "Kotlin",
-      "stars": 10811,
-      "starsToday": 0,
-      "url": "https://github.com/pengchujin/aerial-tv"
-    },
-    {
-      "name": "l0ng-ai/openidea",
-      "description": "The IDE you know, rebuilt in Rust. IntelliJ IDEA–style keymap, tool windows and search-everywhere in a fast native app: editor, code insight, debugger, Git, terminal, database and HTTP clients for 60+ languages.",
+      "name": "milind-soni/OpenMausBot",
+      "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
-      "stars": 7992,
-      "starsToday": 0,
-      "url": "https://github.com/l0ng-ai/openidea"
-    },
-    {
-      "name": "wangzan101/Mika",
-      "description": "An on-device AI agent for Android that operates apps and the web to get things done for you.",
-      "language": "Kotlin",
-      "stars": 7816,
-      "starsToday": 0,
-      "url": "https://github.com/wangzan101/Mika"
-    },
-    {
-      "name": "HeyPuter/everything",
-      "description": "We're rebuilding and open-sourcing the world’s software from scratch.",
-      "language": "JavaScript",
-      "stars": 7721,
-      "starsToday": 0,
-      "url": "https://github.com/HeyPuter/everything"
+      "stars": 19140,
+      "starsToday": 1439,
+      "url": "https://github.com/milind-soni/OpenMausBot"
     }
   ],
   "podcasts": [
@@ -3491,12 +3504,12 @@
       "description": "Big tech, business, power and the decisions behind the products.",
       "category": "business",
       "link": "https://podcasts.apple.com/us/podcast/decoder-with-nilay-patel/id1011668648?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/75/fc/f3/75fcf3e7-dac0-1808-7e61-398220938bd3/mza_15671982189570796313.jpg/600x600bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ba/9f/93/ba9f937b-eab8-6324-049a-cd70c15af66c/mza_1801163118447266446.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "AI broke the cybersecurity world. Now what?",
-        "publishedAt": "2026-11-07T10:00:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/ai-broke-the-cybersecurity-world-now-what/id1011668648?i=1000800393703&uo=4",
-        "duration": 3804000
+        "title": "The man who fought napster is now fighting AI",
+        "publishedAt": "2026-11-09T10:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/the-man-who-fought-napster-is-now-fighting-ai/id1011668648?i=1000800741489&uo=4",
+        "duration": 4418000
       }
     },
     {
