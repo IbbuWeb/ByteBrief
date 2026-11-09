@@ -1,4 +1,4 @@
-const APP_VERSION = '20261109-6';
+const APP_VERSION = '20261109-7';
 const UPDATE_URL = '/ByteBrief/?source=update';
 
 self.addEventListener('install', event => {
@@ -10,6 +10,10 @@ self.addEventListener('activate', event => {
     const keys = await caches.keys();
     await Promise.all(keys.filter(k => k.startsWith('bytebrief-') && k !== `bytebrief-${APP_VERSION}`).map(k => caches.delete(k)));
     await self.clients.claim();
+    const windowClients = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    for (const client of windowClients) {
+      client.postMessage({ type: 'BYTEBRIEF_APP_UPDATED', version: APP_VERSION });
+    }
   })());
 });
 

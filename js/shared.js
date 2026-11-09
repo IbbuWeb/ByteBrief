@@ -418,13 +418,32 @@ function registerAppServiceWorker() {
   if (window.__bytebriefSwInit) return;
   window.__bytebriefSwInit = true;
 
-  let refreshing = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => {
-    if (refreshing) return;
-    refreshing = true;
-    try { sessionStorage.removeItem('bytebrief_sw_reload'); } catch {}
+  const reloadOnce = () => {
+    if (window.__bytebriefSwReloading) return;
+    try {
+      if (sessionStorage.getItem('bytebrief_sw_reload') === '1') return;
+      sessionStorage.setItem('bytebrief_sw_reload', '1');
+    } catch {}
+    window.__bytebriefSwReloading = true;
     window.location.reload();
+  };
+
+  navigator.serviceWorker.addEventListener('controllerchange', reloadOnce);
+  navigator.serviceWorker.addEventListener('message', event => {
+    if (event.data?.type === 'BYTEBRIEF_APP_UPDATED') reloadOnce();
   });
+
+  const checkRegistration = reg => {
+    try { reg.update(); } catch {}
+    if (reg.waiting && navigator.serviceWorker.controller) reloadOnce();
+    reg.addEventListener('updatefound', () => {
+      const installing = reg.installing;
+      if (!installing) return;
+      installing.addEventListener('statechange', () => {
+        if (installing.state === 'installed' && navigator.serviceWorker.controller) reloadOnce();
+      });
+    });
+  };
 
   const doRegister = async () => {
     try {
@@ -432,10 +451,11 @@ function registerAppServiceWorker() {
         new URL('sw.js', document.baseURI).toString(),
         { scope: new URL('./', document.baseURI).pathname, updateViaCache: 'none' }
       );
-      reg.update().catch(() => {});
+      checkRegistration(reg);
       document.addEventListener('visibilitychange', () => {
-        if (document.visibilityState === 'visible') reg.update().catch(() => {});
+        if (document.visibilityState === 'visible') checkRegistration(reg);
       });
+      window.setInterval(() => checkRegistration(reg), 5 * 60 * 1000);
     } catch (error) {
       console.warn('Service worker registration failed:', error);
     }
