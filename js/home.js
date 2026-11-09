@@ -18,7 +18,7 @@
   showToast,
   stashPendingSave,
   toggleSaved
-} from './shared.js?v=20261109-4';
+} from './shared.js?v=20261109-5';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -191,18 +191,63 @@ function boot() {
     "The useful version of today's internet.",
     "Tech news, trimmed to the point.",
     "Today's useful tech, nothing extra.",
-    "The brief your browser wishes it wrote."
+    "The brief your browser wishes it wrote.",
+    "Fresh tech, less scrolling.",
+    "The tech worth opening today.",
+    "A sharper read on today's tech.",
+    "Today's tech, edited down.",
+    "What shipped. What matters.",
+    "The day's tech, in plain sight.",
+    "Good tech stories. No filler.",
+    "Today's internet, made readable.",
+    "Tech headlines with the noise removed.",
+    "A clean pass through today's tech.",
+    "The tech news that actually matters.",
+    "Today's best tech, one page deep.",
+    "Less hype. More useful tech.",
+    "Today's tech, cut to the signal.",
+    "The day's tech moves, clearly told.",
+    "A quick read on real tech news.",
+    "Tech worth your attention today.",
+    "Today's tech, minus the clutter.",
+    "What changed in tech today.",
+    "The useful side of today's tech.",
+    "Today's tech brief, no rabbit holes.",
+    "Smart tech reading, zero noise."
   ];
 
   function pickDailyHeadline(userKey) {
     const date = new Date().toISOString().slice(0, 10);
-    const seed = `${date}:${userKey}`;
-    let hash = 0;
-    for (let i = 0; i < seed.length; i += 1) {
-      hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
-    }
-    if (els.homeTitle) {
-      els.homeTitle.textContent = dailyHeadlines[hash % dailyHeadlines.length];
+    const storageKey = 'bytebrief_daily_headline_v2';
+    const memoryWindow = 14;
+
+    try {
+      const stored = JSON.parse(localStorage.getItem(storageKey) || 'null');
+      if (stored?.date === date && dailyHeadlines[stored.index]) {
+        if (els.homeTitle) els.homeTitle.textContent = dailyHeadlines[stored.index];
+        return;
+      }
+
+      const history = Array.isArray(stored?.history) ? stored.history.filter(Boolean) : [];
+      const recent = new Set(history.slice(-memoryWindow));
+      let pool = dailyHeadlines.map((_, i) => i).filter(i => !recent.has(i));
+      if (pool.length === 0) pool = dailyHeadlines.map((_, i) => i);
+
+      // Mix date/user into selection so devices differ, but avoid recent repeats.
+      const seed = `${date}:${userKey}:${history.length}`;
+      let hash = 0;
+      for (let i = 0; i < seed.length; i += 1) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+      const index = pool[hash % pool.length];
+
+      const nextHistory = [...history.filter(i => i !== index), index].slice(-memoryWindow);
+      localStorage.setItem(storageKey, JSON.stringify({ date, index, history: nextHistory }));
+      if (els.homeTitle) els.homeTitle.textContent = dailyHeadlines[index];
+      return;
+    } catch {
+      const seed = `${date}:${userKey}`;
+      let hash = 0;
+      for (let i = 0; i < seed.length; i += 1) hash = (hash * 31 + seed.charCodeAt(i)) >>> 0;
+      if (els.homeTitle) els.homeTitle.textContent = dailyHeadlines[hash % dailyHeadlines.length];
     }
   }
 
