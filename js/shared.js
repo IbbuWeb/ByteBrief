@@ -220,14 +220,28 @@ function headerMarkup(page) {
   return `
     <div class="shell nav-shell masthead">
       <div class="mast-top">
-        <span>Tech Edition</span>
-        <span id="mastDate">${formatDay()}</span>
-        <span>Updated ${new Date().toLocaleTimeString(undefined,{hour:'numeric',minute:'2-digit'})}</span>
+        <span class="mast-edition">Digital Tech Edition</span>
+        <span class="mast-dateline" id="mastDate">${formatDay()}</span>
+        <span class="mast-meta">ibbuweb.github.io/ByteBrief</span>
       </div>
+      <div class="mast-rule mast-rule--thick"></div>
       <div class="mast-center">
-        <a class="brand" href="index.html">
+        <a class="brand" href="index.html" aria-label="ByteBrief home">
           <img class="brand-wordmark" src="assets/bytebrief-wordmark.png" alt="ByteBrief" width="500" height="96">
         </a>
+      </div>
+      <div class="mast-rule mast-rule--thin"></div>
+      <div class="mast-nav-row">
+        <nav class="primary-nav" aria-label="Primary">
+          ${nav
+            .map(
+              ([href, key, label]) =>
+                `<a href="${href}" data-nav="${key}"${
+                  page === key ? ' aria-current="page"' : ''
+                }>${label}</a>`
+            )
+            .join('')}
+        </nav>
         <div class="mast-actions">
           <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
             ${ICONS.sun}${ICONS.moon}
@@ -235,16 +249,7 @@ function headerMarkup(page) {
           <a class="signin-link" id="navAuth" href="login.html">Sign in</a>
         </div>
       </div>
-      <nav class="primary-nav" aria-label="Primary">
-        ${nav
-          .map(
-            ([href, key, label]) =>
-              `<a href="${href}" data-nav="${key}"${
-                page === key ? ' aria-current="page"' : ''
-              }>${label}</a>`
-          )
-          .join('')}
-      </nav>
+      <div class="mast-rule mast-rule--double"></div>
     </div>
   `;
 }
@@ -527,7 +532,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261109-9'),
+    import('./firebase-config.js?v=20261109-10'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
