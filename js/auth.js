@@ -1,10 +1,10 @@
-import {
+﻿import {
   getUserProfile,
   initAuth,
   initThemeToggle,
   safeRedirect,
   showToast
-} from './shared.js?v=20261107-2';
+} from './shared.js?v=20261107-3';
 
 const button = document.getElementById('googleSignInBtn');
 const label = document.getElementById('googleSignInLabel');
@@ -37,7 +37,7 @@ async function boot() {
   button.disabled = false;
 
   if (authContext.user) {
-    status.textContent = 'You are already signed in. Taking you back…';
+    status.textContent = 'You are already signed in. Taking you backâ€¦';
     await route();
     return;
   }
@@ -50,13 +50,13 @@ async function signIn() {
   if (isSigningIn || !authContext) return;
   isSigningIn = true;
   button.disabled = true;
-  label.textContent = 'Opening Google…';
+  label.textContent = 'Opening Googleâ€¦';
   status.textContent = '';
 
   try {
     const provider = new authContext.authApi.GoogleAuthProvider();
     await authContext.authApi.signInWithPopup(authContext.firebase.auth, provider);
-    status.textContent = 'Signed in. Loading your account…';
+    status.textContent = 'Signed in. Loading your accountâ€¦';
     await route();
   } catch (error) {
     console.warn('Google sign-in failed:', error);
@@ -112,3 +112,4 @@ function messageFor(error) {
   if (error.code === 'auth/cancelled-popup-request') return '';
   return 'Sign-in failed. Please try again.';
 }
+

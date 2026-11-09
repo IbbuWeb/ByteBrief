@@ -1,6 +1,6 @@
-import { auth, db } from './firebase-config.js?v=20261107-2';
+﻿import { auth, db } from './firebase-config.js?v=20261107-3';
 import { addDoc, collection, serverTimestamp } from 'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
-import { UPDATE_ALERT_PUBLIC_KEY, UPDATE_ALERT_VERSION } from './vapid.js?v=20261107-2';
+import { UPDATE_ALERT_PUBLIC_KEY, UPDATE_ALERT_VERSION } from './vapid.js?v=20261107-3';
 
 const UPDATE_ALERT_DISMISSED_KEY = `bytebrief_update_alerts_${UPDATE_ALERT_VERSION}_dismissed`;
 
@@ -70,3 +70,4 @@ export async function enableUpdateAlerts() {
 
   return { permission, subscribed: true };
 }
+

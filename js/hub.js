@@ -1,4 +1,4 @@
-import {
+﻿import {
   ICONS,
   categoryLabel,
   escapeHtml,
@@ -11,7 +11,7 @@ import {
   renderRepoCard,
   renderSourceCard,
   safeUrl
-} from './shared.js?v=20261107-2';
+} from './shared.js?v=20261107-3';
 
 const SECTIONS = [
   { key: 'trending', label: 'Trending' },
@@ -363,7 +363,7 @@ function renderPanel() {
     const videos = (state.data.articles || []).filter(article => article.video);
     count = videos.length;
     html = `
-      <p class="hub-section-note">Auto-scraped from verified tech YouTube channels. ▶ = play in-app.</p>
+      <p class="hub-section-note">Auto-scraped from verified tech YouTube channels. â–¶ = play in-app.</p>
       <div class="bento">
         ${videos.map((video, i) => `
           <article class="card span-4" style="margin-bottom: 16px">
@@ -376,7 +376,7 @@ function renderPanel() {
               <div class="story-kicker">
                 <span class="eyebrow">YouTube</span>
                 <span class="dot"></span>
-                <time datetime="${escapeHtml(video.publishedAt || '')}">${video.publishedAt ? formatRelative(video.publishedAt) : '—'}</time>
+                <time datetime="${escapeHtml(video.publishedAt || '')}">${video.publishedAt ? formatRelative(video.publishedAt) : 'â€”'}</time>
               </div>
               <h3 class="story-title">${escapeHtml(video.title || 'Video')}</h3>
               <p class="story-excerpt">${escapeHtml((video.description || '').slice(0, 120))}</p>
@@ -422,3 +422,4 @@ function renderDataError() {
     </div>
   `;
 }
+

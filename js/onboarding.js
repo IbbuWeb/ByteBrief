@@ -1,10 +1,10 @@
-import {
+﻿import {
   getUserProfile,
   initAuth,
   initThemeToggle,
   safeRedirect,
   showToast
-} from './shared.js?v=20261107-2';
+} from './shared.js?v=20261107-3';
 
 const continueBtn = document.getElementById('continueBtn');
 const countLabel = document.getElementById('selectedCount');
@@ -88,7 +88,7 @@ async function save() {
 
   busy = true;
   setDisabled(true);
-  continueBtn.textContent = 'Saving…';
+  continueBtn.textContent = 'Savingâ€¦';
 
   try {
     const user = ctx.user;
@@ -113,3 +113,4 @@ async function save() {
     updateCount();
   }
 }
+

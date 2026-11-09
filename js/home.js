@@ -1,4 +1,4 @@
-import {
+﻿import {
   ICONS,
   PRIORITY_SOURCES,
   categoryLabel,
@@ -18,7 +18,7 @@ import {
   showToast,
   stashPendingSave,
   toggleSaved
-} from './shared.js?v=20261107-2';
+} from './shared.js?v=20261107-3';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -84,7 +84,7 @@ const state = {
   savedCount: 0,
   savedCategoryCounts: new Map(),
   interests: [],
-  topCategory: '—',
+  topCategory: 'â€”',
   filter: 'all',
   query: '',
   visible: PAGE_SIZE,
@@ -373,7 +373,7 @@ function renderBrief() {
           <span class="brief-rank">${String(index + 1).padStart(2, '0')}</span>
           <span class="brief-item-text">
             <span class="brief-item-title">${escapeHtml(article.title)}</span>
-            <span class="brief-item-meta">${escapeHtml(article.source)} · ${escapeHtml(formatRelative(article.publishedAt))}</span>
+            <span class="brief-item-meta">${escapeHtml(article.source)} Â· ${escapeHtml(formatRelative(article.publishedAt))}</span>
           </span>
           ${ICONS.arrow}
         </button>
@@ -419,7 +419,7 @@ function renderFeatured() {
     <div class="featured-media">
       ${image ? `<img class="js-img" src="${escapeHtml(image)}" alt="" loading="eager" decoding="async">` : ''}
       <div class="featured-body">
-        <span class="eyebrow">${escapeHtml(category)} · ${escapeHtml(article.source)}</span>
+        <span class="eyebrow">${escapeHtml(category)} Â· ${escapeHtml(article.source)}</span>
         <h2><button type="button" class="link-button" data-action="open" data-link="${link}">${escapeHtml(article.title)}</button></h2>
         ${article.description ? `<p>${escapeHtml(article.description)}</p>` : ''}
         <div class="featured-actions">
@@ -555,7 +555,7 @@ function renderSavedStat() {
     els.statSaved.innerHTML = `
       <div class="stat-top"><span class="stat-icon">${ICONS.bookmark}</span><span class="pill">Reading list</span></div>
       <h3>Your reading list</h3>
-      <p>Checking your session…</p>
+      <p>Checking your sessionâ€¦</p>
     `;
     return;
   }
@@ -827,7 +827,7 @@ function countCategories(articles) {
 }
 
 function topCategory(counts) {
-  let best = '—';
+  let best = 'â€”';
   let max = 0;
   for (const [category, count] of counts) {
     if (count > max) {
@@ -883,7 +883,7 @@ function openModal(article) {
       article.publishedAt ? formatDate(article.publishedAt, { year: true }) : 'Date unavailable'
     ]
       .filter(Boolean)
-      .join(' · ');
+      .join(' Â· ');
     els.modalDescription.textContent = article.description || 'No summary was provided by the publisher.';
     els.modalRead.href = link;
     els.modalRead.textContent = 'Read full story';
@@ -951,7 +951,7 @@ function renderDataError() {
   `;
   els.grid.innerHTML = '';
   els.grid.setAttribute('aria-busy', 'false');
-  els.storyCount.textContent = '—';
+  els.storyCount.textContent = 'â€”';
   els.empty.innerHTML = `
     <div class="empty-state">
       <h3>Could not load the feed</h3>
@@ -960,3 +960,4 @@ function renderDataError() {
     </div>
   `;
 }
+

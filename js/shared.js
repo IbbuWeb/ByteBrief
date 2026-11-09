@@ -1,4 +1,4 @@
-const FIREBASE_AUTH =
+﻿const FIREBASE_AUTH =
   'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
 const FIREBASE_FIRESTORE =
   'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
@@ -82,9 +82,9 @@ export function categoryLabel(category) {
 }
 
 export function formatRelative(iso) {
-  if (!iso) return '—';
+  if (!iso) return 'â€”';
   const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return '—';
+  if (Number.isNaN(date.getTime())) return 'â€”';
 
   const diff = Date.now() - date.getTime();
   if (diff < 0) return formatDate(iso);
@@ -103,9 +103,9 @@ export function formatRelative(iso) {
 }
 
 export function formatDate(iso, options = {}) {
-  if (!iso) return '—';
+  if (!iso) return 'â€”';
   const date = new Date(iso);
-  if (Number.isNaN(date.getTime())) return '—';
+  if (Number.isNaN(date.getTime())) return 'â€”';
   return date.toLocaleDateString(undefined, {
     month: 'short',
     day: 'numeric',
@@ -125,7 +125,7 @@ export function formatDay(iso = new Date().toISOString()) {
 
 export function formatNumber(value) {
   const number = Number(value);
-  if (!Number.isFinite(number)) return '—';
+  if (!Number.isFinite(number)) return 'â€”';
   return new Intl.NumberFormat('en', {
     notation: 'compact',
     maximumFractionDigits: 1
@@ -265,7 +265,7 @@ function footerMarkup() {
         <a href="https://github.com/IbbuWeb/ByteBrief/actions/workflows/update-data.yml" target="_blank" rel="noopener noreferrer">Refresh log</a>
         <a href="https://github.com/IbbuWeb/ByteBrief/issues" target="_blank" rel="noopener noreferrer">Report an issue</a>
       </div>
-      <p class="footer-fine">© <span id="footerYear">${new Date().getFullYear()}</span> ByteBrief. Headlines and images belong to their publishers. Built as a public reading project.</p>
+      <p class="footer-fine">Â© <span id="footerYear">${new Date().getFullYear()}</span> ByteBrief. Headlines and images belong to their publishers. Built as a public reading project.</p>
     </div>
   `;
 }
@@ -339,7 +339,7 @@ function initUpdateBanner() {
     if (status) status.textContent = '';
 
     try {
-      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261107-2');
+      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261107-3');
       const result = await enableUpdateAlerts();
 
       if (result.subscribed) {
@@ -461,7 +461,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261107-2'),
+    import('./firebase-config.js?v=20261107-3'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
@@ -698,7 +698,7 @@ export async function shareArticle(article) {
   shareUrl.searchParams.set('article', link);
 
   const payload = {
-    title: `${article.title || 'Tech story'} — ByteBrief`,
+    title: `${article.title || 'Tech story'} â€” ByteBrief`,
     text: article.description || 'A tech story worth reading.',
     url: shareUrl.href
   };
@@ -777,7 +777,7 @@ export function renderStoryCard(article, options = {}) {
         <div class="story-kicker">
           <span class="eyebrow">${escapeHtml(category)}</span>
           <span class="dot"></span>
-          <time datetime="${escapeHtml(published || '')}">${published ? formatRelative(published) : '—'}</time>
+          <time datetime="${escapeHtml(published || '')}">${published ? formatRelative(published) : 'â€”'}</time>
         </div>
         <h3 class="story-title">${titleMarkup(article)}</h3>
         ${
@@ -910,3 +910,4 @@ document.addEventListener(
   },
   true
 );
+
