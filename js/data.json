@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T13:46:10.771Z",
+  "generatedAt": "2026-11-09T13:47:40.659Z",
   "articles": [
     {
       "id": "f1d34edf42f3",
@@ -241,19 +241,6 @@
         "startups"
       ],
       "author": "Cate Lawrence"
-    },
-    {
-      "title": "I Tested 42 Years of Phones!",
-      "link": "https://www.youtube.com/watch?v=HVLUtJWlcJY",
-      "source": "Mrwhosetheboss",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-11-09T12:37:47.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/HVLUtJWlcJY/hq720.jpg",
-      "videoId": "HVLUtJWlcJY",
-      "video": true
     },
     {
       "id": "cda7e802378c",
@@ -2020,19 +2007,6 @@
       "author": "Carly Page"
     },
     {
-      "title": "I Let My Staff Upgrade the Office (They Almost Ruined It)",
-      "link": "https://www.youtube.com/watch?v=CrO0Timw2z4",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-08T16:56:01.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/CrO0Timw2z4/hq720.jpg",
-      "videoId": "CrO0Timw2z4",
-      "video": true
-    },
-    {
       "id": "0aa214f5f5e1",
       "title": "Scaling an autonomous agent from one team to fifty: A serverless-to-container decision framework",
       "link": "https://thenewstack.io/scaling-autonomous-agents-framework/",
@@ -2541,19 +2515,6 @@
       "author": "Ankit Jain"
     },
     {
-      "title": "I’ve never seen this before (and it’s 20 years old.)",
-      "link": "https://www.youtube.com/watch?v=7hlTu95nOCw",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-07T17:01:40.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/7hlTu95nOCw/hq720.jpg",
-      "videoId": "7hlTu95nOCw",
-      "video": true
-    },
-    {
       "id": "f5b9f6fd108b",
       "title": "Remove your personal info from the web (and stop it coming back)",
       "link": "https://9to5mac.com/2026/11/07/remove-your-personal-info-from-the-web-and-stop-it-coming-back/",
@@ -2735,19 +2696,6 @@
       "author": "Marcus Mendes"
     },
     {
-      "title": "Microslop strikes again",
-      "link": "https://www.youtube.com/watch?v=B1D0_vO7WGc",
-      "source": "TechLinked",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-07T01:52:34.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/B1D0_vO7WGc/hq720.jpg",
-      "videoId": "B1D0_vO7WGc",
-      "video": true
-    },
-    {
       "id": "ca1a9396bb65",
       "title": "SonicWall warns of new SSL-VPN MFA bypass flaw exploited in attacks",
       "link": "https://www.bleepingcomputer.com/news/security/sonicwall-warns-of-new-ssl-vpn-mfa-bypass-flaw-exploited-in-attacks/",
@@ -2859,19 +2807,6 @@
         "tech"
       ],
       "author": null
-    },
-    {
-      "title": "Meta VR Glasses: What Vision Pro 2 COULD Have Been!",
-      "link": "https://www.youtube.com/watch?v=_x58r9TBois",
-      "source": "Marques Brownlee",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-11-06T21:29:30.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/_x58r9TBois/hq720.jpg",
-      "videoId": "_x58r9TBois",
-      "video": true
     },
     {
       "id": "a2e81fb3cfe8",
@@ -3046,6 +2981,21 @@
       "author": "Rory Mir"
     },
     {
+      "id": "59154091f75e",
+      "title": "Building the next generation of multimodal AI experiences with fal in Microsoft Foundry",
+      "link": "https://techcommunity.microsoft.com/blog/azure-ai-foundry-blog/building-the-next-generation-of-multimodal-ai-experiences-with-fal-in-microsoft-/4570032",
+      "description": "Microsoft and fal partner to expand video generation in Microsoft Foundry, helping developers bring creative ideas into enterprise applications. The post Building the next generation of multimodal AI experiences with fal in Microsoft Foundry appeared first on Microsoft Azure Blog .",
+      "thumbnail": null,
+      "source": "Azure Blog",
+      "publishedAt": "2026-11-06T19:08:44.000Z",
+      "categories": [
+        "ai",
+        "programming",
+        "cloud"
+      ],
+      "author": "Naomi Moneypenny"
+    },
+    {
       "id": "cf7b27793c12",
       "title": "AWS’ Colleen Aubrey: Stop inventing new AI metrics — it’s your business metrics that matter",
       "link": "https://siliconangle.com/2026/11/06/aws-colleen-aubrey-stop-inventing-new-ai-metrics-its-your-business-metrics-that-matter/",
@@ -3218,19 +3168,6 @@
       "author": "Bill Toulas"
     },
     {
-      "title": "OpenAI just made cryptographers very nervous...",
-      "link": "https://www.youtube.com/watch?v=iw9SZgyahqg",
-      "source": "Fireship",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-06T16:42:38.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/iw9SZgyahqg/hq720.jpg",
-      "videoId": "iw9SZgyahqg",
-      "video": true
-    },
-    {
       "id": "1dfbb32a560b",
       "title": "Amazon Deals of the Day: Clean Up Before the Holidays With Over $100 Off the Dyson Ball Animal Vacuum",
       "link": "https://www.cnet.com/tech/amazon-deals-of-the-day-2026-11-06/",
@@ -3311,6 +3248,76 @@
         "cybersecurity"
       ],
       "author": "Sergiu Gatlan"
+    },
+    {
+      "id": "bffdbd884e14",
+      "title": "“Most apps never make it off localhost”: Cursor takes on Lovable and Replit with fully managed app deployment",
+      "link": "https://thenewstack.io/cursor-ai-app-deployment/",
+      "description": "AI coding agents have certainly made it easier to transform an idea into a working application. However, getting that application The post “Most apps never make it off localhost”: Cursor takes on Lovable and Replit with fully managed app deployment appeared first on The New Stack .",
+      "thumbnail": "https://cdn.thenewstack.io/media/2026/11/0daf82eb-philip-oroni-xv2kgdto9ii-unsplash-1024x683.jpg",
+      "source": "The New Stack",
+      "publishedAt": "2026-11-06T15:15:21.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "Paul Sawers"
+    },
+    {
+      "id": "831e944137d6",
+      "title": "Midterm elections will put AI and data centers on trial, but will Big Tech end up winning anyway?",
+      "link": "https://siliconangle.com/2026/11/06/midterm-elections-will-put-ai-and-data-centers-on-trial-but-big-tech-may-end-up-winning-anyway/",
+      "description": "It may be a little soon to determine the ultimate winners and losers among enterprise suppliers after the midterm elections, but the early line is: Big Tech wins and data center suppliers operators such as chipmakers and neoclouds lose. Or will everybody lose? The day after the elections, stocks of",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Tech-CEOs-Surfing-Market-Waves.png",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-06T15:09:18.000Z",
+      "categories": [
+        "ai",
+        "cloud",
+        "cybersecurity"
+      ],
+      "author": "Robert Hof"
+    },
+    {
+      "id": "c73fd57da65b",
+      "title": "The AI boom’s missing balance-sheet question: What has actually been verified?",
+      "link": "https://siliconangle.com/2026/11/06/the-ai-booms-missing-balance-sheet-question-what-has-actually-been-verified/",
+      "description": "Artificial intelligence infrastructure commitments are growing faster than the evidence connecting contracted capacity to sustained economic value. I spent 13 years on the floor of the New York Stock Exchange. One lesson stayed with me long after the trading jackets disappeared: A transaction could",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/thedigitalartist-ai-generated-8070004_1920.jpg",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-06T15:00:36.000Z",
+      "categories": [
+        "ai",
+        "business",
+        "tech"
+      ],
+      "author": "Neil P. Osnato"
+    },
+    {
+      "id": "3647bbef0072",
+      "title": "IMSI vs IMEI: What Your Phone Broadcasts and Who Can Read It",
+      "link": "https://www.bleepingcomputer.com/news/security/imsi-vs-imei-what-your-phone-broadcasts-and-who-can-read-it/",
+      "description": "IMSI and IMEI are IDs your phone shares with networks. Learn how they differ, how attackers get them, and why rotating your IMSI blunts tracking. [...]",
+      "thumbnail": "https://www.bleepstatic.com/content/posts/2026/11/04/cell-tower-header.jpg",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-06T15:00:10.000Z",
+      "categories": [
+        "cybersecurity"
+      ],
+      "author": "Sponsored by Cape"
+    },
+    {
+      "id": "f8e9629a67be",
+      "title": "Chainalysis says breach exposed credentials for all customers",
+      "link": "https://www.bleepingcomputer.com/news/security/chainalysis-says-breach-exposed-credentials-for-all-customers/",
+      "description": "Blockchain intelligence firm Chainalysis says a recent attack on its systems and internal tools has exposed credentials and live tokens for all customers. [...]",
+      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/11/06/0_Chainalysis.jpg",
+      "source": "BleepingComputer",
+      "publishedAt": "2026-11-06T14:17:07.000Z",
+      "categories": [
+        "cybersecurity"
+      ],
+      "author": "Sergiu Gatlan"
     }
   ],
   "github": [
@@ -3318,7 +3325,7 @@
       "name": "anthropics/skills",
       "description": "Public repository for Agent Skills",
       "language": "Python",
-      "stars": 190278,
+      "stars": 190281,
       "starsToday": 1052,
       "url": "https://github.com/anthropics/skills"
     },
@@ -3326,7 +3333,7 @@
       "name": "meta/astryx",
       "description": "An open source design system that's fully customizable and agent ready",
       "language": "TypeScript",
-      "stars": 18585,
+      "stars": 18593,
       "starsToday": 3324,
       "url": "https://github.com/meta/astryx"
     },
@@ -3334,7 +3341,7 @@
       "name": "sherlock-project/sherlock",
       "description": "Hunt down social media accounts by username across social networks",
       "language": "Python",
-      "stars": 106094,
+      "stars": 106101,
       "starsToday": 4294,
       "url": "https://github.com/sherlock-project/sherlock"
     },
@@ -3350,7 +3357,7 @@
       "name": "anthropics/claude-quickstarts",
       "description": "A collection of projects designed to help developers quickly get started with building deployable applications using the Claude API",
       "language": "Python",
-      "stars": 19767,
+      "stars": 19770,
       "starsToday": 560,
       "url": "https://github.com/anthropics/claude-quickstarts"
     },
@@ -3366,7 +3373,7 @@
       "name": "vercel-labs/agent-browser",
       "description": "Browser automation CLI for AI agents",
       "language": "Rust",
-      "stars": 48172,
+      "stars": 48173,
       "starsToday": 914,
       "url": "https://github.com/vercel-labs/agent-browser"
     },
@@ -3374,7 +3381,7 @@
       "name": "ruvnet/RuView",
       "description": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
       "language": "Rust",
-      "stars": 103190,
+      "stars": 103193,
       "starsToday": 203,
       "url": "https://github.com/ruvnet/RuView"
     },
@@ -3382,7 +3389,7 @@
       "name": "ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 68516,
+      "stars": 68517,
       "starsToday": 505,
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
     },
@@ -3398,7 +3405,7 @@
       "name": "milind-soni/OpenMausBot",
       "description": "Open-source Grok Bot alternative with a virtual machine that bots can use",
       "language": "TypeScript",
-      "stars": 19264,
+      "stars": 19265,
       "starsToday": 1589,
       "url": "https://github.com/milind-soni/OpenMausBot"
     }
@@ -3494,12 +3501,12 @@
       "description": "Big tech, business, power and the decisions behind the products.",
       "category": "business",
       "link": "https://podcasts.apple.com/us/podcast/decoder-with-nilay-patel/id1011668648?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/75/fc/f3/75fcf3e7-dac0-1808-7e61-398220938bd3/mza_15671982189570796313.jpg/600x600bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts221/v4/ba/9f/93/ba9f937b-eab8-6324-049a-cd70c15af66c/mza_1801163118447266446.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "AI broke the cybersecurity world. Now what?",
-        "publishedAt": "2026-11-07T10:00:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/ai-broke-the-cybersecurity-world-now-what/id1011668648?i=1000800393703&uo=4",
-        "duration": 3804000
+        "title": "The man who fought napster is now fighting AI",
+        "publishedAt": "2026-11-09T10:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/the-man-who-fought-napster-is-now-fighting-ai/id1011668648?i=1000800741489&uo=4",
+        "duration": 4418000
       }
     },
     {
