@@ -4,7 +4,7 @@ import {
   initThemeToggle,
   safeRedirect,
   showToast
-} from './shared.js?v=20261107-1';
+} from './shared.js?v=20261107-2';
 
 const continueBtn = document.getElementById('continueBtn');
 const countLabel = document.getElementById('selectedCount');

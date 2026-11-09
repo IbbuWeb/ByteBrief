@@ -9,7 +9,7 @@ import {
   invalidateUserProfile,
   safeUrl,
   showToast
-} from './shared.js?v=20261107-1';
+} from './shared.js?v=20261107-2';
 
 const INTEREST_OPTIONS = [
   ['ai', 'AI'],
