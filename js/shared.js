@@ -218,38 +218,26 @@ function headerMarkup(page) {
   ];
 
   return `
-    <div class="shell nav-shell masthead">
-      <div class="mast-top">
-        <span class="mast-edition">Digital Tech Edition</span>
-        <span class="mast-dateline" id="mastDate">${formatDay()}</span>
-        <span class="mast-meta">ibbuweb.github.io/ByteBrief</span>
+    <div class="shell nav-shell">
+      <a class="brand" href="index.html">
+        <img class="brand-wordmark" src="assets/bytebrief-wordmark.png" alt="ByteBrief" width="500" height="96">
+      </a>
+      <nav class="primary-nav" aria-label="Primary">
+        ${nav
+          .map(
+            ([href, key, label]) =>
+              `<a href="${href}" data-nav="${key}"${
+                page === key ? ' aria-current="page"' : ''
+              }>${label}</a>`
+          )
+          .join('')}
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
+          ${ICONS.sun}${ICONS.moon}
+        </button>
+        <a class="signin-link" id="navAuth" href="login.html">Sign in</a>
       </div>
-      <div class="mast-rule mast-rule--thick"></div>
-      <div class="mast-center">
-        <a class="brand" href="index.html" aria-label="ByteBrief home">
-          <img class="brand-wordmark" src="assets/bytebrief-wordmark.png" alt="ByteBrief" width="500" height="96">
-        </a>
-      </div>
-      <div class="mast-rule mast-rule--thin"></div>
-      <div class="mast-nav-row">
-        <nav class="primary-nav" aria-label="Primary">
-          ${nav
-            .map(
-              ([href, key, label]) =>
-                `<a href="${href}" data-nav="${key}"${
-                  page === key ? ' aria-current="page"' : ''
-                }>${label}</a>`
-            )
-            .join('')}
-        </nav>
-        <div class="mast-actions">
-          <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
-            ${ICONS.sun}${ICONS.moon}
-          </button>
-          <a class="signin-link" id="navAuth" href="login.html">Sign in</a>
-        </div>
-      </div>
-      <div class="mast-rule mast-rule--double"></div>
     </div>
   `;
 }
@@ -532,7 +520,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261109-11'),
+    import('./firebase-config.js?v=20261110-1'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])

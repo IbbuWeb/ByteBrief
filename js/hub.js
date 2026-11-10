@@ -11,7 +11,7 @@
   renderRepoCard,
   renderSourceCard,
   safeUrl
-} from './shared.js?v=20261109-11';
+} from './shared.js?v=20261110-1';
 
 const SECTIONS = [
   { key: 'trending', label: 'Trending' },
@@ -142,6 +142,7 @@ function sectionCount(key) {
   if (key === 'trending') return state.data.github?.length || 0;
   if (key === 'events') return state.data.events?.length || 0;
   if (key === 'podcasts') return state.data.podcasts?.length || 0;
+  if (key === 'youtube') return state.data.articles?.filter(article => article.video).length || 0;
   return state.data.sources?.length || 0;
 }
 
