@@ -11,7 +11,7 @@
   safeUrl,
   shareArticle,
   showToast
-} from './shared.js?v=20261110-5';
+} from './shared.js?v=20261110-6';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];
@@ -228,8 +228,8 @@ function openPreview(article) {
     els.description.textContent = article.description || 'The publisher did not provide a summary for this story.';
     els.read.href = link;
     els.read.textContent = 'Read full story';
-    els.read.target = '_blank';
-    els.read.rel = 'noopener noreferrer';
+    els.read.target = '_self';
+    els.read.rel = 'noopener';
   }
 
   els.save.dataset.link = link;

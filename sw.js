@@ -1,4 +1,4 @@
-﻿const APP_VERSION = '20261110-5';
+﻿const APP_VERSION = '20261110-6';
 const UPDATE_URL = '/ByteBrief/?source=update';
 
 self.addEventListener('install', event => {

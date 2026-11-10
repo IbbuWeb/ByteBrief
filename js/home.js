@@ -18,7 +18,7 @@
   showToast,
   stashPendingSave,
   toggleSaved
-} from './shared.js?v=20261110-5';
+} from './shared.js?v=20261110-6';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -968,8 +968,8 @@ function openModal(article) {
     els.modalDescription.textContent = article.description || 'No summary was provided by the publisher.';
     els.modalRead.href = link;
     els.modalRead.textContent = 'Read full story';
-    els.modalRead.target = '_blank';
-    els.modalRead.rel = 'noopener noreferrer';
+    els.modalRead.target = '_self';
+    els.modalRead.rel = 'noopener';
   }
 
   els.modalSave.dataset.link = link;

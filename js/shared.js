@@ -529,7 +529,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261110-5'),
+    import('./firebase-config.js?v=20261110-6'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
@@ -862,7 +862,7 @@ export function renderStoryCard(article, options = {}) {
           <button type="button" data-action="share" data-link="${link}" aria-label="Share story">
             ${ICONS.share}<span>Share</span>
           </button>
-          <a class="story-read" href="${link}" target="_blank" rel="noopener noreferrer" aria-label="Read ${escapeHtml(title)}">
+          <a class="story-read" href="${link}" target="_self" rel="noopener" aria-label="Read ${escapeHtml(title)}">
             Read ${ICONS.arrow}
           </a>
         </div>
