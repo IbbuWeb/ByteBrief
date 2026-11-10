@@ -18,7 +18,7 @@
   showToast,
   stashPendingSave,
   toggleSaved
-} from './shared.js?v=20261110-4';
+} from './shared.js?v=20261110-5';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -985,6 +985,7 @@ function openModal(article) {
 
 function closeModal() {
   if (!els.modal) return;
+  if (els.modalMedia) els.modalMedia.innerHTML = '';
   els.modal.classList.remove('is-open');
   els.modal.setAttribute('aria-hidden', 'true');
   document.body.classList.remove('no-scroll');

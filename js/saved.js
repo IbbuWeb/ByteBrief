@@ -11,7 +11,7 @@
   safeUrl,
   shareArticle,
   showToast
-} from './shared.js?v=20261110-4';
+} from './shared.js?v=20261110-5';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];
@@ -246,6 +246,7 @@ function openPreview(article) {
 
 function closePreview() {
   if (!els.modal) return;
+  if (els.media) els.media.innerHTML = '';
   els.modal.classList.remove('is-open');
   els.modal.setAttribute('aria-hidden', 'true');
   document.body.classList.remove('no-scroll');
