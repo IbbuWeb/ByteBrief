@@ -1,6 +1,4 @@
-﻿import { initSound } from './sound.js?v=20261110-3';
-
-const FIREBASE_AUTH =
+﻿const FIREBASE_AUTH =
   'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
 const FIREBASE_FIRESTORE =
   'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
@@ -244,7 +242,6 @@ function headerMarkup(page) {
             .join('')}
         </nav>
         <div class="nav-actions">
-          <button class="icon-btn sound-btn" id="soundToggle" type="button" aria-label="Mute sound effects" aria-pressed="true"></button>
           <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
             ${ICONS.sun}${ICONS.moon}
           </button>
@@ -415,7 +412,6 @@ export function initShell(page = '') {
 
   initUpdateBanner();
   initThemeToggle();
-  initSound();
   registerAppServiceWorker();
 
   return initAuth().then(async ctx => {
@@ -533,7 +529,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261110-3'),
+    import('./firebase-config.js?v=20261110-4'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
