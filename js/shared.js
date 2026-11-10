@@ -1,4 +1,6 @@
-﻿const FIREBASE_AUTH =
+﻿import { initSound } from './sound.js?v=20261110-3';
+
+const FIREBASE_AUTH =
   'https://www.gstatic.com/firebasejs/9.22.0/firebase-auth.js';
 const FIREBASE_FIRESTORE =
   'https://www.gstatic.com/firebasejs/9.22.0/firebase-firestore.js';
@@ -139,7 +141,7 @@ function currentTheme() {
     const stored = localStorage.getItem('theme');
     if (stored === 'dark' || stored === 'light') return stored;
   } catch {}
-  return window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+  return 'light';
 }
 
 export function initThemeToggle() {
@@ -218,26 +220,38 @@ function headerMarkup(page) {
   ];
 
   return `
-    <div class="shell nav-shell">
-      <a class="brand" href="index.html">
-        <img class="brand-wordmark" src="assets/bytebrief-wordmark.png" alt="ByteBrief" width="500" height="96">
-      </a>
-      <nav class="primary-nav" aria-label="Primary">
-        ${nav
-          .map(
-            ([href, key, label]) =>
-              `<a href="${href}" data-nav="${key}"${
-                page === key ? ' aria-current="page"' : ''
-              }>${label}</a>`
-          )
-          .join('')}
-      </nav>
-      <div class="nav-actions">
-        <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
-          ${ICONS.sun}${ICONS.moon}
-        </button>
-        <a class="signin-link" id="navAuth" href="login.html">Sign in</a>
+    <div class="shell masthead">
+      <div class="masthead-top">
+        <span class="mast-edition">Digital Tech Edition</span>
+        <span class="mast-date">${formatDay()}</span>
+        <span class="mast-url">ibbuweb.github.io/ByteBrief</span>
       </div>
+      <div class="mast-rule mast-rule--thick"></div>
+      <div class="mast-brand-row">
+        <a class="brand brand-mast" href="index.html" aria-label="ByteBrief home">ByteBrief</a>
+        <span class="mast-tagline">Today's tech, without the noise</span>
+      </div>
+      <div class="mast-rule"></div>
+      <div class="mast-nav-row">
+        <nav class="primary-nav" aria-label="Primary">
+          ${nav
+            .map(
+              ([href, key, label]) =>
+                `<a href="${href}" data-nav="${key}"${
+                  page === key ? ' aria-current="page"' : ''
+                }>${label}</a>`
+            )
+            .join('')}
+        </nav>
+        <div class="nav-actions">
+          <button class="icon-btn sound-btn" id="soundToggle" type="button" aria-label="Mute sound effects" aria-pressed="true"></button>
+          <button class="icon-btn" id="themeToggle" type="button" aria-label="Switch theme">
+            ${ICONS.sun}${ICONS.moon}
+          </button>
+          <a class="signin-link" id="navAuth" href="login.html">Sign in</a>
+        </div>
+      </div>
+      <div class="mast-rule mast-rule--double"></div>
     </div>
   `;
 }
@@ -246,9 +260,7 @@ function footerMarkup() {
   return `
     <div class="shell footer-grid">
       <div class="footer-brand">
-        <a class="brand" href="index.html">
-          <img class="brand-wordmark" src="assets/bytebrief-wordmark.png" alt="ByteBrief" width="500" height="96">
-        </a>
+        <a class="footer-nameplate" href="index.html">ByteBrief</a>
         <p>One clean brief for the parts of tech that matter. Headlines from 26 publications, refreshed every three hours, with no invented numbers.</p>
       </div>
       <div class="footer-col">
@@ -325,7 +337,7 @@ function initUpdateBanner() {
     <div class="shell app-update__inner">
       <span class="app-update__label">Update</span>
       <div class="app-update__copy">
-        <p><strong>ByteBrief got an update.</strong> Cleaner cards, text-first stories, and a smoother Saved page.</p>
+        <p><strong>ByteBrief got an update.</strong> The new newspaper edition is live: newsprint theme, masthead, and page-turn sound.</p>
         <p class="app-update__status" id="updateAlertsStatus"></p>
       </div>
       <button class="app-update__action" id="updateAlertsEnable" type="button">Turn on alerts</button>
@@ -403,6 +415,7 @@ export function initShell(page = '') {
 
   initUpdateBanner();
   initThemeToggle();
+  initSound();
   registerAppServiceWorker();
 
   return initAuth().then(async ctx => {
@@ -520,7 +533,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261110-2'),
+    import('./firebase-config.js?v=20261110-3'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])

@@ -1,4 +1,4 @@
-﻿const APP_VERSION = '20261110-2';
+﻿const APP_VERSION = '20261110-3';
 const UPDATE_URL = '/ByteBrief/?source=update';
 
 self.addEventListener('install', event => {
@@ -52,7 +52,7 @@ self.addEventListener('push', event => {
   const title = payload.title || 'ByteBrief got an update';
   const body =
     payload.body ||
-    'Cleaner cards, text-first stories, and a smoother Saved page.';
+    'The new newspaper edition is live: newsprint theme, masthead, and page-turn sound.';
   const url = payload.url || UPDATE_URL;
 
   event.waitUntil(

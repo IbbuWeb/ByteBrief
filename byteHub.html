@@ -3,7 +3,7 @@
 <head>
   <script>
     (function () {
-      var KEY = 'bytebrief_force_refresh_once_v20261110_2';
+      var KEY = 'bytebrief_force_refresh_once_v20261110_3';
       try {
         if (localStorage.getItem(KEY) !== '1') {
           localStorage.setItem(KEY, '1');
@@ -17,7 +17,7 @@
   </script>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#171410">
+  <meta name="theme-color" content="#efe6d3">
   <meta name="description" content="ByteHub: GitHub trending repositories, a verified tech conference calendar, latest podcast episodes, and every publication ByteBrief reads.">
   <meta name="author" content="ByteBrief">
   <link rel="canonical" href="https://ibbuweb.github.io/ByteBrief/byteHub.html">
@@ -31,17 +31,17 @@
   <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
   <link rel="manifest" href="manifest.json">
   <title>ByteHub — ByteBrief</title>
-  <link rel="stylesheet" href="css/styles.css?v=20261110-2">
+  <link rel="stylesheet" href="css/styles.css?v=20261110-3">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <script>
     (function () {
       try {
         var theme = localStorage.getItem('theme');
-        if (!theme) theme = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+        if (!theme) theme = 'light';
         document.documentElement.setAttribute('data-theme', theme);
       } catch (error) {
-        document.documentElement.setAttribute('data-theme', 'dark');
+        document.documentElement.setAttribute('data-theme', 'light');
       }
     })();
   </script>
@@ -95,7 +95,7 @@
     <span class="toast-message"></span>
   </div>
 
-  <script type="module" src="js/hub.js?v=20261110-2"></script>
+  <script type="module" src="js/hub.js?v=20261110-3"></script>
 </body>
 </html>
 

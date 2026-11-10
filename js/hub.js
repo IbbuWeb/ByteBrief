@@ -11,7 +11,7 @@
   renderRepoCard,
   renderSourceCard,
   safeUrl
-} from './shared.js?v=20261110-2';
+} from './shared.js?v=20261110-3';
 
 const SECTIONS = [
   { key: 'trending', label: 'Trending' },
@@ -367,7 +367,7 @@ function renderPanel() {
       <p class="hub-section-note">Auto-scraped from verified tech YouTube channels. &#9654; = play in-app.</p>
       <div class="bento">
         ${videos.map((video, i) => `
-          <article class="card span-4" style="margin-bottom: 16px">
+          <article class="card span-4">
             <div class="story-media" style="aspect-ratio: 16/9;">
               <img class="js-img" src="${safeUrl(video.thumbnail)}" alt="" loading="lazy" decoding="async">
               <span class="play-badge" style="top: 8px; right: 8px;"></span>
