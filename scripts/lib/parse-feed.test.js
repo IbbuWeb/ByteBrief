@@ -4,14 +4,14 @@ const assert = require('node:assert/strict');
 const {
   decodeEntities,
   stripHtml,
+  htmlToText,
   normalizeUrl,
   parseFeed,
   detectCategories,
   parseDate,
   extractOgImage,
   dedupeArticles,
-  parseYouTubeChannel,
-  parseYouTubeWatch
+  parseYouTubeFeed
 } = require('./parse-feed');
 
 test('decodeEntities handles CDATA, named and numeric entities', () => {
@@ -26,6 +26,26 @@ test('decodeEntities handles CDATA, named and numeric entities', () => {
 test('stripHtml removes scripts, tags and collapses whitespace', () => {
   const html = '<script>alert(1)</script><p>Hello <b>world</b>&nbsp; now</p>';
   assert.equal(stripHtml(html), 'Hello world now');
+});
+
+test('htmlToText keeps paragraph breaks', () => {
+  const html = '<p>First <b>paragraph</b>.</p><p>Second paragraph.</p>';
+  assert.equal(htmlToText(html), 'First paragraph.\n\nSecond paragraph.');
+});
+
+test('parseFeed keeps full feed content when the publisher provides it', () => {
+  const xml = `<rss><channel>
+    <item>
+      <title>Long read</title>
+      <link>https://example.com/long</link>
+      <description>Short summary.</description>
+      <content:encoded><![CDATA[<p>First section.</p><p>Second section.</p>]]></content:encoded>
+    </item>
+  </channel></rss>`;
+
+  const [article] = parseFeed(xml, { source: 'Example', category: 'tech' });
+  assert.equal(article.description, 'Short summary.');
+  assert.equal(article.content, 'First section.\n\nSecond section.');
 });
 
 test('normalizeUrl keeps http(s) and strips tracking params', () => {
@@ -184,56 +204,58 @@ test('dedupeArticles collapses the same story across sources', () => {
   assert.equal(dedupeArticles(articles).length, 2);
 });
 
-test('parseYouTubeChannel reads video lockups and skips shorts and duplicates', () => {
-  const lockup = (contentType, id, title) => ({
-    lockupViewModel: {
-      contentId: id,
-      contentType,
-      metadata: { lockupMetadataViewModel: { title: { content: title } } },
-      contentImage: {
-        thumbnailViewModel: {
-          image: { sources: [{ url: 'https://i.ytimg.com/vi/signed/hq720.jpg?sig=expiring' }] }
-        }
-      }
-    }
-  });
-  const data = {
-    contents: {
-      videos: [
-        lockup('LOCKUP_CONTENT_TYPE_VIDEO', 'iw9SZgyahqg', 'The one thing holding CS together'),
-        lockup('LOCKUP_CONTENT_TYPE_SHORT', 'sh0rtSh0rt1', 'A short'),
-        lockup('LOCKUP_CONTENT_TYPE_VIDEO', 'k2ruCf_z75I', 'North Korea stole $6.3 billion'),
-        lockup('LOCKUP_CONTENT_TYPE_VIDEO', 'iw9SZgyahqg', 'Duplicate')
-      ]
-    }
-  };
-  const html = `<script>var ytInitialData = ${JSON.stringify(data)};</script>`;
+test('parseYouTubeFeed reads exact dates, view counts and skips bad entries', () => {
+  const xml = `<feed>
+    <entry>
+      <yt:videoId>iw9SZgyahqg</yt:videoId>
+      <title>The one thing holding CS together &amp; more</title>
+      <published>2026-11-09T12:37:47+00:00</published>
+      <media:group>
+        <media:statistics views="1200000"/>
+      </media:group>
+    </entry>
+    <entry>
+      <yt:videoId>k2ruCf_z75I</yt:videoId>
+      <title>North Korea stole $6.3 billion</title>
+      <published>2026-11-06T08:42:38-08:00</published>
+      <media:group>
+        <media:statistics views="340000"/>
+      </media:group>
+    </entry>
+    <entry>
+      <yt:videoId>bad id</yt:videoId>
+      <title>Broken</title>
+    </entry>
+    <entry>
+      <yt:videoId>sh0rtSh0rt1</yt:videoId>
+      <title>No stats</title>
+      <published>2026-11-05T00:00:00+00:00</published>
+    </entry>
+  </feed>`;
 
-  assert.deepEqual(parseYouTubeChannel(html), [
+  assert.deepEqual(parseYouTubeFeed(xml), [
     {
       videoId: 'iw9SZgyahqg',
-      title: 'The one thing holding CS together',
-      thumbnail: 'https://i.ytimg.com/vi/iw9SZgyahqg/hq720.jpg'
+      title: 'The one thing holding CS together & more',
+      thumbnail: 'https://i.ytimg.com/vi/iw9SZgyahqg/hq720.jpg',
+      publishedAt: '2026-11-09T12:37:47.000Z',
+      views: 1200000
     },
     {
       videoId: 'k2ruCf_z75I',
       title: 'North Korea stole $6.3 billion',
-      thumbnail: 'https://i.ytimg.com/vi/k2ruCf_z75I/hq720.jpg'
+      thumbnail: 'https://i.ytimg.com/vi/k2ruCf_z75I/hq720.jpg',
+      publishedAt: '2026-11-06T16:42:38.000Z',
+      views: 340000
+    },
+    {
+      videoId: 'sh0rtSh0rt1',
+      title: 'No stats',
+      thumbnail: 'https://i.ytimg.com/vi/sh0rtSh0rt1/hq720.jpg',
+      publishedAt: '2026-11-05T00:00:00.000Z',
+      views: null
     }
   ]);
-  assert.equal(parseYouTubeChannel(html, { limit: 1 }).length, 1);
-  assert.deepEqual(parseYouTubeChannel('<p>consent page</p>'), []);
-});
-
-test('parseYouTubeWatch reads the exact upload date and description', () => {
-  const html = `<html><head>
-    <meta property="og:description" content="A &amp; B &mdash; real text">
-    <script type="application/ld+json">{"uploadDate":"2026-11-06T08:42:38-08:00"}</script>
-  </head></html>`;
-
-  assert.deepEqual(parseYouTubeWatch(html), {
-    publishedAt: '2026-11-06T16:42:38.000Z',
-    description: 'A & B — real text'
-  });
-  assert.equal(parseYouTubeWatch('<html>no metadata</html>'), null);
+  assert.equal(parseYouTubeFeed(xml, { limit: 1 }).length, 1);
+  assert.deepEqual(parseYouTubeFeed('<feed></feed>'), []);
 });

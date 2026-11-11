@@ -1434,9 +1434,15 @@ button.card {
 
 .story-kicker {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 7px;
   margin-bottom: 7px;
+}
+
+.story-views {
+  color: var(--faint);
+  font-size: 10.5px;
 }
 
 .story-kicker .eyebrow {
@@ -5500,6 +5506,33 @@ body {
   font-family: var(--display);
   font-size: 16px;
   line-height: 1.55;
+}
+
+.modal-article {
+  margin-top: 16px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border-strong);
+  color: var(--text);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.modal-article p {
+  margin: 0;
+}
+
+.modal-article p + p {
+  margin-top: 14px;
+}
+
+.modal-article .reader-note {
+  color: var(--muted);
+  font-family: var(--display);
+  font-style: italic;
+}
+
+.modal-article.is-hidden {
+  display: none;
 }
 
 .modal-close {

@@ -17,8 +17,9 @@
   shareArticle,
   showToast,
   stashPendingSave,
+  textParagraphs,
   toggleSaved
-} from './shared.js?v=20261110-6';
+} from './shared.js?v=20261110-7';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -40,7 +41,9 @@ function shuffleArticles(articles) {
 }
 
 function interleaveVideos(articles, { minGap = 2, maxGap = 6 } = {}) {
-  const videos = shuffleArticles(articles.filter(article => article.video === true));
+  const videos = articles
+    .filter(article => article.video === true)
+    .sort((a, b) => (Number(b.views) || 0) - (Number(a.views) || 0));
   const rest = articles.filter(article => article.video !== true);
   if (videos.length === 0 || rest.length === 0) return [...videos, ...rest];
 
@@ -145,6 +148,7 @@ const els = {
   modalTitle: document.getElementById('modalTitle'),
   modalMeta: document.getElementById('modalMeta'),
   modalDescription: document.getElementById('modalDescription'),
+  modalArticle: document.getElementById('modalArticle'),
   modalRead: document.getElementById('modalRead'),
   modalSave: document.getElementById('modalSave'),
   modalShare: document.getElementById('modalShare')
@@ -946,7 +950,17 @@ function openModal(article) {
   if (isVideo) {
     const videoId = article.videoId || 'iw9SZgyahqg';
     els.modalMedia.innerHTML = `<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
+    els.modalCategory.textContent = categoryLabel(articleCategories(article)[0]);
+    els.modalSource.textContent = article.source || 'Unknown';
     els.modalTitle.textContent = article.title || 'Video';
+    els.modalMeta.textContent = [
+      article.publishedAt ? formatDate(article.publishedAt, { year: true }) : 'Date unavailable',
+      Number(article.views) > 0 ? `${formatNumber(article.views)} views` : null
+    ].filter(Boolean).join(' · ');
+    els.modalDescription.textContent = article.description || '';
+    els.modalDescription.classList.add('is-hidden');
+    els.modalArticle.innerHTML = '';
+    els.modalArticle.classList.add('is-hidden');
     els.modalRead.textContent = 'Watch in app';
     els.modalRead.href = '#';
     els.modalRead.target = '';
@@ -966,8 +980,15 @@ function openModal(article) {
       .filter(Boolean)
       .join(' · ');
     els.modalDescription.textContent = article.description || 'No summary was provided by the publisher.';
+    const fullText = String(article.content || '').trim();
+    const hasFullText = fullText.length > String(article.description || '').trim().length;
+    els.modalDescription.classList.toggle('is-hidden', hasFullText);
+    els.modalArticle.innerHTML = hasFullText
+      ? textParagraphs(fullText)
+      : '<p class="reader-note">This publisher only sends a summary in its feed. Open the original for the full article.</p>';
+    els.modalArticle.classList.toggle('is-hidden', false);
     els.modalRead.href = link;
-    els.modalRead.textContent = 'Read full story';
+    els.modalRead.textContent = 'Open original';
     els.modalRead.target = '_self';
     els.modalRead.rel = 'noopener';
   }

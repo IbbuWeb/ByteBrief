@@ -3,6 +3,7 @@
   categoryLabel,
   escapeHtml,
   formatDate,
+  formatNumber,
   formatRelative,
   getSavedArticles,
   initShell,
@@ -10,8 +11,9 @@
   renderStoryCard,
   safeUrl,
   shareArticle,
-  showToast
-} from './shared.js?v=20261110-6';
+  showToast,
+  textParagraphs
+} from './shared.js?v=20261110-7';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];
@@ -24,6 +26,7 @@ const els = {
   title: document.getElementById('modalTitle'),
   meta: document.getElementById('modalMeta'),
   description: document.getElementById('modalDescription'),
+  article: document.getElementById('modalArticle'),
   read: document.getElementById('modalRead'),
   save: document.getElementById('modalSave'),
   share: document.getElementById('modalShare')
@@ -207,7 +210,18 @@ function openPreview(article) {
   if (isVideo) {
     const videoId = article.videoId || 'iw9SZgyahqg';
     els.media.innerHTML = `<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
+    els.category.textContent = categoryLabel(article.categories?.[0] || article.category);
+    els.source.textContent = article.source || 'Unknown';
     els.title.textContent = article.title || 'Video';
+    const date = article.publishedAt || article.savedAt;
+    els.meta.textContent = [
+      date ? formatDate(date, { year: true }) : 'Date unavailable',
+      Number(article.views) > 0 ? `${formatNumber(article.views)} views` : null
+    ].filter(Boolean).join(' · ');
+    els.description.textContent = article.description || '';
+    els.description.classList.add('is-hidden');
+    els.article.innerHTML = '';
+    els.article.classList.add('is-hidden');
     els.read.textContent = 'Watch in app';
     els.read.href = '#';
     els.read.target = '';
@@ -226,8 +240,15 @@ function openPreview(article) {
       date ? formatDate(date, { year: true }) : 'Date unavailable'
     ].filter(Boolean).join(' · ');
     els.description.textContent = article.description || 'The publisher did not provide a summary for this story.';
+    const fullText = String(article.content || '').trim();
+    const hasFullText = fullText.length > String(article.description || '').trim().length;
+    els.description.classList.toggle('is-hidden', hasFullText);
+    els.article.innerHTML = hasFullText
+      ? textParagraphs(fullText)
+      : '<p class="reader-note">This publisher only sends a summary in its feed. Open the original for the full article.</p>';
+    els.article.classList.remove('is-hidden');
     els.read.href = link;
-    els.read.textContent = 'Read full story';
+    els.read.textContent = 'Open original';
     els.read.target = '_self';
     els.read.rel = 'noopener';
   }

@@ -10,8 +10,7 @@ const {
   decodeEntities,
   extractOgImage,
   normalizeUrl,
-  parseYouTubeChannel,
-  parseYouTubeWatch
+  parseYouTubeFeed
 } = require('./lib/parse-feed');
 
 const execFileAsync = promisify(execFile);
@@ -24,7 +23,7 @@ const USER_AGENT =
 const BROWSER_UA =
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36';
 const MAX_ARTICLES = 240;
-const MAX_VIDEO_ARTICLES = 18;
+const MAX_VIDEO_ARTICLES = 30;
 const PER_SOURCE_LIMIT = 15;
 const VIDEOS_PER_CHANNEL = 6;
 const VIDEO_MAX_AGE_DAYS = 31;
@@ -70,16 +69,16 @@ const SOURCES = [
 ];
 
 const YOUTUBE_CHANNELS = [
-  { name: 'Fireship', handle: '@Fireship', category: 'programming' },
-  { name: 'Marques Brownlee', handle: '@mkbhd', category: 'mobile' },
-  { name: 'Linus Tech Tips', handle: '@LinusTechTips', category: 'hardware' },
-  { name: 'Computerphile', handle: '@Computerphile', category: 'programming' },
-  { name: 'The Verge', handle: '@TheVerge', category: 'tech' },
-  { name: 'Mrwhosetheboss', handle: '@Mrwhosetheboss', category: 'mobile' },
-  { name: 'Dave2D', handle: '@Dave2D', category: 'hardware' },
-  { name: 'TechLinked', handle: '@TechLinked', category: 'tech' },
-  { name: 'Android Authority', handle: '@AndroidAuthority', category: 'mobile' },
-  { name: 'ColdFusion', handle: '@ColdFusion', category: 'tech' }
+  { name: 'Fireship', channelId: 'UC2Xd-TjJByJyK2w1zNwY0zQ', category: 'programming' },
+  { name: 'Marques Brownlee', channelId: 'UCG7J20LhUeLl6y_Emi7OJrA', category: 'mobile' },
+  { name: 'Linus Tech Tips', channelId: 'UCdBK94H6oZT2Q7l0-b0xmMg', category: 'hardware' },
+  { name: 'Computerphile', channelId: 'UCoxcjq-8xIDTYp3uz647V5A', category: 'programming' },
+  { name: 'The Verge', channelId: 'UCddiUEpeqJcYeBxX1IVBKvQ', category: 'tech' },
+  { name: 'Mrwhosetheboss', channelId: 'UCMiJRAwDNSNzuYeN2uWa0pA', category: 'mobile' },
+  { name: 'Dave2D', channelId: 'UCVYamHliCI9rw1tHR1xbkfw', category: 'hardware' },
+  { name: 'TechLinked', channelId: 'UCXuqSBlHAE6Xw-yeJA0Tunw', category: 'tech' },
+  { name: 'Android Authority', channelId: 'UCKisVvy9vIminfbj0Pbw_hQ', category: 'mobile' },
+  { name: 'ColdFusion', channelId: 'UCGkpFfEMF0eMJlh9xXj2lMw', category: 'tech' }
 ];
 
 const PODCASTS = [
@@ -254,6 +253,14 @@ function cleanDescription(source, description) {
   return value.slice(0, 300);
 }
 
+function cleanContent(content) {
+  return String(content || '')
+    .replace(/\r/g, '')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim()
+    .slice(0, 12000);
+}
+
 function isPublisherLink(article) {
   const source = SOURCES.find(entry => entry.name === article.source);
   if (!source) return false;
@@ -313,44 +320,36 @@ async function fetchYouTubeArticles(previous = {}) {
   const articles = [];
   const minTime = Date.now() - VIDEO_MAX_AGE_DAYS * 24 * 60 * 60 * 1000;
   const ytHeaders = {
-    Accept: 'text/html,application/xhtml+xml',
+    Accept: 'application/atom+xml, application/xml, text/xml, */*',
     'Accept-Language': 'en-US,en;q=0.9',
-    'User-Agent': BROWSER_UA,
-    Cookie: 'CONSENT=YES+cb.20210328-17-p0.en+FX+417; SOCS=CAISHAgBEhJnd3NfMjAyMTAzMjgtMTdfcDAaAmVuIAEaBgiA_LyaBg'
+    'User-Agent': BROWSER_UA
   };
 
   for (const ch of YOUTUBE_CHANNELS) {
     try {
-      const url = `https://www.youtube.com/${ch.handle}/videos?hl=en&gl=US`;
+      const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${ch.channelId}`;
       const res = await fetchText(url, ytHeaders);
       if (!res) continue;
-      const channelVideos = parseYouTubeChannel(res, { limit: VIDEOS_PER_CHANNEL * 3 });
+      const channelVideos = parseYouTubeFeed(res, { limit: VIDEOS_PER_CHANNEL * 3 });
       let kept = 0;
 
       for (const video of channelVideos) {
         if (kept >= VIDEOS_PER_CHANNEL) break;
-        const watchUrl = `https://www.youtube.com/watch?v=${video.videoId}`;
-        let publishedAt = null;
-        try {
-          const watchRes = await fetchText(`${watchUrl}&hl=en`, ytHeaders);
-          const parsed = parseYouTubeWatch(watchRes);
-          if (parsed?.publishedAt) publishedAt = parsed.publishedAt;
-        } catch { /* optional enrichment */ }
-
-        if (publishedAt) {
-          const publishedTime = Date.parse(publishedAt);
+        if (video.publishedAt) {
+          const publishedTime = Date.parse(video.publishedAt);
           if (Number.isFinite(publishedTime) && publishedTime < minTime) continue;
         }
 
         articles.push({
           title: video.title,
-          link: watchUrl,
+          link: `https://www.youtube.com/watch?v=${video.videoId}`,
           source: ch.name,
           category: ch.category,
           categories: [ch.category],
-          publishedAt,
+          publishedAt: video.publishedAt,
           thumbnail: video.thumbnail,
           videoId: video.videoId,
+          views: video.views,
           video: true
         });
         kept += 1;
@@ -398,7 +397,8 @@ async function fetchArticles(previous) {
 
       return items.slice(0, PER_SOURCE_LIMIT).map(article => ({
         ...article,
-        description: cleanDescription(source.name, article.description)
+        description: cleanDescription(source.name, article.description),
+        content: cleanContent(article.content)
       }));
     } catch (error) {
       failedSources.add(source.name);
@@ -428,7 +428,10 @@ async function fetchArticles(previous) {
       return bTime - aTime;
     });
 
-  const videos = articles.filter(article => article.video === true).slice(0, MAX_VIDEO_ARTICLES);
+  const videos = articles
+    .filter(article => article.video === true)
+    .sort((a, b) => (b.views || 0) - (a.views || 0))
+    .slice(0, MAX_VIDEO_ARTICLES);
   const text = articles.filter(article => article.video !== true);
   const videoLinks = new Set(videos.map(article => article.link));
   articles = [...videos, ...text.filter(article => !videoLinks.has(article.link))].slice(0, MAX_ARTICLES);

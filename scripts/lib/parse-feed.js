@@ -272,6 +272,22 @@ function stripHtml(input = '') {
     .trim();
 }
 
+function htmlToText(input = '') {
+  return decodeEntities(input)
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(p|div|h[1-6]|li|blockquote|tr)>/gi, '\n\n')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/[ \t\f\v]+/g, ' ')
+    .replace(/\r/g, '')
+    .replace(/\n[ \t]+/g, '\n')
+    .replace(/[ \t]+\n/g, '\n')
+    .replace(/\s+([,.;:!?])/g, '$1')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
 function normalizeUrl(raw = '') {
   if (typeof raw !== 'string') return null;
   const value = decodeEntities(raw).trim();
@@ -438,8 +454,13 @@ function parseFeed(xml, config = {}) {
       extractTag(raw, 'summary') ||
       extractTag(raw, 'content:encoded') ||
       extractTag(raw, 'content');
+    const contentSource =
+      extractTag(raw, 'content:encoded') ||
+      extractTag(raw, 'content') ||
+      descriptionSource;
 
     const description = stripHtml(descriptionSource).slice(0, 300);
+    const content = htmlToText(contentSource).slice(0, 12000);
     const thumbnail = getThumbnail(raw);
     const publishedAt = parseDate(
       extractTag(raw, 'pubDate') ||
@@ -462,6 +483,7 @@ function parseFeed(xml, config = {}) {
       title,
       link,
       description,
+      content,
       thumbnail,
       source: config.source || 'Unknown',
       publishedAt,
@@ -483,72 +505,30 @@ function normalizeTitle(title = '') {
 
 const YOUTUBE_ID = /^[A-Za-z0-9_-]{11}$/;
 
-function extractInitialData(html) {
-  const match = String(html || '').match(
-    /ytInitialData"?\]?\s*=\s*(\{[\s\S]*?\});\s*<\/script>/
-  );
-  if (!match) return null;
-
-  try {
-    return JSON.parse(match[1]);
-  } catch {
-    return null;
-  }
-}
-
-// Channel /videos pages embed their grid in ytInitialData.
-function parseYouTubeChannel(html, { limit = 50 } = {}) {
+// Channel RSS carries exact upload dates and view counts.
+function parseYouTubeFeed(xml, { limit = 50 } = {}) {
   const videos = [];
-  const seen = new Set();
 
-  const walk = node => {
-    if (!node || typeof node !== 'object' || videos.length >= limit) return;
-    if (Array.isArray(node)) {
-      for (const item of node) walk(item);
-      return;
-    }
+  for (const match of String(xml || '').matchAll(/<entry>([\s\S]*?)<\/entry>/gi)) {
+    if (videos.length >= limit) break;
+    const raw = match[1];
+    const videoId = extractTag(raw, 'yt:videoId').trim();
+    const title = stripHtml(extractTag(raw, 'title')).slice(0, 300);
+    if (!YOUTUBE_ID.test(videoId) || !title) continue;
 
-    const lockup = node.lockupViewModel;
-    const videoId = lockup?.contentId;
-    const title = lockup?.metadata?.lockupMetadataViewModel?.title?.content;
-    if (
-      lockup?.contentType === 'LOCKUP_CONTENT_TYPE_VIDEO' &&
-      YOUTUBE_ID.test(videoId || '') &&
-      title &&
-      !seen.has(videoId)
-    ) {
-      seen.add(videoId);
-      videos.push({
-        videoId,
-        title: String(title).trim(),
-        thumbnail: `https://i.ytimg.com/vi/${videoId}/hq720.jpg`
-      });
-    }
+    const rawViews = raw.match(/<media:statistics\b[^>]*views=["'](\d+)["']/i)?.[1];
+    const views = rawViews ? Number(rawViews) : null;
 
-    for (const value of Object.values(node)) walk(value);
-  };
+    videos.push({
+      videoId,
+      title,
+      thumbnail: `https://i.ytimg.com/vi/${videoId}/hq720.jpg`,
+      publishedAt: parseDate(extractTag(raw, 'published')),
+      views: Number.isFinite(views) ? views : null
+    });
+  }
 
-  const data = extractInitialData(html);
-  if (data) walk(data);
-
-  return videos.slice(0, limit);
-}
-
-// Watch pages carry the exact upload date, unlike the relative text in the grid.
-function parseYouTubeWatch(html) {
-  const source = String(html || '');
-  const date = source.match(/"uploadDate":"([^"]+)"/)?.[1];
-  const publishedAt = parseDate(date);
-  if (!publishedAt) return null;
-
-  const description = source.match(
-    /<meta property="og:description" content="([^"]*)"/i
-  )?.[1];
-
-  return {
-    publishedAt,
-    description: stripHtml(description || '').slice(0, 300)
-  };
+  return videos;
 }
 
 function dedupeArticles(articles) {
@@ -571,12 +551,12 @@ function dedupeArticles(articles) {
 module.exports = {
   decodeEntities,
   stripHtml,
+  htmlToText,
   normalizeUrl,
   parseFeed,
   detectCategories,
   parseDate,
   extractOgImage,
   dedupeArticles,
-  parseYouTubeChannel,
-  parseYouTubeWatch
+  parseYouTubeFeed
 };

@@ -61,6 +61,15 @@ const HTML_ESCAPES = {
   "'": '&#39;'
 };
 
+export function textParagraphs(value) {
+  return String(value || '')
+    .split(/\n{2,}/)
+    .map(part => part.trim())
+    .filter(Boolean)
+    .map(part => `<p>${escapeHtml(part).replace(/\n/g, '<br>')}</p>`)
+    .join('');
+}
+
 export function escapeHtml(value) {
   return String(value ?? '').replace(/[&<>"']/g, char => HTML_ESCAPES[char]);
 }
@@ -334,7 +343,7 @@ function initUpdateBanner() {
     <div class="shell app-update__inner">
       <span class="app-update__label">Update</span>
       <div class="app-update__copy">
-        <p><strong>ByteBrief got an update.</strong> The new newspaper edition is live: newsprint theme, masthead, and page-turn sound.</p>
+        <p><strong>ByteBrief got an update.</strong> The new newspaper edition is live: newsprint theme, masthead, and longer reads.</p>
         <p class="app-update__status" id="updateAlertsStatus"></p>
       </div>
       <button class="app-update__action" id="updateAlertsEnable" type="button">Turn on alerts</button>
@@ -529,7 +538,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261110-6'),
+    import('./firebase-config.js?v=20261110-7'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
@@ -614,9 +623,14 @@ function articleToSave(article) {
     userId: '',
     title: String(article.title || 'Untitled').slice(0, 300),
     link,
+    description: String(article.description || '').slice(0, 300),
+    content: String(article.content || '').slice(0, 12000),
     image: safeUrl(article.thumbnail || article.image) || '',
     source: String(article.source || 'Unknown').slice(0, 80),
     category: String(article.categories?.[0] || article.category || 'tech').slice(0, 40),
+    views: Number(article.views) || null,
+    video: article.video === true,
+    videoId: article.videoId || null,
     savedAt: new Date().toISOString()
   };
 }
@@ -716,6 +730,11 @@ export function stashPendingSave(article) {
   const record = {
     title: article.title,
     link: article.link,
+    description: article.description,
+    content: article.content,
+    views: article.views,
+    video: article.video,
+    videoId: article.videoId,
     thumbnail: article.thumbnail,
     source: article.source,
     categories: article.categories
@@ -825,6 +844,8 @@ export function renderStoryCard(article, options = {}) {
   const image = article.thumbnail || article.image;
   const imageUrl = safeUrl(image);
   const isVideo = article.video === true;
+  const views = Number(article.views);
+  const viewsLabel = isVideo && Number.isFinite(views) && views > 0 ? `${formatNumber(views)} views` : '';
   const videoBadges = isVideo
     ? `<span class="video-channel">${escapeHtml(article.source || 'YouTube')}</span>
         <span class="video-badge-yt" aria-label="YouTube video">YT</span>`
@@ -847,6 +868,7 @@ export function renderStoryCard(article, options = {}) {
           <span class="eyebrow">${escapeHtml(category)}</span>
           <span class="dot"></span>
           <time datetime="${escapeHtml(published || '')}">${published ? formatRelative(published) : '—'}</time>
+          ${viewsLabel ? `<span class="dot"></span><span class="story-views">${escapeHtml(viewsLabel)}</span>` : ''}
         </div>
         <h3 class="story-title">${titleMarkup(article)}</h3>
         ${
@@ -862,9 +884,9 @@ export function renderStoryCard(article, options = {}) {
           <button type="button" data-action="share" data-link="${link}" aria-label="Share story">
             ${ICONS.share}<span>Share</span>
           </button>
-          <a class="story-read" href="${link}" target="_self" rel="noopener" aria-label="Read ${escapeHtml(title)}">
+          <button type="button" class="story-read" data-action="open" data-link="${link}" aria-label="Read ${escapeHtml(title)}">
             Read ${ICONS.arrow}
-          </a>
+          </button>
         </div>
         ${
           savedAt
