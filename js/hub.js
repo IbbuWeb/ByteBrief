@@ -11,7 +11,7 @@
   renderRepoCard,
   renderSourceCard,
   safeUrl
-} from './shared.js?v=20261110-7';
+} from './shared.js?v=20261110-8';
 
 const SECTIONS = [
   { key: 'trending', label: 'Trending' },
@@ -34,10 +34,18 @@ const els = {
   search: document.getElementById('hubSearch'),
   clearSearch: document.getElementById('hubClearSearch'),
   panel: document.getElementById('hubPanel'),
-  empty: document.getElementById('hubEmpty')
+  empty: document.getElementById('hubEmpty'),
+  videoModal: document.getElementById('videoModal'),
+  videoModalMedia: document.getElementById('videoModalMedia'),
+  videoModalCategory: document.getElementById('videoModalCategory'),
+  videoModalSource: document.getElementById('videoModalSource'),
+  videoModalTitle: document.getElementById('videoModalTitle'),
+  videoModalMeta: document.getElementById('videoModalMeta'),
+  videoModalLink: document.getElementById('videoModalLink')
 };
 
 let searchTimer = null;
+let lastFocused = null;
 
 boot();
 
@@ -94,13 +102,31 @@ function bindEvents() {
 
   els.clearSearch?.addEventListener('click', clearSearch);
 
+  els.panel?.addEventListener('click', event => {
+    const trigger = event.target.closest('[data-video-id]');
+    if (!trigger) return;
+    event.preventDefault();
+    openVideo(trigger.dataset);
+  });
+
   document.addEventListener('click', event => {
+    if (event.target.closest('[data-close-video]')) {
+      closeVideo();
+      return;
+    }
     if (event.target.closest('#retryHubData')) {
       window.location.reload();
       return;
     }
     if (event.target.closest('#clearHubSearch')) {
       clearSearch();
+    }
+  });
+
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && els.videoModal?.classList.contains('is-open')) {
+      event.preventDefault();
+      closeVideo();
     }
   });
 }
@@ -123,6 +149,39 @@ function clearSearch() {
   els.clearSearch?.classList.add('is-hidden');
   renderPanel();
   els.search?.focus();
+}
+
+function openVideo(data) {
+  if (!els.videoModal) return;
+  const videoId = String(data.videoId || '');
+  if (!/^[A-Za-z0-9_-]{11}$/.test(videoId)) return;
+
+  lastFocused = document.activeElement;
+  els.videoModalMedia.innerHTML = `<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
+  els.videoModalCategory.textContent = categoryLabel(data.videoCategory);
+  els.videoModalSource.textContent = data.videoSource || 'YouTube';
+  els.videoModalTitle.textContent = data.videoTitle || 'Video';
+  const views = Number(data.videoViews);
+  els.videoModalMeta.textContent = [
+    data.videoDate ? formatRelative(data.videoDate) : null,
+    views > 0 ? `${formatNumber(views)} views` : null
+  ].filter(Boolean).join(' · ');
+  els.videoModalLink.href = safeUrl(data.videoLink) || '#';
+
+  els.videoModal.classList.add('is-open');
+  els.videoModal.setAttribute('aria-hidden', 'false');
+  document.body.classList.add('no-scroll');
+  els.videoModal.querySelector('.modal-close')?.focus();
+}
+
+function closeVideo() {
+  if (!els.videoModal) return;
+  els.videoModalMedia.innerHTML = '';
+  els.videoModal.classList.remove('is-open');
+  els.videoModal.setAttribute('aria-hidden', 'true');
+  document.body.classList.remove('no-scroll');
+  lastFocused?.focus?.();
+  lastFocused = null;
 }
 
 function renderPage() {
@@ -364,9 +423,21 @@ function renderPanel() {
     const videos = (state.data.articles || []).filter(article => article.video);
     count = videos.length;
     html = `
-      <p class="hub-section-note">Auto-scraped from verified tech YouTube channels. &#9654; = play in-app.</p>
+      <p class="hub-section-note">New videos from verified tech YouTube channels, highest views first. Playback stays inside ByteBrief.</p>
       <div class="bento">
-        ${videos.map((video, i) => `
+        ${videos.map(video => {
+          const views = Number(video.views);
+          const videoCategory = video.categories?.[0] || video.category || 'tech';
+          const dataAttrs = [
+            `data-video-id="${escapeHtml(video.videoId || '')}"`,
+            `data-video-title="${escapeHtml(video.title || 'Video')}"`,
+            `data-video-source="${escapeHtml(video.source || 'YouTube')}"`,
+            `data-video-category="${escapeHtml(videoCategory)}"`,
+            `data-video-date="${escapeHtml(video.publishedAt || '')}"`,
+            `data-video-views="${Number.isFinite(views) && views > 0 ? views : ''}"`,
+            `data-video-link="${escapeHtml(safeUrl(video.link) || '')}"`
+          ].join(' ');
+          return `
           <article class="card span-4">
             <div class="story-media" style="aspect-ratio: 16/9;">
               <img class="js-img" src="${safeUrl(video.thumbnail)}" alt="" loading="lazy" decoding="async">
@@ -378,17 +449,18 @@ function renderPanel() {
                 <span class="eyebrow">YouTube</span>
                 <span class="dot"></span>
                 <time datetime="${escapeHtml(video.publishedAt || '')}">${video.publishedAt ? formatRelative(video.publishedAt) : '—'}</time>
+                ${Number.isFinite(views) && views > 0 ? `<span class="dot"></span><span class="story-views">${formatNumber(views)} views</span>` : ''}
               </div>
               <h3 class="story-title">${escapeHtml(video.title || 'Video')}</h3>
-              <p class="story-excerpt">${escapeHtml((video.description || '').slice(0, 120))}</p>
               <div class="story-actions">
-                <a class="story-read" href="${video.link}" target="_blank" rel="noopener noreferrer">
-                  ${ICONS.arrow} Watch on YouTube
-                </a>
+                <button type="button" class="story-read" ${dataAttrs}>
+                  ${ICONS.arrow} Play in app
+                </button>
               </div>
             </div>
           </article>
-        `).join('')}
+        `;
+        }).join('')}
       </div>
     `;
   }

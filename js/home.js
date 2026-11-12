@@ -19,7 +19,7 @@
   stashPendingSave,
   textParagraphs,
   toggleSaved
-} from './shared.js?v=20261110-7';
+} from './shared.js?v=20261110-8';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];

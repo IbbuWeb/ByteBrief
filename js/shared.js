@@ -538,7 +538,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261110-7'),
+    import('./firebase-config.js?v=20261110-8'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])

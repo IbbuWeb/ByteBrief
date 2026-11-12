@@ -31,7 +31,7 @@
   <link rel="apple-touch-icon" href="assets/bytebrief-logo.png">
   <link rel="manifest" href="manifest.json">
   <title>ByteHub — ByteBrief</title>
-  <link rel="stylesheet" href="css/styles.css?v=20261110-7">
+  <link rel="stylesheet" href="css/styles.css?v=20261110-8">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <script>
@@ -91,11 +91,34 @@
   <footer class="site-footer" id="siteFooter"></footer>
   <nav class="bottom-nav" id="bottomNav" aria-label="Mobile navigation"></nav>
 
+  <div class="modal" id="videoModal" role="dialog" aria-modal="true" aria-labelledby="videoModalTitle" aria-hidden="true">
+    <div class="modal-backdrop" data-close-video></div>
+    <div class="modal-panel" role="document">
+      <button type="button" class="modal-close" data-close-video aria-label="Close video">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+          <path d="M6 6l12 12M18 6 6 18"></path>
+        </svg>
+      </button>
+      <div class="modal-media" id="videoModalMedia"></div>
+      <div class="modal-body">
+        <div class="cluster">
+          <span class="pill pill-accent" id="videoModalCategory">Video</span>
+          <span class="pill" id="videoModalSource">YouTube</span>
+        </div>
+        <h2 id="videoModalTitle">Video</h2>
+        <p class="modal-meta" id="videoModalMeta"></p>
+        <div class="modal-actions">
+          <a class="btn btn-primary" id="videoModalLink" href="#" target="_blank" rel="noopener noreferrer">Open on YouTube</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="toast" id="toast" role="status" aria-live="polite" aria-atomic="true">
     <span class="toast-message"></span>
   </div>
 
-  <script type="module" src="js/hub.js?v=20261110-7"></script>
+  <script type="module" src="js/hub.js?v=20261110-8"></script>
 </body>
 </html>
 
