@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T18:05:23.221Z",
+  "generatedAt": "2026-11-14T22:26:25.404Z",
   "articles": [
     {
       "title": "6 ways iPhone Duo beats Samsung",
@@ -12,7 +12,7 @@
       "publishedAt": "2026-10-21T12:02:02.000Z",
       "thumbnail": "https://i.ytimg.com/vi/i3ZlSlnGWng/hq720.jpg",
       "videoId": "i3ZlSlnGWng",
-      "views": 13898116,
+      "views": 13920308,
       "video": true
     },
     {
@@ -26,7 +26,7 @@
       "publishedAt": "2026-10-21T12:00:38.000Z",
       "thumbnail": "https://i.ytimg.com/vi/Xrxy_W78SKk/hq720.jpg",
       "videoId": "Xrxy_W78SKk",
-      "views": 11228133,
+      "views": 11229875,
       "video": true
     },
     {
@@ -40,7 +40,7 @@
       "publishedAt": "2026-10-23T13:18:02.000Z",
       "thumbnail": "https://i.ytimg.com/vi/1yB56IT0kDw/hq720.jpg",
       "videoId": "1yB56IT0kDw",
-      "views": 8037840,
+      "views": 8049252,
       "video": true
     },
     {
@@ -54,7 +54,7 @@
       "publishedAt": "2026-11-09T12:37:47.000Z",
       "thumbnail": "https://i.ytimg.com/vi/HVLUtJWlcJY/hq720.jpg",
       "videoId": "HVLUtJWlcJY",
-      "views": 7226900,
+      "views": 7351576,
       "video": true
     },
     {
@@ -68,7 +68,7 @@
       "publishedAt": "2026-11-04T11:09:51.000Z",
       "thumbnail": "https://i.ytimg.com/vi/Yg2t5w8vj5Q/hq720.jpg",
       "videoId": "Yg2t5w8vj5Q",
-      "views": 6672665,
+      "views": 6723480,
       "video": true
     },
     {
@@ -82,7 +82,7 @@
       "publishedAt": "2026-10-23T18:14:01.000Z",
       "thumbnail": "https://i.ytimg.com/vi/0-bQziLITuk/hq720.jpg",
       "videoId": "0-bQziLITuk",
-      "views": 2359433,
+      "views": 2366683,
       "video": true
     },
     {
@@ -96,7 +96,7 @@
       "publishedAt": "2026-11-11T16:13:16.000Z",
       "thumbnail": "https://i.ytimg.com/vi/rBmcemHrqB4/hq720.jpg",
       "videoId": "rBmcemHrqB4",
-      "views": 1962853,
+      "views": 2050542,
       "video": true
     },
     {
@@ -110,7 +110,7 @@
       "publishedAt": "2026-11-11T17:01:32.000Z",
       "thumbnail": "https://i.ytimg.com/vi/t62ZRncv2d4/hq720.jpg",
       "videoId": "t62ZRncv2d4",
-      "views": 1818961,
+      "views": 1837178,
       "video": true
     },
     {
@@ -124,7 +124,7 @@
       "publishedAt": "2026-10-29T00:45:18.000Z",
       "thumbnail": "https://i.ytimg.com/vi/gHZ7JYPOd1M/hq720.jpg",
       "videoId": "gHZ7JYPOd1M",
-      "views": 1553385,
+      "views": 1553642,
       "video": true
     },
     {
@@ -138,7 +138,7 @@
       "publishedAt": "2026-11-12T20:54:32.000Z",
       "thumbnail": "https://i.ytimg.com/vi/e6MENpOuRC0/hq720.jpg",
       "videoId": "e6MENpOuRC0",
-      "views": 1206195,
+      "views": 1234583,
       "video": true
     },
     {
@@ -152,7 +152,7 @@
       "publishedAt": "2026-10-21T13:40:13.000Z",
       "thumbnail": "https://i.ytimg.com/vi/1vj_AHonNdA/hq720.jpg",
       "videoId": "1vj_AHonNdA",
-      "views": 1108208,
+      "views": 1108421,
       "video": true
     },
     {
@@ -166,7 +166,7 @@
       "publishedAt": "2026-11-05T14:03:51.000Z",
       "thumbnail": "https://i.ytimg.com/vi/m8lhB9qFhYo/hq720.jpg",
       "videoId": "m8lhB9qFhYo",
-      "views": 881959,
+      "views": 882950,
       "video": true
     },
     {
@@ -180,7 +180,7 @@
       "publishedAt": "2026-11-13T17:27:31.000Z",
       "thumbnail": "https://i.ytimg.com/vi/taBO0I1YBzU/hq720.jpg",
       "videoId": "taBO0I1YBzU",
-      "views": 784562,
+      "views": 865071,
       "video": true
     },
     {
@@ -194,175 +194,7 @@
       "publishedAt": "2026-11-05T14:00:02.000Z",
       "thumbnail": "https://i.ytimg.com/vi/K_AvLm5TOws/hq720.jpg",
       "videoId": "K_AvLm5TOws",
-      "views": 772333,
-      "video": true
-    },
-    {
-      "title": "A Two-Button Calculator That Does Everything - Numberphile",
-      "link": "https://www.youtube.com/watch?v=LxVW3b8jVdE",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-12T14:29:27.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/LxVW3b8jVdE/hq720.jpg",
-      "videoId": "LxVW3b8jVdE",
-      "views": 400047,
-      "video": true
-    },
-    {
-      "title": "Blind Ranking Numbers (Terence Tao)",
-      "link": "https://www.youtube.com/watch?v=33_jJ4kIxfc",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-10-27T09:00:23.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/33_jJ4kIxfc/hq720.jpg",
-      "videoId": "33_jJ4kIxfc",
-      "views": 314932,
-      "video": true
-    },
-    {
-      "title": "In This House We Apple - HomeView",
-      "link": "https://www.youtube.com/watch?v=DS8IlBTLJS4",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-12T14:00:47.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/DS8IlBTLJS4/hq720.jpg",
-      "videoId": "DS8IlBTLJS4",
-      "views": 222824,
-      "video": true
-    },
-    {
-      "title": "The Last MMO Mouse",
-      "link": "https://www.youtube.com/watch?v=owsB2DkuE70",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-10T19:27:02.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/owsB2DkuE70/hq720.jpg",
-      "videoId": "owsB2DkuE70",
-      "views": 203627,
-      "video": true
-    },
-    {
-      "title": "Marques Blind Ranks Halloween Candy",
-      "link": "https://www.youtube.com/watch?v=v92XR6RwB9Q",
-      "source": "Marques Brownlee",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-10-31T21:56:10.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/v92XR6RwB9Q/hq720.jpg",
-      "videoId": "v92XR6RwB9Q",
-      "views": 166281,
-      "video": true
-    },
-    {
-      "title": "Who's Richer, Mario or Sonic? - Numberphile",
-      "link": "https://www.youtube.com/watch?v=vCAD3W43lIk",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-01T12:06:18.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/vCAD3W43lIk/hq720.jpg",
-      "videoId": "vCAD3W43lIk",
-      "views": 163925,
-      "video": true
-    },
-    {
-      "title": "Terence Tao's Math(s) Essentials - Numberphile",
-      "link": "https://www.youtube.com/watch?v=p2AAz24AzU4",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-09T12:43:16.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/p2AAz24AzU4/hq720.jpg",
-      "videoId": "p2AAz24AzU4",
-      "views": 149769,
-      "video": true
-    },
-    {
-      "title": "All-In-One Networking Under $500 - Omada Fusion Pro 2.5G PoE",
-      "link": "https://www.youtube.com/watch?v=BCGNAUuSDzY",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-11T18:00:39.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/BCGNAUuSDzY/hq720.jpg",
-      "videoId": "BCGNAUuSDzY",
-      "views": 145173,
-      "video": true
-    },
-    {
-      "title": "Can a Tablet Really Replace Paper?",
-      "link": "https://www.youtube.com/watch?v=dSS8c0ehMHQ",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-02T18:58:56.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/dSS8c0ehMHQ/hq720.jpg",
-      "videoId": "dSS8c0ehMHQ",
-      "views": 127816,
-      "video": true
-    },
-    {
-      "title": "How to Switch to Linux",
-      "link": "https://www.youtube.com/watch?v=-022Lx7u4sw",
-      "source": "TechLinked",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-13T19:07:18.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/-022Lx7u4sw/hq720.jpg",
-      "videoId": "-022Lx7u4sw",
-      "views": 126239,
-      "video": true
-    },
-    {
-      "title": "Blind Ranking Numbers (Daniel Litt)",
-      "link": "https://www.youtube.com/watch?v=iJU6csQs_no",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-10-29T17:35:33.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/iJU6csQs_no/hq720.jpg",
-      "videoId": "iJU6csQs_no",
-      "views": 88412,
-      "video": true
-    },
-    {
-      "title": "Blind Ranking Numbers (Tom Crawford)",
-      "link": "https://www.youtube.com/watch?v=v9sfKhXDOn0",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-03T08:38:15.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/v9sfKhXDOn0/hq720.jpg",
-      "videoId": "v9sfKhXDOn0",
-      "views": 83054,
+      "views": 773319,
       "video": true
     },
     {
@@ -376,7 +208,161 @@
       "publishedAt": "2026-11-14T17:13:06.000Z",
       "thumbnail": "https://i.ytimg.com/vi/u5UTIofKDGc/hq720.jpg",
       "videoId": "u5UTIofKDGc",
-      "views": 77577,
+      "views": 696301,
+      "video": true
+    },
+    {
+      "title": "A Two-Button Calculator That Does Everything - Numberphile",
+      "link": "https://www.youtube.com/watch?v=LxVW3b8jVdE",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-12T14:29:27.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/LxVW3b8jVdE/hq720.jpg",
+      "videoId": "LxVW3b8jVdE",
+      "views": 418102,
+      "video": true
+    },
+    {
+      "title": "Blind Ranking Numbers (Terence Tao)",
+      "link": "https://www.youtube.com/watch?v=33_jJ4kIxfc",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-10-27T09:00:23.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/33_jJ4kIxfc/hq720.jpg",
+      "videoId": "33_jJ4kIxfc",
+      "views": 315611,
+      "video": true
+    },
+    {
+      "title": "In This House We Apple - HomeView",
+      "link": "https://www.youtube.com/watch?v=DS8IlBTLJS4",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-12T14:00:47.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/DS8IlBTLJS4/hq720.jpg",
+      "videoId": "DS8IlBTLJS4",
+      "views": 226127,
+      "video": true
+    },
+    {
+      "title": "The Last MMO Mouse",
+      "link": "https://www.youtube.com/watch?v=owsB2DkuE70",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-10T19:27:02.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/owsB2DkuE70/hq720.jpg",
+      "videoId": "owsB2DkuE70",
+      "views": 205874,
+      "video": true
+    },
+    {
+      "title": "Marques Blind Ranks Halloween Candy",
+      "link": "https://www.youtube.com/watch?v=v92XR6RwB9Q",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": "2026-10-31T21:56:10.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/v92XR6RwB9Q/hq720.jpg",
+      "videoId": "v92XR6RwB9Q",
+      "views": 166417,
+      "video": true
+    },
+    {
+      "title": "Who's Richer, Mario or Sonic? - Numberphile",
+      "link": "https://www.youtube.com/watch?v=vCAD3W43lIk",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-01T12:06:18.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/vCAD3W43lIk/hq720.jpg",
+      "videoId": "vCAD3W43lIk",
+      "views": 164221,
+      "video": true
+    },
+    {
+      "title": "Terence Tao's Math(s) Essentials - Numberphile",
+      "link": "https://www.youtube.com/watch?v=p2AAz24AzU4",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-09T12:43:16.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/p2AAz24AzU4/hq720.jpg",
+      "videoId": "p2AAz24AzU4",
+      "views": 150535,
+      "video": true
+    },
+    {
+      "title": "All-In-One Networking Under $500 - Omada Fusion Pro 2.5G PoE",
+      "link": "https://www.youtube.com/watch?v=BCGNAUuSDzY",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-11T18:00:39.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/BCGNAUuSDzY/hq720.jpg",
+      "videoId": "BCGNAUuSDzY",
+      "views": 146286,
+      "video": true
+    },
+    {
+      "title": "How to Switch to Linux",
+      "link": "https://www.youtube.com/watch?v=-022Lx7u4sw",
+      "source": "TechLinked",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-13T19:07:18.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/-022Lx7u4sw/hq720.jpg",
+      "videoId": "-022Lx7u4sw",
+      "views": 140325,
+      "video": true
+    },
+    {
+      "title": "Blind Ranking Numbers (Daniel Litt)",
+      "link": "https://www.youtube.com/watch?v=iJU6csQs_no",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-10-29T17:35:33.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/iJU6csQs_no/hq720.jpg",
+      "videoId": "iJU6csQs_no",
+      "views": 88429,
+      "video": true
+    },
+    {
+      "title": "Blind Ranking Numbers (Tom Crawford)",
+      "link": "https://www.youtube.com/watch?v=v9sfKhXDOn0",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-03T08:38:15.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/v9sfKhXDOn0/hq720.jpg",
+      "videoId": "v9sfKhXDOn0",
+      "views": 83151,
       "video": true
     },
     {
@@ -390,7 +376,7 @@
       "publishedAt": "2026-11-13T20:53:04.000Z",
       "thumbnail": "https://i.ytimg.com/vi/dJd5xc80WA4/hq720.jpg",
       "videoId": "dJd5xc80WA4",
-      "views": 73207,
+      "views": 80259,
       "video": true
     },
     {
@@ -404,7 +390,7 @@
       "publishedAt": "2026-11-12T17:52:41.000Z",
       "thumbnail": "https://i.ytimg.com/vi/kVMp5m7-d_o/hq720.jpg",
       "videoId": "kVMp5m7-d_o",
-      "views": 54708,
+      "views": 55220,
       "video": true
     },
     {
@@ -418,8 +404,553 @@
       "publishedAt": "2026-11-13T13:00:06.000Z",
       "thumbnail": "https://i.ytimg.com/vi/niuBe7Ijc1w/hq720.jpg",
       "videoId": "niuBe7Ijc1w",
-      "views": 47582,
+      "views": 50159,
       "video": true
+    },
+    {
+      "title": "Bet you didn't know what we shot the intro on",
+      "link": "https://www.youtube.com/watch?v=fBdy_ggh8Xc",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": "2026-10-21T16:06:00.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/fBdy_ggh8Xc/hq720.jpg",
+      "videoId": "fBdy_ggh8Xc",
+      "views": 42195,
+      "video": true
+    },
+    {
+      "id": "220fa916abce",
+      "title": "League of Legends: New Dawn Unveiled With Debut Trailer, Riot Announces Major Overhaul Coming in 2027",
+      "link": "https://www.ign.com/articles/league-of-legends-new-dawn-unveiled-with-debut-trailer-riot-announces-major-overhaul-coming-in-2027",
+      "description": "At the 2026 League of Legends World Championship Finals, Riot Games officially unveiled League of Legends: New Dawn. The large-scale update is scheduled for 2027 and will bring changes to the game's client, Summoner's Rift, visuals, and gameplay, marking the beginning of a new chapter for one of the",
+      "content": "At the 2026 League of Legends World Championship Finals, Riot Games officially unveiled League of Legends: New Dawn. The large-scale update is scheduled for 2027 and will bring changes to the game's client, Summoner's Rift, visuals, and gameplay, marking the beginning of a new chapter for one of the industry's most enduring titles.\n\nNew Dawn introduces what Riot described as an \"all-encompassing\" update to League, touching almost every aspect of its experience. \"This is the start of a new era for League, a new journey,\" said Paul Bellezza, League's executive producer, in New Dawn's first official trailer. Riot is expected to share the full reveal of New Dawn this coming January.\n\nA peek at where we’re headed for 2027 https://t.co/Wqem6t48pn\n\n— League of Legends @ Worlds 2026 (@LeagueOfLegends) November 14, 2026\n\nA new look for Summoner's Rift\n\nThe announcement came with a trailer shown at Worlds Finals that offered the first glimpse of what League players can expect from New Dawn, and the changes appear to go beyond simple refreshed graphics. The first noticeable change is a redesigned champion selection screen, which looks much closer to the modern interface found in Wild Rift, League's mobile game. The footage also hints at a new or reworked rune system, which seems to have a much bigger impact on the gameplay than ever before.\n\nThe trailer also showcased updated minions, a new look for Summoner's Rift, redesigned dragons and Baron Nashor, as well as what seem to be new visual effects for many champion abilities. More interestingly, the footage also hinted at gameplay changes that will change how players approach their matches, including major changes to the map terrain that open new strategic consideration — and not only for junglers.\n\nSince its launch in 2009, League has seen more than a few major changes, including a rebuilt Summoner's Rift in 2014, a new client a couple of years later, and runes and then terrain changes in the following years. Still, nothing ever came close to the scale of what New Dawn promises to be. For now, Riot is keeping the full extent of these gameplay changes to itself, leaving much of New Dawn's scope to be revealed in the coming months.\n\nLeaving the past behind\n\nRiot spent part of 2026 looking back at League's history through League Classic, a mode that allowed players to revisit older versions of both the Summoner's Rift and League's champions. However, nostalgia alone proved difficult to sustain. Just a few weeks after its release, Riot announced that the mode would end its current run in January 2027. The experience could return in a modified format in the future, but it demonstrated that revisiting the past is not necessarily enough to keep a game of League's scale moving forward.\n\nNow, Riot is looking in the opposite direction. 18 years since League first launched, New Dawn represents another attempt at evolving a game whose identity has been shaped as much by its community as by its developers. But whether players embrace the changes or push back against them remains to be seen. After all, it is the playerbase that will ultimately decide whether this new chapter gives League the foundation it needs to thrive for another decade or sends it down a different path.\n\nMore information about League of Legends: New Dawn is expected in the coming weeks, with Riot's full presentation scheduled for some time in January 2027.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/14/still003-1794673734402.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-14T22:05:38.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Wesley Yin-Poole"
+    },
+    {
+      "id": "690405cdfdae",
+      "title": "League of Legends: New Dawn Revealed, Major Overhaul Set for 2027",
+      "link": "https://www.polygon.com/league-of-legends-with-new-dawn-reveal-worlds-2026/",
+      "description": "Riot Games revealed at Worlds Finals 2026 a major update to League of Legends coming in 2027 with new gameplay and features.",
+      "content": "Between matches at the 2026 League of Legends World Championship, Riot Games teased fans with a long-anticipated announcement: The next era of League of Legends is upon us.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/still002.png",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T22:03:57.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Matt Patches"
+    },
+    {
+      "id": "dafe48935db6",
+      "title": "Beats 360 vs Studio Pro: Here’s which Beats headphones you should buy",
+      "link": "https://9to5mac.com/2026/11/14/apple-beats-studio-pro-vs-beats-360-comparison/",
+      "description": "In September, Apple introduced the new Beats 360 headphones, the first overears from Beats since the Beats Studio Pro in 2023. That said, the older Beats Studio Pro still remain on sale at a lower price point – so it begs the question, which Beats headphones are more worthwhile? more…",
+      "content": "In September, Apple introduced the new Beats 360 headphones, the first overears from Beats since the Beats Studio Pro in 2023. That said, the older Beats Studio Pro still remain on sale at a lower price point – so it begs the question, which Beats headphones are more worthwhile?\n\nmore…",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/DSC04319-2278x1139.jpg.jpeg?quality=82&strip=all&w=1600",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-14T22:02:41.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Michael Burkhardt"
+    },
+    {
+      "id": "922d60b3bf0b",
+      "title": "Here's when a dedicated graphics card is worth it",
+      "link": "https://www.engadget.com/2312688/when-dedicated-graphics-card-worth-it/",
+      "description": "Modern iGPUs are surprisingly capable, but they aren't without limitations.",
+      "content": "Modern iGPUs are surprisingly capable, but they aren't without limitations.",
+      "thumbnail": "https://www.engadget.com/img/gallery/heres-when-a-dedicated-graphics-card-is-worth-it/l-intro-1794342731.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T21:45:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Vincent Arogya)"
+    },
+    {
+      "id": "7e59a67d8036",
+      "title": "Watch SpaceX successfully execute the first ‘chopstick’ catch of Starship",
+      "link": "https://www.theverge.com/science/1033930/spacex-chopstick-starship-catch",
+      "description": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed 'chopstick' catches of its boosters before, but this is the first time the maneuver has successfully been e",
+      "content": "After aborting a planned catch of Starship Flight 15's booster, SpaceX successfully captured Starship with its \"Mechazilla\" launch and catch tower for the first time. The company has performed ' chopstick ' catches of its boosters before, but this is the first time the maneuver has successfully been executed on the Starship vehicle itself.\n\nSpaceX CEO Elon Musk said during the company's third-quarter earnings call that \"success is not guaranteed on these first flights, but I'd say it's more likely than not that this succeeds next flight.\" While not a complete success, in that the company was unable to recover the entire launch vehicle, it sti …\n\nRead the full story at The Verge.",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/52822624215_2e5d62e50a_o.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-14T21:44:44.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Terrence O’Brien"
+    },
+    {
+      "id": "a4a92fbcda03",
+      "title": "Elon Musk, other tech execs sign petition calling on Nvidia to reinstate Jensen Huang",
+      "link": "https://techcrunch.com/2026/11/14/elon-musk-other-tech-execs-sign-petition-calling-on-nvidia-to-reinstate-jensen-huang/",
+      "description": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "content": "The petition had attracted more than 115,000 signatures as of Saturday afternoon.",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2025/05/GettyImages-2216028442.jpg?w=1024",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-14T21:41:22.000Z",
+      "categories": [
+        "hardware",
+        "ai",
+        "startups"
+      ],
+      "author": "Anthony Ha"
+    },
+    {
+      "id": "e9fea8f9c84f",
+      "title": "Resident Evil Requiem Star Hopes Grace Ashcroft Has 'a Long Way to Go' Even if She Won't 'Ever Be a Leon Character'",
+      "link": "https://www.ign.com/articles/resident-evil-requiem-star-hopes-grace-ashcroft-has-a-long-way-to-go-even-if-she-wont-ever-be-a-leon-character",
+      "description": "Grace Ashcroft actress Angela Sant'Albano doesn't think her Resident Evil Requiem hero will \"ever be a Leon character,\" but she's still hoping \"there's a long way to go with her.\"",
+      "content": "Grace Ashcroft actress Angela Sant'Albano doesn't think her Resident Evil Requiem hero will \"ever be a Leon character,\" but she's still hoping \"there's a long way to go with her.\"\n\nThe person behind one of 2026's standout video game roles laid out her hopes for the future during an interview with GamesRadar. Resident Evil Requiem may only be a few months old, but she's already got a good idea of how she'd like to see Grace grow should she be asked to brave manmade horrors beyond comprehension yet again.\n\nWarning! Spoilers for Resident Evil Requiem follow.\n\n\"I would really love to see how her relationship with Leon blossoms,\" Sant'Albano explained. \"I think we have a beautiful mentorship, almost brotherly, sisterly relationship brewing. And I also want to know what happens with her and Emily.\"\n\nAssuming you chose the 'good' ending, Resident Evil Requiem closes with the series' one-liner expert, Leon S. Kennedy, alive and Grace taking Emily under her wing. It painted a bright future for the crew, and although it almost certainly won't last, it did give the developers at Capcom plenty of room to grow new and old characters alike.\n\nDespite some pretty deep roots in Resident Evil lore, Grace's story in the franchise is really only getting started in Resident Evil Requiem. So far, there's been no word on whether she'll stick around for additional entries and eventually stand toe-to-toe with other protagonists like Ethan Winters or Chris Redfield. Judging by the strong impression she made when her debut game launched in February, we wouldn't be surprised to see her back at some point down the line.\n\nSant'Albano knows Grace could survive another run in with mutated monsters after making it through the horrors of the Rhodes Hill Chronic Care Center, but will she ever be dodging chainsaws with carefully timed but stylish backflips? Not likely.\n\n\"I don't think she'll ever be a Leon character,\" Sant'Albano said. \"She's never going to be badass, you know, doing roundhouse kicks. But I do think her courage and her self-esteem will grow the more that she trusts herself and forgives herself for a lot of the things that I think tie her down. So, I think there's a long way to go with her.\"\n\nResident Evil Requiem is still so fresh, so we probably won't hear about another mainline entry like a potential Resident Evil 10 anytime soon. As if there was any doubt, that doesn't mean Capcom plans to keep players waiting for more.\n\nIn 2027, fans will step back into the shoes of Resident Evil 2 hero Claire Redfield for Resident Evil Veronica. It's been a while since we last heard an update on that front following its announcement in June. We're also still waiting to hear more about the story DLC the publisher promised back in March. Maybe we could see more Grace there?\n\nIGN gave Resident Evil Requiem a 9/10 review. At the time of its launch, we said it \"successfully splices two separate strains of survival horror together into one highly infectious new mutation.\"",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/03/03/puzzle-site-1772543174828.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-14T21:31:21.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Michael Cripe"
+    },
+    {
+      "id": "3c3142853b87",
+      "title": "The reasons why your TV soundbar has an audio delay",
+      "link": "https://www.engadget.com/2312648/reasons-why-tv-soundbar-audio-delay/",
+      "description": "Audio delays are really irritating, especially when watching sports and live events. We've got several possible causes and what you can do about them.",
+      "content": "Audio delays are really irritating, especially when watching sports and live events. We've got several possible causes and what you can do about them.",
+      "thumbnail": "https://www.engadget.com/img/gallery/the-reasons-why-your-tv-soundbar-has-an-audio-delay/l-intro-1794341678.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T21:30:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (David Engle)"
+    },
+    {
+      "id": "73d9d5b1e903",
+      "title": "SpaceX Catches the Starship to end Flight 15",
+      "link": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+      "description": "283 points · 147 comments",
+      "content": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka\n\nComments URL: https://news.ycombinator.com/item?id=50500963\n\nPoints: 283\n\n# Comments: 147",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T21:22:24.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "ls612"
+    },
+    {
+      "id": "d85d34951177",
+      "title": "Why some USB ports are yellow (and less common than others)",
+      "link": "https://www.engadget.com/2312464/why-some-usb-ports-yellow-less-common/",
+      "description": "Not every USB port color means what you think. Learn why yellow ports are so uncommon and what to check before you plug in anything important.",
+      "content": "Not every USB port color means what you think. Learn why yellow ports are so uncommon and what to check before you plug in anything important.",
+      "thumbnail": "https://www.engadget.com/img/gallery/why-some-usb-ports-are-yellow-and-less-common-than-others/l-intro-1794332281.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T21:15:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Thomas Godwin)"
+    },
+    {
+      "id": "25536a46fd2b",
+      "title": "32 Years Later, Star Trek's Most Important Movie Is Officially Free on Streaming",
+      "link": "https://www.polygon.com/star-trek-generations-streaming-free-november-2026/",
+      "description": "Star Trek: Generations is streaming free on Pluto TV. Here's why the underrated Kirk and Picard crossover deserves another look.",
+      "content": "Released in 1994 and now streaming free on Pluto TV, Star Trek: Generations brought Captain James T. Kirk (William Shatner) and Captain Jean-Luc Picard ( Patrick Stewart ) together on the big screen for the first and only time. The result was a movie that divided fans, delivered one of the franchise's most controversial deaths, and destroyed one of television's most beloved starships. Yet more than three decades later, Generations deserves another look, particularly for what it has to say about growing older, accepting loss, and knowing when it's time to move on.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/msdsttr_pa117.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T21:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Terry Terrones"
+    },
+    {
+      "id": "77f3c585c2ec",
+      "title": "How to clear the cache on your Samsung TV",
+      "link": "https://www.engadget.com/2312222/how-to-clear-cache-samsung-tv/",
+      "description": "Your TV's cache is a collection of temporary files, some of which you don't need anymore. Here's why you might want to clear those out – and how.",
+      "content": "Your TV's cache is a collection of temporary files, some of which you don't need anymore. Here's why you might want to clear those out – and how.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-your-samsung-tv/l-intro-1794330105.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T21:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (David Engle)"
+    },
+    {
+      "id": "f6328c447f61",
+      "title": "Wacky PC and gadget gift guide",
+      "link": "https://www.tomshardware.com/gift-guides-seasonal-sales/wacky-pc-and-gadget-gift-guide-surprise-tech-lovers-with-10-different-options-like-wireless-power-buttons-dvd-burner-usb-hubs-and-clamp-on-pegboards",
+      "description": "Our list of fun and wacky PC and gadget gifts is surprising, delightful, and actually useful.",
+      "content": "The people you want to buy holiday gifts for probably have wishlists, but what happened to surprise and delight? Sometimes, you just have to choose something a bit out of left field to stuff a stocking or fill a gift box and watch as you see your friend or family member's eyes light up. So besides getting your loved ones everything they want, you can also get them a few fun items that surprise and delight. Wacky, even weird, tech that may not be exactly what someone expected to receive, but will certainly make them think of you when they use it.\n\nAnd many of these picks are actually functional. A CD/DVD burner that also happens to be a USB hub, a wireless button to turn your PC on or off, and a clamp-on desk pegboard to keep your workspace neat are just a few of the items you'll find.\n\nHere are some interesting and unusual gadgets for the PC builder or tech lover in your life:\n\nUltra Slim External CD/DVD drive (8 in 1 USB 3.0 Hub): $35.99\nSUIDECK's portable USB-connected optical and media reader peripheral also has USB HUB functionality. This has you covered for all sorts of old CDs, DVDs, and flash cards you might have in the back of your tech cabinets. View Deal\n\nThe imini 2 is a handy little flashlight that easily attaches to your keychain. Built to last and bright enough to be reliable, you will never want to leave the house without it. View Deal\n\nWireless Remote Desktop PC Power Switch: $36\nA wireless button for turning your PC on/off. Big red button vibes give off danger signals. A wireless range of 80 feet over the 2.4GHz frequency. View Deal\n\nMagnetic Levitation Bluetooth Speaker: $99.99\nA floating and spinning 5 Watt Bluetooth speaker that's shaped like the Death Star from Star Wars. Using magnetic levitation, the speaker is suspended in the air. Looks cool on any desk. View Deal\n\nCopy and Paste 2-Key Keyboard: $12.99\nAn RGB illuminated 2-button keyboard for copy-paste functions, or even to use in some rhythm games View Deal\n\nAlpha65 Robot Mech 65W GaN Charger: $59.95\nCharge everything from your phone to your Steam Deck, with this cool-looking robot mech. This fast GaN charger block features three ports for charging: 2 x USB-C and 1 x USB-A. View Deal\n\n3.5inch USB Mini Screen (960x640): $99.99\nThis incredibly cute mini screen-turned USB-C hub is a fantastic retro gift for the holiday season, now on sale for Cyber Monday. View Deal\n\n7 in 1 Clamp-On Desk Pegboard: was $27.95 now $26.55\nPegboards are a great way of stashing and tidying all the kit and kaboodle you may have lying around your desk. If your desk isn't near a wall, or you're perhaps prohibited from drilling or hanging a pegboard on your wall, this desk-clampable version is the next best thing. View Deal\n\nUSB Big Enter Key Pillow: $16.99\nFor friends and family who want to send Slack messages with a bit of extra oomph, this giant foam enter key will let them take out their stress. It plugs in over USB Type-A, and you give it a slam to make it work. View Deal\n\nBun Wonderland PBT Keycaps Set: $39.99\nThe keyboard enthusiast in your life may have their favorite keycaps (they probably have several), but these ones look like baked buns and bread. They're PBT and fit Cherry MX-style switches. View Deal",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/DtH6A4rUzysucGnkAEFLeS-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-14T21:00:00.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Andrew E. Freedman"
+    },
+    {
+      "id": "ebd457cbebfe",
+      "title": "SpaceX successfully catches Starship after launch for the first time",
+      "link": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
+      "description": "While the company has pulled off this trick a few times with Super Heavy boosters, it was a first for the Ship.",
+      "content": "While the company has pulled off this trick a few times with Super Heavy boosters, it was a first for the Ship.",
+      "thumbnail": "https://www.engadget.com/img/gallery/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/l-intro-1794693469.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T20:54:14.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Cheyenne MacDonald)"
+    },
+    {
+      "id": "31717a4f6120",
+      "title": "How to clear the cache on your Xbox Series X",
+      "link": "https://www.engadget.com/2312189/how-to-clear-cache-xbox-series-x/",
+      "description": "Clearing the cache on your Xbox Series X can help it retain its snappiness while avoiding glitches, or you can perform a console reset if all else fails.",
+      "content": "Clearing the cache on your Xbox Series X can help it retain its snappiness while avoiding glitches, or you can perform a console reset if all else fails.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-your-xbox-series-x/l-intro-1794327413.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T20:45:00.000Z",
+      "categories": [
+        "gaming",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Antony Terence)"
+    },
+    {
+      "id": "a69b8808816e",
+      "title": "Indie App Spotlight: ‘Milton’ lets you turn your old iPad into a home dashboard",
+      "link": "https://9to5mac.com/2026/11/14/indie-app-spotlight-milton-lets-you-turn-your-old-ipad-into-a-home-dashboard/",
+      "description": "Welcome to Indie App Spotlight . This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get in contact . Apple finally released its new HomeView this week, a smart display that serves at the center of your hom",
+      "content": "Welcome to  Indie App Spotlight. This is a weekly 9to5Mac series where we showcase the latest apps in the indie app world. If you’re a developer and would like your app featured, get  in contact.\n\nApple finally released its new HomeView this week, a smart display that serves at the center of your home. What if you don’t want to buy a new product though? Milton is an app for older iPads running iPadOS 17 and later that can serve a similar purpose.\n\nmore…",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/37256650cdc1b8807ed7cf263170dc6288a29c048d7fe757a47beb047fd38757.png?w=1600",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-14T20:30:00.000Z",
+      "categories": [
+        "programming",
+        "hardware",
+        "mobile"
+      ],
+      "author": "Michael Burkhardt"
+    },
+    {
+      "id": "ae12bb6eda34",
+      "title": "Is your car tracking your location? Here's how to check and opt out",
+      "link": "https://www.engadget.com/2312168/car-location-tracking-how-to-opt-out/",
+      "description": "Modern cars are great for farming user data, and big tech companies know it. It's important to know how this information is collected and how to opt out.",
+      "content": "Modern cars are great for farming user data, and big tech companies know it. It's important to know how this information is collected and how to opt out.",
+      "thumbnail": "https://www.engadget.com/img/gallery/is-your-car-tracking-your-location-heres-how-to-check-and-opt-out/l-intro-1794245169.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T20:30:00.000Z",
+      "categories": [
+        "privacy",
+        "cybersecurity",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Gabriela Vătu)"
+    },
+    {
+      "id": "7bf2c5bf4061",
+      "title": "This built-in Windows tool can diagnose your PC's battery health",
+      "link": "https://www.engadget.com/2312107/built-in-windows-tool-diagnose-pc-battery-health-powercfg/",
+      "description": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
+      "content": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
+      "thumbnail": "https://www.engadget.com/img/gallery/this-built-in-windows-tool-can-diagnose-your-pcs-battery-health/l-intro-1794326458.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T20:15:00.000Z",
+      "categories": [
+        "hardware",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Maddie Fisher)"
+    },
+    {
+      "id": "a553cac593b4",
+      "title": "'It Felt Criminal' — Adam Driver Still Can't Believe How Disney Handled Canceled Star Wars Movie The Hunt for Ben Solo",
+      "link": "https://www.ign.com/articles/it-felt-criminal-adam-driver-still-cant-believe-how-disney-handled-canceled-star-wars-movie-the-hunt-for-ben-solo",
+      "description": "Adam Driver still can't believe Disney killed his Star Wars movie, The Hunt for Ben Solo, and has now gone so far as to say that the move \"felt criminal.\"",
+      "content": "Adam Driver still can't believe Disney killed his Star Wars movie, The Hunt for Ben Solo, and has now gone so far as to say that the move \"felt criminal.\"\n\nThe Kylo Ren/Ben Solo actor relived some of the darker parts of his past with the massive sci-fi franchise during a recent conversation with AP. His updated thoughts on the matter follow years of work and months of fan organizing, and although he and director Steven Soderbergh have almost nothing to show for it, he's still pretty fired up about how it all went down.\n\n\"For me it was: Steven Soderbergh wants to make a Star Wars film,\" Driver said. \"What are we debating? It’s what it is. It’s criminal. Or it felt criminal. We’re all moving on. On to the next. And Steven already has something else that’s one of the best things he’s ever written.\"\n\nWe first learned about The Hunt for Ben Solo, a Skywalker Saga follow-up that explored a potential future for its title character, when Driver called it one of the \"coolest scripts\" he had \"ever been a part of\" late last year. Despite the hype, it never came to be, mostly because, according to Driver, then-Disney CEO Bob Iger and co-chairman Alan Bergman \"didn't see how Ben Solo was alive.\"\n\nWhat followed was months of additional words from those who worked on the shuttered project, including Soderbergh, who called Disney's decision to pull the plug after two-and-a-half years of work \"insane.\" Before long, fans orchestrated their own campaign to try and save the movie, but at least as far as August 2026, Lucasfilm president Dave Filoni has said that it's not something the company is working on right now.\n\nWith so much work put into it, it's been hard for many to see why Disney would shut down an impassioned pitch from a fan-favorite Star Wars actor. Driver himself still seems confused about the call to this day. The silver lining, though, was how dedicated fans chipped in to see his and Soderbergh's ideas brought to life.\n\n\"I was blown away by the response to it,\" Driver added. \"In no way did I think there would be billboards in Times Square. It’s so moving. It did feel like we were all at the bar having a conversation about the films we wanted to see.\"\n\nFor now, however, Driver is most likely hanging up his hilted lightsaber for good. He said as much during another interview earlier this month, though he's still leaving the door open should Disney change its mind about The Hunt for Ben Solo. Soderbergh, who is currently helping out with The Batman Part 2, ruled out a return in April of this year.\n\nTaika Waititi's long-gestating Star Wars movie joined the Ben Solo film when it was officially put on ice last month. While Star Wars' future has plenty of question marks to address, there are a few projects confirmed to launch in the next year alone. You can see IGN's full breakdown for every movie and show in development here.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2023/12/13/kylo-1702468119008.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-14T20:09:39.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Michael Cripe"
+    },
+    {
+      "id": "0f3c66386c82",
+      "title": "Tesla opens Cybercab pre-orders ‘for personal use,’ with geo restrictions and a $299 monthly fee",
+      "link": "https://techcrunch.com/2026/11/14/tesla-opens-cybercab-pre-orders-for-personal-use-with-geo-restrictions-and-a-299-monthly-fee/",
+      "description": "Even Elon Musk said the monthly fee is \"too high.\"",
+      "content": "Even Elon Musk said the monthly fee is \"too high.\"",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/10/tesla-cybercab-getty.jpg?resize=1200,834",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-14T20:04:44.000Z",
+      "categories": [
+        "startups"
+      ],
+      "author": "Anthony Ha"
+    },
+    {
+      "id": "7477bcd7e30f",
+      "title": "Zelda: Ocarina of Time Is Actually the Perfect Way to Introduce Kids to Nintendo",
+      "link": "https://www.polygon.com/zelda-ocarina-time-first-nintendo-kids-game/",
+      "description": "Parents are debating whether the Ocarina of Time remake is too scary for kids. Here’s the case for the child-era half as a first Nintendo game.",
+      "content": "Walk into The Legend of Zelda: Ocarina of Time ’s Kokiri Forest, and it feels like you’re walking into a picture book. Especially in the remake, everything is moss-green and dappled with light. Fairies flit about. Kokiri children are rhythmically attending to their tasks. Everyone is friendly, everything is beautiful, and the world both feels safe and makes sense. Then you walk into the Great Deku Tree and spiders start falling from the ceiling. My daughter screamed. I jumped, too, and I knew they were coming.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/zelda-ocarina-of-time-great-deku-tree-and-link.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T20:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Rebecca Corgan"
+    },
+    {
+      "id": "36c70377c477",
+      "title": "Change these Fitbit Edge settings for a better experience",
+      "link": "https://www.engadget.com/2311860/change-fitbit-edge-settings-better-user-experience/",
+      "description": "The Fitbit Edge not only looks good, but packs plenty of features while remaining minimal. To get the most out of it, you only need to tweak a few settings.",
+      "content": "The Fitbit Edge not only looks good, but packs plenty of features while remaining minimal. To get the most out of it, you only need to tweak a few settings.",
+      "thumbnail": "https://www.engadget.com/img/gallery/change-these-x-fitbit-edge-settings-for-a-better-experience/l-intro-1794309662.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T20:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Roger Fingas)"
+    },
+    {
+      "id": "316d0b3d71d1",
+      "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
+      "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
+      "description": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027. An animated Magic: The Gathering series was first teased back in 2019 w",
+      "content": "\"It's really happening. I promise. For real.\" Those are the first words from Roy Graham, Head of Story at Magic: The Gathering, in a video posted yesterday announcing Planeswalker, the animated series heading to Netflix in 2027.\n\nAn animated Magic: The Gathering series was first teased back in 2019 with Joe and Anthony Russo at the helm. But that fell apart. In 2024, Netflix announced it still planned to make a series based on the game, but it decided to rework it from the ground up.\n\nNow fans are finally getting their first glimpse of the show, which will be called Planeswalker. According to the sneak peek, because each plane exists in its …\n\nRead the full story at The Verge.",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/IefaLy5uPLc-HD.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-14T19:47:40.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Terrence O’Brien"
+    },
+    {
+      "id": "5567db1ad39c",
+      "title": "Fortnite Player Gets Screwed Out of Extremely Rare Pirate Shop Token",
+      "link": "https://www.polygon.com/fortnite-player-loses-pirate-shop-access-token-game-crash/",
+      "description": "Epic Games has reportedly proved unhelpful after a user lost the Pirate Shop Access token in Fortnite after losing connection mid-match.",
+      "content": "The Pirate Shop Access token is arguably the best reward Fortnite has ever had. With it, players can claim every reward in the shop for free for two whole weeks. And it can be activated twice! It's extremely rare, but gamers have been grinding hard to get it, as it's too valuable to ignore. The token has caused a frenzy in the Fortnite community and increased the number of hours played by millions.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/the-simpsons-fortnite-loading-screen.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T19:47:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Ashely Claudino"
+    },
+    {
+      "id": "3812a5076d01",
+      "title": "How much did home internet cost in 2001 vs 2026?",
+      "link": "https://www.engadget.com/2311774/home-internet-2001-vs-2026-cost/",
+      "description": "A lot of things have gotten more expensive since the turn of the millennium. Has home internet suffered the same fate? Let's take a trip down memory lane.",
+      "content": "A lot of things have gotten more expensive since the turn of the millennium. Has home internet suffered the same fate? Let's take a trip down memory lane.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-much-did-home-internet-cost-in-2001-vs-2026/l-intro-1794281981.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T19:45:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Antony Terence)"
+    },
+    {
+      "id": "4f823f62d52f",
+      "title": "AT&T uses agentic AI to reinvent business processes from the ground up",
+      "link": "https://siliconangle.com/2026/11/14/att-uses-agentic-ai-to-reinvent-business-processes-from-the-ground-up/",
+      "description": "AT&T Corp. is moving beyond using artificial intelligence to improve employee productivity, increasingly applying autonomous agents to redesign how its business operates. Nearly 500 agentic workflows are already in production, and the telecom giant plans to triple that number next year. AT&T now pro",
+      "content": "AT&T Corp. is moving beyond using artificial intelligence to improve employee productivity, increasingly applying autonomous agents to redesign how its business operates. Nearly 500 agentic workflows are already in production, and the telecom giant plans to triple that number next year. AT&T now processes about 45 billion AI tokens daily across the company, according to […]\n\nThe post AT&T uses agentic AI to reinvent business processes from the ground up appeared first on SiliconANGLE.",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/ATT-logo.jpg",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-14T19:37:13.000Z",
+      "categories": [
+        "ai",
+        "business",
+        "tech"
+      ],
+      "author": "Paul Gillin"
+    },
+    {
+      "id": "9d20410e046b",
+      "title": "That key left of '1' on many keyboards is actually crucial for programmers",
+      "link": "https://www.engadget.com/2309616/that-key-left-of-1-on-many-keyboards-is-actually-crucial-for-programmers/",
+      "description": "The humble tilde has many uses.",
+      "content": "The humble tilde has many uses.",
+      "thumbnail": "https://www.engadget.com/img/gallery/that-key-left-of-1-on-many-keyboards-is-actually-crucial-for-programmers/l-intro-1793993642.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T19:30:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Lawrence Bonk)"
+    },
+    {
+      "id": "99d0ddc447bf",
+      "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
+      "link": "https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
+      "description": "47 points · 12 comments",
+      "content": "Article URL: https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year\n\nComments URL: https://news.ycombinator.com/item?id=50499945\n\nPoints: 47\n\n# Comments: 12",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T19:23:40.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "sebg"
+    },
+    {
+      "id": "493dfb005f7d",
+      "title": "How to make your Nintendo Switch 2 battery last longer",
+      "link": "https://www.engadget.com/2312052/how-to-make-switch-2-battery-last-longer/",
+      "description": "The Switch 2's battery life varies depending on what game you're playing, but changing some settings can also help you maximize how long it lasts.",
+      "content": "The Switch 2's battery life varies depending on what game you're playing, but changing some settings can also help you maximize how long it lasts.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-to-make-your-nintendo-switch-2-battery-last-longer/l-intro-1794324925.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T19:15:00.000Z",
+      "categories": [
+        "gaming",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Matt Tate)"
+    },
+    {
+      "id": "9c663f9b3fe0",
+      "title": "'The Body' Ending Explained: Is Grace Possessed? Netflix Showrunners Talk Season 2",
+      "link": "https://www.polygon.com/the-body-ending-explained/",
+      "description": "Is Grace possessed? The Body’s showrunners explain why the Netflix series’ ending has no single answer and what’s next in season 2.",
+      "content": "The Body, Netflix’s new campy-horror TV series, came out this week. But based on a quick social media browse, it might as well have come out months ago. The high school thriller inspired passionate fan debates among viewers and dozens of fan cams dedicated to favorite characters long before a single episode aired. Now that The Body has finally arrived, however, fans are having an entirely different debate that hinges on its wild cliffhanger ending.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/the_body_n_s1_e1_00_17_48_05rc2.avif",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T19:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Maria Loreto"
+    },
+    {
+      "id": "acea4c24f42a",
+      "title": "5 excellent free Apple Watch apps every owner should know about",
+      "link": "https://www.engadget.com/2311959/free-apple-watch-apps/",
+      "description": "You can enjoy great Apple Watch apps without having to shell out for a subscription.",
+      "content": "You can enjoy great Apple Watch apps without having to shell out for a subscription.",
+      "thumbnail": "https://www.engadget.com/img/gallery/5-excellent-free-apple-watch-apps-every-owner-should-know-about/l-intro-1794320819.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T19:00:00.000Z",
+      "categories": [
+        "hardware",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Luke James)"
+    },
+    {
+      "id": "15b6fbabb889",
+      "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
+      "link": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
+      "description": "134 points · 59 comments",
+      "content": "Article URL: https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379\n\nComments URL: https://news.ycombinator.com/item?id=50499723\n\nPoints: 134\n\n# Comments: 59",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T18:56:47.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "gnabgib"
+    },
+    {
+      "id": "9d96bba05f27",
+      "title": "Your Apple AirPods Pro can test your hearing in five minutes, but are they accurate?",
+      "link": "https://www.engadget.com/2311946/apple-airpods-pro-test-hearing-five-minutes-accuracy/",
+      "description": "Apple AirPods use an industry-recognized standard when testing a user's hearing, but there are various factors that can give inaccurate results.",
+      "content": "Apple AirPods use an industry-recognized standard when testing a user's hearing, but there are various factors that can give inaccurate results.",
+      "thumbnail": "https://www.engadget.com/img/gallery/your-apple-airpods-pro-can-test-your-hearing-in-five-minutes-but-are-they-accurate/l-intro-1794220922.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T18:45:00.000Z",
+      "categories": [
+        "hardware",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Robin Bea)"
+    },
+    {
+      "id": "7583bad40a00",
+      "title": "26 Years Later, Charlie Brown's Final Quote Is Still a Comic Strip Classic",
+      "link": "https://www.polygon.com/charlie-brown-final-peanuts-line/",
+      "description": "Charlie Brown, the longest-suffering kid in comics history, went out as he lived",
+      "content": "Charles Schulz's retirement took the world by surprise. Following a period of failing health, Schulz announced on Dec. 14, 1999 that he would end Peanuts. He could no longer see clearly and had been diagnosed with colon cancer. He needed to focus on his health. As a result, Peanuts came to a relatively sudden stop nine weeks later once newspapers had worked through Schulz's existing backlog.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/charlie-brown-emotional-gut-punch-in-peanuts-comic.avif",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T18:43:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Thomas Hindmarch"
+    },
+    {
+      "id": "9f7e1186a30c",
+      "title": "Common reasons your PC's camera and microphone aren't working",
+      "link": "https://www.engadget.com/2311859/pc-camera-microphone-not-working-common-reasons/",
+      "description": "There's nothing worse than having camera or mic problems right before a video call or meeting. Luckily, the fixes are usually pretty straightforward.",
+      "content": "There's nothing worse than having camera or mic problems right before a video call or meeting. Luckily, the fixes are usually pretty straightforward.",
+      "thumbnail": "https://www.engadget.com/img/gallery/common-reasons-your-pcs-camera-and-microphone-arent-working/l-intro-1794311288.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T18:30:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Roger Fingas)"
+    },
+    {
+      "id": "359fb450257d",
+      "title": "Italy fines Meta €805m over accessing users' photos",
+      "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+      "description": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+      "content": "The social media giant is accused of not informing 20 million users it had access to their photos.",
+      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
+      "source": "BBC Technology",
+      "publishedAt": "2026-11-14T18:28:06.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": null
+    },
+    {
+      "id": "9c983d3eb4c1",
+      "title": "Chris Pratt Says He 'Would Love' James Gunn to Return for Guardians of the Galaxy Vol. 4 After Leaving DC",
+      "link": "https://www.ign.com/articles/chris-pratt-says-he-would-love-james-gunn-to-return-for-guardians-of-the-galaxy-vol-4-after-leaving-dc",
+      "description": "Chris Pratt said he would love to reunite with James Gunn for Guardians of the Galaxy Vol. 4 after the director abruptly announced he would be leaving DC Studios earlier this week.",
+      "content": "Chris Pratt said he would love to reunite with James Gunn for Guardians of the Galaxy Vol. 4 after the director abruptly announced he would be leaving DC Studios earlier this week.\n\nGunn is no longer running DC movies with Peter Safran – so what comes next? That's the question many comic book fans are asking as the dust begins to settle at Skydance, and although it will be quite a while before we actually see what happens, some are getting their hopes up for a Marvel reunion.\n\nGunn directed three Guardians of the Galaxy movies for the Marvel Cinematic Universe (and dealt with his fair share of drama ) while working with the Marvel Studios team before leaving to help head up DC Studios in 2022. Work on Man of Tomorrow and one other mystery DC project aside, the comic book movie maker's future is wide open. Chris Pratt, who has starred as the MCU's Star-Lord for more than a decade, told Moviezine it would be \"awesome\" to re-team with Gunn for Guardians of the Galaxy Vol. 4 now that DC is about nearly in the rearview mirror.\n\n\"That would be awesome. I love working with James. He's the man,\" Pratt said. \"I haven't had a chance to speak with him since that news came out yesterday.\"\n\nThe last time we saw Star-Lord and the rest of the Guardians was in 2023's Guardians of the Galaxy Vol. 3. Although that story fit well as a bookend for its characters and Gunn's work on the franchise, fans have had a hard time letting go of some of the MCU's most popular faces – Pratt included.\n\nIn January of this year, the actor said he has a \"really strong vision\" to bring Star-Lord back in future MCU installments. Just last month, he promised that plans for his return were in the works at Marvel Studios. Gamora actor Zoe Saldaña also said in 2024 that \"it would be a huge loss\" if the space-traveling heroes were left behind.\n\nGunn coming back to Marvel again feels like a long shot, and it's always possible that we could see the Guardians return in another MCU ensemble film like next year's Avengers: Secret Wars. At least for now, Pratt is willing to hold out hope.\n\n\"All I'll say is, I love James,\" he added. \"He directed all three [Guardians of the Galaxy movies], and that's pretty rare in those types of trilogies, to have the same director through all three. If he wanted to come back and bring it back, man. I would love that.\"\n\nWhether it's with the MCU or DC, much of the future is a mystery. In Gunn's case, we at least know Skydance has yet to even see his cut of Man of Tomorrow after the director squashed rumors claiming otherwise last night. We'll know about what's coming down the pipe for Marvel when Avengers: Doomsday arrives next month.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2023/04/17/guardiansofthegalaxy3-1681725232159.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-14T18:27:44.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Michael Cripe"
     },
     {
       "id": "58a67d122347",
@@ -466,6 +997,35 @@
       "author": "Sarah Perez"
     },
     {
+      "id": "dc5edb003be3",
+      "title": "US IRS free online tax filing open source repo (2025)",
+      "link": "https://github.com/IRS-Public/direct-file",
+      "description": "122 points · 69 comments",
+      "content": "Article URL: https://github.com/IRS-Public/direct-file\n\nComments URL: https://news.ycombinator.com/item?id=50499083\n\nPoints: 122\n\n# Comments: 69",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T17:48:20.000Z",
+      "categories": [
+        "programming",
+        "opensource"
+      ],
+      "author": "accountinhn"
+    },
+    {
+      "id": "2d95802617f2",
+      "title": "A Family Tree of Software Job Titles",
+      "link": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
+      "description": "140 points · 63 comments",
+      "content": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/\n\nComments URL: https://news.ycombinator.com/item?id=50499038\n\nPoints: 140\n\n# Comments: 63",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T17:45:19.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "umerf"
+    },
+    {
       "id": "2aae0ad36a1c",
       "title": "Transportation secretary blames ‘routine’ equipment upgrade for grounding flights nationwide",
       "link": "https://techcrunch.com/2026/11/14/transportation-secretary-blames-routine-equipment-upgrade-for-grounding-flights-nationwide/",
@@ -481,26 +1041,11 @@
       "author": "Anthony Ha"
     },
     {
-      "id": "bf3c2c6cffc6",
-      "title": "Checking your Apple Watch's battery health is easier than you think",
-      "link": "https://www.engadget.com/2311851/how-to-check-apple-watch-battery-health/",
-      "description": "The Apple Watch's battery life is undoubtedly impressive but you'll need to keep an eye on the health of the battery to keep it working at its best.",
-      "content": "The Apple Watch's battery life is undoubtedly impressive but you'll need to keep an eye on the health of the battery to keep it working at its best.",
-      "thumbnail": "https://www.engadget.com/img/gallery/checking-your-apple-watchs-battery-health-is-easier-than-you-think/l-intro-1794307764.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T17:45:00.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Yoni Yardeni)"
-    },
-    {
       "id": "43a64e6ec908",
       "title": "Work to replace old copper wire led to the FAA’s ground stop",
       "link": "https://www.theverge.com/transportation/1033898/faa-ground-stop-sean-duffy-faa-copper-wire",
       "description": "At a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA facility.\" The secretary said that this was \"routine maintenance,\" rather than the",
-      "content": "CHICAGO, US - NOVEMBER 13: A view of an information board at the Chicago O'Hare International Airport, filled with waiting passengers on November 13, 2026, after the Federal Aviation Administration ordered a nationwide ground stop on all departing flights following a communication issue impacting air traffic control centers across the United States. With departures held until further notice, travelers waited in crowded terminals as delays mounted, while arriving flights continued to land normally. (Photo by Jacek Boczarski/Anadolu via Getty Images) | Anadolu via Getty Images\n\nAt a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA facility.\" The secretary said that this was \"routine maintenance,\" rather than the result of a major modernization effort. He told reporters that it was \"such an old wire that it was being discontinued, meaning that line was going to get shut down,\" necessitating the upgrade.\n\nWhat wasn't clear, according to Secretary Duffy, was the root cause of the problem. He said that it could have been faulty hardware, a misconfigured rout …\n\nRead the full story at The Verge.",
+      "content": "A view of an information board at the Chicago O'Hare International Airport, filled with waiting passengers on November 13, 2026. | Anadolu via Getty Images\n\nAt a press conference today, Transportation Secretary Sean Duffy said that Friday's nationwide ground stop ordered by the FAA was related to work replacing outdated copper wire with a fiber optic line at a \"remote FAA facility.\" The secretary said that this was \"routine maintenance,\" rather than the result of a major modernization effort. He told reporters that it was \"such an old wire that it was being discontinued, meaning that line was going to get shut down,\" necessitating the upgrade.\n\nWhat wasn't clear, according to Secretary Duffy, was the root cause of the problem. He said that it could have been faulty hardware, a misconfigured rout …\n\nRead the full story at The Verge.",
       "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100",
       "source": "The Verge",
       "publishedAt": "2026-11-14T17:44:28.000Z",
@@ -527,8 +1072,8 @@
       "id": "c8d55e521b5b",
       "title": "Lovable apps expose passport details and more than 200K private messages",
       "link": "https://www.crissyfield.de/research/lovable-en/",
-      "description": "9 points · 0 comments",
-      "content": "Article URL: https://www.crissyfield.de/research/lovable-en/\n\nComments URL: https://news.ycombinator.com/item?id=50499017\n\nPoints: 9\n\n# Comments: 0",
+      "description": "508 points · 184 comments",
+      "content": "Article URL: https://www.crissyfield.de/research/lovable-en/\n\nComments URL: https://news.ycombinator.com/item?id=50499017\n\nPoints: 508\n\n# Comments: 184",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T17:43:10.000Z",
@@ -537,6 +1082,21 @@
         "programming"
       ],
       "author": "armcat"
+    },
+    {
+      "id": "98c016129092",
+      "title": "Will we put data centers in space?",
+      "link": "https://www.forethought.org/research/will-we-really-put-data-centers-in-space",
+      "description": "41 points · 120 comments",
+      "content": "Article URL: https://www.forethought.org/research/will-we-really-put-data-centers-in-space\n\nComments URL: https://news.ycombinator.com/item?id=50498945\n\nPoints: 41\n\n# Comments: 120",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T17:35:33.000Z",
+      "categories": [
+        "science",
+        "programming"
+      ],
+      "author": "simonebrunozzi"
     },
     {
       "id": "7134e7e1ad67",
@@ -553,20 +1113,6 @@
         "startups"
       ],
       "author": "Lauren Forristal"
-    },
-    {
-      "id": "98c1b0177d00",
-      "title": "Samsung may be getting rid of another One UI feature",
-      "link": "https://www.engadget.com/2311763/samsung-one-ui-getting-rid-of-another-feature/",
-      "description": "Samsung has discontinued Samsung Messages in favor of Google Messages in the US, and it looks like another One UI feature may suffer the same fate.",
-      "content": "Samsung has discontinued Samsung Messages in favor of Google Messages in the US, and it looks like another One UI feature may suffer the same fate.",
-      "thumbnail": "https://www.engadget.com/img/gallery/samsung-may-be-getting-rid-of-another-one-ui-feature/l-intro-1794202783.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T17:30:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Filipe Espósito)"
     },
     {
       "id": "4c0c677b8fcc",
@@ -614,20 +1160,18 @@
       "author": "Jason Venter"
     },
     {
-      "id": "e5e8a4b21f10",
-      "title": "Is 1TB enough storage for your Xbox Series X? Here's what gamers should know",
-      "link": "https://www.engadget.com/2311827/1tb-storage-xbox-series-x-enough/",
-      "description": "With games increasingly taking up valuable space on consoles, we take a look at whether going for the extra storage on the Xbox Series X is really worth it.",
-      "content": "With games increasingly taking up valuable space on consoles, we take a look at whether going for the extra storage on the Xbox Series X is really worth it.",
-      "thumbnail": "https://www.engadget.com/img/gallery/is-1tb-enough-storage-for-your-xbox-series-x-heres-what-gamers-should-know/l-intro-1794300311.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T17:15:00.000Z",
+      "id": "89264b78fb1f",
+      "title": "GTA 6 Will Do Something the Franchise Has Never Done Before: Encourage Empathy",
+      "link": "https://www.ign.com/articles/gta-6-will-do-something-the-franchise-has-never-done-before-encourage-empathy",
+      "description": "Rockstar has confirmed GTA 6 features something the franchise has never had before: mechanisms that encourage empathy.",
+      "content": "Rockstar has confirmed GTA 6 features something the franchise has never had before: mechanisms that encourage empathy.\n\nRockstar North co-studio head Rob Nelson and head of publishing Jennifer Kolbe talked about how next week's Grand Theft Auto changes the formula the series is known for during an interview with The Guardian (via @GameRoll_ ). Jason and Lucia will surely be able to cause a fair amount of chaos when players take control in Vice City, but in a post- Red Dead Redemption 2 world, they'll have the freedom to be kind, too.\n\n\"Crime is a fundamental part of GTA – at least up until now, it has been,\" Nelson said. \"We're trying to make sure we're not punishing people for playing the game they are used to … [but] your actions will have some effect on how the game plays out.\"\n\nGames like GTA 5 have given players playgrounds and characters that can maximize the mayhem. Trevor, one of that game's three protagonists, is a great example of this chaotic energy, but in GTA 6, there doesn't seem to be a direct equivalent. Sure, Rockstar's trademark tone and instantly recognizable characters can be seen all over what few trailers we've received thus far, but everything seems a bit more grounded, too.\n\nFalling in line with this is the news that GTA 6 will feature a world that might actually reward those who take the citizens of Leonida into consideration. Of course, that doesn't mean those who prefer to wreak havoc won't be able to play their way, too. It just means that, at least based on Nelson's words, there's some room to be a normal or even good person, too.\n\n\"I would say so,\" he replied when asked if the new game would encourage empathy in some capacity. \"I would say that it's a product of the story we're trying to tell. We've tried for the first time in a GTA to provide mechanisms that encourage it, for those who want to.\"\n\nElsewhere in the interview, Nelson described Jason and Lucia as a \"younger couple with their backs against the wall,\" which is why it doesn't make sense for them to \"go out and cause as much carnage and make as much noise as they can.\" This isn't Michael, Franklin, or Trevor, nor is it Niko Bellic. Thankfully, we won't have to wait too much longer to find out just what kind of criminals Jason and Lucia are, or who they can be.\n\nGTA 6 launches November 19, 2026, for PS5 and Xbox Series X | S. With more grounded in-game mechanisms and NPCs that react to weapons, it's clear we're staring down what will likely be the most realistic Grand Theft Auto game so far. It's something that has plenty of fans excited and others nervous. Recent footage shared by Rockstar has highlighted the game's unbelievable graphics. It's something that has IGN writer Jacqueline Thomas excited, even if it does run at 30 fps.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/05/jason-and-lucia-14-1793891731334.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-14T17:19:13.000Z",
       "categories": [
-        "gaming",
-        "science",
-        "tech"
+        "gaming"
       ],
-      "author": "staff@engadget.com (Roger Fingas)"
+      "author": "Michael Cripe"
     },
     {
       "id": "5f02551e61c6",
@@ -644,36 +1188,6 @@
       "author": "Tomas Franzese"
     },
     {
-      "id": "5321fde2449d",
-      "title": "The Zelda: Ocarina of Time Remake Is an Event Even if You’re Not Playing It",
-      "link": "https://www.polygon.com/switchboard-zelda-ocarina-of-time-reception/",
-      "description": "Watching personal reactions to Nintendo's Switch 2 version of The Legend of Zelda: OoT is beautiful",
-      "content": "Switchboard is Polygon's weekly newsletter for all things Nintendo, sent on Thursdays and published on the site on Saturdays. You can subscribe here.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/zelda-ocarina-of-time-owl.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T17:00:19.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Oli Welsh"
-    },
-    {
-      "id": "0fe8c96441f3",
-      "title": "Why is the NVIDIA RTX 3060 still the most popular GPU on Steam?",
-      "link": "https://www.engadget.com/2315651/why-nvidia-rtx-3060-most-popular-steam-gpu/",
-      "description": "You'd think that gamers would always run the latest and greatest GPUs in their rigs, but NVIDIA's RTX 3060 proves that isn't quite the case.",
-      "content": "You'd think that gamers would always run the latest and greatest GPUs in their rigs, but NVIDIA's RTX 3060 proves that isn't quite the case.",
-      "thumbnail": "https://www.engadget.com/img/gallery/why-is-the-nvidia-rtx-3060-still-the-most-popular-gpu-on-steam/l-intro-1794559902.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T17:00:00.000Z",
-      "categories": [
-        "hardware",
-        "gaming",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Luke James)"
-    },
-    {
       "id": "ef0117d38210",
       "title": "Claude Fable 5.2 vs. Fable 5.1: Fewer refusals, with small savings on the login fix",
       "link": "https://thenewstack.io/claude-fable-5-2-vs-fable-5-1/",
@@ -687,64 +1201,6 @@
         "programming"
       ],
       "author": "Jessica Wachtel"
-    },
-    {
-      "id": "d3b13942bbdb",
-      "title": "Uber drivers' information stolen in a third-party hack",
-      "link": "https://www.engadget.com/2316881/uber-drivers-information-stolen-in-a-third-party-hack/",
-      "description": "Uber sends warning to drivers whose information was stolen in a data breach.",
-      "content": "Uber sends warning to drivers whose information was stolen in a data breach.",
-      "thumbnail": "https://www.engadget.com/img/gallery/uber-drivers-information-stolen-in-a-third-party-hack/l-intro-1794674539.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T16:47:44.000Z",
-      "categories": [
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Mariella Moon)"
-    },
-    {
-      "id": "4e7aff1790df",
-      "title": "Your new tech is still stuck in the year 1970 — here's why",
-      "link": "https://www.engadget.com/2311725/new-tech-stick-in-year-1970-unix-time-explained/",
-      "description": "If you've ever seen an arbitrary date in 1970 on your non-Windows device, don't worry, it's not glitching. It was chosen during the development process.",
-      "content": "If you've ever seen an arbitrary date in 1970 on your non-Windows device, don't worry, it's not glitching. It was chosen during the development process.",
-      "thumbnail": "https://www.engadget.com/img/gallery/your-new-tech-is-still-stuck-in-the-year-1970-heres-why/l-intro-1794270610.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T16:45:00.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Ben Stegner)"
-    },
-    {
-      "id": "05d663d7c5cd",
-      "title": "8 Iconic Video Game Villains Who Were Actually Right the Whole Time",
-      "link": "https://www.polygon.com/video-game-villains-best-motives/",
-      "description": "The best video game villains of all time had motives that, when you think about them, actually made a whole lot of sense.",
-      "content": "Grab your gavel: Court is in session for eight of gaming’s most misunderstood villains. Their charges? One occupied planet, one erased painting, one underwater utopia gone to rot, and a truly staggering body count. But, all that aside, what if these bad guys were actually making a somewhat decent point? Read between the lines of their melodramatic monologues, and perhaps you’ll realize that, say, a centuries-long guilt trip over one catastrophic mistake was in fact understandable rationale for wanting to tear the world down and start over. Or not: You get to decide. Just read each villain’s case file below before reaching a verdict — you might not love where the evidence actually points.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22989776/ss_4b2b412307b72a21f68148c32fab7a278875d139.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T16:44:33.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Rebecca Corgan"
-    },
-    {
-      "id": "f73295c867ad",
-      "title": "GTA 6 Players Report Issues with Physical Version Pre-Order Codes",
-      "link": "https://www.polygon.com/gta-6-grand-theft-auto-no-code-physical-edition/",
-      "description": "Reports indicate that physical GTA 6 pre-orders are arriving without codes, making it impossible to claim the game.",
-      "content": "With its launch less than a week away, players all over the world have started preloading Grand Theft Auto 6 to ensure they're able to play as soon as it drops. Reports from several fans indicate that some code-in-box copies of GTA 6 include a faulty redemption leaflet, preventing buyers from claiming the game.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/lucia_caminos_10.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T16:43:28.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Ashely Claudino"
     },
     {
       "id": "075bbfb634c2",
@@ -763,20 +1219,6 @@
       "author": "Kate Park"
     },
     {
-      "id": "c5b1e7a9ce76",
-      "title": "10 Near-Perfect Nintendo Switch Games Nobody Played",
-      "link": "https://www.polygon.com/best-switch-hidden-gems/",
-      "description": "The Nintendo Switch library is massive, but now that we're more than a year into the Switch 2's life cycle, here are the best overlooked Switch games.",
-      "content": "When a system has a library as diverse as the Nintendo Switch, some great games are bound to go unrecognized. There are thousands of physical titles available, and thousands more that never got more than a simple digital release. Not every game is for everyone, though. Many players choose to ignore the digital marketplace altogether because it has become so cluttered. We sometimes overlook even physical releases, now that there are so many of them. That means there are plenty of hidden gems to discover, especially when it comes to the stuff you won’t find on any other console. With that in mind, here are 10 near-perfect Switch games nobody played.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/25290169/mario_switch_.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T16:34:06.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Jason Venter"
-    },
-    {
       "id": "b981f59db4b7",
       "title": "Samsung's 1TB 990 SSD drops to 19 cents per GB amid the memory crisis — grab it for $40 off",
       "link": "https://www.tomshardware.com/pc-components/samsungs-1tb-990-ssd-drops-to-19-cents-per-gb-amid-the-memory-crisis-grab-it-for-usd40-off",
@@ -790,21 +1232,6 @@
         "hardware"
       ],
       "author": "Kunal Khullar"
-    },
-    {
-      "id": "c226bfdad555",
-      "title": "Here's how much Apple AirPods cost in 2016 vs. 2026",
-      "link": "https://www.engadget.com/2311715/apple-airpods-2016-vs-2026-how-much-they-cost/",
-      "description": "First introduced in 2016, AirPods have improved in quality, offering a bevy of new features, but how has that impacted the cost to the consumer today?",
-      "content": "First introduced in 2016, AirPods have improved in quality, offering a bevy of new features, but how has that impacted the cost to the consumer today?",
-      "thumbnail": "https://www.engadget.com/img/gallery/heres-how-much-apple-airpods-cost-in-2016-vs-2026/l-intro-1794268432.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T16:30:00.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Ben Stegner)"
     },
     {
       "id": "e4623b0d2fbb",
@@ -835,40 +1262,25 @@
       "author": "Matt Purslow"
     },
     {
-      "id": "359fb450257d",
-      "title": "Italy fines Meta €805m over accessing users' photos",
-      "link": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
-      "description": "The social media giant is accused of not informing 20 million users it had access to their photos.",
-      "content": "The social media giant is accused of not informing 20 million users it had access to their photos.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/d6be/live/f51842e0-e041-11f1-88e1-eb4e155225b3.jpg",
-      "source": "BBC Technology",
-      "publishedAt": "2026-11-14T16:29:48.000Z",
+      "id": "796d67786032",
+      "title": "Creating a self booting ZIP archive",
+      "link": "https://goliath32.com/blog/ziphead.html",
+      "description": "32 points · 6 comments",
+      "content": "Article URL: https://goliath32.com/blog/ziphead.html\n\nComments URL: https://news.ycombinator.com/item?id=50498295\n\nPoints: 32\n\n# Comments: 6",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T16:29:05.000Z",
       "categories": [
-        "tech"
+        "programming"
       ],
-      "author": null
-    },
-    {
-      "id": "875fe0087c19",
-      "title": "Whatever happened to Sony Xperia phones?",
-      "link": "https://www.engadget.com/2311608/sony-xperia-phones-what-happened/",
-      "description": "Sony seems to have its hand in virtually every device offering, but true fans know that one product line in particular vanished from the American market.",
-      "content": "Sony seems to have its hand in virtually every device offering, but true fans know that one product line in particular vanished from the American market.",
-      "thumbnail": "https://www.engadget.com/img/gallery/whatever-happened-to-sony-xperia-phones/l-intro-1794261302.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T16:15:00.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Husain Parvez)"
+      "author": "gdgghhhhh"
     },
     {
       "id": "616c0f4e0d4a",
       "title": "How to Create Your Own Decentralized Messenger Protocol",
       "link": "https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol",
-      "description": "5 points · 0 comments",
-      "content": "Article URL: https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol\n\nComments URL: https://news.ycombinator.com/item?id=50498073\n\nPoints: 5\n\n# Comments: 0",
+      "description": "47 points · 9 comments",
+      "content": "Article URL: https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol\n\nComments URL: https://news.ycombinator.com/item?id=50498073\n\nPoints: 47\n\n# Comments: 9",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T16:01:04.000Z",
@@ -876,50 +1288,6 @@
         "programming"
       ],
       "author": "fagnerbrack"
-    },
-    {
-      "id": "cb0f354d4c3b",
-      "title": "James Gunn Responds To Scathing Man of Tomorrow Rumors Following DC Studios Exit",
-      "link": "https://www.polygon.com/james-gunn-responds-man-of-tomorrow-rumors/",
-      "description": "James Gunn says not to believe rumors about the quality of Man of Tomorrow, as not many people have seen the former DC Studios head's next film yet",
-      "content": "Skydance's decision to replace DC Studios heads James Gunn and Peter Safran with Jeremy Latcham earlier this week has spawned all sorts of rumors and reports. For the first time since the news broke last Monday, James Gunn spoke out on social media to deny certain rumors, specifically those surrounding next year's Superman sequel, Man of Tomorrow.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/mcdsupe_wb003.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T16:00:50.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Tomas Franzese"
-    },
-    {
-      "id": "161c6cff0bab",
-      "title": "Netflix’s New KPop Demon Hunters Replacement Is an Instant Fantasy Classic",
-      "link": "https://www.polygon.com/steps-2026-netflix-review/",
-      "description": "'Steps' is a unique take on Cinderella that challenges the fairy tale in fresh, engaging ways.",
-      "content": "A quarter-century after Shrek first married the princess and turned the entire genre on its head, these subverted fairytales have become about as commonplace as the original stories that inspired them. So when Netflix announced a new animated movie told from the perspectives of Cinderella's Ugly Stepsisters, it wasn't exactly an inspired choice. Disney already did that two decades ago with Cinderella II: Dreams Come True (2002) and Cinderella III: A Twist in Time (2007), with a live-action film following the unlikable duo set for release in the future.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/lilith-holds-a-frog-and-looks-over-fairy-gondmother-s-shoulders-along-with-cinderella-in-steps.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T16:00:18.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Aimee Hart"
-    },
-    {
-      "id": "baf7a9329e6c",
-      "title": "Italy fines Meta €805M over photo privacy",
-      "link": "https://www.rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority/",
-      "description": "99 points · 50 comments",
-      "content": "Article URL: https://www.rapporteur.com/news/italy-fines-meta-880mn-over-photo-privacy-authority/\n\nComments URL: https://news.ycombinator.com/item?id=50498063\n\nPoints: 99\n\n# Comments: 50",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T16:00:14.000Z",
-      "categories": [
-        "cybersecurity",
-        "privacy",
-        "programming"
-      ],
-      "author": "jruohonen"
     },
     {
       "id": "f033bd1704fa",
@@ -936,20 +1304,6 @@
         "tech"
       ],
       "author": "Vanessa Hand Orellana"
-    },
-    {
-      "id": "7710af2950c2",
-      "title": "What the circled \"Z\" on Google Maps means",
-      "link": "https://www.engadget.com/2311447/google-maps-circled-z-meaning/",
-      "description": "If you've seen a circled capital Z on your Google Maps route, you should know what it means. It might save you from a ticket.",
-      "content": "If you've seen a circled capital Z on your Google Maps route, you should know what it means. It might save you from a ticket.",
-      "thumbnail": "https://www.engadget.com/img/gallery/what-the-circled-z-on-google-maps-means/l-intro-1794255979.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T16:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Nimrod Aldea)"
     },
     {
       "id": "b1e9f8bc0b70",
@@ -997,39 +1351,11 @@
       "author": "Jennifer Riggins"
     },
     {
-      "id": "22f7379a4d8d",
-      "title": "Sodium vs. lithium-ion batteries: What's the difference between them?",
-      "link": "https://www.engadget.com/2311394/sodium-vs-lithium-ion-batteries-differences-compared/",
-      "description": "Lithium-ion batteries may dominate today, but emerging alternatives like sodium-ion may soon have their time in the spotlight if we can manage key differences.",
-      "content": "Lithium-ion batteries may dominate today, but emerging alternatives like sodium-ion may soon have their time in the spotlight if we can manage key differences.",
-      "thumbnail": "https://www.engadget.com/img/gallery/sodium-vs-lithium-ion-batteries-whats-the-difference-between-them/l-intro-1794254508.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T15:45:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Thomas Godwin)"
-    },
-    {
-      "id": "14e0892d6f4a",
-      "title": "Formalizing US Tax Code (Using Lean)",
-      "link": "https://lexifina.com/blog/formalizing-the-us-tax-code",
-      "description": "61 points · 23 comments",
-      "content": "Article URL: https://lexifina.com/blog/formalizing-the-us-tax-code\n\nComments URL: https://news.ycombinator.com/item?id=50497900\n\nPoints: 61\n\n# Comments: 23",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T15:41:20.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "dnw"
-    },
-    {
       "id": "85898c079664",
       "title": "PyPI's redesigned project pages with clearer security signals are now live",
       "link": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "description": "97 points · 32 comments",
-      "content": "Article URL: https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/\n\nComments URL: https://news.ycombinator.com/item?id=50497892\n\nPoints: 97\n\n# Comments: 32",
+      "description": "175 points · 81 comments",
+      "content": "Article URL: https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/\n\nComments URL: https://news.ycombinator.com/item?id=50497892\n\nPoints: 175\n\n# Comments: 81",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T15:40:52.000Z",
@@ -1053,20 +1379,6 @@
         "hardware"
       ],
       "author": "Anton Shilov"
-    },
-    {
-      "id": "a2a907d6fb8b",
-      "title": "Should you make the switch to Samsung Galaxy from Google Pixel?",
-      "link": "https://www.engadget.com/2311344/switch-to-samsung-galaxy-to-google-pixel/",
-      "description": "Thinking about trading your Google Pixel for a Samsung Galaxy? Some of the biggest differences might not be the ones you expect.",
-      "content": "Thinking about trading your Google Pixel for a Samsung Galaxy? Some of the biggest differences might not be the ones you expect.",
-      "thumbnail": "https://www.engadget.com/img/gallery/should-you-make-the-switch-to-samsung-galaxy-from-google-pixel/l-intro-1794253187.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T15:30:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Husain Parvez)"
     },
     {
       "id": "d51d9178edf2",
@@ -1095,20 +1407,6 @@
         "cybersecurity"
       ],
       "author": "Bill Toulas"
-    },
-    {
-      "id": "ced915593d05",
-      "title": "Smart glasses could replace your monitor but they shouldn't — here's why",
-      "link": "https://www.engadget.com/2311266/smart-glasses-replace-monitor-why-not/",
-      "description": "Smart glasses could one day replace your desk setup with a screen that follows you anywhere. Before you make the switch, there are a few things to consider.",
-      "content": "Smart glasses could one day replace your desk setup with a screen that follows you anywhere. Before you make the switch, there are a few things to consider.",
-      "thumbnail": "https://www.engadget.com/img/gallery/smart-glasses-could-replace-your-monitor-but-they-shouldnt-heres-why/l-intro-1793991316.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T15:15:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Erin Carson)"
     },
     {
       "id": "0b7d8c23c933",
@@ -1146,8 +1444,8 @@
       "id": "ad8b3d5bdfd0",
       "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
       "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-      "description": "20 points · 0 comments",
-      "content": "Article URL: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax\n\nComments URL: https://news.ycombinator.com/item?id=50497589\n\nPoints: 20\n\n# Comments: 0",
+      "description": "119 points · 7 comments",
+      "content": "Article URL: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax\n\nComments URL: https://news.ycombinator.com/item?id=50497589\n\nPoints: 119\n\n# Comments: 7",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T15:04:15.000Z",
@@ -1187,22 +1485,6 @@
       "author": "Nilay Patel"
     },
     {
-      "id": "fcf5f67c5276",
-      "title": "The weird reasons why your ethernet cable might be slower than your Wi-Fi",
-      "link": "https://www.engadget.com/2311140/reason-why-ethernet-cable-slower-than-wifi/",
-      "description": "It could be hardware, software or something else entirely.",
-      "content": "It could be hardware, software or something else entirely.",
-      "thumbnail": "https://www.engadget.com/img/gallery/the-weird-reasons-why-your-ethernet-cable-might-be-slower-than-your-wi-fi/l-intro-1794248467.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T15:00:00.000Z",
-      "categories": [
-        "programming",
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Lawrence Bonk)"
-    },
-    {
       "id": "2990c14363c1",
       "title": "AMD's fastest gaming CPU and the Radeon RX 9070 just hit a massive $550 discount",
       "link": "https://www.tomshardware.com/desktops/gaming-pcs/amds-fastest-gaming-cpu-and-the-radeon-rx-9070-just-hit-a-massive-usd550-discount-32gb-ddr5-ram-and-1tb-ssd-round-off-usd1-749-99-gaming-rig",
@@ -1233,36 +1515,18 @@
       "author": "Bruno Ferreira"
     },
     {
-      "id": "3f7e5d998a87",
-      "title": "Your iPhone has a built-in barometer — Here's how to use it",
-      "link": "https://www.engadget.com/2311121/iphone-barometric-pressure-app-and-how-it-works/",
-      "description": "The iPhone's barometer is easy to overlook, but it's one of several sensors working behind the scenes every day, collecting data most users haven't seen.",
-      "content": "The iPhone's barometer is easy to overlook, but it's one of several sensors working behind the scenes every day, collecting data most users haven't seen.",
-      "thumbnail": "https://www.engadget.com/img/gallery/your-iphone-has-a-built-in-barometer-heres-how-to-use-it/l-intro-1794248048.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T14:45:00.000Z",
+      "id": "6cef2aaaf2f7",
+      "title": "Demystifying phone unlocking tools: A technical overview",
+      "link": "https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/",
+      "description": "51 points · 1 comments",
+      "content": "Article URL: https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/\n\nComments URL: https://news.ycombinator.com/item?id=50497416\n\nPoints: 51\n\n# Comments: 1",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T14:44:28.000Z",
       "categories": [
-        "hardware",
-        "mobile",
-        "tech"
+        "programming"
       ],
-      "author": "staff@engadget.com (Thomas Godwin)"
-    },
-    {
-      "id": "0622f1ac5f9e",
-      "title": "Which Android Phones Are Most Similar To The OnePlus 16?",
-      "link": "https://www.engadget.com/2311107/android-phones-most-similar-oneplus-16/",
-      "description": "While the OnePlus 16 isn't available in the US or Europe, there are lots of good alternatives.",
-      "content": "While the OnePlus 16 isn't available in the US or Europe, there are lots of good alternatives.",
-      "thumbnail": "https://www.engadget.com/img/gallery/which-android-phones-are-most-similar-to-the-oneplus-16/l-intro-1794246960.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T14:30:00.000Z",
-      "categories": [
-        "hardware",
-        "mobile",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Harish Jonnalagadda)"
+      "author": "iloveyoutwo"
     },
     {
       "id": "b935addbc6bc",
@@ -1293,26 +1557,11 @@
       "author": "Andrew J. Hawkins"
     },
     {
-      "id": "dbb6a7059ae0",
-      "title": "Serving GLM-5.3 at 607.8 tok/s across two Nvidia DGX stations with vLLM",
-      "link": "https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/",
-      "description": "83 points · 39 comments",
-      "content": "Article URL: https://developer.nvidia.com/blog/when-one-gpu-isnt-enough-serving-glm-5-3-across-two-nvidia-dgx-stations-with-vllm/\n\nComments URL: https://news.ycombinator.com/item?id=50497155\n\nPoints: 83\n\n# Comments: 39",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T14:09:25.000Z",
-      "categories": [
-        "hardware",
-        "programming"
-      ],
-      "author": "wondersky"
-    },
-    {
       "id": "3f060b226b66",
       "title": "Show HN: Agweb – a browser for agents that stays out of your way",
       "link": "https://github.com/paul-nameless/agweb",
-      "description": "50 points · 17 comments",
-      "content": "Article URL: https://github.com/paul-nameless/agweb\n\nComments URL: https://news.ycombinator.com/item?id=50497147\n\nPoints: 50\n\n# Comments: 17",
+      "description": "79 points · 21 comments",
+      "content": "Article URL: https://github.com/paul-nameless/agweb\n\nComments URL: https://news.ycombinator.com/item?id=50497147\n\nPoints: 79\n\n# Comments: 21",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T14:08:12.000Z",
@@ -1325,8 +1574,8 @@
       "id": "ad49a76de154",
       "title": "Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
       "link": "https://github.com/FURSOY/fursoy-cpu",
-      "description": "32 points · 9 comments",
-      "content": "Article URL: https://github.com/FURSOY/fursoy-cpu\n\nComments URL: https://news.ycombinator.com/item?id=50497137\n\nPoints: 32\n\n# Comments: 9",
+      "description": "61 points · 20 comments",
+      "content": "Article URL: https://github.com/FURSOY/fursoy-cpu\n\nComments URL: https://news.ycombinator.com/item?id=50497137\n\nPoints: 61\n\n# Comments: 20",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T14:06:34.000Z",
@@ -1342,7 +1591,7 @@
       "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
       "link": "https://gitlab.com/snipedbywifi/terminactory",
       "description": "",
-      "content": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve \"telegrams\" [the agent's responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!) Right now, the game has basic factory features you'd expect from a game like this (build stuff, delete stuff, measure how much you're earning, basic selection tools), along with a few more.. \"unexpected\" features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you'd need to unlock something, and some more QOL features. If anyone actually has this issue / want of a terminal-based game that runs alongside your agents so you don't doomscroll, do you have any suggestions, or additional ideas I could add? It's hosted on GitLab, soo, that's one additional thing i'd like to mention Thanks for reading!! snipedbywifi (p.s. first HN post lol)\n(p.s. p.s. there's a lot of hidden lore in the game, so.. lore-divers? you might like it?)\n\nComments URL: https://news.ycombinator.com/item?id=50497132\n\nPoints: 83\n\n# Comments: 14",
+      "content": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve \"telegrams\" [the agent's responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!) Right now, the game has basic factory features you'd expect from a game like this (build stuff, delete stuff, measure how much you're earning, basic selection tools), along with a few more.. \"unexpected\" features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you'd need to unlock something, and some more QOL features. If anyone actually has this issue / want of a terminal-based game that runs alongside your agents so you don't doomscroll, do you have any suggestions, or additional ideas I could add? It's hosted on GitLab, soo, that's one additional thing i'd like to mention Thanks for reading!! snipedbywifi (p.s. first HN post lol)\n(p.s. p.s. there's a lot of hidden lore in the game, so.. lore-divers? you might like it?)\n\nComments URL: https://news.ycombinator.com/item?id=50497132\n\nPoints: 121\n\n# Comments: 24",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T14:05:54.000Z",
@@ -1423,65 +1672,6 @@
         "hardware"
       ],
       "author": "Mark Tyson"
-    },
-    {
-      "id": "b02211b1de7e",
-      "title": "Italy fines Meta $887M over Android users' data access",
-      "link": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
-      "description": "157 points · 79 comments",
-      "content": "Article URL: https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/\n\nComments URL: https://news.ycombinator.com/item?id=50497009\n\nPoints: 157\n\n# Comments: 79",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T13:48:06.000Z",
-      "categories": [
-        "hardware",
-        "mobile",
-        "programming"
-      ],
-      "author": "giuliomagnifico"
-    },
-    {
-      "id": "fbb4c2fd353e",
-      "title": "KDE: The documentary [video]",
-      "link": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c",
-      "description": "177 points · 28 comments",
-      "content": "Article URL: https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c\n\nComments URL: https://news.ycombinator.com/item?id=50496976\n\nPoints: 177\n\n# Comments: 28",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T13:43:28.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "mrkn1"
-    },
-    {
-      "id": "a7ab4e0023a4",
-      "title": "A visual explanation of reinforcement learning",
-      "link": "https://aatishb.com/myriad/how-brains-learn/",
-      "description": "41 points · 2 comments",
-      "content": "Article URL: https://aatishb.com/myriad/how-brains-learn/\n\nComments URL: https://news.ycombinator.com/item?id=50496885\n\nPoints: 41\n\n# Comments: 2",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T13:31:06.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "aatish"
-    },
-    {
-      "id": "90d40fe08702",
-      "title": "Advancing science and engineering with Antigravity's /teamwork",
-      "link": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/",
-      "description": "74 points · 19 comments",
-      "content": "Article URL: https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/\n\nComments URL: https://news.ycombinator.com/item?id=50496811\n\nPoints: 74\n\n# Comments: 19",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T13:20:43.000Z",
-      "categories": [
-        "science",
-        "programming"
-      ],
-      "author": "acossta"
     },
     {
       "id": "f94fedc05562",
@@ -1570,22 +1760,6 @@
         "science"
       ],
       "author": null
-    },
-    {
-      "id": "f67a5ae71b6e",
-      "title": "Tech Companies Are Trying to Shift the Concept of Privacy (Again)",
-      "link": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
-      "description": "247 points · 95 comments",
-      "content": "Article URL: https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again\n\nComments URL: https://news.ycombinator.com/item?id=50496602\n\nPoints: 247\n\n# Comments: 95",
-      "thumbnail": "https://www.eff.org/files/banner_library/mobile-privacy.png",
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T12:45:45.000Z",
-      "categories": [
-        "cybersecurity",
-        "privacy",
-        "programming"
-      ],
-      "author": "gslin"
     },
     {
       "id": "073d8f2c6f89",
@@ -1810,22 +1984,6 @@
       "author": "Jeff Wise"
     },
     {
-      "id": "73f2c6c7d102",
-      "title": "Nearly 20 years after launch, ancient AMD Radeon HD 2000 and 3000 GPUs finally get a Linux fix for corrupted video playback",
-      "link": "https://www.tomshardware.com/software/linux/nearly-20-years-after-launch-ancient-radeon-hd-2000-and-3000-gpus-finally-get-a-linux-fix-for-corrupted-video-playback-ai-helps-squash-a-decades-old-uvd-bug",
-      "description": "A new kernel contributor used AI to develop a patch for the drivers powering his nearly-20-year-old Radeon GPU.",
-      "content": "A newly accepted kernel patch slated for the upcoming Linux 7.5 release finally resolves a long-standing hardware video decoding bug on AMD's ancient R600 architecture, nearly two decades after the cards first hit store shelves. As spotted by Phoronix, the fix targets the Unified Video Decoder (UVD) engine across the RV610, RV620, RV630, RV635, and RV670 silicon families, making up the Radeon HD 2000 and HD 3000 families released starting in 2007. Linux users running these cards experienced visual corruption during hardware-accelerated video playback whenever the GPU was simultaneously handling active 3D or desktop drawing workloads; those issues should now be resolved.\n\nI investigated video corruption on my older iMac7,1 (RV610/M74,device ID 1002:94c8). When the decoder was reading compressed video from system memory while the GPU was drawing, it would corrupt video frames. Moving the input to VRAM allowed frames to decode correctly. Disabling graphics draws also stopped the corruption.Here is a proposal to keep UVD buffers in VRAM for this family of devices, as the driver already does for some other chips. The patch covers RV610, RV620, RV630, RV635 and RV670. These chips share the RV6xx decoder path and legacy R600 firmware, so I think they are likely to have the same hardware requirements. Someone with the other hardware would need to verify that.I tested this on Debian. I used Codex to help with the investigation, testing and patch.\n\nTed Bullock, first-time kernel contributor\n\nInterestingly, the breakthrough didn't come from a grizzled veteran of the open-source graphics stack, but from a newcomer utilizing OpenAI's Codex to help untangle the legacy driver path. The culprit turned out to be a memory placement oversight: the driver wasn't consistently keeping UVD input buffers pinned inside dedicated VRAM. When graphics draw calls competed for resources, frames failed to decode properly. By forcing those buffers to stay in VRAM — a behavior the Radeon kernel driver apparently already enforced for several other chip families — video playback cleans right up.\n\nIt is easy to forget just how pivotal the R600 generation was for PC graphics. Launching in 2007 as the first desktop GPU lineup built under the AMD banner following that firm's blockbuster acquisition of the Canadian ATI Technologies Inc., the Radeon HD 2000 series marked the new AMD graphics division's transition away from separate pixel and vertex pipelines on the desktop, after implementing the tech first for the Xbox 360. The move to a unified shader architecture arrived alongside DirectX 10 and Windows Vista, so it was a time of many transitions.\n\nA die shot of the ATI R600 GPU, showing off the four SIMD clusters of then-novel unified shaders. (Image credit: Martijn Boer /Public Domain) While the flagship Radeon HD 2900 XT famously struggled against Nvidia's dominant GeForce 8800 GTX in raw gaming rasterization and power draw, the R600 family brought serious multimedia chops to the table. The introduction of the first-generation Unified Video Decoder (UVD) on the mainstream RV610 and RV630 chips, and later the refined RV670 powering the beloved Radeon HD 3850 and 3870, allowed even budget PCs to offload heavy H.264 and VC-1 Blu-ray decoding from the CPU. In 2007, smooth 1080p playback without maxing out a dual-core processor was a major selling point for many users, but none more so than home theater PC (HTPC) builders.\n\nOf course, almost nobody is daily driving a TeraScale 1 graphics card in 2026, especially when modern integrated graphics run circles around them at a fraction of the wattage; the contributor who submitted the patches wants them for his ancient Core 2 Duo-based iMac. Yet, there is something quietly heartwarming about the longevity of open-source Linux drivers. Whereas proprietary Windows support for the HD 2000 and 3000 series was sunsetted over a decade ago, the mainline Linux kernel continues to carry the torch. Combined with recent AI-assisted cleanup efforts across the Mesa R600 user-space driver, vintage Radeon hardware is arguably in better software shape today than it was during its actual retail lifespan.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/hPxrCnciuXxmjC3PZZ3p95-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-14T11:00:00.000Z",
-      "categories": [
-        "ai",
-        "hardware",
-        "cybersecurity"
-      ],
-      "author": "Zak Killian"
-    },
-    {
       "id": "a2fc56527bca",
       "title": "My 9 Favorite Pickleball Paddles From 3 Years of Testing (2026)",
       "link": "https://www.wired.com/story/best-pickleball-paddles/",
@@ -1897,20 +2055,6 @@
       "author": "Wesley Yin-Poole"
     },
     {
-      "id": "5e63fa53ad14",
-      "title": "Thanksgiving Meal Deals Roundup (2026): Walmart, Amazon, Target",
-      "link": "https://www.wired.com/story/thanksgiving-meal-deals-2026/",
-      "description": "Here’s how to get your bird and all the trimmings on a budget.",
-      "content": "Here’s how to get your bird and all the trimmings on a budget.",
-      "thumbnail": "https://media.wired.com/photos/6af78b0965e40024232d7e36/master/pass/These-Stores-Are-Offering-Complete-Thanksgiving-Meal-Deals-for-$35-or-Less.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-14T10:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Louryn Strampe"
-    },
-    {
       "id": "94e7e20952b8",
       "title": "These ‘Ghostly’ Galaxies Have Lost Their Dark Matter",
       "link": "https://www.wired.com/story/these-ghostly-galaxies-have-lost-their-dark-matter/",
@@ -1924,6 +2068,20 @@
         "science"
       ],
       "author": "Robin George Andrews"
+    },
+    {
+      "id": "5e63fa53ad14",
+      "title": "Thanksgiving Meal Deals Roundup (2026): Walmart, Amazon, Target",
+      "link": "https://www.wired.com/story/thanksgiving-meal-deals-2026/",
+      "description": "Here’s how to get your bird and all the trimmings on a budget.",
+      "content": "Here’s how to get your bird and all the trimmings on a budget.",
+      "thumbnail": "https://media.wired.com/photos/6af78b0965e40024232d7e36/master/pass/These-Stores-Are-Offering-Complete-Thanksgiving-Meal-Deals-for-$35-or-Less.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T10:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Louryn Strampe"
     },
     {
       "id": "43803d3c2ee6",
@@ -2187,7 +2345,7 @@
     },
     {
       "id": "d1e9cc9231f4",
-      "title": "Razer’s Wild $1,000 Gaming Chair Has 6 Motors, Built-in Speakers, RGB Lighting",
+      "title": "Razer’s Wild $1,000 Gaming Chair Has Six Motors, Built-In Speakers and RGB Lighting",
       "link": "https://www.cnet.com/tech/gaming/razer-soma-pro-gaming-chair-1000-has-six-motors-built-in-speakers-rgb-lighting/",
       "description": "The Soma Pro and Some Sense HD Haptics are part of an updated vibrating gaming chair lineup promising better immersion and improved comfort.",
       "content": "The Soma Pro and Some Sense HD Haptics are part of an updated vibrating gaming chair lineup promising better immersion and improved comfort.",
@@ -2213,20 +2371,6 @@
         "gaming"
       ],
       "author": "Virginia Glaze"
-    },
-    {
-      "id": "04367a7d0b10",
-      "title": "Amazon has a plan to index the world’s online shopping data",
-      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "description": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers lea",
-      "content": "Amazon has plans to build a vault of data on every product sold anywhere on the internet, even products Amazon doesn't sell, and make the information available through its own site, according to Reuters. The project, called the \"World Product Graph,\" is meant to make it less likely that shoppers leave Amazon to do their product research on Reddit or Google, and make it more likely shoppers end up at Amazon even if they're searching for a product sold elsewhere. The same goes for AI agents - if Amazon has the largest stockpile of shopping data, AI agents may rely on its index of products over others, so even people shopping with bots will end …\n\nRead the full story at The Verge.",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/09/acastro_STK103__03.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-13T23:49:11.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Stevie Bonifield"
     },
     {
       "id": "1998def1221f",
@@ -2364,34 +2508,6 @@
       "author": "Michael Cripe"
     },
     {
-      "id": "aca94c8fc8f1",
-      "title": "Barbie Rewind Review",
-      "link": "https://www.ign.com/articles/barbie-rewind-review",
-      "description": "",
-      "content": "Barbie Rewind feels like the equivalent of showing your children the family heirloom rocking horse, and then watching them poke it and ask if they can play Roblox. A weird mix of nostalgia and interior decorating sim, it's home to 17 retro Barbie games and a dreamhouse to arrange Barbie-appropriate furniture in. Now, it's been over three decades since I last smashed a Barbie against a G.I. Joe and made smooching noises, so I called in two gaming experts, Kora (9) and Paloma (5), to assist with this review. Sadly, unlike her looks, time has not been kind to Barbie's gaming legacy.\n\nWhy does she have a scuba mask but not a toilet? \"That doesn't make sense. Why does she have a scuba mask but not a toilet?\" A crucial question from Kora as the girls got stuck into the only bit of Barbie Rewind they actually cared about: the decorating. This might be selling itself as a collection of Barbie games from 1991's NES Barbie through to 2007's Barbie as the Island Princess, but its newly created Dreamhouse mode is the big winner here. There are more than 250 pieces of furniture, and some of them are unlocked by playing the retro Barbie games. The big B and other characters like Ken and Christie give you quests, but they're just to decorate the house, so it's a bit like someone saying \"be careful\" when you're already falling down the stairs.\n\nThe Barbie games themselves got what I would call a polite fiddle. I played all of them before the expert advisors were called in, and Rewind is heavy on minigames of the platforming and \"catch the falling coconut\" variety. These games haven't been given the Monkey Island-style reboot; they're presented seemingly entirely as is, but with a frame that relates to their various consoles to help smooth over any aspect ratio issues.\n\nIt's great as a museum piece, but show it to anyone born after 2010 and they basically look like cave paintings. \"Is that meant to be Barbie?\" asks Kora incredulously, squinting at Barbie Pet Rescue. Paloma picks up the controller to play one of the minigames, a sort of cat Pong using two paws that is apparently essential to pet care, and watches the ball of yarn awkwardly bounce off the screen. She knows controllers, she plays Lego Batman, but this minigame makes no sense. The ball is slow, the angles are off, and Paloma looks at me exasperated as if I personally offended her.\n\nControls were an issue throughout, changing between games in a way that meant looking up the button layout for everything they wanted to try. One smart addition is the option to tweak things like your total health in certain games, which makes for a less stressful experience all round. The girls liked the concept of a lot of them – veterinarian duties, horse racing, and the fashion dress-up doll in particular – but these are kids born long after the time when you knew that what you saw on the cover of a game was light years away from how it actually looked. I could burn through pixelated bouncing and stilted dialogue on nostalgia alone, but Kora and Paloma are playing Hogwarts Legacy; they have iPad games, and their eyes know not the trauma of staring into a Gameboy Color in the back of a moving vehicle.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/13/untitled-november-13-2026-at-15-23-38-1794605074548.png",
-      "source": "IGN",
-      "publishedAt": "2026-11-13T22:26:18.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Rachel Weber"
-    },
-    {
-      "id": "a23d9c0ed7dd",
-      "title": "Some of These GTA 6 Clips Look So Good That I Don't Care if It's Running at 30fps",
-      "link": "https://www.ign.com/articles/some-of-these-gta-6-clips-look-so-good-that-i-dont-care-if-its-running-at-30-fps",
-      "description": "Earlier this week, Rockstar confirmed that GTA 6 would be running at 30fps on all of the consoles, including the PS5 Pro. And while I wasn't surprised, I've been watching some of the clips that have been trickling out this week, and I can't say I'm not excited to play it, even at 30fps.",
-      "content": "This is an opinion piece by Jackie Thomas, IGN's Senior Tech Editor who has been writing about PC hardware for more than a decade.\n\nEarlier this week, Rockstar confirmed that GTA 6 would be running at 30fps on all of the consoles, including the PS5 Pro. And while I wasn't surprised, I've been watching some of the clips that have been trickling out this week, and I can't say I'm not excited to play it, even at 30fps.\n\nThe one that really got my attention is this one from Instagram account onlyindade. It's a simple clip of some cars slowly driving down the road, but it looks downright incredible. I've been staring at high-end graphics for 20 years, and even I had to do a double take to make sure it wasn't just real-life footage. The footage is highly compressed and it's hard to make out some of the details, but even with compression artifacts, you can tell GTA 6 is going to be an absolutely stunning game.\n\nPausing the video and looking at the road, the texture quality is incredible. You can make out individual bumps in the asphalt, along with little pieces of debris on the side of the road. Looking at the cars themselves, the reflections in the cars' paint are beautiful and make it look like an actual material. The shadows, too, are nice and soft and behave similarly to how you'd expect the actual shadows of the cars to behave, leaning away from where the sun is.\n\nThese clips from onlyindade don't specify which platform they were captured on, but I'd put my money on the PS5 Pro. In its blog earlier this week, Rockstar said the PS5 Pro would have PSSR upscaling and ray traced shadows that are exclusive to that console. Looking at the shadows cast by the cars in that clip, along with the lack of aliasing on the distant buildings – which admittedly might be drowned out by compression blurriness – it definitely looks like PSSR helped quite a bit.\n\nOnlyindade shared another clip, this time with the camera inside of a car and looking out the window as it drives down the street. Just like in the first clip, the textures on the car door are pristine, and just straight-up look real. Later on in the clip, when whoever's behind the camera is walking on the sidewalk, the camera looks at a blue and pink car that looks like it came straight out of the '50s.\n\nIn that part of the scene, it's not the car that impresses me, but rather the shadows cast from the palm tree above it. Again, this clip is super compressed, but you can make out individual leaves in the shadows. There's also a character standing next to the car on his phone, and the shadows there look phenomenal and even move flawlessly as he does.\n\nWhen looking at these clips, it's important to keep in mind that both the PS5 and the Xbox Series X are running on graphics architectures that are going on 7 years old at this point. It doesn't help that those graphics chips are paired with CPUs that are just as old. Even with that aging hardware, it sure seems like Rockstar was able to craft something that looks better than any other game on the market right now.\n\nMaybe it was just my internet connection, but all of the clips shared by that Dade County Instagram account are extremely compressed, and so it's very possible that some red flags were grayed out. In a huge open world like this with long draw distances, the detail on distant objects is usually the first thing to fall, especially as the game runs out of VRAM budget.\n\nIn that first clip, it looks like the edges of distant objects are going to be crisp, but the compression artifacts make those kinds of details seem wobbly no matter how good they look. There's a decent chance that when I boot this game up on my PS5 Pro at launch, I'm going to be assaulted by jagged edges on distant streetlights and buildings – and that is one of my pet peeves. But it doesn't look like that's the case. I just hope I haven't been fooled by online compression.\n\nMore than anything, these clips confirm that 60fps was probably out of the question for the current-generation consoles. With this level of fidelity, I'm just surprised it's running at all. But the one thought that keeps bouncing around in my head is, \"Just how good will this look when I can run it on an RTX 5090 and a 9800X3D?\" Now I just have to sit and wait for Rockstar to port the game. Hopefully the rumors about the PC port coming out next year are true.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/10/29/gta-6-jason-and-lucia-drive-by-1793234705694.jpg",
-      "source": "IGN",
-      "publishedAt": "2026-11-13T22:10:22.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Jacqueline Thomas"
-    },
-    {
       "id": "2c75a66fbe72",
       "title": "Apple details HomeView facial recognition, repair options, and more in new support guides",
       "link": "https://9to5mac.com/2026/11/13/apple-details-homeview-facial-recognition-repair-options-and-more-in-new-support-guides/",
@@ -2404,20 +2520,6 @@
         "hardware"
       ],
       "author": "Marcus Mendes"
-    },
-    {
-      "id": "88dfba060499",
-      "title": "Save $500 Off the 42\" LG C6 4K OLED TV for Black Friday, Doubles as a Gaming Monitor, Plus Get an Xbox Controller",
-      "link": "https://www.ign.com/articles/lg-evo-c6-4k-oled-tv-pc-monitor-deal-free-xbox-controller-november-2026",
-      "description": "LG calls this \"guaranteed Black Friday pricing\".",
-      "content": "One of LG's most popular OLED TVs to use as a computer monitor is on sale. For a limited time, LG's online store is offering the 42\" LG Evo C6 4K OLED TV for just $899.99 with free shipping after a $500 off instant discount. LG calls this a \"guaranteed Black Friday price\". Better yet, if you purchase it from LG, you get a free Xbox wireless controller with purchase, including the Breaker Edition colorways. Simply add it to the same order as the TV. The smaller 42\" size allows the TV to double as an excellent gaming PC monitor In fact, I'm doing this myself right now.\n\n$500 Off the 2026 42\" LG Evo C6 4K OLED TV\n\nAlso get a free Xbox controller with purchase\n\nGet a Free Xbox Wireless Controller\n\nAdd to the same order as your TV\n\nIf you're looking for the best gaming TV, the LG C6 OLED should top your list. The C6 is LG's current 2026 model in the LG's C-series OLED TV lineup. The C6 improves upon last year's C5 model with upgraded 165Hz max refresh rate (vs 144Hz) and a new Alpha 11 Gen 3 processor with better AI processing.\n\nLG's C-series OLED TV has been our favorite TVs for console gaming for many years thanks to its outstanding image quality, low input lag, and high refresh rate. This is also one of the best TVs you can get for streaming 4K HDR content in its intended glory. OLED TVs boast superior image quality compared to most other TVs thanks to their near-infinite black levels, near-infinite contrast ratio, and near-instantaneous response times. The C6 is also equipped with LG's proprietary Evo panel, which is significantly brighter and offers a wider color gamut than traditional W-OLED TVs.\n\nC6 is equipped with modern gaming features that make it a perfect complement to current generation consoles like the PlayStation 5 and Xbox Series X, including a native 120Hz panel that can be pushed to as high as 165Hz, HDMI 2.1 inputs, adaptive sync with variable refresh rate, and auto low latency mode.\n\nIs the LG C6 OLED TV a good TV for the Nintendo Switch 2?\n\nDespite being a current generation console, the Nintendo Switch 2 has lax TV requirements compared to the PS5 or Xbox Series X. When the Switch is connected to its dock and a television, it is only capable of outputting a 4K resolution signal at up to 60 frames per second. Oddly, it doesn’t even get VRR when docked – that’s reserved for handheld mode only. All that aside, the Switch 2 will still benefit from an OLED TV's overall image quality, just like how the Switch OLED looks better than the original Switch, despite the fact that the screens share similar specs.\n\nThe 42\" LG OLED TV makes a great PC gaming monitor\n\nI have been using an LG OLED TV as one of my main gaming PC monitors for several years now. My first such monitor was the LG CX OLED which was released back in 2020. This is a much less expensive route compared to buying a dedicated OLED gaming monitor, which can cost well over $1,000 for this size. A 42\" monitor with 4K resolution averages out to a pixel density of about 105ppi, which is great for both gaming and text-heavy productivity tasks. The LG C6 also displays chroma 4:4:4 properly for text clarity.\n\nHow to Follow IGN Deals Recommendations\n\nThe IGN Deals team has over 30 years of combined experience finding the best discounts and preorders available online. If you want the latest updates from our trusted team, here’s how to follow our coverage:\n\nSign up for our IGN Deals Newsletter\n\nSet IGN as a preferred source in Google\n\nShop on our Amazon Storefront\n\nFollow us on social media IGN Finds on X\n\nIGN Finds on Instagram\n\nIGN Finds on Facebook\n\nIGN Deals on Tiktok\n\nEric Song is the IGN commerce manager in charge of finding the best gaming and tech deals every day. When Eric isn't hunting for deals for other people at work, he's hunting for deals for himself during his free time.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/13/lgc6xbox-1794599052581.jpg",
-      "source": "IGN",
-      "publishedAt": "2026-11-13T21:45:00.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Eric Song"
     },
     {
       "id": "0c34c8f3387b",
@@ -2448,18 +2550,20 @@
       "author": "Radhika Rajkumar"
     },
     {
-      "id": "2ad0653cdcae",
-      "title": "Magic: The Gathering’s Star Trek Commander Precons Ranked: Why We Are the Borg Takes the Top Spot",
-      "link": "https://www.ign.com/articles/magic-the-gathering-star-trek-commander-decks-ranked",
-      "description": "We ranked all four Magic: The Gathering Star Trek Commander precons—from Picard’s Federation Fleet to We Are the Borg—by gameplay, value, and key reprints.",
-      "content": "Magic: The Gathering’s Star Trek set is finally here, closing out a particularly packed release schedule for Wizards of the Coast’s long-running TCG.\n\nStar Trek is the seventh set of the year, and it brings with it another four Commander decks to take this year’s total to 17. Still, as we all know, not all decks are created equal - so which one comes out on top?\n\nThe Klingons or the Borg? Picard or Spock? Here’s our ranking.\n\nBefore We Begin\n\nIf you’re picking up all four decks because you’re a Trekkie, or you just love new precons, Amazon has cut the price of the bundle again to just $224.97, basically offsetting the “Universes Beyond” tax.\n\nThat’s not the Collector Editions, though: Those are well over $100 each. They include the same cards, but all in foil.\n\nRanking Magic’s Star Trek Decks\n\nFederation Fleet\n\nColor Identity: Jeskai (blue, red, white)\n\nReprints of note: Alhammarret’s Archive\n\nMagic loves to put heroic precons in Jeskai colors, and Federation Fleet is no exception - although it does come last in our ranking.\n\nIts primary Commander, Jean-Luc Picard, Luminary, is a four-cost 2/4 that draws you cards as you play historic permanents, which then triggers the Seek Out mechanic. This lets you charge up a Spacecraft and add a counter to another target creature.\n\nIt’s not that it’s not a fun, cohesive deck, but it’s definitely just not as interesting on a mechanical level as the others in this set.\n\nKlingon Fury\n\nColor Identity: Mardu (white, black, red)\n\nReprints of note: Sword of Light, Shadow and World at War\n\nWorf, Defiant Commander is in charge of the Klingon Fury deck, which makes use of the Battlefront mechanic to encourage players to play aggressively.\n\nWorf creates Klingon Warrior tokens when it hits the battlefield, and the more opponents you attack on your turn, the more cards you exile from the top of your library, which you can play until the end of your next turn.\n\nIt’s not quite cheating big creatures into play, but it should mean you’re well-stocked with options as long as you keep Worf around.\n\nLanding Party\n\nColor Identity: Bant (green, white, blue)\n\nReprints of note: Ancient Greenwarden, Scute Swarm, Exploration, Heroic Intervention\n\nCommander Spock is the logical choice for a Commander in Bant colors, and Wizards of the Coast has made it so here (sorry).\n\nLanding Party’s Strange New Worlds mechanic helps play cards more quickly if you’ve got more differently named lands in the set. Given there are 40 in the deck, that should be easily done, but this deck also gives you a big bundle of non-basic lands in Bant colors if you need them.\n\nCaptain Kirk, Boldly Going, is another Commander option. William Shatner himself is a 3/4 with vigilance who powers up your Spacecraft cards. The card can also grab you land cards or the Enterprise from your library or graveyard.\n\nWe Are The Borg\n\nColor Identity: Esper (white, blue, black)\n\nReprints of note: Toxic Deluge, Unwinding Clock, Morphic Pool\n\nOur top pick for the Commander precons in the Star Trek set is We Are The Borg. Standing somewhere between artifact synergies and a “what’s yours is mine” deck, The Borg Queen pumps artifact creatures and also assimilates cards to your side of the battlefield.\n\nUnwinding Clock is a very welcome reprint here since it fits nicely into just about any other artifact strategy, and Locutus of Borg can help you pull even more Borg to the table. It’s a deck that’s likely to get out of hand pretty quickly, and for that reason, it’s our top pick.\n\nFor more on Magic: The Gathering, check out some of our favorite Commander decks of all time, as well as the latest on reprints of the sought-after Universes Beyond: Warhammer 40K decks, and the most valuable cards to look out for in the new Star Trek Universes Beyond set.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/07/17/star-trek-commander-deck-deal-amazon-ign-1784274048211.png",
-      "source": "IGN",
-      "publishedAt": "2026-11-13T21:30:00.000Z",
+      "id": "f67a5ae71b6e",
+      "title": "Tech Companies Are Trying to Shift the Entire Concept of Privacy (Again)",
+      "link": "https://www.eff.org/deeplinks/2026/11/tech-companies-are-trying-shift-entire-concept-privacy-again",
+      "description": "Privacy, which companies were once happy to claim was all about personal choice, is now primed to affect everyone around you even more than it already did. Meta and Google’s smart glasses can record anything the owner is looking at or use artificial intelligence to describe it. Apple’s* Audio Intell",
+      "content": "Privacy, which companies were once happy to claim was all about personal choice, is now primed to affect everyone around you even more than it already did.\n\nMeta and Google’s smart glasses can record anything the owner is looking at or use artificial intelligence to describe it. Apple’s* Audio Intelligence feature turns every Apple Watch into a transcription machine that records or summarizes your day. Amazon’s Bee devices take that a step further and can record and transcribe everything. Dozens of other companies are introducing pendants, rings, and other products designed to record, transcribe, or summarize everything we say and do all day long.\n\nPrivacy has always been a team sport. The actions you take with communication apps, collaborative software, or your cloud backup solutions, have long impacted everyone else you’re interacting with. But moving those choices deeper into the physical world where strangers, colleagues, family, and friends are all now a part of your privacy choices is drastically changing the game.\n\nTech companies want us to accept a reality where one person’s privacy choices (or lack thereof) means you suddenly need to be an expert in consumer tech who understands the capabilities of many devices on the market, how they work, how and if they signal when they’re recording, and what platforms they do or do not connect to. They believe these ambient surveillance devices that work in the background and are designed to look as normal as possible are the future, while they also expect the owners of these devices to use them responsibly and to notify those around them of their capabilities to act within whatever laws their states may have. \n\nThis is not reasonable, nor how consent works in any practical sense.\n\nLet’s break this down by looking at some of the biggest players currently in the game: Apple and Amazon, who have two different takes on transcribing audio throughout the day, as well as Meta and Google, who both have slapped AI and cameras onto eyeglasses. \n\nHow to Think About the Technical Promises Companies Make\n\nAsk Apple about privacy concerns and they’ll point to a white paper that explains all the technical barriers between them as a company and the data generated by the watch. Ask Meta and they’ll talk about all the ways you can customize the privacy controls or how certain details, like faces, may be blurred out when you interact with Meta AI through the glasses (but not during standard recording). Google does this too. Amazon will also talk about how you’re always in control, and no audio is stored (though it’ll also let you enable Amazon store integration, so your conversations can directly result in ads for products). And so on across all the companies making these products.\n\nSome of these solutions do a better job than others at cutting out potential law enforcement or company access to this data. There will be a time to dive into these details more deeply, but the technical privacy promises these companies focus on only cover the consumer and user of the device. They ignore every bystander you interact with and their inability to actually opt out. There is no technical protection for you as a non-user of these devices, the person who finds yourself captured by them. \n\nStill, we hope to look deeper into the technical differences between this category of devices soon.\n\nThere Must Be Some Laws to Consider, Right?\n\nWith something like Apple’s Audio Intelligence and Amazon’s Bee devices, it may be best to treat them similar to an always-recording microphone, even if companies try to claim there’s “technically” no audio recording. These tools still often use a microphone to capture raw audio from conversations and convert it into summaries or transcripts before discarding the audio. Google's blog post notes that it has  whole responsible use part of their Terms of Service where users have to agree not to record others without permission or in sensitive places. \n\nBut it’s not just the question of the legality from the point of view of the user. Law enforcement will eventually try to compel access to the data that these products create (either real-time audio or the summaries and transcripts they create). And while some products, like Apple’s Audio Intelligence, are engineered to make that difficult, not every product will be. We know from history that when data exists, governments will do everything they can to access it. There’s no reason to think something would change today.\n\nNo Tech and Legal Solutions Will Reduce Social Issues\n\nThere is a problem humming along in the background that is impossible to address with technical or legal solutions. If secretly documenting conversations becomes the norm, it makes every private conversation less spontaneous and open. It breaks a longstanding social norm that you will not record and document every conversation with friends, family, colleagues, or strangers. \n\nThe companies that make these sorts of products like to claim they’re no different from tools we already have. You can easily record everything right now with a phone or a camera. Heck, you can do so with a camcorder or cassette recorder if you want. And you can transcribe conversations with pen and paper, too. But those are actionable steps we take that both require effort from the user, and are clear to others around us. This new wave of passive surveillance tech is designed to encourage continuous monitoring and hide its use. \n\nEven taken at face value, none of these products can understand the complex social context we all navigate every day. We intrinsically know there are different social agreements we all make when we’re standing on a street corner, at a protest, in a bathroom, at a doctor’s office, at the gym, or in a restaurant. Taking notes in a meeting at work is completely normal. Getting a summary of a conversation with your best friend about their divorce is not. Always-on monitoring of our conversations is an unacceptable burden on our conversational privacy. \n\nGoogle seems to all but admit this problem in a conversation with CNN when it described the company’s experiments with a notification system that would alert people’s phones when someone was recording nearby: \n\n“And just alerting bystanders doesn’t do much to help, [Juston Payne, senior director of product management at Google] said. “It can actually be weirdly disempowering to you in that you’re like, ‘What am I meant to do now?’” he said.”\n\nWhat We Can Do About It\n\nIt’s easy to buy into the tech company line that these products are inevitable, but we’ve seen so many vaporware products over the years that we should take those claims of success with a grain of salt. We’ve seen entire product categories come and go within just a few years, and if the public doesn’t want this stuff, the tech companies will have to throw in the towel. \n\nOf course, that doesn’t mean we all just have to sit around and hope that’s what happens. For its part, Apple launched its Audio Intelligence features in beta specifically to get feedback, and we think it’s worth taking the time to fill out their feedback forms (or in the Feedback Assistant app if you’re in the beta) and let them know what you think.\n\nProducts from the likes of Meta, Google, Amazon, and others might be harder to push back on, but politely and clearly engaging with those who use them in ways that make you uncomfortable is a good place to start. And if you see abusive videos on social networks where these sorts of products are used, report them. If you find these products useful for yourself, make it clear to those around you when you’re using them, and only do so with consent and in social moments where it makes sense to do so.\n\n*Apple is an EFF donor. EFF donors do not influence our agenda or our positions.",
+      "thumbnail": "https://www.eff.org/files/banner_library/mobile-privacy.png",
+      "source": "EFF Updates",
+      "publishedAt": "2026-11-13T21:29:31.000Z",
       "categories": [
-        "gaming"
+        "ai",
+        "hardware",
+        "cybersecurity"
       ],
-      "author": "Robert Anderson"
+      "author": "Thorin Klosowski"
     },
     {
       "id": "ec84c5cee427",
@@ -2538,20 +2642,6 @@
       "author": "Jeff Benjamin"
     },
     {
-      "id": "a0e133b86ac2",
-      "title": "LEGO Shrek, Donkey, and Puss in Boots Gets Its First Discount for Black Friday",
-      "link": "https://www.ign.com/articles/lego-shrek-donkey-and-puss-in-boots-gets-its-first-discount-for-black-friday",
-      "description": "",
-      "content": "The LEGO set featuring Shrek, Donkey, and Puss in Boots was a welcome surprise when it released in June of this year. The beloved green ogre and co. look terrific in brick-built form, posing on a stand to make an excellent display piece for your house, apartment, or office. But the set has stubbornly stayed at its MSRP of $129.99 since it came out.\n\nNot anymore. With retailers pulling the lever on early Black Friday sales left and right, Amazon has followed suit, dropping the price of this set by 20%. You can pick it up right now for the relatively modest price of $103.95, the first discount we've seen. It’s unclear when the deal will end (or sell out), so grab it soon if you want it.\n\nLEGO Shrek, Donkey, and Puss in Boots Is 20% Off\n\nMSRP: $129.99\n\nPieces: 1,403\n\nAges: 18+\n\nSet #: 72423\n\nDimensions: Height 9.5 in. (24 cm), Width 8.5 in. (21 cm), Depth 6 in. (16 cm)\n\nThis is an excellent-looking display piece any way you view it. It features the computer-animated trio standing on a swampy base, complete with a “Beware Ogre” sign. Shrek and Donkey are posable, and Shrek’s belly even holds a hidden Easter egg.\n\nThe name of the set is LEGO Shrek, Donkey, and Puss in Boots, but Shrek and Donkey make up most of the set’s mass. The Antonio Banderas-voiced feline is present, but he’s a minifigure, while the other two are much bigger and made of bricks. That may be appropriate considering their relative sizes, but minifigures don’t usually get top billing in the names of sets, as Puss does here.\n\nWe built this set when it came out, with LEGO enthusiast/IGN Audience Development Coordinator Blythe Dujardin writing, “What I do love about this set is that it feels like a real statue. Some recent LEGO sets, like the Animal Crossing sets or The Nightmare Before Christmas build, are more like a collection of separate small sets you have to manually piece together to display. While you can detach Shrek and Donkey, both of which have a decent amount of mobility in their head and limbs, they’re fundamentally baked into the foundation in such a way that makes the set an easy display piece.”\n\nAs this Shrek set is aimed at the 18+ demographic, so it's definitely a LEGO set for adults. It's trying to capture warm and fuzzy nostalgic feelings in anyone who grew up watching the Shrek movies. When it comes to LEGO and nostalgia, it always works on me, personally. Check out my reviews of LEGO Jurassic Park Jeep Wrangler and LEGO PlayStation for more.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/13/shrek-1794602879774.jpeg",
-      "source": "IGN",
-      "publishedAt": "2026-11-13T20:57:06.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Chris Reed"
-    },
-    {
       "id": "cced99eaa175",
       "title": "This year’s bug count just passed 100K",
       "link": "https://www.theregister.com/security/2026/11/13/this-years-bug-count-just-passed-100k/5309882",
@@ -2565,21 +2655,6 @@
         "tech"
       ],
       "author": "Jessica Lyons"
-    },
-    {
-      "id": "951c84561943",
-      "title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
-      "description": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and",
-      "content": "After launching its Dots AI agents platform earlier this year, OpenAI is launching a wallet for the agents. ChatGPT Wallet is rolling out starting today for ChatGPT Pro subscribers in the US aged 18 and older using a US billing address and \"eligible US-issued American Express, Chase, Mastercard and Visa cards.\"\n\nAfter adding a card to the wallet, your Dots agents can use it to buy things in response to your prompts, but they'll check in with you each time before checking out. OpenAI's support page says every purchase with ChatGPT Wallet requires a security check with biometric verification like Face ID or a fingerprint scan.\n\nUsers have to approve every purchase from ChatGPT Wallet. | Image: OpenAI\" data-portal-copyright=\"Image: OpenAI\">\n\nNow your dot c …\n\nRead the full story at The Verge.",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/10/STKS539_AI_AGENTS_SHOPPING_B.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-13T20:45:10.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Stevie Bonifield"
     },
     {
       "id": "66f1a4a70f86",
@@ -3002,20 +3077,6 @@
       "author": "HQ Web Team"
     },
     {
-      "id": "e1084557fe55",
-      "title": "Deals: Apple TV 4K release day discount, Apple Watch Ultra $250 off, AirPods Pro 3, AirTag 2 all-time low, more",
-      "link": "https://9to5mac.com/2026/11/13/deals-apple-tv-4k-discount-airpods-pro-3-airtag-2/",
-      "description": "Alongside Amazon’s now live early Black Friday sale , it has also brought back its discount on the new Apple TV 4K for release day with much faster shipping times than Apple for most folks, alongside all-time low pricing on AirTag 2 at $17.50 each , AirPods Pro 3 deal at $50 off , and Apple Watch Ul",
-      "content": "Alongside Amazon’s   now live early Black Friday sale, it has also brought back its discount on the new Apple TV 4K for release day with much faster shipping times than Apple for most folks, alongside all-time low pricing on AirTag 2 at $17.50 each, AirPods Pro 3 deal at $50 off, and   Apple Watch Ultra 4 at nearly $100 off. However, Amazon has also now brought back the deep clearance deal on Apple Watch Ultra 3 configs at $250 off the list price and is now delivering even more color options on the major M5 MacBook Air deals at $250 off. Head below for a closer look. \n\nmore…",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Apple-deals-Apple-TV-4K-Ultra-AirPods-Pro-3.jpg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-13T16:27:06.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Justin Kahn"
-    },
-    {
       "id": "fcdcf30ed87c",
       "title": "Windows 0-day dropped by disgruntled researcher hands hackers System rights",
       "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
@@ -3104,21 +3165,6 @@
         "startups"
       ],
       "author": "Sarah Perez"
-    },
-    {
-      "id": "ee69f53b0121",
-      "title": "iOS 27.2 has two CarPlay improvements, here’s what’s new",
-      "link": "https://9to5mac.com/2026/11/13/ios-27-2-has-two-carplay-improvements-heres-whats-new/",
-      "description": "iOS 27.2 arrived last month with new features for Messages , Apple TV , and more, plus two improvements for CarPlay. Here’s what’s new for CarPlay users. more…",
-      "content": "iOS 27.2 arrived last month with new features for Messages, Apple TV, and more, plus two improvements for CarPlay. Here’s what’s new for CarPlay users.\n\nmore…",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/carplay-ios-27-home-screen-car.jpg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-13T15:59:49.000Z",
-      "categories": [
-        "hardware",
-        "mobile"
-      ],
-      "author": "Ryan Christoffel"
     },
     {
       "id": "366d01110036",
@@ -3275,21 +3321,6 @@
       "author": "Steven J. Vaughan-Nichols"
     },
     {
-      "id": "744da6a2871c",
-      "title": "ElevenLabs’ new app combines meeting note-taking and dictation for teams",
-      "link": "https://techcrunch.com/2026/11/13/elevenlabs-new-app-combines-meeting-note-taking-and-dictation-for-teams/",
-      "description": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
-      "content": "ElevenAI is a new meeting notetaker and dictation app aimed at teams and enterprises.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Screenshot-2026-11-13-at-7.19.18-PM.jpg?resize=1200,774",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-13T14:44:48.000Z",
-      "categories": [
-        "startups",
-        "ai"
-      ],
-      "author": "Ivan Mehta"
-    },
-    {
       "id": "c6b2faee2111",
       "title": "Agents idling while they wait on humans push Kubernetes to hand back unused resources",
       "link": "https://siliconangle.com/2026/11/13/agentic-ai-workloads-push-kubernetes-return-idle-resources-kubeconna/",
@@ -3346,21 +3377,6 @@
         "tech"
       ],
       "author": null
-    },
-    {
-      "id": "ab323bb591ac",
-      "title": "Microsoft’s latest email outage turned into a full-blown global cloud crisis",
-      "link": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis/",
-      "description": "Microsoft's daylong outage began with Outlook and Teams and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
-      "content": "Microsoft's daylong outage began with Outlook and Teams and ended up taking much of the company's cloud services offline. Microsoft says it's gradually restoring service.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/ms-outage-hero-2304360163.jpg?resize=1200,894",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-13T13:15:20.000Z",
-      "categories": [
-        "cloud",
-        "startups"
-      ],
-      "author": "Zack Whittaker"
     },
     {
       "id": "56543c033de6",
@@ -3494,37 +3510,6 @@
         "startups"
       ],
       "author": "Joanna Glasner"
-    },
-    {
-      "id": "cec77830a784",
-      "title": "Specialized’s Tarmac SL9 S-Level is built to wreck your Zone 2 ride",
-      "link": "https://arstechnica.com/gadgets/2026/11/specializeds-tarmac-sl9-s-level-is-built-to-wreck-your-zone-2-ride/",
-      "description": "Specialized’s second-fastest bike may be the smart buy.",
-      "content": "I love a good Zone 2 ride. There’s nothing like getting on the bike, settling into a groove, and letting the miles (and hours) flow by. But sometimes when I hopped on the Specialized Tarmac SL9 S-Level, Zone 2 would turn into a tempo ride. It was like having a little imp—the stereotype dressed in red with the pitchfork—on my left shoulder whispering into my ear: “Go fast. This bike was built to go fast. Speed is good. You can do a Zone 2 ride tomorrow.” Normally, I'd count on the good imp—the dude with the harp and wings—on my right shoulder to restrain these urges. But the Tarmac is so seductive that he would just shrug and say “he’s got a point.” And in a moment of weakness, I would drop the hammer and head into the red, just because the SL9 makes that so rewarding.\n\nThe Tarmac SL9 is Specialized’s aero road bike, with the S-Level sitting just below the S-Works in Specialized’s top tier of carbon, aero road bikes, where it replaced the Tarmac SL8 Pro. After it got an update this year, I spent several weeks riding it, putting nearly 1,000 miles on it\n\nSpecialized offers the Tarmac SL9 in four models, all available with SRAM and Shimano drivetrains (Ars tested the SRAM version). Notably, you don't need to buy the top-of-the-line bike to get the top-of-the-line groupset. Here's the breakdown of the Tarmac SL9 lineup (note that the Shimano versions of the Expert is 20 g lighter and Comp is 70 grams heavier than the SRAM versions):\n\nRead full article\n\nComments",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/specialized_3170-1152x648.jpg",
-      "source": "Ars Gadgets",
-      "publishedAt": "2026-11-13T11:50:38.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "Eric Bangeman"
-    },
-    {
-      "id": "a18aa197b559",
-      "title": "What we know so far about the Microsoft outage",
-      "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
-      "description": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
-      "content": "A Microsoft outage is affecting services including Teams, Outlook and AI software Copilot.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e30a/live/54c2fe10-df57-11f1-a701-fddedf244c16.jpg",
-      "source": "BBC Technology",
-      "publishedAt": "2026-11-13T11:43:27.000Z",
-      "categories": [
-        "ai",
-        "programming",
-        "tech"
-      ],
-      "author": null
     }
   ],
   "github": [
@@ -3532,7 +3517,7 @@
       "name": "backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 10898,
+      "stars": 11067,
       "starsToday": 412,
       "url": "https://github.com/backnotprop/plannotator"
     },
@@ -3540,7 +3525,7 @@
       "name": "GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 5698,
+      "stars": 5933,
       "starsToday": 1225,
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
     },
@@ -3548,7 +3533,7 @@
       "name": "tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "stars": 4623,
+      "stars": 4754,
       "starsToday": 556,
       "url": "https://github.com/tradermonty/claude-trading-skills"
     },
@@ -3556,7 +3541,7 @@
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "stars": 56157,
+      "stars": 56246,
       "starsToday": 673,
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
     },
@@ -3564,7 +3549,7 @@
       "name": "alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 51258,
+      "stars": 51379,
       "starsToday": 897,
       "url": "https://github.com/alibaba/open-code-review"
     },
@@ -3572,7 +3557,7 @@
       "name": "QwenLM/qwen-code",
       "description": "An open-source AI coding agent that lives in your terminal.",
       "language": "TypeScript",
-      "stars": 30239,
+      "stars": 30300,
       "starsToday": 116,
       "url": "https://github.com/QwenLM/qwen-code"
     },
@@ -3580,7 +3565,7 @@
       "name": "dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
-      "stars": 24355,
+      "stars": 24440,
       "starsToday": 495,
       "url": "https://github.com/dream-num/univer"
     },
@@ -3588,7 +3573,7 @@
       "name": "ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
-      "stars": 17261,
+      "stars": 17330,
       "starsToday": 9,
       "url": "https://github.com/ag-ui-protocol/ag-ui"
     },
@@ -3596,7 +3581,7 @@
       "name": "ashhart/TensorFold",
       "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "language": "Zig",
-      "stars": 2118,
+      "stars": 2148,
       "starsToday": 53,
       "url": "https://github.com/ashhart/TensorFold"
     },
@@ -3604,7 +3589,7 @@
       "name": "JuliusBrussee/caveman",
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "language": "Go",
-      "stars": 119922,
+      "stars": 120021,
       "starsToday": 227,
       "url": "https://github.com/JuliusBrussee/caveman"
     },
@@ -3612,7 +3597,7 @@
       "name": "louislam/uptime-kuma",
       "description": "A fancy self-hosted monitoring tool",
       "language": "JavaScript",
-      "stars": 94147,
+      "stars": 94210,
       "starsToday": 432,
       "url": "https://github.com/louislam/uptime-kuma"
     },
@@ -3620,7 +3605,7 @@
       "name": "we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "stars": 15158,
+      "stars": 15258,
       "starsToday": 659,
       "url": "https://github.com/we-promise/sure"
     }
