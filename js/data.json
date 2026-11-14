@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T01:27:45.006Z",
+  "generatedAt": "2026-11-14T10:29:29.485Z",
   "articles": [
     {
       "title": "6 ways iPhone Duo beats Samsung",
@@ -12,7 +12,7 @@
       "publishedAt": "2026-10-21T12:02:02.000Z",
       "thumbnail": "https://i.ytimg.com/vi/i3ZlSlnGWng/hq720.jpg",
       "videoId": "i3ZlSlnGWng",
-      "views": 13839191,
+      "views": 13874576,
       "video": true
     },
     {
@@ -26,7 +26,7 @@
       "publishedAt": "2026-10-21T12:00:38.000Z",
       "thumbnail": "https://i.ytimg.com/vi/Xrxy_W78SKk/hq720.jpg",
       "videoId": "Xrxy_W78SKk",
-      "views": 11220580,
+      "views": 11225400,
       "video": true
     },
     {
@@ -40,7 +40,7 @@
       "publishedAt": "2026-10-23T13:18:02.000Z",
       "thumbnail": "https://i.ytimg.com/vi/1yB56IT0kDw/hq720.jpg",
       "videoId": "1yB56IT0kDw",
-      "views": 7998374,
+      "views": 8020901,
       "video": true
     },
     {
@@ -54,7 +54,7 @@
       "publishedAt": "2026-11-09T12:37:47.000Z",
       "thumbnail": "https://i.ytimg.com/vi/HVLUtJWlcJY/hq720.jpg",
       "videoId": "HVLUtJWlcJY",
-      "views": 6652631,
+      "views": 7050948,
       "video": true
     },
     {
@@ -68,7 +68,7 @@
       "publishedAt": "2026-11-04T11:09:51.000Z",
       "thumbnail": "https://i.ytimg.com/vi/Yg2t5w8vj5Q/hq720.jpg",
       "videoId": "Yg2t5w8vj5Q",
-      "views": 6409735,
+      "views": 6597485,
       "video": true
     },
     {
@@ -82,7 +82,7 @@
       "publishedAt": "2026-10-14T15:03:37.000Z",
       "thumbnail": "https://i.ytimg.com/vi/2_mck9mmq8M/hq720.jpg",
       "videoId": "2_mck9mmq8M",
-      "views": 2938617,
+      "views": 2941266,
       "video": true
     },
     {
@@ -96,21 +96,7 @@
       "publishedAt": "2026-10-23T18:14:01.000Z",
       "thumbnail": "https://i.ytimg.com/vi/0-bQziLITuk/hq720.jpg",
       "videoId": "0-bQziLITuk",
-      "views": 2336782,
-      "video": true
-    },
-    {
-      "title": "Imagining A World Without Windows",
-      "link": "https://www.youtube.com/watch?v=t62ZRncv2d4",
-      "source": "TechLinked",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-11T17:01:32.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/t62ZRncv2d4/hq720.jpg",
-      "videoId": "t62ZRncv2d4",
-      "views": 1712904,
+      "views": 2349201,
       "video": true
     },
     {
@@ -124,7 +110,21 @@
       "publishedAt": "2026-11-11T16:13:16.000Z",
       "thumbnail": "https://i.ytimg.com/vi/rBmcemHrqB4/hq720.jpg",
       "videoId": "rBmcemHrqB4",
-      "views": 1579869,
+      "views": 1832881,
+      "video": true
+    },
+    {
+      "title": "Imagining A World Without Windows",
+      "link": "https://www.youtube.com/watch?v=t62ZRncv2d4",
+      "source": "TechLinked",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-11T17:01:32.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/t62ZRncv2d4/hq720.jpg",
+      "videoId": "t62ZRncv2d4",
+      "views": 1779951,
       "video": true
     },
     {
@@ -138,21 +138,7 @@
       "publishedAt": "2026-10-29T00:45:18.000Z",
       "thumbnail": "https://i.ytimg.com/vi/gHZ7JYPOd1M/hq720.jpg",
       "videoId": "gHZ7JYPOd1M",
-      "views": 1552402,
-      "video": true
-    },
-    {
-      "title": "iPhone Duo Review - \"Apple Knows Best\"",
-      "link": "https://www.youtube.com/watch?v=1vj_AHonNdA",
-      "source": "Dave2D",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-10-21T13:40:13.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/1vj_AHonNdA/hq720.jpg",
-      "videoId": "1vj_AHonNdA",
-      "views": 1107218,
+      "views": 1553070,
       "video": true
     },
     {
@@ -166,7 +152,21 @@
       "publishedAt": "2026-11-12T20:54:32.000Z",
       "thumbnail": "https://i.ytimg.com/vi/e6MENpOuRC0/hq720.jpg",
       "videoId": "e6MENpOuRC0",
-      "views": 985002,
+      "views": 1151850,
+      "video": true
+    },
+    {
+      "title": "iPhone Duo Review - \"Apple Knows Best\"",
+      "link": "https://www.youtube.com/watch?v=1vj_AHonNdA",
+      "source": "Dave2D",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-10-21T13:40:13.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/1vj_AHonNdA/hq720.jpg",
+      "videoId": "1vj_AHonNdA",
+      "views": 1107850,
       "video": true
     },
     {
@@ -180,7 +180,7 @@
       "publishedAt": "2026-11-05T14:03:51.000Z",
       "thumbnail": "https://i.ytimg.com/vi/m8lhB9qFhYo/hq720.jpg",
       "videoId": "m8lhB9qFhYo",
-      "views": 878542,
+      "views": 880759,
       "video": true
     },
     {
@@ -194,7 +194,7 @@
       "publishedAt": "2026-11-05T14:00:02.000Z",
       "thumbnail": "https://i.ytimg.com/vi/K_AvLm5TOws/hq720.jpg",
       "videoId": "K_AvLm5TOws",
-      "views": 767688,
+      "views": 770769,
       "video": true
     },
     {
@@ -208,175 +208,7 @@
       "publishedAt": "2026-11-10T20:20:53.000Z",
       "thumbnail": "https://i.ytimg.com/vi/pY6biEFAKD4/hq720.jpg",
       "videoId": "pY6biEFAKD4",
-      "views": 726741,
-      "video": true
-    },
-    {
-      "title": "Blind Ranking Numbers (Terence Tao)",
-      "link": "https://www.youtube.com/watch?v=33_jJ4kIxfc",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-10-27T09:00:23.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/33_jJ4kIxfc/hq720.jpg",
-      "videoId": "33_jJ4kIxfc",
-      "views": 313037,
-      "video": true
-    },
-    {
-      "title": "A Two-Button Calculator That Does Everything - Numberphile",
-      "link": "https://www.youtube.com/watch?v=LxVW3b8jVdE",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-12T14:29:27.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/LxVW3b8jVdE/hq720.jpg",
-      "videoId": "LxVW3b8jVdE",
-      "views": 291928,
-      "video": true
-    },
-    {
-      "title": "In This House We Apple - HomeView",
-      "link": "https://www.youtube.com/watch?v=DS8IlBTLJS4",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-12T14:00:47.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/DS8IlBTLJS4/hq720.jpg",
-      "videoId": "DS8IlBTLJS4",
-      "views": 197940,
-      "video": true
-    },
-    {
-      "title": "The Last MMO Mouse",
-      "link": "https://www.youtube.com/watch?v=owsB2DkuE70",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-10T19:27:02.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/owsB2DkuE70/hq720.jpg",
-      "videoId": "owsB2DkuE70",
-      "views": 191300,
-      "video": true
-    },
-    {
-      "title": "Marques Blind Ranks Halloween Candy",
-      "link": "https://www.youtube.com/watch?v=v92XR6RwB9Q",
-      "source": "Marques Brownlee",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-10-31T21:56:10.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/v92XR6RwB9Q/hq720.jpg",
-      "videoId": "v92XR6RwB9Q",
-      "views": 165757,
-      "video": true
-    },
-    {
-      "title": "Who's Richer, Mario or Sonic? - Numberphile",
-      "link": "https://www.youtube.com/watch?v=vCAD3W43lIk",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-01T12:06:18.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/vCAD3W43lIk/hq720.jpg",
-      "videoId": "vCAD3W43lIk",
-      "views": 162723,
-      "video": true
-    },
-    {
-      "title": "Terence Tao's Math(s) Essentials - Numberphile",
-      "link": "https://www.youtube.com/watch?v=p2AAz24AzU4",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-09T12:43:16.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/p2AAz24AzU4/hq720.jpg",
-      "videoId": "p2AAz24AzU4",
-      "views": 146955,
-      "video": true
-    },
-    {
-      "title": "All-In-One Networking Under $500 - Omada Fusion Pro 2.5G PoE",
-      "link": "https://www.youtube.com/watch?v=BCGNAUuSDzY",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-11T18:00:39.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/BCGNAUuSDzY/hq720.jpg",
-      "videoId": "BCGNAUuSDzY",
-      "views": 138128,
-      "video": true
-    },
-    {
-      "title": "Can a Tablet Really Replace Paper?",
-      "link": "https://www.youtube.com/watch?v=dSS8c0ehMHQ",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-02T18:58:56.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/dSS8c0ehMHQ/hq720.jpg",
-      "videoId": "dSS8c0ehMHQ",
-      "views": 127321,
-      "video": true
-    },
-    {
-      "title": "A great deal from Razer? - Reclusa x Mini 65",
-      "link": "https://www.youtube.com/watch?v=8YClr7M-fsI",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-10-29T18:45:50.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/8YClr7M-fsI/hq720.jpg",
-      "videoId": "8YClr7M-fsI",
-      "views": 105506,
-      "video": true
-    },
-    {
-      "title": "Blind Ranking Numbers (Daniel Litt)",
-      "link": "https://www.youtube.com/watch?v=iJU6csQs_no",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-10-29T17:35:33.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/iJU6csQs_no/hq720.jpg",
-      "videoId": "iJU6csQs_no",
-      "views": 88260,
-      "video": true
-    },
-    {
-      "title": "Blind Ranking Numbers (Tom Crawford)",
-      "link": "https://www.youtube.com/watch?v=v9sfKhXDOn0",
-      "source": "Computerphile",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-03T08:38:15.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/v9sfKhXDOn0/hq720.jpg",
-      "videoId": "v9sfKhXDOn0",
-      "views": 82652,
+      "views": 729745,
       "video": true
     },
     {
@@ -390,7 +222,189 @@
       "publishedAt": "2026-11-13T17:27:31.000Z",
       "thumbnail": "https://i.ytimg.com/vi/taBO0I1YBzU/hq720.jpg",
       "videoId": "taBO0I1YBzU",
-      "views": 64863,
+      "views": 617366,
+      "video": true
+    },
+    {
+      "title": "A Two-Button Calculator That Does Everything - Numberphile",
+      "link": "https://www.youtube.com/watch?v=LxVW3b8jVdE",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-12T14:29:27.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/LxVW3b8jVdE/hq720.jpg",
+      "videoId": "LxVW3b8jVdE",
+      "views": 372937,
+      "video": true
+    },
+    {
+      "title": "Blind Ranking Numbers (Terence Tao)",
+      "link": "https://www.youtube.com/watch?v=33_jJ4kIxfc",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-10-27T09:00:23.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/33_jJ4kIxfc/hq720.jpg",
+      "videoId": "33_jJ4kIxfc",
+      "views": 314219,
+      "video": true
+    },
+    {
+      "title": "In This House We Apple - HomeView",
+      "link": "https://www.youtube.com/watch?v=DS8IlBTLJS4",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-12T14:00:47.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/DS8IlBTLJS4/hq720.jpg",
+      "videoId": "DS8IlBTLJS4",
+      "views": 216489,
+      "video": true
+    },
+    {
+      "title": "The Last MMO Mouse",
+      "link": "https://www.youtube.com/watch?v=owsB2DkuE70",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-10T19:27:02.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/owsB2DkuE70/hq720.jpg",
+      "videoId": "owsB2DkuE70",
+      "views": 200129,
+      "video": true
+    },
+    {
+      "title": "Marques Blind Ranks Halloween Candy",
+      "link": "https://www.youtube.com/watch?v=v92XR6RwB9Q",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": "2026-10-31T21:56:10.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/v92XR6RwB9Q/hq720.jpg",
+      "videoId": "v92XR6RwB9Q",
+      "views": 166047,
+      "video": true
+    },
+    {
+      "title": "Who's Richer, Mario or Sonic? - Numberphile",
+      "link": "https://www.youtube.com/watch?v=vCAD3W43lIk",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-01T12:06:18.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/vCAD3W43lIk/hq720.jpg",
+      "videoId": "vCAD3W43lIk",
+      "views": 163559,
+      "video": true
+    },
+    {
+      "title": "Terence Tao's Math(s) Essentials - Numberphile",
+      "link": "https://www.youtube.com/watch?v=p2AAz24AzU4",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-09T12:43:16.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/p2AAz24AzU4/hq720.jpg",
+      "videoId": "p2AAz24AzU4",
+      "views": 148878,
+      "video": true
+    },
+    {
+      "title": "All-In-One Networking Under $500 - Omada Fusion Pro 2.5G PoE",
+      "link": "https://www.youtube.com/watch?v=BCGNAUuSDzY",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-11T18:00:39.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/BCGNAUuSDzY/hq720.jpg",
+      "videoId": "BCGNAUuSDzY",
+      "views": 143508,
+      "video": true
+    },
+    {
+      "title": "Can a Tablet Really Replace Paper?",
+      "link": "https://www.youtube.com/watch?v=dSS8c0ehMHQ",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-02T18:58:56.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/dSS8c0ehMHQ/hq720.jpg",
+      "videoId": "dSS8c0ehMHQ",
+      "views": 127656,
+      "video": true
+    },
+    {
+      "title": "How to Switch to Linux Tutorial",
+      "link": "https://www.youtube.com/watch?v=-022Lx7u4sw",
+      "source": "TechLinked",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-13T19:07:18.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/-022Lx7u4sw/hq720.jpg",
+      "videoId": "-022Lx7u4sw",
+      "views": 96919,
+      "video": true
+    },
+    {
+      "title": "Blind Ranking Numbers (Daniel Litt)",
+      "link": "https://www.youtube.com/watch?v=iJU6csQs_no",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-10-29T17:35:33.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/iJU6csQs_no/hq720.jpg",
+      "videoId": "iJU6csQs_no",
+      "views": 88358,
+      "video": true
+    },
+    {
+      "title": "Blind Ranking Numbers (Tom Crawford)",
+      "link": "https://www.youtube.com/watch?v=v9sfKhXDOn0",
+      "source": "Computerphile",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-03T08:38:15.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/v9sfKhXDOn0/hq720.jpg",
+      "videoId": "v9sfKhXDOn0",
+      "views": 82913,
+      "video": true
+    },
+    {
+      "title": "Business in the Front and the Back - ASUS ExpertBook A7",
+      "link": "https://www.youtube.com/watch?v=dJd5xc80WA4",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-13T20:53:04.000Z",
+      "thumbnail": "https://i.ytimg.com/vi/dJd5xc80WA4/hq720.jpg",
+      "videoId": "dJd5xc80WA4",
+      "views": 55471,
       "video": true
     },
     {
@@ -404,22 +418,596 @@
       "publishedAt": "2026-11-12T17:52:41.000Z",
       "thumbnail": "https://i.ytimg.com/vi/kVMp5m7-d_o/hq720.jpg",
       "videoId": "kVMp5m7-d_o",
-      "views": 50166,
+      "views": 53714,
       "video": true
     },
     {
-      "title": "Bet you didn't know what we shot the intro on",
-      "link": "https://www.youtube.com/watch?v=fBdy_ggh8Xc",
-      "source": "Marques Brownlee",
-      "category": "mobile",
+      "id": "1576f8db33aa",
+      "title": "Microsoft's school email bill gives rivals something to smile about",
+      "link": "https://www.theregister.com/saas/2026/11/14/microsofts-school-email-bill-gives-rivals-something-to-smile-about/5309296",
+      "description": "Collabora and Nextcloud pitch alternatives as education customers weigh the cost of losing free services",
+      "content": "The fallout from Microsoft's education price rises and service cuts continues as institutions weigh the prospect of bigger bills, and the Windows maker's rivals struggle not to pull \"I told you so\" faces.\n\nThe main takeaways are that free student email and collaboration services are being retired, and storage entitlements are changing. These changes generally apply at institutions' first renewal or extension on or after January 1, 2028. Microsoft announced the new plans last week, and the UK's Department for Education described itself as \"disappointed\" at the news.\n\nAs well it might be, although the UK government has rarely seen a deal from Microsoft that it didn't like. Or, for that matter, other US tech giants.\n\nExactly how much educational institutions will have to spend remains unclear. Mary Jo Foley of Directions on Microsoft put indicative student pricing at $2 per year for Microsoft 365 Education A2, $4 for A3, and $6 for A5, with Teams adding another dollar annually. Faculty licenses cost considerably more, while the new A7 student tier jumps to $385 a year before Teams. Foley cautioned that these were approximate figures, with actual prices set by Microsoft's partners.\n\nThe new no-cost student tier, Microsoft 365 Education A0, is a poor replacement for Office 365 A1: it excludes Exchange Online, SharePoint Online, and Teams. Eligibility also requires full paid faculty coverage on A2 or higher and students who actively use Windows devices for education – potentially awkward for institutions running fleets of Chromebooks.\n\nA few dollars per student might not sound alarming. Multiply that across an institution, however, and something that used to be free becomes a recurring bill.\n\nMichael Meeks, CEO of Collabora Productivity, told The Register: \"Free was the bait on the hook, and Microsoft spent years reeling in schools' email accounts, documents, identity management and classrooms onto its cloud.\"\n\nA poster on the edugeek.net forums commented: \"This was always going to happen, I remember thinking this when we moved over to the MS free cloud solution. It will be free until they decide it isn't.\"\n\nThe risk for Microsoft is that there are options. Meeks told us: \"Schools now have a year to plan, and, in our experience with other large-scale educational projects, such as the University of Lille, that can be enough time to migrate properly.\"\n\nOther options include Nextcloud, which will be rolled out as part of Germany's Educational Cloud Infrastructure. Several Swiss universities also migrated to the service over an August weekend. According to Nextcloud, 39,500 students, teachers, and researchers, along with 585 terabytes of data, were shifted.\n\nBoth Nextcloud and Collabora Productivity also highlight another factor that could drive educational institutions away from Microsoft: sovereignty.\n\nDr Patrick Alberts, managing director of messaging provider Element, told The Register: \"When an organization is locked to a vendor, it should be no surprise when that vendor takes advantage. When switching is made difficult, the vendor holds all the leverage. They can raise prices or slash services on a whim, knowing customers will swallow the pain rather than rip out the infrastructure.\n\n\"Yet it's a bold move, given European governments are proactively following a digitally sovereign strategy.\"\n\nSwitching suppliers still takes planning, and the alternatives won't necessarily replace every Microsoft service. But the Windows behemoth has given educational institutions a fresh reason to investigate – and its rivals a particularly convenient opening pitch. ®",
+      "thumbnail": "https://image.theregister.com/?imageId=222241&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-14T10:27:00.000Z",
       "categories": [
-        "mobile"
+        "tech"
       ],
-      "publishedAt": "2026-10-21T16:06:00.000Z",
-      "thumbnail": "https://i.ytimg.com/vi/fBdy_ggh8Xc/hq720.jpg",
-      "videoId": "fBdy_ggh8Xc",
-      "views": 41927,
-      "video": true
+      "author": "Richard Speed"
+    },
+    {
+      "id": "d7a896eac9b5",
+      "title": "We Asked Vogue, GQ, and a Pro Stylist to Kill Jensen Huang’s Leather Jacket",
+      "link": "https://www.wired.com/story/with-the-help-of-vogue-gq-and-a-pro-stylist-wired-revamps-jensen-huang/",
+      "description": "The signature moto jacket has officially worn out its welcome. Here’s how fashion’s pros would rebrand him.",
+      "content": "The signature moto jacket has officially worn out its welcome. Here’s how fashion’s pros would rebrand him.",
+      "thumbnail": "https://media.wired.com/photos/6af7364ac76e30186375551b/master/pass/111326-Jensen%20Style.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T10:15:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Jeremy White"
+    },
+    {
+      "id": "851a19dcb88f",
+      "title": "Breaking Down Theo's Shock Moment in The Lord of the Rings: The Rings of Power Season 3 and the Mystery of His Father With Actor Tyroe Muhafidin",
+      "link": "https://www.ign.com/articles/breaking-down-theos-shock-moment-in-the-lord-of-the-rings-the-rings-of-power-season-3-and-the-mystery-of-his-father-with-actor-tyroe-muhafidin",
+      "description": "A spoiler-filled The Lord of the Rings: The Rings of Power Season 3 interview with Theo actor Tyroe Muhafidin.",
+      "content": "Warning! Spoilers for The Lord of the Rings: The Rings of Power Season 3 Episodes 1-4 follow.\n\nIf you’re caught up with The Lord of the Rings: The Rings of Power, you’ll have watched Season 3, Episode 4 and were probably left reeling by a shock character death that leaves the elves in a spot of bother going into the final stretch.\n\nDuring the first four episodes of Season 3, we see Theo, played by Tyroe Muhafidin, tempted by Sauron into becoming a Nazgnagôl. Nazgnagôl are men who wear one of Sauron’s Rings of Power, but still retain something of their humanity. That is, they are not fully Nazgûl, or Ringwraiths, as we know of the beings in the Third Age of J. R. R. Tolkien's Middle-earth. They are, at this stage, Ring Servants.\n\nTheo, last seen as a hopeful child of the Southlands and friend of hero elf Arondir, is now older and full of hate after five years of Númenórean oppression. Sauron sees something in him, something special, and offers Theo a gift. In Episode 2, appropriately called The Gift of Men, Sauron performs a dark ritual that lets Theo “meet” his mysterious father, or at least that’s what we think is happening here (with Sauron, you never really know!).\n\nThis is a callback to a scene in Season 1 where a young Theo encounters The Hilt, a broken sword-hilt forged during the First Age. It had been left hidden in a barn where Theo discovers it, and we see Theo’s blood drip into the Hilt, somehow feeding its regeneration. Clearly, Theo had some dark power inside him, although it was left unaddressed, sparking many fan theories over recent years.\n\nIn Season 3, Sauron notices the dark mark left on Theo’s arm after his interaction with The Hilt and immediately raises an eyebrow. Who was Theo’s father, really? During the ritual, Sauron uses the power of necromancy to communicate with the dead in the Unseen World. Sauron listens to the words of the dead, and tells Theo his father was named Fäldred, Son of Hammethreg. Theo asks, “Who are you, father?” The response, in Black Speech, is “Gorthmundur.” Sauron tells Theo this was a “Noble House of old, the sworn stewards of Mordor blessed with… certain powers.”\n\nThese powers, it seems, were passed down to Theo. “There is a reason you were drawn to that hilt, and it to you,” Sauron continues, before suggesting that Theo might have become ruler of the Southlands had his mother not “hidden the truth.” Theo responds to say his mother told him his father left. Sauron disputes this, before issuing a revelation that sends Theo spiralling: his mother murdered his father over what he had become.\n\nSauron, ever the opportunist, offers Theo a Ring of Power. He tells him that he has the power within him to become “a conqueror, a sorcerer, a king.” The downcast Theo accepts the gift.\n\nFast forward to Episode 4, and one of two shock deaths that punctuate this first block of The Rings of Power Season 3. Theo, now in full Nazgnagôl gear and spurred on by Sauron, murders his friend Arondir during the escape from Gundabad. It’s a shocking twist that cements Theo’s descent into darkness, and marks the end of the road for one of the mighty heroes of The Rings of Power.\n\nIn the interview below, I ask Tyroe Muhafidin about Theo’s journey in these first four episodes, what it’s like to play a Nazgnagôl, and where the murder of Arondir leaves The Rings of Power. And yes, we get into the question of Theo’s parentage. Was Sauron telling him the truth about his father?\n\nIGN: The first question is an obvious one: how does it feel to be playing a Nazgnagôl?\n\nTyroe Muhafidin: It was crazy. The costume automatically gives you a sense of such great strength and power. The biggest thing for me was, as soon as I put on those gauntlets there was an automatic transforming moment for me where you could just feel the power through your body. And it's interesting because I went from playing basically a helpless child to some godlike being. So it was a real jump and I had to do a lot of work in terms of my physicality and trying to look powerful and strong, which was something so new to me because I've always been scrawny and helpless. So yeah, it was a challenge, but I think I got there in the end, and I'm super, super grateful that I've got a chance to be something so iconic and to play something so iconic.\n\nIGN: What is your understanding of what Nazgnagôl are, as it was explained to you?\n\nTyroe Muhafidin: So a Nazgûl directly translates to Ringwraith, whereas Nazgnagôl directly translates to Ring Servant. At this point in time when we've just put the ring on, we're not quite wraiths yet. We are still human men with autonomy over their body and can make their own decisions. We're just a lot stronger now. We've got a lot of power and a lot of dark power.\n\nAn important thing to know is at the beginning of this season, the One Ring hasn't yet been made. So these rings are yet to be binded completely to Sauron's will, where we are not now complete, I guess, his minions. We still have autonomy over who we are. That was the fun thing to play in this season, the gradual descent into more and more madness and more and more evil and darkness. But at this point in time, we get to very much still be people, just very strong people, I guess.\n\nIGN: There's a really interesting scene where Sauron reveals Theo's parentage to him. What's your understanding of who Theo's father is? Sauron is suggesting at that moment that Theo has an innate power as a result of his parentage, but it's left ambiguous. And Sauron looks emotional even as he's talking to Theo about this. I almost was thinking he almost looks at him as his own son in some ways. So what's your read on that? What can you tell us about what all that means?\n\nTyroe Muhafidin: It's revealed that his father was the head of a few dark sorcerers and he sided with the dark side a long time ago, alongside his peers and the other Southlanders who sided with Sauron. And so there's that kind of information that's brought out.\n\nBut I think the big thing for Theo is when Sauron says his mother killed him when she found out. And I think that moment for me, and I think for Theo as a whole, it kind of sends a spin in the works of, what is Sauron really doing here and what is he trying to accomplish? Is he just trying to say words to make Theo happy, trying to build this broken boy up? Because he can see something for sure. And I don't think Theo really realizes. But I think there was always a dark side to Theo and maybe it was inherited, but that relationship to the Hilt was always something that stuck with him.\n\nAnd I think maybe when he got a taste of that darkness in the Hilt, maybe it was the first time he kind of felt the presence of his father, and maybe that's why it was so addictive, that feeling to him. So I think this season we find out a little bit more of where he comes from.\n\nBut I think the biggest thing is, how much of it is the truth? What is Sauron saying that is manipulation and deceit and what is the truth? Which I think is kind of the fun dynamic of those scenes, is you feel like you're finding out a lot, but are you really?\n\nIGN: There is a big moment in Episode 4 where Theo kills Arondir, a character who's been in the series from the beginning. When you first found out you'd be doing that, what was your reaction?\n\nTyroe Muhafidin: It was interesting. I was excited because I was like, \"Oh, this is some juicy stuff to get into.\" But I think the moment I got the script, I found out and I was really excited because it was going to be some really cool stuff. When I read it all, it all became very real for me. And it was like, \"Wow, this is a big task. This is super daunting.\" And there were months of intense anxiety coming up to this moment. But yeah, I guess I was just super excited, but anxious at the same time. And I feel like I knew at some point something big like this was going to happen. So I think it was just a matter of being prepared for it and trying to service Ismail [Cruz Córdova, who plays Arondir] as well, the best I possibly could.\n\nIGN: What do you think the character death means for the show at that point and the story it's telling, but also for Theo? Do you see it as this is a moment that we see a tipping point in him that the audience is like, \"Okay, yes, he has really gone too far.\"\n\nTyroe Muhafidin: In terms of the show, it's a moment of no-one is safe and there's no mercy from the dark side. And this war is very much real. The most talented and bravest of your warriors will go down. And that's kind of, I think, setting the premise for the rest of the war that's going to go on.\n\nI think for Theo specifically, it definitely was that tipping point where his decision is made and his destiny is decided. And I think he realizes this afterwards as well, and whether he agrees with that decision he's made or not, he's made that decision.\n\nThe Lord of the Rings: The Rings of Power Season 3 episodes 1-4 are out now on Prime Video. Check back with IGN after Episodes 5 and 6 are released this week for more.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/14/theo-main-1794649994673.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-14T10:02:14.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Wesley Yin-Poole"
+    },
+    {
+      "id": "20bdcac2ceed",
+      "title": "Apple's Sci-Fi Thriller Masterpiece Has One of the Best Seasons in TV History",
+      "link": "https://www.polygon.com/apple-sci-fi-thriller-masterpiece-severance-one-of-the-best-seasons-in-tv-history/",
+      "description": "Dan Erickson and Ben Stiller changed how we see Apple TV forever with the sci-fi powerhouse series 'Severance.'",
+      "content": "In 2022, Apple was three years into its streaming experiment and still trying to find its footing. Aside from Ted Lasso, the tech giant hadn't released any breakout hits. And while a few sci-fi shows like For All Mankind and Foundation had fans, they weren't exactly mainstream success stories. Then everything changed when Apple took a bet on an unknown showrunner (with backing from an A-list actor) to create something revolutionary.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/image-3.png",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T10:00:18.000Z",
+      "categories": [
+        "hardware",
+        "gaming"
+      ],
+      "author": "Aimee Hart"
+    },
+    {
+      "id": "5e63fa53ad14",
+      "title": "Thanksgiving Meal Deals Roundup (2026): Walmart, Amazon, Target",
+      "link": "https://www.wired.com/story/thanksgiving-meal-deals-2026/",
+      "description": "Here’s how to get your bird and all the trimmings on a budget.",
+      "content": "Here’s how to get your bird and all the trimmings on a budget.",
+      "thumbnail": "https://media.wired.com/photos/6af78b0965e40024232d7e36/master/pass/These-Stores-Are-Offering-Complete-Thanksgiving-Meal-Deals-for-$35-or-Less.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T10:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Louryn Strampe"
+    },
+    {
+      "id": "94e7e20952b8",
+      "title": "These ‘Ghostly’ Galaxies Have Lost Their Dark Matter",
+      "link": "https://www.wired.com/story/these-ghostly-galaxies-have-lost-their-dark-matter/",
+      "description": "The galaxies’ dark matter was ejected during a collision, but ironically, its absence is some of the best evidence of the elusive substance yet.",
+      "content": "The galaxies’ dark matter was ejected during a collision, but ironically, its absence is some of the best evidence of the elusive substance yet.",
+      "thumbnail": "https://media.wired.com/photos/6af47d34e9ef28e062a72826/master/pass/Dark-Matter-Galaxies-cr.several-Lede.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T10:00:00.000Z",
+      "categories": [
+        "tech",
+        "science"
+      ],
+      "author": "Robin George Andrews"
+    },
+    {
+      "id": "89b1f5bfbda1",
+      "title": "20 Years Ago, the Best Sci-Fi Show of the Century Delivered the Most Epic Space Battle in TV History",
+      "link": "https://www.polygon.com/battlestar-galactica-season-3-exodus-20-year-anniversary-adama-maneuver/",
+      "description": "Twenty years ago, Battlestar Galactica topped the Adama Maneuver by transforming the Pegasus into an enormous battering ram.",
+      "content": "Two decades later, this spectacle from Battlestar Galactica season 3’s “Exodus, Part 2” remains unforgettable sci-fi TV. It’s dazzling and horrifying, and still one of the coolest things ever broadcast on science-fiction television. From a tactical standpoint, the “Adama Maneuver” is absolutely bonkers and one of the riskiest spaceship tactics, perhaps ever (sorry, Vice-Admiral Holdo). What if the ship had gotten torn apart from ripping through the atmosphere? What if the FTL drive malfunctioned or didn’t activate in time? Somehow, it’s also not even the most visually impressive sequence in the episode.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/exodus-missiles.avif",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T09:04:18.000Z",
+      "categories": [
+        "science",
+        "gaming"
+      ],
+      "author": "Corey Plante"
+    },
+    {
+      "id": "039934f918a5",
+      "title": "Zelda Fans Who Loved Ocarina of Time Need to Play This Game Next",
+      "link": "https://www.polygon.com/zelda-link-past-retrospective-35-years/",
+      "description": "Ocarina of Time features some memorable moments, and many of them were similarly compelling in a previous Zelda adventure.",
+      "content": "By now, you’ve probably had time to play The Legend of Zelda: Ocarina of Time remake on the Nintendo Switch 2. You’ve marveled at what a great job it does of bringing the classic Nintendo 64 adventure to a new generation, with visual improvements and quality-of-life changes to make it more palatable for that new audience. Maybe you’ve even run through it a second time.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24100929/Link.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T09:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Jason Venter"
+    },
+    {
+      "id": "770796c07998",
+      "title": "Outage at HR platform Workday locks millions of employees out of their account",
+      "link": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
+      "description": "Workday outage leaves employees of thousands of businesses unable to access workplace tasks.",
+      "content": "Workday outage leaves employees of thousands of businesses unable to access workplace tasks.",
+      "thumbnail": "https://www.engadget.com/img/gallery/outage-at-hr-platform-workday-locks-millions-of-employees-out-of-their-account/l-intro-1794646237.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T08:54:55.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Mariella Moon)"
+    },
+    {
+      "id": "43803d3c2ee6",
+      "title": "Big Tech takes a beating as online safety experts accuse companies of doing bare minimum",
+      "link": "https://www.theregister.com/security/2026/11/14/big-tech-takes-a-beating-as-online-safety-experts-accuse-companies-of-doing-bare-minimum/5309302",
+      "description": "Accessing banned content is as easy as whipping out a thesaurus, Parliament's Communications and Digital Committee hears",
+      "content": "Technology companies are doing just enough to show a degree of compliance with the UK's Online Safety Act, but are failing to meet the needs of the individuals and young victims the legislation exists to protect, experts say.\n\nA panel of online safety pros assembled before Parliament's Communications and Digital Committee on Tuesday, taking aim at the likes of Google, Microsoft, Meta, and ByteDance for failing to act on important matters.\n\nClare McGlynn, professor of law at Durham University and expert on violence against women and girls (VAWG), was especially critical of major search engine providers for their inconsistent downranking of harmful content search terms.\n\n\"Rape porn,\" for example, is correctly downranked and no user sees any relevant links until the tenth page of results, although adjacent terms such as \"unwilling porn\" can be found as early as the third page, McGlynn said.\n\n\"I just think if someone spent a little more time thinking 'I really want to minimize the risk of this material appearing,' I would take a systematic approach,\" she told the committee. \"I would downrank 'unwilling' and 'unwanted,' and I would downrank 'asleep porn' as well… because it just means that it's easily findable.\n\n\"So, they don't rank some of them, but just not systematically or wholly consistently.\"\n\nMcGlynn went on to say that during her own research, \"force porn\" was rightly downranked heavily, although terms as similar as \"forced porn\" were not.\n\n\"If you were trying to think of the words that would be similar to say rape, and rape porn is extreme porn and it's not supposed to be on those platforms anymore, you would think of words like unwilling and unwanted,\" she added.\n\n\"And we know your algorithm would.\"\n\nGoogle inevitably took much of McGlynn's flak due to its dominance of the search engine market, although the professor said the same issues can be observed on Bing, too.\n\nAlexandra Whiston-Dew, partner at law firm Miscon de Raya, argued that search engines have such an important role in regulating the OSA, noting the limited resources at Ofcom's disposal.\n\nShe said that more needs to be done from the tech side to ensure different parties in the chain of publication are detected early and downranked or blocked accordingly.\n\nThere are publications, for example, that actively advertise themselves as websites that host illegal content, and these appear to be missing from the search engines' crosshairs.\n\n\"So, they are spotlighting the fact that they are publishing illegal content, and this is going under the radar not only from the search engines but also the other platforms and the businesses in the chain of publication,\" said Whiston-Dew. \"Also Ofcom needs to really pull all of their resources together and attack that receptacle of illegal content.\"\n\nSimilarly, McGlynn raised the issue of porn sites continuing to host extreme porn, as they are legally allowed to do, to make it available to less regulated territories.\n\nWith the harmful content still on the site, all it takes is a VPN connection to access it, and bypass the age assurance mechanisms in the process.\n\nSuccess of user reports trails away\n\nAs well as a piecemeal approach to downranking extreme content, experts said that tech platforms initially showed a strong appetite in quickly handling content-takedown requests, although this appears to have waned substantially.\n\nCiting data from domestic violence and VAWG charity Refuge [PDF], Janaya Walker, interim director at the End Violence Against Women Coalition (EVAW), said that before November 2025, the success rate for these kinds of reports made using Refuge’s Trusted Flagger team stood at 53.7 percent. Over the past 12 months, however, this dropped to just 18.2 percent.\n\nFurther, since November 2025, zero percent of reports made to Meta have been successful, according to Refuge’s figures.\n\nThe charity’s Trusted Flagger team works closely with social media platforms to report content that victims may have reported to it. The idea is that if the report comes from an authority like Refuge, it is acted upon more quickly.\n\nWalker said there was real concern about how platforms behave and whether they comply with existing regulation, and about what that means for specialist services supporting survivors in limo, particularly without an online commission to advocate for victims' and survivors' interests.\n\nMeta did not immediately respond to questions about its takedown rate, but according to its Community Standards Enforcement Report, it removed 27.8 million posts related to adult nudity and sexual activity between April and June 2026. The report does not include a category devoted to VAWG-related reports, so take the data with the appropriate level of scrutiny.\n\nNeither Google, Microsoft, nor TikTok responded to requests for comment.\n\nThe findings from Refuge and the discussion in Parliament this week reflect the wider concern about the efficacy of the OSA, and how online safety experts are frustrated with how little impact it has had, more than a year after the new duties came into force.\n\nEngland's Children's Commissioner, Dame Rachel de Souza, told the same committee in September that the OSA \"has made absolutely no difference \" to children's access to harmful content online, as evidenced by the accounts of young people themselves.\n\nAmid discussions from the panel of experts this week regarding the need for a civil redress scheme, McGlynn pointed to British Columbia's system as an example of how other countries are going further to protect people from online harms.\n\nShe said: \"...an individual still does not have the right to demand an image be taken down. And that is where I think we just lack that capacity to say to an individual, 'this is what you need to do, and you can bring this legal action, for example, against X, against the perpetrator, you can get the material deleted.'\n\n\"In British Columbia in Canada, they have a swift online civil redress system where you can make these claims, and you can get instant orders to get this material taken down, and you can even get compensation for some of the harm suffered.\n\n\"So other countries are doing more, if you like, to give the individuals that right as well as all the other measures at the platform level.\" ®",
+      "thumbnail": "https://image.theregister.com/?imageId=5254826&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-14T08:18:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Connor Jones"
+    },
+    {
+      "id": "d73553036ac2",
+      "title": "Outlook Went Down? Microsoft May Owe You Money",
+      "link": "https://www.wired.com/story/outlook-went-down-microsoft-may-owe-you-money/",
+      "description": "If your Microsoft business services were offline last week, you’re probably entitled to a partial credit on your next monthly bill.",
+      "content": "If your Microsoft business services were offline last week, you’re probably entitled to a partial credit on your next monthly bill.",
+      "thumbnail": "https://media.wired.com/photos/6af7757eefe64d5ef3ea37aa/master/pass/How-to-Get-Refund-From-Microsoft-Gear-1211180727.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T07:00:00.000Z",
+      "categories": [
+        "business",
+        "tech"
+      ],
+      "author": "Christopher Null"
+    },
+    {
+      "id": "4d0c29e8f59a",
+      "title": "Ask HN: What are the most useful, concrete AI skills to independently learn?",
+      "link": "https://news.ycombinator.com/item?id=50494696",
+      "description": "",
+      "content": "Specifically, what are the most useful, concrete skills to learn as an individual to take economic advantage of the advances in LLMs, agents and associated new technological capabilities? What is accessible to learn just from the internet and experimentation, without a degree program, assuming a preexisting moderately technical background? The clearer and more specific (eg. “Learn how-to x with y”) the better. Thank you!\n\nComments URL: https://news.ycombinator.com/item?id=50494696\n\nPoints: 23\n\n# Comments: 25",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T06:56:42.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "shnock"
+    },
+    {
+      "id": "a20a765200c5",
+      "title": "Microsoft says services fully restored after day-long global outage",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "description": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+      "content": "Efforts to address the underlying problem with Outlook, Teams and Copilot are complete, the tech firm says.",
+      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg",
+      "source": "BBC Technology",
+      "publishedAt": "2026-11-14T06:42:27.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": null
+    },
+    {
+      "id": "1b8f2f598ff0",
+      "title": "FAA allows flights to resume after hours-long ground stop across the US",
+      "link": "https://www.engadget.com/2316792/faa-flights-resume-ground-stop-old-equipment/",
+      "description": "The FAA grounded flights for hours on November 13, and the transportation secretary blamed it on old and malfunctioning air traffic control system.",
+      "content": "The FAA grounded flights for hours on November 13, and the transportation secretary blamed it on old and malfunctioning air traffic control system.",
+      "thumbnail": "https://www.engadget.com/img/gallery/faa-allows-flights-to-resume-after-hours-long-us-wide-ground-stop/l-intro-1794637444.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T06:35:40.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Mariella Moon)"
+    },
+    {
+      "id": "358a26fe113f",
+      "title": "Dell Coupon Codes: 20% Off for November 2026",
+      "link": "https://www.wired.com/story/dell-coupon-code/",
+      "description": "Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all things tech.",
+      "content": "Get 20% off with verified Dell promo code, plus today’s coupons for up to $600 off laptops, Alienware monitors, and all things tech.",
+      "thumbnail": "https://media.wired.com/photos/66ea076e571d60947a48460b/master/pass/WIRED-Coupons-16.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "programming",
+        "tech"
+      ],
+      "author": "Luke Larsen"
+    },
+    {
+      "id": "a719a956ac24",
+      "title": "Paramount+ Coupon Codes and Deals for 2026",
+      "link": "https://www.wired.com/story/paramount-plus-coupon-code/",
+      "description": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "content": "Save on streaming with the latest Paramount+ promo codes and deals, including 50% off subscriptions, free trials, and more.",
+      "thumbnail": "https://media.wired.com/photos/67b63b985c0507c1bb18ab66/master/pass/WIRED-Coupons-R2_14.png",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Molly Higgins"
+    },
+    {
+      "id": "fca00337d947",
+      "title": "Disney Plus Discount Codes: 52% Off November 2026",
+      "link": "https://www.wired.com/story/disney-plus-discounts/",
+      "description": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.",
+      "content": "Cut your subscription costs with the latest active Disney+ bundle deals, verified student offers, and partner promotions.",
+      "thumbnail": "https://media.wired.com/photos/66ea076e56fd4954a7f91e0c/master/pass/WIRED-Coupons-17.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Molly Higgins"
+    },
+    {
+      "id": "d015212c4511",
+      "title": "30% Off Canon Promo Codes | November 2026",
+      "link": "https://www.wired.com/story/canon-promo-code/",
+      "description": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026.",
+      "content": "Save an extra 10% or 30% with Canon coupon codes, plus up to $1,600 on cameras, printers, and more this November 2026.",
+      "thumbnail": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Molly Higgins"
+    },
+    {
+      "id": "4325c629f1e5",
+      "title": "Wayfair Coupons: Up to 80% Off November 2026",
+      "link": "https://www.wired.com/story/wayfair-promo-code/",
+      "description": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
+      "content": "Get 10% off with Wayfair promo code, up to 80% off furniture, and more top coupons.",
+      "thumbnail": "https://media.wired.com/photos/67b63b969468ebbf8f0cbc7d/master/pass/WIRED-Coupons-R2_5.png",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "programming",
+        "tech"
+      ],
+      "author": "Molly Higgins"
+    },
+    {
+      "id": "f1d12a18d603",
+      "title": "Klook Promo Code: 20% Off November 2026",
+      "link": "https://www.wired.com/story/klook-promo-code/",
+      "description": "Maximize your travel budget with our expert guide to finding Klook coupons, app-exclusive deals, and payment discounts on tours, hotels, and transport.",
+      "content": "Maximize your travel budget with our expert guide to finding Klook coupons, app-exclusive deals, and payment discounts on tours, hotels, and transport.",
+      "thumbnail": "https://media.wired.com/photos/67b63b909468ebbf8f0cbc77/master/pass/WIRED-Coupons-R2_8.png",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "programming",
+        "tech"
+      ],
+      "author": "Molly Higgins"
+    },
+    {
+      "id": "85061693353c",
+      "title": "LG Promo Codes and Coupons 20% Off for November 2026",
+      "link": "https://www.wired.com/story/lg-promo-code/",
+      "description": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
+      "content": "Save 20% with an LG promo code today, plus up to $1,000 off appliances, 40% off bestselling TVs and monitors.",
+      "thumbnail": "https://media.wired.com/photos/67b63b985a505b018b67ed90/master/pass/WIRED-Coupons-R2_17.png",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "programming",
+        "tech"
+      ],
+      "author": "Harry Rabinowitz"
+    },
+    {
+      "id": "802cc9fd09aa",
+      "title": "Whoop Promo Codes: 20% Off This November 2026",
+      "link": "https://www.wired.com/story/whoop-promo-code/",
+      "description": "Whether you're looking for a Whoop free trial, student discount, or military savings, our guide to Whoop promo codes will help you maximize your membership benefits. Stay on top of your fitness goals for less.",
+      "content": "Whether you're looking for a Whoop free trial, student discount, or military savings, our guide to Whoop promo codes will help you maximize your membership benefits. Stay on top of your fitness goals for less.",
+      "thumbnail": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Boutayna Chokrane"
+    },
+    {
+      "id": "43218cfe4603",
+      "title": "20% Off Samsung Promo Code | November 2026",
+      "link": "https://www.wired.com/story/samsung-promo-codes/",
+      "description": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+      "content": "Save 30% or 10% with Samsung coupon codes, up to $1,000 on appliances, plus limited-time deals on the Galaxy Z Fold7, Flip7, and S25.",
+      "thumbnail": "https://media.wired.com/photos/66ea077251891e6d3cb5d5cf/master/pass/WIRED-Coupons-3.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "programming",
+        "tech"
+      ],
+      "author": "Molly Higgins"
+    },
+    {
+      "id": "a5e1a6249f5e",
+      "title": "Tuft & Needle Promo Codes: 20% Off | November 2026",
+      "link": "https://www.wired.com/story/tuft-and-needle-promo-code/",
+      "description": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
+      "content": "Save 30% on best-selling mattresses with our top Tuft & Needle coupon codes.",
+      "thumbnail": "https://media.wired.com/photos/67b63b93a01a8e23b64ce24a/master/pass/WIRED-Coupons-R2_4.png",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Nena Farrell"
+    },
+    {
+      "id": "17600d65bfc0",
+      "title": "Womanizer Coupons: Save 15% in November 2026",
+      "link": "https://www.wired.com/story/womanizer-coupon/",
+      "description": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+      "content": "Save on the Womanizer Duo Premium and more with our latest Womanizer discount codes.",
+      "thumbnail": "https://media.wired.com/photos/67b63b917d355db73b38e0c0/master/pass/WIRED-Coupons-R2_1.png",
+      "source": "Wired",
+      "publishedAt": "2026-11-14T06:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Amanda Chatel"
+    },
+    {
+      "id": "881debcf1a1d",
+      "title": "Pokémon Go Wild Area 2026 event schedule, habitat spawns, and bonuses",
+      "link": "https://www.polygon.com/pokemon-go-wild-area-2026-global-habitats-schedule-bonuses/",
+      "description": "Here's everything you need to know about Pokémon Go's Wild Area 2026 event, including the habitats, spawns, and bonuses.",
+      "content": "Pokémon Go 's big global Wild Area 2026 event is finally here, running on Nov. 14 and 15 from 10 a.m. until 6 p.m. in your local time. This event features the debut of Gigantamax Duraludon, as well as Dynamax Dialga and Palkia. Safari Balls and mighty Pokémon also make a return from the previous years' Wild Area events, which means you can find some powerful Pokémon roaming about.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/jlee_261112_1001_pogo_wildhub.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T05:15:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Julia Lee"
+    },
+    {
+      "id": "6abd2f5eef76",
+      "title": "How to get mighty Pokémon in Pokémon Go",
+      "link": "https://www.polygon.com/pokemon-go-guide/483905/mighty-pokemon-list-schedule-moves/",
+      "description": "Special \"mighty\" Pokémon appear during the Wild Area event. We explain what they are, their special moves, and a mighty Pokémon list to target.",
+      "content": "Mighty Pokémon are particularly strong Pokémon that you can find during the Pokémon Go Wild Area 2026 event on Nov. 14 and 15.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/jlee_261112_1001_pogo_wildmighty-1.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T05:15:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Julia Lee"
+    },
+    {
+      "id": "799baede4d49",
+      "title": "How to get Go Safari Balls in Pokémon Go",
+      "link": "https://www.polygon.com/pokemon-go-guide/483165/go-safari-balls-how-to-get/",
+      "description": "As part of the “Wild Area: Global” Pokémon Go event, you can get Go Safari Balls, which have a high catch rate. We explain how to get more in our guide.",
+      "content": "You can get Go Safari Balls as part of Pokémon Go Wild Area events, and can only be used during event hours. No, seriously — they disappear after the event ends.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/jlee_261112_1001_pogo_safariballs.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T05:15:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Julia Lee"
+    },
+    {
+      "id": "dd389dd16d8e",
+      "title": "25 Years Later, Frodo’s Best Lord of the Ring Quote Proves He's the Ultimate Fantasy Hero",
+      "link": "https://www.polygon.com/frodo-best-quote-lord-of-the-rings/",
+      "description": "The Lord of the Rings is full of profound quotes, but Frodo's best one shows why he’s fantasy's greatest hero.",
+      "content": "An inherent tragedy follows every character in The Lord of the Rings, which isn’t surprising, given that Peter Jackson’s epic fantasy trilogy is adapted from the works of J.R.R. Tolkien. The author has never been shy about exploring grim topics, and in a 1968 interview with the BBC, Tolkien said that all stories are about one thing: death.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/elijah-wood-the-lord-of-the-rings.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T05:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Aimee Hart"
+    },
+    {
+      "id": "92373d046955",
+      "title": "Yale scientists reveal what really slows aging and what doesn't",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230452.htm",
+      "description": "Yale researchers have discovered that certain prescription drugs, healthy diets, and exercise can measurably slow biological aging, while popular anti-aging supplements appear largely ineffective. Their analysis of 51 studies could transform how scientists evaluate anti-aging treatments, although wh",
+      "content": "Yale researchers have discovered that certain prescription drugs, healthy diets, and exercise can measurably slow biological aging, while popular anti-aging supplements appear largely ineffective. Their analysis of 51 studies could transform how scientists evaluate anti-aging treatments, although whether these biological changes actually extend life remains uncertain.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/anti-aging-beauty-skincare.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-14T04:26:12.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "a33801e4ff46",
+      "title": "Monkey Island: all 13 versions side by side",
+      "link": "https://monkeyisland.pages.dev/",
+      "description": "112 points · 20 comments",
+      "content": "Article URL: https://monkeyisland.pages.dev/\n\nComments URL: https://news.ycombinator.com/item?id=50493904\n\nPoints: 112\n\n# Comments: 20",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T04:23:30.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "maximilianburke"
+    },
+    {
+      "id": "171b720aca8e",
+      "title": "5,000-year-old skulls reveal a disturbing secret of ancient Egypt's first kings",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112025540.htm",
+      "description": "A 5,000-year-old mystery surrounding the tombs of Egypt’s first kings has taken a disturbing turn. Scientists reexamining 46 ancient skulls discovered evidence of potentially fatal head injuries in 18, suggesting that at least 39% of those studied may have been deliberately killed. The findings supp",
+      "content": "A 5,000-year-old mystery surrounding the tombs of Egypt’s first kings has taken a disturbing turn. Scientists reexamining 46 ancient skulls discovered evidence of potentially fatal head injuries in 18, suggesting that at least 39% of those studied may have been deliberately killed. The findings support a century-old theory that royal attendants were sacrificed when kings died, possibly to serve them in the afterlife.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/egyptian-mummy-ancient-body.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-14T02:59:05.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "c6caa4d4f0b0",
+      "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+      "link": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "description": "578 points · 335 comments",
+      "content": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus\n\nComments URL: https://news.ycombinator.com/item?id=50493251\n\nPoints: 578\n\n# Comments: 335",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T02:52:59.000Z",
+      "categories": [
+        "ai",
+        "hardware",
+        "startups"
+      ],
+      "author": "speckx"
+    },
+    {
+      "id": "d65257c6e59e",
+      "title": "James Gunn Shuts Down Rumors That Skydance Is Meddling With Man of Tomorrow",
+      "link": "https://www.ign.com/articles/james-gunn-shuts-down-rumors-that-skydance-is-meddling-with-man-of-tomorrow",
+      "description": "James Gunn has shut down rumors that the new DC overseers at Skydance have meddled with his cut of Man of Tomorrow following his shocking DC Studios exit.",
+      "content": "James Gunn has shut down rumors that the new DC overseers at Skydance have meddled with his cut of Man of Tomorrow following his shocking DC Studios exit.\n\nThe internet has filled with gossip in the wake of Gunn and Peter Safran's departure as co-chairmen of the comic book entertainment wing earlier this week. As an ocean of rumors rises, some of the more worrying claims have seen some suggest Skydance has already taken control of the Superman director's sequel, which could result in major characters like Supergirl and Blue Beetle being cut entirely.\n\nThese are just some of the accusations that Gunn sought to dispel in a Threads post tonight. In what is essentially his first public statement since leaving DC Studios, the filmmaker took aim at the gossip that has DCU fans concerned. Not only have \"sweeping changes\" to Man of Tomorrow not been made, but apparently, no one at Skydance has even seen his movie yet.\n\n\"There are a lot of untrue rumors going around, but one of them is that Skydance has seen Man of Tomorrow and that all sorts of sweeping changes are being made,\" he said. \"No one from Skydance has even seen the movie - the only people that have are Peter Safran and a very small trusted group of friends and family. So any stories around this narrative are false.\"\n\nIt's a response that will not answer every question comic book movie enjoyers have about the future of the DCU, but it does clear the air about much of the more damning chatter online. Gunn's comments mean that any talk of Skydance being unhappy with the current cut of Man of Tomorrow is false. It also sounds like, at least for now, Supergirl and Blue Beetle, who had been previously reported to return, are safe.\n\nWith so much time left before David Corenswet's Clark Kent returns to theaters in July, though, it's hard to say how the Skydance takeover may impact its release. It's best to wait until Gunn or Skydance has more to share before setting any firm expectations in place for now.\n\nAll of that said, it's not too hard to see why fans of the DCU have felt uneasy in the last few days. Gunn and Safran have orchestrated the DCU to tell a varied collection of superpowered stories for four years, with its overarching plan for the years ahead only just starting to come into view. Pulling them from the driver's seat means the future is more unknown than ever before, especially considering Skydance was quick to find a replacement in Marvel alum Jeremy Latcham.\n\nWill Man of Tomorrow be altered against Gunn's will? Will Skydance reboot the DC movie universe and scrap future plans for the DCU? How will any of this affect future entries in Robert Pattinson's The Batman saga? It's all too soon to tell, but that won't stop the rumor mill from pushing ahead.\n\nWhat we do know is what Gunn shared with fans in the immediate aftermath of his exit. In a letter posted to social media, he promised that the characters he and Safran helped set up \"will live on.\" He also confirmed that the duo was recently \"engaged on another DC project\" that he is writing. What that project is remains a mystery.\n\nFor more on the future of the DCU, you can read up on what we know about Latcham. You can also check out another report that suggested Skydance intends to prioritize more well-known heroes in the DC portfolio going forward. Man of Tomorrow, meanwhile, is set to premiere July 9, 2027.\n\nPhoto by Michael Kovac/Getty Images for Warner Bros. Pictures.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/14/james-gunn-rumors-1794623291199.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-14T02:36:04.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Michael Cripe"
+    },
+    {
+      "id": "6c41dcbf34a2",
+      "title": "Ggml v1.0.0",
+      "link": "https://github.com/ggml-org/ggml/releases/tag/v1.0.0",
+      "description": "265 points · 43 comments",
+      "content": "Article URL: https://github.com/ggml-org/ggml/releases/tag/v1.0.0\n\nComments URL: https://news.ycombinator.com/item?id=50493062\n\nPoints: 265\n\n# Comments: 43",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T02:28:29.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "cobychapple"
+    },
+    {
+      "id": "c7368023d59a",
+      "title": "20 Years Later, A Classic Nintendo DS Puzzle Game Officially Returns",
+      "link": "https://www.polygon.com/professor-layton-nintendo-ds-remake-release-date-2027/",
+      "description": "Level-5 is remaking the classic Nintendo DS puzzle game Professor Layton and the Curious Village and it's due out in 2027",
+      "content": "Next year will mark the 20th anniversary of Level-5's beloved Professor Layton series. To celebrate, the company has announced it is remaking Professor Layton and the Curious Village.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/professor-layton-and-the-new-world-of-steam.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-14T02:25:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Willa Rowe"
+    },
+    {
+      "id": "bdfdbc6e6748",
+      "title": "Security Agencies Worldwide Found to Use Ad-Based Surveillance System",
+      "link": "https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/",
+      "description": "101 points · 11 comments",
+      "content": "Article URL: https://citizenlab.ca/security-agencies-worldwide-found-to-use-ad-based-surveillance-system/\n\nComments URL: https://news.ycombinator.com/item?id=50492950\n\nPoints: 101\n\n# Comments: 11",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T02:15:41.000Z",
+      "categories": [
+        "cybersecurity",
+        "privacy",
+        "programming"
+      ],
+      "author": "billybuckwheat"
+    },
+    {
+      "id": "f98d19f282ec",
+      "title": "Elephants found to be increasingly isolated leading to fractured social networks",
+      "link": "https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks",
+      "description": "135 points · 28 comments",
+      "content": "Article URL: https://today.ucsd.edu/story/elephants-found-to-be-increasingly-isolated-leading-to-fractured-social-networks\n\nComments URL: https://news.ycombinator.com/item?id=50492860\n\nPoints: 135\n\n# Comments: 28",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T02:02:42.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "gmays"
+    },
+    {
+      "id": "1ff2d9e323bc",
+      "title": "FAA lifts nationwide ground stop that blocked takeoffs for hours",
+      "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "description": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\" More than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights",
+      "content": "A view of an information board at the Chicago O'Hare International Airport, filled with waiting passengers on November 13, 2026. Photo by Jacek Boczarski/Anadolu via Getty Images) | Anadolu via Getty Images\n\nTakeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop at 3:44PM ET \"due to extraordinary circumstances and for reasons of safety.\"\n\nMore than four hours after the stop was issued, officials announced it was lifted at 8:15PM ET and that flights will resume. It's unclear how many flights will be able to take off and when, as they now face problems of overloaded airports and flight crews that have run out of time to operate the planes, meaning many people will be stuck where they are for the time being and more flights will be delayed or canceled.\n\nIn a White House press conference annou …\n\nRead the full story at The Verge.",
+      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2304493507.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "source": "The Verge",
+      "publishedAt": "2026-11-14T01:53:04.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Richard Lawler"
+    },
+    {
+      "id": "5ea45c63c751",
+      "title": "Forcing yourself to smile can actually make you miserable",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112025536.htm",
+      "description": "Smiling may not always make you happier, and new research suggests that forcing yourself to smile repeatedly could actually make you feel worse. In a University of Florida study involving more than 1,100 participants, researchers discovered that while a single artificial smile can provide a small mo",
+      "content": "Smiling may not always make you happier, and new research suggests that forcing yourself to smile repeatedly could actually make you feel worse. In a University of Florida study involving more than 1,100 participants, researchers discovered that while a single artificial smile can provide a small mood boost, repeatedly faking smiles can erase that benefit or even reverse it.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/woman-with-fake-forced-smile.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-14T01:50:58.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "17dc0dba5d90",
+      "title": "FAA grounds all domestic flights after reported network outage",
+      "link": "https://siliconangle.com/2026/11/13/faa-grounds-domestic-flights-after-reported-network-outage/",
+      "description": "The Federal Aviation Administration today grounded all domestic flights in the U.S. The rare order was issued by the Air Traffic Control System Command Center, or ATCSCC. It’s an FAA facility in Northern Virginia that is responsible for monitoring air traffic and mitigating potential risks. When ATC",
+      "content": "The Federal Aviation Administration today grounded all domestic flights in the U.S. The rare order was issued by the Air Traffic Control System Command Center, or ATCSCC. It’s an FAA facility in Northern Virginia that is responsible for monitoring air traffic and mitigating potential risks. When ATCSCC identifies issues such as airport congestion, it provides […]\n\nThe post FAA grounds all domestic flights after reported network outage appeared first on SiliconANGLE.",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/FAA.png",
+      "source": "SiliconANGLE",
+      "publishedAt": "2026-11-14T01:36:19.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Maria Deutscher"
     },
     {
       "id": "21f8826ba46f",
@@ -452,18 +1040,18 @@
       "author": "Jacob Kienlen"
     },
     {
-      "id": "89127d150443",
-      "title": "Hawaii DOT: All West Coast flights halted by SpaceX debris after FAA ground stop",
-      "link": "https://www.hawaiinewsnow.com/2026/11/14/dot-all-west-coast-flights-halted-by-spacex-debris-after-faa-ground-stop/",
-      "description": "21 points · 2 comments",
-      "content": "Article URL: https://www.hawaiinewsnow.com/2026/11/14/dot-all-west-coast-flights-halted-by-spacex-debris-after-faa-ground-stop/\n\nComments URL: https://news.ycombinator.com/item?id=50492450\n\nPoints: 21\n\n# Comments: 2",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T01:09:52.000Z",
+      "id": "39136d85fce3",
+      "title": "Scientists capture electrons making seemingly impossible quantum jumps",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
+      "description": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. The breakthrough offers an unprecedented look at quantum behavior and could help unlock a new generation of ultrafast, ligh",
+      "content": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. The breakthrough offers an unprecedented look at quantum behavior and could help unlock a new generation of ultrafast, light-controlled electronics.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/electric-field-of-light-accelerates-electrons.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-14T01:13:05.000Z",
       "categories": [
-        "programming"
+        "science"
       ],
-      "author": "taylorfinley"
+      "author": null
     },
     {
       "id": "069b26525670",
@@ -483,8 +1071,8 @@
       "id": "18713f91f295",
       "title": "Amtrak booking system experiencing major issues amid nationwide FAA ground stop",
       "link": "https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026",
-      "description": "40 points · 7 comments",
-      "content": "Article URL: https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026\n\nComments URL: https://news.ycombinator.com/item?id=50492315\n\nPoints: 40\n\n# Comments: 7",
+      "description": "168 points · 60 comments",
+      "content": "Article URL: https://www.fox5dc.com/news/amtrak-outage-ticket-booking-faa-ground-stop-november-13-2026\n\nComments URL: https://news.ycombinator.com/item?id=50492315\n\nPoints: 168\n\n# Comments: 60",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T00:52:29.000Z",
@@ -525,21 +1113,6 @@
       "author": null
     },
     {
-      "id": "da51afadad30",
-      "title": "Anthropic Upgrades Claude Code Projects to Run Parallel AI Workers Hands-Free",
-      "link": "https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free",
-      "description": "3 points · 0 comments",
-      "content": "Article URL: https://alphasignal.ai/news/anthropic-upgrades-claude-code-projects-to-run-parallel-ai-workers-hands-free\n\nComments URL: https://news.ycombinator.com/item?id=50492141\n\nPoints: 3\n\n# Comments: 0",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T00:28:11.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "toppa33"
-    },
-    {
       "id": "ee38bc3887a6",
       "title": "HBO’s 5-Part Crime Drama Has One of the Best Seasons in TV History",
       "link": "https://www.polygon.com/the-wire-season-4-recommendation/",
@@ -566,6 +1139,20 @@
         "gaming"
       ],
       "author": "Michael McWhertor"
+    },
+    {
+      "id": "10c60fc60c0f",
+      "title": "Unsloth Qwen3.8-27B Quantizations – Dynamic v3.1 Update",
+      "link": "https://unsloth.ai/docs/models/qwen3.8",
+      "description": "146 points · 43 comments",
+      "content": "Article URL: https://unsloth.ai/docs/models/qwen3.8\n\nComments URL: https://news.ycombinator.com/item?id=50491980\n\nPoints: 146\n\n# Comments: 43",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T00:06:04.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "Retro_Dev"
     },
     {
       "id": "4c92f895b0b0",
@@ -627,10 +1214,10 @@
     },
     {
       "id": "dcab381c8b78",
-      "title": "What Happened to 3Com?",
+      "title": "What happened to 3Com?",
       "link": "https://dfarq.homeip.net/what-happened-to-3com/",
-      "description": "29 points · 8 comments",
-      "content": "Article URL: https://dfarq.homeip.net/what-happened-to-3com/\n\nComments URL: https://news.ycombinator.com/item?id=50491830\n\nPoints: 29\n\n# Comments: 8",
+      "description": "144 points · 74 comments",
+      "content": "Article URL: https://dfarq.homeip.net/what-happened-to-3com/\n\nComments URL: https://news.ycombinator.com/item?id=50491830\n\nPoints: 144\n\n# Comments: 74",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-13T23:48:59.000Z",
@@ -654,25 +1241,40 @@
       "author": "Michael Cripe"
     },
     {
-      "id": "1ff2d9e323bc",
-      "title": "FAA ground stop shuts down flights nationwide",
-      "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
-      "description": "Takeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. The FAA tweeted just after 5PM ET that, \"There has been a temporary telecomm",
-      "content": "Delta Air Lines planes at the gate at LaGuardia Airport on June 3, 2026. | Photo: Getty Images\n\nTakeoffs from airports throughout the US largely stopped on Friday after the FAA issued a national ground stop \"due to extraordinary circumstances and for reasons of safety,\" while planes in the air will be allowed to land. The FAA tweeted just after 5PM ET that, \"There has been a temporary telecommunications outage - out of an abundance of caution all flights have been halted. Every flight has been accounted for and international flights will be handled on a case by case basis.\" The flight tracking site FlightAware lists 10,494 US flights as delayed and 3,396 flights canceled as of 6:16PM ET.\n\nAccording to CNN, the last nationwide ground st …\n\nRead the full story at The Verge.",
-      "thumbnail": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2284677563.jpg?quality=90&strip=all&crop=0,0,100,100",
-      "source": "The Verge",
-      "publishedAt": "2026-11-13T23:47:27.000Z",
+      "id": "916f45b01bb0",
+      "title": "AI supercharges laser physics with a stunning 250x speed boost",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261111005913.htm",
+      "description": "Researchers at Stanford, UCLA, and SLAC have developed an AI system that simulates complex laser interactions thousands of times faster than conventional methods. The breakthrough allows scientists to predict how laser pulses behave inside special crystals in just milliseconds, without sacrificing m",
+      "content": "Researchers at Stanford, UCLA, and SLAC have developed an AI system that simulates complex laser interactions thousands of times faster than conventional methods. The breakthrough allows scientists to predict how laser pulses behave inside special crystals in just milliseconds, without sacrificing much accuracy. This could dramatically improve the precision and efficiency of powerful X-ray lasers used in cutting-edge scientific research.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/noncollinear-sum-frequency-generation.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-13T23:41:08.000Z",
       "categories": [
-        "tech"
+        "ai",
+        "science"
       ],
-      "author": "Richard Lawler"
+      "author": null
+    },
+    {
+      "id": "7ab113adec14",
+      "title": "Show HN: Live map of U.S. flights during tonight's FAA nationwide ground stop",
+      "link": "https://grounds.top/",
+      "description": "147 points · 21 comments",
+      "content": "Article URL: https://grounds.top/\n\nComments URL: https://news.ycombinator.com/item?id=50491545\n\nPoints: 147\n\n# Comments: 21",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-13T23:17:39.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "gvsi"
     },
     {
       "id": "d25e210f3f7b",
       "title": "Terminal borders that don't cost a cell",
       "link": "https://www.joshka.net/cell-borders/",
-      "description": "53 points · 31 comments",
-      "content": "Article URL: https://www.joshka.net/cell-borders/\n\nComments URL: https://news.ycombinator.com/item?id=50491423\n\nPoints: 53\n\n# Comments: 31",
+      "description": "257 points · 111 comments",
+      "content": "Article URL: https://www.joshka.net/cell-borders/\n\nComments URL: https://news.ycombinator.com/item?id=50491423\n\nPoints: 257\n\n# Comments: 111",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-13T23:06:40.000Z",
@@ -699,8 +1301,8 @@
       "id": "7c3d0a079b98",
       "title": "How Not to Build a Music Player",
       "link": "https://alichraghi.github.io/blog/how-not-to-build-a-music-player/",
-      "description": "23 points · 4 comments",
-      "content": "Article URL: https://alichraghi.github.io/blog/how-not-to-build-a-music-player/\n\nComments URL: https://news.ycombinator.com/item?id=50491400\n\nPoints: 23\n\n# Comments: 4",
+      "description": "114 points · 46 comments",
+      "content": "Article URL: https://alichraghi.github.io/blog/how-not-to-build-a-music-player/\n\nComments URL: https://news.ycombinator.com/item?id=50491400\n\nPoints: 114\n\n# Comments: 46",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-13T23:04:30.000Z",
@@ -731,7 +1333,7 @@
       "link": "https://siliconangle.com/2026/11/13/exclusive-onyx-security-brings-ai-agent-governance-to-gleans-enterprise-ai-platform/",
       "description": "AI agent security startup Onyx Security Inc. today announced an integration with enterprise artificial intelligence platform company Glean Technologies Inc. to help enterprises govern the AI agents they build and run on Glean. Onyx and Glean are pitching the integration at companies that are moving",
       "content": "AI agent security startup Onyx Security Inc. today announced an integration with enterprise artificial intelligence platform company Glean Technologies Inc. to help enterprises govern the AI agents they build and run on Glean. Onyx and Glean are pitching the integration at companies that are moving quickly to roll out autonomous, connected agents across their departments. […]\n\nThe post Exclusive: Onyx Security brings AI agent governance to Glean’s enterprise AI platform appeared first on SiliconANGLE.",
-      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/03/onyx.png",
+      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/image-1.png",
       "source": "SiliconANGLE",
       "publishedAt": "2026-11-13T23:00:14.000Z",
       "categories": [
@@ -773,34 +1375,6 @@
       "author": "Sponsored Post"
     },
     {
-      "id": "783e4ba1d0e6",
-      "title": "Lying to Zed to get its remote server running on FreeBSD",
-      "link": "https://hayzam.com/blog/03-lying-to-zeds-remote-editor/",
-      "description": "10 points · 2 comments",
-      "content": "Article URL: https://hayzam.com/blog/03-lying-to-zeds-remote-editor/\n\nComments URL: https://news.ycombinator.com/item?id=50491295\n\nPoints: 10\n\n# Comments: 2",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-13T22:54:47.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "arch1e"
-    },
-    {
-      "id": "ecddc21aefcf",
-      "title": "Blizzard Officially Responds to Disappointed Overwatch Fans Over Hero 55",
-      "link": "https://www.polygon.com/overwatch-new-hero-55-hudson-damage-dps-blizzard/",
-      "description": "Overwatch's next hero, Hudson, will be a Damage (DPS) character, not a support. Fans are disappointed by the switch and Blizzard is responding.",
-      "content": "Blizzard Entertainment is about to make good on the promise of delivering 10 new heroes to Overwatch in 2026, with the final addition arriving in December. The 10th new hero coming to Overwatch in 2026 is an Omnic detective named Hudson, and he'll arrive alongside the launch of season 6. Hudson was officially revealed on Thursday, but many Overwatch fans aren't pleased with a key aspect of his character.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/ow_s1_herolineup_keyart.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-13T22:53:10.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Michael McWhertor"
-    },
-    {
       "id": "eb083ebaabcf",
       "title": "Some international physical copies of GTA VI can allegedly be redeemed without opening the box",
       "link": "https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/",
@@ -832,11 +1406,11 @@
       "author": "Marina Temkin, Dominic-Madori Davis"
     },
     {
-      "id": "78b79f0f5b0c",
-      "title": "All US flights grounded by FAA",
-      "link": "https://www.theregister.com/offbeat/2026/11/13/all-us-flights-grounded-by-faa/5309912",
+      "id": "d972c5a5c01d",
+      "title": "FAA lifts ground stop after hours-long delays snag travelers",
+      "link": "https://www.theregister.com/offbeat/2026/11/13/faa-lifts-ground-stop-after-hours-long-delays-snag-travelers/5309912",
       "description": "Safety reasons and unspecified communications issue cited",
-      "content": "The US Federal Aviation Administration on Friday issued an advisory that prevents the takeoff of flights in US airspace, creating chaos for travelers and airports.\n\n\"The FAA issued a nationwide ground stop for all U.S. airports following a communication issue impacting all Air Route Traffic Control Centers,\" said US Transportation Secretary Sean Duffy in a statement. \"FAA technicians are investigating the issue. We will provide immediate updates as we have them.\"\n\nA spokesperson at the FAA press office reached by phone said he was unable to provide further information. And an email response from the agency repeated Duffy's statement.\n\nThe FAA ATCSCC advisory halts departing flights and says international flights will be dealt with individually.\n\nThe notice says, \"Due to extraordinary circumstances and for reasons of safety. Attention all aircraft operators, by order of the Federal Aviation Command Center all airports are ground stopped. All departing traffic should remain stopped until further notice. Inbound international flights will be managed on a case by case basis.\"\n\nDoug Yakel, public information officer for San Francisco International Airport, said, \"FAA confirms nationwide ground stop, other reporting indicates a communications issue between Air Route Traffic Control Centers (ARTCCs). Aircraft already enroute to SFO still landing here but departing aircraft not taking off right now.\"\n\nAn update issued at 2:02 pm PT described the problem as \"a temporary telecommunications outage.\"\n\nThe FAA Telecommunications Infrastructure (FTI) is managed by L3Harris. The network provides secure communication between more than 4,400 facilities.\n\nThe grounding follows on the heels of a major Microsoft outage that has affected many Microsoft-hosted services, particularly email, for more than 24 hours so far. There's no indication presently that the two incidents are related.\n\nWe'll update this story as more information becomes available.®\n\nUpdated to add at 2353 UTC\n\nCBS News reports that “an update to the private communications network that connects America’s air traffic control system caused the system to reboot. When the FAA’s telecommunication infrastructure rebooted, it crashed, causing the communications outage. The system is operated by L3Harris.”\n\nL3Harris has not responded to a request for comment.\n\nUpdated to add at 2340 UTC\n\nAir Space Intelligence (ASI), awarded the FAA’s $875 million, 12-year contract for its new Strategic Management of Airspace, Routes and Trajectories (SMART) system, has issued a statement asserting that its products played no role in the FAA’s flight suspension. “The current ground stop is not based on or a result of the SMART system, any product of ASI or our integration with FAA and ATC,” the company said.",
+      "content": "The US Federal Aviation Administration on Friday issued an advisory that prevented the takeoff of flights in US airspace for around five hours, creating chaos for travelers and airports. The stop was finally lifted around 8:30 PM Eastern Time, but only after thousands of flights were canceled or delayed, leaving travelers stranded. The FAA has not yet confirmed a reason for the stop.\n\nOriginal story below:\n\n\"The FAA issued a nationwide ground stop for all U.S. airports following a communication issue impacting all Air Route Traffic Control Centers,\" said US Transportation Secretary Sean Duffy in a statement. \"FAA technicians are investigating the issue. We will provide immediate updates as we have them.\"\n\nA spokesperson at the FAA press office reached by phone said he was unable to provide further information. And an email response from the agency repeated Duffy's statement.\n\nThe FAA ATCSCC advisory halts departing flights and says international flights will be dealt with individually.\n\nThe notice says, \"Due to extraordinary circumstances and for reasons of safety. Attention all aircraft operators, by order of the Federal Aviation Command Center all airports are ground stopped. All departing traffic should remain stopped until further notice. Inbound international flights will be managed on a case by case basis.\"\n\nDoug Yakel, public information officer for San Francisco International Airport, said, \"FAA confirms nationwide ground stop, other reporting indicates a communications issue between Air Route Traffic Control Centers (ARTCCs). Aircraft already enroute to SFO still landing here but departing aircraft not taking off right now.\"\n\nAn update issued at 2:02 pm PT described the problem as \"a temporary telecommunications outage.\"\n\nThe FAA Telecommunications Infrastructure (FTI) is managed by L3Harris. The network provides secure communication between more than 4,400 facilities.\n\nThe grounding follows on the heels of a major Microsoft outage that has affected many Microsoft-hosted services, particularly email, for more than 24 hours so far. There's no indication presently that the two incidents are related.\n\nWe'll update this story as more information becomes available.®\n\nUpdated at 0211 Saturday UTC to reflect the lifting of the ground stop.\n\nUpdated to add at 2353 UTC\n\nCBS News reports that “an update to the private communications network that connects America’s air traffic control system caused the system to reboot. When the FAA’s telecommunication infrastructure rebooted, it crashed, causing the communications outage. The system is operated by L3Harris.”\n\nL3Harris has not responded to a request for comment.\n\nUpdated to add at 2340 UTC\n\nAir Space Intelligence (ASI), awarded the FAA’s $875 million, 12-year contract for its new Strategic Management of Airspace, Routes and Trajectories (SMART) system, has issued a statement asserting that its products played no role in the FAA’s flight suspension. “The current ground stop is not based on or a result of the SMART system, any product of ASI or our integration with FAA and ATC,” the company said.",
       "thumbnail": "https://image.theregister.com/?imageId=5309916&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-13T22:42:28.000Z",
@@ -858,20 +1432,6 @@
         "gaming"
       ],
       "author": "Michael Cripe"
-    },
-    {
-      "id": "189c9d968157",
-      "title": "Best Early Black Friday AirPods Deals (2026)",
-      "link": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-13-2026/",
-      "description": "Black Friday is still weeks away, but AirPods discounts are dropping early.",
-      "content": "Black Friday is still weeks away, but AirPods discounts are dropping early.",
-      "thumbnail": "https://media.wired.com/photos/6a6a501f4a743f1551e95445/master/pass/If-You%E2%80%99ve-Been-Waiting-to-Upgrade-Your-AirPods,-This-Is-Your-Chance.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T22:30:29.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Boutayna Chokrane"
     },
     {
       "id": "aca94c8fc8f1",
@@ -905,8 +1465,8 @@
       "id": "117b7aeaaeee",
       "title": "Live airband on all frequencies from KORS. Victoria, CA also ground stopped",
       "link": "https://orcasairband.com/",
-      "description": "182 points · 45 comments",
-      "content": "Article URL: https://orcasairband.com/\n\nComments URL: https://news.ycombinator.com/item?id=50490593\n\nPoints: 182\n\n# Comments: 45",
+      "description": "264 points · 61 comments",
+      "content": "Article URL: https://orcasairband.com/\n\nComments URL: https://news.ycombinator.com/item?id=50490593\n\nPoints: 264\n\n# Comments: 61",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-13T22:04:24.000Z",
@@ -914,20 +1474,6 @@
         "programming"
       ],
       "author": "mmaunder"
-    },
-    {
-      "id": "8a76f1b2ebac",
-      "title": "10 New Movies to Watch This Weekend on Netflix, Prime Video, and HBO Max (November 13 - 15)",
-      "link": "https://www.polygon.com/new-movies-streaming-this-weekend-netflix-november-13-15/",
-      "description": "On this week's streaming column, there's one of the biggest dinosaur blockbusters of the year, a big horror movie, and much more.",
-      "content": "Happy weekend! Several movies are hitting theaters this week, from the action-comedy How to Rob a Bank, starring Nicholas Hoult, Zoë Kravitz, and Christian Slater, to Ti West’s take on A Christmas Carol, titled Ebenezer and starring Johnny Depp.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/anne-hathaway-end-of-oak-street-032626-3eee5c3dcc1a4cd4b378d5646318c42c.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-13T22:00:18.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Maria Loreto"
     },
     {
       "id": "2c75a66fbe72",
@@ -986,34 +1532,6 @@
       "author": "Radhika Rajkumar"
     },
     {
-      "id": "83128b074022",
-      "title": "FAA Grounds All US Flights Until Further Notice",
-      "link": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/",
-      "description": "The government cited a nationwide communications failure among air traffic control systems as the reason for the sudden grounding on Friday.",
-      "content": "The government cited a nationwide communications failure among air traffic control systems as the reason for the sudden grounding on Friday.",
-      "thumbnail": "https://media.wired.com/photos/6af77f75b0613b392083fb37/master/pass/FAA-Grounds-All-Flights-Gear-970624408.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T21:42:57.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Aarian Marshall"
-    },
-    {
-      "id": "76e19d3b2aa2",
-      "title": "6 Most-Anticipated Steam Games You Should Add to Your Wishlist Right Now",
-      "link": "https://www.polygon.com/wishlister-nov-13/",
-      "description": "The best upcoming Steam games to add to your Wishlist include an open-world RPG, a narrative adventure, and... a game about slaps?",
-      "content": "Sometimes when we put together a new installment of Wishlister, Polygon’s weekly newsletter that highlights upcoming Steam games, we look to events like Steam Next Fest and the Triple-I Initiative to dig up gems. But the most tried-and-true method we’ve found for finding promising games is simply stumbling into them by accident.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/sharedimages/2026/11/floor-plan-slap-out-of-it-press-image-6.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-13T21:30:26.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Giovanni Colantonio"
-    },
-    {
       "id": "2ad0653cdcae",
       "title": "Magic: The Gathering’s Star Trek Commander Precons Ranked: Why We Are the Borg Takes the Top Spot",
       "link": "https://www.ign.com/articles/magic-the-gathering-star-trek-commander-decks-ranked",
@@ -1045,10 +1563,10 @@
     },
     {
       "id": "ec84c5cee427",
-      "title": "Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk",
+      "title": "Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk in the software",
       "link": "https://thenewstack.io/self-hosted-claude-managed-agents/",
-      "description": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents. Self-hosted Claude Managed Agents, as The post Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk appeared first on The New Stack .",
-      "content": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents.\n\nSelf-hosted Claude Managed Agents, as it’s aptly called, is available now in private beta. Customers host both the server that coordinates the agents and the sandboxes where the agents run their tools, either in their own cloud account or in an on-premises data center. Credentials and session histories stay on their infrastructure, while requests to Claude go to the inference provider they configure.\n\nWhile the benefits of self-hosting are evident, particularly for companies handling sensitive data, the accompanying license comes with a number of notable caveats that may give some customers pause — this includes strict deadlines for responding to safety notices, limits on which models customers can use, and rules against preventing certain types of data from being sent to Anthropic.\n\nClaude’s road to self-hosting\n\nBack in April, Anthropic debuted Claude Managed Agents, a hosted service for building and running AI agents. The following month, the company launched self-hosted sandboxes, which let customers run agents’ tools on their own infrastructure while Anthropic continued to run the Claude Managed Agents server.\n\nWith self-hosted Claude Managed Agents now in the mix, customers can run that server themselves, too, and store session histories in their own database.\n\nIn a blog post marking the launch, Anthropic says agents are taking on more consequential engineering tasks, including repairing failed builds, checking releases and deciding which alerts need attention. That work can require access to sensitive systems, such as private code repositories and internal build and release systems.\n\n“For agents with that level of access, some teams want the whole service in their own environment, not just the sandbox.”\n\n“They run unattended on your code and need access to your internal systems,” the company writes. “For agents with that level of access, some teams want the whole service in their own environment, not just the sandbox. Until now, that meant building the platform themselves.”\n\nSeveral companies have done exactly that. Spotify developed Honk, which runs Claude through the Agent SDK inside Spotify’s own harness. The company deploys Honk in Kubernetes pods in its cloud environment, giving it access to its internal CI systems so it can run builds and verify its code changes.\n\nAnthropic’s new offering packages much of that work into a product. Customers run Anthropic’s server and the sandbox workers in their own cloud or data centre, with PostgreSQL if they want to retain session histories across restarts, while their developers use the same core APIs as they do with the hosted service. The local server can send requests to Claude through Anthropic’s API, a cloud provider such as Amazon Bedrock or Microsoft Foundry, or the company’s own gateway.\n\nThe devil in the detail: 8 hours to act\n\nWhile Anthropic’s formal announcement emphasizes why companies might want to host the service themselves, digging into the details of the license reveals how much control Anthropic retains over the software once it’s deployed.\n\nFor starters, Anthropic ships the server as a proprietary binary that customers can’t modify, meaning that they can’t patch or customize the server code themselves. They can route requests through their own gateway, but only to Claude models. The license also bars models from other developers unless Anthropic expressly permits them, and the public inference docs list only Claude models.\n\nAmong the most notable terms of the license is how little time customers have to act on Anthropic’s safety notices. If the company flags a safety, security or misuse risk in writing, customers have just eight hours to disable the affected feature or roll back the version across every deployment. They also have one business day from delivery to install a designated safety update.\n\n&sect;5.3 Eight hours to roll back or disable\n\nPatrick Moorhead, founder and chief analyst at Moor Insights & Strategy, says the eight-hour deadline is tighter than the time most large enterprises typically allow to make production changes.\n\n“Self-hosted usually means the customer owns the change window,” Moorhead tells The New Stack. “This license flips that.”\n\n“Self-hosted usually means the customer owns the change window. This license flips that.”\n\nEven within the Claude model lineup itself, access can vary. The license says Anthropic can decide, on safety grounds, that some or all of a licensee’s customers should access certain Claude models only through Anthropic’s hosted service.\n\n&sect;5.6 Anthropic can reserve models for hosted access\n\nMoreover, the license bars customers from blocking or altering what it calls “usage signals,” the observability data the software may send to Anthropic. The company can use this data to measure how much the software is used and to monitor compliance with the agreement.\n\n“The idea is that if you build an agent that is breaking the law or causing harm you cannot stop us [the model lab] from figuring that out and doing anything about it.”\n\nJason Andersen, also an analyst at Moor Insights & Strategy, says the telemetry clause and the separate requirement to maintain safeguards Anthropic specifies are broadly in line with how cloud vendors would try to prevent misuse.\n\n“The idea is that if you build an agent that is breaking the law or causing harm you cannot stop us [the model lab] from figuring that out and doing anything about it,” Andersen tells The New Stack.\n\n&sect;5.9 Customers can’t block usage signals\n\nThe security backdrop\n\nIn July, Anthropic disclosed that Claude models had gained unauthorized access to real computer systems during cybersecurity evaluations. That same month, OpenAI had disclosed that models undergoing internal tests had bypassed isolation controls and breached systems at Hugging Face.\n\nWhile a model provider can address a problem on its side, an agent running on a customer’s servers may keep operating. And so the customer may also need to take action to contain the problem.\n\n“I do think that this is Anthropic putting more teeth around safety to limit their exposure which is effectively what a license does,” Andersen says. “It does not really change the risk of the technology it makes or those who use it to make agents.”\n\nHow enterprise buyers might respond\n\nThe long and short of all this is that Managed Agents now comes in three forms: fully-hosted by Anthropic, hosted by Anthropic with customer-run sandboxes, and now fully self-hosted.\n\nWhether that third option works for buyers depends on what they need from self-hosting in the first place. Moorhead expects regulated buyers to push back on both the rollback deadline and the telemetry terms.\n\n“It’s workable for companies already comfortable running Claude as a cloud service, and they’ll treat this as a cloud service that happens to sit in their data center,” he says. “For banks, government and sovereign buyers, expect procurement and legal to push back on sections 5.3 [safety rollback] and 5.9 [usage signals].”\n\nAndersen, for his part, says the terms are “a reasonable ask” for enterprises, and doubts they’ll slow adoption overall, given that buyers who need full control over their agents would likely be looking elsewhere already.\n\n“If you needed that level of control on your agents, you would likely consider a more independent, possibly open-weight solution,” he says.\n\nThe post Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk appeared first on The New Stack.",
+      "description": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents. Self-hosted Claude Managed Agents, as The post Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk in the software appeared first on The New Stack",
+      "content": "Anthropic has unveiled a self-hosted version of its platform for building and running AI agents.\n\nSelf-hosted Claude Managed Agents, as it’s aptly called, is available now in private beta. Customers host both the server that coordinates the agents and the sandboxes where the agents run their tools, either in their own cloud account or in an on-premises data center. Credentials and session histories stay on their infrastructure, while requests to Claude go to the inference provider they configure.\n\nWhile the benefits of self-hosting are evident, particularly for companies handling sensitive data, the accompanying license comes with a number of notable caveats that may give some customers pause — this includes strict deadlines for responding to safety notices, limits on which models customers can use, and rules against preventing certain types of data from being sent to Anthropic.\n\nClaude’s road to self-hosting\n\nBack in April, Anthropic debuted Claude Managed Agents, a hosted service for building and running AI agents. The following month, the company launched self-hosted sandboxes, which let customers run agents’ tools on their own infrastructure while Anthropic continued to run the Claude Managed Agents server.\n\nWith self-hosted Claude Managed Agents now in the mix, customers can run that server themselves, too, and store session histories in their own database.\n\nIn a blog post marking the launch, Anthropic says agents are taking on more consequential engineering tasks, including repairing failed builds, checking releases and deciding which alerts need attention. That work can require access to sensitive systems, such as private code repositories and internal build and release systems.\n\n“For agents with that level of access, some teams want the whole service in their own environment, not just the sandbox.”\n\n“They run unattended on your code and need access to your internal systems,” the company writes. “For agents with that level of access, some teams want the whole service in their own environment, not just the sandbox. Until now, that meant building the platform themselves.”\n\nSeveral companies have done exactly that. Spotify developed Honk, which runs Claude through the Agent SDK inside Spotify’s own harness. The company deploys Honk in Kubernetes pods in its cloud environment, giving it access to its internal CI systems so it can run builds and verify its code changes.\n\nAnthropic’s new offering packages much of that work into a product. Customers run Anthropic’s server and the sandbox workers in their own cloud or data centre, with PostgreSQL if they want to retain session histories across restarts, while their developers use the same core APIs as they do with the hosted service. The local server can send requests to Claude through Anthropic’s API, a cloud provider such as Amazon Bedrock or Microsoft Foundry, or the company’s own gateway.\n\nThe devil in the detail: 8 hours to act\n\nWhile Anthropic’s formal announcement emphasizes why companies might want to host the service themselves, digging into the details of the license reveals how much control Anthropic retains over the software once it’s deployed.\n\nFor starters, Anthropic ships the server as a proprietary binary that customers can’t modify, meaning that they can’t patch or customize the server code themselves. They can route requests through their own gateway, but only to Claude models. The license also bars models from other developers unless Anthropic expressly permits them, and the public inference docs list only Claude models.\n\nAmong the most notable terms of the license is how little time customers have to act on Anthropic’s safety notices. If the company flags a safety, security or misuse risk in writing, customers have just eight hours to disable the affected feature or roll back the version across every deployment. They also have one business day from delivery to install a designated safety update.\n\n&sect;5.3 Eight hours to roll back or disable\n\nPatrick Moorhead, founder and chief analyst at Moor Insights & Strategy, says the eight-hour deadline is tighter than the time most large enterprises typically allow to make production changes.\n\n“Self-hosted usually means the customer owns the change window,” Moorhead tells The New Stack. “This license flips that.”\n\n“Self-hosted usually means the customer owns the change window. This license flips that.”\n\nEven within the Claude model lineup itself, access can vary. The license says Anthropic can decide, on safety grounds, that some or all of a licensee’s customers should access certain Claude models only through Anthropic’s hosted service.\n\n&sect;5.6 Anthropic can reserve models for hosted access\n\nMoreover, the license bars customers from blocking or altering what it calls “usage signals,” the observability data the software may send to Anthropic. The company can use this data to measure how much the software is used and to monitor compliance with the agreement.\n\n“The idea is that if you build an agent that is breaking the law or causing harm you cannot stop us [the model lab] from figuring that out and doing anything about it.”\n\nJason Andersen, also an analyst at Moor Insights & Strategy, says the telemetry clause and the separate requirement to maintain safeguards Anthropic specifies are broadly in line with how cloud vendors would try to prevent misuse.\n\n“The idea is that if you build an agent that is breaking the law or causing harm you cannot stop us [the model lab] from figuring that out and doing anything about it,” Andersen tells The New Stack.\n\n&sect;5.9 Customers can’t block usage signals\n\nThe security backdrop\n\nIn July, Anthropic disclosed that Claude models had gained unauthorized access to real computer systems during cybersecurity evaluations. That same month, OpenAI had disclosed that models undergoing internal tests had bypassed isolation controls and breached systems at Hugging Face.\n\nWhile a model provider can address a problem on its side, an agent running on a customer’s servers may keep operating. And so the customer may also need to take action to contain the problem.\n\n“I do think that this is Anthropic putting more teeth around safety to limit their exposure which is effectively what a license does,” Andersen says. “It does not really change the risk of the technology it makes or those who use it to make agents.”\n\nHow enterprise buyers might respond\n\nThe long and short of all this is that Managed Agents now comes in three forms: fully-hosted by Anthropic, hosted by Anthropic with customer-run sandboxes, and now fully self-hosted.\n\nWhether that third option works for buyers depends on what they need from self-hosting in the first place. Moorhead expects regulated buyers to push back on both the rollback deadline and the telemetry terms.\n\n“It’s workable for companies already comfortable running Claude as a cloud service, and they’ll treat this as a cloud service that happens to sit in their data center,” he says. “For banks, government and sovereign buyers, expect procurement and legal to push back on sections 5.3 [safety rollback] and 5.9 [usage signals].”\n\nAndersen, for his part, says the terms are “a reasonable ask” for enterprises, and doubts they’ll slow adoption overall, given that buyers who need full control over their agents would likely be looking elsewhere already.\n\n“If you needed that level of control on your agents, you would likely consider a more independent, possibly open-weight solution,” he says.\n\nThe post Anthropic now lets you self-host Claude Managed Agents. The catch? 8 hours to act if it flags a safety risk in the software appeared first on The New Stack.",
       "thumbnail": "https://cdn.thenewstack.io/media/2026/11/2876cde1-public-domain-vectors-grxqbf6y-dq-unsplash-1024x646.jpg",
       "source": "The New Stack",
       "publishedAt": "2026-11-13T21:29:30.000Z",
@@ -1105,53 +1623,11 @@
       "author": null
     },
     {
-      "id": "a20a765200c5",
-      "title": "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
-      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-      "description": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
-      "content": "Experts say the event is a \"stark reminder\" of how heavily the world relies on a small group of big tech providers.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/5f18/live/9b3a5370-df98-11f1-a9ad-6774a3284d10.jpg",
-      "source": "BBC Technology",
-      "publishedAt": "2026-11-13T21:14:22.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": null
-    },
-    {
-      "id": "729635c933e3",
-      "title": "FAA issues nationwide ground stop due to \"extraordinary circumstances\"",
-      "link": "https://www.axios.com/2026/11/13/faa-nationwide-ground-stop",
-      "description": "113 points · 35 comments",
-      "content": "Article URL: https://www.axios.com/2026/11/13/faa-nationwide-ground-stop\n\nComments URL: https://news.ycombinator.com/item?id=50489678\n\nPoints: 113\n\n# Comments: 35",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-13T21:08:49.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "owenshen24"
-    },
-    {
-      "id": "a99b67c91f9f",
-      "title": "All US airports are currently ground stopped",
-      "link": "https://twitter.com/flightradar24/status/2121347654714077605",
-      "description": "163 points · 31 comments",
-      "content": "Article URL: https://twitter.com/flightradar24/status/2121347654714077605\n\nComments URL: https://news.ycombinator.com/item?id=50489652\n\nPoints: 163\n\n# Comments: 31",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-13T21:06:52.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "defly"
-    },
-    {
       "id": "9c247e087592",
-      "title": "FAA issues national ground stop",
+      "title": "FAA issues national ground stop – lifted 4.5 hours later",
       "link": "https://www.nbcnews.com/news/us-news/faa-orders-nationwide-ground-stop-departing-flights-reasons-safety-rcna609247",
-      "description": "1288 points · 773 comments",
-      "content": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&a... https://www.nytimes.com/live/2026/11/13/us/ground-stop-natio...\n\nComments URL: https://news.ycombinator.com/item?id=50489641\n\nPoints: 1288\n\n# Comments: 773",
+      "description": "1545 points · 1173 comments",
+      "content": "https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11132026&a... https://www.fly.faa.gov/adv/adv_otherdis?adv_date=11142026&a... https://www.nytimes.com/live/2026/11/13/us/ground-stop-natio...\n\nComments URL: https://news.ycombinator.com/item?id=50489641\n\nPoints: 1545\n\n# Comments: 1173",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-13T21:05:53.000Z",
@@ -1159,63 +1635,6 @@
         "programming"
       ],
       "author": "zulln"
-    },
-    {
-      "id": "99d9d41de507",
-      "title": "Marvel Officially Confirms New Avengers Team for Doomsday",
-      "link": "https://www.polygon.com/avengers-doomsday-marvel-confirms-new-team-lineup/",
-      "description": "Marvel has confirmed what superheroes are apart of the newest Avengers team in Doomsday, which will also feature the Fantastic Four and X-Men.",
-      "content": "The Marvel Cinematic Universe 's Avengers lineup has been a bit muddled since the events of Captain America: Civil War, which broke up the team of besties. Things got more confusing when the team of misfits in last year's Thunderbolts* was declared the New Avengers at the end of the film, causing a bit of a kerfuffle between the team and Anthony Mackie's Sam Wilson/Captain America over who gets to call themselves Avengers.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/avengers-doomsday-thor.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-13T21:02:48.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Austin Manchester"
-    },
-    {
-      "id": "d11365f0dd8c",
-      "title": "Autonomous (YC F25) is hiring MTS to build AI agents that manage your wealth",
-      "link": "https://atg.science/careers",
-      "description": "0 points · 0 comments",
-      "content": "Article URL: https://atg.science/careers\n\nComments URL: https://news.ycombinator.com/item?id=50489589\n\nPoints: 0\n\n# Comments: 0",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-13T21:01:11.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "dkobran"
-    },
-    {
-      "id": "97f2a4370699",
-      "title": "Cities: Skylines' Best Replacement Is Finally Here and Better than Expected",
-      "link": "https://www.polygon.com/transport-fever-3-logistics-city-builder-game/",
-      "description": "Transport Fever 3 turned me into a lover of logistics-based city builder games with how much more hands-on it is compared to Cities: Skylines",
-      "content": "2026 is the year I got massively into city builders, and by massively I mean I played Cities: Skylines more than anything else for the first half of the year. I started dabbling with city builder-slash-logistics games in the second half of the year, like Anno 117, and turned my attention to Transport Fever 3 soon after. When I first learned about Transport Fever 3, I called it \"like\" Cities: Skylines. It looked a lot like a traditional city builder, albeit one where you focus on roads more than zoning. After playing it over the last month or so, though, I realize the difference between city builder and logistics planner is a lot more distinct than I initially gave it credit for — and I've irreversibly become a logistics sicko.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/02/steamgame.JPG",
-      "source": "Polygon",
-      "publishedAt": "2026-11-13T21:00:18.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Josh Broadwell"
-    },
-    {
-      "id": "6188e1e9579b",
-      "title": "8 New TV Shows to Watch This Weekend on Netflix, Prime Video, and HBO (November 13-15)",
-      "link": "https://www.polygon.com/new-tv-shows-streaming-this-weekend-netflix-november-13-15/",
-      "description": "On this week's TV column, there's the return of one of the biggest fantasy franchises in the world, a new Netflix horror, and more.",
-      "content": "It’s a big weekend for new TV. VisionQuest has concluded its first season, including a post-credits scene with big implications for Avengers: Doomsday. The Lord of the Rings: Rings of Power is back with a third season, continuing the story of a Middle-earth set thousands of years before Bilbo and Frodo Baggins. The Body is also available on Netflix, delivering a fun and campy high school drama with some religious horror thrown in the mix.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/tcdbody_zx012.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-13T21:00:18.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Maria Loreto"
     },
     {
       "id": "9dac422a5c30",
@@ -1321,64 +1740,6 @@
       "author": "Stevie Bonifield"
     },
     {
-      "id": "ed80b12b8699",
-      "title": "12 12 12 Review",
-      "link": "https://www.ign.com/articles/12-12-12-review-apple-tv-anthony-mackie-jamie-dornan",
-      "description": "Apple TV’s new heist series 12 12 12 is predicated on a timeline-hopping gimmick that only works as an elevator pitch.",
-      "content": "This is a spoiler-free review of the first two episodes of 12 12 12, streaming on Apple TV now.\n\nApple TV’s 12 12 12 operates under these invented cardinal rules of a professional heist: It takes 12 months to plan, 12 hours to execute, and if the cops don’t catch the perpetrators in 12 days, they never will. (Why this didn’t premiere on December 12, I’ll never understand.) The series rests its entire weight on this premise, hopping between the three phases of a heist organized by Jamie Dornan’s Paul Galvin, a retired thief pulled back in for one last job, and the FBI agent relentlessly on his trail, Anthony Mackie’s Jack Strickland. The question is, then, does 12 12 12’s gimmick work? Based on the first two episodes, “I’m robbing the house on Christmas Eve while the family’s at mass” and “I Want My Halo Back,” the answer seems to be: not really.\n\n12 12 12 starts with eyebrow-raising intrigue, as a crumpled, naked man slithers out of a lockbox inside a fancy-looking bank vault and starts cracking open safes. But the cutaway from this scene — right into the 12 12 12 explanation — is only the first instance of the main problem with the show thus far: switching over to a new window of time kills any of the momentum the previous scenes had going for them. 12 12 12 also approaches each of its nonlinear storylines with the same level of urgency. Hour 1 of Paul’s heist to steal the equivalent of one billion physical U.S. dollars — which, just how bulky is that in comparison, say, to the Breaking Bad storage unit stack? — from a Swiss bank moves with practically the same verve as Jack getting wise to what’s happened on the Day 1 hunt. It doesn’t help with differentiating either when both characters keep referencing “what happened in Newark” as the murky botched job from the past they won’t shut the hell up about nor actually explain beyond the obvious trauma they incurred from it.\n\n12 12 12’s first two episodes, written by Dudi Appleton and Jim Keebble, treat that concept as though it’s so complicated that the audience could only follow the plot by spoon-feeding us time and place, and the script doubles down on this. The plot itself is full of cliches so that when it posits an occasionally unique idea it, by comparison, feels nearly revelatory. Of course, it often squanders that goodwill just as quickly. Just when you think 12 12 12 is going somewhere, its timeline triptych appears and swipes over to a new time period, resetting the action and deflating any of the excitement the show had just built. The dialogue is full of insufferable back-and-forths that are either inane or could have come from nearly any primetime cable procedural that’s attempting a quippy Marvel-ized punch-up.\n\nMackie and Dornan, two very competent actors, both make great efforts to do what they can with the trite material but to little avail. There’s only so much even accomplished actors can do with lines like “What if the only thing I’m good at is being a thief?” as Paul contemplates his girlfriend’s surprise pregnancy, or “You stole from me, Galvin. Now you’re gonna know how it feels,” as Jack promises to get revenge on Paul. For a show about pulling off the biggest bank heist in European history, it’s botched the job.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/13/12-12-12-1794600529977.png",
-      "source": "IGN",
-      "publishedAt": "2026-11-13T20:44:59.000Z",
-      "categories": [
-        "hardware",
-        "gaming"
-      ],
-      "author": "Leanne Butkovic"
-    },
-    {
-      "id": "ad880460f516",
-      "title": "Try Unlimited Checklist Tracking on IGN’s GTA 5 Guides This November",
-      "link": "https://www.ign.com/articles/try-unlimited-checklist-tracking-on-igns-gta-5-guides-this-november",
-      "description": "",
-      "content": "Yes, we’re finally getting GTA 6. We’ve held out this long, but as November 19th inches closer and closer, the wait has become almost unbearable. Why not dip your toes back into the world of Grand Theft Auto with a little trip down memory lane?\n\nThere’s never been a better time to replay GTA 5, not just because GTA 6 is right around the corner, but because until December 4th, 2026 you can use unlimited checkmarks and interactive map markers to track your progress through GTA. Here’s a peek at what IGN’s GTA 5 checklists, maps, and guides have to offer.\n\nGrand Theft Auto 5 Checklists and Interactive Map\n\nYou’re looking for a fix to hold you over until GTA 6... sounds like the perfect excuse to revisit GTA 5! Whether you’re looking to replay the main story, finally get the platinum trophy, or just mess around, IGN is here to help.\n\nDon’t get stuck on your second (or third… or fourth) playthrough of GTA 5. Follow along and use IGN’s walkthrough to measure your progress. For this month, you can use unlimited checkmarks to track which objectives you’ve completed and what you might have missed along the way.\n\nGTA 5 Story Missions walkthrough\n\nGTA 5 Strangers and Freaks walkthroughs\n\nHow to Make Money in GTA 5\n\nAlready in the middle of your playthrough? Use IGN’s checklists to check off all the progress you’ve made so far and easily scan for what you’re missing. If you’re in the business of trophy hunting or hitting 100% completion, IGN guides have everything you need to stay organized. Here are just a few of our helpful guides for anyone trying to 100% GTA 5:\n\n100 Percent Completion Checklist\n\nAchievements and Trophies Guide\n\nCollectibles Guides\n\nYou might already be acquainted with Los Santos, but it’s a big world. Why rely on fuzzy memory when you can use IGN’s interactive map to find things not marked on your in-game map? From stores to vehicle spawns, our interactive Los Santos Blaine County map makes tracking down collectibles and locations easy.\n\nBe sure to use these GTA 5 checklists, completely free only from November 13th to December 4th, 2026.\n\nShailyn Cotten is the Guides Checklists Editor for the IGN Guides team. The only thing she loves more than checking off her to-do list is frogs... and possibly Breath of the Wild. You can find her managing the checklist database for some of your favorite IGN game guides.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/13/gtav-promo-6-1794589944971.png",
-      "source": "IGN",
-      "publishedAt": "2026-11-13T20:40:03.000Z",
-      "categories": [
-        "privacy",
-        "gaming"
-      ],
-      "author": "Shailyn Cotten"
-    },
-    {
-      "id": "464ed34da979",
-      "title": "Blood of Dawnwalker Finally Gets Its Most Requested Feature Next Week",
-      "link": "https://www.polygon.com/blood-of-dawnwalker-update-new-game-plus-announced/",
-      "description": "Blood of Dawnwalker update 1.2 will add New Game + next week after overwhelming fan demand",
-      "content": "It's been just over two months since The Blood of Dawnwalker was released and fans have been clamoring for one missing feature for basically that long. Now developer Rebel Wolves is set to appease that demand with the upcoming update 1.2. Yes, New Game Plus is going to be a reality for the vampire RPG.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/the-blood-of-dawnwalker-how-long-to-beat.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-13T20:35:18.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Willa Rowe"
-    },
-    {
-      "id": "eb365ba9d5fd",
-      "title": "Costco’s New 'Pokémon' 30th Anniversary Online TCG Bundle Is Unbelievable",
-      "link": "https://www.polygon.com/costco-pokemon-30th-anniversary-etb-booster-bundle-stock-price-when-locations/",
-      "description": "Pokémon TCG collectors can nab a 30th Anniversary ETB and Booster Bundle and Ascended Heroes for cheaper than at Target, Walmart, and Best Buy",
-      "content": "Warehouse retailer Costco is determined to blow its competitors out of the water when it comes to selling Pokémon Trading Card Game products. A couple of months after debuting the best Pokémon deal of 2026, the members-only retailer is back with another offer that sounds too good to be true. This time, Costco's promotion targets Pokémon collectors hunting for the elusive 30th Anniversary collection. The best part? You won't have to set foot in a Costco store to take advantage of the promotion.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/pikachu-025-thumbnail.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-13T20:33:43.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Patricia Hernandez"
-    },
-    {
       "id": "66f1a4a70f86",
       "title": "Crunchbase Data: Nvidia’s Startup Funding Deals Hit A Record. What’s Next After Huang?",
       "link": "https://news.crunchbase.com/venture/huang-nvda-ai-startup-funding-record-2026/",
@@ -1456,8 +1817,8 @@
       "id": "504572814b78",
       "title": "Live-migration support in FreeBSD and bhyve coming",
       "link": "https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/",
-      "description": "67 points · 16 comments",
-      "content": "Article URL: https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/\n\nComments URL: https://news.ycombinator.com/item?id=50488835\n\nPoints: 67\n\n# Comments: 16",
+      "description": "105 points · 24 comments",
+      "content": "Article URL: https://gyptazy.com/blog/freebsd-bhyve-live-migration-support-rfc/\n\nComments URL: https://news.ycombinator.com/item?id=50488835\n\nPoints: 105\n\n# Comments: 24",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-13T19:58:42.000Z",
@@ -1465,34 +1826,6 @@
         "programming"
       ],
       "author": "JohnDohnBohn"
-    },
-    {
-      "id": "bc70ccc46158",
-      "title": "Atlas Coffee Club’s Black Friday Deals (2026)",
-      "link": "https://www.wired.com/story/atlas-coffee-club-black-friday-2026/",
-      "description": "For Black Friday, a new quarterly option delivers three bags at a time, each from a different country.",
-      "content": "For Black Friday, a new quarterly option delivers three bags at a time, each from a different country.",
-      "thumbnail": "https://media.wired.com/photos/6af75fb01f124ac5bec35016/master/pass/Send-Someone-on-a-Coffee-World-Tour-for-$59.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T19:58:41.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Kat Merck"
-    },
-    {
-      "id": "f39abf9b00e1",
-      "title": "Early Black Friday Mattress Deals: Get Up to 55% Off WIRED-Tested Favorites",
-      "link": "https://www.wired.com/story/best-early-black-friday-mattress-deals-11-13-2026/",
-      "description": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
-      "content": "I’ve already found early deals on our favorite WIRED-tested mattresses and sleep accessories.",
-      "thumbnail": "https://media.wired.com/photos/6af75ae25e4ca9026ac50b67/master/pass/The-Best-Early-Black-Friday-Mattress-Deals-So-Far.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T19:57:56.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Molly Higgins"
     },
     {
       "id": "dabb9c42293e",
@@ -1570,34 +1903,6 @@
       "author": "Zac Hall"
     },
     {
-      "id": "b99b3bf0ad66",
-      "title": "Found: A protein that drives ageing without unleashing inflammation",
-      "link": "https://www.nature.com/articles/d41586-026-03638-3",
-      "description": "124 points · 18 comments",
-      "content": "Article URL: https://www.nature.com/articles/d41586-026-03638-3\n\nComments URL: https://news.ycombinator.com/item?id=50488470\n\nPoints: 124\n\n# Comments: 18",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-13T19:25:21.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "gumby"
-    },
-    {
-      "id": "18188c8ad3a8",
-      "title": "Perplexity Decider v1.3: Training, eval, and use cases",
-      "link": "https://www.perplexity.ai/hub/blog/perplexity-decider",
-      "description": "94 points · 20 comments",
-      "content": "Article URL: https://www.perplexity.ai/hub/blog/perplexity-decider\n\nComments URL: https://news.ycombinator.com/item?id=50488464\n\nPoints: 94\n\n# Comments: 20",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-13T19:24:47.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "gmays"
-    },
-    {
       "id": "5db699f9ba99",
       "title": "The Week’s 10 Biggest Funding Rounds: Agentic AI And Infrastructure Are Still On A Roll",
       "link": "https://news.crunchbase.com/venture/biggest-startup-funding-rounds-agentic-ai-infrastructure-mirendil-mercor/",
@@ -1642,21 +1947,6 @@
         "tech"
       ],
       "author": "Brad Bourque"
-    },
-    {
-      "id": "1876ce8bb4f4",
-      "title": "Microsoft 365 Crawls Back to Life After a 24-Hour Outage",
-      "link": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
-      "description": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
-      "content": "The company says a bad update—not a cyberattack or AI—caused its servers around the world to crash.",
-      "thumbnail": "https://media.wired.com/photos/6af75c7bac6958eb8481a5e6/master/pass/Security_MicrosoftBackOnline_v1.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T19:08:57.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Andrew Couts"
     },
     {
       "id": "40b88ba9f827",
@@ -1895,20 +2185,6 @@
         "tech"
       ],
       "author": "staff@engadget.com (Lawrence Bonk)"
-    },
-    {
-      "id": "c2116e34fef7",
-      "title": "The Microsoft Outage Is a Warning for the World",
-      "link": "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/",
-      "description": "Countless businesses, schools, hospitals, and governments have found out the hard way what it means to rely on a single company’s systems to get things done. And next time could be even worse.",
-      "content": "Countless businesses, schools, hospitals, and governments have found out the hard way what it means to rely on a single company’s systems to get things done. And next time could be even worse.",
-      "thumbnail": "https://media.wired.com/photos/6af7348a98648de7b1064e82/master/pass/Security_Microsoft365OfflineProblem_v3.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T17:15:54.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Lily Hay Newman, Matt Burgess"
     },
     {
       "id": "ecbb932b99bc",
@@ -2222,22 +2498,6 @@
         "startups"
       ],
       "author": "Sarah Perez"
-    },
-    {
-      "id": "6cf396048e28",
-      "title": "Jensen Huang and the End of the Founder Fairy Tale",
-      "link": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
-      "description": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
-      "content": "The former tech CEO is obsessed with the power of storytelling. But he hasn't spun his way out of his sex scandals.",
-      "thumbnail": "https://media.wired.com/photos/6af64d55d057d0b5e841f091/master/pass/Backchannel-Jensen-Business.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T16:00:00.000Z",
-      "categories": [
-        "startups",
-        "business",
-        "tech"
-      ],
-      "author": "Lauren Goode"
     },
     {
       "id": "c80886225bdd",
@@ -2738,20 +2998,6 @@
       "author": null
     },
     {
-      "id": "6ddc215f45ea",
-      "title": "3 Best Walking Pad Treadmills for Homes and Offices (2026)",
-      "link": "https://www.wired.com/story/best-walking-pads/",
-      "description": "Our team clocked serious hours walking, working, and sometimes jogging to find the best under-desk treadmills for home offices and small spaces.",
-      "content": "Our team clocked serious hours walking, working, and sometimes jogging to find the best under-desk treadmills for home offices and small spaces.",
-      "thumbnail": "https://media.wired.com/photos/6af64959c5d481da1362b325/master/pass/The-Best-Walking-Pads-WIRED-Staffers-Use-During-Remote-Days.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T12:34:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Boutayna Chokrane"
-    },
-    {
       "id": "f55fdb9ae634",
       "title": "Palantir adds three UK police forces to its beat with £10.1M deal",
       "link": "https://www.theregister.com/public-sector/2026/11/13/palantir-adds-three-uk-police-forces-to-its-beat-with-101m-deal/5309699",
@@ -2839,20 +3085,6 @@
       "author": "Joanna Glasner"
     },
     {
-      "id": "e17bca7a29c6",
-      "title": "TCL QM7L Mini-LED TV Review (2026)",
-      "link": "https://www.wired.com/review/tcl-qm7l/",
-      "description": "$1,500 buys you vibrant color, deep blacks, and a fast screen fit for just about anything. Just be sure the wide pedestal fits your setup.",
-      "content": "$1,500 buys you vibrant color, deep blacks, and a fast screen fit for just about anything. Just be sure the wide pedestal fits your setup.",
-      "thumbnail": "https://media.wired.com/photos/6af64cc07d3b549f19bbdcc7/master/pass/Review--TCL-QM7L-Mini-LED-TV.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T12:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Rick Broida"
-    },
-    {
       "id": "3cebc2227579",
       "title": "Superheated magma could fuel towering lava fountains",
       "link": "https://www.sciencedaily.com/releases/2026/11/261111221811.htm",
@@ -2882,38 +3114,6 @@
       "author": "Eric Bangeman"
     },
     {
-      "id": "41eafb7e6a89",
-      "title": "This Startup Is Betting on AI Microdramas to Get More Black Stories in Hollywood",
-      "link": "https://www.wired.com/story/black-roles-are-disappearing-in-hollywood-this-startup-is-using-ai-microdramas-to-fight-back/",
-      "description": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
-      "content": "Mansa says its AI microdramas can serve as proofs of concept for what Black audiences want. Critics say the studio is selling out.",
-      "thumbnail": "https://media.wired.com/photos/6af65ba58bac4203b57b5ba0/master/pass/Startup-Betting-on-AI-Microdramas-Culture.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T11:45:00.000Z",
-      "categories": [
-        "ai",
-        "startups",
-        "tech"
-      ],
-      "author": "Jason Parham"
-    },
-    {
-      "id": "66c04806cfe9",
-      "title": "BOFH: The best way to stop an idea spreading is a controlled burn",
-      "link": "https://www.theregister.com/bofh/2026/11/13/bofh-the-best-way-to-stop-an-idea-spreading-is-a-controlled-burn/5309292",
-      "description": "The Boss mentions 'AI security,' triggering an entirely proportionate incident response",
-      "content": "Look, off in the ether – is it a bird, is it a plane? No, it's a stupid idea, on final approach...\n\nAnd look, the Boss has his office door open!\n\nC L E A R A N C E T O L A N D!...\n\nThe Boss has wandered into Mission Control with something obviously on his mind. Over time, the PFY and I have learned to equate these thoughtful moments with the BAG FULL lamp of a commercial vacuum cleaner at a waxing salon. Do not open.\n\nHis presence in Mission Control is never a good sign, but his \"thoughtful\" presence, even more so. He'll have seen something, read something, spoken to someone, or possibly overheard something in a toilet stall that will have sounded – to him – like a great idea. Or it might have been a cheddar-frenzy-induced fever dream that he wants to run by us.\n\nAnd the Boss's crazy ideas are, unfortunately, like bran flakes to his mental digestion, the output of which being delivered to the PFY and myself as a veritable slurry of poorly considered ideas.\n\n\"AI,\" he says, pausing for effect, once he's rolled to a stop.\n\nHe then waits patiently for one of us to ask \"What about AI?\" However, that will never happen. In terms of stupidity, it's up there with saying Candyman into a mirror five times, power washing a gremlin, or visiting a basement when Jason's in town....\n\n\"For the security system,\" the Boss teases.\n\nI continue my intense focus on my monitors, hoping the lunacy will depart. The PFY does the same.\n\nThe PFY and I know that the only way out of this is to stall till the end of the day, at which time the Boss's overnight reset will trigger, leaving him only a vague memory of having had a good idea.\n\n>clickety tap \"Uh-oh,\" I say, reaching into my drawer for my crashtop. \"It looks like one of the distribution switches on 4 has crashed.\"\n\n>tappity \"And not just 4 – it looks like the boardroom has gone down too.\"\n\n\"It could be a virus,\" I say, using words I know the Boss will respond to.\n\n\"A virus?!\" the Boss gasps.\n\n\"I don't know. It's too soon to tell,\" I say, departing....\n\nSo now I'm hiding in a cramped comms room on the fourth floor while I plug the crashtop into the CCTV VLAN so I can check on the Boss's location. Luckily, we upgraded the system to an AI-integrated platform, so I only need to type IDIOT into the search field to find him.\n\nSure enough, he's back in his office, typing away furiously, which can only mean there's a memo on its way. And if there's a memo, there's a path to reminding him of his dumb idea tomorrow...\n\n>tappity tap tap clickety On the screen, the Boss looks around anxiously as his laptop fires up DBAN in full confirm mode. He then reaches for a sheet of paper and starts scribbling furiously.\n\n>tappity tap The office lights switch off as the BMS system clock suddenly finds out that it's midnight.\n\nOn the screen, the Boss's phone torch comes on and he resumes scribbling.\n\n>bip bip bip biiiiiiip >ring \"Hello?\" the Boss asks, with a hint of feedback.\n\n\"It's the virus!\" I gasp. \"It's coming from inside the building!!!\"\n\nMeantime, I've messaged the PFY and advised him to pick up the shredder from the boardroom cupboard.\n\n\"What do I do?\" the Boss gasps.\n\n\"It's the wireless broadband connection on the roof!\" I say. \"We need to disconnect it!\"\n\n\"I thought you said it was coming from inside the building?\" the Boss asks.\n\nDAMMIT!\n\n>tappity click tap tap Further discussion is impossible now that his phone is erasing itself, having been marked as a stolen device...\n\nThe PFY was unable to find the shredder, as it looks to have been dumped now that board papers are no longer printed. On the plus side, he has a plan....two hours later...\n\n\"So, we're clear to enter the building?\" I ask the fire warden.\n\n\"Yes, you're clear, though it looks like the fire started on your floor.\"\n\n\"It doesn't surprise me,\" I say. \"We're creative people. Our ideas spark innovation.\"\n\n\"It looks like there was some as-yet-unknown accelerant used.\"\n\n\"Really? Was it... enthusiasm?\" I ask.\n\n\"No, more like lighter fluid.\"\n\n\"Oh,\" I say, thinking of the smokers the PFY occasionally chats to outside at the skip. \"Well, we may never know.\"\n\n\"Don't you have some sort of AI surveillance system?\" he asks.\n\n\"Sadly, that was the first thing to go,\" I lie....Later, in Mission Control...\n\n\"So, in review,\" the PFY says. \"We shut down a couple of switches, put the building in night mode, trashed a laptop and a mobile phone, then set fire to the building.\"\n\n\"Yes.\"\n\n\"Simply to stop a dumb idea?\"\n\n\"Yes.\"\n\n\"And the funny thing is, I took a look at his scribblings – and it wasn't all that bad.\"\n\n\"Really?\" I ask, reaching for the isopropyl and a lighter, just in case it's contagious.\n\nBOFH: Previous episodes on The Register\n\nThe Compleat BOFH Archives 95-99",
-      "thumbnail": "https://image.theregister.com/?imageId=224487&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-13T11:45:00.000Z",
-      "categories": [
-        "ai",
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "Simon Travaglia"
-    },
-    {
       "id": "a18aa197b559",
       "title": "What we know so far about the Microsoft outage",
       "link": "https://www.bbc.co.uk/news/videos/cqzjr903n01po?at_medium=RSS&at_campaign=rss",
@@ -2930,21 +3130,6 @@
       "author": null
     },
     {
-      "id": "0ff564a08108",
-      "title": "Even Black Friday Will Be More Expensive Than Usual",
-      "link": "https://www.wired.com/story/even-black-friday-2026-will-be-more-expensive-than-usual/",
-      "description": "The AI memory crunch is coming for your holiday shopping list.",
-      "content": "The AI memory crunch is coming for your holiday shopping list.",
-      "thumbnail": "https://media.wired.com/photos/6af7131c24bd9dbe89f314cb/master/pass/111326-Black%20Friday%20Memory%20Chip.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T11:30:00.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "Boone Ashworth"
-    },
-    {
       "id": "da97fcfce154",
       "title": "Walmart has slashed $730 off this monster gaming PC with RTX 5070 Ti",
       "link": "https://www.tomshardware.com/desktops/gaming-pcs/walmart-has-slashed-usd730-off-this-monster-gaming-pc-with-rtx-5070-ti-also-features-a-24-core-intel-processor-32gb-ddr5-2tb-ssd",
@@ -2958,64 +3143,6 @@
         "gaming"
       ],
       "author": "Stephen Warwick"
-    },
-    {
-      "id": "31b94290b05e",
-      "title": "‘A Servant Class, Not a Working Class’: Stephen Miller’s Biographer on What Comes Next",
-      "link": "https://www.wired.com/story/a-servant-class-not-a-working-class-stephen-millers-biographer-on-what-comes-next/",
-      "description": "Jean Guerrero, Stephen Miller’s biographer, sees him as “a case study in oligarchic capture”—and as a way for Donald Trump to double down.",
-      "content": "Jean Guerrero, Stephen Miller’s biographer, sees him as “a case study in oligarchic capture”—and as a way for Donald Trump to double down.",
-      "thumbnail": "https://media.wired.com/photos/6af48b9f1bbf3e7f3fba04d9/master/pass/GettyImages-2214264559.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T11:15:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Vittoria Elliott"
-    },
-    {
-      "id": "bcd1b15318a8",
-      "title": "Dark energy may have flipped from negative to positive 9.5 billion years ago",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261111005901.htm",
-      "description": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago. Scientists exploring an overlooked branch of an alternative gravity theory discovered that dark energy could have switched from negative to positive roughly 9.5 billion years ago, p",
-      "content": "A mysterious force driving the expansion of the Universe may have undergone a dramatic reversal billions of years ago. Scientists exploring an overlooked branch of an alternative gravity theory discovered that dark energy could have switched from negative to positive roughly 9.5 billion years ago, potentially changing how we understand cosmic history.",
-      "thumbnail": "https://www.sciencedaily.com/images/1920/dark-matter-cosmology-measurement.webp",
-      "source": "Science Daily",
-      "publishedAt": "2026-11-13T11:08:34.000Z",
-      "categories": [
-        "science"
-      ],
-      "author": null
-    },
-    {
-      "id": "9de821d4818b",
-      "title": "Crackdown on UK medical record snooping after staff reported sneaking 300+ times this year",
-      "link": "https://www.theregister.com/security/2026/11/13/crackdown-on-uk-medical-record-snooping-after-staff-reported-sneaking-300-times-this-year/5309421",
-      "description": "Watchdog wants assurances from 200 execs that employees aren't poking around patient files they have no business viewing",
-      "content": "Britain's privacy watchdog has put healthcare bosses on notice after receiving more than 300 reports of staff snooping through medical records this year, demanding that executives personally confirm they're doing enough to keep prying eyes out of patient files.\n\nThe Information Commissioner's Office (ICO) said on Thursday that it had written to more than 200 senior health leaders across the UK, warning that employees accessing records without good reason put patient privacy and public trust at risk.\n\nThe ICO received and assessed more than 300 reports of medical record snooping between January and mid-October 2026. Staff were caught looking up people they knew, poking around patient files out of sheer curiosity, and sharing private information with people who had no business seeing it.\n\nThe figure covers reports submitted by healthcare organizations rather than confirmed breaches, and excludes cases still awaiting assessment.\n\nICO chief executive Paul Arnold wants health bosses to personally assure him that their organizations have safeguards in place to stop staff having a nose through records they aren't supposed to see.\n\n\"Accessing someone's health records without a legitimate reason isn't harmless curiosity. It can cause enormous distress to patients and jeopardize the vital trust people place in our health service,\" Arnold said.\n\nIn a three-page letter to chief executives, Arnold makes clear that simply trusting staff to behave themselves won't cut it. He wants to know who can access patient records, whether anyone is checking what they're looking at, and what happens when somebody gets caught snooping.\n\nHealth bosses are also expected to investigate suspected breaches without dragging their feet, work out whether patients need to be told, and take action against staff caught accessing records they shouldn't.\n\nExecutives have until November 27 to respond. Those who haven't reviewed their safeguards in the past six months, or aren't happy with what they find, have been given another three months to put their house in order.\n\nThe problem isn't necessarily that healthcare workers are hacking into systems, as many already have legitimate access to patient records as part of their jobs. The trouble starts when they use that access to look up someone they're not treating, whether it's a neighbor, an ex-partner, or somebody whose name has appeared in the news.\n\nThis isn't the first time health authorities have tried to stamp out the problem. In July, NHS England warned employees that accessing records without a legitimate reason could cost them their jobs or even land them in prison.\n\nThat crackdown followed incidents involving staff accessing the medical records of victims of high-profile crimes, including the Nottingham attacks. NHS England also published guidance encouraging organizations to use access controls and audit systems to catch employees poking around where they shouldn't.\n\nSome newer electronic patient record systems can even flag suspicious access in real time, although the NHS acknowledged that monitoring capabilities vary depending on the technology organizations have installed.\n\nThe scale of the problem has been troubling regulators for years. In July, the UK government told Parliament that 1,445 cases of inappropriate access had been reported to the ICO between 2019 and 2025.\n\nAnd the consequences can go beyond getting the sack. The ICO has prosecuted 16 healthcare workers for snooping through patient records over the past decade, with unauthorized access to personal information potentially amounting to a criminal offense under the Data Protection Act 2018.\n\nArnold warned that the regulator could also take enforcement action against healthcare organizations whose protections aren't up to scratch.\n\n\"I've written to chief executives across the UK asking them to personally assure me that their safeguards work in practice. Where they don't, we expect organizations to put that right,\" he said.\n\nWith hundreds of reports already landing on the watchdog's desk this year, healthcare bosses now have a fortnight to explain how they're keeping staff out of records they have no business reading. ®",
-      "thumbnail": "https://image.theregister.com/?imageId=5276624&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-13T11:02:00.000Z",
-      "categories": [
-        "business",
-        "tech"
-      ],
-      "author": "Carly Page"
-    },
-    {
-      "id": "14372e851d42",
-      "title": "Inside the 42-Year Journey to Bring ‘Neuromancer’ to the Screen",
-      "link": "https://www.wired.com/story/exclusive-apple-tv-neuromancer-creator-interviews/",
-      "description": "William Gibson released his seminal novel Neuromancer in 1984. WIRED has an exclusive look at how it eventually made its way to Apple TV—thanks in no small part to Drake.",
-      "content": "William Gibson released his seminal novel Neuromancer in 1984. WIRED has an exclusive look at how it eventually made its way to Apple TV—thanks in no small part to Drake.",
-      "thumbnail": "https://media.wired.com/photos/6aee55c49c22209c9f013e23/master/pass/Neuromancer-BTS-Culture_102_18753F.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T11:00:00.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "Angela Watercutter"
     },
     {
       "id": "8a429aeabf43",
@@ -3092,21 +3219,6 @@
       "author": "staff@engadget.com (Mariella Moon)"
     },
     {
-      "id": "8e4423778bcd",
-      "title": "‘Call Him Out’: Cybertruck Loyalists Are in Mourning—and They Want Answers From Elon Musk",
-      "link": "https://www.wired.com/story/cybertruck-fans-demand-answers-from-elon-musk-about-the-vehicles-demise/",
-      "description": "Tesla’s unpredictable CEO is ready to move on from the company’s most controversial vehicle, but owners aren’t about to let him off the hook for what they see as a poor decision.",
-      "content": "Tesla’s unpredictable CEO is ready to move on from the company’s most controversial vehicle, but owners aren’t about to let him off the hook for what they see as a poor decision.",
-      "thumbnail": "https://media.wired.com/photos/6af663e1fcffa2a0af03f00a/master/pass/Cybertruck-Mourning-Culture.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T10:30:00.000Z",
-      "categories": [
-        "business",
-        "tech"
-      ],
-      "author": "Miles Klee"
-    },
-    {
       "id": "fba3cffa3531",
       "title": "1994 Jeep Cherokee owner hacks 32-year-old car with Claude AI to pass California smog tests",
       "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/1994-jeep-cherokee-owner-hacks-32-year-old-car-with-claude-ai-to-pass-california-smog-tests-enthusiast-reverse-engineered-the-ancient-ecu-for-diagnostics-and-control",
@@ -3120,21 +3232,6 @@
         "hardware"
       ],
       "author": "Mark Tyson"
-    },
-    {
-      "id": "779759396021",
-      "title": "The Hubble Space Telescope Is Sinking. NASA Is Looking for Ways to Keep It Afloat",
-      "link": "https://www.wired.com/story/nasa-wants-to-keep-the-hubble-space-telescope-afloat/",
-      "description": "With Hubble expected to reenter the atmosphere by 2034 and several malfunctions on board, NASA is asking commercial space companies for proposals on how to extend the telescope’s lifespan.",
-      "content": "With Hubble expected to reenter the atmosphere by 2034 and several malfunctions on board, NASA is asking commercial space companies for proposals on how to extend the telescope’s lifespan.",
-      "thumbnail": "https://media.wired.com/photos/6af5dcf2d057d0b5e841ea04/master/pass/27990737266_8b321346a4_o.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-13T10:00:00.000Z",
-      "categories": [
-        "science",
-        "tech"
-      ],
-      "author": "Ritsuko Kawai"
     },
     {
       "id": "04ab322d24b7",
@@ -3179,20 +3276,6 @@
         "hardware"
       ],
       "author": "Bruno Ferreira"
-    },
-    {
-      "id": "6111ca3be9f4",
-      "title": "The Sun unleashed a monster storm. Earth may have made it worse",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261111005905.htm",
-      "description": "The massive solar storm that illuminated skies worldwide in May 2024 has uncovered an unexpected twist: Earth's own atmosphere may have helped make the storm so powerful. Satellite measurements revealed that roughly 85% of the charged particles fueling the disturbance originated from Earth's upper a",
-      "content": "The massive solar storm that illuminated skies worldwide in May 2024 has uncovered an unexpected twist: Earth's own atmosphere may have helped make the storm so powerful. Satellite measurements revealed that roughly 85% of the charged particles fueling the disturbance originated from Earth's upper atmosphere rather than the solar wind. Scientists also detected an extraordinary 40% weakening of Earth's magnetic field high above the planet.",
-      "thumbnail": "https://www.sciencedaily.com/images/1920/arase-satellite-observing-ring-current-ions.webp",
-      "source": "Science Daily",
-      "publishedAt": "2026-11-13T09:49:36.000Z",
-      "categories": [
-        "science"
-      ],
-      "author": null
     },
     {
       "id": "8762a201a24f",
@@ -3299,20 +3382,6 @@
       "author": null
     },
     {
-      "id": "91ae39dd3186",
-      "title": "Tiny flaws in diamonds could unlock a quantum computing revolution",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261111005855.htm",
-      "description": "Scientists have discovered a faster way to identify diamond-based materials that could power quantum computers and sensors at room temperature. The breakthrough has already revealed promising new quantum building blocks that could help unlock computing capabilities far beyond those of today's superc",
-      "content": "Scientists have discovered a faster way to identify diamond-based materials that could power quantum computers and sensors at room temperature. The breakthrough has already revealed promising new quantum building blocks that could help unlock computing capabilities far beyond those of today's supercomputers.",
-      "thumbnail": "https://www.sciencedaily.com/images/1920/pink-diamond.webp",
-      "source": "Science Daily",
-      "publishedAt": "2026-11-13T05:26:41.000Z",
-      "categories": [
-        "science"
-      ],
-      "author": null
-    },
-    {
       "id": "03c2d7073afe",
       "title": "APOD: 2026 November 13 – NGC 206 and the Star Clouds of Andromeda",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
@@ -3403,22 +3472,6 @@
       "author": "Mike Wheatley"
     },
     {
-      "id": "b35133fe92ee",
-      "title": "A breakthrough in magnetism could make AI chips use dramatically less energy",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261111005853.htm",
-      "description": "Researchers at Brown University have overcome a major obstacle to creating ultra-low-power computer chips that could help slash the energy demands of AI. Their breakthrough eliminates a long-standing \"dead layer\" problem that causes promising materials to stop working when made extremely thin. Remar",
-      "content": "Researchers at Brown University have overcome a major obstacle to creating ultra-low-power computer chips that could help slash the energy demands of AI. Their breakthrough eliminates a long-standing \"dead layer\" problem that causes promising materials to stop working when made extremely thin. Remarkably, the new technique not only preserves the materials' electrical and magnetic properties at nearly atomic thicknesses but also gives them enhanced magnetic capabilities",
-      "thumbnail": "https://www.sciencedaily.com/images/1920/multiferroic-material-three-layer-system.webp",
-      "source": "Science Daily",
-      "publishedAt": "2026-11-13T01:40:17.000Z",
-      "categories": [
-        "ai",
-        "hardware",
-        "science"
-      ],
-      "author": null
-    },
-    {
       "id": "b0fc217f08d4",
       "title": "After Jensen Huang, Big Tech Has a Chance to Learn From Nvidia’s Mistakes",
       "link": "https://www.cnet.com/tech/services-and-software/jensen-huang-big-tech-learn-from-nvidias-mistakes/",
@@ -3450,22 +3503,6 @@
       "author": "Mike Wheatley"
     },
     {
-      "id": "a40e08b063b0",
-      "title": "Quantum sensor and software maker Q-CTRL raises $290M in funding",
-      "link": "https://siliconangle.com/2026/11/12/quantum-sensor-and-software-maker-q-ctrl-raises-290m-in-funding/",
-      "description": "Q-CTRL Pty Ltd., a provider of quantum sensors and software for managing qubits, today announced that it has raised $290 million in funding. Salesforce Ventures led the oversubscribed Series C deal. It was joined by more than a dozen others, including Bullhound Capital and Affinity Partners, which Q",
-      "content": "Q-CTRL Pty Ltd., a provider of quantum sensors and software for managing qubits, today announced that it has raised $290 million in funding. Salesforce Ventures led the oversubscribed Series C deal. It was joined by more than a dozen others, including Bullhound Capital and Affinity Partners, which Q-CTRL says made “significant” contributions, as well as […]\n\nThe post Quantum sensor and software maker Q-CTRL raises $290M in funding appeared first on SiliconANGLE.",
-      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/Q-CTRL.png",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-13T01:28:11.000Z",
-      "categories": [
-        "programming",
-        "startups",
-        "science"
-      ],
-      "author": "Maria Deutscher"
-    },
-    {
       "id": "9e23d13ed6a9",
       "title": "Google Catches Up to Apple, With Digital Wallet Keys for Your Physical Home Lock",
       "link": "https://www.cnet.com/home/security/google-aliro-digital-wallet-keys-home-locks/",
@@ -3480,50 +3517,6 @@
         "tech"
       ],
       "author": "Tyler Lacoma"
-    },
-    {
-      "id": "126f79483dcc",
-      "title": "GitHub availability report: October 2026",
-      "link": "https://github.blog/news-insights/company-news/github-availability-report-october-2026/",
-      "description": "In October, we experienced eight incidents that resulted in degraded performance across GitHub services. The post GitHub availability report: October 2026 appeared first on The GitHub Blog .",
-      "content": "We continue to share monthly updates on the work behind GitHub’s availability and reliability.\n\nThe short version of October: we added substantial independently scalable Azure capacity and removed several ways that failures could escalate. However, write outages, monitoring gaps during data migrations, and a regional network disruption reinforced the need for capacity growth to be paired with safer operations, stronger isolation, and validated regional recovery.\n\nAs of November 9, 140 of 151 production services and 32 of 50 MySQL primaries were running in Azure Central US. Azure served 63% of migrated-service reads, 66% of monolith reads, and 52% of Git reads. We also completed a compute expansion across all nine Central US Kubernetes clusters, more than doubling capacity.\n\nThat capacity is already carrying real growth. Migrated-service traffic has increased 82% since March, with Central US absorbing the growth beyond the highest weekly-average load previously served from our existing datacenter. This gives GitHub more room to grow without pushing the original environment beyond its prior operating range.\n\nWe also made several targeted reliability improvements. Actions changes increased capacity for critical Azure control-plane requests. A separate NAT-gateway mitigation reduced usage by 85%; four production jobs failed during the change, compared with approximately 800 expected without the mitigation. Connection limits and other client improvements now also reduce the chance that a dependency interruption becomes a broader reconnect storm.\n\nWe removed concentrated sources of database load as well. A high-traffic GitHub Actions endpoint handling more than 250 million requests per day moved to a more efficient service path, reducing peak database reads by 85%. Requiring at least three characters before searching repository topics reduced slow or terminated queries for that pattern by approximately 98%.\n\nReliability was still not where it needed to be. The October 7 write outages exposed an unsafe interaction between database orchestration and production routing. An October 29 Azure network disruption affected all three Central US availability zones and at least 34,128 signed-in users. More details on these and other incidents follow.\n\nThe East US 3 buildout is about one week behind plan. The next phase starts with its first validated traffic ramp in the first week of December, while we continue hardening migration safety, dependency isolation, and regional recovery.\n\nThe principle remains the same: availability, then capacity, then features.\n\nOctober 05 19:11 UTC (lasting 3 hours and 38 minutes)\n\nDuration: approximately 3 hours and 45 minutes.\n\nCustomers may have seen GitHub Actions jobs on GitHub-hosted runners stay queued much longer than usual, and some workflow runs failed to start. During the worst stretch, which lasted about 90 minutes, most jobs on GitHub-hosted runners did not start within five minutes. Impact eased as we failed over to healthy regions and added capacity. Self-hosted runners were not affected. GitHub Pages sites that build with actions were slow to update, though existing sites continued to serve normally. Some customers also saw errors in repository lists, licensing and billing pages, and some Copilot features.\n\nWhat went wrong and why?\n\nActions jobs stayed queued or failed to start because the service that assigns jobs to GitHub-hosted runners stopped working reliably. A partial networking failure on our cloud provider’s side disrupted some of the connections between one of our datacenter regions and the cloud-hosted databases that service depends on. Instead of failing fast, the service waited for those calls to time out. The waiting calls piled up until the service ran out of memory and restarted.\n\nJobs then shifted to the same service in a healthy region, which did not have enough capacity for the extra demand and began failing too. At the same time, runners that went several minutes without receiving a job shut down and were slow to be replaced, so fewer runners were available to pick up jobs.\n\nHow did we respond?\n\nA partial networking failure began, and actions jobs started backing up.\n\nAlerts flagged errors and slow job assignment, and we declared an incident.\n\nWe redeployed the service that assigns jobs to GitHub-hosted runners, but it did not recover. We traced the failures to the networking issue.\n\nWe failed over the affected databases and storage to healthy regions, one service at a time, and added capacity. Actions recovered, but some other affected services kept failing even after failover.\n\nWe worked with our cloud provider to resolve the networking failure. The remaining services recovered, and we resolved the incident.\n\nHow are we making incidents like this less likely or less impactful?\n\nWe are making the service that assigns jobs to GitHub-hosted runners better able to handle sudden increases in load, so it keeps up when another region shifts extra jobs to it.\n\nWe now have expanded prioritization of runner assignment based on customer profile when available runner capacity is degraded.\n\nWe are changing the behavior of GitHub-hosted runners to reduce recovery time when job assignment services are degraded for a period of time.\n\nWe are improving how quickly we detect and locate partial network failures between our datacenters and the cloud-hosted services they depend on.\n\nOctober 06 19:57 UTC (lasting 3 hours and 43 minutes)\n\nDuration: approximately 6 minutes of failed or slow requests across github.com, followed by approximately 3 hours and 30 minutes during which enterprise migrations were paused.\n\nCustomers may have seen server errors or slow responses when signing in, working with repositories and pull requests, calling the API, or using GitHub Codespaces. Retrying a short time later would have succeeded, and delayed webhook deliveries caught up soon after. At the peak, about 1.3% of all requests failed or timed out, and about 6.4K organizations saw at least one failed or slow request.\n\nMigrations were paused for customers using GitHub Enterprise Importer, and were resumed once a fix was deployed.\n\nWhat went wrong and why?\n\nA surge in migration activity caused GitHub Enterprise Importer to send a burst of very large queries to a shared database. These queries took much longer than usual and, together with normal traffic, used all of the database’s available connections, preventing other github.com features relying on the same database from completing their requests.\n\nThe importer did not reduce its load when the database became overloaded. The impact ended within minutes, once the importer finished its queued queries and the database’s connections were released.\n\nTo prevent a recurrence, we paused migrations until we deployed a mitigation that runs these queries in smaller batches.\n\nHow did we respond?\n\nA surge of migration work overloaded a shared database, causing requests across github.com to fail or slow down.\n\nAutomated monitoring detected the failures and paged our on-call engineers.\n\nThe errors stopped on their own within minutes.\n\nWe declared an incident and paused enterprise migrations to prevent a recurrence while we investigated the cause.\n\nOnce a mitigation was deployed, we resumed migrations and resolved the incident.\n\nHow are we making incidents like this less likely or less impactful?\n\nWe optimized the query GitHub Enterprise Importer sends to the database so that each one stays small and fixed in size.\n\nWe are automating importer backoff when the database is under strain, easing load before it can affect other GitHub services.\n\nWe are adding database alerts that flag queries doing much more work than usual and identify which query is responsible, so we can find and fix problems like this one faster.\n\nOctober 07 15:14 and 17:17 UTC (lasting 1 hour and 11 minutes, and 47 minutes, respectively)\n\nDuration: two separate write outages lasted approximately 10 minutes and 9 minutes, totaling about 19 minutes. The second was a recurrence of the first, with the same cause.\n\nCustomers may have seen errors when pushing code, signing in, updating pull requests or issues, or making changes through the API. Webhooks, GitHub Apps and OAuth, actions, code scanning, codespaces, and Copilot were also affected. Viewing content was largely unaffected. Data that was already saved was not lost, and actions that failed during the outages succeeded when retried after recovery.\n\nWeb and API request failures peaked at 8.9% in the first outage and 9.3% in the second, affecting more than 12,000 and more than 11,000 organizations, respectively. Some organizations may have been affected by both outages.\n\nWhat went wrong and why?\n\nDuring regular maintenance, we replaced machines that manage where database writes are sent. One new machine started with outdated records that still listed retired database servers. Once it was automatically elected leader, it published routing settings that sent writes for several core databases to those retired servers. Incorrect settings passed our existing validation and took effect immediately. Later, an automated maintenance task did not honor a pause on maintenance and triggered another election, and because the new machine had not yet been removed, it became leader again.\n\nHow did we respond?\n\nAutomated monitoring alerted us to failing writes, and we declared an incident.\n\nWrites recovered when an established machine with correct records became leader and published correct settings.\n\nWe traced the cause to the new machine, resolved the first incident, and paused automated maintenance to prevent a repeat.\n\nWhen a maintenance task did not honor the pause and the outage repeated, we declared a second incident.\n\nWrites recovered when an established machine became leader again. We removed the new machine and resolved the second incident.\n\nHow are we making incidents like this less likely or less impactful?\n\nWe improved how we retire database servers, so outdated records aren’t left behind.\n\nWe tightened controls on adding new machines that manage database routing, and making sure automated maintenance honors a pause.\n\nWe strengthened validation of database routing settings, so incorrect settings are caught before they take effect.\n\nOctober 19 15:49 UTC (lasting 1 hour and 7 minutes)\n\nDuration: approximately 1 hour and 28 minutes.\n\nCustomers may have seen delays in GitHub Actions workflow status updates, logs, and checks. About 5% of jobs on GitHub-hosted runners experienced delayed starts, a very small share of workflow runs failed, and some requests to the actions jobs REST API returned errors. GitHub Pages deployments and workflow and check webhook events generated by actions runs were also delayed. For part of this time, live updates on github.com and code search were degraded.\n\nWhat went wrong and why?\n\nAn internal actions service that stores workflow logs and run status lost connections to some of its cache servers in one cloud region. Every server running that service then retried those connections at the same time. Together, those retries saturated the network connections between GitHub’s data center and that region, disrupting other services that use the same link.\n\nHow did we respond?\n\nAutomated alerts detected the failures, we declared an incident, and we traced the problem to the shared network link.\n\nWe routed the actions service away from some of its cache servers in that region, but the link was still over capacity.\n\nWe routed it away from the rest of those cache servers, and the link recovered.\n\nWe raised processing limits to clear the actions backlog, and we resolved the incident once all affected services had recovered.\n\nHow are we making incidents like this less likely or less impactful?\n\nWe have limited how quickly this actions service can open new connections to its cache servers.\n\nWe are alerting on spikes in new connections from this service to identify and address the source sooner.\n\nOcto",
-      "thumbnail": "https://github.blog/wp-content/uploads/2026/11/oct5-actions-jobs-starting-late.png?resize=1024%2C466",
-      "source": "GitHub Blog",
-      "publishedAt": "2026-11-13T00:20:16.000Z",
-      "categories": [
-        "programming",
-        "opensource"
-      ],
-      "author": "Jakub Oleksy"
-    },
-    {
-      "id": "04a92c5d3f91",
-      "title": "A surprising brain difference may explain why some kids struggle with math",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025542.htm",
-      "description": "Stanford researchers have discovered that children who struggle persistently with math may have underlying differences in how their brains manage problem-solving strategies. Children with developmental dyscalculia were slower to switch strategies, less responsive to changes in difficulty, and less a",
-      "content": "Stanford researchers have discovered that children who struggle persistently with math may have underlying differences in how their brains manage problem-solving strategies. Children with developmental dyscalculia were slower to switch strategies, less responsive to changes in difficulty, and less able to improve their approach over time. Distinct patterns of brain activity were linked to these difficulties and could even predict certain math-related abilities.",
-      "thumbnail": "https://www.sciencedaily.com/images/1920/smart-boy-math-homework.webp",
-      "source": "Science Daily",
-      "publishedAt": "2026-11-12T23:33:12.000Z",
-      "categories": [
-        "science"
-      ],
-      "author": null
-    },
-    {
-      "id": "7a023e844510",
-      "title": "Meta's Muse can now make calls on your behalf (if you have a paid subscription)",
-      "link": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/",
-      "description": "The AI agent can schedule appointments, make reservations and wait on hold for you.",
-      "content": "The AI agent can schedule appointments, make reservations and wait on hold for you.",
-      "thumbnail": "https://www.engadget.com/img/gallery/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/l-intro-1794526142.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-12T23:32:00.000Z",
-      "categories": [
-        "ai",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Karissa Bell)"
     }
   ],
   "github": [
@@ -3531,7 +3524,7 @@
       "name": "alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 50640,
+      "stars": 50971,
       "starsToday": 215,
       "url": "https://github.com/alibaba/open-code-review"
     },
@@ -3539,7 +3532,7 @@
       "name": "GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 4881,
+      "stars": 5248,
       "starsToday": 1925,
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
     },
@@ -3547,7 +3540,7 @@
       "name": "openai/codex-security",
       "description": "OpenAI's Codex Security CLI and TypeScript SDK for finding, validating, and fixing security vulnerabilities. npm: https://www.npmjs.com/package/@openai/codex-security",
       "language": "TypeScript",
-      "stars": 13148,
+      "stars": 13358,
       "starsToday": 751,
       "url": "https://github.com/openai/codex-security"
     },
@@ -3555,7 +3548,7 @@
       "name": "ZhuLinsen/daily_stock_analysis",
       "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
       "language": "Python",
-      "stars": 71623,
+      "stars": 72017,
       "starsToday": 256,
       "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
     },
@@ -3563,7 +3556,7 @@
       "name": "we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "stars": 14766,
+      "stars": 14967,
       "starsToday": 925,
       "url": "https://github.com/we-promise/sure"
     },
@@ -3571,7 +3564,7 @@
       "name": "backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 10466,
+      "stars": 10632,
       "starsToday": 108,
       "url": "https://github.com/backnotprop/plannotator"
     },
@@ -3579,7 +3572,7 @@
       "name": "louislam/uptime-kuma",
       "description": "A fancy self-hosted monitoring tool",
       "language": "JavaScript",
-      "stars": 93870,
+      "stars": 94012,
       "starsToday": 71,
       "url": "https://github.com/louislam/uptime-kuma"
     },
@@ -3587,7 +3580,7 @@
       "name": "block/buzz",
       "description": "A hive mind communication platform",
       "language": "Rust",
-      "stars": 37301,
+      "stars": 37397,
       "starsToday": 97,
       "url": "https://github.com/block/buzz"
     },
@@ -3595,7 +3588,7 @@
       "name": "tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "stars": 4184,
+      "stars": 4382,
       "starsToday": 69,
       "url": "https://github.com/tradermonty/claude-trading-skills"
     },
@@ -3603,7 +3596,7 @@
       "name": "tailscale/tailcat",
       "description": "like netcat, but over Tailscale's data plane, without Tailscale's control plane",
       "language": "Go",
-      "stars": 9466,
+      "stars": 9641,
       "starsToday": 256,
       "url": "https://github.com/tailscale/tailcat"
     },
@@ -3611,7 +3604,7 @@
       "name": "Likely7/Veyra-NRVideo",
       "description": "Bring PS5 GTA6 to 120FPS with DLSS 5. An advanced Windows video player and capture enhancement tool featuring real-time preview for videos, images, and capture card sources. Combine AI-powered Super Resolution, DLSS5 image enhancement, and Frame Generation to deliver a next-generation visual experience.",
       "language": "C++",
-      "stars": 1623,
+      "stars": 1790,
       "starsToday": 256,
       "url": "https://github.com/Likely7/Veyra-NRVideo"
     },
@@ -3619,7 +3612,7 @@
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "stars": 55462,
+      "stars": 55833,
       "starsToday": 67,
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
     }
@@ -3715,12 +3708,12 @@
       "description": "Big tech, business, power and the decisions behind the products.",
       "category": "business",
       "link": "https://podcasts.apple.com/us/podcast/decoder-with-nilay-patel/id1011668648?uo=4",
-      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/e2/19/f6/e219f6a7-3a71-ad22-1831-22d3b9f0b7bb/mza_11399970507584242614.jpg/600x600bb.jpg",
+      "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/30/90/db/3090db94-85eb-d2f7-7fa0-77561eca3c0b/mza_12041826338683271715.jpg/600x600bb.jpg",
       "latestEpisode": {
-        "title": "Jensen Huang is out. What did China want from him?",
-        "publishedAt": "2026-11-12T15:45:00.000Z",
-        "link": "https://podcasts.apple.com/us/podcast/jensen-huang-is-out-what-did-china-want-from-him/id1011668648?i=1000801540995&uo=4",
-        "duration": 2501000
+        "title": "The OpenAI board member who fired Sam Altman says we still can't trust AI CEOs",
+        "publishedAt": "2026-11-14T10:00:00.000Z",
+        "link": "https://podcasts.apple.com/us/podcast/the-openai-board-member-who-fired-sam-altman-says-we/id1011668648?i=1000801899463&uo=4",
+        "duration": 4250000
       }
     },
     {
