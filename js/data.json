@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T22:26:25.404Z",
+  "generatedAt": "2026-11-15T06:36:09.680Z",
   "articles": [
     {
       "title": "6 ways iPhone Duo beats Samsung",
@@ -422,11 +422,549 @@
       "video": true
     },
     {
+      "id": "bc233f2bb1fd",
+      "title": "8 Near-Perfect Sci-Fi Miniseries that Hook You in the First Episode",
+      "link": "https://www.polygon.com/sci-fi-miniseries-perfect-hook-first-episode/",
+      "description": "These sci-fi miniseries accomplish so much within 12 or less episodes.",
+      "content": "Sci-fi stories are a dime a dozen, but very few genre stories manage to make an unforgettable impact with the miniseries format. This makes sense. Shows like The Expanse or Westworld need more space to flesh out their multi-season storylines. That said, some sci-fi miniseries accomplish a lot with less. Whether you’re looking for an action-packed show or one that is more philosophical in tone, these eight entries make for a near-perfect viewing experience that can be wrapped up in just a few days.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/mv5bnwyzmda5mjqtzmnlns00nwrllwexmtqtogexowmwnjq2ntexxkeyxkfqcgc-_v1_.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-15T05:00:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Debopriyaa Dutta"
+    },
+    {
+      "id": "5ec3910099d5",
+      "title": "Show HN: Gawain – Require type hints on all Python variables",
+      "link": "https://github.com/matheuzgomes/gawain",
+      "description": "26 points · 8 comments",
+      "content": "Yes, i really hate \"dict[str, ANY]\"\n\nComments URL: https://news.ycombinator.com/item?id=50504072\n\nPoints: 26\n\n# Comments: 8",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-15T04:39:25.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "MarinhoD"
+    },
+    {
+      "id": "c483ec2db561",
+      "title": "Alzheimer’s may start shrinking two brain regions years before memory loss",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261114202130.htm",
+      "description": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions involved in memory and emotion start shrinking before the hippocampus, the area doctors typically examine for signs of A",
+      "content": "Johns Hopkins scientists have uncovered hidden warning signs of Alzheimer’s disease that may appear up to a decade before memory loss begins. Brain scans revealed that two regions involved in memory and emotion start shrinking before the hippocampus, the area doctors typically examine for signs of Alzheimer’s. These early changes are linked to abnormal tau protein buildup and could provide a powerful new way to identify people at risk.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/alzheimers-brain-atrophy.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-15T04:31:56.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "fa6f9a523c4f",
+      "title": "Show HN: Turbo-Browser-MCP – Batch forms, DOM deltas and submit guards for MCP",
+      "link": "https://github.com/Tthanh2k6/turbo-browser-mcp",
+      "description": "17 points · 1 comments",
+      "content": "Article URL: https://github.com/Tthanh2k6/turbo-browser-mcp\n\nComments URL: https://news.ycombinator.com/item?id=50503930\n\nPoints: 17\n\n# Comments: 1",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-15T04:09:11.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "tthanh2k6"
+    },
+    {
+      "id": "e9166ef1d741",
+      "title": "Scientists discover a bizarre paradox among endangered penguins",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230458.htm",
+      "description": "A groundbreaking drone survey has revealed a startling split in the fate of New Zealand's endangered Erect-crested penguins. While one population has remained stable for decades, another has declined by more than 40%, apparently due to a combination of predators, worsening storms, and changing ocean",
+      "content": "A groundbreaking drone survey has revealed a startling split in the fate of New Zealand's endangered Erect-crested penguins. While one population has remained stable for decades, another has declined by more than 40%, apparently due to a combination of predators, worsening storms, and changing ocean conditions. Even more surprisingly, the tiny Bounty Islands support nearly as many breeding pairs as the Antipodes Islands, despite being 40 times smaller.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/erect-crested-penguins.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-15T03:42:52.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "8a998e0ae3c0",
+      "title": "Tomb Raider Remake Gameplay Changes Are Dividing Fans",
+      "link": "https://www.polygon.com/tomb-raider-remake-changes-legacy-of-atlantis/",
+      "description": "The latest Tomb Raider remake gameplay deep dive gives a look at controversial RPG elements in Legacy of Atlantis",
+      "content": "Amazon Game Studios has released the sixth installment in its behind-the-scenes series about the development of Tomb Raider: Legacy of Atlantis. The remake of Lara Croft's original 1996 adventure is set to be released next year and will update the game for modern players. While that includes graphical improvements, the new video details gameplay changes and not everybody is happy about what was shown off.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/tomb-raider-legacy-of-atlantis-lara-croft.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-15T03:14:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Willa Rowe"
+    },
+    {
+      "id": "64e86b44ffa8",
+      "title": "The Single Router in Southern Arkansas That Ground Air Travel to a Halt",
+      "link": "https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c",
+      "description": "50 points · 26 comments",
+      "content": "Article URL: https://www.wsj.com/business/airlines/the-single-router-in-southern-arkansas-that-ground-air-travel-to-a-halt-eedc326c\n\nComments URL: https://news.ycombinator.com/item?id=50503588\n\nPoints: 50\n\n# Comments: 26",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-15T03:05:54.000Z",
+      "categories": [
+        "business",
+        "programming"
+      ],
+      "author": "lxm"
+    },
+    {
+      "id": "eb7e17bdccc6",
+      "title": "Dinosaurs may have been eating seaweed 100 million years ago",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230502.htm",
+      "description": "Dinosaurs may have been snacking on seaweed and other ocean foods more than 100 million years ago, according to surprising new evidence hidden in their fossilized teeth. Researchers discovered chemical signatures suggesting that coastal dinosaurs and other prehistoric animals relied partly on nutrie",
+      "content": "Dinosaurs may have been snacking on seaweed and other ocean foods more than 100 million years ago, according to surprising new evidence hidden in their fossilized teeth. Researchers discovered chemical signatures suggesting that coastal dinosaurs and other prehistoric animals relied partly on nutrients originating in the sea. The findings reveal that marine resources traveled through ancient food chains, supplementing the diets of everything from plant-eating dinosaurs to predators.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/dinosaur-beach-seaweed.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-15T03:00:54.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "d0b0910c2f17",
+      "title": "Forget Ganon, Zelda: Ocarina of Time’s Most Overlooked Boss Finally Gets Its Due",
+      "link": "https://www.polygon.com/zelda-ocarina-of-time-remake-twinrova/",
+      "description": "The Legend of Zelda: Ocarina of Time is a good reminder that the Zelda universe has more great villains than Ganon.",
+      "content": "The Legend of Zelda: Ocarina of Time is iconic for plenty of reasons, but a big part of that is thanks to its villain. Ganondorf is one of gaming’s great bad guys, a reputation that has only been enhanced by appearances in later games like Wind Waker and Tears of the Kingdom. While Ocarina of Time ’s Switch 2 remake does the Demon King justice, it’s also a reminder that the Zelda series has another excellent, and far more underappreciated, foe: Twinrova.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/zelda-ocarina-of-time-twinrova-fire.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-15T03:00:27.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Giovanni Colantonio"
+    },
+    {
+      "id": "7a08a67eadce",
+      "title": "My favourite modern NES games",
+      "link": "https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/",
+      "description": "20 points · 0 comments",
+      "content": "Article URL: https://jordi.inversethought.com/blog/25-of-my-favourite-modern-nes-games/\n\nComments URL: https://news.ycombinator.com/item?id=50503465\n\nPoints: 20\n\n# Comments: 0",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-15T02:41:25.000Z",
+      "categories": [
+        "gaming",
+        "programming"
+      ],
+      "author": "jordigh"
+    },
+    {
+      "id": "5d04dde7507a",
+      "title": "Physicists use laser light to unlock a crystal's hidden electrical powers",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230500.htm",
+      "description": "Scientists have discovered how to use flashes of laser light to organize tiny electrical regions inside a crystal, solving a decades-old mystery about how the material behaves. The laser-induced alignment lasts just a trillionth of a second, but the breakthrough could open the door to new ways of pr",
+      "content": "Scientists have discovered how to use flashes of laser light to organize tiny electrical regions inside a crystal, solving a decades-old mystery about how the material behaves. The laser-induced alignment lasts just a trillionth of a second, but the breakthrough could open the door to new ways of processing and storing information.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/laser-light-crystal-quantum-material.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-15T02:18:16.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "4f0ce258a369",
+      "title": "We're Asking an Appeals Court to Require a Warrant for ALPR Searches",
+      "link": "https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches",
+      "description": "169 points · 41 comments",
+      "content": "Article URL: https://www.eff.org/deeplinks/2026/11/were-asking-appeals-court-require-warrant-alpr-searches\n\nComments URL: https://news.ycombinator.com/item?id=50503255\n\nPoints: 169\n\n# Comments: 41",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-15T02:00:54.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "nobody9999"
+    },
+    {
+      "id": "c9ceb7f70000",
+      "title": "9 Giant-Sized Changes Marvel Made to Ant-Man After Edgar Wright Left",
+      "link": "https://www.polygon.com/edgar-wright-ant-man-script-differences/",
+      "description": "Wright left Ant-Man in 2015, citing differences with Marvel. Here’s how his film would have been different",
+      "content": "As Wright has explained in interviews, he was excited to be on the ground floor of something, setting the tone for what the MCU would become. He wanted to do a superhero movie where it was still emblematic of the director, in keeping with their body of work. The comparison he’d made was Tim Burton’s Batman, which is still very much a Tim Burton movie. After leaving Ant-Man, Wright even told Variety, “I wanted to make a Marvel movie but I don’t think they really wanted to make an Edgar Wright movie.”",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24465365/AntManWaspAnts.jpeg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-15T02:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Brian VanHooker"
+    },
+    {
+      "id": "b53dbb591be4",
+      "title": "Euclid discovers ancient cosmic beacons from the dawn of time, shining like a trillion suns",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230504.htm",
+      "description": "ESA’s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old. Powered by supermassive black holes, these extraordinary cosmic beacons reveal a time when the fir",
+      "content": "ESA’s Euclid space telescope has discovered 31 ancient quasars, including two record-breaking objects that shone with the brightness of a trillion Suns when the Universe was just 670 million years old. Powered by supermassive black holes, these extraordinary cosmic beacons reveal a time when the first galaxies were still taking shape.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/ancient-quasar-artists-concept.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-15T01:52:47.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "73cefb67e36e",
+      "title": "Stephen King’s Underrated 1980 Horror Thriller Gets New Prime Video Adaptation",
+      "link": "https://www.polygon.com/stephen-king-prime-video-crouch-end-tv-show/",
+      "description": "Stephen King fans rejoice: a Lovecraftian crime-thriller epic is on the way with Crouch End, a new miniseries from Prime Video.",
+      "content": "Stephen King fans are eating well, with Mike Flanagan's adaptation of Carrie turning out to be a surprise hit, a second season of It: Welcome to Derry on the way, and a series based on The Dark Tower books in the works. But that's not all King fans can look forward to.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/img_1600.jpeg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-15T01:36:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Aimee Hart"
+    },
+    {
+      "id": "14ba8d169059",
+      "title": "Court denies motion to dismiss DRAM price fixing case",
+      "link": "https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal",
+      "description": "39 points · 3 comments",
+      "content": "Article URL: https://litnews.ai/articles/garciaguirre-samsung-sk-hynix-micron-dram-conspiracy-suit-survives-dismissal\n\nComments URL: https://news.ycombinator.com/item?id=50502988\n\nPoints: 39\n\n# Comments: 3",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-15T01:18:36.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "ybathaee"
+    },
+    {
+      "id": "1d795f884f56",
+      "title": "AI discovers a hidden heart signal that could predict sudden death",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230456.htm",
+      "description": "Scientists have uncovered a hidden warning sign in routine heart scans that could predict sudden cardiac death before it strikes. The AI-powered discovery outperformed conventional screening methods, potentially revealing thousands of people at risk of a fatal heart malfunction that doctors might ot",
+      "content": "Scientists have uncovered a hidden warning sign in routine heart scans that could predict sudden cardiac death before it strikes. The AI-powered discovery outperformed conventional screening methods, potentially revealing thousands of people at risk of a fatal heart malfunction that doctors might otherwise miss.",
+      "thumbnail": "https://www.sciencedaily.com/images/1920/cardiology-heart-attack-disease-prevention.webp",
+      "source": "Science Daily",
+      "publishedAt": "2026-11-15T01:05:10.000Z",
+      "categories": [
+        "ai",
+        "science"
+      ],
+      "author": null
+    },
+    {
+      "id": "0ec8a31bc0d9",
+      "title": "10 Must-Play Co-Op Games for People With Real-Life Schedules",
+      "link": "https://www.polygon.com/co-op-games-real-life-schedules/",
+      "description": "Short on time but ready to game? These 10 co-op games range from one-level sessions to month-long campaigns, from Overcooked! to Gears of War: E-Day.",
+      "content": "Picture this: It’s Thursday at 7:42 p.m. You finally have two friends in the same voice call. Someone’s cat is walking across their keyboard, and a third friend is still stuck in a meeting, but you’re here, and you’re ready to game. There’s a problem, though: Many of today’s most popular co-op games ask a lot of their players. And often, you simply don’t have a lot of time or headspace to give. You need a co-op game that fits the time and energy you and your squad actually have.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22389863/snow__2_.png",
+      "source": "Polygon",
+      "publishedAt": "2026-11-15T01:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Rebecca Corgan"
+    },
+    {
+      "id": "ee5c5ce47a3e",
+      "title": "Which NVIDIA GPU is closest to the PS5? The answer isn't so simple",
+      "link": "https://www.engadget.com/2313644/nvidia-gpu-ps5-closest-match-answer-not-simple/",
+      "description": "One of the biggest questions when it comes to purchasing a gaming rig is whether to go console or PC. This NVIDIA GPU gives the closest results to a PS5.",
+      "content": "One of the biggest questions when it comes to purchasing a gaming rig is whether to go console or PC. This NVIDIA GPU gives the closest results to a PS5.",
+      "thumbnail": "https://www.engadget.com/img/gallery/which-nvidia-gpu-is-closest-to-the-ps5-the-answer-isnt-so-simple/l-intro-1793996536.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-15T01:00:00.000Z",
+      "categories": [
+        "hardware",
+        "gaming",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Dave Meikleham)"
+    },
+    {
+      "id": "59e30295289f",
+      "title": "Show HN: A custom font based on the Jamaican flag alphabet",
+      "link": "https://bobbiec.github.io/jamaican-font.html",
+      "description": "23 points · 5 comments",
+      "content": "Article URL: https://bobbiec.github.io/jamaican-font.html\n\nComments URL: https://news.ycombinator.com/item?id=50502839\n\nPoints: 23\n\n# Comments: 5",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-15T00:56:45.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "bobbiechen"
+    },
+    {
+      "id": "646222a97d0c",
+      "title": "This Sony patent would add a credit card reader to your PlayStation controller",
+      "link": "https://www.engadget.com/2313652/sony-patent-playstation-controller-adds-credit-card-reader/",
+      "description": "As Sony and PlayStation head into a digital-only era, new tech on its upcoming controllers could help make online purchases even more convenient for gaming.",
+      "content": "As Sony and PlayStation head into a digital-only era, new tech on its upcoming controllers could help make online purchases even more convenient for gaming.",
+      "thumbnail": "https://www.engadget.com/img/gallery/this-sony-patent-would-add-a-credit-card-reader-to-your-playstation-controller/l-intro-1793989603.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-15T00:45:00.000Z",
+      "categories": [
+        "gaming",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Yoni Yardeni)"
+    },
+    {
+      "id": "19480d025fe8",
+      "title": "Hands-on: ESR’s MagSafe kickstand charger solves two key iPhone Duo shortcomings",
+      "link": "https://9to5mac.com/2026/11/14/hands-on-esrs-magsafe-kickstand-charger-solves-two-key-iphone-duo-shortcomings/",
+      "description": "iPhone Duo, because it offers a much larger inside display, means theres all tons of new use cases that you wouldn’t normally come across with your iPhone. Of course, one of them is the fact that you might want to prop up your iPhone Duo to watch a video on the larger display. A couple weeks ago, I",
+      "content": "iPhone Duo, because it offers a much larger inside display, means theres all tons of new use cases that you wouldn’t normally come across with your iPhone. Of course, one of them is the fact that you might want to prop up your iPhone Duo to watch a video on the larger display.\n\nA couple weeks ago, I wrote about one accessory that solves the kickstand problem. That said, what if you want to charge and prop up your phone at the same time?\n\nmore…",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/DSC04326-2616x1308.jpg.jpeg?quality=82&strip=all&w=1600",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-15T00:42:21.000Z",
+      "categories": [
+        "hardware",
+        "mobile"
+      ],
+      "author": "Michael Burkhardt"
+    },
+    {
+      "id": "1f75e1c3a175",
+      "title": "What are the limitations of eGPUs vs onboard graphics cards for laptops?",
+      "link": "https://www.engadget.com/2313636/limitations-egpu-vs-onboard-graphics-card-laptop-pc/",
+      "description": "Is it worth it to use an eGPU with your laptop? That depends. Let's take a closer look at the most important factors you should consider.",
+      "content": "Is it worth it to use an eGPU with your laptop? That depends. Let's take a closer look at the most important factors you should consider.",
+      "thumbnail": "https://www.engadget.com/img/gallery/what-are-the-limitations-of-egpus-vs-onboard-graphics-cards-for-laptops/l-intro-1794329161.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-15T00:30:00.000Z",
+      "categories": [
+        "hardware",
+        "gaming",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Husain Parvez)"
+    },
+    {
+      "id": "3a13b50cbb6d",
+      "title": "Nintendo Officially Reveals New Kirby Game for Switch 2",
+      "link": "https://www.polygon.com/kirby-world-beyond-nintendo-switch-2-2027/",
+      "description": "Kirby and the World Beyond is coming to Nintendo Switch 2 in 2027",
+      "content": "HAL Laboratory's venerable heroic pink puff Kirby will soon embark on a new adventure on Nintendo Switch 2 with the release of Kirby and the World Beyond next year — his second outing on Nintendo's current-generation console. In September, Nintendo's Yoshiaki Koizumi announced Kirby's next adventure during a Nintendo Direct showcase, revealing an expansive new world for the adorable hero to explore.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/09/ns2_kirbyandtheworldbeyond_scrn_19.jpeg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-15T00:19:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Ashely Claudino"
+    },
+    {
+      "id": "20486e0f0931",
+      "title": "11 gadgets under $10 that solve everyday problems",
+      "link": "https://www.engadget.com/2310535/affordable-gadgets-under-10-dollars/",
+      "description": "Lots of tech purchases run into the hundreds of dollars, but you don't have to spend a lot to make some upgrades.",
+      "content": "Lots of tech purchases run into the hundreds of dollars, but you don't have to spend a lot to make some upgrades.",
+      "thumbnail": "https://www.engadget.com/img/gallery/11-gadgets-under-10-that-solve-everyday-problems/l-intro-1793998678.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-15T00:15:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Max Sheridan)"
+    },
+    {
+      "id": "acaf00569e86",
+      "title": "Where was Nvidia’s security team?",
+      "link": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team/",
+      "description": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which",
+      "content": "Nvidia’s security chief quietly left in August, and now that CEO Jensen Huang has stepped down over his relationships, including one with an executive at a company suspected of funneling chips to China, a former intelligence officer says it’s the kind of leak that runs everyday conversations, which most corporate security teams are poorly equipped to catch.",
+      "thumbnail": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-Huang-1.jpg?w=1024",
+      "source": "TechCrunch",
+      "publishedAt": "2026-11-15T00:08:07.000Z",
+      "categories": [
+        "hardware",
+        "cybersecurity",
+        "business"
+      ],
+      "author": "Connie Loizos"
+    },
+    {
+      "id": "49915d4c7cd2",
+      "title": "Calvin and Hobbes’ 5 Greatest Spaceman Spiff Comic Strips",
+      "link": "https://www.polygon.com/calvin-hobbes-best-spaceman-spiff-comics/",
+      "description": "The best Spaceman Spiff comics in Calvin and Hobbes turn boring school days into dazzling sci-fi adventures, showcasing Bill Watterson’s imagination.",
+      "content": "Calvin and Hobbes wasn't Bill Watterson's first pitch for a comic strip. C&H 's protagonists began as side characters in Watterson's comic The Doghouse before his original syndicate suggested that they ought to be the focus. \"Marvin\" became \"Calvin,\" the rest of The Doghouse 's cast was dropped, and while United Feature Syndicate still didn't take the resulting comic, Universal Press Syndicate did.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/calvin-hobbes-spaceman.avif",
+      "source": "Polygon",
+      "publishedAt": "2026-11-15T00:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Thomas Hindmarch"
+    },
+    {
+      "id": "a72b1848fa1e",
+      "title": "There's a hidden way you can check which services are running on your Android phone",
+      "link": "https://www.engadget.com/2313576/hidden-way-check-which-services-running-on-android-phone/",
+      "description": "Want to see what's draining your Android phone's memory? Here's how to unlock the hidden Running Services menu to monitor background apps.",
+      "content": "Want to see what's draining your Android phone's memory? Here's how to unlock the hidden Running Services menu to monitor background apps.",
+      "thumbnail": "https://www.engadget.com/img/gallery/theres-a-hidden-way-you-can-check-which-services-are-running-on-your-android-phone/l-intro-1794382909.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-15T00:00:00.000Z",
+      "categories": [
+        "hardware",
+        "mobile",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Robin Bea)"
+    },
+    {
+      "id": "fd1c3ed1589b",
+      "title": "Common reasons your Roku TV can turn on by itself and how to fix it",
+      "link": "https://www.engadget.com/2313550/roku-tv-turns-on-by-itself-common-reasons-fixes/",
+      "description": "If your TV has randomly been turning on and it has a Roku attached to it, it could be your Roku's doing. Check these settings.",
+      "content": "If your TV has randomly been turning on and it has a Roku attached to it, it could be your Roku's doing. Check these settings.",
+      "thumbnail": "https://www.engadget.com/img/gallery/common-reasons-your-roku-tv-can-turn-on-by-itself-and-how-to-fix-it/l-intro-1794413571.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T23:45:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (David Engle)"
+    },
+    {
+      "id": "abb97fd7231b",
+      "title": "One cable mistake could be killing your desktop PC's gaming performance",
+      "link": "https://www.engadget.com/2313063/cable-mistake-desktop-pc-gaming-performance/",
+      "description": "Plugging your monitor into the motherboard instead of your dedicated GPU can ruin gaming performance. Here's how to check your ports and get your frames back.",
+      "content": "Plugging your monitor into the motherboard instead of your dedicated GPU can ruin gaming performance. Here's how to check your ports and get your frames back.",
+      "thumbnail": "https://www.engadget.com/img/gallery/one-cable-mistake-could-be-killing-your-desktop-pcs-gaming-performance/l-intro-1794331166.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T23:30:00.000Z",
+      "categories": [
+        "hardware",
+        "gaming",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Husain Parvez)"
+    },
+    {
+      "id": "54cbbe11486b",
+      "title": "The Best Deals Today: Asus TUF Gaming Laptop, Saros, 4K Blu-ray Sale, and More",
+      "link": "https://www.ign.com/articles/best-deals-for-november-14-2026",
+      "description": "",
+      "content": "A new weekend has arrived, and today, you can save big on Saros, the Criterion Collection sale, Gears of War: E-Day, Dragon Ball Super, Apple Watch Ultra 4, Xenoblade Chronicles 2, Persona 3 Reload, The Super Mario Galaxy Movie, Star Wars Zero Company, and more. Check out our top picks for Saturday, November 14, below.\n\nSave $700 Off this Asus TUF A16 Gaming Laptop\n\nIt's no secret that building a gaming PC is more expensive than ever. Component prices for parts like RAM are through the roof, which has led many to hold off upgrading their builds. Today, while not a desktop, you can save $700 on this Asus TUF gaming laptop that features a Ryzen 7 8745HX processor, 16GB of RAM, and an RTX 5060. Not bad if you're looking to play some of the latest games on the go.\n\nSaros for $41.99\n\nSaros is on sale for $41.99 today at Amazon, which matches the lowest price we've seen so far. As one of the biggest PS5 exclusives in 2026, now is a great time to check out Housemarque's latest if you haven't. In our review, we wrote, \"With Saros, Housemarque once again proved that its bullet-hell sensibilities mesh incredibly well with fluid and super-challenging action. This is primarily a test of skill that's as much a rhythmic dance as it is a fireworks show with a punch-packing sci-fi arsenal.\"\n\nSony INZONE H9 Wireless Gaming Headset for $178\n\nAmazon has the Sony Inzone H9 headset on sale for $178 today, which is a huge discount from its standard $329.99 price tag. In our 8/10 review, we wrote, \"Sony’s InZone H9 II is a super comfortable and smartly designed headset that shines specifically in competitive gaming, but carries a demanding price tag. It's stiff competition at the high-end, but this headset does some things better than most.\"\n\n50% Off Criterion Collection Sale\n\nBarnes & Noble is having a Criterion Collection sale right now, so this weekend is one of the best times of the year to pick up some new 4K Blu-rays. Oftentimes, these 4K transfers are overseen by the original Director, and there's always plenty of great extras included.\n\nFrankenstein 4K UHD for $29.98\n\nFrankenstein finally hit 4K Blu-ray as part of The Criterion Collection last month, and today, you can take home a copy for just $29.98. In our 9/10 review, we wrote, \"Guillermo del Toro’s Frankenstein is a crowning achievement for the beloved genre director and one of the most effective adaptations of the Mary Shelley story ever put to film.\"\n\nGears of War: E-Day for $60.99\n\nGears of War: E-Day is one of the best games of the year, and today, you can save a few dollars on a physical Xbox copy at Amazon. We gave the game a 9/10 in our review, writing, \"Gears of War: E-Day’s stellar story campaign is complemented by an excellent multiplayer suite, particularly its evolved Horde Siege PvE mode.\"\n\nSave Big on Dragon Ball Super\n\nAmazon has the Dragon Ball Super Complete Series Blu-ray on sale for $116.25 today. This collection includes ten Steelbooks and 20 discs, with a variety of special and bonus features available in addition to the 131 episodes.\n\nSave $100 Off Apple Watch Ultra 4\n\nAmazon has the Apple Watch Ultra 4 smartwatch on sale for $799.99 this weekend. This saves you $100 off MSRP. You'll get the Black Titanium Case and the Black Titanium Milanese Loop with this watch, which can easily complement any outfit. If you've been on the hunt for a new smartwatch, the Ultra 4 is one of the best you can buy.\n\nDune: Awakening for $39.99\n\nPhysical PS5 copies of Dune: Awakening are on sale for $39.99 right now at Amazon. This is the perfect time to jump in, especially with Dune: Part Three just a few months away. In our 8/10 review, we wrote, \"Dune: Awakening is an excellent survival MMO that captures Frank Herbet’s sci-fi world incredibly well, mostly to its advantage and occasionally to its detriment. The survival climb from dehydrated peasant to powerful warlord of Arrakis is a joy almost every step of the way, and the story and worldbuilding filled this nerd with absolute joy.\"\n\nXenoblade Chronicles 2 + Expansion Pass Bundle for $39.94\n\nXenoblade Chronicles 2 is one of my favorite games of all time. The expansive world, gripping narrative, incredible cast, and spectacular soundtrack are just a few of the things you can look forward to in this adventure. Walmart has a digital bundle of both the base game and the Expansion Pass (which includes Torna: The Golden Country) on sale for $39.94. If you have a Switch 2, you can then upgrade your copy to the Switch 2 Edition for $10, which adds 4K and 60 FPS support. I cannot recommend this one enough, especially if you're a fan of JRPGs.\n\nThe Super Mario Galaxy Movie 4K for $12.99\n\nThe Super Mario Galaxy Movie is one of the best performing movies of 2026, and today, you can score the Collector's Edition 4K for only $12.99 at Amazon. This package includes the movie on 4K, Blu-ray, and digital, so you can watch it however you'd like. There's also over an hour of special features to check out, too.\n\nPersona 3 Reload (Switch 2) for $24.99\n\nPersona 3 Reload Switch 2 copies are available at Amazon for $24.99 this weekend. This is a pretty great price for an expansive RPG that you can easily sink 100 hours into. The Switch 2 version had a rocky launch with frame pacing issues, but those have been resolved. Atlus also did add support for 60 FPS in docked mode.\n\nStar Wars Zero Company for $47.97\n\nStar Wars Zero Company is one of the biggest sleeper hits of the year, and you can save $12 off a physical copy today at Amazon. In our 9/10 review, we wrote, \"Star Wars Zero Company is an excellent tactical game that does a fantastic job of slathering on the same cinematic look and feel we saw in Respawn's Star Wars Jedi games, incorporating strong characters and a storyline that's refreshingly centered on non-Force users and a non-traditional villain.\"\n\nTrails in the Sky 1st Chapter for $39.99\n\nTrails in the Sky 1st Chapter is the first entry in the beloved Trails series, and last year's remake brought new life to the original game. With 2nd Chapter out now, today is a great time to dive into this wonderful RPG series.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/04/29/saros5-1777427936279.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-14T23:01:45.000Z",
+      "categories": [
+        "hardware",
+        "gaming"
+      ],
+      "author": "Noah Hunter"
+    },
+    {
+      "id": "868b41f3bf83",
+      "title": "GTA 6 Leak Seemingly Reveals Official Album's Full Track List Days Before Launch",
+      "link": "https://www.ign.com/articles/gta-6-leak-seemingly-reveals-full-track-list-days-before-launch",
+      "description": "The full track list for Grand Theft Auto VI: The Album seems to have leaked online just days before GTA 6's launch.",
+      "content": "The full track list for Grand Theft Auto VI: The Album seems to have leaked online just days before GTA 6 's launch.\n\nRockstar Games just can't catch a break. After weeks of unprecedented leaks were published online, even more information about GTA 6 has found its way onto the internet, this time revealing the entire list of every song and artist featured on the official soundtrack's album release.\n\nAs 13 years turns into just a few days, more leaks felt inevitable. The latest breach arrived in the form of a video shared on social media from what appears to be a Barnes & Noble-like retailer. The main clip being passed around is still up hours later and shows the front, back, and spines of the Grand Theft Auto VI: The Album's double LP vinyl. As you might have guessed, the $50 soundtrack isn't planned to hit store shelves until November 19, 2026.\n\nAlthough there are likely even more tunes tucked into the game itself, an early glimpse at the GTA 6 soundtrack means we now know every song and artist featured on its official album. Rolling Stone has confirmed the track list with its sources. We won't beat around the bush; you can see the full Grand Theft Auto VI: The Album track list below.\n\nGrand Theft Auto VI: The Album Leaked Track List\n\nSide A\n\nStarting from Zero – Justice (feat. Michael McDonald)\n\nThat's It – Yung Lean (feat. Future & Metro Boomin)\n\nAhh Yea – Playboi Carti\n\nRhyno – Travis Scott\n\nSexy Magic – CA7RIEL & Paco Amoroso, PinkPantheress, Fred Again.. & Étienne de Crécy\n\nFlower in a Hurricane – Justice (feat. Tame Impala, SZA & King Gizzard & The Lizard Wizard)\n\nGo Easy – Dua Lipa\n\nLast Thing You Need – Morgan Wallen\n\nSide B\n\nX – Jhayco\n\nSuzuki – Fuerza Regida\n\nMacacoa 2000 – Rauw Alejandro\n\nDance With Me – Boogie Wit Da Hoodie (feat. Elkan)\n\nBigger – Burna Boy\n\nCount Up – Gunna\n\nLet's Rock – Kodak Black & Don Toliver\n\nWakin Up Flex – Young Thug\n\nIKYFL – Tee Grizzly\n\nTF? – Don Toliver\n\nSide C\n\nDon't Chart – Cardi B\n\nGMA – JT\n\nPower Trip – Jennie\n\nBlood in Your Eyes – Tove Lo\n\nFast Emotion – Zara Larsson\n\nSweet Like Candy – Camila Cabello\n\nOnly One – Fcukers\n\nSanduneguea – Arca\n\nTRDWFE – Rina Sawayama\n\nSide D\n\nAll Again – Rose Gray\n\nCrazy for You – Lana Del Rey\n\nLargate – Kali Uchis & Helado Negro\n\nNo Me Busques – Omar Apollo\n\nBright Lights, Big City – Keith Richards\n\nStone Cold Krazy Luuv – Jesse Johnson & DāM-FunK\n\nOvertown Lights – Stanley Clarke, Yussef Dayes & Robert Glasper\n\nWe've gotten tastes of the music Rockstar hand-selected to be featured through the years, with stars like Travis Scott, Future, and Morgan Wallen teasing their inclusion as recently as September. We also got to hear some of GTA 6's tunes with the premiere of the Extended Look back in August. As many guessed, the developers have given players a solid playlist of songs from a variety of genres to jam to as they speed through Vice City.\n\nFans will note this is different from the Grand Theft Auto VI: Original Score by Grammy Award-winning French electronic duo Justice. It's also set to get its own release for physical music collectors, with its release date set for December 11, 2026.\n\nGTA 6, of course, will launch for PlayStation 5 and Xbox Series X | S November 19, 2026. Today, we also learned that Rockstar has promised next week's new game will include mechanisms to encourage empathy for the first time in the franchise's history. Yesterday, Rockstar revealed a closer look at an animated TV series called Macca & Friends that can be watched in-game.\n\nFor more, you can check out IGN's collection of GTA 6's songs and radio stations. You can also check out how some recent gameplay clips are blowing players (and IGN ) away.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/10/gta-6-pre-load-art-1794330386826.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-14T23:00:09.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Michael Cripe"
+    },
+    {
+      "id": "1bffabd47b17",
+      "title": "Why your SD card won't let you transfer files bigger than 4GB, and how to fix it",
+      "link": "https://www.engadget.com/2313042/sd-card-4-gb-file-transfer-limit-fat32-explained/",
+      "description": "Some SD cards just won't accept files larger than 4GB, no matter the total capacity or how much free storage there is. But don't worry, it's not hard to fix.",
+      "content": "Some SD cards just won't accept files larger than 4GB, no matter the total capacity or how much free storage there is. But don't worry, it's not hard to fix.",
+      "thumbnail": "https://www.engadget.com/img/gallery/why-your-sd-card-wont-let-you-transfer-files-bigger-than-4gb-and-how-to-fix-it/l-intro-1794020287.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T23:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Filipe Espósito)"
+    },
+    {
+      "id": "1a945ba40178",
+      "title": "This underrated Google Health app feature can make food tracking less annoying",
+      "link": "https://www.engadget.com/2312924/underrated-google-health-app-food-tracker/",
+      "description": "There's a suite of features with Google's Health app, but you've likely overlooked the intuitive food tracking function that helps keep your diet in check.",
+      "content": "There's a suite of features with Google's Health app, but you've likely overlooked the intuitive food tracking function that helps keep your diet in check.",
+      "thumbnail": "https://www.engadget.com/img/gallery/this-underrated-google-health-app-feature-can-make-food-tracking-less-annoying/l-intro-1794352256.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T22:30:00.000Z",
+      "categories": [
+        "privacy",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Christine Persaud)"
+    },
+    {
+      "id": "0322d2a0d024",
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "link": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html",
+      "description": "400 points · 197 comments",
+      "content": "Article URL: https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html\n\nComments URL: https://news.ycombinator.com/item?id=50501631\n\nPoints: 400\n\n# Comments: 197",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T22:26:30.000Z",
+      "categories": [
+        "hardware",
+        "programming"
+      ],
+      "author": "madihaa"
+    },
+    {
+      "id": "cce942626afe",
+      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "link": "https://retrocomputing.stackexchange.com/questions/17957",
+      "description": "170 points · 73 comments",
+      "content": "Article URL: https://retrocomputing.stackexchange.com/questions/17957\n\nComments URL: https://news.ycombinator.com/item?id=50501594\n\nPoints: 170\n\n# Comments: 73",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-14T22:22:49.000Z",
+      "categories": [
+        "hardware",
+        "programming"
+      ],
+      "author": "Skyfall106"
+    },
+    {
+      "id": "6589b8a85a49",
+      "title": "How to get better results from Google Gemini",
+      "link": "https://www.engadget.com/2312834/how-to-get-better-results-google-gemini/",
+      "description": "These tips and tricks will help you prompt Gemini better.",
+      "content": "These tips and tricks will help you prompt Gemini better.",
+      "thumbnail": "https://www.engadget.com/img/gallery/how-to-get-better-results-from-google-gemini/l-intro-1794346807.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T22:15:00.000Z",
+      "categories": [
+        "ai",
+        "tech"
+      ],
+      "author": "staff@engadget.com (Charles Burgar)"
+    },
+    {
       "id": "220fa916abce",
       "title": "League of Legends: New Dawn Unveiled With Debut Trailer, Riot Announces Major Overhaul Coming in 2027",
       "link": "https://www.ign.com/articles/league-of-legends-new-dawn-unveiled-with-debut-trailer-riot-announces-major-overhaul-coming-in-2027",
       "description": "At the 2026 League of Legends World Championship Finals, Riot Games officially unveiled League of Legends: New Dawn. The large-scale update is scheduled for 2027 and will bring changes to the game's client, Summoner's Rift, visuals, and gameplay, marking the beginning of a new chapter for one of the",
-      "content": "At the 2026 League of Legends World Championship Finals, Riot Games officially unveiled League of Legends: New Dawn. The large-scale update is scheduled for 2027 and will bring changes to the game's client, Summoner's Rift, visuals, and gameplay, marking the beginning of a new chapter for one of the industry's most enduring titles.\n\nNew Dawn introduces what Riot described as an \"all-encompassing\" update to League, touching almost every aspect of its experience. \"This is the start of a new era for League, a new journey,\" said Paul Bellezza, League's executive producer, in New Dawn's first official trailer. Riot is expected to share the full reveal of New Dawn this coming January.\n\nA peek at where we’re headed for 2027 https://t.co/Wqem6t48pn\n\n— League of Legends @ Worlds 2026 (@LeagueOfLegends) November 14, 2026\n\nA new look for Summoner's Rift\n\nThe announcement came with a trailer shown at Worlds Finals that offered the first glimpse of what League players can expect from New Dawn, and the changes appear to go beyond simple refreshed graphics. The first noticeable change is a redesigned champion selection screen, which looks much closer to the modern interface found in Wild Rift, League's mobile game. The footage also hints at a new or reworked rune system, which seems to have a much bigger impact on the gameplay than ever before.\n\nThe trailer also showcased updated minions, a new look for Summoner's Rift, redesigned dragons and Baron Nashor, as well as what seem to be new visual effects for many champion abilities. More interestingly, the footage also hinted at gameplay changes that will change how players approach their matches, including major changes to the map terrain that open new strategic consideration — and not only for junglers.\n\nSince its launch in 2009, League has seen more than a few major changes, including a rebuilt Summoner's Rift in 2014, a new client a couple of years later, and runes and then terrain changes in the following years. Still, nothing ever came close to the scale of what New Dawn promises to be. For now, Riot is keeping the full extent of these gameplay changes to itself, leaving much of New Dawn's scope to be revealed in the coming months.\n\nLeaving the past behind\n\nRiot spent part of 2026 looking back at League's history through League Classic, a mode that allowed players to revisit older versions of both the Summoner's Rift and League's champions. However, nostalgia alone proved difficult to sustain. Just a few weeks after its release, Riot announced that the mode would end its current run in January 2027. The experience could return in a modified format in the future, but it demonstrated that revisiting the past is not necessarily enough to keep a game of League's scale moving forward.\n\nNow, Riot is looking in the opposite direction. 18 years since League first launched, New Dawn represents another attempt at evolving a game whose identity has been shaped as much by its community as by its developers. But whether players embrace the changes or push back against them remains to be seen. After all, it is the playerbase that will ultimately decide whether this new chapter gives League the foundation it needs to thrive for another decade or sends it down a different path.\n\nMore information about League of Legends: New Dawn is expected in the coming weeks, with Riot's full presentation scheduled for some time in January 2027.",
+      "content": "At the 2026 League of Legends World Championship Finals, Riot Games officially unveiled League of Legends: New Dawn. The large-scale update is scheduled for 2027 and will bring changes to the game's client, Summoner's Rift, visuals, and gameplay, marking the beginning of a new chapter for one of the industry's most enduring titles.\n\nNew Dawn introduces what Riot described as an \"all-encompassing\" update to League, touching almost every aspect of its experience. \"This is the start of a new era for League, a new journey,\" said Paul Bellezza, League's executive producer, in New Dawn's first official trailer. Riot is expected to share the full reveal of New Dawn this coming January.\n\nA new look for Summoner's Rift\n\nThe announcement came with a trailer shown at Worlds Finals that offered the first glimpse of what League players can expect from New Dawn, and the changes appear to go beyond simple refreshed graphics. The first noticeable change is a redesigned champion selection screen, which looks much closer to the modern interface found in Wild Rift, League's mobile game. The footage also hints at a new or reworked rune system, which seems to have a much bigger impact on the gameplay than ever before.\n\nThe trailer also showcased updated minions, a new look for Summoner's Rift, redesigned dragons and Baron Nashor, as well as what seem to be new visual effects for many champion abilities. More interestingly, the footage also hinted at gameplay changes that will change how players approach their matches, including major changes to the map terrain that open new strategic consideration — and not only for junglers.\n\nSince its launch in 2009, League has seen more than a few major changes, including a rebuilt Summoner's Rift in 2014, a new client a couple of years later, and runes and then terrain changes in the following years. Still, nothing ever came close to the scale of what New Dawn promises to be. For now, Riot is keeping the full extent of these gameplay changes to itself, leaving much of New Dawn's scope to be revealed in the coming months.\n\nLeaving the past behind\n\nRiot spent part of 2026 looking back at League's history through League Classic, a mode that allowed players to revisit older versions of both the Summoner's Rift and League's champions. However, nostalgia alone proved difficult to sustain. Just a few weeks after its release, Riot announced that the mode would end its current run in January 2027. The experience could return in a modified format in the future, but it demonstrated that revisiting the past is not necessarily enough to keep a game of League's scale moving forward.\n\nNow, Riot is looking in the opposite direction. 18 years since League first launched, New Dawn represents another attempt at evolving a game whose identity has been shaped as much by its community as by its developers. But whether players embrace the changes or push back against them remains to be seen. After all, it is the playerbase that will ultimately decide whether this new chapter gives League the foundation it needs to thrive for another decade or sends it down a different path.\n\nMore information about League of Legends: New Dawn is expected in the coming weeks, with Riot's full presentation scheduled for some time in January 2027.",
       "thumbnail": "https://assets-prd.ignimgs.com/2026/11/14/still003-1794673734402.png",
       "source": "IGN",
       "publishedAt": "2026-11-14T22:05:38.000Z",
@@ -462,6 +1000,20 @@
         "hardware"
       ],
       "author": "Michael Burkhardt"
+    },
+    {
+      "id": "684843149aef",
+      "title": "Honor Magic8 Pro vs. Magic9 Pro Max: What's been upgraded?",
+      "link": "https://www.engadget.com/2307825/honor-magic-8-pro-vs-9-pro-upgrade-comparison/",
+      "description": "This Pro upgrade is messier than the typical year-over-year refresh, but the new flagship does give us a pretty good idea of where Honor put its priorities.",
+      "content": "This Pro upgrade is messier than the typical year-over-year refresh, but the new flagship does give us a pretty good idea of where Honor put its priorities.",
+      "thumbnail": "https://www.engadget.com/img/gallery/honor-magic8-pro-vs-magic9-pro-max-whats-been-upgraded/l-intro-1793827245.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-14T22:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "staff@engadget.com (Husain Parvez)"
     },
     {
       "id": "922d60b3bf0b",
@@ -536,11 +1088,11 @@
       "author": "staff@engadget.com (David Engle)"
     },
     {
-      "id": "73d9d5b1e903",
-      "title": "SpaceX Catches the Starship to end Flight 15",
-      "link": "https://x.com/i/broadcasts/2brajgZlOKRMka",
-      "description": "283 points · 147 comments",
-      "content": "Article URL: https://x.com/i/broadcasts/2brajgZlOKRMka\n\nComments URL: https://news.ycombinator.com/item?id=50500963\n\nPoints: 283\n\n# Comments: 147",
+      "id": "4e501f9826d0",
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "link": "https://www.spacex.com/launches/starship-flight-15",
+      "description": "1018 points · 677 comments",
+      "content": "https://x.com/SpaceX/status/2121316300702056595 https://youtu.be/jHlpfNSpBmw?t=3233\n\nComments URL: https://news.ycombinator.com/item?id=50500963\n\nPoints: 1018\n\n# Comments: 677",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T21:22:24.000Z",
@@ -606,35 +1158,6 @@
       "author": "Andrew E. Freedman"
     },
     {
-      "id": "ebd457cbebfe",
-      "title": "SpaceX successfully catches Starship after launch for the first time",
-      "link": "https://www.engadget.com/2316926/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/",
-      "description": "While the company has pulled off this trick a few times with Super Heavy boosters, it was a first for the Ship.",
-      "content": "While the company has pulled off this trick a few times with Super Heavy boosters, it was a first for the Ship.",
-      "thumbnail": "https://www.engadget.com/img/gallery/watch-spacex-attempt-to-catch-the-starship-upper-stage-for-the-first-time/l-intro-1794693469.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T20:54:14.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Cheyenne MacDonald)"
-    },
-    {
-      "id": "31717a4f6120",
-      "title": "How to clear the cache on your Xbox Series X",
-      "link": "https://www.engadget.com/2312189/how-to-clear-cache-xbox-series-x/",
-      "description": "Clearing the cache on your Xbox Series X can help it retain its snappiness while avoiding glitches, or you can perform a console reset if all else fails.",
-      "content": "Clearing the cache on your Xbox Series X can help it retain its snappiness while avoiding glitches, or you can perform a console reset if all else fails.",
-      "thumbnail": "https://www.engadget.com/img/gallery/how-to-clear-the-cache-on-your-xbox-series-x/l-intro-1794327413.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T20:45:00.000Z",
-      "categories": [
-        "gaming",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Antony Terence)"
-    },
-    {
       "id": "a69b8808816e",
       "title": "Indie App Spotlight: ‘Milton’ lets you turn your old iPad into a home dashboard",
       "link": "https://9to5mac.com/2026/11/14/indie-app-spotlight-milton-lets-you-turn-your-old-ipad-into-a-home-dashboard/",
@@ -649,37 +1172,6 @@
         "mobile"
       ],
       "author": "Michael Burkhardt"
-    },
-    {
-      "id": "ae12bb6eda34",
-      "title": "Is your car tracking your location? Here's how to check and opt out",
-      "link": "https://www.engadget.com/2312168/car-location-tracking-how-to-opt-out/",
-      "description": "Modern cars are great for farming user data, and big tech companies know it. It's important to know how this information is collected and how to opt out.",
-      "content": "Modern cars are great for farming user data, and big tech companies know it. It's important to know how this information is collected and how to opt out.",
-      "thumbnail": "https://www.engadget.com/img/gallery/is-your-car-tracking-your-location-heres-how-to-check-and-opt-out/l-intro-1794245169.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T20:30:00.000Z",
-      "categories": [
-        "privacy",
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Gabriela Vătu)"
-    },
-    {
-      "id": "7bf2c5bf4061",
-      "title": "This built-in Windows tool can diagnose your PC's battery health",
-      "link": "https://www.engadget.com/2312107/built-in-windows-tool-diagnose-pc-battery-health-powercfg/",
-      "description": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
-      "content": "If your laptop doesn't seem to hold a charge as well as it used to, start by checking the diagnostics this tool can report. We'll show you how to use it.",
-      "thumbnail": "https://www.engadget.com/img/gallery/this-built-in-windows-tool-can-diagnose-your-pcs-battery-health/l-intro-1794326458.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T20:15:00.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Maddie Fisher)"
     },
     {
       "id": "a553cac593b4",
@@ -710,34 +1202,6 @@
       "author": "Anthony Ha"
     },
     {
-      "id": "7477bcd7e30f",
-      "title": "Zelda: Ocarina of Time Is Actually the Perfect Way to Introduce Kids to Nintendo",
-      "link": "https://www.polygon.com/zelda-ocarina-time-first-nintendo-kids-game/",
-      "description": "Parents are debating whether the Ocarina of Time remake is too scary for kids. Here’s the case for the child-era half as a first Nintendo game.",
-      "content": "Walk into The Legend of Zelda: Ocarina of Time ’s Kokiri Forest, and it feels like you’re walking into a picture book. Especially in the remake, everything is moss-green and dappled with light. Fairies flit about. Kokiri children are rhythmically attending to their tasks. Everyone is friendly, everything is beautiful, and the world both feels safe and makes sense. Then you walk into the Great Deku Tree and spiders start falling from the ceiling. My daughter screamed. I jumped, too, and I knew they were coming.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/zelda-ocarina-of-time-great-deku-tree-and-link.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T20:00:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Rebecca Corgan"
-    },
-    {
-      "id": "36c70377c477",
-      "title": "Change these Fitbit Edge settings for a better experience",
-      "link": "https://www.engadget.com/2311860/change-fitbit-edge-settings-better-user-experience/",
-      "description": "The Fitbit Edge not only looks good, but packs plenty of features while remaining minimal. To get the most out of it, you only need to tweak a few settings.",
-      "content": "The Fitbit Edge not only looks good, but packs plenty of features while remaining minimal. To get the most out of it, you only need to tweak a few settings.",
-      "thumbnail": "https://www.engadget.com/img/gallery/change-these-x-fitbit-edge-settings-for-a-better-experience/l-intro-1794309662.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T20:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Roger Fingas)"
-    },
-    {
       "id": "316d0b3d71d1",
       "title": "Magic: The Gathering is getting a Netflix animated series. For real this time.",
       "link": "https://www.theverge.com/entertainment/1033909/magic-the-gathering-netflix-series",
@@ -750,34 +1214,6 @@
         "tech"
       ],
       "author": "Terrence O’Brien"
-    },
-    {
-      "id": "5567db1ad39c",
-      "title": "Fortnite Player Gets Screwed Out of Extremely Rare Pirate Shop Token",
-      "link": "https://www.polygon.com/fortnite-player-loses-pirate-shop-access-token-game-crash/",
-      "description": "Epic Games has reportedly proved unhelpful after a user lost the Pirate Shop Access token in Fortnite after losing connection mid-match.",
-      "content": "The Pirate Shop Access token is arguably the best reward Fortnite has ever had. With it, players can claim every reward in the shop for free for two whole weeks. And it can be activated twice! It's extremely rare, but gamers have been grinding hard to get it, as it's too valuable to ignore. The token has caused a frenzy in the Fortnite community and increased the number of hours played by millions.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/07/the-simpsons-fortnite-loading-screen.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T19:47:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Ashely Claudino"
-    },
-    {
-      "id": "3812a5076d01",
-      "title": "How much did home internet cost in 2001 vs 2026?",
-      "link": "https://www.engadget.com/2311774/home-internet-2001-vs-2026-cost/",
-      "description": "A lot of things have gotten more expensive since the turn of the millennium. Has home internet suffered the same fate? Let's take a trip down memory lane.",
-      "content": "A lot of things have gotten more expensive since the turn of the millennium. Has home internet suffered the same fate? Let's take a trip down memory lane.",
-      "thumbnail": "https://www.engadget.com/img/gallery/how-much-did-home-internet-cost-in-2001-vs-2026/l-intro-1794281981.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T19:45:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Antony Terence)"
     },
     {
       "id": "4f823f62d52f",
@@ -794,135 +1230,6 @@
         "tech"
       ],
       "author": "Paul Gillin"
-    },
-    {
-      "id": "9d20410e046b",
-      "title": "That key left of '1' on many keyboards is actually crucial for programmers",
-      "link": "https://www.engadget.com/2309616/that-key-left-of-1-on-many-keyboards-is-actually-crucial-for-programmers/",
-      "description": "The humble tilde has many uses.",
-      "content": "The humble tilde has many uses.",
-      "thumbnail": "https://www.engadget.com/img/gallery/that-key-left-of-1-on-many-keyboards-is-actually-crucial-for-programmers/l-intro-1793993642.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T19:30:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Lawrence Bonk)"
-    },
-    {
-      "id": "99d0ddc447bf",
-      "title": "Dartmouth (Guarini) will not admit math PhD cohort this year",
-      "link": "https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year",
-      "description": "47 points · 12 comments",
-      "content": "Article URL: https://www.thedartmouth.com/article/2026/11/gandhi-fagell-guarini-will-not-admit-math-ph-d-cohort-this-year\n\nComments URL: https://news.ycombinator.com/item?id=50499945\n\nPoints: 47\n\n# Comments: 12",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T19:23:40.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "sebg"
-    },
-    {
-      "id": "493dfb005f7d",
-      "title": "How to make your Nintendo Switch 2 battery last longer",
-      "link": "https://www.engadget.com/2312052/how-to-make-switch-2-battery-last-longer/",
-      "description": "The Switch 2's battery life varies depending on what game you're playing, but changing some settings can also help you maximize how long it lasts.",
-      "content": "The Switch 2's battery life varies depending on what game you're playing, but changing some settings can also help you maximize how long it lasts.",
-      "thumbnail": "https://www.engadget.com/img/gallery/how-to-make-your-nintendo-switch-2-battery-last-longer/l-intro-1794324925.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T19:15:00.000Z",
-      "categories": [
-        "gaming",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Matt Tate)"
-    },
-    {
-      "id": "9c663f9b3fe0",
-      "title": "'The Body' Ending Explained: Is Grace Possessed? Netflix Showrunners Talk Season 2",
-      "link": "https://www.polygon.com/the-body-ending-explained/",
-      "description": "Is Grace possessed? The Body’s showrunners explain why the Netflix series’ ending has no single answer and what’s next in season 2.",
-      "content": "The Body, Netflix’s new campy-horror TV series, came out this week. But based on a quick social media browse, it might as well have come out months ago. The high school thriller inspired passionate fan debates among viewers and dozens of fan cams dedicated to favorite characters long before a single episode aired. Now that The Body has finally arrived, however, fans are having an entirely different debate that hinges on its wild cliffhanger ending.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/the_body_n_s1_e1_00_17_48_05rc2.avif",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T19:00:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Maria Loreto"
-    },
-    {
-      "id": "acea4c24f42a",
-      "title": "5 excellent free Apple Watch apps every owner should know about",
-      "link": "https://www.engadget.com/2311959/free-apple-watch-apps/",
-      "description": "You can enjoy great Apple Watch apps without having to shell out for a subscription.",
-      "content": "You can enjoy great Apple Watch apps without having to shell out for a subscription.",
-      "thumbnail": "https://www.engadget.com/img/gallery/5-excellent-free-apple-watch-apps-every-owner-should-know-about/l-intro-1794320819.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T19:00:00.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Luke James)"
-    },
-    {
-      "id": "15b6fbabb889",
-      "title": "LinkedIn, Monster take down over 1000 fake job postings after CBC investigation",
-      "link": "https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379",
-      "description": "134 points · 59 comments",
-      "content": "Article URL: https://www.cbc.ca/news/canada/linkedin-monster-take-down-over-1-000-fake-job-postings-after-cbc-investigation-9.7415379\n\nComments URL: https://news.ycombinator.com/item?id=50499723\n\nPoints: 134\n\n# Comments: 59",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T18:56:47.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "gnabgib"
-    },
-    {
-      "id": "9d96bba05f27",
-      "title": "Your Apple AirPods Pro can test your hearing in five minutes, but are they accurate?",
-      "link": "https://www.engadget.com/2311946/apple-airpods-pro-test-hearing-five-minutes-accuracy/",
-      "description": "Apple AirPods use an industry-recognized standard when testing a user's hearing, but there are various factors that can give inaccurate results.",
-      "content": "Apple AirPods use an industry-recognized standard when testing a user's hearing, but there are various factors that can give inaccurate results.",
-      "thumbnail": "https://www.engadget.com/img/gallery/your-apple-airpods-pro-can-test-your-hearing-in-five-minutes-but-are-they-accurate/l-intro-1794220922.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T18:45:00.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Robin Bea)"
-    },
-    {
-      "id": "7583bad40a00",
-      "title": "26 Years Later, Charlie Brown's Final Quote Is Still a Comic Strip Classic",
-      "link": "https://www.polygon.com/charlie-brown-final-peanuts-line/",
-      "description": "Charlie Brown, the longest-suffering kid in comics history, went out as he lived",
-      "content": "Charles Schulz's retirement took the world by surprise. Following a period of failing health, Schulz announced on Dec. 14, 1999 that he would end Peanuts. He could no longer see clearly and had been diagnosed with colon cancer. He needed to focus on his health. As a result, Peanuts came to a relatively sudden stop nine weeks later once newspapers had worked through Schulz's existing backlog.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/charlie-brown-emotional-gut-punch-in-peanuts-comic.avif",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T18:43:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Thomas Hindmarch"
-    },
-    {
-      "id": "9f7e1186a30c",
-      "title": "Common reasons your PC's camera and microphone aren't working",
-      "link": "https://www.engadget.com/2311859/pc-camera-microphone-not-working-common-reasons/",
-      "description": "There's nothing worse than having camera or mic problems right before a video call or meeting. Luckily, the fixes are usually pretty straightforward.",
-      "content": "There's nothing worse than having camera or mic problems right before a video call or meeting. Luckily, the fixes are usually pretty straightforward.",
-      "thumbnail": "https://www.engadget.com/img/gallery/common-reasons-your-pcs-camera-and-microphone-arent-working/l-intro-1794311288.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-14T18:30:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Roger Fingas)"
     },
     {
       "id": "359fb450257d",
@@ -953,34 +1260,6 @@
       "author": "Michael Cripe"
     },
     {
-      "id": "58a67d122347",
-      "title": "Magic Is Bringing Back Its Most Controversial Creature Type",
-      "link": "https://www.polygon.com/magic-the-gathering-new-sliver-cards-tease/",
-      "description": "Magic: The Gathering's Aaron Forsythe tells Polygon he knows when more Sliver cards will come to the game",
-      "content": "Whether you love or hate Sliver decks in Magic: The Gathering, you should prepare for more Sliver cards to make their way to the game soon. Vice President of Design Aaron Forsythe revealed as much during an in-person interview with Polygon at MagicCon: Atlanta 2026.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2025/07/the-first-sliver-mtg-art.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T18:03:43.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Tomas Franzese"
-    },
-    {
-      "id": "a5433ee88c25",
-      "title": "35 Years Later, Tim Burton’s Greatest Love Story Is Officially on Streaming",
-      "link": "https://www.polygon.com/tim-burton-edward-scissorhands-love-story/",
-      "description": "A lonely man, a pastel suburb, and a Gothic castle. Tim Burton’s 35-year-old fairy tale is still amazing.",
-      "content": "What makes a love story work? For it to transcend, a love story needs more than good-looking actors, chemistry, and romantic dialogue. There’s no set formula, but it must sweep you off your feet. A touch of sadness and wistfulness never hurts.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/winona.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T18:00:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Maria Loreto"
-    },
-    {
       "id": "08ed142fce60",
       "title": "Got an iPhone Duo? These 9 settings make it easier to use",
       "link": "https://techcrunch.com/2026/11/14/got-an-iphone-duo-these-9-settings-make-it-easier-to-use/",
@@ -997,26 +1276,11 @@
       "author": "Sarah Perez"
     },
     {
-      "id": "dc5edb003be3",
-      "title": "US IRS free online tax filing open source repo (2025)",
-      "link": "https://github.com/IRS-Public/direct-file",
-      "description": "122 points · 69 comments",
-      "content": "Article URL: https://github.com/IRS-Public/direct-file\n\nComments URL: https://news.ycombinator.com/item?id=50499083\n\nPoints: 122\n\n# Comments: 69",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T17:48:20.000Z",
-      "categories": [
-        "programming",
-        "opensource"
-      ],
-      "author": "accountinhn"
-    },
-    {
       "id": "2d95802617f2",
-      "title": "A Family Tree of Software Job Titles",
+      "title": "A family tree of software job titles",
       "link": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/",
-      "description": "140 points · 63 comments",
-      "content": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/\n\nComments URL: https://news.ycombinator.com/item?id=50499038\n\nPoints: 140\n\n# Comments: 63",
+      "description": "270 points · 130 comments",
+      "content": "Article URL: https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/\n\nComments URL: https://news.ycombinator.com/item?id=50499038\n\nPoints: 270\n\n# Comments: 130",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T17:45:19.000Z",
@@ -1072,8 +1336,8 @@
       "id": "c8d55e521b5b",
       "title": "Lovable apps expose passport details and more than 200K private messages",
       "link": "https://www.crissyfield.de/research/lovable-en/",
-      "description": "508 points · 184 comments",
-      "content": "Article URL: https://www.crissyfield.de/research/lovable-en/\n\nComments URL: https://news.ycombinator.com/item?id=50499017\n\nPoints: 508\n\n# Comments: 184",
+      "description": "749 points · 298 comments",
+      "content": "Article URL: https://www.crissyfield.de/research/lovable-en/\n\nComments URL: https://news.ycombinator.com/item?id=50499017\n\nPoints: 749\n\n# Comments: 298",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T17:43:10.000Z",
@@ -1082,21 +1346,6 @@
         "programming"
       ],
       "author": "armcat"
-    },
-    {
-      "id": "98c016129092",
-      "title": "Will we put data centers in space?",
-      "link": "https://www.forethought.org/research/will-we-really-put-data-centers-in-space",
-      "description": "41 points · 120 comments",
-      "content": "Article URL: https://www.forethought.org/research/will-we-really-put-data-centers-in-space\n\nComments URL: https://news.ycombinator.com/item?id=50498945\n\nPoints: 41\n\n# Comments: 120",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T17:35:33.000Z",
-      "categories": [
-        "science",
-        "programming"
-      ],
-      "author": "simonebrunozzi"
     },
     {
       "id": "7134e7e1ad67",
@@ -1146,20 +1395,6 @@
       "author": "Lawrence Abrams"
     },
     {
-      "id": "1029657e0fde",
-      "title": "12 Classic Wii Games That Nintendo Should Add to Switch Online",
-      "link": "https://www.polygon.com/switch-online-missing-wii-games/",
-      "description": "Nintendo could really make our day by launching a Wii channel on Switch Online and including these 12 classic games.",
-      "content": "There’s no shortage of gems in the Wii library, and they didn’t all come from Nintendo itself. Thinking back on some of the games that people missed at the time, it’s easy to argue that Nintendo should add Wii to Switch Online sometime soon, if only so we have another chance to play classic games like the 12 on this list.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/punch-out-wii-cropped-cover-art.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T17:24:05.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Jason Venter"
-    },
-    {
       "id": "89264b78fb1f",
       "title": "GTA 6 Will Do Something the Franchise Has Never Done Before: Encourage Empathy",
       "link": "https://www.ign.com/articles/gta-6-will-do-something-the-franchise-has-never-done-before-encourage-empathy",
@@ -1172,20 +1407,6 @@
         "gaming"
       ],
       "author": "Michael Cripe"
-    },
-    {
-      "id": "5f02551e61c6",
-      "title": "Blade Runner Is Officially Getting The AAA Game Treatment",
-      "link": "https://www.polygon.com/blade-runner-is-officially-getting-the-aaa-game-treatment/",
-      "description": "Alcon Entertainment confirmed it has had discussions about creating a AAA game based on Blade Runner",
-      "content": "Alcon Entertainment, which owns the Blade Runner franchise, confirmed in a recent interview that it has discussed making a AAA game based on the beloved sci-fi series. It's an exciting development for Blade Runner, which has never quite found its footing in gaming despite how influential its visual style and narrative themes have been.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/22375892/BladeRunner_1000x500.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-14T17:06:22.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Tomas Franzese"
     },
     {
       "id": "ef0117d38210",
@@ -1262,34 +1483,6 @@
       "author": "Matt Purslow"
     },
     {
-      "id": "796d67786032",
-      "title": "Creating a self booting ZIP archive",
-      "link": "https://goliath32.com/blog/ziphead.html",
-      "description": "32 points · 6 comments",
-      "content": "Article URL: https://goliath32.com/blog/ziphead.html\n\nComments URL: https://news.ycombinator.com/item?id=50498295\n\nPoints: 32\n\n# Comments: 6",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T16:29:05.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "gdgghhhhh"
-    },
-    {
-      "id": "616c0f4e0d4a",
-      "title": "How to Create Your Own Decentralized Messenger Protocol",
-      "link": "https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol",
-      "description": "47 points · 9 comments",
-      "content": "Article URL: https://karboosx.net/post/5j7jdDM3/how-to-create-your-own-decentralized-messenger-protocol\n\nComments URL: https://news.ycombinator.com/item?id=50498073\n\nPoints: 47\n\n# Comments: 9",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T16:01:04.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "fagnerbrack"
-    },
-    {
       "id": "f033bd1704fa",
       "title": "I Let My Apple Watch Eavesdrop on My Conversations for 2 Weeks",
       "link": "https://www.cnet.com/tech/mobile/apple-watch-audio-intelligence-hands-on-privacy-tes/",
@@ -1354,8 +1547,8 @@
       "id": "85898c079664",
       "title": "PyPI's redesigned project pages with clearer security signals are now live",
       "link": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/",
-      "description": "175 points · 81 comments",
-      "content": "Article URL: https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/\n\nComments URL: https://news.ycombinator.com/item?id=50497892\n\nPoints: 175\n\n# Comments: 81",
+      "description": "228 points · 99 comments",
+      "content": "Article URL: https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/\n\nComments URL: https://news.ycombinator.com/item?id=50497892\n\nPoints: 228\n\n# Comments: 99",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T15:40:52.000Z",
@@ -1444,8 +1637,8 @@
       "id": "ad8b3d5bdfd0",
       "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
       "link": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax",
-      "description": "119 points · 7 comments",
-      "content": "Article URL: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax\n\nComments URL: https://news.ycombinator.com/item?id=50497589\n\nPoints: 119\n\n# Comments: 7",
+      "description": "215 points · 14 comments",
+      "content": "Article URL: https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax\n\nComments URL: https://news.ycombinator.com/item?id=50497589\n\nPoints: 215\n\n# Comments: 14",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T15:04:15.000Z",
@@ -1515,20 +1708,6 @@
       "author": "Bruno Ferreira"
     },
     {
-      "id": "6cef2aaaf2f7",
-      "title": "Demystifying phone unlocking tools: A technical overview",
-      "link": "https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/",
-      "description": "51 points · 1 comments",
-      "content": "Article URL: https://osservatorionessuno.org/blog/2026/05/demystifying-phone-unlocking-tools-a-technical-overview/\n\nComments URL: https://news.ycombinator.com/item?id=50497416\n\nPoints: 51\n\n# Comments: 1",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T14:44:28.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "iloveyoutwo"
-    },
-    {
       "id": "b935addbc6bc",
       "title": "Contractor turns a Milwaukee Hackzall into a portable Ethernet untwister after facing job requiring 50,000 custom Cat6 cables",
       "link": "https://www.tomshardware.com/maker-stem/contractor-builds-ethernet-cable-untwisting-machine-after-facing-100-000-cat6-termination-job-modified-milwaukee-hackzall-straightens-cables-in-under-two-seconds",
@@ -1557,41 +1736,11 @@
       "author": "Andrew J. Hawkins"
     },
     {
-      "id": "3f060b226b66",
-      "title": "Show HN: Agweb – a browser for agents that stays out of your way",
-      "link": "https://github.com/paul-nameless/agweb",
-      "description": "79 points · 21 comments",
-      "content": "Article URL: https://github.com/paul-nameless/agweb\n\nComments URL: https://news.ycombinator.com/item?id=50497147\n\nPoints: 79\n\n# Comments: 21",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T14:08:12.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "paul_nameless"
-    },
-    {
-      "id": "ad49a76de154",
-      "title": "Show HN: Fursoy – Out-of-order RV64IMAFDV core in SystemVerilog (Linux 6.6)",
-      "link": "https://github.com/FURSOY/fursoy-cpu",
-      "description": "61 points · 20 comments",
-      "content": "Article URL: https://github.com/FURSOY/fursoy-cpu\n\nComments URL: https://news.ycombinator.com/item?id=50497137\n\nPoints: 61\n\n# Comments: 20",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-14T14:06:34.000Z",
-      "categories": [
-        "hardware",
-        "opensource",
-        "programming"
-      ],
-      "author": "fursoy"
-    },
-    {
       "id": "5bfa2e37b7da",
       "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
       "link": "https://gitlab.com/snipedbywifi/terminactory",
       "description": "",
-      "content": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve \"telegrams\" [the agent's responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!) Right now, the game has basic factory features you'd expect from a game like this (build stuff, delete stuff, measure how much you're earning, basic selection tools), along with a few more.. \"unexpected\" features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you'd need to unlock something, and some more QOL features. If anyone actually has this issue / want of a terminal-based game that runs alongside your agents so you don't doomscroll, do you have any suggestions, or additional ideas I could add? It's hosted on GitLab, soo, that's one additional thing i'd like to mention Thanks for reading!! snipedbywifi (p.s. first HN post lol)\n(p.s. p.s. there's a lot of hidden lore in the game, so.. lore-divers? you might like it?)\n\nComments URL: https://news.ycombinator.com/item?id=50497132\n\nPoints: 121\n\n# Comments: 24",
+      "content": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve \"telegrams\" [the agent's responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!) Right now, the game has basic factory features you'd expect from a game like this (build stuff, delete stuff, measure how much you're earning, basic selection tools), along with a few more.. \"unexpected\" features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you'd need to unlock something, and some more QOL features. If anyone actually has this issue / want of a terminal-based game that runs alongside your agents so you don't doomscroll, do you have any suggestions, or additional ideas I could add? It's hosted on GitLab, soo, that's one additional thing i'd like to mention Thanks for reading!! snipedbywifi (p.s. first HN post lol)\n(p.s. p.s. there's a lot of hidden lore in the game, so.. lore-divers? you might like it?)\n\nComments URL: https://news.ycombinator.com/item?id=50497132\n\nPoints: 152\n\n# Comments: 37",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-14T14:05:54.000Z",
@@ -1956,8 +2105,8 @@
       "id": "1f8f963bba08",
       "title": "The 21 Best REI Holiday Sale Outdoor Deals (2026)",
       "link": "https://www.wired.com/story/best-rei-holiday-sale-outdoor-deals-2026/",
-      "description": "Stock up on outdoor gear and gifts for friends at REI's annual holiday sale.",
-      "content": "Stock up on outdoor gear and gifts for friends at REI's annual holiday sale.",
+      "description": "Stock up on outdoor gear and gifts for friends at REI’s annual holiday sale.",
+      "content": "Stock up on outdoor gear and gifts for friends at REI’s annual holiday sale.",
       "thumbnail": "https://media.wired.com/photos/6af78becda0b3f5acb040c4d/master/pass/The-21-Best-REI-Holiday-Sale-Outdoor-Deals.jpg",
       "source": "Wired",
       "publishedAt": "2026-11-14T11:00:00.000Z",
@@ -2212,20 +2361,6 @@
       "author": "Richard Lawler"
     },
     {
-      "id": "5ea45c63c751",
-      "title": "Forcing yourself to smile can actually make you miserable",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025536.htm",
-      "description": "Smiling may not always make you happier, and new research suggests that forcing yourself to smile repeatedly could actually make you feel worse. In a University of Florida study involving more than 1,100 participants, researchers discovered that while a single artificial smile can provide a small mo",
-      "content": "Smiling may not always make you happier, and new research suggests that forcing yourself to smile repeatedly could actually make you feel worse. In a University of Florida study involving more than 1,100 participants, researchers discovered that while a single artificial smile can provide a small mood boost, repeatedly faking smiles can erase that benefit or even reverse it.",
-      "thumbnail": "https://www.sciencedaily.com/images/1920/woman-with-fake-forced-smile.webp",
-      "source": "Science Daily",
-      "publishedAt": "2026-11-14T01:50:58.000Z",
-      "categories": [
-        "science"
-      ],
-      "author": null
-    },
-    {
       "id": "17dc0dba5d90",
       "title": "FAA grounds all domestic flights after reported network outage",
       "link": "https://siliconangle.com/2026/11/13/faa-grounds-domestic-flights-after-reported-network-outage/",
@@ -2268,20 +2403,6 @@
         "gaming"
       ],
       "author": "Jacob Kienlen"
-    },
-    {
-      "id": "39136d85fce3",
-      "title": "Scientists capture electrons making seemingly impossible quantum jumps",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025523.htm",
-      "description": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. The breakthrough offers an unprecedented look at quantum behavior and could help unlock a new generation of ultrafast, ligh",
-      "content": "Scientists have captured electrons making seemingly impossible jumps across forbidden energy gaps in graphene, with some transitions occurring at a remarkable 100% probability. The breakthrough offers an unprecedented look at quantum behavior and could help unlock a new generation of ultrafast, light-controlled electronics.",
-      "thumbnail": "https://www.sciencedaily.com/images/1920/electric-field-of-light-accelerates-electrons.webp",
-      "source": "Science Daily",
-      "publishedAt": "2026-11-14T01:13:05.000Z",
-      "categories": [
-        "science"
-      ],
-      "author": null
     },
     {
       "id": "069b26525670",
@@ -2387,20 +2508,6 @@
       "author": "Michael Cripe"
     },
     {
-      "id": "1ea857ecd270",
-      "title": "Before Directing the Biggest Success of His Career, Steven Spielberg Almost Made an Alien Horror Movie Instead",
-      "link": "https://www.ign.com/articles/steven-spielberg-night-skies-et-almost-made-an-alien-horror-movie-instead",
-      "description": "Before directing E.T., Steven Spielberg almost made an alien horror movie called Night Skies.",
-      "content": "In the late 1970s/early 1980s, Steven Spielberg was developing a movie that ultimately would never get made. And yet, from a different perspective, it actually would get made… as a bunch of other, quite famous films. We’re talking Gremlins. We’re talking Poltergeist. And we’re talking E.T. the Extra-Terrestrial.\n\n“It was a dream team of people working on this thing. It was going to be a horror movie about these evil aliens, or mischievous aliens, that come to this rural farmstead and really mess with this family – they really fuck with this family,” explains movie journalist and author Max Evry, who just released a book about the film called Stranded on Earth: How Night Skies Became E.T. the Extra-Terrestrial.\n\nDream team is putting it lightly, as Night Skies had Spielberg producing, John Sayles scripting, production illustrator Ron Cobb expected to make his directorial debut, and Rick Baker designing the aliens. And of course, Kathleen Kennedy was also onboard, as she was working for Spielberg at this point in her career and would soon get her first full producer credit on E.T.\n\nI recently spoke to Evry, who is also an occasional contributor to IGN – and who you may recall was also the author of that very popular book about David Lynch’s Dune, A Masterpiece in Disarray, from a couple of years back. We discussed how Night Skies went from alien horror movie to the family-friendly mega-hit that was E.T., how Poltergeist and Gremlins were born alongside its development, and how Stranded on Earth is, as the author puts it, “a hard R-rated book about a children's movie.”\n\nFrom Close Encounters to a ‘Famous Clusterfuck’... to E.T.\n\nStranded on Earth begins with a look back at Spielberg’s earliest filmmaking endeavors as a teen, including a film called Firelight which he made for $500 and which actually got a theatrical release – in the wunderkind’s hometown for one night, at least (the director’s semi-autobiographical film The Fabelmans recreates this moment from his life). The film was an early example of Spielberg’s interest in UFOs and the creatures behind them.\n\n“We're dealing with Spielberg, we're dealing with aliens, so we got to go all the way back to when he was 15, 16, making his first sort of feature film,” says Evry. “It was like this two-hour epic that he made when he was a teenager, and that story is really fun. It sets up the way that Spielberg deals with aliens throughout his career, because it's like Martin Scorsese and gangsters. Spielberg has used aliens as a vessel for whatever kind of creative mood he happens to be in. I don't believe – and there are many people who corroborate this in the book – he has a firm belief one way or the other about alien visitations and things like that. I think it's just a great tool that he uses to explore different subjects.”\n\n'1941 was a nightmare production... It hurt Spielberg's reputation a lot, and it sort of showed he wasn't bulletproof.' Of course, Spielberg would have great success with 1977’s Close Encounters of the Third Kind, and the book recounts the filmmaker’s less than enthusiastic plans for a direct sequel to that film. That’s where Night Skies comes into the picture.\n\n“They spent close to a million dollars developing this thing. Some people in the book described it as kind of a weird science experiment, like maybe it'll go, maybe it won't. But it was heavily developed, and I think would've been a great movie,” says Evry.\n\nThis was all going on during a very memorable time for Spielberg, because he also had the infamous misfire 1941, a World War II-era comedy starring an ensemble that included John Belushi, hit theaters in 1979. As Evry puts it, the film was “a famous clusterfuck … a nightmare production where he was essentially going crazy with this thing, and it just kept getting bigger and bigger and bigger. … It hurt his reputation a lot, and it sort of showed he wasn't bulletproof.”\n\nThe fallout from 1941 would impact how Night Skies – and then as it morphed into what would become E.T. – was viewed by the studios.\n\n“There were a lot of people who thought he might be done,” he says. “So even after this project evolved from Night Skies to E.T., it became almost like this nuclear football where Columbia had it and then they just decided they didn't want it and they gave it to Universal. Universal was kind of like, ‘Eh. We'll do it, but you have to raise the money through a bond company. We don't want to directly fund it because we don't want to be responsible if you go over budget again.’ It was this interesting period where it was like the last time people didn't trust Steven Spielberg.”\n\nEvolution of an Idea, From Aliens to Ghosts to Gremlins\n\nSpielberg was never going to direct Night Skies, and in fact it was during this period that he began to produce other directors’ films, the earliest examples being Robert Zemeckis’ I Wanna Hold Your Hand (1978) and Used Cars (1980). Zemeckis, with his partner Bob Gale, also worked on a script for Spielberg at one point called After School, “and that had a lot of elements that carried forward into E.T. also,” says Evry. “So it's not just Night Skies. It was sort of [Spielberg] blending After School with Night Skies, and that's how you get E.T.”\n\nBut before that, when Night Skies was still Night Skies, it was Ron Cobb who was going to direct the film.\n\n“It was going to be his debut, and he developed it from the ground up,” says Evry. “There's some false information out there that it was between Cobb and Tobe Hooper. That is not true. Basically, Tobe Hooper came in much later when Cobb was ensconced in Spain doing the production design for Conan the Barbarian, and he couldn't come back and work on Night Skies. Rick Baker's doing storyboards for the film without him. I think at that point, Spielberg calls up Tobe Hooper and is like, ‘Hey, I've got this alien project. Are you interested in directing it?’ Tobe Hooper was like, ‘Nah, but I'd like to do a movie about ghosts.’”\n\nThere are even some lines from the Night Skies scripts which can be found in Poltergeist – 'They’re here…' for example. And of course, that project became Poltergeist. Evry explains that while many film fans think that Night Skies fed into Poltergeist, the two projects were really in parallel development.\n\n“They were happening at the exact same time, and that's interesting because they're both about essentially these families with the same makeup, like mom, dad, three kids, one older, one younger, one very young,” he says. “And the focal point is on the youngest one, and you've got this supernatural force encroaching upon their house. In one case, it's ghosts. In one case, it's aliens.”\n\nThere are even some lines from the Night Skies scripts which can be found in Poltergeist – “They’re here…” for example.\n\nIn Evry’s view, Gremlins has a lot more of Night Skies in it though. While Gremlins originated as a spec script by Chris Columbus, John Sayles took over as a ghost writer after Columbus. And Sayles was also the main writer behind Night Skies.\n\n“So that is where you start to see some crossover and some of the similar ideas,” says Evry. “I mean, even down to the fact that Night Skies was inspired by this ‘real incident’ called the Kelly-Hopkinsville Incident of 1955, which was aliens attacking a farm. It's a famous thing in UFO-logy, and there's a whole chapter about it in the book.” (Evry even visited Hopkinsville for his research.)\n\nThat’s where the term “little green men” comes from, and as Evry points out, at the end of Gremlins they refer to the little creatures as little green men.\n\n“If you look at the actual eyewitness drawings of the aliens from Kelly-Hopkinsville, they look a hell of a lot like the Gremlins,” adds the author.\n\nA Painful Memory\n\nFor Evry, the key creative force behind Night Skies that he wanted to talk to was legendary makeup effects creator Rick Baker. But for Baker, this was a project that elicited a lot of painful memories.\n\n“In some ways, he's the central figure and it's the most dramatic element of the book,” says Evry. “John Sayles and Ron Cobb, they both came out of it just fine. But for Rick, it was a really tough experience, which we talk about – for whatever reason, he and Spielberg just had this tremendous falling out, very dramatic. And it was a trauma for him. And it's like, I never wanted to portray seven-time Oscar winner Rick Baker as some kind of victim, but the thing you have to remember is at that time he was zero-Oscar winner Rick Baker. He was still kind of new to the business.”\n\nIt seems Spielberg has his own take on what went down between him and Baker on Night Skies, and it doesn’t necessarily match with how Baker remembers it.\n\n“There's another book about E.T. where Spielberg – I didn't put this in my book because I thought it was embarrassing – his quote was, ‘Rick and I decided this was not the project we were going to work on,’” says Evry. “If you read [my] book, you'll have a different feeling about that quote. But Rick, he was very honest and he was very candid, which was so great to hear him talk about it. And I talked to other people who were in his studio as well, and they corroborate everything he says.”\n\n'Spielberg has this intuitive creativity where he just said, You know what? I think I can do something else with this.' Baker was actually working on An American Werewolf in London at the same time that he was on Night Skies, and of course that film would go on to be an incredible breakthrough success in large part due to Baker’s effects work.\n\n“An important thing to note is you've seen American Werewolf, and you know how innovative that was,” says Evry. “And I am here to tell you that his work on Night Skies was just as good, if not better. I actually discovered the original VHS Night Skies alien test that he did that he sent to Spielberg, and it's unbelievable. If you did it today, it would still stand up. And this is far and away ahead of anything being done in makeup effects in 1980. The alien was so expressive, so versatile. It was really cool. It was really eerie.” (You can check out a glimpse of it here.)\n\nOf course, that’s the trick with any history lesson – whose memories are correct, who has embellished a story, knowingly or not, and where does what really happened come to the forefront? Evry says that’s part of the fun of his book, as it gets into a sort of “Rashomon, where there's a chapter on John Sayles, there's a chapter on Ron Cobb, there's a chapter on Rick Baker, and you start to see the story from different angles.”\n\nOf course, one undeniable aspect to it all is that at some point, Spielberg decided to make E.T. instead.\n\n“Spielberg has this intuitive creativity where he just said, ‘You know what? I think I can do something else with this,’” says Evry. “I'm really excited for horror fans, science fiction fans, but especially Spielberg fans to come away from this book with just a totally different perspective on what E.T. is, on what it could have been, and on what came after.”",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/13/steven-spielberg-filming-1280-1794609786087.jpg",
-      "source": "IGN",
-      "publishedAt": "2026-11-13T23:06:23.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Scott Collura"
-    },
-    {
       "id": "93e2a4b9f246",
       "title": "How the Jensen Huang scandal created a headache for business-friendly Singapore",
       "link": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
@@ -2480,11 +2587,11 @@
       "author": "Marina Temkin, Dominic-Madori Davis"
     },
     {
-      "id": "d972c5a5c01d",
-      "title": "FAA lifts ground stop after hours-long delays snag travelers",
-      "link": "https://www.theregister.com/offbeat/2026/11/13/faa-lifts-ground-stop-after-hours-long-delays-snag-travelers/5309912",
+      "id": "7a4a97e305e7",
+      "title": "FAA blames ground stop on faulty copper wiring",
+      "link": "https://www.theregister.com/offbeat/2026/11/13/faa-blames-ground-stop-on-faulty-copper-wiring/5309912",
       "description": "Safety reasons and unspecified communications issue cited",
-      "content": "The US Federal Aviation Administration on Friday issued an advisory that prevented the takeoff of flights in US airspace for around five hours, creating chaos for travelers and airports. The stop was finally lifted around 8:30 PM Eastern Time, but only after thousands of flights were canceled or delayed, leaving travelers stranded. The FAA has not yet confirmed a reason for the stop.\n\nOriginal story below:\n\n\"The FAA issued a nationwide ground stop for all U.S. airports following a communication issue impacting all Air Route Traffic Control Centers,\" said US Transportation Secretary Sean Duffy in a statement. \"FAA technicians are investigating the issue. We will provide immediate updates as we have them.\"\n\nA spokesperson at the FAA press office reached by phone said he was unable to provide further information. And an email response from the agency repeated Duffy's statement.\n\nThe FAA ATCSCC advisory halts departing flights and says international flights will be dealt with individually.\n\nThe notice says, \"Due to extraordinary circumstances and for reasons of safety. Attention all aircraft operators, by order of the Federal Aviation Command Center all airports are ground stopped. All departing traffic should remain stopped until further notice. Inbound international flights will be managed on a case by case basis.\"\n\nDoug Yakel, public information officer for San Francisco International Airport, said, \"FAA confirms nationwide ground stop, other reporting indicates a communications issue between Air Route Traffic Control Centers (ARTCCs). Aircraft already enroute to SFO still landing here but departing aircraft not taking off right now.\"\n\nAn update issued at 2:02 pm PT described the problem as \"a temporary telecommunications outage.\"\n\nThe FAA Telecommunications Infrastructure (FTI) is managed by L3Harris. The network provides secure communication between more than 4,400 facilities.\n\nThe grounding follows on the heels of a major Microsoft outage that has affected many Microsoft-hosted services, particularly email, for more than 24 hours so far. There's no indication presently that the two incidents are related.\n\nWe'll update this story as more information becomes available.®\n\nUpdated at 0211 Saturday UTC to reflect the lifting of the ground stop.\n\nUpdated to add at 2353 UTC\n\nCBS News reports that “an update to the private communications network that connects America’s air traffic control system caused the system to reboot. When the FAA’s telecommunication infrastructure rebooted, it crashed, causing the communications outage. The system is operated by L3Harris.”\n\nL3Harris has not responded to a request for comment.\n\nUpdated to add at 2340 UTC\n\nAir Space Intelligence (ASI), awarded the FAA’s $875 million, 12-year contract for its new Strategic Management of Airspace, Routes and Trajectories (SMART) system, has issued a statement asserting that its products played no role in the FAA’s flight suspension. “The current ground stop is not based on or a result of the SMART system, any product of ASI or our integration with FAA and ATC,” the company said.",
+      "content": "The US Federal Aviation Administration on Friday issued an advisory that prevented the takeoff of flights in US airspace for around five hours, creating chaos for travelers and airports. The stop was finally lifted around 8:30 PM Eastern Time, but only after thousands of flights were canceled or delayed, leaving travelers stranded.\n\nIn a press conference Saturday, Transportation Secretary Duffy attributed the FAA ground stop to problems with copper wiring during an L3Harris network upgrade. Duffy said it has yet to be determined whether the issue was incompetence or a faulty router.\n\nIn a statement provided to The Register on Saturday, a spokesperson for L3Harris said, “L3Harris has been modernizing the communications infrastructure supporting the National Airspace System in close coordination with the FAA. With safety and reliability as our highest priorities, L3Harris, together with its telco partners and the FAA, has completed more than 70 percent of the planned airspace communications conversion from legacy copper wires to a fiber optic system. We are supporting the FAA in its investigation to understand the conditions that led to the Nov. 13 ground stop of our nation’s air travel. L3Harris takes the nationwide ground stop and its impact on travelers, airlines and air traffic operations seriously.”\n\nThe stop was issued on Friday around the middle of the day ET.\n\n\"The FAA issued a nationwide ground stop for all U.S. airports following a communication issue impacting all Air Route Traffic Control Centers,\" said US Transportation Secretary Sean Duffy in a statement on Friday. \"FAA technicians are investigating the issue. We will provide immediate updates as we have them.\"\n\nA spokesperson at the FAA press office reached by phone at the time said he was unable to provide further information. And an email response from the agency repeated Duffy's statement.\n\nThe FAA ATCSCC advisory halted departing flights and said international flights would be dealt with individually.\n\nThe notice said, \"Due to extraordinary circumstances and for reasons of safety. Attention all aircraft operators, by order of the Federal Aviation Command Center all airports are ground stopped. All departing traffic should remain stopped until further notice. Inbound international flights will be managed on a case by case basis.\"\n\nDoug Yakel, public information officer for San Francisco International Airport, said, \"FAA confirms nationwide ground stop, other reporting indicates a communications issue between Air Route Traffic Control Centers (ARTCCs). Aircraft already enroute to SFO still landing here but departing aircraft not taking off right now.\"\n\nAn update issued at 2:02 pm PT described the problem as \"a temporary telecommunications outage.\"\n\nThe FAA Telecommunications Infrastructure (FTI) is managed by L3Harris. The network provides secure communication between more than 4,400 facilities. ®\n\nUpdated at 0039 UTC Sunday UTC with the administration's explanation for the stop.\n\nUpdated at 0211 Saturday UTC to reflect the lifting of the ground stop.\n\nUpdated to add at 2353 UTC\n\nCBS News reports that “an update to the private communications network that connects America’s air traffic control system caused the system to reboot. When the FAA’s telecommunication infrastructure rebooted, it crashed, causing the communications outage. The system is operated by L3Harris.”\n\nUpdated to add at 2340 UTC\n\nAir Space Intelligence (ASI), awarded the FAA’s $875 million, 12-year contract for its new Strategic Management of Airspace, Routes and Trajectories (SMART) system, has issued a statement asserting that its products played no role in the FAA’s flight suspension. “The current ground stop is not based on or a result of the SMART system, any product of ASI or our integration with FAA and ATC,” the company said.",
       "thumbnail": "https://image.theregister.com/?imageId=5309916&width=800",
       "source": "The Register",
       "publishedAt": "2026-11-13T22:42:28.000Z",
@@ -2492,20 +2599,6 @@
         "tech"
       ],
       "author": "Thomas Claburn"
-    },
-    {
-      "id": "d023e8f9ca78",
-      "title": "Kevin Feige Didn't Want Wanda in VisionQuest Because He Was Worried She Would 'Distract' From the Core Show",
-      "link": "https://www.ign.com/articles/kevin-feige-didnt-want-wanda-in-visionquest-because-he-was-worried-she-would-distract-from-the-core-show",
-      "description": "Marvel actor Paul Bettany has said Kevin Feige didn't want Elizabeth Olsen's Wanda Maximoff to be in VisionQuest because he was worried she might \"distract\" from the show's core.",
-      "content": "Marvel actor Paul Bettany has said Kevin Feige didn't want Elizabeth Olsen's Wanda Maximoff to be in VisionQuest because he was worried she might \"distract\" from the show's core.\n\nThe Marvel Cinematic Universe star recalled the conversation he had with the Marvel Studios bigwig when speaking with The Playlist. MCU followers spent the months leading up to the new Disney+ offshoot speculating about how it may serve as a vehicle for an unlikely resurrection.\n\nThose who have kept up with the nearly 20-year-old cinematic universe will remember that Wanda met her end in the closing moments of 2022's Doctor Strange in the Multiverse of Madness. She's yet to be seen since, and although discussions about seeing her share a screen with Vision were had, Bettany said it was an idea Feige was never too fond of.\n\n\"There were questions about it, whether that should happen, whether it opened up too much for the MCU, whether they wanted to do it later,\" he remembered. \"I don't know. But I remember having this conversation with [Kevin], and he said, 'You and Terry have done such a great job at making me care about Vision. I really don’t think you should distract from that by giving the audience that at the end of the [show].\n\n\"It will just fundamentally all become about WandaVision again, and this should and can stand on its own.' And I think he was right.\"\n\nThe main events of VisionQuest came and went without any signs that Olsen had recorded new footage to fit directly within VisionQuest, leaving the MCU without a proper family reunion. It was a disappointing moment for those who had spent months speculating she would reappear ahead of Avengers: Doomsday as theories were finally put to rest.\n\nWarning! Spoilers for VisionQuest's finale credits scenes follow.\n\nIf you've finished VisionQuest, you'll know that disappointment didn't last long. Just as the final credits for the finale episode came to an end, viewers were taken back to Wanda's resting place on the snowy cliffs of Mount Wundagore. There, a cloaked figure that looks and sounds a lot like Robert Downey Jr.'s Victor von Doom reaches out to her, saying, \"Scarlet Witch, awaken. Your power will be mine.\" Then, her eyes open.\n\nYes, Olsen and Wanda Maximoff are coming back, with the return set up alongside VisionQuest's finale, despite Feige's wishes. To be fair, the reveal mostly seemed to consist of reused footage from her appearance in the Doctor Strange sequel. The scene is also just about as far removed from VisionQuest itself as it can be. So, while Feige may have wanted to avoid Wanda distracting from the partial family reunion we got in VisionQuest, her inclusion at least managed to arrive long after the main story wrapped up.\n\nWe'll hopefully know more about Wanda's future – and hopefully whether or not she'll reunite with Vision, Billy, and Tommy – when Avengers: Doomsday premieres next month, December 18. Until then, you can check out what IGN thought of VisionQuest's finale in our 7/10 review.\n\n\"The last-minute addition of a new villain derails the finale of VisionQuest somewhat,\" we said, \"but the series still succeeds where Vision and Ultron are concerned.\"",
-      "thumbnail": "https://assets-prd.ignimgs.com/2023/08/03/wandavision-1691088299084.jpg",
-      "source": "IGN",
-      "publishedAt": "2026-11-13T22:41:34.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Michael Cripe"
     },
     {
       "id": "2c75a66fbe72",
@@ -2986,21 +3079,6 @@
       "author": "Ben Lovejoy"
     },
     {
-      "id": "c2d111d579be",
-      "title": "Apple Maps in iOS 27 has hidden new feature I’ve been loving",
-      "link": "https://9to5mac.com/2026/11/13/apple-maps-in-ios-27-has-hidden-new-feature-ive-been-loving/",
-      "description": "iOS 27 gave Apple Maps a handful of new features , and my favorite is one that keeps offering fresh updates every week: Local Lists. more…",
-      "content": "iOS 27 gave Apple Maps a handful of new features, and my favorite is one that keeps offering fresh updates every week: Local Lists.\n\nmore…",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/07/apple-maps-ios-27-app-icon-colors.jpg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-13T16:59:38.000Z",
-      "categories": [
-        "hardware",
-        "mobile"
-      ],
-      "author": "Ryan Christoffel"
-    },
-    {
       "id": "897abc72dffc",
       "title": "Mozilla leaves Solo website owners to go it alone as hosting shuts down",
       "link": "https://www.theregister.com/software/2026/11/13/mozilla-leaves-solo-website-owners-to-go-it-alone-as-hosting-shuts-down/5309632",
@@ -3125,7 +3203,7 @@
       "title": "Gemini Astronaut Photos Inspired Early Earth Observation Program",
       "link": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
       "description": "Astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program. In addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon",
-      "content": "NASA astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. captured this image of the area surrounding the Red Sea and Nile river valley on November 14, 1966, during their four-day mission in space. Gemini XII was the final flight of NASA’s Gemini Program.\n\nNASA\n\nAstronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program.\n\nIn addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of a different field of exploration, observing Earth from space.\n\nThe photos taken by Lovell, Aldrin, and other Gemini astronauts demonstrated the value of orbital imagery for studying Earth’s surface. Their images helped scientists make the case for a dedicated Earth observation satellite program. One of strongest advocates for accelerating the use of Earth-observing satellites was William T. Pecora, the director of the United States Geological Survey from 1965 to 1971. In a 1969 statement, Pecora noted that the Earth Resources Observation Satellite (EROS) program he championed, and which later paved the way for Landsat, was “conceived in 1966 largely as a direct result of the demonstrated utility of Mercury and Gemini orbital photography to Earth resource studies.”\n\nFor more than five decades, Landsat and other Earth-observing satellites have provided invaluable data used around the world to monitor crops, wildfires, flooding, vegetation health, land use, and countless other changes to our planet.\n\nExplore More\n\n3 min read\n\nThrough NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA\n\nArticle\n\n2 days ago\n\n3 min read\n\nScotland’s Flow Country\n\nBlanket bogs in the Scottish Highlands store vast amounts of carbon.\n\nArticle\n\n3 days ago\n\n4 min read\n\nWater Surges Into Navajo Reservoir\n\nRounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s…\n\nArticle\n\n4 days ago",
+      "content": "NASA astronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. captured this image of the area surrounding the Red Sea and Nile river valley on November 14, 1966, during their four-day mission in space. Gemini XII was the final flight of NASA’s Gemini Program.\n\nNASA\n\nAstronauts James A. Lovell Jr. and Edwin E. “Buzz” Aldrin Jr. orbited Earth from November 11 to 15, 1966, on Gemini XII, the final mission of NASA’s Gemini program.\n\nIn addition to successfully completing rendezvous maneuvers and spacewalks, procedures vital to sending American astronauts to the Moon, the crew was also spurring the development of a different field of exploration, observing Earth from space.\n\nThe photos taken by Lovell, Aldrin, and other Gemini astronauts demonstrated the value of orbital imagery for studying Earth’s surface. Their images helped scientists make the case for a dedicated Earth observation satellite program. One of strongest advocates for accelerating the use of Earth-observing satellites was William T. Pecora, the director of the United States Geological Survey from 1965 to 1971. In a 1969 statement, Pecora noted that the Earth Resources Observation Satellite (EROS) program he championed, and which later paved the way for Landsat, was “conceived in 1966 largely as a direct result of the demonstrated utility of Mercury and Gemini orbital photography to Earth resource studies.”\n\nFor more than five decades, Landsat and other Earth-observing satellites have provided invaluable data used around the world to monitor crops, wildfires, flooding, vegetation health, land use, and countless other changes to our planet.\n\nExplore More\n\n3 min read\n\nThrough NASA’s Lens: Capturing Space Shuttle Endeavour’s Move to LA\n\nArticle\n\n3 days ago\n\n3 min read\n\nScotland’s Flow Country\n\nBlanket bogs in the Scottish Highlands store vast amounts of carbon.\n\nArticle\n\n3 days ago\n\n4 min read\n\nWater Surges Into Navajo Reservoir\n\nRounds of heavy rain in the U.S. Southwest flooded rivers and rapidly raised New Mexico’s…\n\nArticle\n\n4 days ago",
       "thumbnail": "https://www.nasa.gov/wp-content/uploads/2026/11/s66-63535-f.png?w=2006",
       "source": "NASA Breaking News",
       "publishedAt": "2026-11-13T16:05:54.000Z",
@@ -3195,6 +3273,20 @@
         "cybersecurity"
       ],
       "author": "Amanda Silberling"
+    },
+    {
+      "id": "1fc051543015",
+      "title": "Defencetech UFORCE raises $700M, EIC Scaling Club companies raise €4B, and healthtech leads investment in October",
+      "link": "https://tech.eu/2026/11/13/defencetech-uforce-raises-700m-eic-scaling-club-companies-raise-4b-and-healthtech-leads-investment-in-october/",
+      "description": "This week, we tracked more than 60 tech funding deals worth over €2.3 billion and over 10 exits, M&A transactions, rumours, and related news stories across Europe.This week we also launched our mo...",
+      "content": "This week, we tracked more than 60 tech funding deals worth over €2.3 billion and over 10 exits, M&A transactions, rumours, and related news stories across Europe.\n\nThis week we also launched our monthly report for October with the biggest fundraises, standout deals, and evolving tech trends.\n\nWant to stay in the know? If email is more your thing, you can always subscribe to our newsletter and receive a more robust version of this round-up delivered to your inbox.\n\n❗ Want to explore the data in more detail? The free, open-access Tech.eu Funding Explorer offers deeper insights into funding rounds, investor activity, company profiles and market trends.\n\nEither way, let's get you up to speed.\n\n💸 Notable and big funding rounds\n\n🇬🇧 Defencetech UFORCE raises $700M Series A at $6B valuation\n\n🇩🇪 SoftBank leads $500M funding round in Agile Robots\n\n🇳🇱 Onodrim Industries hits $1.3B valuation with $300M Series A to strengthen European defence\n\nEIC Scaling Club companies raise €4B, outpacing European deeptech peers\n\n🫱🏽‍🫲🏻 Noteworthy acquisitions and mergers\n\n🇺🇦 Elomia Health acquires Earkick to expand AI mental wellbeing platform\n\n🇨🇭 WeRoad acquires Swiss TravelTribe as it targets €70M in M&A-driven growth\n\n🇫🇮 Peter Sarlin’s PostScriptum acquires majority stake in Brillian to accelerate global growth\n\n🚀 Interesting moves from investors\n\n💸 LEA Ventures goes independent to turn Europe's industrial strength into startup success\n\n💰 Mistral and n8n backer Redalpine closes $250M fund\n\n💵  Too much research, too few startups: Noctua raises €15M to close Austria's deeptech gap\n\n🗞️ In other (important) news\n\n🇪🇺 European tech startups raise €6B in October as healthtech leads investment\n\n🇺🇸 European scaleups score 86/100 for commercial strength but just 17/100 for US readiness\n\n🇪🇺 European Commission unveils five measures to boost angel investment across Europe\n\n🇪🇺 EIC Scaling Club companies raise €4B, outpacing European deeptech peers\n\n📡 Recommended reads and listens\n\n💰 “We need to be in San Francisco to win in Europe,” says Spotify and Lovable backer\n\n🤖 The future of frontend starts with the design system\n\n🇪🇸 Inside Biscay's startup ecosystem: Industrial strengths, public investment, and deeptech ambition\n\n🔭 Spacetech: Europe’s 10 most-funded companies in H1 2026\n\n🤖 Bull's €80M factory expansion puts European supercomputing and startups in the spotlight\n\n🔭 European tech startups to watch \n\n🇷🇴 Edtech company Kinderpedia raises €2.7M to accelerate international expansion\n\n🇩🇪 Opdo raises $2.3M to automate optical engineering with AI\n\n🇬🇧 Former British Army intelligence operators’ Crowd Threat raises £1M to expand global threat intelligence\n\n🇺🇦 From sleeping on a Kyiv factory floor to €1M funding, Valkyrie Dynamics takes on drone warfare\n\n🇨🇭 Vale Biolabs receives €164K from Venture Kick to advance brain disease research",
+      "thumbnail": "https://cdn.tech.eu/uploads/2025/01/this-week-in-171.png",
+      "source": "Tech.eu",
+      "publishedAt": "2026-11-13T15:31:44.000Z",
+      "categories": [
+        "startups"
+      ],
+      "author": "Cate Lawrence"
     },
     {
       "id": "9e86f995b80f",
@@ -3272,22 +3364,6 @@
         "business"
       ],
       "author": "Robert Hof"
-    },
-    {
-      "id": "a351355edf69",
-      "title": "Uber confirms hackers stole thousands of drivers’ license information in data breach",
-      "link": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-      "description": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
-      "content": "The ridesharing giant said drivers' license information stored by AI cloud company Fireworks AI was stolen during a security incident.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2024/07/GettyImages-2043993878-e1722276196662.jpg?resize=1200,676",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-13T14:57:55.000Z",
-      "categories": [
-        "ai",
-        "cybersecurity",
-        "cloud"
-      ],
-      "author": "Zack Whittaker"
     },
     {
       "id": "15a4d9fd6823",
@@ -3411,6 +3487,21 @@
       "author": "Thomas Macaulay"
     },
     {
+      "id": "7cab6e04ab49",
+      "title": "European Commission unveils five measures to boost angel investment across Europe",
+      "link": "https://tech.eu/2026/11/13/european-commission-unveils-five-measures-to-boost-angel-investment-across-europe/",
+      "description": "This week, the European Commission announced five new actions to support business angels under its EU Startup and Scaleup Strategy. The measures aim to improve access to early-stage investment opportu...",
+      "content": "This week, the European Commission announced five new actions to support business angels under its EU Startup and Scaleup Strategy. The measures aim to improve access to early-stage investment opportunities, strengthen angel investor networks and make it easier to invest across European borders.\n\nThe Commission's five actions\n\nEU Innovation Platform: A single entry point connecting innovators and investors, giving business angels and angel network managers access to investment-ready, EU-backed projects.\n\nCrowdfunding: A workshop bringing together angel investors and crowdfunding communities, potentially followed by support for angel-led fundraising and cross-border investment.\n\nCross-border co-investment: Mapping existing angel ecosystems and national co-investment schemes with InvestEU Advisory to identify gaps and opportunities for further support.\n\nEuropean Angel Accreditation: A common framework for verifying angel investors, which Member States could use to extend tax incentives and co-investment opportunities across borders.\n\nEuropean Angel Investor Network: An extension of the European Innovation Council (EIC) Trusted Investor Network to business angels, providing access to early-stage investment opportunities from the EIC pipeline.\n\nEBAN calls for a European co-investment scheme\n\nThe European Business Angels Network (EBAN), which represents business angels, seed funds and other early-stage investors, has welcomed the proposals while calling for more ambitious measures to address fragmentation across Europe's investment ecosystem.\n\nFounded in 1999 with the support of the European Commission, EBAN represents more than 130 member organisations and works to facilitate cross-border investment and influence European policy on early-stage financing.\n\nThe organisation supports the Commission's broader efforts, including the proposed EU Inc, but argues that Europe needs stronger connections between research commercialisation, angel investment, venture capital and growth financing.\n\nCentral to its recommendations is a streamlined European co-investment scheme that would reduce risk for angel investors, mobilise additional capital and support startups with strong scale-up potential, regardless of where they are based.\n\nEBAN also supports expanding national co-investment schemes to countries where they do not yet exist, alongside a common accreditation framework that would allow angels to be verified once and recognised across borders. It argues that these measures should build on existing national and regional investment networks rather than create parallel structures, with clear implementation timelines and measurable outcomes for founders and investors.\n\nAccording to Jesper Jarlbaek, President of EBAN:\n\n“We believe the Commission is moving in a very positive direction. EBAN is keen to help turn this ambition into practical results. We can take a leading role in connecting the angel-investment community to this wider effort.”",
+      "thumbnail": "https://cdn.tech.eu/uploads/2026/11/untitled-design-70-654.png",
+      "source": "Tech.eu",
+      "publishedAt": "2026-11-13T13:07:02.000Z",
+      "categories": [
+        "startups",
+        "business"
+      ],
+      "author": "Cate Lawrence"
+    },
+    {
       "id": "44c5d0cd2c6d",
       "title": "Animaj Brings ‘Ozzy Fox’ Series to Disney Plus as It Charts a Path for AI in Animation",
       "link": "https://www.cnet.com/tech/services-and-software/animaj-ozzy-fox-series-disney-plus-ai-agentic-animation/",
@@ -3424,92 +3515,6 @@
         "tech"
       ],
       "author": "Corinne Reichert"
-    },
-    {
-      "id": "673e1144cf72",
-      "title": "Scientists discover a hidden danger of viral infections that vaccines may prevent",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm",
-      "description": "A new study reveals that viral infections may leave behind hidden damage to the immune system long after symptoms disappear. Researchers found that mice recovering from an acute infection experienced lasting changes to their spleens and weakened immune responses, potentially leaving them more vulner",
-      "content": "A new study reveals that viral infections may leave behind hidden damage to the immune system long after symptoms disappear. Researchers found that mice recovering from an acute infection experienced lasting changes to their spleens and weakened immune responses, potentially leaving them more vulnerable to future threats. Surprisingly, prior vaccination completely prevented these harmful changes in the mouse model.",
-      "thumbnail": "https://www.sciencedaily.com/images/1920/future-virus-vaccine-technology.webp",
-      "source": "Science Daily",
-      "publishedAt": "2026-11-13T12:55:11.000Z",
-      "categories": [
-        "science"
-      ],
-      "author": null
-    },
-    {
-      "id": "f55fdb9ae634",
-      "title": "Palantir adds three UK police forces to its beat with £10.1M deal",
-      "link": "https://www.theregister.com/public-sector/2026/11/13/palantir-adds-three-uk-police-forces-to-its-beat-with-101m-deal/5309699",
-      "description": "Five-year contract follows London setback as former Met chief Cressida Dick emerges as a paid adviser",
-      "content": "Three UK police forces led by Cambridgeshire Constabulary have awarded Palantir a £10.1 million contract after London Mayor Sadiq Khan blocked a separate deal with the Metropolitan Police.\n\nThe five-year agreement covers Bedfordshire Police, Cambridgeshire Constabulary, and Hertfordshire Constabulary, despite warnings from campaigners and politicians about dependence on the supplier.\n\nA contract award notice says the east of England police forces expect the Palantir platform to provide \"an enterprise-wide data integration and analytics capability, enabling the secure ingestion, linking, and analysis of data from multiple systems and sources across the policing environment.\" The contract runs until October 2031, with the estimated value covering all three forces.\n\nNews of the award coincided with revelations that former Metropolitan Police commissioner Dame Cressida Dick has worked as a paid adviser to Palantir since September 2025.\n\nA Palantir spokesperson told the Bureau of Investigative Journalism: \"Dame Cressida is advising us on how our software could help improve the delivery of services in the public sector, drawing on more than 40 years of public service in a variety of roles.\"\n\nDick said her role was limited to advising on how such products could assist public services. She said she had never lobbied or advocated for Palantir, or introduced the company to her contacts.\n\nDick led the Metropolitan Police, the UK's largest force, between 2017 and 2022. She left after Khan said he had lost confidence in her. She later said she was \" intimidated \" into leaving.\n\nSeparately, Khan stepped in to block the Met from awarding a £50 million contract to Palantir. His office cited serious concerns about the procurement process. Palantir later sued the Met, but the case was settled in October.\n\nThe new police contract award follows a report from MPs warning of vendor lock-in to US suppliers, including Palantir. It said: \"Our view that Palantir's increasing presence across the public sector represents an unacceptable point of weakness is not ideologically motivated or driven by concerns about the quality of their products.\n\n\"The government should retain the ability to pick and choose individual suppliers and safeguard against the risk of vendor lock-in and debilitating dependencies, particularly in areas of critical national importance such as healthcare and national security infrastructure.\" ®",
-      "thumbnail": "https://image.theregister.com/?imageId=5309719&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-13T12:33:45.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Lindsay Clark"
-    },
-    {
-      "id": "293c69c9ee5b",
-      "title": "Microsoft says November security updates cause printing issues",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-november-security-updates-cause-printing-issues/",
-      "description": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
-      "content": "Microsoft warned customers earlier this week that the November 2026 security updates may break printing for documents with complex formatting. [...]",
-      "thumbnail": "https://www.bleepstatic.com/content/hl-images/2026/10/28/Microsoft.jpg",
-      "source": "BleepingComputer",
-      "publishedAt": "2026-11-13T12:27:40.000Z",
-      "categories": [
-        "cybersecurity"
-      ],
-      "author": "Sergiu Gatlan"
-    },
-    {
-      "id": "b11f78109a56",
-      "title": "How a sex scandal at Nvidia is putting pressure on the White House",
-      "link": "https://www.bbc.co.uk/news/articles/c67429m3vem3o?at_medium=RSS&at_campaign=rss",
-      "description": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
-      "content": "Jensen Huang's personal life may have triggered the crisis, but the questions now reach into the White House itself.",
-      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/2ab0/live/068591d0-dee5-11f1-9bb0-8de7754c4db5.jpg",
-      "source": "BBC Technology",
-      "publishedAt": "2026-11-13T12:22:30.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": null
-    },
-    {
-      "id": "28f98ae760de",
-      "title": "Stopping statins after 70 may be safer than expected, but there's a catch",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025534.htm",
-      "description": "A major study of nearly 1,900 older adults suggests that stopping statins after age 70 may be relatively safe in the short term for people who have never experienced a heart attack or stroke. However, a higher rate of serious cardiovascular events or death during longer follow-up raises questions ab",
-      "content": "A major study of nearly 1,900 older adults suggests that stopping statins after age 70 may be relatively safe in the short term for people who have never experienced a heart attack or stroke. However, a higher rate of serious cardiovascular events or death during longer follow-up raises questions about the risks of discontinuing these widely prescribed medications.",
-      "thumbnail": "https://www.sciencedaily.com/images/1920/statin-capsule-close.webp",
-      "source": "Science Daily",
-      "publishedAt": "2026-11-13T12:14:39.000Z",
-      "categories": [
-        "startups",
-        "science"
-      ],
-      "author": null
-    },
-    {
-      "id": "0791a2115538",
-      "title": "Protein Startups Are Selling Lots Of Snacks And Drinks. Our Sample Tasting Found Most Neither Great Nor Horrible",
-      "link": "https://news.crunchbase.com/agtech-foodtech/protein-startup-snacks-drinks-sample-taste/",
-      "description": "As we chronicled earlier this week, both startups and established food brands are making it simpler than ever to up protein intake. From sodas to snack bars to ice cream, it’s now possible to get a fix of this coveted macronutrient with foods and drinks more commonly associated with sugar, starch an",
-      "content": "In a perfect world, we would all eat meals and snacks that are convenient, taste great and provide optimal nutrition.\n\nIn reality, however, there are tradeoffs. We crave ice cream, chips and candy bars, which make carbs and fat easy to over-consume. Meeting protein goals, meanwhile, can require conscientious effort, particularly for those, like your author, who aren’t keen on eating lots of meat.\n\nFortunately, as we chronicled earlier this week, both startups and established food brands are making it simpler than ever to up protein intake. From sodas to snack bars to ice cream, it’s now possible to get a fix of this coveted macronutrient with foods and drinks more commonly associated with sugar, starch and fat.\n\nThe looming question is: Do they taste good? To find out, we hit up a local Target for a selection of protein foods sold by venture-backed startups. I and a 10-year-old then subjected them to a taste test.\n\nThe verdict? Most of this stuff is indeed edible and drinkable, albeit almost never nearly as tasty as the more protein-deficient alternatives, with just one exception.\n\nOur findings below:\n\nNo. 1: David Vanilla Bean Frozen Dessert: Anyone who buys or consumes this particular ice cream alternative will be doing so for the nutritional content, not the taste. A single pint packs in a whopping 30 grams of protein and has just 210 calories. The texture is also on point, creamy and easy to spoon, with a distinct vanilla flavor.\n\nThat said, you can’t hide the fact that this is not a product made with your typical ice cream ingredients. Those who don’t like artificial sweeteners or the flavor and texture of whey protein will want to pass. For myself and my co-taster, however, it was a reasonably appealing eating experience. Not as good as traditional ice cream, but not bad for a high-protein food.\n\nMade by: Medici Brands ( David parent company).\n\nNo. 2 SkyPop Protein Soda: The nutritional stats for SkyPop Protein Soda are also remarkable. A 12-ounce can has just 45 calories, with 10 grams of protein and a single gram of carbohydrates. It’s also properly fizzy, and makes a satisfying pop when you open the can.\n\nBut what about flavor? Our local store only had the Ice Pop flavor in stock and it was, in both tasters’ view, not horrible but not something we’d plan to buy regularly. I could see consuming it when on a clear fluids diet, as is the case before some medical procedures, as it’d be one of the few available sources of protein.\n\nMade by: SkyPop (formerly Don’t Quit)\n\nNo. 3: Khloud Protein Popcorn: Unlike many of our other featured foods, Khloud Protein Popcorn isn’t a super protein-rich offering. A serving contains 7 grams of protein and 160 calories, most of which come from carbs and fat. Still, its protein count is higher than other packaged popcorn, which typically has maybe 2 protein grams in a comparable serving.\n\nOverall, the tasters’ conclusion, from our trial of White Cheddar Khloud, was that this is a decent snack food. The flavor of milk protein and whey protein concentrate was palpable, but not overwhelming. It’s not exactly a snack food to savor, but for something to casually munch at one’s desk or while watching a show, it served its purpose.\n\nMade by: Khloud\n\nNo. 4 Mosh: In the third season of “The White Lotus”, Mosh co-founder Patrick Schwarzenegger plays a fitness and finance bro who makes a daily high-protein shake that other family members find revolting. Perhaps this was inspired by Mosh, the brain-supporting protein bar startup he launched with his mother, Maria Shriver.\n\nThe Mosh bar, which we purchased in the peanut butter cup flavor, crams 20 grams of protein, 6 grams of fiber, plus brain-supporting ingredients like creatine and lion’s mane, into a compact, shelf-stable bar. It’s an impressive feat. Yet while our brains’ may have appreciated the nutrition and supplement boost the Mosh bar provided, our taste buds decidedly did not.\n\nI’d put Mosh in the functional food category. It’s something that you might eat if you wanted that particular nutrient mix. But it’s not something to consume for pleasure.\n\nMade by: Mosh\n\nNo. 5 Cadootz Crackers: We tried two varieties of Cadootz Crackers — cheddar and sea salt — and walked away neither enthused nor repulsed.\n\nFor people interested in a gluten- and seed oil-free small snack cracker with about 5 grams of protein per serving, Cadootz rises to the occasion. It’s got a nice crunch and decent flavor.\n\nAs someone who’s not particularly seeking to avoid gluten and seed oils or to get a modest protein bump from my crackers, I’ll probably pass on follow-on purchases. But for its target audience, Cadootz should serve well.\n\nMade by: Cadootz!\n\nNo. 6 Frozen One: For those who thought the David frozen dessert was a marvel of protein engineering, the folks at Frozen One would like a word. Their protein ice cream has a whopping 40 grams of protein in each pint.\n\nYes, but how does it taste? Not that bad, according to our two-person tasting team. We tried both the chocolate and apple pie varieties, preferring the former. Like the David offering, Frozen One tastes like a product made with milk protein concentrate and sugar substitutes. You won’t mistake it for Ben and Jerry’s. But if the goal is to consume a steak-like quantity of protein in the form factor of a pint of ice cream, it does its job.\n\nMade by: Frozen One\n\nNo. 7 Brami Protein Pasta: We saved the best for last. That, unexpectedly, was Brami Protein Pasta, a noodle made from semolina and lupini beans that boasts about 70% more protein than standard pasta and more than double the fiber.\n\nWith about 12 grams of protein for a 200 calorie serving, Brami isn’t a dense protein source. But, with the right topping, it’s enough to transform a typically starchy noodle meal into something reasonably protein rich.\n\nMost notably, however, Brami tastes quite good, with no discernable weird aftertaste or texture issues. I made both standard and Brami noodles to taste the difference. For seconds, I went with the Brami.\n\nMade by: Brami\n\nRelated Crunchbase query:\n\nProtein Snacks And Packaged Foods Startups\n\nRelated reading:\n\nVCs Are Still Chasing Protein, Even As Fake Meat Falls Out Of Favor\n\nIllustration: Dom Guzman",
-      "thumbnail": "https://news.crunchbase.com/wp-content/uploads/Rubiks_Sushi.jpg",
-      "source": "Crunchbase News",
-      "publishedAt": "2026-11-13T12:00:55.000Z",
-      "categories": [
-        "startups"
-      ],
-      "author": "Joanna Glasner"
     }
   ],
   "github": [
@@ -3517,55 +3522,55 @@
       "name": "backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 11067,
-      "starsToday": 412,
+      "stars": 11345,
+      "starsToday": 408,
       "url": "https://github.com/backnotprop/plannotator"
     },
     {
       "name": "GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 5933,
-      "starsToday": 1225,
+      "stars": 6286,
+      "starsToday": 1231,
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
     },
     {
       "name": "tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "stars": 4754,
-      "starsToday": 556,
+      "stars": 4986,
+      "starsToday": 553,
       "url": "https://github.com/tradermonty/claude-trading-skills"
     },
     {
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "stars": 56246,
-      "starsToday": 673,
+      "stars": 56457,
+      "starsToday": 664,
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
     },
     {
       "name": "alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 51379,
-      "starsToday": 897,
+      "stars": 51566,
+      "starsToday": 893,
       "url": "https://github.com/alibaba/open-code-review"
     },
     {
       "name": "QwenLM/qwen-code",
       "description": "An open-source AI coding agent that lives in your terminal.",
       "language": "TypeScript",
-      "stars": 30300,
-      "starsToday": 116,
+      "stars": 30417,
+      "starsToday": 64,
       "url": "https://github.com/QwenLM/qwen-code"
     },
     {
       "name": "dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
-      "stars": 24440,
+      "stars": 25084,
       "starsToday": 495,
       "url": "https://github.com/dream-num/univer"
     },
@@ -3573,7 +3578,7 @@
       "name": "ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
-      "stars": 17330,
+      "stars": 17456,
       "starsToday": 9,
       "url": "https://github.com/ag-ui-protocol/ag-ui"
     },
@@ -3581,15 +3586,15 @@
       "name": "ashhart/TensorFold",
       "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
       "language": "Zig",
-      "stars": 2148,
-      "starsToday": 53,
+      "stars": 2200,
+      "starsToday": 37,
       "url": "https://github.com/ashhart/TensorFold"
     },
     {
       "name": "JuliusBrussee/caveman",
       "description": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that cuts 65% of tokens by talking like a caveman.",
       "language": "Go",
-      "stars": 120021,
+      "stars": 120174,
       "starsToday": 227,
       "url": "https://github.com/JuliusBrussee/caveman"
     },
@@ -3597,15 +3602,15 @@
       "name": "louislam/uptime-kuma",
       "description": "A fancy self-hosted monitoring tool",
       "language": "JavaScript",
-      "stars": 94210,
-      "starsToday": 432,
+      "stars": 94318,
+      "starsToday": 430,
       "url": "https://github.com/louislam/uptime-kuma"
     },
     {
       "name": "we-promise/sure",
       "description": "The personal finance app for everyone (by everyone)",
       "language": "Ruby",
-      "stars": 15258,
+      "stars": 15421,
       "starsToday": 659,
       "url": "https://github.com/we-promise/sure"
     }
