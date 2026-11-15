@@ -365,7 +365,7 @@ function initUpdateBanner() {
     if (status) status.textContent = '';
 
     try {
-      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261110-11');
+      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261110-12');
       const result = await enableUpdateAlerts();
 
       if (result.subscribed) {
@@ -543,7 +543,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261110-11'),
+    import('./firebase-config.js?v=20261110-12'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
@@ -652,6 +652,8 @@ function estimateSavedBytes(record) {
   }
 }
 
+// Firestore's JS SDK cannot read queries inside a transaction,
+// so dedupe and size checks use a normal read before the write.
 export async function addSavedArticle(ctx, article) {
   if (!ctx?.user) throw new Error('Sign in to save stories');
   const record = articleToSave(article);

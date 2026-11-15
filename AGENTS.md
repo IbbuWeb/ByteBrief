@@ -72,7 +72,7 @@ These are product requirements, not suggestions:
 `js/firebase-config.js` initializes Auth and Firestore. The web config is public; security lives in `firestore.rules`.
 
 - `users/{uid}`: `name`, `email`, `photoURL`, `interests` (array), `createdAt` (ISO string).
-- `savedArticles/{id}`: `userId`, `title`, `link`, `image`, `source`, `category`, `savedAt`.
+- `savedArticles/{id}`: `userId`, `title`, `link`, `description`, `content`, `image`, `source`, `category`, `views`, `video`, `videoId`, `publishedAt`, `publishedLabel`, `savedAt`, `sizeBytes`.
 
 Saving flow:
 
