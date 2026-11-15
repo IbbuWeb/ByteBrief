@@ -11,7 +11,7 @@
   renderRepoCard,
   renderSourceCard,
   safeUrl
-} from './shared.js?v=20261110-10';
+} from './shared.js?v=20261110-11';
 
 const SECTIONS = [
   { key: 'trending', label: 'Trending' },

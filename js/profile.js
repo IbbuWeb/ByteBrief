@@ -9,7 +9,7 @@
   invalidateUserProfile,
   safeUrl,
   showToast
-} from './shared.js?v=20261110-10';
+} from './shared.js?v=20261110-11';
 
 const INTEREST_OPTIONS = [
   ['ai', 'AI'],

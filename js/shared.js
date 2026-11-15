@@ -365,7 +365,7 @@ function initUpdateBanner() {
     if (status) status.textContent = '';
 
     try {
-      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261110-10');
+      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261110-11');
       const result = await enableUpdateAlerts();
 
       if (result.subscribed) {
@@ -543,7 +543,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261110-10'),
+    import('./firebase-config.js?v=20261110-11'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
@@ -662,33 +662,30 @@ export async function addSavedArticle(ctx, article) {
     savedCollection,
     ctx.dbApi.where('userId', '==', uid)
   );
-  const newRef = ctx.dbApi.doc(savedCollection);
+  const snapshot = await ctx.dbApi.getDocs(userQuery);
 
-  return ctx.dbApi.runTransaction(ctx.db, async transaction => {
-    const snapshot = await transaction.get(userQuery);
-    const exists = snapshot.docs.some(
-      doc => safeUrl(doc.data().link) === record.link
-    );
-    if (exists) return false;
+  const exists = snapshot.docs.some(
+    doc => safeUrl(doc.data().link) === record.link
+  );
+  if (exists) return false;
 
-    const usedBytes = snapshot.docs.reduce((sum, doc) => {
-      const data = doc.data();
-      const size =
-        typeof data.sizeBytes === 'number' ? data.sizeBytes : estimateSavedBytes(data);
-      return sum + size;
-    }, 0);
+  const usedBytes = snapshot.docs.reduce((sum, doc) => {
+    const data = doc.data();
+    const size =
+      typeof data.sizeBytes === 'number' ? data.sizeBytes : estimateSavedBytes(data);
+    return sum + size;
+  }, 0);
 
-    if (usedBytes + sizeBytes > SAVED_STORAGE_CAP_BYTES) {
-      throw new Error('You can save up to 100 MB of stories.');
-    }
+  if (usedBytes + sizeBytes > SAVED_STORAGE_CAP_BYTES) {
+    throw new Error('You can save up to 100 MB of stories.');
+  }
 
-    transaction.set(newRef, {
-      ...record,
-      userId: uid,
-      sizeBytes
-    });
-    return true;
+  await ctx.dbApi.addDoc(savedCollection, {
+    ...record,
+    userId: uid,
+    sizeBytes
   });
+  return true;
 }
 
 export async function removeSavedArticle(ctx, article) {
@@ -702,19 +699,14 @@ export async function removeSavedArticle(ctx, article) {
     ctx.dbApi.where('userId', '==', ctx.user.uid)
   );
 
-  let removed = false;
-  await ctx.dbApi.runTransaction(ctx.db, async transaction => {
-    const snapshot = await transaction.get(userQuery);
-    const matches = snapshot.docs.filter(
-      doc => safeUrl(doc.data().link) === link
-    );
-    if (matches.length === 0) return;
+  const snapshot = await ctx.dbApi.getDocs(userQuery);
+  const matches = snapshot.docs.filter(
+    doc => safeUrl(doc.data().link) === link
+  );
+  if (matches.length === 0) return false;
 
-    matches.forEach(doc => transaction.delete(doc.ref));
-    removed = true;
-  });
-
-  return removed;
+  await Promise.all(matches.map(doc => ctx.dbApi.deleteDoc(doc.ref)));
+  return true;
 }
 
 export async function toggleSaved(ctx, article, savedSet) {

@@ -13,7 +13,7 @@
   shareArticle,
   showToast,
   textParagraphs
-} from './shared.js?v=20261110-10';
+} from './shared.js?v=20261110-11';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];
