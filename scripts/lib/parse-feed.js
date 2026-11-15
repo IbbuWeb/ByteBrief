@@ -531,6 +531,87 @@ function parseYouTubeFeed(xml, { limit = 50 } = {}) {
   return videos;
 }
 
+// YouTube's feed endpoint 404s for hours at a time, so fall back to the channel's
+// own videos tab. It carries YouTube's displayed age ("2d ago"), not an exact date.
+function parseYouTubeChannelPage(html, { limit = 6 } = {}) {
+  const videos = [];
+  const text = String(html || '');
+  const marker = '"lockupViewModel":';
+  const seen = new Set();
+  let index = text.indexOf(marker);
+
+  while (index !== -1 && videos.length < limit) {
+    const brace = text.indexOf('{', index + marker.length);
+    const raw = brace === -1 ? null : sliceJsonObject(text, brace);
+    if (!raw) break;
+    index = text.indexOf(marker, brace + raw.length);
+
+    let entry;
+    try {
+      entry = JSON.parse(raw);
+    } catch {
+      continue;
+    }
+
+    const videoId = entry?.contentId;
+    const title = entry?.metadata?.lockupMetadataViewModel?.title?.content;
+    const rows =
+      entry?.metadata?.lockupMetadataViewModel?.metadata?.contentMetadataViewModel?.metadataRows || [];
+    const parts = rows.flatMap(row => row?.metadataParts || []);
+    const viewsPart = parts.find(part => part?.leadingIcon?.name === 'PLAY_ARROW_OUTLINED');
+    const agePart = parts.find(part => /\bago\b/i.test(part?.text?.content || ''));
+
+    if (!YOUTUBE_ID.test(videoId) || !title || !agePart || seen.has(videoId)) continue;
+    seen.add(videoId);
+
+    videos.push({
+      videoId,
+      title: stripHtml(title).slice(0, 300),
+      thumbnail: `https://i.ytimg.com/vi/${videoId}/hq720.jpg`,
+      publishedAt: null,
+      publishedLabel: agePart.text.content,
+      views: parseCompactCount(viewsPart?.text?.content)
+    });
+  }
+
+  return videos;
+}
+
+// "2.2M" is what YouTube displays; the site shows the same compact form.
+function parseCompactCount(value) {
+  const match = String(value || '').trim().match(/^([\d.,]+)\s*([KMB])?$/i);
+  if (!match) return null;
+  const base = Number(match[1].replace(/,/g, ''));
+  if (!Number.isFinite(base)) return null;
+  const scale = { K: 1e3, M: 1e6, B: 1e9 }[match[2]?.toUpperCase()] || 1;
+  return Math.round(base * scale);
+}
+
+function sliceJsonObject(text, start) {
+  let depth = 0;
+  let inString = false;
+  let escaped = false;
+
+  for (let i = start; i < text.length; i += 1) {
+    const char = text[i];
+    if (inString) {
+      if (escaped) escaped = false;
+      else if (char === '\\') escaped = true;
+      else if (char === '"') inString = false;
+      continue;
+    }
+    if (char === '"') inString = true;
+    else if (char === '{') depth += 1;
+    else if (char === '}') {
+      depth -= 1;
+      if (depth === 0) return text.slice(start, i + 1);
+    }
+  }
+
+  return null;
+}
+
+
 function dedupeArticles(articles) {
   const seenLinks = new Set();
   const seenTitles = new Set();
@@ -558,5 +639,6 @@ module.exports = {
   parseDate,
   extractOgImage,
   dedupeArticles,
-  parseYouTubeFeed
+  parseYouTubeFeed,
+  parseYouTubeChannelPage
 };

@@ -1768,7 +1768,15 @@ button.card {
   width: 100%;
   height: 100%;
   border: 0;
-  background: var(--surface-2);
+  background: transparent;
+}
+
+.modal-media .modal-poster {
+  position: absolute;
+  inset: 0;
+  background-color: #000;
+  background-position: center;
+  background-size: cover;
 }
 
 .modal-media img {
@@ -1790,6 +1798,13 @@ button.card {
   width: 30px;
   height: 30px;
   opacity: 0.7;
+}
+
+.media-placeholder span {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
 }
 
 .modal-body {
@@ -3078,7 +3093,7 @@ body.onboarding-page {
     bottom: 10px;
     z-index: 60;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, minmax(0, 1fr));
     gap: 4px;
     padding: 6px;
     border: 1px solid var(--border-strong);
@@ -5769,5 +5784,99 @@ body {
   .bottom-link[aria-current="page"] {
     color: var(--accent);
     box-shadow: inset 0 2px 0 var(--accent);
+  }
+
+  /* Touch density and overflow fixes */
+  .search-input {
+    font-size: 16px;
+  }
+
+  .search-clear {
+    right: 2px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .chip-row {
+    flex-wrap: nowrap;
+    max-width: 100%;
+    overflow-x: auto;
+    padding-bottom: 2px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .chip-row::-webkit-scrollbar,
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .chip {
+    flex: 0 0 auto;
+    min-height: 40px;
+  }
+
+  .tabs {
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .icon-btn {
+    width: 40px;
+    height: 40px;
+  }
+
+  .signin-link {
+    min-height: 40px;
+    padding: 8px 10px;
+  }
+
+  .story-actions button,
+  .story-actions a {
+    min-height: 44px;
+  }
+
+  .repo-top {
+    align-items: flex-start;
+  }
+
+  .repo-rank {
+    padding-top: 9px;
+  }
+
+  .repo-name {
+    white-space: normal;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-grid .round-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  .modal-close {
+    width: 44px;
+    height: 44px;
+  }
+
+  .app-update {
+    font-size: 12px;
+  }
+
+  .app-update__inner {
+    min-height: 52px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+  }
+
+  .app-update__action {
+    min-height: 40px;
+    padding: 6px 10px;
+    font-size: 9px;
+  }
+
+  .app-update__close {
+    width: 40px;
+    height: 40px;
   }
 }

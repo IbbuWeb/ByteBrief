@@ -1,4 +1,4 @@
-﻿const APP_VERSION = '20261110-8';
+﻿const APP_VERSION = '20261110-10';
 const UPDATE_URL = '/ByteBrief/?source=update';
 
 self.addEventListener('install', event => {
@@ -32,6 +32,14 @@ self.addEventListener('fetch', event => {
   event.respondWith((async () => {
     try {
       const fresh = await fetch(req, { cache: 'no-store' });
+      if (fresh.ok) {
+        try {
+          const cache = await caches.open(`bytebrief-${APP_VERSION}`);
+          await cache.put(req, fresh.clone());
+        } catch {
+          /* a full or unavailable cache must not block the live page */
+        }
+      }
       return fresh;
     } catch {
       const cached = await caches.match(req);
@@ -49,10 +57,10 @@ self.addEventListener('push', event => {
     payload = { body: event.data?.text?.() ?? '' };
   }
 
-  const title = payload.title || 'ByteBrief got an update';
+  const title = payload.title || 'ByteBrief has a new edition';
   const body =
     payload.body ||
-    'The new newspaper edition is live: newsprint theme, masthead, and longer reads.';
+    'A new edition is ready. Open ByteBrief to read it.';
   const url = payload.url || UPDATE_URL;
 
   event.waitUntil(

@@ -4,7 +4,6 @@
   categoryLabel,
   escapeHtml,
   formatDate,
-  formatDay,
   formatNumber,
   formatRelative,
   getSavedArticles,
@@ -19,7 +18,7 @@
   stashPendingSave,
   textParagraphs,
   toggleSaved
-} from './shared.js?v=20261110-8';
+} from './shared.js?v=20261110-10';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -398,7 +397,7 @@ function renderPage() {
   if (!state.data) return;
 
   const generated = state.data.generatedAt;
-  els.briefDate.textContent = formatDay(generated);
+  els.briefDate.textContent = 'Latest edition';
   els.updatedNote.textContent = generated
     ? `Data refreshed ${formatRelative(generated)}`
     : 'Refresh time unavailable';
@@ -422,6 +421,7 @@ function pickBriefStories() {
   const usedSources = new Set();
 
   for (const article of articles) {
+    if (article.video === true) continue;
     if (!priority.has(article.source) || usedSources.has(article.source)) continue;
     picks.push(article);
     usedSources.add(article.source);
@@ -430,6 +430,7 @@ function pickBriefStories() {
 
   if (picks.length < 3) {
     for (const article of articles) {
+      if (article.video === true) continue;
       if (picks.includes(article) || usedSources.has(article.source)) continue;
       picks.push(article);
       usedSources.add(article.source);
@@ -471,13 +472,13 @@ function renderBrief() {
 function pickFeatured(briefStories) {
   const priority = new Set(PRIORITY_SOURCES);
   const withImages = state.data.articles.filter(
-    article => safeUrl(article.thumbnail) && !briefStories.includes(article)
+    article => article.video !== true && safeUrl(article.thumbnail) && !briefStories.includes(article)
   );
 
   return (
     withImages.find(article => priority.has(article.source)) ||
     withImages[0] ||
-    state.data.articles.find(article => !briefStories.includes(article)) ||
+    state.data.articles.find(article => article.video !== true && !briefStories.includes(article)) ||
     state.data.articles[0]
   );
 }
@@ -948,23 +949,33 @@ function openModal(article) {
 
   // YouTube iframe for video articles
   if (isVideo) {
-    const videoId = article.videoId || 'iw9SZgyahqg';
-    els.modalMedia.innerHTML = `<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
+    const videoId = /^[A-Za-z0-9_-]{11}$/.test(String(article.videoId || ''))
+      ? String(article.videoId)
+      : '';
+    const poster = safeUrl(article.thumbnail);
+    const posterMarkup = poster
+      ? `<div class="modal-poster" style="background-image:url('${escapeHtml(poster)}')"></div>`
+      : '';
+    els.modalMedia.innerHTML = videoId
+      ? `${posterMarkup}<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`
+      : `<div class="media-placeholder">${ICONS.play}<span>Video unavailable</span></div>`;
     els.modalCategory.textContent = categoryLabel(articleCategories(article)[0]);
     els.modalSource.textContent = article.source || 'Unknown';
     els.modalTitle.textContent = article.title || 'Video';
     els.modalMeta.textContent = [
-      article.publishedAt ? formatDate(article.publishedAt, { year: true }) : 'Date unavailable',
+      article.publishedAt
+        ? formatDate(article.publishedAt, { year: true })
+        : article.publishedLabel || 'Date unavailable',
       Number(article.views) > 0 ? `${formatNumber(article.views)} views` : null
     ].filter(Boolean).join(' · ');
     els.modalDescription.textContent = article.description || '';
     els.modalDescription.classList.add('is-hidden');
     els.modalArticle.innerHTML = '';
     els.modalArticle.classList.add('is-hidden');
-    els.modalRead.textContent = 'Watch in app';
-    els.modalRead.href = '#';
-    els.modalRead.target = '';
-    els.modalRead.rel = '';
+    els.modalRead.textContent = 'Open on YouTube';
+    els.modalRead.href = link;
+    els.modalRead.target = '_blank';
+    els.modalRead.rel = 'noopener noreferrer';
   } else {
     const image = safeUrl(article.thumbnail);
     els.modalMedia.innerHTML = image

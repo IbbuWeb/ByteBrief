@@ -11,7 +11,8 @@ const {
   parseDate,
   extractOgImage,
   dedupeArticles,
-  parseYouTubeFeed
+  parseYouTubeFeed,
+  parseYouTubeChannelPage
 } = require('./parse-feed');
 
 test('decodeEntities handles CDATA, named and numeric entities', () => {
@@ -258,4 +259,60 @@ test('parseYouTubeFeed reads exact dates, view counts and skips bad entries', ()
   ]);
   assert.equal(parseYouTubeFeed(xml, { limit: 1 }).length, 1);
   assert.deepEqual(parseYouTubeFeed('<feed></feed>'), []);
+});
+
+test('parseYouTubeChannelPage reads the videos tab when the feed is down', () => {
+  const lockup = (id, title, viewText, ageText) =>
+    JSON.stringify({
+      lockupViewModel: {
+        contentImage: {},
+        metadata: {
+          lockupMetadataViewModel: {
+            title: { content: title },
+            metadata: {
+              contentMetadataViewModel: {
+                metadataRows: [
+                  {
+                    metadataParts: [
+                      { text: { content: viewText }, leadingIcon: { name: 'PLAY_ARROW_OUTLINED' } },
+                      { text: { content: ageText } }
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        },
+        contentId: id,
+        contentType: 'LOCKUP_CONTENT_TYPE_VIDEO'
+      }
+    });
+
+  const html = `<script>var ytInitialData = {"contents":[${[
+    lockup('abc12345678', 'Test video {with} braces', '2.2M', '2d ago'),
+    lockup('bad', 'Broken id', '12K', '3d ago'),
+    lockup('zzz12345678', 'Not uploaded', '5K', 'Scheduled'),
+    lockup('yyy12345678', 'Second video', '665K', '1y ago')
+  ].join(',')}]}</script>`;
+
+  assert.deepEqual(parseYouTubeChannelPage(html, { limit: 5 }), [
+    {
+      videoId: 'abc12345678',
+      title: 'Test video {with} braces',
+      thumbnail: 'https://i.ytimg.com/vi/abc12345678/hq720.jpg',
+      publishedAt: null,
+      publishedLabel: '2d ago',
+      views: 2200000
+    },
+    {
+      videoId: 'yyy12345678',
+      title: 'Second video',
+      thumbnail: 'https://i.ytimg.com/vi/yyy12345678/hq720.jpg',
+      publishedAt: null,
+      publishedLabel: '1y ago',
+      views: 665000
+    }
+  ]);
+  assert.equal(parseYouTubeChannelPage(html, { limit: 1 }).length, 1);
+  assert.deepEqual(parseYouTubeChannelPage('<html></html>'), []);
 });

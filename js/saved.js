@@ -13,7 +13,7 @@
   shareArticle,
   showToast,
   textParagraphs
-} from './shared.js?v=20261110-8';
+} from './shared.js?v=20261110-10';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];
@@ -208,24 +208,32 @@ function openPreview(article) {
   const link = safeUrl(article.link) || '#';
 
   if (isVideo) {
-    const videoId = article.videoId || 'iw9SZgyahqg';
-    els.media.innerHTML = `<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
+    const videoId = /^[A-Za-z0-9_-]{11}$/.test(String(article.videoId || ''))
+      ? String(article.videoId)
+      : '';
+    const poster = safeUrl(article.thumbnail || article.image);
+    const posterMarkup = poster
+      ? `<div class="modal-poster" style="background-image:url('${escapeHtml(poster)}')"></div>`
+      : '';
+    els.media.innerHTML = videoId
+      ? `${posterMarkup}<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`
+      : `<div class="media-placeholder">${ICONS.play}<span>Video unavailable</span></div>`;
     els.category.textContent = categoryLabel(article.categories?.[0] || article.category);
     els.source.textContent = article.source || 'Unknown';
     els.title.textContent = article.title || 'Video';
-    const date = article.publishedAt || article.savedAt;
+    const date = article.publishedAt;
     els.meta.textContent = [
-      date ? formatDate(date, { year: true }) : 'Date unavailable',
+      date ? formatDate(date, { year: true }) : article.publishedLabel || 'Date unavailable',
       Number(article.views) > 0 ? `${formatNumber(article.views)} views` : null
     ].filter(Boolean).join(' · ');
     els.description.textContent = article.description || '';
     els.description.classList.add('is-hidden');
     els.article.innerHTML = '';
     els.article.classList.add('is-hidden');
-    els.read.textContent = 'Watch in app';
-    els.read.href = '#';
-    els.read.target = '';
-    els.read.rel = '';
+    els.read.textContent = 'Open on YouTube';
+    els.read.href = link;
+    els.read.target = '_blank';
+    els.read.rel = 'noopener noreferrer';
   } else {
     const image = safeUrl(article.thumbnail || article.image);
     els.media.innerHTML = image
@@ -234,7 +242,7 @@ function openPreview(article) {
     els.category.textContent = categoryLabel(article.categories?.[0] || article.category);
     els.source.textContent = article.source || 'Unknown';
     els.title.textContent = article.title || 'Story';
-    const date = article.publishedAt || article.savedAt;
+    const date = article.publishedAt;
     els.meta.textContent = [
       article.author || null,
       date ? formatDate(date, { year: true }) : 'Date unavailable'

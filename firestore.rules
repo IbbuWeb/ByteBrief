@@ -37,19 +37,30 @@ service cloud.firestore {
       allow read, delete: if ownsRecord();
       allow create: if signedIn()
         && request.resource.data.keys().hasOnly([
-          'userId', 'title', 'link', 'image', 'source', 'category', 'savedAt', 'sizeBytes'
+          'userId', 'title', 'link', 'description', 'content', 'image', 'source',
+          'category', 'views', 'video', 'videoId', 'publishedAt', 'publishedLabel',
+          'savedAt', 'sizeBytes'
         ])
         && request.resource.data.userId == request.auth.uid
         && request.resource.data.title is string
         && request.resource.data.title.size() <= 300
         && request.resource.data.link is string
         && request.resource.data.link.size() <= 2048
+        && request.resource.data.description is string
+        && request.resource.data.description.size() <= 2000
+        && request.resource.data.content is string
+        && request.resource.data.content.size() <= 20000
         && request.resource.data.image is string
         && request.resource.data.image.size() <= 2048
         && request.resource.data.source is string
         && request.resource.data.source.size() <= 80
         && request.resource.data.category is string
         && request.resource.data.category.size() <= 40
+        && (request.resource.data.views == null || request.resource.data.views is int)
+        && request.resource.data.video is bool
+        && (request.resource.data.videoId == null || request.resource.data.videoId is string)
+        && (request.resource.data.publishedAt == null || request.resource.data.publishedAt is string)
+        && (request.resource.data.publishedLabel == null || request.resource.data.publishedLabel is string)
         && request.resource.data.savedAt is string
         && request.resource.data.sizeBytes is int
         && request.resource.data.sizeBytes >= 0

@@ -11,7 +11,7 @@
   renderRepoCard,
   renderSourceCard,
   safeUrl
-} from './shared.js?v=20261110-8';
+} from './shared.js?v=20261110-10';
 
 const SECTIONS = [
   { key: 'trending', label: 'Trending' },
@@ -51,7 +51,8 @@ boot();
 
 function boot() {
   const hash = window.location.hash.slice(1);
-  if (SECTIONS.some(section => section.key === hash)) state.section = hash;
+  const initialHash = SECTIONS.some(section => section.key === hash) ? hash : '';
+  if (initialHash) state.section = initialHash;
 
   initShell('hub');
   bindEvents();
@@ -60,6 +61,7 @@ function boot() {
     .then(data => {
       state.data = data;
       renderPage();
+      if (initialHash) scrollToolbarIntoView();
     })
     .catch(error => {
       console.warn('Could not load the hub data:', error);
@@ -129,6 +131,13 @@ function bindEvents() {
       closeVideo();
     }
   });
+
+  window.addEventListener('hashchange', () => {
+    const hash = window.location.hash.slice(1);
+    if (!SECTIONS.some(section => section.key === hash)) return;
+    if (hash !== state.section) selectSection(hash);
+    scrollToolbarIntoView();
+  });
 }
 
 function selectSection(key) {
@@ -140,7 +149,39 @@ function selectSection(key) {
   window.history.replaceState({}, '', `#${key}`);
   renderTabs();
   renderPanel();
-  els.panel?.focus?.();
+  scrollActiveTab();
+  syncBottomNav();
+  els.panel?.focus?.({ preventScroll: true });
+}
+
+function scrollActiveTab() {
+  requestAnimationFrame(() => {
+    const active = els.tabs?.querySelector('[aria-selected="true"]');
+    if (!active) return;
+    const tabsRect = els.tabs.getBoundingClientRect();
+    const activeRect = active.getBoundingClientRect();
+    if (activeRect.left < tabsRect.left || activeRect.right > tabsRect.right) {
+      els.tabs.scrollLeft +=
+        activeRect.left - tabsRect.left - (tabsRect.width - activeRect.width) / 2;
+    }
+  });
+}
+
+function scrollToolbarIntoView() {
+  requestAnimationFrame(() => {
+    document.querySelector('.hub-toolbar')?.scrollIntoView({ block: 'start' });
+  });
+}
+
+function syncBottomNav() {
+  const onYouTube = state.section === 'youtube';
+  document.querySelectorAll('.bottom-link').forEach(link => {
+    const href = link.getAttribute('href');
+    if (href !== 'byteHub.html' && href !== 'byteHub.html#youtube') return;
+    const current = onYouTube ? href.endsWith('#youtube') : href === 'byteHub.html';
+    if (current) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
+  });
 }
 
 function clearSearch() {
@@ -157,13 +198,19 @@ function openVideo(data) {
   if (!/^[A-Za-z0-9_-]{11}$/.test(videoId)) return;
 
   lastFocused = document.activeElement;
-  els.videoModalMedia.innerHTML = `<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
+  const poster = safeUrl(data.videoThumb);
+  const posterMarkup = poster
+    ? `<div class="modal-poster" style="background-image:url('${escapeHtml(poster)}')"></div>`
+    : '';
+  els.videoModalMedia.innerHTML = `${posterMarkup}<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
   els.videoModalCategory.textContent = categoryLabel(data.videoCategory);
   els.videoModalSource.textContent = data.videoSource || 'YouTube';
   els.videoModalTitle.textContent = data.videoTitle || 'Video';
   const views = Number(data.videoViews);
   els.videoModalMeta.textContent = [
-    data.videoDate ? formatRelative(data.videoDate) : null,
+    data.videoDate
+      ? formatRelative(data.videoDate)
+      : data.videoDateLabel || null,
     views > 0 ? `${formatNumber(views)} views` : null
   ].filter(Boolean).join(' · ');
   els.videoModalLink.href = safeUrl(data.videoLink) || '#';
@@ -194,6 +241,8 @@ function renderPage() {
   renderPulse();
   renderTabs();
   renderPanel();
+  scrollActiveTab();
+  syncBottomNav();
 }
 
 function sectionCount(key) {
@@ -434,7 +483,9 @@ function renderPanel() {
             `data-video-source="${escapeHtml(video.source || 'YouTube')}"`,
             `data-video-category="${escapeHtml(videoCategory)}"`,
             `data-video-date="${escapeHtml(video.publishedAt || '')}"`,
+            `data-video-date-label="${escapeHtml(video.publishedLabel || '')}"`,
             `data-video-views="${Number.isFinite(views) && views > 0 ? views : ''}"`,
+            `data-video-thumb="${escapeHtml(safeUrl(video.thumbnail) || '')}"`,
             `data-video-link="${escapeHtml(safeUrl(video.link) || '')}"`
           ].join(' ');
           return `
@@ -448,7 +499,7 @@ function renderPanel() {
               <div class="story-kicker">
                 <span class="eyebrow">YouTube</span>
                 <span class="dot"></span>
-                <time datetime="${escapeHtml(video.publishedAt || '')}">${video.publishedAt ? formatRelative(video.publishedAt) : '—'}</time>
+                <time datetime="${escapeHtml(video.publishedAt || '')}">${escapeHtml(video.publishedAt ? formatRelative(video.publishedAt) : video.publishedLabel || '—')}</time>
                 ${Number.isFinite(views) && views > 0 ? `<span class="dot"></span><span class="story-views">${formatNumber(views)} views</span>` : ''}
               </div>
               <h3 class="story-title">${escapeHtml(video.title || 'Video')}</h3>

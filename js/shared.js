@@ -50,7 +50,8 @@ export const ICONS = {
   repo: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19V5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2Z"/><path d="M4 19a2 2 0 0 0 2 2h14"/></svg>',
   image: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8.5" cy="8.5" r="1.4"/><path d="m21 15-5-5L5 21"/></svg>',
   check: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>',
-  pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>'
+  pin: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>',
+  play: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M10 8.5 16 12l-6 3.5z" fill="currentColor" stroke="none"/></svg>'
 };
 
 const HTML_ESCAPES = {
@@ -267,7 +268,7 @@ function footerMarkup() {
     <div class="shell footer-grid">
       <div class="footer-brand">
         <a class="footer-nameplate" href="index.html">ByteBrief</a>
-        <p>One clean brief for the parts of tech that matter. Headlines from 26 publications, refreshed every three hours, with no invented numbers.</p>
+        <p>One clean brief for the parts of tech that matter. Headlines from 30+ publications, refreshed every three hours, with no invented numbers.</p>
       </div>
       <div class="footer-col">
         <h3>Explore</h3>
@@ -298,6 +299,7 @@ function bottomNavMarkup(page) {
   const items = [
     ['index.html', 'home', 'Feed', ICONS.home],
     ['byteHub.html', 'hub', 'Hub', ICONS.hub],
+    ['byteHub.html#youtube', 'youtube', 'Watch', ICONS.play],
     ['saved.html', 'saved', 'Saved', ICONS.bookmark],
     ['profile.html', 'profile', 'Profile', ICONS.user]
   ];
@@ -343,7 +345,7 @@ function initUpdateBanner() {
     <div class="shell app-update__inner">
       <span class="app-update__label">Update</span>
       <div class="app-update__copy">
-        <p><strong>ByteBrief got an update.</strong> The new newspaper edition is live: newsprint theme, masthead, and longer reads.</p>
+        <p><strong>New editions every three hours.</strong> Get one quiet alert when the next brief is ready.</p>
         <p class="app-update__status" id="updateAlertsStatus"></p>
       </div>
       <button class="app-update__action" id="updateAlertsEnable" type="button">Turn on alerts</button>
@@ -363,7 +365,7 @@ function initUpdateBanner() {
     if (status) status.textContent = '';
 
     try {
-      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261107-3');
+      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261110-10');
       const result = await enableUpdateAlerts();
 
       if (result.subscribed) {
@@ -435,7 +437,10 @@ function registerAppServiceWorker() {
   if (window.__bytebriefSwInit) return;
   window.__bytebriefSwInit = true;
 
+  // First install claims the page without a reload; only reload for real updates.
+  const hadController = Boolean(navigator.serviceWorker.controller);
   const reloadOnce = () => {
+    if (!hadController) return;
     if (window.__bytebriefSwReloading) return;
     try {
       if (sessionStorage.getItem('bytebrief_sw_reload') === '1') return;
@@ -538,7 +543,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261110-8'),
+    import('./firebase-config.js?v=20261110-10'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
@@ -631,6 +636,8 @@ function articleToSave(article) {
     views: Number(article.views) || null,
     video: article.video === true,
     videoId: article.videoId || null,
+    publishedAt: article.publishedAt || null,
+    publishedLabel: article.publishedLabel || null,
     savedAt: new Date().toISOString()
   };
 }
@@ -735,6 +742,8 @@ export function stashPendingSave(article) {
     views: article.views,
     video: article.video,
     videoId: article.videoId,
+    publishedAt: article.publishedAt,
+    publishedLabel: article.publishedLabel,
     thumbnail: article.thumbnail,
     source: article.source,
     categories: article.categories
@@ -839,7 +848,8 @@ export function renderStoryCard(article, options = {}) {
   const link = escapeHtml(safeUrl(article.link) || '#');
   const title = article.title || 'Untitled';
   const category = categoryLabel(article.categories?.[0] || article.category);
-  const published = article.publishedAt || article.savedAt;
+  const published = article.publishedAt;
+  const publishedText = published ? formatRelative(published) : article.publishedLabel || '';
   const excerpt = article.description || '';
   const image = article.thumbnail || article.image;
   const imageUrl = safeUrl(image);
@@ -867,7 +877,7 @@ export function renderStoryCard(article, options = {}) {
         <div class="story-kicker">
           <span class="eyebrow">${escapeHtml(category)}</span>
           <span class="dot"></span>
-          <time datetime="${escapeHtml(published || '')}">${published ? formatRelative(published) : '—'}</time>
+          <time datetime="${escapeHtml(published || '')}">${publishedText ? escapeHtml(publishedText) : '—'}</time>
           ${viewsLabel ? `<span class="dot"></span><span class="story-views">${escapeHtml(viewsLabel)}</span>` : ''}
         </div>
         <h3 class="story-title">${titleMarkup(article)}</h3>
@@ -884,8 +894,8 @@ export function renderStoryCard(article, options = {}) {
           <button type="button" data-action="share" data-link="${link}" aria-label="Share story">
             ${ICONS.share}<span>Share</span>
           </button>
-          <button type="button" class="story-read" data-action="open" data-link="${link}" aria-label="Read ${escapeHtml(title)}">
-            Read ${ICONS.arrow}
+          <button type="button" class="story-read" data-action="open" data-link="${link}" aria-label="${isVideo ? 'Watch' : 'Read'} ${escapeHtml(title)}">
+            ${isVideo ? 'Watch' : 'Read'} ${ICONS.arrow}
           </button>
         </div>
         ${

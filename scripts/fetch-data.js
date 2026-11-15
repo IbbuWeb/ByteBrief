@@ -10,7 +10,8 @@ const {
   decodeEntities,
   extractOgImage,
   normalizeUrl,
-  parseYouTubeFeed
+  parseYouTubeFeed,
+  parseYouTubeChannelPage
 } = require('./lib/parse-feed');
 
 const execFileAsync = promisify(execFile);
@@ -69,16 +70,16 @@ const SOURCES = [
 ];
 
 const YOUTUBE_CHANNELS = [
-  { name: 'Fireship', channelId: 'UC2Xd-TjJByJyK2w1zNwY0zQ', category: 'programming' },
-  { name: 'Marques Brownlee', channelId: 'UCG7J20LhUeLl6y_Emi7OJrA', category: 'mobile' },
-  { name: 'Linus Tech Tips', channelId: 'UCdBK94H6oZT2Q7l0-b0xmMg', category: 'hardware' },
-  { name: 'Computerphile', channelId: 'UCoxcjq-8xIDTYp3uz647V5A', category: 'programming' },
+  { name: 'Fireship', channelId: 'UCsBjURrPoezykLs9EqgamOA', category: 'programming' },
+  { name: 'Marques Brownlee', channelId: 'UCBJycsmduvYEL83R_U4JriQ', category: 'mobile' },
+  { name: 'Linus Tech Tips', channelId: 'UCXuqSBlHAE6Xw-yeJA0Tunw', category: 'hardware' },
+  { name: 'Computerphile', channelId: 'UC9-y-6csu5WGm29I7JiwpnA', category: 'programming' },
   { name: 'The Verge', channelId: 'UCddiUEpeqJcYeBxX1IVBKvQ', category: 'tech' },
   { name: 'Mrwhosetheboss', channelId: 'UCMiJRAwDNSNzuYeN2uWa0pA', category: 'mobile' },
   { name: 'Dave2D', channelId: 'UCVYamHliCI9rw1tHR1xbkfw', category: 'hardware' },
-  { name: 'TechLinked', channelId: 'UCXuqSBlHAE6Xw-yeJA0Tunw', category: 'tech' },
-  { name: 'Android Authority', channelId: 'UCKisVvy9vIminfbj0Pbw_hQ', category: 'mobile' },
-  { name: 'ColdFusion', channelId: 'UCGkpFfEMF0eMJlh9xXj2lMw', category: 'tech' }
+  { name: 'TechLinked', channelId: 'UCeeFfhMcJa1kjtfZAGskOCA', category: 'tech' },
+  { name: 'Android Authority', channelId: 'UCgyqtNWZmIxTx3b6OxTSALw', category: 'mobile' },
+  { name: 'ColdFusion', channelId: 'UC4QZ_LsYcvcq7qOsOhpAX4A', category: 'tech' }
 ];
 
 const PODCASTS = [
@@ -324,38 +325,55 @@ async function fetchYouTubeArticles(previous = {}) {
     'Accept-Language': 'en-US,en;q=0.9',
     'User-Agent': BROWSER_UA
   };
+  let viaChannelPage = 0;
 
   for (const ch of YOUTUBE_CHANNELS) {
+    let channelVideos = [];
+
     try {
       const url = `https://www.youtube.com/feeds/videos.xml?channel_id=${ch.channelId}`;
       const res = await fetchText(url, ytHeaders);
-      if (!res) continue;
-      const channelVideos = parseYouTubeFeed(res, { limit: VIDEOS_PER_CHANNEL * 3 });
-      let kept = 0;
-
-      for (const video of channelVideos) {
-        if (kept >= VIDEOS_PER_CHANNEL) break;
-        if (video.publishedAt) {
-          const publishedTime = Date.parse(video.publishedAt);
-          if (Number.isFinite(publishedTime) && publishedTime < minTime) continue;
-        }
-
-        articles.push({
-          title: video.title,
-          link: `https://www.youtube.com/watch?v=${video.videoId}`,
-          source: ch.name,
-          category: ch.category,
-          categories: [ch.category],
-          publishedAt: video.publishedAt,
-          thumbnail: video.thumbnail,
-          videoId: video.videoId,
-          views: video.views,
-          video: true
-        });
-        kept += 1;
-      }
+      if (res) channelVideos = parseYouTubeFeed(res, { limit: VIDEOS_PER_CHANNEL * 3 });
     } catch (e) {
-      console.warn(`  ! YouTube fetch for ${ch.name}: ${e.message}`);
+      console.warn(`  ! YouTube feed for ${ch.name}: ${e.message}`);
+    }
+
+    // The feed endpoint 404s for hours at a time; the channel page still answers.
+    if (channelVideos.length === 0) {
+      try {
+        const res = await fetchText(
+          `https://www.youtube.com/channel/${ch.channelId}/videos`,
+          ytHeaders
+        );
+        if (res) channelVideos = parseYouTubeChannelPage(res, { limit: VIDEOS_PER_CHANNEL });
+        if (channelVideos.length) viaChannelPage += 1;
+      } catch (e) {
+        console.warn(`  ! YouTube channel page for ${ch.name}: ${e.message}`);
+      }
+    }
+
+    let kept = 0;
+    for (const video of channelVideos) {
+      if (kept >= VIDEOS_PER_CHANNEL) break;
+      if (video.publishedAt) {
+        const publishedTime = Date.parse(video.publishedAt);
+        if (Number.isFinite(publishedTime) && publishedTime < minTime) continue;
+      }
+
+      articles.push({
+        title: video.title,
+        link: `https://www.youtube.com/watch?v=${video.videoId}`,
+        source: ch.name,
+        category: ch.category,
+        categories: [ch.category],
+        publishedAt: video.publishedAt,
+        publishedLabel: video.publishedLabel || null,
+        thumbnail: video.thumbnail,
+        videoId: video.videoId,
+        views: video.views,
+        video: true
+      });
+      kept += 1;
     }
   }
 
@@ -372,7 +390,10 @@ async function fetchYouTubeArticles(previous = {}) {
     return cached;
   }
 
-  console.log(`  YouTube: ${articles.length} videos from ${YOUTUBE_CHANNELS.length} channels`);
+  const fallbackNote = viaChannelPage ? `, ${viaChannelPage} via channel pages` : '';
+  console.log(
+    `  YouTube: ${articles.length} videos from ${YOUTUBE_CHANNELS.length} channels${fallbackNote}`
+  );
   return articles;
 }
 
