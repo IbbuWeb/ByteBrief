@@ -10,6 +10,7 @@
   getUserProfile,
   initAuth,
   initShell,
+  loadArticleContent,
   loadData,
   renderStoryCard,
   safeUrl,
@@ -18,7 +19,7 @@
   stashPendingSave,
   textParagraphs,
   toggleSaved
-} from './shared.js?v=20261110-12';
+} from './shared.js?v=20261110-13';
 
 const PAGE_SIZE = 18;
 const STORY_SPANS = [6, 3, 3, 4, 4, 4];
@@ -156,6 +157,7 @@ const els = {
 let lastFocused = null;
 let searchTimer = null;
 let loadObserver = null;
+let modalToken = 0;
 
 function linkKey(value) {
   return safeUrl(value) || '';
@@ -957,7 +959,7 @@ function openModal(article) {
       ? `<div class="modal-poster" style="background-image:url('${escapeHtml(poster)}')"></div>`
       : '';
     els.modalMedia.innerHTML = videoId
-      ? `${posterMarkup}<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`
+      ? `${posterMarkup}<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube-nocookie.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`
       : `<div class="media-placeholder">${ICONS.play}<span>Video unavailable</span></div>`;
     els.modalCategory.textContent = categoryLabel(articleCategories(article)[0]);
     els.modalSource.textContent = article.source || 'Unknown';
@@ -991,13 +993,31 @@ function openModal(article) {
       .filter(Boolean)
       .join(' · ');
     els.modalDescription.textContent = article.description || 'No summary was provided by the publisher.';
+    const descText = String(article.description || '').trim();
     const fullText = String(article.content || '').trim();
-    const hasFullText = fullText.length > String(article.description || '').trim().length;
+    const hasFullText = fullText.length > descText.length;
+    const pending = !hasFullText && Boolean(article.contentId);
     els.modalDescription.classList.toggle('is-hidden', hasFullText);
     els.modalArticle.innerHTML = hasFullText
       ? textParagraphs(fullText)
-      : '<p class="reader-note">This publisher only sends a summary in its feed. Open the original for the full article.</p>';
+      : `<p class="reader-note">${pending ? 'Loading the full article…' : 'This publisher only sends a summary in its feed. Open the original for the full article.'}</p>`;
     els.modalArticle.classList.toggle('is-hidden', false);
+
+    if (pending) {
+      const token = ++modalToken;
+      loadArticleContent(article)
+        .then(content => {
+          if (token !== modalToken || !content || content.length <= descText.length) return;
+          article.content = content;
+          els.modalDescription.classList.add('is-hidden');
+          els.modalArticle.innerHTML = textParagraphs(content);
+        })
+        .catch(() => {
+          if (token !== modalToken) return;
+          els.modalArticle.innerHTML = '<p class="reader-note">The full text could not load. Open the original to read it.</p>';
+        });
+    }
+
     els.modalRead.href = link;
     els.modalRead.textContent = 'Open original';
     els.modalRead.target = '_self';
@@ -1017,6 +1037,7 @@ function openModal(article) {
 
 function closeModal() {
   if (!els.modal) return;
+  modalToken += 1;
   if (els.modalMedia) els.modalMedia.innerHTML = '';
   els.modal.classList.remove('is-open');
   els.modal.setAttribute('aria-hidden', 'true');

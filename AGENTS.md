@@ -28,6 +28,7 @@ python -m http.server 8000
 - Static pages (`about`, `privacy`, `terms`, `404`) inject the shell with an inline module import of `initShell`.
 - Public rendering must never wait for Firebase. `initShell` renders the page and then resolves auth; if Firebase fails, reading continues.
 - There is one shared `js/data.json`; do not add per-page data files.
+- Full article text is split into `js/content/<contentId>.json` by the pipeline. `data.json` carries `contentId` only, so the feed stays small. `loadArticleContent(article)` in `shared.js` fetches it on demand and `addSavedArticle` uses the same helper before writing, so saved stories keep their full text. Never add `content` back to `data.json`.
 
 ## Data pipeline
 
@@ -38,7 +39,8 @@ python -m http.server 8000
 3. Queries Apple's iTunes lookup API for each podcast ID.
 4. Reads confirmed/TBA events from `scripts/events.json`.
 5. Sorts articles by publication date, caps at 240 (`BYTEBRIEF_MAX_ARTICLES`), deduplicates by link, and filters invalid dates/links.
-6. Writes `js/data.json` atomically.
+6. Splits each story's full text into `js/content/<contentId>.json`, keeps only `contentId` in the feed, and deletes stale content files.
+7. Writes `js/data.json` atomically.
 
 If a feed request or parse fails, keep that source's previous items and continue with the healthy feeds. Never abort the whole refresh because one publisher is down. Reddit rate-limits periodically; fallback is expected.
 

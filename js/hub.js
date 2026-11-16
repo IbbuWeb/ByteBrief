@@ -4,14 +4,21 @@
   escapeHtml,
   formatNumber,
   formatRelative,
+  getSavedArticles,
+  initAuth,
   initShell,
   loadData,
   renderEventCard,
   renderPodcastCard,
   renderRepoCard,
   renderSourceCard,
-  safeUrl
-} from './shared.js?v=20261110-12';
+  safeUrl,
+  savedLinkSet,
+  shareArticle,
+  showToast,
+  stashPendingSave,
+  toggleSaved
+} from './shared.js?v=20261110-13';
 
 const SECTIONS = [
   { key: 'trending', label: 'Trending' },
@@ -24,7 +31,9 @@ const SECTIONS = [
 const state = {
   data: null,
   section: 'trending',
-  query: ''
+  query: '',
+  ctx: null,
+  savedSet: new Set()
 };
 
 const els = {
@@ -67,6 +76,17 @@ function boot() {
       console.warn('Could not load the hub data:', error);
       renderDataError();
     });
+
+  initAuth().then(async ctx => {
+    state.ctx = ctx;
+    if (!ctx?.user) return;
+    try {
+      state.savedSet = savedLinkSet(await getSavedArticles(ctx));
+      if (state.data) renderPanel();
+    } catch (error) {
+      console.warn('Could not load the saved list:', error);
+    }
+  });
 }
 
 function bindEvents() {
@@ -104,7 +124,24 @@ function bindEvents() {
 
   els.clearSearch?.addEventListener('click', clearSearch);
 
-  els.panel?.addEventListener('click', event => {
+  els.panel?.addEventListener('click', async event => {
+    const actionEl = event.target.closest('[data-action]');
+    if (actionEl) {
+      const video = state.data?.articles.find(
+        article =>
+          article.video === true &&
+          safeUrl(article.link) === safeUrl(actionEl.dataset.link)
+      );
+      if (!video) return;
+      event.preventDefault();
+      if (actionEl.dataset.action === 'save') {
+        await handleVideoSave(video, actionEl);
+      } else if (actionEl.dataset.action === 'share') {
+        await shareArticle(video);
+      }
+      return;
+    }
+
     const trigger = event.target.closest('[data-video-id]');
     if (!trigger) return;
     event.preventDefault();
@@ -202,7 +239,7 @@ function openVideo(data) {
   const posterMarkup = poster
     ? `<div class="modal-poster" style="background-image:url('${escapeHtml(poster)}')"></div>`
     : '';
-  els.videoModalMedia.innerHTML = `${posterMarkup}<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
+  els.videoModalMedia.innerHTML = `${posterMarkup}<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube-nocookie.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`;
   els.videoModalCategory.textContent = categoryLabel(data.videoCategory);
   els.videoModalSource.textContent = data.videoSource || 'YouTube';
   els.videoModalTitle.textContent = data.videoTitle || 'Video';
@@ -229,6 +266,44 @@ function closeVideo() {
   document.body.classList.remove('no-scroll');
   lastFocused?.focus?.();
   lastFocused = null;
+}
+
+async function handleVideoSave(video, button) {
+  const ctx = state.ctx || (await initAuth());
+  if (!ctx?.user) {
+    stashPendingSave(video);
+    return;
+  }
+
+  state.ctx = ctx;
+  button.disabled = true;
+
+  try {
+    const result = await toggleSaved(ctx, video, state.savedSet);
+    const saved = result === 'saved';
+    updateVideoSaveButtons(video.link, saved);
+    showToast(
+      saved ? 'Saved to your reading list.' : 'Removed from your reading list.',
+      saved ? 'success' : 'info'
+    );
+  } catch (error) {
+    console.error('Could not update saved stories:', error);
+    showToast(error.message || 'Could not update your reading list.', 'error');
+  } finally {
+    button.disabled = false;
+  }
+}
+
+function updateVideoSaveButtons(link, saved) {
+  const key = safeUrl(link);
+  els.panel?.querySelectorAll('.js-save-btn').forEach(button => {
+    if (safeUrl(button.dataset.link) !== key) return;
+    button.classList.toggle('is-saved', saved);
+    button.setAttribute('aria-pressed', String(saved));
+    button.setAttribute('aria-label', saved ? 'Remove from saved' : 'Save story');
+    const label = button.querySelector('.js-save-label');
+    if (label) label.textContent = saved ? 'Saved' : 'Save';
+  });
 }
 
 function renderPage() {
@@ -477,6 +552,8 @@ function renderPanel() {
         ${videos.map(video => {
           const views = Number(video.views);
           const videoCategory = video.categories?.[0] || video.category || 'tech';
+          const videoLink = safeUrl(video.link) || '';
+          const saved = state.savedSet.has(videoLink);
           const dataAttrs = [
             `data-video-id="${escapeHtml(video.videoId || '')}"`,
             `data-video-title="${escapeHtml(video.title || 'Video')}"`,
@@ -504,6 +581,12 @@ function renderPanel() {
               </div>
               <h3 class="story-title">${escapeHtml(video.title || 'Video')}</h3>
               <div class="story-actions">
+                <button type="button" class="js-save-btn${saved ? ' is-saved' : ''}" data-action="save" data-link="${escapeHtml(videoLink)}" aria-pressed="${saved}" aria-label="${saved ? 'Remove from saved' : 'Save story'}">
+                  ${ICONS.bookmark}<span class="js-save-label">${saved ? 'Saved' : 'Save'}</span>
+                </button>
+                <button type="button" data-action="share" data-link="${escapeHtml(videoLink)}" aria-label="Share story">
+                  ${ICONS.share}<span>Share</span>
+                </button>
                 <button type="button" class="story-read" ${dataAttrs}>
                   ${ICONS.arrow} Play in app
                 </button>

@@ -1,5 +1,6 @@
 ﻿const fs = require('node:fs');
 const path = require('node:path');
+const { createHash } = require('node:crypto');
 const { execFile } = require('node:child_process');
 const { promisify } = require('node:util');
 
@@ -17,6 +18,7 @@ const {
 const execFileAsync = promisify(execFile);
 
 const DATA_FILE = path.join(__dirname, '..', 'js', 'data.json');
+const CONTENT_DIR = path.join(__dirname, '..', 'js', 'content');
 const EVENTS_FILE = path.join(__dirname, 'events.json');
 
 const USER_AGENT =
@@ -262,10 +264,48 @@ function cleanContent(content) {
     .slice(0, 12000);
 }
 
+// Full article text lives in js/content/<id>.json so the feed payload stays
+// light. IDs are stable per link, so a refresh only rewrites changed stories.
+function splitArticleContent(articles) {
+  fs.mkdirSync(CONTENT_DIR, { recursive: true });
+  const keep = new Set();
+
+  for (const article of articles) {
+    const content = cleanContent(article.content);
+    delete article.content;
+    delete article.contentId;
+    if (!content) continue;
+
+    const id = createHash('sha1').update(article.link).digest('hex').slice(0, 12);
+    const fileName = `${id}.json`;
+    keep.add(fileName);
+    fs.writeFileSync(path.join(CONTENT_DIR, fileName), `${JSON.stringify({ content })}\n`);
+    article.contentId = id;
+  }
+
+  for (const fileName of fs.readdirSync(CONTENT_DIR)) {
+    if (!fileName.endsWith('.json') || keep.has(fileName)) continue;
+    fs.unlinkSync(path.join(CONTENT_DIR, fileName));
+  }
+}
+
+// A failed feed keeps that source's previous stories; their full text lives in
+// js/content, so read it back before the split step rewrites the files.
+function hydratePreviousContent(articles = []) {
+  for (const article of articles) {
+    if (article.content || !article.contentId) continue;
+    try {
+      const file = path.join(CONTENT_DIR, `${article.contentId}.json`);
+      article.content = JSON.parse(fs.readFileSync(file, 'utf8')).content || '';
+    } catch {
+      /* no stored text; the split step will drop the stale id */
+    }
+  }
+}
+
 function isPublisherLink(article) {
   const source = SOURCES.find(entry => entry.name === article.source);
   if (!source) return false;
-
   try {
     const articleHost = new URL(article.link).hostname.replace(/^www\./, '');
     const feedHost = new URL(source.url).hostname.replace(/^www\./, '');
@@ -668,6 +708,7 @@ function loadEvents(previous) {
 
 async function main() {
   const previous = readJson(DATA_FILE) || {};
+  hydratePreviousContent(previous.articles);
 
   console.log('Refreshing ByteBrief data...');
 
@@ -678,6 +719,7 @@ async function main() {
   ]);
 
   const events = loadEvents(previous);
+  splitArticleContent(articles);
 
   const data = {
     generatedAt: new Date().toISOString(),

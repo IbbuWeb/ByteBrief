@@ -1,4 +1,4 @@
-﻿const APP_VERSION = '20261110-12';
+﻿const APP_VERSION = '20261110-13';
 const UPDATE_URL = '/ByteBrief/?source=update';
 
 self.addEventListener('install', event => {
@@ -29,20 +29,26 @@ self.addEventListener('fetch', event => {
     (path.endsWith('.html') || path.endsWith('.js') || path.endsWith('.css') || path.endsWith('.json') || path.endsWith('/ByteBrief/') || path === '/ByteBrief');
   if (!isAppAsset) return;
 
+  // The page fetches data.json with a unique ?v= each load. Cache it under one
+  // key so offline reads hit and the cache does not grow forever.
+  const cacheKey = path === '/ByteBrief/js/data.json'
+    ? new Request(`${url.origin}/ByteBrief/js/data.json`)
+    : req;
+
   event.respondWith((async () => {
     try {
       const fresh = await fetch(req, { cache: 'no-store' });
       if (fresh.ok) {
         try {
           const cache = await caches.open(`bytebrief-${APP_VERSION}`);
-          await cache.put(req, fresh.clone());
+          await cache.put(cacheKey, fresh.clone());
         } catch {
           /* a full or unavailable cache must not block the live page */
         }
       }
       return fresh;
     } catch {
-      const cached = await caches.match(req);
+      const cached = await caches.match(cacheKey);
       if (cached) return cached;
       throw new Error('offline');
     }

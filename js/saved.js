@@ -13,7 +13,7 @@
   shareArticle,
   showToast,
   textParagraphs
-} from './shared.js?v=20261110-12';
+} from './shared.js?v=20261110-13';
 
 const root = document.getElementById('savedRoot');
 const SPANS = [6, 3, 3, 4, 4, 4];
@@ -216,7 +216,7 @@ function openPreview(article) {
       ? `<div class="modal-poster" style="background-image:url('${escapeHtml(poster)}')"></div>`
       : '';
     els.media.innerHTML = videoId
-      ? `${posterMarkup}<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`
+      ? `${posterMarkup}<iframe class="js-iframe" width="100%" height="100%" style="aspect-ratio:16/9" src="https://www.youtube-nocookie.com/embed/${videoId}?modestbranding=1&controls=1&showinfo=0&rel=0" frameborder="0" allowfullscreen allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" title="YouTube video player"></iframe>`
       : `<div class="media-placeholder">${ICONS.play}<span>Video unavailable</span></div>`;
     els.category.textContent = categoryLabel(article.categories?.[0] || article.category);
     els.source.textContent = article.source || 'Unknown';

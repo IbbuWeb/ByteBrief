@@ -365,7 +365,7 @@ function initUpdateBanner() {
     if (status) status.textContent = '';
 
     try {
-      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261110-12');
+      const { enableUpdateAlerts } = await import('./update-alerts.js?v=20261110-13');
       const result = await enableUpdateAlerts();
 
       if (result.subscribed) {
@@ -423,6 +423,7 @@ export function initShell(page = '') {
 
   initUpdateBanner();
   initThemeToggle();
+  initImageFallbacks();
   registerAppServiceWorker();
 
   return initAuth().then(async ctx => {
@@ -430,6 +431,19 @@ export function initShell(page = '') {
     if (ctx?.user) await flushPendingSave(ctx);
     return ctx;
   });
+}
+
+// Publisher images often 404 or block hotlinking; hide them instead of
+// leaving the browser's broken-image icon in the card.
+function initImageFallbacks() {
+  if (window.__bytebriefImgFallback) return;
+  window.__bytebriefImgFallback = true;
+  document.addEventListener('error', event => {
+    const img = event.target;
+    if (img instanceof HTMLImageElement && img.classList.contains('js-img')) {
+      img.style.display = 'none';
+    }
+  }, true);
 }
 
 function registerAppServiceWorker() {
@@ -534,6 +548,26 @@ export function loadData() {
   return dataPromise;
 }
 
+const contentCache = new Map();
+
+// Full article text is stored per story so the feed payload stays small.
+// Returns '' when the publisher sent no full text; throws on a failed fetch.
+export async function loadArticleContent(article) {
+  const inline = String(article?.content || '').trim();
+  if (inline) return inline;
+
+  const id = String(article?.contentId || '');
+  if (!/^[a-f0-9]{12}$/.test(id)) return '';
+  if (contentCache.has(id)) return contentCache.get(id);
+
+  const response = await fetch(`js/content/${id}.json`);
+  if (!response.ok) throw new Error(`Content request failed: ${response.status}`);
+  const data = await response.json();
+  const text = String(data.content || '');
+  contentCache.set(id, text);
+  return text;
+}
+
 /* Firebase --------------------------------------------------------------- */
 
 let authPromise = null;
@@ -543,7 +577,7 @@ export function initAuth() {
   if (authPromise) return authPromise;
 
   authPromise = Promise.all([
-    import('./firebase-config.js?v=20261110-12'),
+    import('./firebase-config.js?v=20261110-13'),
     import(FIREBASE_AUTH),
     import(FIREBASE_FIRESTORE)
   ])
@@ -656,7 +690,19 @@ function estimateSavedBytes(record) {
 // so dedupe and size checks use a normal read before the write.
 export async function addSavedArticle(ctx, article) {
   if (!ctx?.user) throw new Error('Sign in to save stories');
-  const record = articleToSave(article);
+
+  // The feed no longer carries full text; fetch it so a saved story reads offline.
+  let payload = article;
+  if (article.video !== true && !String(article.content || '').trim()) {
+    try {
+      const content = await loadArticleContent(article);
+      if (content) payload = { ...article, content };
+    } catch {
+      /* save without full text rather than fail the save */
+    }
+  }
+
+  const record = articleToSave(payload);
   const sizeBytes = estimateSavedBytes(record);
   const uid = ctx.user.uid;
   const savedCollection = ctx.dbApi.collection(ctx.db, 'savedArticles');
@@ -733,6 +779,7 @@ export function stashPendingSave(article) {
     link: article.link,
     description: article.description,
     content: article.content,
+    contentId: article.contentId,
     views: article.views,
     video: article.video,
     videoId: article.videoId,
