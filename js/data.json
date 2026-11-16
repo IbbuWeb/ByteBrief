@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T02:40:13.772Z",
+  "generatedAt": "2026-11-16T06:32:54.193Z",
   "articles": [
     {
       "title": "I tested the most Futuristic Tech - it scared me.",
@@ -118,7 +118,7 @@
       "publishedLabel": "6d ago",
       "thumbnail": "https://i.ytimg.com/vi/HVLUtJWlcJY/hq720.jpg",
       "videoId": "HVLUtJWlcJY",
-      "views": 8000000,
+      "views": 8100000,
       "video": true
     },
     {
@@ -133,7 +133,7 @@
       "publishedLabel": "9d ago",
       "thumbnail": "https://i.ytimg.com/vi/_x58r9TBois/hq720.jpg",
       "videoId": "_x58r9TBois",
-      "views": 7500000,
+      "views": 7600000,
       "video": true
     },
     {
@@ -178,7 +178,7 @@
       "publishedLabel": "4d ago",
       "thumbnail": "https://i.ytimg.com/vi/hdMszZ2ah5Q/hq720.jpg",
       "videoId": "hdMszZ2ah5Q",
-      "views": 5800000,
+      "views": 5900000,
       "video": true
     },
     {
@@ -197,7 +197,7 @@
       "video": true
     },
     {
-      "title": "Nvidia just got caught with its pants down...",
+      "title": "Jensen Huang just pulled out of Nvidia...",
       "link": "https://www.youtube.com/watch?v=SOwUWPtXQ9I",
       "source": "Fireship",
       "category": "programming",
@@ -253,7 +253,7 @@
       "publishedLabel": "1d ago",
       "thumbnail": "https://i.ytimg.com/vi/u5UTIofKDGc/hq720.jpg",
       "videoId": "u5UTIofKDGc",
-      "views": 1900000,
+      "views": 2000000,
       "video": true
     },
     {
@@ -377,6 +377,21 @@
       "video": true
     },
     {
+      "title": "The NVIDIA Scandal Goes Deeper than You Think",
+      "link": "https://www.youtube.com/watch?v=PptRrzYY61w",
+      "source": "ColdFusion",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "14h ago",
+      "thumbnail": "https://i.ytimg.com/vi/PptRrzYY61w/hq720.jpg",
+      "videoId": "PptRrzYY61w",
+      "views": 1300000,
+      "video": true
+    },
+    {
       "title": "Why Everyone Stopped Buying GoPro",
       "link": "https://www.youtube.com/watch?v=25ckBnzay8Y",
       "source": "ColdFusion",
@@ -437,25 +452,198 @@
       "video": true
     },
     {
-      "title": "The NVIDIA Scandal Just Opened a Can of Worms",
-      "link": "https://www.youtube.com/watch?v=PptRrzYY61w",
-      "source": "ColdFusion",
-      "category": "tech",
+      "id": "83b4e6be3903",
+      "title": "Apple's new research app is designed to make AI health tools more user-friendly",
+      "link": "https://www.engadget.com/2317303/apple-new-research-app-designed-to-make-ai-health-tools-user-friendly/",
+      "description": "Apple has unveiled a new research study with the aim of learning how people use AI health tools.",
+      "thumbnail": "https://www.engadget.com/img/gallery/apples-new-research-app-is-designed-to-make-ai-health-tools-more-user-friendly/l-intro-1794809079.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-16T06:06:05.000Z",
+      "categories": [
+        "ai",
+        "hardware",
+        "science"
+      ],
+      "author": "staff@engadget.com (Steve Dent)",
+      "contentId": "83b4e6be3903"
+    },
+    {
+      "id": "c0c1bfd994d1",
+      "title": "How to Make Almost Anything",
+      "link": "https://pub.cba.mit.edu/863.26/site/",
+      "description": "10 points · 0 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-16T05:50:37.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "o4c",
+      "contentId": "c0c1bfd994d1"
+    },
+    {
+      "id": "90c523b9ea78",
+      "title": "5 Funniest 'Peanuts' Comics About Dogs",
+      "link": "https://www.polygon.com/5-funniest-peanuts-comics-about-dogs/",
+      "description": "These five comic strips starry Peanuts star Snoopy are all about the life of a dog",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/snoopy-snoopys-reunion.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-16T05:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Brian VanHooker",
+      "contentId": "90c523b9ea78"
+    },
+    {
+      "id": "50969f1926a0",
+      "title": "ULA Vulcan rocket failure destroys 40 Amazon Leo satellites",
+      "link": "https://www.engadget.com/2317283/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites/",
+      "description": "United Launch Alliance is known for its ultra-dependable Atlas V, but its its latest rocket is off to a shaky start.",
+      "thumbnail": "https://www.engadget.com/img/gallery/ula-vulcan-rocket-failure-destroys-40-amazon-leo-satellites/l-intro-1794804851.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-11-16T04:56:53.000Z",
       "categories": [
         "tech"
       ],
-      "publishedAt": null,
-      "publishedLabel": "10h ago",
-      "thumbnail": "https://i.ytimg.com/vi/PptRrzYY61w/hq720.jpg",
-      "videoId": "PptRrzYY61w",
-      "views": 1000000,
-      "video": true
+      "author": "staff@engadget.com (Steve Dent)",
+      "contentId": "50969f1926a0"
+    },
+    {
+      "id": "8be804d03e5a",
+      "title": "Debian Becomes Unresponsive after 6.1.0-55 Kernel Update",
+      "link": "https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=1154101",
+      "description": "37 points · 0 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-16T04:53:06.000Z",
+      "categories": [
+        "opensource",
+        "programming"
+      ],
+      "author": "artooro",
+      "contentId": "8be804d03e5a"
+    },
+    {
+      "id": "bd155013b211",
+      "title": "Stop Filming in Log",
+      "link": "https://digitalfilms.wordpress.com/2026/11/15/stop-filming-in-log/",
+      "description": "18 points · 7 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-16T04:37:03.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "dabinat",
+      "contentId": "bd155013b211"
+    },
+    {
+      "id": "44b374fa9de1",
+      "title": "Netflix's Award-winning Dark Sci-fi Series is Officially Returning",
+      "link": "https://www.polygon.com/black-mirror-season-8-update-netflix/",
+      "description": "Black Mirror's eighth season is currently in production for Netflix, with series creator Charlie Brooker returning to write and produce.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/24610033/BM_FirstLook_7.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-16T04:20:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Elijah Gonzalez",
+      "contentId": "44b374fa9de1"
+    },
+    {
+      "id": "195dcb105c1a",
+      "title": "6 Upcoming Sci-Fi Movies, Ranked by Hype",
+      "link": "https://www.polygon.com/upcoming-sci-fi-movies-ranked-by-hype/",
+      "description": "Dune, Doom, and all the other theatrical sci-fi blockbusters headed to the big screen.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/04/ray-gunn-brad-bird-3.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-16T04:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Ryan Epps",
+      "contentId": "195dcb105c1a"
+    },
+    {
+      "id": "e457e0a4d0a2",
+      "title": "Marvel's Official Avengers: Doomsday Prep Launches on Nov. 18",
+      "link": "https://www.polygon.com/avengers-doomsday-marvel-comics-to-read-incursions-secret-wars/",
+      "description": "Marvel revisits the Secret Wars event in new Incursion series with the X-Men and Fantastic Four ahead of Avengers: Doomsday",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/08/avengers_-doomsday-_-special-look-_-in-theaters-december-18-1-40-screenshot.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-16T03:09:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Willa Rowe",
+      "contentId": "e457e0a4d0a2"
+    },
+    {
+      "id": "501905f9bb02",
+      "title": "Investors sue chip giant Intel after 29% stock plunge",
+      "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
+      "description": "A proposed class action says Intel hid the impact of slowing sales, inflating its shares.",
+      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/e63c/live/afebacc0-e14f-11f1-8fb1-c394c4317b6a.jpg",
+      "source": "BBC Technology",
+      "publishedAt": "2026-11-16T03:04:01.000Z",
+      "categories": [
+        "hardware",
+        "business",
+        "tech"
+      ],
+      "author": null,
+      "contentId": "501905f9bb02"
+    },
+    {
+      "id": "0907fbf8de48",
+      "title": "Tell HN: HN is being scraped for emails to scam",
+      "link": "https://news.ycombinator.com/item?id=50513451",
+      "description": "",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-16T02:53:30.000Z",
+      "categories": [
+        "cloud",
+        "programming"
+      ],
+      "author": "eks391",
+      "contentId": "0907fbf8de48"
+    },
+    {
+      "id": "fe2fbf48b34f",
+      "title": "All 10 Zelda: Ocarina of Time Bosses, Ranked From Worst to Best",
+      "link": "https://www.polygon.com/legend-zelda-ocarina-time-bosses-ranked/",
+      "description": "Not all The Legend of Zelda: Ocarina of Time bosses are equal. We've ranked all boss fights by challenge, design, and excitement.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/zelda-ocarina-of-time-ganondorf-smirking.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-16T02:49:38.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Anthony Orlando",
+      "contentId": "fe2fbf48b34f"
+    },
+    {
+      "id": "8468cd1c9400",
+      "title": "Qwen4-Max",
+      "link": "https://qwen.ai/blog?id=qwen4-max",
+      "description": "327 points · 109 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-16T02:14:44.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "ilreb",
+      "contentId": "8468cd1c9400"
     },
     {
       "id": "d8f5a3c86112",
       "title": "Universal XSS in uBlock Origin from website-driven element picker",
       "link": "https://iter.ca/post/ubo-uxss/",
-      "description": "9 points · 0 comments",
+      "description": "240 points · 57 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-16T02:04:48.000Z",
@@ -510,19 +698,18 @@
       "contentId": "c6f717fdbe76"
     },
     {
-      "id": "a58bd1a86d99",
-      "title": "\"Who is Hiring?\" postings stuck near 12-year lows as AI reaches half of all jobs",
-      "link": "https://www.hntrends.com/2026/november.html",
-      "description": "44 points · 11 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-16T01:31:30.000Z",
+      "id": "ec0f2a561677",
+      "title": "Amazon loses first batch of broadband satellites launched on custom rocket",
+      "link": "https://www.theregister.com/networks/2026/11/16/amazon-loses-first-batch-of-broadband-satellites-launched-on-custom-rocket/5310000",
+      "description": "United Launch Alliance’s Vulcan LEO didn’t reach orbit",
+      "thumbnail": "https://image.theregister.com/?imageId=5310005&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-16T01:32:57.000Z",
       "categories": [
-        "ai",
-        "programming"
+        "tech"
       ],
-      "author": "myth_drannon",
-      "contentId": "a58bd1a86d99"
+      "author": "Simon Sharwood",
+      "contentId": "ec0f2a561677"
     },
     {
       "id": "77828770ffb5",
@@ -574,7 +761,7 @@
       "id": "388f8a23b3ec",
       "title": "Coles hit by a cybersecurity incident",
       "link": "https://www.colesgroup.com.au/updates/",
-      "description": "36 points · 14 comments",
+      "description": "83 points · 61 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-16T01:14:35.000Z",
@@ -678,7 +865,7 @@
       "id": "83b3b2200438",
       "title": "Tor Project Issues Rapid-Response DoS-Defense Fix Amid Sustained DDoS Attack",
       "link": "https://forum.torproject.org/t/security-release-0-4-9-17/22454",
-      "description": "28 points · 6 comments",
+      "description": "108 points · 24 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-16T00:21:54.000Z",
@@ -706,18 +893,18 @@
       "contentId": "717bf05e69ec"
     },
     {
-      "id": "8b5b670089c2",
-      "title": "5 Brilliant Books To Read Before Kicking the Bucket",
-      "link": "https://www.polygon.com/brilliant-books-read-before-you-die/",
-      "description": "Add these five picks to your ever-expanding list of “must-read” books.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/perfume-movie.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-16T00:00:17.000Z",
+      "id": "2bfebb9afa93",
+      "title": "Skydio's asymmetrical F10 Lightrunner solves a problem with fixed-wing drones",
+      "link": "https://spectrum.ieee.org/skydio-f10-lightrunner-asymmetrical-drone",
+      "description": "26 points · 2 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-16T00:03:12.000Z",
       "categories": [
-        "gaming"
+        "programming"
       ],
-      "author": "Debopriyaa Dutta",
-      "contentId": "8b5b670089c2"
+      "author": "Gaishan",
+      "contentId": "2bfebb9afa93"
     },
     {
       "id": "66aaed3882da",
@@ -737,7 +924,7 @@
       "id": "7bcbcfb1111a",
       "title": "What's Next for Nvidia?",
       "link": "https://steveblank.com/2026/11/15/whats-next-for-nvidia/",
-      "description": "76 points · 68 comments",
+      "description": "184 points · 239 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-15T23:55:55.000Z",
@@ -752,7 +939,7 @@
       "id": "0c7c1f4d0fdc",
       "title": "Mini.nvim Is Now on Tangled",
       "link": "https://tangled.org/nvim-mini.org/mini.nvim",
-      "description": "37 points · 10 comments",
+      "description": "53 points · 14 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-15T23:55:41.000Z",
@@ -856,24 +1043,10 @@
       "contentId": "d56f4bc43f54"
     },
     {
-      "id": "4365688ef154",
-      "title": "Tom Cruise's Favorite Director's Breakout Action Thriller Is Officially Free to Stream",
-      "link": "https://www.polygon.com/way-of-gun-movie-streaming-free-november-2026/",
-      "description": "Watch it while doing your favorite man dance",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/wotg2.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-15T23:00:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Thomas Hindmarch",
-      "contentId": "4365688ef154"
-    },
-    {
       "id": "a9735ffeec07",
       "title": "Preserving 30 years of Salon journalism",
       "link": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/",
-      "description": "77 points · 21 comments",
+      "description": "131 points · 37 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-15T23:00:11.000Z",
@@ -896,21 +1069,6 @@
       ],
       "author": "staff@engadget.com (Roger Fingas)",
       "contentId": "6d2249798218"
-    },
-    {
-      "id": "88e80dbbb109",
-      "title": "Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game",
-      "link": "https://lastcomplication.com/",
-      "description": "49 points · 6 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-15T22:48:52.000Z",
-      "categories": [
-        "gaming",
-        "programming"
-      ],
-      "author": "tdeangelis",
-      "contentId": "88e80dbbb109"
     },
     {
       "id": "cba87a51fe3f",
@@ -960,7 +1118,7 @@
       "id": "a2ad9f1b1eb8",
       "title": "Old Bitly links are being hijacked",
       "link": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/",
-      "description": "179 points · 96 comments",
+      "description": "242 points · 126 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-15T22:11:43.000Z",
@@ -1061,49 +1219,6 @@
       "contentId": "0dd7c1620062"
     },
     {
-      "id": "0a6188a36c60",
-      "title": "AO3 is back online but with limited features",
-      "link": "https://www.engadget.com/2317218/ao3-is-back-online-but-with-limited-features/",
-      "description": "The outage lasted two weeks but full functionality is expected to resume soon.",
-      "thumbnail": "https://www.engadget.com/img/gallery/ao3-is-back-online-but-with-limited-features/l-intro-1794777750.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-15T21:33:18.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "staff@engadget.com (Jackson Chen)",
-      "contentId": "0a6188a36c60"
-    },
-    {
-      "id": "cce56c658bf3",
-      "title": "How to get the most protection from your Ring camera security system",
-      "link": "https://www.engadget.com/2313904/how-to-maximize-ring-camera-security-protection/",
-      "description": "A Ring camera can provide a huge boost to the safety of your home, but there's more you can do to maximize that added layer of security.",
-      "thumbnail": "https://www.engadget.com/img/gallery/how-to-get-the-most-protection-from-your-ring-camera-security-system/l-intro-1794064696.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-11-15T21:30:00.000Z",
-      "categories": [
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "staff@engadget.com (Roger Fingas)",
-      "contentId": "cce56c658bf3"
-    },
-    {
-      "id": "5b362dc4d40e",
-      "title": "Prime Video's Near-Perfect Game of Thrones Replacement Officially Arrives in 2 Months",
-      "link": "https://www.polygon.com/blood-axe-prime-video-episode-1-review/",
-      "description": "Time to start sharpening your bloodaxe...",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/bldx_s1_ut_250806_walber_00342r_cropc_f_3000-1.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-15T21:25:25.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Jake Kleinman",
-      "contentId": "5b362dc4d40e"
-    },
-    {
       "id": "c8f9f37dbdfe",
       "title": "Vulcan rocket fails, destroying 40 Amazon Leo satellites",
       "link": "https://www.theverge.com/science/1034006/vulcan-rocket-fails-destroying-40-amazon-leo-satellites",
@@ -1148,21 +1263,6 @@
       "contentId": "2f1f5cbf7ce8"
     },
     {
-      "id": "a850a5bee163",
-      "title": "Vulcan rocket fails during return-to-flight launch, 40 Amazon satellites lost",
-      "link": "https://www.space.com/space-exploration/launches-spacecraft/ula-vulcan-centaur-return-to-flight-amazon-leo-internet-satellite-launch",
-      "description": "120 points · 67 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-15T20:37:28.000Z",
-      "categories": [
-        "science",
-        "programming"
-      ],
-      "author": "jonbaer",
-      "contentId": "a850a5bee163"
-    },
-    {
       "id": "e1a619a77e42",
       "title": "Xbox Reveals Original and 360 Boot-Up Options for 25th Anniversary",
       "link": "https://www.ign.com/articles/xbox-reveals-original-and-360-boot-up-options-for-25th-anniversary",
@@ -1192,25 +1292,10 @@
       "contentId": "d9bb72c7b4b4"
     },
     {
-      "id": "6b9706caa8ea",
-      "title": "Zelda: Ocarina of Time’s No. 1 cause of death officially revealed",
-      "link": "https://www.polygon.com/zelda-ocarina-of-time-remake-mobile-app-deaths/",
-      "description": "The most modern thing about the Zelda remake might just be its mobile app.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/ocarina-of-time-remake-stalchildren.jpeg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-15T20:20:50.000Z",
-      "categories": [
-        "mobile",
-        "gaming"
-      ],
-      "author": "Ashley Potter",
-      "contentId": "6b9706caa8ea"
-    },
-    {
       "id": "b4260db782b8",
       "title": "WebGL Flight Simulator with seed generated terrain",
       "link": "https://baron.by.dai.studio/",
-      "description": "95 points · 12 comments",
+      "description": "114 points · 22 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-15T20:20:05.000Z",
@@ -1221,24 +1306,10 @@
       "contentId": "b4260db782b8"
     },
     {
-      "id": "b196e9525884",
-      "title": "17 Years Ago, the Longest Running Sci-Fi Show Flipped Its Core Concept On Its Head",
-      "link": "https://www.polygon.com/doctor-who-the-waters-of-mars-17th-anniversary-retrospective/",
-      "description": "David Tennant is king when it comes to giving complex performances. His best is in the Doctor Who episode 'The Water of Mars.'",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/doctor-who-the-waters-of-mars.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-15T20:00:18.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Aimee Hart",
-      "contentId": "b196e9525884"
-    },
-    {
       "id": "e873ffb37f96",
       "title": "Handwriting, as a Font",
       "link": "https://ductus.sorenblank.com/",
-      "description": "137 points · 34 comments",
+      "description": "213 points · 44 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-15T19:42:13.000Z",
@@ -1263,20 +1334,6 @@
       "contentId": "b0b161b04d53"
     },
     {
-      "id": "4d28c30f6f55",
-      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
-      "link": "https://bruceroettgers.eu/blog/protomaps/",
-      "description": "179 points · 43 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-15T19:26:22.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "bcye",
-      "contentId": "4d28c30f6f55"
-    },
-    {
       "id": "1207b5c1c70b",
       "title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
@@ -1291,35 +1348,6 @@
       ],
       "author": "Terrence O’Brien",
       "contentId": "1207b5c1c70b"
-    },
-    {
-      "id": "7c17e587ee6a",
-      "title": "Eclipse Mosquitto – An open source MQTT broker",
-      "link": "https://github.com/eclipse-mosquitto/mosquitto",
-      "description": "68 points · 28 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-15T18:36:40.000Z",
-      "categories": [
-        "programming",
-        "opensource"
-      ],
-      "author": "gregsadetsky",
-      "contentId": "7c17e587ee6a"
-    },
-    {
-      "id": "357c9f3ea7ee",
-      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
-      "link": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
-      "description": "408 points · 187 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-15T18:36:10.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "DeepLogin",
-      "contentId": "357c9f3ea7ee"
     },
     {
       "id": "4201db3ac682",
@@ -1559,6 +1587,20 @@
       ],
       "author": "Michael Burkhardt",
       "contentId": "6e2aa5c90a97"
+    },
+    {
+      "id": "e08296fe8bcc",
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "link": "https://www.tomshardware.com/tech-industry/data-centers/microsoft-365-outage-leads-to-chlorine-gas-poisoning-of-15-hotel-guests-email-warning-system-fails-40-first-responders-deployed-for-triage-four-hospitalized",
+      "description": "The 'maintenance safety system' relied on Microsoft Outlook to send warning messages to the operator.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/LVU3kxMU42xw93Lbc2p2Wc-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-15T15:41:13.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Jowi Morales",
+      "contentId": "e08296fe8bcc"
     },
     {
       "id": "bbb8a6727085",
@@ -3507,52 +3549,6 @@
       ],
       "author": "Cate Lawrence",
       "contentId": "1fc051543015"
-    },
-    {
-      "id": "9e86f995b80f",
-      "title": "Another Linux kernel developer steps back from some duties due to overload",
-      "link": "https://www.theregister.com/ai-and-ml/2026/11/13/another-linux-kernel-developer-steps-back-from-some-duties-due-to-overload/5309628",
-      "description": "You can probably guess what he blames for the excessive workload",
-      "thumbnail": "https://image.theregister.com/?imageId=5270573&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-13T15:28:00.000Z",
-      "categories": [
-        "programming",
-        "opensource",
-        "tech"
-      ],
-      "author": "Liam Proven",
-      "contentId": "9e86f995b80f"
-    },
-    {
-      "id": "d685e32a30ea",
-      "title": "Why Chefs Save Leftover Pasta Water, and Why You Should, Too",
-      "link": "https://www.cnet.com/home/kitchen-and-household/why-chefs-save-pasta-water-cooking-tips/",
-      "description": "If you’re skipping this step when making pasta, you’re leaving behind liquid gold.",
-      "thumbnail": "https://www.cnet.com/wp-content/uploads/sites/2/Saving-cooled-pasta-water-in-ice-cube-trays.jpg",
-      "source": "CNET",
-      "publishedAt": "2026-11-13T15:06:55.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Pamela Vachon",
-      "contentId": "d685e32a30ea"
-    },
-    {
-      "id": "d9ede96a0412",
-      "title": "Leaving VMware starts as a cost decision, but day-two operations decide whether it works",
-      "link": "https://siliconangle.com/2026/11/13/data-management-layer-eases-vmware-exit-kubernetes-teams-kubeconna/",
-      "description": "Enterprises leaving legacy hypervisors are finding that moving virtual machines is only half the job, and that a portable data management layer often decides whether a Kubernetes migration succeeds. Rising license costs are pushing teams to run containers and VMs on one platform. That shift is playi",
-      "thumbnail": "https://images.siliconangle.com/blogs.dir/1/files/2026/11/IMG_3834.jpg",
-      "source": "SiliconANGLE",
-      "publishedAt": "2026-11-13T15:04:32.000Z",
-      "categories": [
-        "programming",
-        "cloud",
-        "tech"
-      ],
-      "author": "Jonathan Anthony",
-      "contentId": "d9ede96a0412"
     }
   ],
   "github": [
@@ -3560,7 +3556,7 @@
       "name": "dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
-      "stars": 26258,
+      "stars": 26577,
       "starsToday": 988,
       "url": "https://github.com/dream-num/univer"
     },
@@ -3568,7 +3564,7 @@
       "name": "ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
-      "stars": 17970,
+      "stars": 18136,
       "starsToday": 355,
       "url": "https://github.com/ag-ui-protocol/ag-ui"
     },
@@ -3576,7 +3572,7 @@
       "name": "google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 9358,
+      "stars": 9457,
       "starsToday": 247,
       "url": "https://github.com/google-labs-code/stitch-skills"
     },
@@ -3584,7 +3580,7 @@
       "name": "backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 11920,
+      "stars": 12041,
       "starsToday": 866,
       "url": "https://github.com/backnotprop/plannotator"
     },
@@ -3592,7 +3588,7 @@
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "stars": 57040,
+      "stars": 57190,
       "starsToday": 717,
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
     },
@@ -3600,7 +3596,7 @@
       "name": "alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 52195,
+      "stars": 52377,
       "starsToday": 691,
       "url": "https://github.com/alibaba/open-code-review"
     },
@@ -3608,7 +3604,7 @@
       "name": "Tencent/LoopForge",
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "language": "Go",
-      "stars": 1619,
+      "stars": 1820,
       "starsToday": 423,
       "url": "https://github.com/Tencent/LoopForge"
     },
@@ -3616,7 +3612,7 @@
       "name": "ggml-org/ggml",
       "description": "Tensor library for machine learning",
       "language": "C++",
-      "stars": 15940,
+      "stars": 15993,
       "starsToday": 43,
       "url": "https://github.com/ggml-org/ggml"
     },
@@ -3624,7 +3620,7 @@
       "name": "elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
-      "stars": 6531,
+      "stars": 6715,
       "starsToday": 98,
       "url": "https://github.com/elementalsouls/Claude-BugHunter"
     },
@@ -3632,7 +3628,7 @@
       "name": "GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 7277,
+      "stars": 7447,
       "starsToday": 1219,
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
     },
@@ -3640,7 +3636,7 @@
       "name": "tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "stars": 5630,
+      "stars": 5775,
       "starsToday": 706,
       "url": "https://github.com/tradermonty/claude-trading-skills"
     },
@@ -3648,7 +3644,7 @@
       "name": "NVIDIA/SkillEvaluator",
       "description": "Multi-tier framework for evaluating AI agent skills with quality gates, semantic overlap detection, synthetic evaluation dataset generation, and live agent evaluation that measures how skills affect agent behavior.",
       "language": "Python",
-      "stars": 1772,
+      "stars": 1937,
       "starsToday": 122,
       "url": "https://github.com/NVIDIA/SkillEvaluator"
     }
