@@ -1,34 +1,49 @@
 {
-  "generatedAt": "2026-11-16T02:36:52.604Z",
+  "generatedAt": "2026-11-16T02:40:13.772Z",
   "articles": [
     {
-      "title": "6 ways iPhone Duo beats Samsung",
-      "link": "https://www.youtube.com/watch?v=i3ZlSlnGWng",
+      "title": "I tested the most Futuristic Tech - it scared me.",
+      "link": "https://www.youtube.com/watch?v=nQdXp6HKKik",
       "source": "Mrwhosetheboss",
       "category": "mobile",
       "categories": [
         "mobile"
       ],
-      "publishedAt": "2026-10-21T12:02:02.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/i3ZlSlnGWng/hq720.jpg",
-      "videoId": "i3ZlSlnGWng",
-      "views": 14034503,
+      "publishedAt": null,
+      "publishedLabel": "1mo ago",
+      "thumbnail": "https://i.ytimg.com/vi/nQdXp6HKKik/hq720.jpg",
+      "videoId": "nQdXp6HKKik",
+      "views": 23000000,
       "video": true
     },
     {
-      "title": "Macbook PROLED XDR Impressions: They Said They Wouldn't!",
-      "link": "https://www.youtube.com/watch?v=2reQut8WNGc",
+      "title": "Xiaomi made an iPhone Duo. It’s Unhinged.",
+      "link": "https://www.youtube.com/watch?v=eYBEJBfq_Zs",
+      "source": "Mrwhosetheboss",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "1mo ago",
+      "thumbnail": "https://i.ytimg.com/vi/eYBEJBfq_Zs/hq720.jpg",
+      "videoId": "eYBEJBfq_Zs",
+      "views": 19000000,
+      "video": true
+    },
+    {
+      "title": "iPhone Duo Review: First Generation Fun!",
+      "link": "https://www.youtube.com/watch?v=ESABTN4VtrA",
       "source": "Marques Brownlee",
       "category": "mobile",
       "categories": [
         "mobile"
       ],
-      "publishedAt": "2026-10-29T02:50:34.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/2reQut8WNGc/hq720.jpg",
-      "videoId": "2reQut8WNGc",
-      "views": 12523161,
+      "publishedAt": null,
+      "publishedLabel": "3w ago",
+      "thumbnail": "https://i.ytimg.com/vi/ESABTN4VtrA/hq720.jpg",
+      "videoId": "ESABTN4VtrA",
+      "views": 13000000,
       "video": true
     },
     {
@@ -39,11 +54,41 @@
       "categories": [
         "mobile"
       ],
-      "publishedAt": "2026-11-03T14:01:31.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "12d ago",
       "thumbnail": "https://i.ytimg.com/vi/g6Die8gVFn0/hq720.jpg",
       "videoId": "g6Die8gVFn0",
-      "views": 12150266,
+      "views": 12000000,
+      "video": true
+    },
+    {
+      "title": "Macbook PROLED XDR Impressions: They Said They Wouldn't!",
+      "link": "https://www.youtube.com/watch?v=2reQut8WNGc",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "2w ago",
+      "thumbnail": "https://i.ytimg.com/vi/2reQut8WNGc/hq720.jpg",
+      "videoId": "2reQut8WNGc",
+      "views": 12000000,
+      "video": true
+    },
+    {
+      "title": "The NEW Tesla Roadster: My Honest Reaction",
+      "link": "https://www.youtube.com/watch?v=scwlR0QHGOk",
+      "source": "Marques Brownlee",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "4w ago",
+      "thumbnail": "https://i.ytimg.com/vi/scwlR0QHGOk/hq720.jpg",
+      "videoId": "scwlR0QHGOk",
+      "views": 12000000,
       "video": true
     },
     {
@@ -54,26 +99,11 @@
       "categories": [
         "mobile"
       ],
-      "publishedAt": "2026-10-21T12:00:38.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "3w ago",
       "thumbnail": "https://i.ytimg.com/vi/Xrxy_W78SKk/hq720.jpg",
       "videoId": "Xrxy_W78SKk",
-      "views": 11240507,
-      "video": true
-    },
-    {
-      "title": "6 ways Samsung Fold beats iPhone Duo",
-      "link": "https://www.youtube.com/watch?v=1yB56IT0kDw",
-      "source": "Mrwhosetheboss",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-10-23T13:18:02.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/1yB56IT0kDw/hq720.jpg",
-      "videoId": "1yB56IT0kDw",
-      "views": 8113200,
+      "views": 11000000,
       "video": true
     },
     {
@@ -84,11 +114,11 @@
       "categories": [
         "mobile"
       ],
-      "publishedAt": "2026-11-09T12:37:47.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "6d ago",
       "thumbnail": "https://i.ytimg.com/vi/HVLUtJWlcJY/hq720.jpg",
       "videoId": "HVLUtJWlcJY",
-      "views": 8060245,
+      "views": 8000000,
       "video": true
     },
     {
@@ -99,11 +129,11 @@
       "categories": [
         "mobile"
       ],
-      "publishedAt": "2026-11-06T21:29:30.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "9d ago",
       "thumbnail": "https://i.ytimg.com/vi/_x58r9TBois/hq720.jpg",
       "videoId": "_x58r9TBois",
-      "views": 7586697,
+      "views": 7500000,
       "video": true
     },
     {
@@ -114,11 +144,26 @@
       "categories": [
         "mobile"
       ],
-      "publishedAt": "2026-11-04T11:09:51.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "11d ago",
       "thumbnail": "https://i.ytimg.com/vi/Yg2t5w8vj5Q/hq720.jpg",
       "videoId": "Yg2t5w8vj5Q",
-      "views": 6960451,
+      "views": 6900000,
+      "video": true
+    },
+    {
+      "title": "iPhone 18 Pro Review - My Last iPhone?",
+      "link": "https://www.youtube.com/watch?v=PjAyUhf52D0",
+      "source": "Mrwhosetheboss",
+      "category": "mobile",
+      "categories": [
+        "mobile"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "1mo ago",
+      "thumbnail": "https://i.ytimg.com/vi/PjAyUhf52D0/hq720.jpg",
+      "videoId": "PjAyUhf52D0",
+      "views": 6000000,
       "video": true
     },
     {
@@ -129,26 +174,11 @@
       "categories": [
         "mobile"
       ],
-      "publishedAt": "2026-11-11T18:43:56.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "4d ago",
       "thumbnail": "https://i.ytimg.com/vi/hdMszZ2ah5Q/hq720.jpg",
       "videoId": "hdMszZ2ah5Q",
-      "views": 5868026,
-      "video": true
-    },
-    {
-      "title": "This can SEE Sound!",
-      "link": "https://www.youtube.com/watch?v=ai1gIWacf0I",
-      "source": "Marques Brownlee",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-10-27T20:14:55.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/ai1gIWacf0I/hq720.jpg",
-      "videoId": "ai1gIWacf0I",
-      "views": 2751738,
+      "views": 5800000,
       "video": true
     },
     {
@@ -159,56 +189,26 @@
       "categories": [
         "programming"
       ],
-      "publishedAt": "2026-10-28T13:31:29.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "2w ago",
       "thumbnail": "https://i.ytimg.com/vi/nEaJMdM1djM/hq720.jpg",
       "videoId": "nEaJMdM1djM",
-      "views": 2704737,
+      "views": 2700000,
       "video": true
     },
     {
-      "title": "Jensen Huang just pulled out of Nvidia...",
+      "title": "Nvidia just got caught with its pants down...",
       "link": "https://www.youtube.com/watch?v=SOwUWPtXQ9I",
       "source": "Fireship",
       "category": "programming",
       "categories": [
         "programming"
       ],
-      "publishedAt": "2026-11-12T21:17:10.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "3d ago",
       "thumbnail": "https://i.ytimg.com/vi/SOwUWPtXQ9I/hq720.jpg",
       "videoId": "SOwUWPtXQ9I",
-      "views": 2347476,
-      "video": true
-    },
-    {
-      "title": "ASMR iPhone Duo Unboxing",
-      "link": "https://www.youtube.com/watch?v=_4ELeWAgMwo",
-      "source": "Marques Brownlee",
-      "category": "mobile",
-      "categories": [
-        "mobile"
-      ],
-      "publishedAt": "2026-10-21T14:00:33.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/_4ELeWAgMwo/hq720.jpg",
-      "videoId": "_4ELeWAgMwo",
-      "views": 2329789,
-      "video": true
-    },
-    {
-      "title": "The worst week in cybersecurity history... so far",
-      "link": "https://www.youtube.com/watch?v=k2ruCf_z75I",
-      "source": "Fireship",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-03T19:47:10.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/k2ruCf_z75I/hq720.jpg",
-      "videoId": "k2ruCf_z75I",
-      "views": 2155798,
+      "views": 2300000,
       "video": true
     },
     {
@@ -219,11 +219,26 @@
       "categories": [
         "programming"
       ],
-      "publishedAt": "2026-11-06T16:42:38.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "9d ago",
       "thumbnail": "https://i.ytimg.com/vi/iw9SZgyahqg/hq720.jpg",
       "videoId": "iw9SZgyahqg",
-      "views": 2106846,
+      "views": 2100000,
+      "video": true
+    },
+    {
+      "title": "The worst week in cybersecurity history... so far",
+      "link": "https://www.youtube.com/watch?v=k2ruCf_z75I",
+      "source": "Fireship",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "12d ago",
+      "thumbnail": "https://i.ytimg.com/vi/k2ruCf_z75I/hq720.jpg",
+      "videoId": "k2ruCf_z75I",
+      "views": 2100000,
       "video": true
     },
     {
@@ -234,11 +249,26 @@
       "categories": [
         "hardware"
       ],
-      "publishedAt": "2026-11-14T17:13:06.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "1d ago",
       "thumbnail": "https://i.ytimg.com/vi/u5UTIofKDGc/hq720.jpg",
       "videoId": "u5UTIofKDGc",
-      "views": 1938017,
+      "views": 1900000,
+      "video": true
+    },
+    {
+      "title": "Imagining A World Without Windows",
+      "link": "https://www.youtube.com/watch?v=t62ZRncv2d4",
+      "source": "Linus Tech Tips",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "4d ago",
+      "thumbnail": "https://i.ytimg.com/vi/t62ZRncv2d4/hq720.jpg",
+      "videoId": "t62ZRncv2d4",
+      "views": 1900000,
       "video": true
     },
     {
@@ -249,11 +279,11 @@
       "categories": [
         "programming"
       ],
-      "publishedAt": "2026-11-09T21:04:16.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "6d ago",
       "thumbnail": "https://i.ytimg.com/vi/pf5tXJZM1Rw/hq720.jpg",
       "videoId": "pf5tXJZM1Rw",
-      "views": 1865529,
+      "views": 1800000,
       "video": true
     },
     {
@@ -264,11 +294,11 @@
       "categories": [
         "programming"
       ],
-      "publishedAt": "2026-11-10T18:19:55.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "5d ago",
       "thumbnail": "https://i.ytimg.com/vi/1FurWDiK9A4/hq720.jpg",
       "videoId": "1FurWDiK9A4",
-      "views": 1664332,
+      "views": 1600000,
       "video": true
     },
     {
@@ -279,26 +309,41 @@
       "categories": [
         "hardware"
       ],
-      "publishedAt": "2026-10-29T00:45:18.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "2w ago",
       "thumbnail": "https://i.ytimg.com/vi/gHZ7JYPOd1M/hq720.jpg",
       "videoId": "gHZ7JYPOd1M",
-      "views": 1554998,
+      "views": 1500000,
       "video": true
     },
     {
-      "title": "Why Everyone Stopped Buying GoPro",
-      "link": "https://www.youtube.com/watch?v=25ckBnzay8Y",
+      "title": "Bill Gates’ Daughter is in Trouble",
+      "link": "https://www.youtube.com/watch?v=P8CVqDKeOKk",
       "source": "ColdFusion",
       "category": "tech",
       "categories": [
         "tech"
       ],
-      "publishedAt": "2026-10-28T17:10:33.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/25ckBnzay8Y/hq720.jpg",
-      "videoId": "25ckBnzay8Y",
-      "views": 1346954,
+      "publishedAt": null,
+      "publishedLabel": "1mo ago",
+      "thumbnail": "https://i.ytimg.com/vi/P8CVqDKeOKk/hq720.jpg",
+      "videoId": "P8CVqDKeOKk",
+      "views": 1500000,
+      "video": true
+    },
+    {
+      "title": "The Laptop for 71% of People",
+      "link": "https://www.youtube.com/watch?v=ZedAs9P7yE8",
+      "source": "Dave2D",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "1mo ago",
+      "thumbnail": "https://i.ytimg.com/vi/ZedAs9P7yE8/hq720.jpg",
+      "videoId": "ZedAs9P7yE8",
+      "views": 1400000,
       "video": true
     },
     {
@@ -309,11 +354,56 @@
       "categories": [
         "hardware"
       ],
-      "publishedAt": "2026-11-12T20:54:32.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "3d ago",
       "thumbnail": "https://i.ytimg.com/vi/e6MENpOuRC0/hq720.jpg",
       "videoId": "e6MENpOuRC0",
-      "views": 1342833,
+      "views": 1300000,
+      "video": true
+    },
+    {
+      "title": "iPhone 18 Pro Max Review - Apple's Hyping The Wrong Thing",
+      "link": "https://www.youtube.com/watch?v=eHYaESEzFHc",
+      "source": "Dave2D",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "1mo ago",
+      "thumbnail": "https://i.ytimg.com/vi/eHYaESEzFHc/hq720.jpg",
+      "videoId": "eHYaESEzFHc",
+      "views": 1300000,
+      "video": true
+    },
+    {
+      "title": "Why Everyone Stopped Buying GoPro",
+      "link": "https://www.youtube.com/watch?v=25ckBnzay8Y",
+      "source": "ColdFusion",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "2w ago",
+      "thumbnail": "https://i.ytimg.com/vi/25ckBnzay8Y/hq720.jpg",
+      "videoId": "25ckBnzay8Y",
+      "views": 1300000,
+      "video": true
+    },
+    {
+      "title": "2026 Mac Mini - CRAZY FAST! (M5 Pro / M5 Ultra)",
+      "link": "https://www.youtube.com/watch?v=dDVsNmiSzwQ",
+      "source": "Dave2D",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": null,
+      "publishedLabel": "1mo ago",
+      "thumbnail": "https://i.ytimg.com/vi/dDVsNmiSzwQ/hq720.jpg",
+      "videoId": "dDVsNmiSzwQ",
+      "views": 1200000,
       "video": true
     },
     {
@@ -324,11 +414,11 @@
       "categories": [
         "hardware"
       ],
-      "publishedAt": "2026-11-13T17:27:31.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "2d ago",
       "thumbnail": "https://i.ytimg.com/vi/taBO0I1YBzU/hq720.jpg",
       "videoId": "taBO0I1YBzU",
-      "views": 1111641,
+      "views": 1100000,
       "video": true
     },
     {
@@ -339,116 +429,26 @@
       "categories": [
         "hardware"
       ],
-      "publishedAt": "2026-10-21T13:40:13.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "3w ago",
       "thumbnail": "https://i.ytimg.com/vi/1vj_AHonNdA/hq720.jpg",
       "videoId": "1vj_AHonNdA",
-      "views": 1109776,
+      "views": 1100000,
       "video": true
     },
     {
-      "title": "Why Apple Seems Confused",
-      "link": "https://www.youtube.com/watch?v=Sb1_j9A25nQ",
-      "source": "ColdFusion",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-02T14:49:00.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/Sb1_j9A25nQ/hq720.jpg",
-      "videoId": "Sb1_j9A25nQ",
-      "views": 1041362,
-      "video": true
-    },
-    {
-      "title": "The NVIDIA Scandal Goes Deeper than You Think",
+      "title": "The NVIDIA Scandal Just Opened a Can of Worms",
       "link": "https://www.youtube.com/watch?v=PptRrzYY61w",
       "source": "ColdFusion",
       "category": "tech",
       "categories": [
         "tech"
       ],
-      "publishedAt": "2026-11-15T16:06:25.000Z",
-      "publishedLabel": null,
+      "publishedAt": null,
+      "publishedLabel": "10h ago",
       "thumbnail": "https://i.ytimg.com/vi/PptRrzYY61w/hq720.jpg",
       "videoId": "PptRrzYY61w",
-      "views": 1023099,
-      "video": true
-    },
-    {
-      "title": "MacBook Pro OLED Review - Is Touch ACTUALLY Useful?",
-      "link": "https://www.youtube.com/watch?v=m8lhB9qFhYo",
-      "source": "Dave2D",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-05T14:03:51.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/m8lhB9qFhYo/hq720.jpg",
-      "videoId": "m8lhB9qFhYo",
-      "views": 887141,
-      "video": true
-    },
-    {
-      "title": "Paraguay’s Banking Disaster",
-      "link": "https://www.youtube.com/watch?v=pjNnDQgAvOw",
-      "source": "ColdFusion",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-13T14:17:26.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/pjNnDQgAvOw/hq720.jpg",
-      "videoId": "pjNnDQgAvOw",
-      "views": 667285,
-      "video": true
-    },
-    {
-      "title": "I Stepped into my Favorite Games (for Free)",
-      "link": "https://www.youtube.com/watch?v=XpWfH5Qw1R8",
-      "source": "Linus Tech Tips",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-15T17:00:21.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/XpWfH5Qw1R8/hq720.jpg",
-      "videoId": "XpWfH5Qw1R8",
-      "views": 621013,
-      "video": true
-    },
-    {
-      "title": "Nvidia’s in trouble…",
-      "link": "https://www.youtube.com/watch?v=M7-3umWvpaw",
-      "source": "TechLinked",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": null,
-      "publishedLabel": "6d ago",
-      "thumbnail": "https://i.ytimg.com/vi/M7-3umWvpaw/hq720.jpg",
-      "videoId": "M7-3umWvpaw",
-      "views": 586000,
-      "video": true
-    },
-    {
-      "title": "Uh, Google?",
-      "link": "https://www.youtube.com/watch?v=mdlLCkLx9BI",
-      "source": "TechLinked",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": null,
-      "publishedLabel": "11d ago",
-      "thumbnail": "https://i.ytimg.com/vi/mdlLCkLx9BI/hq720.jpg",
-      "videoId": "mdlLCkLx9BI",
-      "views": 581000,
+      "views": 1000000,
       "video": true
     },
     {
@@ -3560,7 +3560,7 @@
       "name": "dream-num/univer",
       "description": "Build your own AI office with Univer Office SDK. Bring editing, calculation, collaboration, and file processing into your product for people and AI agents. Built on an extensible open-source core.",
       "language": "TypeScript",
-      "stars": 26240,
+      "stars": 26258,
       "starsToday": 988,
       "url": "https://github.com/dream-num/univer"
     },
@@ -3568,7 +3568,7 @@
       "name": "ag-ui-protocol/ag-ui",
       "description": "AG-UI: the Agent-User Interaction Protocol. Bring Agents into Frontend Applications.",
       "language": "TypeScript",
-      "stars": 17967,
+      "stars": 17970,
       "starsToday": 355,
       "url": "https://github.com/ag-ui-protocol/ag-ui"
     },
@@ -3576,7 +3576,7 @@
       "name": "google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 9357,
+      "stars": 9358,
       "starsToday": 247,
       "url": "https://github.com/google-labs-code/stitch-skills"
     },
@@ -3584,7 +3584,7 @@
       "name": "backnotprop/plannotator",
       "description": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
       "language": "TypeScript",
-      "stars": 11916,
+      "stars": 11920,
       "starsToday": 866,
       "url": "https://github.com/backnotprop/plannotator"
     },
@@ -3592,7 +3592,7 @@
       "name": "ChromeDevTools/chrome-devtools-mcp",
       "description": "Chrome DevTools for coding agents",
       "language": "TypeScript",
-      "stars": 57037,
+      "stars": 57040,
       "starsToday": 717,
       "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp"
     },
@@ -3600,7 +3600,7 @@
       "name": "alibaba/open-code-review",
       "description": "Secure, fast, efficient, battle-tested at Alibaba's scale. Hybrid architecture code review tool: deterministic pipelines + LLM Agent, precise line-level comments, built-in multi-language ruleset (NPE, thread-safety, XSS, SQL injection), OpenAI & Anthropic compatible.",
       "language": "Go",
-      "stars": 52192,
+      "stars": 52195,
       "starsToday": 691,
       "url": "https://github.com/alibaba/open-code-review"
     },
@@ -3608,7 +3608,7 @@
       "name": "Tencent/LoopForge",
       "description": "Self-hosted workflows for coding-agent delivery. Orchestrate CodeBuddy, Codex and Claude Code with scripts and human approval gates. Includes Local workflows for coding assistants.",
       "language": "Go",
-      "stars": 1616,
+      "stars": 1619,
       "starsToday": 423,
       "url": "https://github.com/Tencent/LoopForge"
     },
@@ -3624,7 +3624,7 @@
       "name": "elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
-      "stars": 6528,
+      "stars": 6531,
       "starsToday": 98,
       "url": "https://github.com/elementalsouls/Claude-BugHunter"
     },
@@ -3632,7 +3632,7 @@
       "name": "GoogleChrome/modern-web-guidance-src",
       "description": "Keep your coding agent up to date with the latest web best practices",
       "language": "TypeScript",
-      "stars": 7273,
+      "stars": 7277,
       "starsToday": 1219,
       "url": "https://github.com/GoogleChrome/modern-web-guidance-src"
     },
@@ -3640,7 +3640,7 @@
       "name": "tradermonty/claude-trading-skills",
       "description": "Claude Code skills for equity investors and traders — market analysis, technical charting, economic calendars, screeners, and trading strategy development.",
       "language": "Python",
-      "stars": 5629,
+      "stars": 5630,
       "starsToday": 706,
       "url": "https://github.com/tradermonty/claude-trading-skills"
     },
