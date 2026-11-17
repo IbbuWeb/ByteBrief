@@ -1,0 +1,7 @@
+node_modules/
+.env
+.env.*
+*.log
+Mail E/
+firebase-service-account*.json
+vapid-private-key.txt

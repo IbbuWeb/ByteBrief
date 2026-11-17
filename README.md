@@ -82,25 +82,30 @@ firebase deploy --only firestore:rules
 `firestore.rules` restricts each account to its own `users/{uid}` document and its own `savedArticles` records. The app stores:
 
 - `users/{uid}`: `name`, `email`, `photoURL`, `interests`, `createdAt`
-- `savedArticles/{id}`: `userId`, `title`, `link`, `image`, `source`, `category`, `savedAt`
+- `savedArticles/{id}`: `userId`, `title`, `link`, `description`, `content`, `image`, `source`, `category`, `views`, `video`, `videoId`, `publishedAt`, `publishedLabel`, `savedAt`, `sizeBytes`
 
 No Firebase SDK is loaded for anonymous reading.
 
 ## Update alerts
 
-ByteBrief can show a one-time in-app banner asking users to turn on update alerts. If they agree, their browser push subscription is stored in the `pushSubscriptions` Firestore collection.
+ByteBrief shows a one-time in-app banner asking readers to turn on update alerts. If they agree, their browser push subscription is stored in the `pushSubscriptions` Firestore collection.
 
-To send the one-time notice later:
+The VAPID public key lives in `js/vapid.js`. Two secrets stay outside the repository:
 
-```bash
+- VAPID private key: `%LOCALAPPDATA%\ByteBrief\vapid-private-key.txt`
+- Firebase service account JSON: `%LOCALAPPDATA%\ByteBrief\firebase-service-account.json`
+
+To send a notice:
+
+```powershell
 npm install --no-save firebase-admin web-push
-WEBPUSH_VAPID_PRIVATE_KEY=<private key> npm run send:update:dry
-WEBPUSH_VAPID_PRIVATE_KEY=<private key> npm run send:update
+$env:GOOGLE_APPLICATION_CREDENTIALS = "$env:LOCALAPPDATA\ByteBrief\firebase-service-account.json"
+$env:WEBPUSH_VAPID_PRIVATE_KEY = (Get-Content "$env:LOCALAPPDATA\ByteBrief\vapid-private-key.txt" -Raw).Trim()
+npm run send:update:dry
+npm run send:update -- --title "New edition" --body "The latest tech brief is ready."
 ```
 
-The private VAPID key is stored outside the repository at `%LOCALAPPDATA%\\ByteBrief\\vapid-private-key.txt`. The public key lives in `js/vapid.js`. The service worker is `sw.js`.
-
-8. Update alerts use a service worker (`sw.js`) and a public Firestore collection named `pushSubscriptions`. Deploy the rules, then generate or reuse the VAPID key pair. The public key is in `js/vapid.js`; the private key is kept outside the repository at `%LOCALAPPDATA%\\ByteBrief\\vapid-private-key.txt`. To send the one-time notice later, install `firebase-admin` and `web-push`, set `WEBPUSH_VAPID_PRIVATE_KEY`, then run `npm run send:update:dry` followed by `npm run send:update`.
+The sender deletes subscriptions that the browser has revoked. Without `--title` and `--body` it sends the built-in release notice.
 
 ## Deployment
 

@@ -6,17 +6,25 @@ const COLLECTION = 'pushSubscriptions';
 const dryRun = process.argv.includes('--dry-run');
 const VAPID_PUBLIC_KEY = fs
   .readFileSync(path.join(__dirname, '..', 'js', 'vapid.js'), 'utf8')
-  .match(/export const UPDATE_ALERT_PUBLIC_KEY = "([^"]+)"/)?.[1];
+  .match(/UPDATE_ALERT_PUBLIC_KEY\s*=\s*['"]([^'"]+)['"]/)?.[1];
+
+function argValue(name) {
+  const index = process.argv.indexOf(name);
+  return index === -1 ? null : process.argv[index + 1] || null;
+}
 
 if (!VAPID_PUBLIC_KEY) {
   console.error('Could not read js/vapid.js');
   process.exit(1);
 }
 
-let admin;
+let initializeApp;
+let applicationDefault;
+let getFirestore;
 let webpush;
 try {
-  admin = require('firebase-admin');
+  ({ initializeApp, applicationDefault } = require('firebase-admin/app'));
+  ({ getFirestore } = require('firebase-admin/firestore'));
   webpush = require('web-push');
 } catch (error) {
   console.error(
@@ -36,16 +44,18 @@ if (!privateKey) {
 
 webpush.setVapidDetails('mailto:ibbuweb@gmail.com', VAPID_PUBLIC_KEY, privateKey);
 
-admin.initializeApp({
-  credential: admin.credential.applicationDefault(),
+const app = initializeApp({
+  credential: applicationDefault(),
   projectId: PROJECT_ID
 });
 
-const db = admin.firestore();
+const db = getFirestore(app);
 
 const payload = {
-  title: 'ByteBrief got an update',
-  body: 'Cleaner cards, text-first stories, and a smoother Saved page. Tap to see.',
+  title: argValue('--title') || 'ByteBrief got an update',
+  body:
+    argValue('--body') ||
+    'Cleaner cards, text-first stories, and a smoother Saved page. Tap to see.',
   url: 'https://ibbuweb.github.io/ByteBrief/?source=update',
   icon: 'https://ibbuweb.github.io/ByteBrief/assets/icon-192.png'
 };
