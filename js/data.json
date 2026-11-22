@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T01:21:15.540Z",
+  "generatedAt": "2026-11-22T11:27:45.210Z",
   "articles": [
     {
       "title": "The Dark Side of China’s Perfect Cars",
@@ -13,7 +13,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/awjlMCCdqXw/hq720.jpg",
       "videoId": "awjlMCCdqXw",
-      "views": 15496941,
+      "views": 16060311,
       "video": true
     },
     {
@@ -28,7 +28,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/2reQut8WNGc/hq720.jpg",
       "videoId": "2reQut8WNGc",
-      "views": 12564325,
+      "views": 12566393,
       "video": true
     },
     {
@@ -43,7 +43,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/g6Die8gVFn0/hq720.jpg",
       "videoId": "g6Die8gVFn0",
-      "views": 12434451,
+      "views": 12451995,
       "video": true
     },
     {
@@ -58,7 +58,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/HVLUtJWlcJY/hq720.jpg",
       "videoId": "HVLUtJWlcJY",
-      "views": 9542748,
+      "views": 9605086,
       "video": true
     },
     {
@@ -73,7 +73,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/NrF4mkTmuTU/hq720.jpg",
       "videoId": "NrF4mkTmuTU",
-      "views": 9067859,
+      "views": 9483754,
       "video": true
     },
     {
@@ -88,7 +88,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/1yB56IT0kDw/hq720.jpg",
       "videoId": "1yB56IT0kDw",
-      "views": 8339300,
+      "views": 8352550,
       "video": true
     },
     {
@@ -103,7 +103,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/_x58r9TBois/hq720.jpg",
       "videoId": "_x58r9TBois",
-      "views": 7938424,
+      "views": 7955598,
       "video": true
     },
     {
@@ -118,7 +118,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/Yg2t5w8vj5Q/hq720.jpg",
       "videoId": "Yg2t5w8vj5Q",
-      "views": 7499861,
+      "views": 7521972,
       "video": true
     },
     {
@@ -133,7 +133,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/hdMszZ2ah5Q/hq720.jpg",
       "videoId": "hdMszZ2ah5Q",
-      "views": 6610048,
+      "views": 6630035,
       "video": true
     },
     {
@@ -148,7 +148,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/KTDJiVpSDTI/hq720.jpg",
       "videoId": "KTDJiVpSDTI",
-      "views": 3695775,
+      "views": 3735867,
       "video": true
     },
     {
@@ -163,7 +163,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/PptRrzYY61w/hq720.jpg",
       "videoId": "PptRrzYY61w",
-      "views": 2851018,
+      "views": 2858622,
       "video": true
     },
     {
@@ -178,7 +178,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/ai1gIWacf0I/hq720.jpg",
       "videoId": "ai1gIWacf0I",
-      "views": 2779410,
+      "views": 2781078,
       "video": true
     },
     {
@@ -193,7 +193,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/SOwUWPtXQ9I/hq720.jpg",
       "videoId": "SOwUWPtXQ9I",
-      "views": 2414607,
+      "views": 2415282,
       "video": true
     },
     {
@@ -208,22 +208,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/ytmawkPTP24/hq720.jpg",
       "videoId": "ytmawkPTP24",
-      "views": 2376598,
-      "video": true
-    },
-    {
-      "title": "OpenAI spent $1.2 million hacking Linux... and it was a bargain",
-      "link": "https://www.youtube.com/watch?v=pf5tXJZM1Rw",
-      "source": "Fireship",
-      "category": "programming",
-      "categories": [
-        "programming"
-      ],
-      "publishedAt": "2026-11-09T21:04:16.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/pf5tXJZM1Rw/hq720.jpg",
-      "videoId": "pf5tXJZM1Rw",
-      "views": 1933511,
+      "views": 2388084,
       "video": true
     },
     {
@@ -238,7 +223,22 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/f0KK_4AaqLQ/hq720.jpg",
       "videoId": "f0KK_4AaqLQ",
-      "views": 1869279,
+      "views": 1956050,
+      "video": true
+    },
+    {
+      "title": "OpenAI spent $1.2 million hacking Linux... and it was a bargain",
+      "link": "https://www.youtube.com/watch?v=pf5tXJZM1Rw",
+      "source": "Fireship",
+      "category": "programming",
+      "categories": [
+        "programming"
+      ],
+      "publishedAt": "2026-11-09T21:04:16.000Z",
+      "publishedLabel": null,
+      "thumbnail": "https://i.ytimg.com/vi/pf5tXJZM1Rw/hq720.jpg",
+      "videoId": "pf5tXJZM1Rw",
+      "views": 1935462,
       "video": true
     },
     {
@@ -253,22 +253,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/1FurWDiK9A4/hq720.jpg",
       "videoId": "1FurWDiK9A4",
-      "views": 1733070,
-      "video": true
-    },
-    {
-      "title": "The NEW MacBook Pro - First Impressions",
-      "link": "https://www.youtube.com/watch?v=gHZ7JYPOd1M",
-      "source": "Dave2D",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-10-29T00:45:18.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/gHZ7JYPOd1M/hq720.jpg",
-      "videoId": "gHZ7JYPOd1M",
-      "views": 1559672,
+      "views": 1733995,
       "video": true
     },
     {
@@ -283,7 +268,22 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/XVH84RKzuOw/hq720.jpg",
       "videoId": "XVH84RKzuOw",
-      "views": 1543024,
+      "views": 1716994,
+      "video": true
+    },
+    {
+      "title": "The NEW MacBook Pro - First Impressions",
+      "link": "https://www.youtube.com/watch?v=gHZ7JYPOd1M",
+      "source": "Dave2D",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-10-29T00:45:18.000Z",
+      "publishedLabel": null,
+      "thumbnail": "https://i.ytimg.com/vi/gHZ7JYPOd1M/hq720.jpg",
+      "videoId": "gHZ7JYPOd1M",
+      "views": 1559931,
       "video": true
     },
     {
@@ -298,22 +298,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/25ckBnzay8Y/hq720.jpg",
       "videoId": "25ckBnzay8Y",
-      "views": 1387786,
-      "video": true
-    },
-    {
-      "title": "Why Apple Seems Confused",
-      "link": "https://www.youtube.com/watch?v=Sb1_j9A25nQ",
-      "source": "ColdFusion",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-02T14:49:00.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/Sb1_j9A25nQ/hq720.jpg",
-      "videoId": "Sb1_j9A25nQ",
-      "views": 1064892,
+      "views": 1389275,
       "video": true
     },
     {
@@ -328,7 +313,22 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/htSzlz1m_us/hq720.jpg",
       "videoId": "htSzlz1m_us",
-      "views": 1053192,
+      "views": 1105797,
+      "video": true
+    },
+    {
+      "title": "Why Apple Seems Confused",
+      "link": "https://www.youtube.com/watch?v=Sb1_j9A25nQ",
+      "source": "ColdFusion",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-02T14:49:00.000Z",
+      "publishedLabel": null,
+      "thumbnail": "https://i.ytimg.com/vi/Sb1_j9A25nQ/hq720.jpg",
+      "videoId": "Sb1_j9A25nQ",
+      "views": 1065294,
       "video": true
     },
     {
@@ -343,22 +343,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/Qxor6jpfSiU/hq720.jpg",
       "videoId": "Qxor6jpfSiU",
-      "views": 1004903,
-      "video": true
-    },
-    {
-      "title": "MacBook Pro OLED Review - Is Touch ACTUALLY Useful?",
-      "link": "https://www.youtube.com/watch?v=m8lhB9qFhYo",
-      "source": "Dave2D",
-      "category": "hardware",
-      "categories": [
-        "hardware"
-      ],
-      "publishedAt": "2026-11-05T14:03:51.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/m8lhB9qFhYo/hq720.jpg",
-      "videoId": "m8lhB9qFhYo",
-      "views": 898265,
+      "views": 1016698,
       "video": true
     },
     {
@@ -373,7 +358,22 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/rMaMe32qQkA/hq720.jpg",
       "videoId": "rMaMe32qQkA",
-      "views": 893081,
+      "views": 946591,
+      "video": true
+    },
+    {
+      "title": "MacBook Pro OLED Review - Is Touch ACTUALLY Useful?",
+      "link": "https://www.youtube.com/watch?v=m8lhB9qFhYo",
+      "source": "Dave2D",
+      "category": "hardware",
+      "categories": [
+        "hardware"
+      ],
+      "publishedAt": "2026-11-05T14:03:51.000Z",
+      "publishedLabel": null,
+      "thumbnail": "https://i.ytimg.com/vi/m8lhB9qFhYo/hq720.jpg",
+      "videoId": "m8lhB9qFhYo",
+      "views": 898881,
       "video": true
     },
     {
@@ -388,37 +388,7 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/pjNnDQgAvOw/hq720.jpg",
       "videoId": "pjNnDQgAvOw",
-      "views": 883030,
-      "video": true
-    },
-    {
-      "title": "Really, YouTube?",
-      "link": "https://www.youtube.com/watch?v=6WD2dZsJU9I",
-      "source": "TechLinked",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-19T02:27:11.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/6WD2dZsJU9I/hq720.jpg",
-      "videoId": "6WD2dZsJU9I",
-      "views": 549792,
-      "video": true
-    },
-    {
-      "title": "The Man Who Refused to be a Trillionaire",
-      "link": "https://www.youtube.com/watch?v=FsEbLPqeo7k",
-      "source": "ColdFusion",
-      "category": "tech",
-      "categories": [
-        "tech"
-      ],
-      "publishedAt": "2026-11-11T13:49:23.000Z",
-      "publishedLabel": null,
-      "thumbnail": "https://i.ytimg.com/vi/FsEbLPqeo7k/hq720.jpg",
-      "videoId": "FsEbLPqeo7k",
-      "views": 546891,
+      "views": 884923,
       "video": true
     },
     {
@@ -433,7 +403,37 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/YM1f69J8MYM/hq720.jpg",
       "videoId": "YM1f69J8MYM",
-      "views": 528247,
+      "views": 877492,
+      "video": true
+    },
+    {
+      "title": "Really, YouTube?",
+      "link": "https://www.youtube.com/watch?v=6WD2dZsJU9I",
+      "source": "TechLinked",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-19T02:27:11.000Z",
+      "publishedLabel": null,
+      "thumbnail": "https://i.ytimg.com/vi/6WD2dZsJU9I/hq720.jpg",
+      "videoId": "6WD2dZsJU9I",
+      "views": 553663,
+      "video": true
+    },
+    {
+      "title": "The Man Who Refused to be a Trillionaire",
+      "link": "https://www.youtube.com/watch?v=FsEbLPqeo7k",
+      "source": "ColdFusion",
+      "category": "tech",
+      "categories": [
+        "tech"
+      ],
+      "publishedAt": "2026-11-11T13:49:23.000Z",
+      "publishedLabel": null,
+      "thumbnail": "https://i.ytimg.com/vi/FsEbLPqeo7k/hq720.jpg",
+      "videoId": "FsEbLPqeo7k",
+      "views": 548195,
       "video": true
     },
     {
@@ -448,8 +448,500 @@
       "publishedLabel": null,
       "thumbnail": "https://i.ytimg.com/vi/yzeGWuNxreo/hq720.jpg",
       "videoId": "yzeGWuNxreo",
-      "views": 469520,
+      "views": 469753,
       "video": true
+    },
+    {
+      "id": "cbf30328532a",
+      "title": "Best Gifts for Mom (2026): Digital Wall Calendars, Better Bags, Personalized Jewelry, and More",
+      "link": "https://www.wired.com/story/best-gifts-for-moms-2026/",
+      "description": "From a calendar that keeps my family organized to a frame that rescues photos from my camera roll, these favorites make thoughtful gifts.",
+      "thumbnail": "https://media.wired.com/photos/6b00a7fa835217c5c30f2b18/master/pass/The-Gifts-Moms-Actually-Want,-Picked-by-Moms.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-22T11:02:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Nena Farrell",
+      "contentId": "cbf30328532a"
+    },
+    {
+      "id": "31c336541238",
+      "title": "Banks Have Had It Up to Here With Your AI Agent",
+      "link": "https://www.wired.com/story/banks-are-cracking-down-on-ai-agents/",
+      "description": "Major US financial institutions are banning third-party bots from logging into your accounts—and warning that any costly bot mistakes are strictly your problem.",
+      "thumbnail": "https://media.wired.com/photos/6b0080a25f35c47a5c116087/master/pass/GettyImages-2285133719.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-22T11:00:00.000Z",
+      "categories": [
+        "ai",
+        "tech"
+      ],
+      "author": "Reece Rogers",
+      "contentId": "31c336541238"
+    },
+    {
+      "id": "f151324312eb",
+      "title": "Genesis Launches Hybrids at the LA Auto Show, EREV Coming in 2027",
+      "link": "https://www.cnet.com/roadshow/automobiles/genesis-g80-gv80-hybrids-laas-debut-arriving-in-2027/",
+      "description": "Genesis adds a 347-horsepower hybrid powertrain to its most popular G80 sedan and GV80 SUV, and teases a 640-mile extended-range EV for early 2027.",
+      "thumbnail": "https://www.cnet.com/wp-content/uploads/sites/2/G80_HEV__Original_02-1.jpg",
+      "source": "CNET",
+      "publishedAt": "2026-11-22T11:00:00.000Z",
+      "categories": [
+        "tech"
+      ],
+      "author": "Antuan Goodwin",
+      "contentId": "f151324312eb"
+    },
+    {
+      "id": "e875541c9fda",
+      "title": "Dev squeezes an AI language model onto a floppy for 486DX and Pentium PC stalwarts",
+      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/dev-squeezes-an-ai-language-model-onto-a-floppy-for-486dx-and-pentium-pc-stalwarts-tiny-2-1-needs-540kb-of-memory-and-speaks-via-pc-speaker-is-a-question-answering-transformer-with-367k-parameters",
+      "description": "An inspired developer has shoehorned a language model onto a floppy disk created especially for 486DX and Pentium PC users running DOS.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/wqXY5fMoARr5jLvxdawrNS-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-22T11:00:00.000Z",
+      "categories": [
+        "ai",
+        "programming",
+        "hardware"
+      ],
+      "author": "Mark Tyson",
+      "contentId": "e875541c9fda"
+    },
+    {
+      "id": "4cae423ce55f",
+      "title": "Scientists Tried to Kill This Dirt, but It Wouldn’t Die",
+      "link": "https://www.wired.com/story/scientists-tried-to-kill-this-dirt-but-it-wouldnt-die/",
+      "description": "Biologically important chemical reactions persisted in the sterilized soil for six years—offering clues to how life on Earth may have gotten its start.",
+      "thumbnail": "https://media.wired.com/photos/6afec80a658c126f4fca9f94/master/pass/Abiotic-metabolism%20cr-Samuel%20Velasco-Lede.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-22T10:30:00.000Z",
+      "categories": [
+        "tech",
+        "science"
+      ],
+      "author": "Siddhant Pusdekar",
+      "contentId": "4cae423ce55f"
+    },
+    {
+      "id": "a55c61607801",
+      "title": "AirPods Pro 3 just got even cheaper, now $169 ($80 off)",
+      "link": "https://9to5mac.com/2026/11/22/airpods-pro-3-just-got-even-cheaper-now-169-80-off/",
+      "description": "Apple’s AirPods Pro 3 have now dropped even lower for Black Friday, with a solid $80 discount to $169.99 shipped – within $1 of the best price ever. Amazon’s Black Friday sale officially started a few days ago, but the deals are heating up again this weekend with the first discount on Apple’s brand",
+      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2025/11/airpods-pro3-holiday.jpg?quality=82&strip=all&w=1600",
+      "source": "9to5Mac",
+      "publishedAt": "2026-11-22T10:15:48.000Z",
+      "categories": [
+        "hardware"
+      ],
+      "author": "Justin Kahn",
+      "contentId": "a55c61607801"
+    },
+    {
+      "id": "27fd8f4356f4",
+      "title": "Star Wars’ 2-Part Sci-Fi War Thriller Has One of the Best Seasons in TV History",
+      "link": "https://www.polygon.com/disney-sci-fi-thriller-star-wars-andor/",
+      "description": "Disney needed a win for one specific franchise, and Tony Gilroy gave Star Wars just that with the first season of 'Andor.'",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/andor-season-1-taramyn.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-22T10:00:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Aimee Hart",
+      "contentId": "27fd8f4356f4"
+    },
+    {
+      "id": "3bffc6f0a664",
+      "title": "How This Year’s Super El Niño Will Worsen Global Hunger",
+      "link": "https://www.wired.com/story/how-this-years-super-el-nino-will-worsen-global-hunger/",
+      "description": "While some regions get wetter, others face massive drought. On top of wars and cuts to foreign aid, the weather phenomenon could leave millions of people in vulnerable countries without enough to eat.",
+      "thumbnail": "https://media.wired.com/photos/6b00ddb2631c13f3e234776c/master/pass/How-This-Years-Super-El-Nino-Will-Worsen-Global-Hunger-Science-2297395830.jpg",
+      "source": "Wired",
+      "publishedAt": "2026-11-22T10:00:00.000Z",
+      "categories": [
+        "tech",
+        "science"
+      ],
+      "author": "Nicola Jones",
+      "contentId": "3bffc6f0a664"
+    },
+    {
+      "id": "caf406693711",
+      "title": "Nintendo Knocks $20 off Physical Switch 2 Copies of Donkey Kong Bananza for Black Friday",
+      "link": "https://www.ign.com/articles/donkey-kong-bananza-black-friday-deal",
+      "description": "Physical copies of Donkey Kong Bananza have received a $20 discount in Nintendo's Black Friday sale, bringing its price down to $49.99.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/20/donkey-kong-bananza-deal-1795193226643.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-22T09:51:05.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Hannah Hoolihan",
+      "contentId": "caf406693711"
+    },
+    {
+      "id": "4079cda8dd43",
+      "title": "Ditch cloud subscriptions with a $132 discount on a 4-Bay UGreen DXP4800 GT NAS enclosure in Amazon Black Friday deal — offers dual 10GbE ports and supports up to 144TB of storage",
+      "link": "https://www.tomshardware.com/pc-components/nas/ditch-cloud-subscriptions-with-a-usd132-discount-on-a-4-bay-ugreen-dxp4800-gt-nas-enclosure-in-amazon-black-friday-deal-offers-dual-10gbe-ports-and-supports-up-to-144tb-of-storage",
+      "description": "For those looking to ditch cloud storage this Black Friday, UGreen's DXP4800 GT 4-bay NAS enclosure has gone on sale with a lovely 20% discount at Amazon, marking the second time it's returned to its all-time low price point.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/i8rwB8URaczwLpZfHZafV9-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-22T09:45:44.000Z",
+      "categories": [
+        "cloud",
+        "hardware"
+      ],
+      "author": "Sayem Ahmed",
+      "contentId": "4079cda8dd43"
+    },
+    {
+      "id": "6a3bc285a986",
+      "title": "Nintendo Switch 2 Gets First-Ever Official Black Friday Discount, Dropping Mario Kart World Bundle to $499",
+      "link": "https://www.ign.com/articles/nintendo-switch-2-black-friday-deal-mario-kart-world-bundle",
+      "description": "Nintendo's first official Switch 2 Black Friday deal is live for a limited time, bundling a flagship game and free bonus perks while undoing September's price hike.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/22/switch-2-console-black-friday-deal-ign-blogroll-1795338745552.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-22T09:31:35.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Robert Anderson",
+      "contentId": "6a3bc285a986"
+    },
+    {
+      "id": "77bc9c5c53f0",
+      "title": "Harsher on Male? Evaluating LLMs on Gender-Asymmetric Moral Framing in Conflicts",
+      "link": "https://arxiv.org/abs/2606.14068",
+      "description": "11 points · 0 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-22T09:18:36.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "rzk",
+      "contentId": "77bc9c5c53f0"
+    },
+    {
+      "id": "a11385ee923a",
+      "title": "Passive 'ghost' radar can detect airborne threats without revealing its own position",
+      "link": "https://www.theregister.com/offbeat/2026/11/22/passive-ghost-radar-can-detect-airborne-threats-without-revealing-its-own-position/5311023",
+      "description": "Kit piggybacks off TV and mobile signals and can be neatly stuffed into an SUV",
+      "thumbnail": "https://image.theregister.com/?imageId=5311030&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-22T09:15:00.000Z",
+      "categories": [
+        "mobile",
+        "tech"
+      ],
+      "author": "Dan Robinson",
+      "contentId": "a11385ee923a"
+    },
+    {
+      "id": "c450f053d331",
+      "title": "MSI's magnificent 32-inch 4K QD-OLED gaming monitor tumbles to just $569 — save $130 at B&H Photo with this Black Friday MAG 321UP deal, the perfect gaming upgrade for your PC",
+      "link": "https://www.tomshardware.com/monitors/gaming-monitors/msis-magnificent-32-inch-4k-qd-oled-gaming-monitor-tumbles-to-just-usd569-save-usd130-at-b-and-h-photo-with-this-black-friday-mag-321up-deal-the-perfect-gaming-upgrade-for-your-pc",
+      "description": "Save $130 on this gorgeous 32-inch QD-OLED gaming monitor from MSI and experience crisp visuals in 4K.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/7hki2krtRZm5yV8JJwiB4n-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-22T09:14:51.000Z",
+      "categories": [
+        "gaming",
+        "hardware"
+      ],
+      "author": "Stewart Bendle",
+      "contentId": "c450f053d331"
+    },
+    {
+      "id": "38d96dd1880f",
+      "title": "OLED gaming laptop with RTX 5060 and Intel Core Ultra 7 CPU price crashes by $650 in Black Friday offer — Lenovo Legion 5i laptop drops to $1,349 with free games at B&H",
+      "link": "https://www.tomshardware.com/laptops/gaming-laptops/oled-gaming-laptop-with-rtx-5060-and-intel-core-ultra-7-cpu-price-crashes-by-usd650-in-black-friday-offer-lenovo-legion-5i-laptop-drops-to-usd1-349-with-free-games-at-b-and-h",
+      "description": "Getting a gaming laptop this holiday season doesn't have to mean spending thousands of dollars, as this modestly priced Lenovo Legion 5i OLED gaming laptop has dropped to just $1,349 at B&H.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/cTh3nz3Ucy6S4o2GLZ38Mb-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-22T09:05:40.000Z",
+      "categories": [
+        "hardware",
+        "gaming"
+      ],
+      "author": "Sayem Ahmed",
+      "contentId": "38d96dd1880f"
+    },
+    {
+      "id": "817a5f35561e",
+      "title": "8 Best Science Fantasy Books of the 21st Century",
+      "link": "https://www.polygon.com/best-science-fantasy-books-of-the-century/",
+      "description": "Break genre barriers with spacefaring necromancers and aliens employing goblins. Here are some of the best sci-fi fantasy books.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/gideon-the-ninth.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-22T09:04:17.000Z",
+      "categories": [
+        "science",
+        "gaming"
+      ],
+      "author": "Sam Nelson",
+      "contentId": "817a5f35561e"
+    },
+    {
+      "id": "17a7d8ef1dd7",
+      "title": "29 years later, Homer’s Best ‘The Simpsons’ Quote is Still Pure Genius",
+      "link": "https://www.polygon.com/the-simpsons-best-homer-quote/",
+      "description": "Homer Simpson’s best quote from The Simpsons came during season 8 and contains some profoubd wisdom",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/6058959/homer-simpson.0.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-22T09:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Brian VanHooker",
+      "contentId": "17a7d8ef1dd7"
+    },
+    {
+      "id": "bf1d56f79e08",
+      "title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+      "link": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+      "description": "161 points · 210 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-22T08:57:34.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "happosai",
+      "contentId": "bf1d56f79e08"
+    },
+    {
+      "id": "c3bc742a3d2e",
+      "title": "Come for the science, stay for the big iron: Supercomputer admin on why he loves the job",
+      "link": "https://www.theregister.com/hpc/2026/11/22/come-for-the-science-stay-for-the-big-iron-supercomputer-admin-on-why-he-loves-the-job/5311247",
+      "description": "From the dotcom bubble to 200,00 cores of raw power",
+      "thumbnail": "https://image.theregister.com/?imageId=5311252&width=800",
+      "source": "The Register",
+      "publishedAt": "2026-11-22T08:48:00.000Z",
+      "categories": [
+        "science",
+        "tech"
+      ],
+      "author": "Joshua Gliddon",
+      "contentId": "c3bc742a3d2e"
+    },
+    {
+      "id": "dd810a901dc4",
+      "title": "Nintendo's 2026 Black Friday Sale is Officially Live",
+      "link": "https://www.ign.com/articles/nintendo-black-friday-sale-is-officially-live-2026",
+      "description": "Nintendo's official Black Friday sale is now live and includes a rare Switch 2 bundle discount, up to 50% off Switch 2 games, MicroSD Express cards, and more. Here's where to find all the top discounts to ensure you're saving as much as you can.",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/22/nintendo-black-friday-2026-blogroll-2-1795335206145.png",
+      "source": "IGN",
+      "publishedAt": "2026-11-22T08:15:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Robert Anderson",
+      "contentId": "dd810a901dc4"
+    },
+    {
+      "id": "6f7e13478f81",
+      "title": "Alienware Aurora PC with RTX 5070, 32GB of RAM drops to $1,899 in Amazon Black Friday offer — Core Ultra 7 equipped PC is one of the best value prebuilt deals we’ve seen so far",
+      "link": "https://www.tomshardware.com/desktops/gaming-pcs/alienware-aurora-pc-with-rtx-5070-32gb-of-ram-drops-to-usd1-899-in-amazon-black-friday-offer-core-ultra-7-equipped-pc-is-one-of-the-best-value-prebuilt-deals-weve-seen-so-far",
+      "description": "Pick up a gaming PC bargain this Black Friday with this RTX 5070-powered Alienware Aurora rig, which also comes with 32GB of DDR5 memory for only $1.899.",
+      "thumbnail": "https://cdn.mos.cms.futurecdn.net/ufYQsPFUJ5uDE2gai7nKYk-1920-80.jpg",
+      "source": "Tom's Hardware",
+      "publishedAt": "2026-11-22T08:08:15.000Z",
+      "categories": [
+        "gaming",
+        "hardware"
+      ],
+      "author": "Stewart Bendle",
+      "contentId": "6f7e13478f81"
+    },
+    {
+      "id": "09aaf380ef75",
+      "title": "'Calvin and Hobbes' Best Bully Quote Is Still Among the Wisest in Comic Strip History",
+      "link": "https://www.polygon.com/calvin-and-hobbes-moe-best-quote/",
+      "description": "Moe was Calvin’s big dumb bully in Calvin and Hobbes. Here is his best quote from the beloved comic strip.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/screen-shot-2026-11-18-at-7-58-53-pm.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-22T08:00:18.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Brian VanHooker",
+      "contentId": "09aaf380ef75"
+    },
+    {
+      "id": "04336dc2b9ad",
+      "title": "The Cosmere RPG Core Rulebook for The Stormlight Archive Is 50% Off Today",
+      "link": "https://www.ign.com/articles/the-cosmere-rpg-core-rulebook-for-the-stormlight-archive-is-50-off-for-black-friday-2026",
+      "description": "",
+      "thumbnail": "https://assets-prd.ignimgs.com/2025/10/17/cosmererpg-review-thumb-1760726235430.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-22T07:23:48.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Jacob Kienlen",
+      "contentId": "04336dc2b9ad"
+    },
+    {
+      "id": "d26d10b87f22",
+      "title": "Notes on the discrete Fourier transform (DFT)",
+      "link": "https://eli.thegreenplace.net/2026/notes-on-the-discrete-fourier-transform-dft/",
+      "description": "34 points · 5 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-22T06:52:25.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "kouosi",
+      "contentId": "d26d10b87f22"
+    },
+    {
+      "id": "1fd500df4662",
+      "title": "Show HN: The Riemann Proof Handbook",
+      "link": "https://github.com/tamnd/riemann-handbook",
+      "description": "55 points · 22 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-22T05:46:30.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "tamnd",
+      "contentId": "1fd500df4662"
+    },
+    {
+      "id": "d4e3f1afc0b2",
+      "title": "These Piranha Plant Slippers Double as Mario-themed Decor When You Put Them Away",
+      "link": "https://www.ign.com/articles/piranha-plant-slippers-amazon-black-friday-deal-2026",
+      "description": "",
+      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/22/ign-headline-template-2026-9-2-1795323508266.jpg",
+      "source": "IGN",
+      "publishedAt": "2026-11-22T05:08:36.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Jacob Kienlen",
+      "contentId": "d4e3f1afc0b2"
+    },
+    {
+      "id": "9884dabb702d",
+      "title": "APOD: 2026 November 22 – Swirls and Colors on Jupiter from Juno",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-22-swirls-and-colors-on-jupiter-from-juno/",
+      "description": "APOD Science APOD APOD: 2026 November 22 –… Today’s APOD Archive Submissions Index Search Calendar RSS Education About Discuss APOD Astronomy Picture of the Day Discover the cosmos! Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation writt",
+      "thumbnail": "https://assets.science.nasa.gov/dynamicimage/assets/science/cds/apod/apod/2026/november/JupiterSwirls_JunoBrealey_3709.jpg?w=2048&h=2048&fit=clip",
+      "source": "NASA Breaking News",
+      "publishedAt": "2026-11-22T05:05:00.000Z",
+      "categories": [
+        "science"
+      ],
+      "author": null,
+      "contentId": "9884dabb702d"
+    },
+    {
+      "id": "3400785e0033",
+      "title": "Fast-Anything: Don't rewrite it in Rust. Rewrite the 5% that's slow",
+      "link": "https://github.com/EL4CTEO/fast-anything",
+      "description": "43 points · 27 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-22T04:10:09.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "BaselAshraf81",
+      "contentId": "3400785e0033"
+    },
+    {
+      "id": "9212cb3d4e2e",
+      "title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+      "link": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+      "description": "551 points · 341 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-22T04:04:56.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "zdw",
+      "contentId": "9212cb3d4e2e"
+    },
+    {
+      "id": "3f692397b667",
+      "title": "46 Years Later, the Most Influential Thriller of All Time Is Officially Free on YouTube",
+      "link": "https://www.polygon.com/friday-the-13th-youtube-watch-free-november-2026/",
+      "description": "The start of Jason Voorhees's story, 'Friday the 13th,' is now available to watch for free.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/m8dfrth_ec020.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-22T04:00:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Aimee Hart",
+      "contentId": "3f692397b667"
+    },
+    {
+      "id": "8a55817dadee",
+      "title": "58 Years Later, Captain Kirk's Best Star Trek Quote Is the Greatest Line in Sci-Fi History",
+      "link": "https://www.polygon.com/best-captain-kirk-quote-star-trek-original-series/",
+      "description": "Captain Kirk's speech in 'Return to Tomorrow' says more about what Star Trek stands for than any other line in the original series.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/06/captain-kirk-og.png",
+      "source": "Polygon",
+      "publishedAt": "2026-11-22T03:59:17.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Terry Terrones",
+      "contentId": "8a55817dadee"
+    },
+    {
+      "id": "e3e89dc3ff69",
+      "title": "61 Years Later, Charlie Brown's Greatest Enemy Is Still an Undefeated 'Peanuts' Icon",
+      "link": "https://www.polygon.com/kite-eating-tree-peanuts/",
+      "description": "Charlie Brown's only real arch-rival was a malevolent tree. Chomp chomp chomp.",
+      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/10/charlie-brown-011-1024.jpg",
+      "source": "Polygon",
+      "publishedAt": "2026-11-22T03:00:28.000Z",
+      "categories": [
+        "gaming"
+      ],
+      "author": "Thomas Hindmarch",
+      "contentId": "e3e89dc3ff69"
+    },
+    {
+      "id": "7893687ce631",
+      "title": "Data Processing Incidents on Inference Providers",
+      "link": "https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/",
+      "description": "166 points · 65 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-22T02:14:14.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "sdko",
+      "contentId": "7893687ce631"
+    },
+    {
+      "id": "78ed71768c6f",
+      "title": "The Mythology of Conscious AI",
+      "link": "https://www.noemamag.com/the-mythology-of-conscious-ai/",
+      "description": "76 points · 156 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-22T02:10:02.000Z",
+      "categories": [
+        "ai",
+        "programming"
+      ],
+      "author": "Anon84",
+      "contentId": "78ed71768c6f"
     },
     {
       "id": "c484d3081e5f",
@@ -552,6 +1044,20 @@
       "contentId": "3785d9d3d536"
     },
     {
+      "id": "c4a226a4ddc4",
+      "title": "Sandwich Simulator",
+      "link": "https://stulle.app/",
+      "description": "286 points · 93 comments",
+      "thumbnail": null,
+      "source": "Hacker News",
+      "publishedAt": "2026-11-22T00:07:59.000Z",
+      "categories": [
+        "programming"
+      ],
+      "author": "subdomain",
+      "contentId": "c4a226a4ddc4"
+    },
+    {
       "id": "715c4675c2ca",
       "title": "This is the best type of wireless earbuds for audio output",
       "link": "https://www.engadget.com/2319289/wireless-earbuds-type-best-for-audio-output/",
@@ -622,21 +1128,6 @@
       ],
       "author": "staff@engadget.com (Maddie Fisher)",
       "contentId": "4d6e61d1d314"
-    },
-    {
-      "id": "158994b8ae4e",
-      "title": "International UN talks on controlling use of autonomous weapons collapse",
-      "link": "https://www.theguardian.com/technology/2026/nov/21/international-talks-control-ai-autonomous-weapons-collapse",
-      "description": "30 points · 4 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-21T23:10:21.000Z",
-      "categories": [
-        "ai",
-        "programming"
-      ],
-      "author": "nephihaha",
-      "contentId": "158994b8ae4e"
     },
     {
       "id": "d8461eee92aa",
@@ -713,20 +1204,6 @@
       "contentId": "a79f2269954d"
     },
     {
-      "id": "031f6e6bd604",
-      "title": "Star Wars' New Jedi Order Era is Officially Moving Forward",
-      "link": "https://www.polygon.com/star-wars-new-jedi-order-era-update/",
-      "description": "Two upcoming Star Wars films, New Jedi Order and Lucasfilm head Dave Filoni's untitled project, are making progress.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/19812990/rey_finn_poe_in_star_wars_9_rise_of_skywalker_desert_wayfinder_scene.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-21T22:18:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Elijah Gonzalez",
-      "contentId": "031f6e6bd604"
-    },
-    {
       "id": "abf912fddfce",
       "title": "iPad Air vs. iPad Pro: The features you're actually paying $450 extra for",
       "link": "https://www.engadget.com/2319122/ipad-air-vs-pro-features-compared-price-difference/",
@@ -746,7 +1223,7 @@
       "id": "cfc547c2291f",
       "title": "PcapAnalyzer – self-hosted pcap analyzer with 27 problem detectors",
       "link": "https://github.com/sebaandrada-cell/PcapAnalyzer",
-      "description": "48 points · 4 comments",
+      "description": "121 points · 18 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-21T22:09:58.000Z",
@@ -770,21 +1247,6 @@
       ],
       "author": "Danielle Abraham",
       "contentId": "275400dc8b5f"
-    },
-    {
-      "id": "e50f71f83ebd",
-      "title": "GTA 6 Players Are Obsessed With Finding IRL Florida in Vice City",
-      "link": "https://www.polygon.com/gta-6-players-irl-vice-city-locations/",
-      "description": "GTA 6 fans have spent time tracking down remarkably faithful recreations of Miami locations beyond just the popular landmarks.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/vice_city_08.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-21T22:00:17.000Z",
-      "categories": [
-        "privacy",
-        "gaming"
-      ],
-      "author": "Ari Notis",
-      "contentId": "e50f71f83ebd"
     },
     {
       "id": "818788bf9cba",
@@ -843,21 +1305,6 @@
       ],
       "author": "staff@engadget.com (Jackson Chen)",
       "contentId": "e5f2e7811e34"
-    },
-    {
-      "id": "995dd9ac908f",
-      "title": "Where to find the giant crab safe code and Crabshack VF5 SMG in GTA 6",
-      "link": "https://www.polygon.com/gta-6-giant-crab-safe-code-crabshack-vf5-smg-how-to-get-pelican-valley-outpost/",
-      "description": "GTA 6's giant crab event takes you through Pelican Valley Outpost and rewards you with the Crabshack VF5 SMG standout weapon.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/gta-6-giant-crab-crabshack-smg.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-21T21:48:35.000Z",
-      "categories": [
-        "programming",
-        "gaming"
-      ],
-      "author": "Josh Broadwell",
-      "contentId": "995dd9ac908f"
     },
     {
       "id": "a827fac4a32f",
@@ -953,7 +1400,7 @@
       "id": "522b28941c1f",
       "title": "Advice for the next 100 Rust GUIs",
       "link": "https://linebender.org/blog/next-100-guis/",
-      "description": "75 points · 7 comments",
+      "description": "173 points · 74 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-21T21:17:53.000Z",
@@ -962,20 +1409,6 @@
       ],
       "author": "raphlinus",
       "contentId": "522b28941c1f"
-    },
-    {
-      "id": "187dad26ad22",
-      "title": "Tasklet (YC P26) Is Hiring Product and Agent Infra Engineers",
-      "link": "https://tasklet.ai/careers",
-      "description": "0 points · 0 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-21T21:11:08.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "mayop100",
-      "contentId": "187dad26ad22"
     },
     {
       "id": "127326b87b53",
@@ -994,53 +1427,10 @@
       "contentId": "127326b87b53"
     },
     {
-      "id": "ad13744bae5f",
-      "title": "The Emergence of Inequality in the Czech Corded Ware Culture",
-      "link": "https://www.jna.uni-kiel.de/index.php/jna/article/view/1560/1746",
-      "description": "25 points · 11 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-21T21:06:14.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "marojejian",
-      "contentId": "ad13744bae5f"
-    },
-    {
-      "id": "fe517e5430fd",
-      "title": "All Cheat Codes in GTA 6",
-      "link": "https://www.polygon.com/gta-6-cheat-codes-list-unlock/",
-      "description": "Grand Theft Auto 6 features a huge list of cheats. Here's how to unlock them all, and what each one does.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/gta-6-jasopn-lucia-bank-robbery.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-21T21:02:19.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Giovanni Colantonio",
-      "contentId": "fe517e5430fd"
-    },
-    {
-      "id": "98173f2561c0",
-      "title": "Declasse Vamos code location in GTA 6",
-      "link": "https://www.polygon.com/gta-6-declasse-vamos-code-car-location/",
-      "description": "The Declasse Vamos is inside a locked garage in GTA 6. Here's where to find the keypad code and what it is.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/declasse-vamos_gta6.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-21T20:54:45.000Z",
-      "categories": [
-        "programming",
-        "gaming"
-      ],
-      "author": "Johnny Yu",
-      "contentId": "98173f2561c0"
-    },
-    {
       "id": "29504616ac00",
       "title": "Pandex – Official European Law for AI Agents, over MCP",
       "link": "https://www.pandex.io/",
-      "description": "25 points · 4 comments",
+      "description": "99 points · 23 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-21T20:47:41.000Z",
@@ -1109,20 +1499,6 @@
       "contentId": "8408f6e76593"
     },
     {
-      "id": "c5077ce0b8f9",
-      "title": "Is immortality a curse for elves?",
-      "link": "https://www.polygon.com/video/is-immortality-a-curse-for-elves/",
-      "description": "The Rings of Power star Jamie Campbell points out the downside of the elves' immortal lifespan in Amazon's Lord of the Rings show. #lordoftherings #lotr #ringsofpower #jamiecampbellbower #celeborn",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/is-immortality-a-curse-for-elves.png",
-      "source": "Polygon",
-      "publishedAt": "2026-11-21T20:00:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Corey Plante",
-      "contentId": "c5077ce0b8f9"
-    },
-    {
       "id": "23cddcebae3b",
       "title": "Not upgrading to iPhone 18 Pro or Duo? Here’s what’s coming in 2027",
       "link": "https://9to5mac.com/2026/11/21/heres-what-next-years-iphone-lineup-will-look-like/",
@@ -1136,20 +1512,6 @@
       ],
       "author": "Michael Burkhardt",
       "contentId": "23cddcebae3b"
-    },
-    {
-      "id": "8e37d59748cb",
-      "title": "It’s Official, GTA 6’s Graphics Have Broken My Brain",
-      "link": "https://www.polygon.com/gta-6-graphics-realism/",
-      "description": "Grand Theft Auto's 6 realistic visuals and world are changing how I play in the crime sandbox.",
-      "thumbnail": "https://static0.polygonimages.com/wordpress/wp-content/uploads/2026/11/grand-theft-auto-6-jason-with-gun.jpg",
-      "source": "Polygon",
-      "publishedAt": "2026-11-21T19:00:17.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Giovanni Colantonio",
-      "contentId": "8e37d59748cb"
     },
     {
       "id": "c0ef72a98db8",
@@ -1229,7 +1591,7 @@
       "id": "6d859339b158",
       "title": "Upload2Shell (CVE-2026-125396)",
       "link": "https://pwn.ai/upload2shell",
-      "description": "76 points · 29 comments",
+      "description": "125 points · 61 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-21T18:29:29.000Z",
@@ -1259,7 +1621,7 @@
       "id": "c6e0f6fe1d32",
       "title": "Inkling-2-Mini in 5.4 GB Memory",
       "link": "https://github.com/ShinMegamiBoson/lookatmyquant",
-      "description": "345 points · 91 comments",
+      "description": "477 points · 118 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-21T18:02:19.000Z",
@@ -1342,20 +1704,6 @@
       ],
       "author": "Jessica Wachtel",
       "contentId": "4bbc1381bcea"
-    },
-    {
-      "id": "a2d27828b0dc",
-      "title": "PostgreSQL Extensions in Go",
-      "link": "https://jespino.github.io/gopgext/",
-      "description": "117 points · 20 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-21T17:08:04.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "valyala",
-      "contentId": "a2d27828b0dc"
     },
     {
       "id": "478205b83396",
@@ -1503,34 +1851,6 @@
       ],
       "author": "Sayem Ahmed",
       "contentId": "b23169c26818"
-    },
-    {
-      "id": "9f212063f4c4",
-      "title": "Verification files for the Lean proof of the Riemann Hypothesis",
-      "link": "https://math.mit.edu/~drew/grh/",
-      "description": "91 points · 36 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-21T15:54:34.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "Bluestein",
-      "contentId": "9f212063f4c4"
-    },
-    {
-      "id": "fd986dd95e42",
-      "title": "Show HN: Zero C# – C# without a runtime or GC",
-      "link": "https://onurgumus.github.io/zero-csharp/index.html",
-      "description": "124 points · 96 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-21T15:39:09.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "reverseblade2",
-      "contentId": "fd986dd95e42"
     },
     {
       "id": "13d943843be9",
@@ -1701,7 +2021,7 @@
       "id": "de6a6b768afb",
       "title": "Lean verification of the Riemann Hypothesis",
       "link": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
-      "description": "813 points · 650 comments",
+      "description": "1052 points · 877 comments",
       "thumbnail": null,
       "source": "Hacker News",
       "publishedAt": "2026-11-21T14:36:45.000Z",
@@ -1844,20 +2164,6 @@
       "contentId": "be7efb155272"
     },
     {
-      "id": "0df3a4f51e52",
-      "title": "Defense firm’s EMP ‘Dragon’ weapon fries 51 jam-proof drones simultaneously",
-      "link": "https://www.tomshardware.com/tech-industry/drones/defense-firms-emp-dragon-weapon-fries-51-jam-proof-drones-simultaneously-high-power-electromagnetic-system-relies-on-120-year-old-vacuum-tube-tech-to-defeat-fiber-optic-uavs",
-      "description": "Aselsan developed the Ejderha, which translates to 'Dragon' in English, as a defensive weapon designed to combat drone swarms.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/A5vpqA9xZF22Li2gaK2Ubd-1920-80.png",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-21T13:54:41.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Jowi Morales",
-      "contentId": "0df3a4f51e52"
-    },
-    {
       "id": "e7bf1efeea38",
       "title": "GTA 6’s Weirdest Cow Shows Why You Should Pause the Story Early To Explore Its Vast Map",
       "link": "https://www.ign.com/articles/gta-6s-weirdest-cow-shows-why-you-should-pause-the-story-early-to-explore-its-vast-map",
@@ -1870,35 +2176,6 @@
       ],
       "author": "Matt Purslow",
       "contentId": "e7bf1efeea38"
-    },
-    {
-      "id": "07a481fe6b0c",
-      "title": "Detonating a pile of lead azide",
-      "link": "https://www.science.org/content/blog-post/detonating-huge-pile-lead-azide-really",
-      "description": "514 points · 344 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-21T13:23:14.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "beginning_end",
-      "contentId": "07a481fe6b0c"
-    },
-    {
-      "id": "6bb85e995767",
-      "title": "MSI Crosshair A16 HX RTX 5070, Ryzen 9-equipped gaming laptop gets $400 discount at Amazon",
-      "link": "https://www.tomshardware.com/laptops/gaming-laptops/msi-crosshair-a16-hx-rtx-5070-ryzen-9-equipped-gaming-laptop-gets-usd400-discount-at-amazon-system-comes-with-a-free-game-in-early-black-friday-offer",
-      "description": "Save over $400 on this AMD Ryzen 9-equipped gaming laptop from MSI as a part of their early Black Friday deals, which also comes with a free copy of Onimusha: The Way of the Sword.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/Y4mpeAVdUoCLTs67NiwqDT-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-21T13:09:06.000Z",
-      "categories": [
-        "hardware",
-        "gaming"
-      ],
-      "author": "Sayem Ahmed",
-      "contentId": "6bb85e995767"
     },
     {
       "id": "10ba175a48d5",
@@ -1960,24 +2237,10 @@
       "contentId": "e6a49dec8851"
     },
     {
-      "id": "1a65d609b3b1",
-      "title": "The Hunger Games: Sunrise on the Reaping Ending Explained and the Cardinal Sin of Prequels",
-      "link": "https://www.ign.com/articles/the-hunger-games-sunrise-on-the-reaping-ending-explained-and-the-cardinal-sin-of-prequels",
-      "description": "The Hunger Games: Sunrise on the Reaping ending explained: We take a look at the latest entry in the franchise and examine the cardinal sin of prequels.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/21/hunger-games-sunrise-thumb-1795219248912.jpg",
-      "source": "IGN",
-      "publishedAt": "2026-11-21T13:00:00.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Arnold T. Blumberg",
-      "contentId": "1a65d609b3b1"
-    },
-    {
       "id": "ca5791d5e7d6",
-      "title": "Weekend Black Friday Apple deals: MacBooks from $649, Series 12, AirPods $130 off, new iPad mini, more",
+      "title": "Weekend Black Friday Apple deals: MacBooks from $649, Series 12, AirPods, new iPad mini, more [Updated]",
       "link": "https://9to5mac.com/2026/11/21/official-black-friday-apple-deals-now-live/",
-      "description": "Black Friday is already in full force with Amazon’s massive official sale event and there is absolutely no shortage of Apple deals. Alongside the lowest prices ever on every Apple Watch Series 12 config , the Mac deals are wild this week with as much as $250 off the brand new M6 MacBook Pro and PROL",
+      "description": "Update 11/22: Amazon has now dropped the price on AirPods Pro 3 even lower to $169.99 shipped , or just shy of $80 off the list price. You’ll also now find an even deeper deal on the current-generation Apple Watch SE 3 from $179 . Black Friday is already in full force with Amazon’s massive official",
       "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/11/Apple-Black-Friday-deals.jpg?quality=82&strip=all&w=1600",
       "source": "9to5Mac",
       "publishedAt": "2026-11-21T12:59:00.000Z",
@@ -1987,20 +2250,6 @@
       ],
       "author": "Justin Kahn",
       "contentId": "ca5791d5e7d6"
-    },
-    {
-      "id": "cb4a95f9c70a",
-      "title": "GTA 6 Players Are Running Into NPCs Who Fight Back So Hard You Probably Should Just Leave Them Alone",
-      "link": "https://www.ign.com/articles/gta-6-players-are-running-into-npcs-who-fight-back-so-hard-you-probably-should-just-leave-them-alone",
-      "description": "Just like in real life, there are some people you really shouldn’t mess with in GTA 6. It’s not always easy to tell at a glance either. Books, covers, and all that.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/21/gtavi-56-1795263173286.jpg",
-      "source": "IGN",
-      "publishedAt": "2026-11-21T12:17:40.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Kirk McKeand",
-      "contentId": "cb4a95f9c70a"
     },
     {
       "id": "d61b3b258fec",
@@ -2034,35 +2283,6 @@
       "contentId": "4a5cc6af4eaa"
     },
     {
-      "id": "a8b9571f5922",
-      "title": "Homelabber’s second-gen Optane build uses two RTX 3090s to run 2.8-trillion-parameter Kimi AI model at 3.11 tokens per second",
-      "link": "https://www.tomshardware.com/tech-industry/artificial-intelligence/homelabbers-second-gen-optane-build-runs-2-8-trillion-parameter-kimi-k3-at-3-11-tokens-per-second-after-adding-two-rtx-3090s-moving-nearly-half-the-model-into-a-ram-drive-boosted-performance-by-41-percent",
-      "description": "A Reddit homelabber’s Optane PMem 200 server now runs Moonshot AI’s Kimi K3 at 3.11 tokens/s with two RTX 3090s and a RAM drive.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/RSZf8MCxnNZcbAmBJQ8uxD-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-21T12:00:00.000Z",
-      "categories": [
-        "ai",
-        "hardware"
-      ],
-      "author": "Shane Downing",
-      "contentId": "a8b9571f5922"
-    },
-    {
-      "id": "1c2ee8b30124",
-      "title": "How Rockstar Made Every NPC Feel Alive in GTA 6",
-      "link": "https://www.ign.com/articles/how-rockstar-made-every-npc-feel-alive-in-gta-6",
-      "description": "Rockstar made NPCs feel alive in GTA 6 by \"establishing deep backstories for almost everything\" throughout Leonida.",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/19/illegal-ops1-1795093051042.jpg",
-      "source": "IGN",
-      "publishedAt": "2026-11-21T11:54:24.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Wesley Yin-Poole",
-      "contentId": "1c2ee8b30124"
-    },
-    {
       "id": "2d8f326dc32f",
       "title": "ChatGPT shrunk down to run on a Super Nintendo",
       "link": "https://www.theregister.com/offbeat/2026/11/21/chatgpt-shrunk-down-to-run-on-a-super-nintendo/5311418",
@@ -2077,35 +2297,6 @@
       ],
       "author": "Brandon Vigliarolo",
       "contentId": "2d8f326dc32f"
-    },
-    {
-      "id": "9125f3fe9c36",
-      "title": "Get 38% off this 20TB WD Elements external HDD in Amazon Black Friday offer — pay just 2.75 cents per GB as drive drops to $549",
-      "link": "https://www.tomshardware.com/pc-components/external-hdds/get-38-percent-off-this-20tb-wd-elements-external-hdd-in-amazon-black-friday-offer-pay-just-2-75-cents-per-gb-as-drive-drops-to-usd549",
-      "description": "Pay just 2.75 cents per gigabyte with this 20TB external HDD offer, as the WD Elements set has dropped to just $549.99 in this Black Friday deal.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/q4YgbX8iC8YQSkSUj86GNG-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-21T11:41:10.000Z",
-      "categories": [
-        "hardware"
-      ],
-      "author": "Sayem Ahmed",
-      "contentId": "9125f3fe9c36"
-    },
-    {
-      "id": "2cc5c040cf17",
-      "title": "Netgear Black Friday deals save you up to 33% on full home WiFi coverage — upgrade your gaming router, mesh WiFi setup, or wireless extenders",
-      "link": "https://www.tomshardware.com/gift-guides-seasonal-sales/netgear-black-friday-deals-save-you-up-to-33-percent-on-full-home-wifi-coverage-upgrade-your-gaming-router-mesh-wifi-setup-or-wireless-extenders",
-      "description": "We've rounded up some of the best deals on Netgear network solutions for your home, from complete mesh networks to gaming routers and WiFi extenders.",
-      "thumbnail": "https://cdn.mos.cms.futurecdn.net/wMm2AqjEH5ovyDTwvpavZ3-1920-80.jpg",
-      "source": "Tom's Hardware",
-      "publishedAt": "2026-11-21T11:33:43.000Z",
-      "categories": [
-        "gaming",
-        "hardware"
-      ],
-      "author": "Stewart Bendle",
-      "contentId": "2cc5c040cf17"
     },
     {
       "id": "c8ad294e7024",
@@ -2166,20 +2357,6 @@
       "contentId": "8770f2b20478"
     },
     {
-      "id": "4f0d7815da49",
-      "title": "My monitor was cutting my download speed by 75%",
-      "link": "https://blog.tymscar.com/posts/studiodisplayethernet/",
-      "description": "475 points · 229 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-21T10:36:32.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "soheilpro",
-      "contentId": "4f0d7815da49"
-    },
-    {
       "id": "650b4911fb07",
       "title": "17 Best Gifts for Women in the Enshittocene (2026)",
       "link": "https://www.wired.com/story/best-gifts-for-women/",
@@ -2208,20 +2385,6 @@
       "contentId": "d6117d48688f"
     },
     {
-      "id": "4cb2fb025b2b",
-      "title": "RCE in Gnupg",
-      "link": "https://lists.gnupg.org/pipermail/gnupg-announce/2026q4/000517.html",
-      "description": "230 points · 93 comments",
-      "thumbnail": null,
-      "source": "Hacker News",
-      "publishedAt": "2026-11-21T08:32:58.000Z",
-      "categories": [
-        "programming"
-      ],
-      "author": "gdgghhhhh",
-      "contentId": "4cb2fb025b2b"
-    },
-    {
       "id": "24cd1be25657",
       "title": "NASA Mars rover and orbiter suffer glitches",
       "link": "https://www.theregister.com/science/2026/11/21/nasa-mars-rover-and-orbiter-suffer-glitches/5311360",
@@ -2235,20 +2398,6 @@
       ],
       "author": "Richard Speed",
       "contentId": "24cd1be25657"
-    },
-    {
-      "id": "5a634a4a6b7e",
-      "title": "The Nitro Deck 2 for the Nintendo Switch 2 Is Getting a Black Friday Discount at Amazon",
-      "link": "https://www.ign.com/articles/nitro-deck-2-controller-deal-black-friday-2026",
-      "description": "",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/08/20/untitled-design-3-1787246765494.png",
-      "source": "IGN",
-      "publishedAt": "2026-11-21T06:07:53.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Jacob Kienlen",
-      "contentId": "5a634a4a6b7e"
     },
     {
       "id": "e095dc235b2b",
@@ -2293,79 +2442,6 @@
       ],
       "author": "Luke Larsen",
       "contentId": "5104bc0794ab"
-    },
-    {
-      "id": "d76c6de0f045",
-      "title": "Motorola Coupon Code for November 2026",
-      "link": "https://www.wired.com/story/motorola-coupon-code/",
-      "description": "Upgrade your smartphone for less with the latest Motorola promo codes, free shipping offers, and exclusive seasonal discounts.",
-      "thumbnail": "https://media.wired.com/photos/67b63b9a4816461befb48207/master/pass/WIRED-Coupons-R2_12.png",
-      "source": "Wired",
-      "publishedAt": "2026-11-21T06:00:00.000Z",
-      "categories": [
-        "programming",
-        "mobile",
-        "tech"
-      ],
-      "author": "Les Shu",
-      "contentId": "d76c6de0f045"
-    },
-    {
-      "id": "c7874e2c6719",
-      "title": "Total Wireless Promo Codes & Deals: 50% Off Select Plans",
-      "link": "https://www.wired.com/story/total-wireless-promo-code/",
-      "description": "Find great deals for Total Wireless, like 50% off select plans, and enjoy big savings.",
-      "thumbnail": "https://media.wired.com/photos/66ea0772ca863bb4c1028b66/master/pass/WIRED-Coupons-4.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-21T06:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Molly Higgins",
-      "contentId": "c7874e2c6719"
-    },
-    {
-      "id": "2ed396617be2",
-      "title": "Nike Promo Codes and Discounts: 30% for November 2026",
-      "link": "https://www.wired.com/story/nike-promo-code/",
-      "description": "Check out our deals for Nike this November 2026, including 15% off select purchases.",
-      "thumbnail": "https://media.wired.com/photos/66ea076ea6cbbaa16c12af30/master/pass/WIRED-Coupons-12.jpg",
-      "source": "Wired",
-      "publishedAt": "2026-11-21T06:00:00.000Z",
-      "categories": [
-        "tech"
-      ],
-      "author": "Boutayna Chokrane",
-      "contentId": "2ed396617be2"
-    },
-    {
-      "id": "2a06bf2c5932",
-      "title": "Ulta Promo Codes: Up to 20% Off in November 2026",
-      "link": "https://www.wired.com/story/ulta-coupon/",
-      "description": "Shop the latest beauty trends and save big using an Ulta promo code for beauty tech, makeup, and more.",
-      "thumbnail": "https://media.wired.com/photos/67b63b9283a9f95e0ab9b215/master/pass/WIRED-Coupons-R2_3.png",
-      "source": "Wired",
-      "publishedAt": "2026-11-21T06:00:00.000Z",
-      "categories": [
-        "programming",
-        "tech"
-      ],
-      "author": "Boutayna Chokrane",
-      "contentId": "2a06bf2c5932"
-    },
-    {
-      "id": "1bff4aa17a92",
-      "title": "How a $6 Beer in GTA 6 Sent Me Into a Spiral of Crime and Anxiety",
-      "link": "https://www.ign.com/articles/how-a-6-beer-in-gta-6-sent-me-into-a-spiral-of-crime-and-anxiety",
-      "description": "",
-      "thumbnail": "https://assets-prd.ignimgs.com/2026/11/20/1a1f9e1ef3b55-screenshoturl-1-1795194452766.jpg",
-      "source": "IGN",
-      "publishedAt": "2026-11-21T06:00:00.000Z",
-      "categories": [
-        "gaming"
-      ],
-      "author": "Rachel Weber",
-      "contentId": "1bff4aa17a92"
     },
     {
       "id": "9f54447fad30",
@@ -3119,21 +3195,6 @@
       "contentId": "6c623452a14a"
     },
     {
-      "id": "a93dc5c61eb9",
-      "title": "iOS 27 has clever new Messages feature I’ve been using a lot",
-      "link": "https://9to5mac.com/2026/11/20/ios-27-has-clever-new-messages-feature-ive-been-using-a-lot/",
-      "description": "iOS 27 gives the Messages app a variety of welcome upgrades , including one I’ve found myself using a lot: a Smart Reply feature that’s now personalized to the user’s writing style. more…",
-      "thumbnail": "https://9to5mac.com/wp-content/uploads/sites/6/2026/06/messages-app-icon-ios-27.jpg?quality=82&strip=all&w=1600",
-      "source": "9to5Mac",
-      "publishedAt": "2026-11-20T18:50:59.000Z",
-      "categories": [
-        "mobile",
-        "hardware"
-      ],
-      "author": "Ryan Christoffel",
-      "contentId": "a93dc5c61eb9"
-    },
-    {
       "id": "1f6fd49d4d0d",
       "title": "Nvidia’s journey to forge the one CPU SKU to rule them all",
       "link": "https://www.theregister.com/systems/2026/11/20/nvidias-journey-to-forge-the-one-cpu-sku-to-rule-them-all/5311438",
@@ -3494,67 +3555,6 @@
       ],
       "author": "Theresa Loconsolo, Anthony Ha, Kirsten Korosec, Tim De Chant",
       "contentId": "92c1cc867c01"
-    },
-    {
-      "id": "b05b4f3ec057",
-      "title": "US will soon announce root cause behind FAA nationwide ground stop",
-      "link": "https://arstechnica.com/gadgets/2026/11/how-faa-can-modernize-us-national-airspace-system-without-emergency-ground-stops/",
-      "description": "Former FAA insider on reducing the risks of upgrading a decades-old network.",
-      "thumbnail": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/Travelers-during-FAA-ground-stop-1152x648.jpg",
-      "source": "Ars Gadgets",
-      "publishedAt": "2026-11-20T14:52:51.000Z",
-      "categories": [
-        "hardware",
-        "tech"
-      ],
-      "author": "Jeremy Hsu",
-      "contentId": "b05b4f3ec057"
-    },
-    {
-      "id": "5cad729a6110",
-      "title": "Microsoft's last non-security preview of 2026 packs a punch",
-      "link": "https://www.theregister.com/os-platforms/2026/11/20/microsofts-last-non-security-preview-of-2026-packs-a-punch/5311300",
-      "description": "Windows Search gets a makeover, while Hello lights up dim rooms",
-      "thumbnail": "https://image.theregister.com/?imageId=5238981&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-20T14:28:00.000Z",
-      "categories": [
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "Richard Speed",
-      "contentId": "5cad729a6110"
-    },
-    {
-      "id": "7d8981ef5476",
-      "title": "Six AI-powered gadgets that could make your home office smarter",
-      "link": "https://techcrunch.com/2026/11/20/6-ai-powered-gadgets-that-could-make-your-home-office-smarter/",
-      "description": "From notetakers to webcams, here are six AI-powered gadgets to upgrade your workspace.",
-      "thumbnail": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1348850409.jpg?resize=1200,800",
-      "source": "TechCrunch",
-      "publishedAt": "2026-11-20T14:00:00.000Z",
-      "categories": [
-        "ai",
-        "hardware",
-        "startups"
-      ],
-      "author": "Lauren Forristal",
-      "contentId": "7d8981ef5476"
-    },
-    {
-      "id": "b357f2276909",
-      "title": "Microsoft suggests Registry hack to work around hotpatch woes",
-      "link": "https://www.theregister.com/os-platforms/2026/11/20/microsoft-suggests-registry-hack-to-work-around-hotpatch-woes/5311279",
-      "description": "App problems in Windows after default hotpatching? Who could have foreseen that?",
-      "thumbnail": "https://image.theregister.com/?imageId=5311310&width=800",
-      "source": "The Register",
-      "publishedAt": "2026-11-20T13:39:00.000Z",
-      "categories": [
-        "cybersecurity",
-        "tech"
-      ],
-      "author": "Richard Speed",
-      "contentId": "b357f2276909"
     }
   ],
   "github": [
@@ -3562,7 +3562,7 @@
       "name": "elementalsouls/Claude-BugHunter",
       "description": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
       "language": "Python",
-      "stars": 16090,
+      "stars": 16761,
       "starsToday": 1803,
       "url": "https://github.com/elementalsouls/Claude-BugHunter"
     },
@@ -3570,7 +3570,7 @@
       "name": "obra/superpowers",
       "description": "An agentic skills framework & software development methodology that works.",
       "language": "Shell",
-      "stars": 323736,
+      "stars": 323790,
       "starsToday": 883,
       "url": "https://github.com/obra/superpowers"
     },
@@ -3578,7 +3578,7 @@
       "name": "HKUDS/CLI-Anything",
       "description": "\"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub: https://clianything.cc/",
       "language": "Python",
-      "stars": 62084,
+      "stars": 62376,
       "starsToday": 769,
       "url": "https://github.com/HKUDS/CLI-Anything"
     },
@@ -3586,7 +3586,7 @@
       "name": "jingyaogong/minimind",
       "description": "🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
       "language": "Python",
-      "stars": 68159,
+      "stars": 68362,
       "starsToday": 488,
       "url": "https://github.com/jingyaogong/minimind"
     },
@@ -3594,7 +3594,7 @@
       "name": "cursor/plugins",
       "description": "Cursor plugin specification and official plugins",
       "language": "TypeScript",
-      "stars": 18115,
+      "stars": 18247,
       "starsToday": 260,
       "url": "https://github.com/cursor/plugins"
     },
@@ -3602,7 +3602,7 @@
       "name": "firecrawl/firecrawl",
       "description": "Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
       "language": "TypeScript",
-      "stars": 206221,
+      "stars": 206548,
       "starsToday": 1006,
       "url": "https://github.com/firecrawl/firecrawl"
     },
@@ -3610,7 +3610,7 @@
       "name": "nginx/nginx",
       "description": "The official NGINX Open Source repository.",
       "language": "C",
-      "stars": 32736,
+      "stars": 32802,
       "starsToday": 189,
       "url": "https://github.com/nginx/nginx"
     },
@@ -3618,7 +3618,7 @@
       "name": "openvinotoolkit/openvino",
       "description": "OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
       "language": "C++",
-      "stars": 11936,
+      "stars": 12010,
       "starsToday": 200,
       "url": "https://github.com/openvinotoolkit/openvino"
     },
@@ -3626,7 +3626,7 @@
       "name": "cathrynlavery/diagram-design",
       "description": "Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 45 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
       "language": "HTML",
-      "stars": 69818,
+      "stars": 70033,
       "starsToday": 583,
       "url": "https://github.com/cathrynlavery/diagram-design"
     },
@@ -3634,7 +3634,7 @@
       "name": "mvanhorn/last30days-skill",
       "description": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
       "language": "Python",
-      "stars": 72014,
+      "stars": 72326,
       "starsToday": 560,
       "url": "https://github.com/mvanhorn/last30days-skill"
     },
@@ -3642,7 +3642,7 @@
       "name": "google-labs-code/stitch-skills",
       "description": "A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
       "language": "TypeScript",
-      "stars": 11449,
+      "stars": 11679,
       "starsToday": 326,
       "url": "https://github.com/google-labs-code/stitch-skills"
     },
@@ -3650,7 +3650,7 @@
       "name": "mjmirza/app-store-compliance",
       "description": "Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 111 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
       "language": "Shell",
-      "stars": 3409,
+      "stars": 3663,
       "starsToday": 720,
       "url": "https://github.com/mjmirza/app-store-compliance"
     }
