@@ -1,1 +1,0 @@
-{"content":"GLM-5.4 is Z.ai's first flagship built on a Loop Transformer architecture, which reuses the same layers more than once instead of stacking new ones, so the model gets more depth and more computation per token without adding parameters. Thinking Machines Lab used a looped transformer in its Inkling 2 Mini model, which was released last week.\n\nRead more"}
