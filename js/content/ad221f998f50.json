@@ -1,1 +1,0 @@
-{"content":"Attackers' AI agents independently discovered a zero-day in MONAI Label, an open-source medical imaging AI application, and used it to write files outside the intended storage directory in about 11 minutes, Amazon said Friday. The fix has been merged into the source code, but no patched release is available.\n\nRead more"}
